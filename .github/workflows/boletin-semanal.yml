@@ -1,0 +1,67 @@
+name: Boletín semanal
+
+on:
+  schedule:
+    # Cada sábado a las 03:00 UTC (05:00 en verano / 04:00 en invierno, hora de Madrid)
+    - cron: "0 3 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: boletin
+  cancel-in-progress: false
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Investigar y redactar la edición
+        id: gen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generar.py
+
+      - name: Preparar la edición para aprobación
+        id: pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RAMA="edicion-${{ steps.gen.outputs.fecha }}-$(date +%H%M)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$RAMA"
+          git add site data tema.txt
+          git commit -m "Bulletin Rilamax N.º ${{ steps.gen.outputs.numero }} (semana ${{ steps.gen.outputs.semana }})"
+          git push origin "$RAMA"
+          URL=$(gh pr create --base main --head "$RAMA" \
+                --title "Bulletin Rilamax N.º ${{ steps.gen.outputs.numero }} — semana ${{ steps.gen.outputs.semana }}" \
+                --body-file out/pr_body.md)
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+
+      - name: Enviar correo de revisión
+        env:
+          BREVO_SMTP_LOGIN: ${{ secrets.BREVO_SMTP_LOGIN }}
+          BREVO_SMTP_KEY: ${{ secrets.BREVO_SMTP_KEY }}
+          PR_URL: ${{ steps.pr.outputs.url }}
+        run: python scripts/enviar_correo.py
+
+      - name: Avisar del error por correo
+        if: failure()
+        env:
+          BREVO_SMTP_LOGIN: ${{ secrets.BREVO_SMTP_LOGIN }}
+          BREVO_SMTP_KEY: ${{ secrets.BREVO_SMTP_KEY }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python scripts/enviar_correo.py --error
