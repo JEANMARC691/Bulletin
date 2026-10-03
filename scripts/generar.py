@@ -44,7 +44,7 @@ LABELS = {
         "firma": "— Jean Marc, RILAMAX 2025",
         "cta": "Le Bulletin Rilamax paraît chaque samedi : l'essentiel de l'économie, de la finance et de la politique entre la France et l'Espagne, avec notre lecture.",
         "cta_btn": "S'abonner sur LinkedIn",
-        "footer": "Le Bulletin Rilamax est publié par RILAMAX 2025 SL. Les résumés sont rédigés par nos soins à partir des sources citées. Les lectures Rilamax sont des analyses générales et ne constituent pas des conseils d'investissement personnalisés.",
+        "footer": "Le Bulletin Rilamax est publié par RILAMAX 2025 SL. Les résumés sont rédigés par nos soins à partir des sources citées. Les lectures Rilamax sont des analyses générales et ne constituent pas des conseils d'investissement personnalisés. Veille et rédaction assistées par l'IA. Sélection, vérification et analyse : Jean Marc Pavia.",
     },
     "es": {
         "titulo": "El Boletín Rilamax", "p1": "Francia", "p2": "España",
@@ -61,7 +61,7 @@ LABELS = {
         "firma": "— Jean Marc, RILAMAX 2025",
         "cta": "El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.",
         "cta_btn": "Suscribirse en LinkedIn",
-        "footer": "El Boletín Rilamax lo publica RILAMAX 2025 SL. Los resúmenes son de elaboración propia a partir de las fuentes citadas. Las lecturas Rilamax son análisis generales y no constituyen asesoramiento de inversión personalizado.",
+        "footer": "El Boletín Rilamax lo publica RILAMAX 2025 SL. Los resúmenes son de elaboración propia a partir de las fuentes citadas. Las lecturas Rilamax son análisis generales y no constituyen asesoramiento de inversión personalizado. Seguimiento y redacción asistidos por IA. Selección, verificación y análisis: Jean Marc Pavia.",
     },
 }
 
