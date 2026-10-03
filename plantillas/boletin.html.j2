@@ -88,7 +88,7 @@
         {% for p in s.parrafos %}<p>{{ p }}</p>{% endfor %}
         {% for g in d.graficos if g.despues_de_seccion == i %}
         <figure class="chart" aria-label="{{ g.aria }}">
-          {% for b in g.barras %}<div class="bar-row"><span class="lbl">{{ b.etiqueta }}</span><span class="bar" style="--w:{{ b.pct }}%;--c:var(--{{ 'es' if loop.first else 'muted' if g.barras|length == 2 else 'es' }})"></span><span class="val">{{ b.texto }}</span></div>{% endfor %}
+          {% for b in g.barras %}<div class="bar-row"><span class="lbl">{{ b.etiqueta }}</span><span class="bar w{{ b.pct }} c-{{ 'es' if loop.first or g.barras|length > 2 else 'muted' }}"></span><span class="val">{{ b.texto }}</span></div>{% endfor %}
           <figcaption>{{ g.pie }}</figcaption>
         </figure>
         {% endfor %}

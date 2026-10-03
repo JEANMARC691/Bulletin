@@ -145,7 +145,7 @@ def validar(ed, idioma):
         g["despues_de_seccion"] = int(g.get("despues_de_seccion") or 1)
         maximo = max(float(b.get("valor") or 0) for b in g["barras"]) or 1
         for b in g["barras"]:
-            b["pct"] = round(max(float(b.get("valor") or 0) / maximo * 100, 2), 1)
+            b["pct"] = min(100, max(1, round(float(b.get("valor") or 0) / maximo * 100)))
     if d.get("debate") and d["debate"].get("texto"):
         d["debate"]["despues_de_seccion"] = int(d["debate"].get("despues_de_seccion") or 1)
     else:
@@ -188,23 +188,54 @@ def main():
     previa = next((h for h in historial if h["fecha"] == hoy.isoformat()), None)
     numero = previa["numero"] if previa else len(historial) + 1
     tema, cabecera_tema = leer_tema()
+    modo = (os.environ.get("MODO") or "completa").strip()
+    tema_manual = (os.environ.get("TEMA_MANUAL") or "").strip()
+    instrucciones = (os.environ.get("INSTRUCCIONES") or "").strip()
+    usa_tema_txt = bool(tema) and not tema_manual
+    tema = tema_manual or tema
     sistema = (ROOT / "editorial" / "lineas_editoriales.md").read_text(encoding="utf-8").replace("{SITE_URL}", SITE_URL)
 
     recientes = "; ".join(h["titulo_es"] for h in historial[-8:] if h["fecha"] != hoy.isoformat()) or "ninguno todavía"
     instruccion_tema = (f"Tema del dossier IMPUESTO por el editor: «{tema}». Desarróllalo aunque no sea la noticia principal."
                         if tema else "Elige tú el tema del dossier según la actualidad de la semana.")
 
-    log(f"Edición N.º {numero}, semana {semana} ({lunes} → {hoy}), modelo {MODELO}")
+    extra = f"Instrucciones adicionales del editor (prioritarias): {instrucciones}\n" if instrucciones else ""
+    log(f"Edición N.º {numero}, semana {semana} ({lunes} → {hoy}), modelo {MODELO}, modo {modo}")
+    previa_ruta = DATA / "previa.json"
+    if modo == "solo_dossier":
+        if not previa_ruta.exists():
+            raise RuntimeError("Modo «solo_dossier»: no se ha encontrado ninguna edición pendiente de aprobar.")
+        previa = json.loads(previa_ruta.read_text(encoding="utf-8"))
+        previa_ruta.unlink()
+        base_fr = {k: v for k, v in previa["fr"].items() if k != "minutos"}
+        user_dossier = (
+            f"Fecha de hoy: {hoy.isoformat()}. Semana {semana}: del lunes {lunes.isoformat()} al {hoy.isoformat()}.\n"
+            "Esta es la edición francesa ya preparada (JSON). El editor quiere CAMBIAR SOLO EL DOSSIER.\n"
+            f"{instruccion_tema}\n{extra}"
+            "Investiga el tema con la búsqueda web y redacta un dossier nuevo siguiendo la estructura y la extensión indicadas. "
+            "Ajusta también el editorial (para que sea coherente con el nuevo dossier, sin perder lo esencial de la semana) "
+            "y los textos de LinkedIn. Devuelve únicamente un JSON con tres claves: «editorial», «dossier» y «linkedin», "
+            "con el mismo esquema, entre <json> y </json>. No escribas comentarios entre búsquedas.\n\n"
+            + json.dumps(base_fr, ensure_ascii=False)
+        )
+        nuevo = obtener_edicion(sistema, user_dossier, True)
+        for k in ("editorial", "dossier", "linkedin"):
+            if nuevo.get(k):
+                base_fr[k] = nuevo[k]
+        ed_fr = validar(base_fr, "fr")
+    else:
+        ed_fr = None
     user_fr = (
         f"Fecha de hoy: {hoy.isoformat()}. Semana {semana}: del lunes {lunes.isoformat()} al {hoy.isoformat()}.\n"
         f"Prepara la edición N.º {numero} del boletín en FRANCÉS (edición francesa, público francés).\n"
-        f"{instruccion_tema}\n"
+        f"{instruccion_tema}\n{extra}"
         f"Temas de dossiers recientes, que no debes repetir salvo novedad importante: {recientes}.\n"
         "Investiga primero con la búsqueda web y después devuelve únicamente el JSON entre <json> y </json>.\n"
         "Durante la investigación NO escribas comentarios, planes ni resúmenes intermedios entre búsquedas: "
         "reserva toda la redacción para el JSON final."
     )
-    ed_fr = validar(obtener_edicion(sistema, user_fr, True), "fr")
+    if ed_fr is None:
+        ed_fr = validar(obtener_edicion(sistema, user_fr, True), "fr")
     log("Edición francesa lista.")
 
     user_es = (
@@ -213,6 +244,7 @@ def main():
         "Adapta los campos «lectura», «puntos_clave», «lectura» del dossier y los textos de LinkedIn al lector español "
         "(empresa o inversor español que mira hacia Francia). No añadas hechos nuevos. "
         "Usa el formato numérico español (punto para miles, coma para decimales).\n"
+        + (f"Ten en cuenta estas instrucciones del editor: {instrucciones}\n" if instrucciones else "") +
         "Devuelve únicamente el JSON entre <json> y </json>.\n\n"
         + json.dumps({k: v for k, v in ed_fr.items() if k != "minutos"}, ensure_ascii=False)
     )
@@ -240,7 +272,7 @@ def main():
     (SITE / "CNAME").write_text(SITE_URL.split("//", 1)[1] + "\n", encoding="utf-8")
     (DATA / "historial.json").write_text(json.dumps(historial, ensure_ascii=False, indent=2), encoding="utf-8")
     (DATA / f"edicion-{fecha}.json").write_text(json.dumps({"fr": ed_fr, "es": ed_es}, ensure_ascii=False, indent=2), encoding="utf-8")
-    if tema:
+    if usa_tema_txt:
         (ROOT / "tema.txt").write_text("\n".join(cabecera_tema) + "\n", encoding="utf-8")
 
     OUT.mkdir(exist_ok=True)
@@ -252,7 +284,7 @@ def main():
             encoding="utf-8")
     resumen = {"numero": numero, "fecha": fecha, "semana": semana, "modelo": MODELO,
                "dossier_fr": ed_fr["dossier"]["titulo"], "dossier_es": ed_es["dossier"]["titulo"],
-               "tema_impuesto": tema, "uso": USO, "url_edicion": SITE_URL + ruta_ed}
+               "tema_impuesto": tema, "modo": modo, "instrucciones": instrucciones, "uso": USO, "url_edicion": SITE_URL + ruta_ed}
     (OUT / "resumen.json").write_text(json.dumps(resumen, ensure_ascii=False, indent=2), encoding="utf-8")
     (OUT / "pr_body.md").write_text(
         f"## Bulletin Rilamax N.º {numero} — semana {semana}\n\n"

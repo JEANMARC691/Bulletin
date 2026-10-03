@@ -41,12 +41,15 @@ def bloque(titulo, texto):
 def revision():
     r = json.loads((OUT / "resumen.json").read_text(encoding="utf-8"))
     pr = os.environ.get("PR_URL", "")
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    rehacer = f"https://github.com/{repo}/actions/workflows/boletin-semanal.yml"
     li = {i: (OUT / f"linkedin_{i}.txt").read_text(encoding="utf-8") for i in ("fr", "es")}
     uso = r["uso"]
     asunto = f"Bulletin Rilamax N.º {r['numero']} listo para revisar — {r['dossier_es']}"
     cuerpo = f"""<div style="font-family:Arial,sans-serif;color:#16233D;max-width:680px">
 <h2 style="margin:0 0 6px">Bulletin Rilamax N.º {r['numero']} — semana {r['semana']}</h2>
 <p style="margin:0 0 18px;color:#5A6478">Dossier: <b>{html.escape(r['dossier_es'])}</b> / {html.escape(r['dossier_fr'])}</p>
+{('<p style="margin:0 0 18px;font-size:13px;color:#5A6478">Versión rehecha · modo: ' + html.escape(r.get('modo','')) + (' · instrucciones: ' + html.escape(r['instrucciones']) if r.get('instrucciones') else '') + '</p>') if r.get('modo') == 'solo_dossier' or r.get('instrucciones') else ''}
 <ol style="line-height:1.6;padding-left:20px">
 <li><b>Revisa el boletín</b>: abre el archivo adjunto <i>boletin-rilamax-{r['fecha']}.html</i> en tu navegador (botón FR/ES arriba a la derecha).</li>
 <li><b>Si está bien</b>, pulsa el botón de abajo y luego <b>Merge pull request</b> → <b>Confirm merge</b>. Se publicará en {html.escape(r['url_edicion'])} en 2-3 minutos.</li>
@@ -54,6 +57,14 @@ def revision():
 </ol>
 <p style="margin:22px 0"><a href="{html.escape(pr)}" style="background:#16233D;color:#fff;text-decoration:none;padding:12px 20px;border-radius:8px;font-weight:bold">Revisar y aprobar en GitHub</a></p>
 <p style="font-size:13px;color:#5A6478">Si no quieres publicar esta edición, abre el mismo enlace y pulsa <b>Close pull request</b>: no se publicará nada.</p>
+<div style="margin:26px 0;padding:16px;border:1px solid #D9DEE7;border-radius:8px;background:#E4F0EE">
+<h3 style="margin:0 0 8px;font-size:16px">¿Quieres cambiar algo antes de publicar?</h3>
+<ol style="margin:0;padding-left:20px;line-height:1.6;font-size:14px">
+<li>Abre <a href="{html.escape(rehacer)}">la página del proceso «Boletín semanal»</a> y pulsa <b>Run workflow</b>.</li>
+<li><b>Modo</b>: «solo_dossier» para cambiar solo el dossier (se conservan noticias y cifras) o «completa» para rehacerlo todo.</li>
+<li><b>Tema</b>: el tema del dossier que quieres. <b>Instrucciones</b>: cualquier indicación libre.</li>
+<li>Pulsa el botón verde <b>Run workflow</b>. En unos minutos recibirás la nueva versión; la anterior se descarta sola.</li>
+</ol></div>
 {bloque('LinkedIn — Français', li['fr'])}
 {bloque('LinkedIn — Español', li['es'])}
 <p style="margin-top:28px;font-size:12px;color:#5A6478">Modelo: {html.escape(r['modelo'])} · Búsquedas web: {uso['busquedas']} · Tokens: {uso['input']:,} de entrada, {uso['output']:,} de salida.</p>
