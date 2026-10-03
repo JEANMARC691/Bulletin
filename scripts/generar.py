@@ -152,8 +152,11 @@ def validar(ed, idioma):
         d["debate"] = None
     for c in ed["cifras"]:
         c["pais"] = "es" if str(c.get("pais", "")).lower().startswith("es") else "fr"
-    texto = json.dumps(ed, ensure_ascii=False)
-    ed["minutos"] = max(5, round(len(texto.split()) / 200))
+    visibles = {k: v for k, v in ed.items() if k not in ("linkedin", "minutos")}
+    texto = json.dumps(visibles, ensure_ascii=False)
+    texto = re.sub(r'"(url|fuentes|fuente|pais|aria|despues_de_seccion|valor|pct)"\s*:\s*("[^"]*"|\d+|\[[^\]]*\])', " ", texto)
+    palabras = len(re.findall(r"\w+", texto))
+    ed["minutos"] = max(5, round(palabras / 230))
     return ed
 
 
