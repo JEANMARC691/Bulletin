@@ -2,3 +2,4 @@
 # Escribe el tema en una línea debajo de estas instrucciones, antes del viernes por la noche.
 # Si lo dejas vacío, Claude elegirá el tema más relevante de la semana.
 # Después de usarse, esta línea se borra automáticamente.
+Competitividad industrial España-Francia ante el choque energético: precio de la electricidad y del gas para la industria (incluida la electrointensiva), mix renovable español frente a nuclear francés, interconexiones eléctricas por los Pirineos y efectos sobre la inversión y el empleo industrial, con datos recientes y comparables de fuentes oficiales. En la lectura Rilamax del dossier, sé más audaz: propón varias palancas concretas de política industrial y energética, argumentadas con datos y con su coste o su dificultad, sin consejos de inversión personalizados.
