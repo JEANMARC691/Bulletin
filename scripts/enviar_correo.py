@@ -35,7 +35,7 @@ def enviar(asunto, cuerpo_html, cuerpo_txt, adjuntos=()):
 def bloque(titulo, texto):
     return (f'<h3 style="margin:28px 0 8px;font-size:16px">{html.escape(titulo)}</h3>'
             f'<div style="white-space:pre-wrap;background:#F5F7FA;border:1px solid #D9DEE7;border-radius:8px;'
-            f'padding:14px;font-size:14px;line-height:1.5">{html.escape(texto)}</div>')
+            f'padding:14px;font-size:14px;line-height:1.5">{html.escape(texto).replace(chr(10), "<br>")}</div>')
 
 
 def revision():

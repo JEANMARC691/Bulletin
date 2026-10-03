@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-{{ css }}
+{{ css|safe }}
 </style>
 </head>
 <body>
@@ -88,7 +88,7 @@
         {% for p in s.parrafos %}<p>{{ p }}</p>{% endfor %}
         {% for g in d.graficos if g.despues_de_seccion == i %}
         <figure class="chart" aria-label="{{ g.aria }}">
-          {% for b in g.barras %}<div class="bar-row"><span class="lbl">{{ b.etiqueta }}</span><span class="bar w{{ b.pct }} c-{{ 'es' if loop.first or g.barras|length > 2 else 'muted' }}"></span><span class="val">{{ b.texto }}</span></div>{% endfor %}
+          {% for b in g.barras %}<div class="bar-row"><span class="lbl">{{ b.etiqueta }}</span><span class="bar"><span class="fill w{{ b.pct }} c-{{ 'es' if loop.first or g.barras|length > 2 else 'muted' }}"></span></span><span class="val">{{ b.texto }}</span></div>{% endfor %}
           <figcaption>{{ g.pie }}</figcaption>
         </figure>
         {% endfor %}
