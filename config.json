@@ -1,0 +1,9 @@
+{
+  "modelo": "claude-sonnet-5-5",
+  "max_busquedas": 30,
+  "site_url": "https://bulletin.rilamax.com",
+  "correo_destino": "admin@rilamax2025.com",
+  "correo_remitente": "admin@rilamax2025.com",
+  "nombre_remitente": "Le Bulletin Rilamax",
+  "linkedin_url": ""
+}

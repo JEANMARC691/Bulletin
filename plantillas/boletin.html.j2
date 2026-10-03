@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ L.fr.titulo }} — N° {{ meta.numero }}</title>
+<meta name="description" content="{{ fr.editorial.titulo }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+{{ css }}
+</style>
+</head>
+<body>
+{% macro fuentes(lista, l) -%}
+{% if lista %}<p class="src">{{ l.fuentes if lista|length > 1 else l.fuente }}{% for f in lista %}<a href="{{ f.url }}" target="_blank" rel="noopener">{{ f.nombre }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+{%- endmacro %}
+
+{% macro noticia(n, pais, l) -%}
+<article class="item">
+  <div>
+    <span class="tag {{ pais }}">{{ n.rubrica }}</span>
+    <h3>{{ n.titulo }}</h3>
+    <p class="sum">{{ n.resumen }}</p>
+    {{ fuentes(n.fuentes, l) }}
+  </div>
+  <aside class="lecture"><h4>{{ l.lectura_r }}</h4><p>{{ n.lectura }}</p></aside>
+</article>
+{%- endmacro %}
+
+{% macro edicion(e, l, code, oculto) %}
+<div class="edition" data-lang="{{ code }}" lang="{{ code }}"{% if oculto %} hidden{% endif %}>
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>{{ l.p1 }}</span><span class="line" aria-hidden="true"></span><span>{{ l.p2 }}</span></div>
+    <div class="titlerow">
+      <h1>{{ l.titulo }}</h1>
+      <div class="langs" role="group" aria-label="{{ l.lang_aria }}"><button type="button" data-set="fr" aria-pressed="{{ 'true' if code == 'fr' else 'false' }}">FR</button><button type="button" data-set="es" aria-pressed="{{ 'true' if code == 'es' else 'false' }}">ES</button></div>
+    </div>
+    <div class="meta"><span>{{ l.numero.format(n=meta.numero, s=meta.semana) }}</span><span>{{ meta['rango_' ~ code] }}</span><span>{{ l.lectura.format(m=e.minutos) }}</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="{{ l.toc_aria }}">
+  <div class="wrap"><ul>
+    <li><a href="#{{ code }}-edito">{{ l.edito }}</a></li>
+    <li><a href="#{{ code }}-cifras">{{ l.cifras }}</a></li>
+    <li><a href="#{{ code }}-dossier">{{ l.dossier }}</a></li>
+    <li><a href="#{{ code }}-fr">{{ l.p1 }}</a></li>
+    <li><a href="#{{ code }}-es">{{ l.p2 }}</a></li>
+    <li><a href="#{{ code }}-agenda">{{ l.agenda }}</a></li>
+    {% if archivo %}<li><a href="#{{ code }}-archivo">{{ l.archivo }}</a></li>{% endif %}
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="{{ code }}-edito">
+    <h2>{{ e.editorial.titulo }}</h2>
+    <div class="edito">
+      <div class="body">
+        {% for p in e.editorial.parrafos %}<p>{{ p }}</p>{% endfor %}
+        <p class="sign">{{ l.firma }}</p>
+      </div>
+      <aside class="keys">
+        <h3>{{ l.puntos }}</h3>
+        <ol>{% for p in e.editorial.puntos_clave %}<li>{{ p }}</li>{% endfor %}</ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="{{ code }}-cifras">
+    <h2>{{ l.cifras_t }}</h2>
+    <div class="figs">
+      {% for c in e.cifras %}<div class="fig {{ c.pais }}"><strong>{{ c.valor }}</strong><span>{{ c.texto }}</span><small>{{ c.fuente }}</small></div>{% endfor %}
+    </div>
+  </section>
+
+  {% set d = e.dossier %}
+  <section id="{{ code }}-dossier" class="dossier">
+    <h2>{{ l.dossier_pref }}{{ d.titulo }}</h2>
+    <p class="intro">{{ d.intro }}</p>
+    {% if d.cifras %}<div class="dfigs">{% for c in d.cifras %}<div><strong>{{ c.valor }}</strong><span>{{ c.texto }}</span></div>{% endfor %}</div>{% endif %}
+    <div class="longform">
+      {% for s in d.secciones %}
+        {% set i = loop.index %}
+        <h3>{{ s.titulo }}</h3>
+        {% for p in s.parrafos %}<p>{{ p }}</p>{% endfor %}
+        {% for g in d.graficos if g.despues_de_seccion == i %}
+        <figure class="chart" aria-label="{{ g.aria }}">
+          {% for b in g.barras %}<div class="bar-row"><span class="lbl">{{ b.etiqueta }}</span><span class="bar" style="--w:{{ b.pct }}%;--c:var(--{{ 'es' if loop.first else 'muted' if g.barras|length == 2 else 'es' }})"></span><span class="val">{{ b.texto }}</span></div>{% endfor %}
+          <figcaption>{{ g.pie }}</figcaption>
+        </figure>
+        {% endfor %}
+        {% if d.debate and d.debate.texto and d.debate.despues_de_seccion == i %}
+        <div class="debate"><h4>{{ l.debate }}</h4><p>{{ d.debate.texto }}</p></div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <aside class="lecture"><h4>{{ l.lectura_r }}</h4><p>{{ d.lectura }}</p></aside>
+    {% if d.vigilaremos %}<div class="watch"><h4>{{ l.vigilaremos }}</h4><p>{{ d.vigilaremos }}</p></div>{% endif %}
+    {{ fuentes(d.fuentes, l) }}
+  </section>
+
+  <section id="{{ code }}-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">{{ l.p1 }}</h2></div>
+    {% for n in e.francia %}{{ noticia(n, 'fr', l) }}{% endfor %}
+  </section>
+
+  <section id="{{ code }}-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">{{ l.p2 }}</h2></div>
+    {% for n in e.espana %}{{ noticia(n, 'es', l) }}{% endfor %}
+  </section>
+
+  <section id="{{ code }}-agenda">
+    <h2>{{ l.agenda_t }}</h2>
+    <ul class="agenda">{% for a in e.agenda %}<li><span class="when">{{ a.cuando }}</span><span class="what">{{ a.que }}</span></li>{% endfor %}</ul>
+  </section>
+
+  <section class="cta">
+    <p>{{ l.cta }}</p>
+    {% if linkedin_url %}<a class="btn" href="{{ linkedin_url }}" target="_blank" rel="noopener">{{ l.cta_btn }}</a>{% else %}<a class="btn" href="https://www.rilamax.com">www.rilamax.com</a>{% endif %}
+  </section>
+
+  {% if archivo %}
+  <section id="{{ code }}-archivo" class="archive">
+    <h2>{{ l.archivo }}</h2>
+    <ul>{% for a in archivo %}<li><a href="{{ a.ruta }}">N° {{ a.numero }} — {{ a['titulo_' ~ code] }}</a><span>{{ a.fecha }}</span></li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+</main>
+
+<footer class="wrap"><p>{{ l.footer }}</p></footer>
+</div>
+{% endmacro %}
+
+{{ edicion(fr, L.fr, 'fr', False) }}
+{{ edicion(es, L.es, 'es', True) }}
+
+<script>
+(function(){
+  var titles={fr:{{ (L.fr.titulo ~ ' — N° ' ~ meta.numero)|tojson }},es:{{ (L.es.titulo ~ ' — N.º ' ~ meta.numero)|tojson }}};
+  function setLang(l){
+    document.querySelectorAll('.edition').forEach(function(e){e.hidden=e.dataset.lang!==l});
+    document.querySelectorAll('.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});
+    document.documentElement.lang=l; document.title=titles[l];
+    try{localStorage.setItem('rilamax-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set);window.scrollTo(0,0)})});
+  var p=new URLSearchParams(location.search).get('lang'); var saved=null;
+  try{saved=localStorage.getItem('rilamax-lang')}catch(e){}
+  var l=(p==='es'||p==='fr')?p:saved; if(l==='es'||l==='fr') setLang(l);
+})();
+</script>
+</body>
+</html>

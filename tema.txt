@@ -1,0 +1,4 @@
+# Tema del dossier para la próxima edición (opcional).
+# Escribe el tema en una línea debajo de estas instrucciones, antes del viernes por la noche.
+# Si lo dejas vacío, Claude elegirá el tema más relevante de la semana.
+# Después de usarse, esta línea se borra automáticamente.
