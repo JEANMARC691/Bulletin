@@ -40,6 +40,7 @@ LABELS = {
         "debate": "Le débat", "vigilaremos": "Ce que nous surveillerons",
         "fuentes": "Sources : ", "fuente": "Source : ", "archivo": "Éditions précédentes",
         "todas": "Toutes les éditions", "ultima": "Dernière édition",
+        "glosario": "Lexique", "glosario_t": "Les sigles de cette édition",
         "firma": "— Jean Marc, RILAMAX 2025",
         "cta": "Le Bulletin Rilamax paraît chaque samedi : l'essentiel de l'économie, de la finance et de la politique entre la France et l'Espagne, avec notre lecture.",
         "cta_btn": "S'abonner sur LinkedIn",
@@ -56,6 +57,7 @@ LABELS = {
         "debate": "El debate", "vigilaremos": "Lo que vigilaremos",
         "fuentes": "Fuentes: ", "fuente": "Fuente: ", "archivo": "Ediciones anteriores",
         "todas": "Todas las ediciones", "ultima": "Última edición",
+        "glosario": "Glosario", "glosario_t": "Las siglas de esta edición",
         "firma": "— Jean Marc, RILAMAX 2025",
         "cta": "El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.",
         "cta_btn": "Suscribirse en LinkedIn",
@@ -139,6 +141,8 @@ def validar(ed, idioma):
     for k in ("titulo", "intro", "secciones", "lectura"):
         if not d.get(k):
             raise ValueError(f"Edición {idioma}: el dossier no tiene «{k}»")
+    ed["glosario"] = sorted([g for g in (ed.get("glosario") or []) if g.get("sigla") and g.get("definicion")],
+                            key=lambda g: g["sigla"].lower())
     d.setdefault("cifras", [])
     d.setdefault("graficos", [])
     d.setdefault("fuentes", [])
@@ -248,6 +252,8 @@ def main():
         "Reglas: traduce con fidelidad hechos, cifras, gráficos y fuentes (mismas URLs), con buena prosa española, no una traducción literal. "
         "Adapta los campos «lectura», «puntos_clave», «lectura» del dossier y los textos de LinkedIn al lector español "
         "(empresa o inversor español que mira hacia Francia). No añadas hechos nuevos. "
+        "Adapta también las aposiciones explicativas y el «glosario» al lector español: explica con más detalle las siglas e instituciones francesas "
+        "y basta una mención breve para las españolas más conocidas. "
         "Usa el formato numérico español (punto para miles, coma para decimales).\n"
         + (f"Ten en cuenta estas instrucciones del editor: {instrucciones}\n" if instrucciones else "") +
         "Devuelve únicamente el JSON entre <json> y </json>.\n\n"

@@ -57,6 +57,7 @@
     <li><a href="#{{ code }}-fr">{{ l.p1 }}</a></li>
     <li><a href="#{{ code }}-es">{{ l.p2 }}</a></li>
     <li><a href="#{{ code }}-agenda">{{ l.agenda }}</a></li>
+    {% if e.glosario %}<li><a href="#{{ code }}-glosario">{{ l.glosario }}</a></li>{% endif %}
     <li><a href="/archivo/?lang={{ code }}">{{ l.todas }}</a></li>
   </ul></div>
 </nav>
@@ -123,6 +124,13 @@
     <h2>{{ l.agenda_t }}</h2>
     <ul class="agenda">{% for a in e.agenda %}<li><span class="when">{{ a.cuando }}</span><span class="what">{{ a.que }}</span></li>{% endfor %}</ul>
   </section>
+
+  {% if e.glosario %}
+  <section id="{{ code }}-glosario">
+    <h2>{{ l.glosario_t }}</h2>
+    <dl class="glossary">{% for g in e.glosario %}<div><dt>{{ g.sigla }}</dt><dd>{{ g.definicion }}</dd></div>{% endfor %}</dl>
+  </section>
+  {% endif %}
 
   <section class="cta">
     <p>{{ l.cta }}</p>
