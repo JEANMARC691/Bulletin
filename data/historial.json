@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "numero": 1,
+    "fecha": "2026-10-03",
+    "semana": 40,
+    "ruta": "/ediciones/2026-10-03/",
+    "titulo_fr": "Le logement en Espagne : un déficit d'offre, des décrets tombés et une preuve catalane nuancée",
+    "titulo_es": "La vivienda en España: un déficit de oferta, unos decretos caídos y una prueba catalana matizada"
+  }
+]
