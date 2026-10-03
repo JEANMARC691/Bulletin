@@ -77,7 +77,8 @@ def llamar_claude(system, user, buscar):
         kwargs["tools"] = [{"type": "web_search_20250305", "name": "web_search",
                             "max_uses": int(CONFIG.get("max_busquedas", 30))}]
     textos = []
-    for _ in range(12):
+    cortes = 0
+    for _ in range(16):
         with client.messages.stream(messages=messages, **kwargs) as stream:
             msg = stream.get_final_message()
         u = msg.usage
@@ -91,7 +92,15 @@ def llamar_claude(system, user, buscar):
             messages.append({"role": "assistant", "content": msg.content})
             continue
         if msg.stop_reason == "max_tokens":
-            raise RuntimeError("La respuesta de Claude se cortó por longitud (max_tokens).")
+            cortes += 1
+            if cortes > 3:
+                raise RuntimeError("La respuesta de Claude se cortó por longitud varias veces seguidas (max_tokens).")
+            log(f"Respuesta cortada por longitud; se pide continuar ({cortes}).")
+            messages.append({"role": "assistant", "content": msg.content})
+            messages.append({"role": "user", "content": (
+                "Tu respuesta se ha cortado por longitud. Continúa exactamente desde el último carácter que escribiste, "
+                "sin repetir nada, sin abrir de nuevo la etiqueta <json> y sin añadir comentarios.")})
+            continue
         break
     return "".join(textos)
 
@@ -191,7 +200,9 @@ def main():
         f"Prepara la edición N.º {numero} del boletín en FRANCÉS (edición francesa, público francés).\n"
         f"{instruccion_tema}\n"
         f"Temas de dossiers recientes, que no debes repetir salvo novedad importante: {recientes}.\n"
-        "Investiga primero con la búsqueda web y después devuelve únicamente el JSON entre <json> y </json>."
+        "Investiga primero con la búsqueda web y después devuelve únicamente el JSON entre <json> y </json>.\n"
+        "Durante la investigación NO escribas comentarios, planes ni resúmenes intermedios entre búsquedas: "
+        "reserva toda la redacción para el JSON final."
     )
     ed_fr = validar(obtener_edicion(sistema, user_fr, True), "fr")
     log("Edición francesa lista.")
