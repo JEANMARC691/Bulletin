@@ -1,0 +1,960 @@
+{
+  "fr": {
+    "editorial": {
+      "titulo": "Énergie chère, logement en suspens : deux pays sous tension",
+      "parrafos": [
+        "Un même choc domine la semaine : l'énergie, renchérie par la guerre en Iran et le blocage du détroit d'Ormuz. L'inflation a accéléré à 3,0 % en France (Insee) et à 4,9 % en Espagne (INE). Elle atteint 3,8 % dans la zone euro. La BCE a relevé ses taux le 10 septembre et pourrait agir de nouveau lors de sa réunion du 29 octobre.",
+        "En France, le gouvernement a présenté jeudi son budget 2027 : 54 milliards d'euros d'effort pour viser un déficit de 5,0 % du PIB. Le marché n'a pas attendu. Le taux à 10 ans a dépassé 4,8 %, une première depuis 2008. Le Haut Conseil des finances publiques juge la prévision de croissance de 1,0 % optimiste, et le débat parlementaire s'annonce tendu.",
+        "En Espagne, le risque s'est déplacé vers le politique. Le Congrès a abrogé vendredi les deux décrets sur le logement, quelques heures après leur entrée en vigueur, et Pedro Sánchez étudie un scénario électoral, sans décision annoncée. L'économie réelle reste solide : 92 327 affiliés supplémentaires en septembre et un chômage enregistré au plus bas pour un mois de septembre depuis 2007, avec un effet de la régularisation de migrants. L'Ibex a perdu 3,12 % sur la semaine.",
+        "Le dossier de cette édition porte sur ce que ces décrets laissent intact. Selon la Banque d'Espagne, le déficit cumulé atteint environ 755 000 logements et pourrait dépasser le million en 2028. Les mesures qui pesaient sur le propriétaire sont tombées ; la loi de 2023 et les zones tendues catalanes demeurent, avec des loyers contenus mais moins d'annonces. La France a fait le choix inverse : un avantage fiscal au bailleur, le statut Jeanbrun, jusqu'ici peu utilisé. Le contraste est instructif pour un lecteur français."
+      ],
+      "puntos_clave": [
+        "L'inflation repart partout : 3,0 % en France, 4,9 % en Espagne, 3,8 % dans la zone euro, et l'OAT à 10 ans atteint 4,90 %.",
+        "En Espagne, les décrets logement sont tombés, mais le déficit d'environ 755 000 logements et les zones tendues catalanes restent.",
+        "Plafonds catalans : loyers contenus, annonces en recul d'environ 20 % ; la causalité reste débattue, en Espagne comme en France."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "3,0 %",
+        "texto": "Inflation annuelle en France en septembre (estimation provisoire), contre 2,4 % en août",
+        "fuente": "Insee",
+        "pais": "fr"
+      },
+      {
+        "valor": "8,3 %",
+        "texto": "Taux de chômage au deuxième trimestre 2026, le plus haut depuis 2020",
+        "fuente": "Insee",
+        "pais": "fr"
+      },
+      {
+        "valor": "54 Md€",
+        "texto": "Effort budgétaire annoncé pour 2027, dont 43 Md€ de mesures nouvelles",
+        "fuente": "Ministère de l'Économie, PLF 2027",
+        "pais": "fr"
+      },
+      {
+        "valor": "4,9 %",
+        "texto": "Inflation annuelle en Espagne en septembre (indicateur avancé), son plus haut depuis février 2023",
+        "fuente": "INE",
+        "pais": "es"
+      },
+      {
+        "valor": "92 327",
+        "texto": "Affiliés supplémentaires à la Sécurité sociale en septembre, meilleur septembre de la série",
+        "fuente": "Ministère de l'Inclusion et de la Sécurité sociale",
+        "pais": "es"
+      },
+      {
+        "valor": "99,9 %",
+        "texto": "Dette publique espagnole en juillet 2026 (% du PIB), estimation révisable",
+        "fuente": "Banque d'Espagne",
+        "pais": "es"
+      }
+    ],
+    "dossier": {
+      "titulo": "Logement en Espagne : un déficit d'offre que les décrets ne traitaient pas, des zones tendues à l'épreuve des chiffres",
+      "intro": "Le 2 octobre, le Congrès a abrogé les deux décrets-lois logement, dont le poids reposait sur le propriétaire bailleur : prorogation des baux, plafond de 2 % sur les loyers, indemnité de douze mois. Le texte tombe ; le déficit d'offre demeure. Ce dossier en retrace l'origine, décrit ce que les décrets imposaient, mesure l'expérience des zones tendues catalanes et la compare au choix français.",
+      "cifras": [
+        {
+          "valor": "755 000",
+          "texto": "Déficit cumulé de logements depuis 2021 selon la Banque d'Espagne, qui le voit dépasser le million en 2028"
+        },
+        {
+          "valor": "-20,5 % / +3,9 %",
+          "texto": "Variation des annonces de location, T1 2024 à T4 2025 : Catalogne (zones tendues) / Madrid (Fedea)"
+        },
+        {
+          "valor": "-4,7 % / +9,5 %",
+          "texto": "Loyer moyen des nouveaux contrats, T1 2024 à T1 2026 : Barcelone / reste de la Catalogne hors zones tendues (Generalitat)"
+        },
+        {
+          "valor": "150-200 / 4 000",
+          "texto": "Ventes mensuelles sous statut Jeanbrun estimées par un professionnel, contre 4 000 attendues"
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. Origine : des ménages plus rapides que les chantiers",
+          "parrafos": [
+            "La Banque d'Espagne évalue à 755 000 le déficit cumulé de logements depuis 2021, chiffre présenté le 23 septembre par la sous-gouverneure Soledad Núñez. Il pourrait croître de 300 000 unités entre 2026 et 2028 et dépasser le million. Les prix réels sont revenus à des niveaux comparables à ceux de 2005. Rapporté au parc, le déficit atteint 3,7 % en Espagne, contre 1,5 % en Italie. Environ 92 000 logements seulement ont été achevés en 2025.",
+            "La cause première est un écart entre ménages et chantiers. BBVA Research attend environ 223 000 nouveaux ménages en 2026 pour 153 000 logements mis en chantier, contre 139 000 en 2025. Les visas d'architectes pour logements neufs progressent de 21,4 % au premier semestre, à 72 056, mais la création de ménages reste plus rapide que la construction. Les achats de non-résidents (7,4 % des ventes entre 2021 et 2025) se concentrent sur le littoral et les îles : 1,6 % à Madrid, 2,2 % à Barcelone. Contrairement à 2008, la Banque d'Espagne ne voit pas, pour l'heure, de menace pour le système financier."
+          ]
+        },
+        {
+          "titulo": "2. La réponse publique : un paquet qui pesait sur le bailleur",
+          "parrafos": [
+            "Le 29 septembre, le gouvernement a approuvé deux décrets-lois. Le 26/2026, en vigueur le 1er octobre, prévoyait une prorogation extraordinaire des baux jusqu'à deux ans, un plafond de 2 % sur les hausses sans nouvel accord, un encadrement des locations saisonnières et de chambres, et la protection contre certaines expulsions. Le 27/2026, en vigueur le 2 octobre, imposait après la durée minimale des renouvellements par périodes de cinq ans, un préavis de six mois et une indemnité d'au moins douze mensualités en cas de non-renouvellement. S'y ajoutaient des limites aux achats spéculatifs jusqu'à fin 2028 et des incitations d'IRPF.",
+            "Qui porte ce poids ? Selon la Banque d'Espagne, sur données fiscales 2024, 76,1 % des bailleurs particuliers ne louent qu'un logement et détiennent 50,7 % des logements loués par des particuliers. Sociétés et fonds inclus, ces petits bailleurs détiennent environ 39 % du parc locatif, selon une note ministérielle d'avril 2026. À Barcelone, 7 % des bailleurs contrôlent 45 % du parc (données 2023, Verificat). Le petit propriétaire est nombreux, mais pas majoritaire en volume.",
+            "Le 2 octobre, le Congrès a rejeté le premier décret par 178 voix contre 172, le second par 184 contre 166. Le gouvernement avait refusé de les retirer. Selon l'OCU, le premier a été en vigueur environ un jour : l'abrogation n'efface pas son existence juridique. Junts a remis un texte alternatif de 59 pages : prorogations volontaires jusqu'à deux ans, interdiction d'achat pour banques et fonds jusqu'à fin 2028, sauf affectation de cinq ans au logement abordable."
+          ]
+        },
+        {
+          "titulo": "3. Effets mesurés : en Catalogne, des loyers contenus et une offre qui recule",
+          "parrafos": [
+            "L'abrogation ne touche ni la loi de 2023 ni les zones tendues. La Catalogne est la seule région à avoir appliqué le plafonnement de façon générale, depuis le 16 mars 2024, d'abord à 140 communes puis à 271. Selon Fedea (Pinto, juin 2026), le loyer moyen y a progressé de 5,7 % entre le T1 2024 et le T4 2025, contre 8,5 % à Madrid et 10,8 % en Espagne. Mais les annonces de location ont reculé de 22,2 % à Barcelone et de 20,5 % en Catalogne, alors qu'elles progressaient de 3,9 % à Madrid. Barcelone compte 462 contacts par annonce, contre 103 à Madrid.",
+            "Les données de la Generalitat, tirées des dépôts de caution, nuancent le tableau. Entre le T1 2024 et le T1 2026, le loyer moyen des nouveaux contrats passe de 887,90 à 876,56 euros dans les zones tendues, avec -4,7 % à Barcelone, mais +9,5 % hors zones. Les nouveaux contrats de bail habituel sont passés de 167 842 en 2021 à 108 057 en 2025, soit -36 %, mais le solde net reste positif (8 895 en 2025). La Generalitat admet une forte décélération et un report vers la location saisonnière et de chambres. Fedea attribue au cycle de marché le recul d'environ 10 % observé à Valence et en Andalousie, non régulées.",
+            "Les limites sont réelles : Fedea compte des annonces, pas des baux, et son bilan est descriptif. La hausse hors zones pourrait refléter un report de la demande ; c'est une hypothèse, non démontrée. La Generalitat révise sa carte : 53 communes entreraient, 22 sortiraient, pour un total de 302."
+          ]
+        },
+        {
+          "titulo": "4. Le contrepoint français : l'incitation d'abord, l'encadrement à titre expérimental",
+          "parrafos": [
+            "La France a privilégié l'incitation. Le statut du bailleur privé, dit dispositif Jeanbrun, créé par la loi de finances 2026 promulguée le 20 février, s'applique du 21 février 2026 à fin 2028. Il permet d'amortir 80 % du prix, terrain exclu, avec un plafond annuel de 8 000 à 12 000 euros selon le niveau de loyer. Contreparties : location nue en résidence principale pendant neuf ans, plafonds de loyers et de ressources, immeuble collectif, sans zonage. Le gouvernement visait 50 000 logements locatifs privés dès 2026. Un professionnel cité par Batirama estime l'usage actuel à 150-200 ventes par mois, contre 4 000 attendues. Les ventes aux investisseurs ont remonté de 13,4 % au premier semestre, à 3 427 logements.",
+            "L'encadrement des loyers reste expérimental et s'éteint fin novembre 2026 sans nouvelle loi. Le rapport Chapelle-Fack (mai 2026) estime les loyers inférieurs de 2 à 4 % hors Paris, jusqu'à 5 % en fin de période. Il relève un recul d'environ 8 % des annonces hors Île-de-France, sans prouver la causalité, et 35,6 % de baux parisiens au-dessus du plafond. Les deux pays livrent le même signal sur l'offre, avec la même incertitude. Ils diffèrent par l'outil : incitation fiscale sur le flux neuf en France, contrainte sur le stock existant dans les décrets espagnols."
+          ]
+        },
+        {
+          "titulo": "5. Leviers et points d'attention",
+          "parrafos": [
+            "Les décrets agissaient sur la répartition du parc existant ; le déficit se joue sur le flux. La Banque d'Espagne plaide pour des mesures d'offre plutôt que pour des interventions générales sur les prix. Trois points décideront de la suite : une négociation éventuelle entre le PSOE et Junts, l'approbation définitive de la carte catalane et le calendrier politique espagnol."
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "despues_de_seccion": 1,
+          "aria": "Déficit de logements en Espagne : 755 000 cumulés sur 2021-2025, 300 000 supplémentaires possibles d'ici 2028, soit environ 1 055 000",
+          "pie": "Espagne, 2021-2028. Source : Banque d'Espagne (S. Núñez, 23 septembre 2026) ; total 2028 = 755 000 + 300 000.",
+          "barras": [
+            {
+              "etiqueta": "Déficit cumulé 2021-2025",
+              "valor": 755000,
+              "texto": "≈ 755 000",
+              "pct": 72
+            },
+            {
+              "etiqueta": "Ajout possible 2026-2028",
+              "valor": 300000,
+              "texto": "≈ 300 000",
+              "pct": 28
+            },
+            {
+              "etiqueta": "Total estimé en 2028",
+              "valor": 1055000,
+              "texto": "≈ 1 055 000",
+              "pct": 100
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 3,
+          "aria": "Recul du nombre d'annonces de location entre le T1 2024 et le T4 2025 : Barcelone 22,2 %, Catalogne 20,5 %, Valence et Andalousie environ 10 %, Espagne hors Catalogne 7,0 %",
+          "pie": "Recul des annonces de location, T1 2024 à T4 2025, en %. À Madrid, les annonces ont augmenté de 3,9 %. Source : Fedea (Pinto, juin 2026).",
+          "barras": [
+            {
+              "etiqueta": "Barcelone",
+              "valor": 22.2,
+              "texto": "-22,2 %",
+              "pct": 100
+            },
+            {
+              "etiqueta": "Catalogne",
+              "valor": 20.5,
+              "texto": "-20,5 %",
+              "pct": 92
+            },
+            {
+              "etiqueta": "Valence et Andalousie",
+              "valor": 10,
+              "texto": "≈ -10 %",
+              "pct": 45
+            },
+            {
+              "etiqueta": "Espagne hors Catalogne",
+              "valor": 7.0,
+              "texto": "-7,0 %",
+              "pct": 32
+            }
+          ]
+        }
+      ],
+      "debate": {
+        "despues_de_seccion": 3,
+        "texto": "Pour les défenseurs de l'encadrement, les plafonds protègent les locataires en place : Fedea constate une hausse moindre des loyers là où la loi s'applique, et la Generalitat relève un solde de contrats toujours positif. Le gouvernement présentait ses décrets comme une réponse d'urgence. Pour leurs détracteurs, Fedea, Junts et une partie du secteur, la contraction de l'offre aggrave l'accès au logement, et les mesures qui pèsent sur le bailleur particulier peuvent l'accentuer. Fedea exonère toutefois la loi de la hausse générale des prix, car elle s'applique peu hors de Catalogne. Des chercheurs de l'UPC contestent même le diagnostic de déficit, qui ignorerait l'excédent accumulé avant 2021. Les deux camps ont des limites : les annonces ne sont qu'un indicateur approché de l'offre, et la causalité n'est pas établie. L'évidence est cohérente sur un arbitrage entre prix et volume, mais non concluante sur son ampleur."
+      },
+      "lectura": "Pour un investisseur ou un dirigeant français tourné vers l'Espagne, quatre constats se dégagent. Premier : l'abrogation ne ramène pas à un cadre neutre. La loi de 2023, les plafonds catalans et une carte en révision restent applicables. Deuxième : le risque réglementaire est bilatéral. Junts accepte de contraindre les fonds mais refuse les prorogations imposées aux particuliers ; un texte négocié durcirait donc d'abord le cadre pour les grands détenteurs. C'est une hypothèse, non une certitude. Troisième : les données catalanes montrent un arbitrage entre loyers contenus et volume d'offre, sans causalité établie. Un investisseur devrait valoriser deux scénarios, cadre inchangé et cadre durci. Quatrième : la comparaison française invite à la prudence sur les incitations aussi, car le statut Jeanbrun semble encore peu utilisé selon une première estimation sectorielle. Il convient de revoir les clauses d'indexation, la durée des baux, la part de location saisonnière et l'exposition aux zones tendues. Le levier durable reste l'offre, que les décrets ne traitaient pas.",
+      "vigilaremos": "Nous suivrons la négociation entre le PSOE et Junts, la décision finale sur la carte catalane des zones tendues et, côté français, la décision sur l'encadrement des loyers avant fin novembre.",
+      "fuentes": [
+        {
+          "nombre": "Infobae (EFE) : El Banco de España cree que el déficit superará el millón en dos años",
+          "url": "https://www.infobae.com/espana/agencias/2026/09/23/el-banco-de-espana-cree-que-el-deficit-de-viviendas-superara-el-millon-en-dos-anos/"
+        },
+        {
+          "nombre": "Público : El Banco de España estima un déficit de más de un millón en 2028",
+          "url": "https://www.publico.es/economia/vivienda/banco-espana-estima-deficit-viviendas-superara-millon-dos-anos.html"
+        },
+        {
+          "nombre": "COPE : El Banco de España eleva a 750.000 el déficit de vivienda",
+          "url": "https://www.cope.es/actualidad/economia/noticias/banco-espana-eleva-750-000-deficit-vivienda-doble-italia-20260618_3386980.html"
+        },
+        {
+          "nombre": "The Objective : BBVA Research, la vivienda nueva no alcanza",
+          "url": "https://theobjective.com/economia/2026-08-18/vivienda-cubrira-mitad-nuevos-hogares/"
+        },
+        {
+          "nombre": "elEconomista : visados de vivienda nueva, primer semestre 2026 (CSCAE)",
+          "url": "https://www.eleconomista.es/vivienda-inmobiliario/noticias/14014029/09/26/los-visados-para-construir-vivienda-nueva-crecen-un-21-en-el-primer-semestre-segun-los-arquitectos.html"
+        },
+        {
+          "nombre": "UPC : Cinco tesis sobre la política de vivienda en España",
+          "url": "https://www.upc.edu/ca/sala-de-premsa/pdfs/cinco-tesis-sobre-la-vivienda-en-espana"
+        },
+        {
+          "nombre": "OCU : Derogados los RDL 26 y 27/2026",
+          "url": "https://www.ocu.org/fincas-y-casas/gestion/alquiler/analisis/2026/10/derogados-los-decretos-de-alquileres"
+        },
+        {
+          "nombre": "Garantilo : Decretos de vivienda 2026, derogados",
+          "url": "https://www.garantilo.es/decretos-vivienda-2026.html"
+        },
+        {
+          "nombre": "Deia : el BOE publica la derogación de los decretos",
+          "url": "https://www.deia.eus/politica/2026/10/02/boe-publica-derogacion-reales-decretos-11611804.html"
+        },
+        {
+          "nombre": "Vozpópuli : Junts presenta su propio decreto de vivienda",
+          "url": "https://www.vozpopuli.com/espana/politica/junts-responde-al-ordago-de-sanchez-con-su-propio-decreto-de-vivienda-y-le-emplaza-a-romper-el-pacto-con-sumar.html"
+        },
+        {
+          "nombre": "Democrata : Junts emplaza al PSOE a negociar",
+          "url": "https://www.democrata.es/politica/junts-emplaza-psoe-negociar-su-decreto-vivienda-tumbar-gobierno-depende-ellos/"
+        },
+        {
+          "nombre": "Democrata : quién tiene las viviendas de alquiler (datos Banco de España)",
+          "url": "https://www.democrata.es/vivienda/quien-tiene-viviendas-alquiler-en-espana-mitad-pisos-particulares-esta-en-manos-caseros-con-sola-casa/"
+        },
+        {
+          "nombre": "Ministerio de Derechos Sociales y Consumo : el mercado del alquiler en manos de multiarrendadores",
+          "url": "https://www.dsca.gob.es/en/comunicacion/notas-prensa/61-mercado-alquiler-esta-manos-multiarrendadores-particulares-personas"
+        },
+        {
+          "nombre": "Verificat : grandes tenedores y alquileres en Barcelona",
+          "url": "https://www.verificat.cat/es/grupo-3000-grandes-tenedores-concentra-33-alquileres-barcelona-mayoria-pequenos-propietarios/"
+        },
+        {
+          "nombre": "Fedea : La Ley 12/2023, un primer balance empírico",
+          "url": "https://fedea.net/la-ley-12-2023-por-el-derecho-a-la-vivienda-un-primer-balance-empirico/"
+        },
+        {
+          "nombre": "Fedea : documento completo (Pinto, 2026/15)",
+          "url": "https://documentos.fedea.net/documento/ap2026-15/texto"
+        },
+        {
+          "nombre": "idealista : La Generalitat reconoce que el alquiler habitual pierde fuerza",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/07/21/907151-la-generalitat-reconoce-que-el-alquiler-habitual-pierde-fuerza-en-cataluna-tras"
+        },
+        {
+          "nombre": "Catalunya Press : datos de la Generalitat, primer trimestre de 2026",
+          "url": "https://www.catalunyapress.es/articulo/economia/2026-09-15/6013955-catalunya-crecen-quienes-no-tienen-vivienda-quienes-acumulan-varias"
+        },
+        {
+          "nombre": "Infobae (EFE) : alquileres de temporada y datos Incasòl",
+          "url": "https://www.infobae.com/espana/agencias/2026/04/18/los-alquileres-de-temporada-caen-por-primera-vez-en-cataluna-desde-el-tope-a-los-precios/"
+        },
+        {
+          "nombre": "idealista : nuevo mapa de zonas tensionadas en Cataluña",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/09/14/913612-el-nuevo-mapa-de-zonas-tensionadas-en-cataluna-53-municipios-entrarian-y-otros-22"
+        },
+        {
+          "nombre": "I-Immobilier : statut de bailleur privé, dispositif Jeanbrun",
+          "url": "https://cabinet-i-immobilier.fr/statut-bailleur-prive/"
+        },
+        {
+          "nombre": "Batirama : logements neufs, la baisse des ventes s'accélère",
+          "url": "https://www.batirama.com/article/109202-logements-neufs-la-baisse-des-ventes-s-accelere.html"
+        },
+        {
+          "nombre": "IPP : note n° 125, L'encadrement des loyers",
+          "url": "https://www.ipp.eu/wp-content/uploads/2026/05/Note_IPP_Encadrement_des_loyers.pdf"
+        },
+        {
+          "nombre": "Politique du logement : ce que dit le rapport Fack et Chapelle",
+          "url": "https://politiquedulogement.com/2026/06/encadrement-des-loyers-ce-que-dit-le-rapport-fack-chapelle/"
+        },
+        {
+          "nombre": "Moneyvox : encadrement des loyers, un rapport pose la question de la poursuite",
+          "url": "https://www.moneyvox.fr/immobilier/actualites/108939/encadrement-des-loyers-un-rapport-pose-la-question-de-la-poursuite-du-dispositif"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Politique",
+        "titulo": "Budget 2027 : 54 milliards d'effort pour viser un déficit de 5,0 %",
+        "resumen": "Le gouvernement a présenté le 1er octobre le PLF et le PLFSS 2027. Il annonce 43 milliards d'euros de mesures de redressement, portés à 54 milliards avec la montée en charge de mesures antérieures, pour ramener le déficit de 5,4 % en 2026 à 5,0 %. La dette atteindrait 121,7 % du PIB et la charge d'intérêts 91 milliards. Le HCFP juge optimiste la croissance de 1,0 %. L'examen par les députés doit débuter le 6 octobre, avec un risque de censure évoqué.",
+        "lectura": "Le texte est un point de départ, pas un cadre stable. Les entreprises gagnent à bâtir deux scénarios pour 2027 : adoption avec amendements, ou régime transitoire en cas d'échec. L'issue pèsera sur les taux, donc sur le coût des financements.",
+        "fuentes": [
+          {
+            "nombre": "France 24",
+            "url": "https://www.france24.com/fr/france/20261001-budget-2027-le-gouvernement-d%C3%A9voile-son-projet-sous-la-pression-des-march%C3%A9s"
+          },
+          {
+            "nombre": "Euronews",
+            "url": "https://fr.euronews.com/2026/10/01/budget-2027-le-gouvernement-propose-un-effort-de-54-milliards-deuros-pour-ramener-le-defic"
+          },
+          {
+            "nombre": "Legifiscal",
+            "url": "https://www.legifiscal.fr/actualites-fiscales/4656-presentation-plf-2027.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Politique",
+        "titulo": "Entreprises : surtaxe d'IS allégée, taxes sectorielles relevées",
+        "resumen": "Le PLF 2027 reconduit pour une troisième année la surtaxe d'impôt sur les sociétés des grands groupes, mais la réduit de 30 %, pour un rendement de 5 milliards d'euros contre 7 milliards. La taxe sur les opérateurs d'autoroutes et d'aéroports passerait de 4,6 % à 12,2 % au maximum. Le crédit d'impôt recherche et le pacte Dutreil restent inchangés. Le Medef chiffre à près de 20 milliards d'euros les prélèvements pesant sur les entreprises.",
+        "lectura": "Le chiffre du Medef et le calibrage du gouvernement divergent, et le texte peut encore changer. Il convient de revoir les hypothèses de taux effectif d'impôt dans les plans 2027, en particulier pour les groupes ayant des activités en Espagne.",
+        "fuentes": [
+          {
+            "nombre": "DAF Mag",
+            "url": "https://www.daf-mag.fr/reglementation-1243/fiscalite-2115/budget-2027-ce-que-le-projet-de-loi-de-finances-prevoit-pour-les-entreprises-27545"
+          },
+          {
+            "nombre": "Le Monde du Chiffre",
+            "url": "https://www.lemondeduchiffre.fr/a-la-une/80682-budget-2027-l-impot-epargne-la-fiche-de-paie-mise-a-contribution.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "Inflation à 3,0 % en septembre, tirée par l'énergie",
+        "resumen": "Selon l'estimation provisoire de l'Insee du 30 septembre, les prix à la consommation ont progressé de 3,0 % sur un an, contre 2,4 % en août, et au-dessus du consensus de 2,8 %. L'énergie a bondi de 21,2 % et les produits frais de 9,9 %. En données harmonisées, l'inflation atteint 3,4 %. Avant le blocage du détroit d'Ormuz fin février, les prix n'augmentaient que d'environ 1 %. Les résultats définitifs seront publiés le 15 octobre.",
+        "lectura": "L'Insee précise que les indices provisoires ne doivent pas servir aux revalorisations contractuelles. Les entreprises indexant loyers, contrats ou salaires sur l'IPC doivent attendre l'indice définitif et vérifier les clauses concernées.",
+        "fuentes": [
+          {
+            "nombre": "Insee",
+            "url": "https://www.insee.fr/fr/statistiques/9056956"
+          },
+          {
+            "nombre": "Zonebourse (AFP)",
+            "url": "https://www.zonebourse.com/actualite-bourse/france-l-inflation-grimpe-a-3-sur-un-an-en-septembre-selon-l-insee-ce785ad2dd8ef52c"
+          },
+          {
+            "nombre": "Option Finance",
+            "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-09-30-france-linflation-depasse-les-attentes-en-septembre.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finances et marchés",
+        "titulo": "L'OAT à 10 ans dépasse 4,8 %, la BCE peut encore resserrer",
+        "resumen": "Le taux à 10 ans de la France a dépassé 4,8 % mardi, une première depuis la crise de 2008. Le 1er octobre, il s'établissait à 4,90 % pour un Bund à 3,60 %, soit un écart de 130 points de base. L'inflation de la zone euro est ressortie à 3,8 % en septembre, contre 3,2 % en août. La BCE a relevé ses trois taux directeurs de 25 points de base le 10 septembre, portant le taux de dépôt à 2,5 %. Une décision est possible le 29 octobre.",
+        "lectura": "Le coût de la dette publique et celui du crédit aux entreprises évoluent ensemble. Les groupes à financement variable ou à refinancement proche devraient valoriser deux scénarios de taux, avec et sans nouvelle hausse de la BCE.",
+        "fuentes": [
+          {
+            "nombre": "Ideal Investisseur",
+            "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+          },
+          {
+            "nombre": "Échos Plus (Eurostat)",
+            "url": "https://echosplus.com/2026/10/02/inflation-en-zone-euro-a-38-en-septembre-lenergie-accentue-la-pression-sur-la-bce/"
+          },
+          {
+            "nombre": "BCE",
+            "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.fr.html"
+          },
+          {
+            "nombre": "Boursorama (Reuters)",
+            "url": "https://www.boursorama.com/actualite-economique/actualites/bce-une-nouvelle-hausse-des-taux-pourrait-intervenir-des-octobre-sources-91f0445ce49d379a6233fa198bb6213a"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Politique",
+        "titulo": "Le Congrès abroge les décrets logement ; des élections évoquées",
+        "resumen": "Le 2 octobre, le Congrès a rejeté les deux décrets-lois logement (26/2026 et 27/2026), par 178 voix contre 172 pour le premier et 184 contre 166 pour le second. PP, Vox, Junts et UPN ont voté contre. Tombent la prorogation extraordinaire des baux et la protection contre certaines expulsions. Junts estime que ces mesures réduiraient l'offre locative. Pedro Sánchez étudie un scénario électoral ; la date du 29 novembre est évoquée, sans être confirmée.",
+        "lectura": "Le cadre réglementaire du logement locatif reste ouvert. Selon la presse, le décret 26/2026 créait aussi un compte épargne-investissement européen, dont le sort devra être clarifié. Les acteurs exposés au résidentiel espagnol devraient valoriser un scénario de nouvelle loi négociée et un scénario de statu quo.",
+        "fuentes": [
+          {
+            "nombre": "Euribor.com.es",
+            "url": "https://www.euribor.com.es/2026/10/03/congreso-deroga-los-decretos-de-vivienda-con-el-no-de-junts-pp/"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/10/02/congreso-tumba-reales-decretos-vivienda/"
+          },
+          {
+            "nombre": "El Diario de Madrid",
+            "url": "https://www.eldiariodemadrid.es/articulo/politica/pedro-sanchez-adelanto-elecciones-rechazo-decretos-vivienda-manifestaciones/20261002172336143219.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "L'inflation espagnole grimpe à 4,9 %, plus haut depuis 2023",
+        "resumen": "L'indicateur avancé de l'INE situe l'inflation à 4,9 % en septembre, contre 4,3 % en août. L'inflation sous-jacente monte à 3,1 % et l'indice harmonisé à 5,0 %. L'INE cite la hausse des carburants et des forfaits touristiques. Le dato a dépassé les attentes de Bankinter (4,6 %). Les chiffres définitifs sont attendus le 14 octobre. Le dernier IRAV, qui plafonne la revalorisation des loyers récents, est de 2,47 % (août).",
+        "lectura": "L'écart entre IPC et IRAV est considérable pour les baux. Il convient de vérifier, contrat par contrat, quel indice s'applique, notamment pour les actifs locatifs et les clauses d'indexation de contrats conclus avec des partenaires espagnols.",
+        "fuentes": [
+          {
+            "nombre": "INE",
+            "url": "https://www.ine.es/dyngs/Prensa/adIPC0926.htm"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/09/30/ipc-septiembre-2026-sube-carburantes/"
+          },
+          {
+            "nombre": "Cronista España",
+            "url": "https://www.cronista.com/espana/economia-finanzas/como-se-actualiza-el-precio-del-alquiler-ahora-ipc-irav-y-que-indice-corresponde-en-cada-contrato/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "Emploi : record d'affiliés en septembre, effet de la régularisation",
+        "resumen": "La Sécurité sociale a gagné 92 327 affiliés en septembre, meilleur septembre de la série, et totalise plus de 22,4 millions de cotisants. Le chômage enregistré a augmenté de 23 587 personnes, à 2 379 505, le niveau le plus bas pour un mois de septembre depuis 2007. Environ 421 000 affiliés étrangers proviennent de la régularisation extraordinaire. Parmi les chômeurs, 56 476 se sont inscrits après y avoir eu recours.",
+        "lectura": "Les chiffres reflètent en partie une mise au jour d'emplois existants. Il faut lire affiliation et chômage ensemble, sans y voir uniquement de la création nette. Le marché du travail espagnol reste porteur, mais la comparaison avec la France demande cette précaution.",
+        "fuentes": [
+          {
+            "nombre": "Moncloa.com",
+            "url": "https://www.moncloa.com/2026/10/02/paro-septiembre-2026-minimo-desde-2007-3441450"
+          },
+          {
+            "nombre": "El Salto",
+            "url": "https://www.elsaltodiario.com/desempleo/empleo-se-apunta-un-septiembre-record-92-000-personas-gracias-regulacion-migrantes"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/10/02/paro-septiembre-afiliacion-record/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finances et marchés",
+        "titulo": "Budget 2027 hors délai, Ibex en repli de 3,12 % sur la semaine",
+        "resumen": "Le projet de budget 2027 n'a pas été déposé avant l'échéance constitutionnelle du 30 septembre. Le vice-président Carlos Cuerpo assure qu'il viendra, sans date. Les comptes de 2023 sont toujours prorogés. En juillet, le gouvernement avait fixé un plafond de dépenses de 226 032 millions d'euros (+6,6 %) et un objectif de déficit de 1,8 % en 2027. L'Ibex 35 a clôturé à 19 085,30 points vendredi, en baisse de 3,12 % sur la semaine, sa pire depuis avril.",
+        "lectura": "L'absence de budget n'empêche pas l'économie de fonctionner, mais prive d'une visibilité sur la fiscalité et la dépense. Avec la banque en repli jeudi (CaixaBank, Santander, BBVA entre 4 % et 4,6 %), les acteurs du crédit doivent suivre taux et agenda politique.",
+        "fuentes": [
+          {
+            "nombre": "elEconomista",
+            "url": "https://www.eleconomista.es/economia/noticias/14018480/10/26/el-ejecutivo-cierra-toda-una-legislatura-sin-aprobar-nuevos-presupuestos-del-estado.html"
+          },
+          {
+            "nombre": "Infobae (EFE)",
+            "url": "https://www.infobae.com/espana/agencias/2026/09/29/cuerpo-insiste-en-que-habra-presupuestos-pese-a-que-el-plazo-constitucional-vence-manana/"
+          },
+          {
+            "nombre": "Ministerio de Hacienda",
+            "url": "https://www.hacienda.gob.es/es-ES/Prensa/Noticias/Paginas/2026/20260707-NP-CM-TECHO-GASTOS-2027.aspx"
+          },
+          {
+            "nombre": "elEconomista (Ibex)",
+            "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14018339/10/26/el-ibex-35-cae-un-3-en-su-peor-semana-desde-abril-y-pierde-el-soporte-de-los-19390-puntos.html"
+          },
+          {
+            "nombre": "Euribor.com.es",
+            "url": "https://www.euribor.com.es/2026/10/02/analisis-de-mercados-2-de-octubre-de-2026-2-octubre-2026/"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "3-4 octobre 2026",
+        "que": "Espagne : manifestations du Syndicat des locataires dans plus de 50 villes ; Pedro Sánchez doit évaluer un éventuel scénario électoral."
+      },
+      {
+        "cuando": "6 octobre 2026",
+        "que": "France : début de l'examen du PLF 2027 par les députés."
+      },
+      {
+        "cuando": "14 et 15 octobre 2026",
+        "que": "Espagne et France : publication des indices de prix définitifs de septembre (INE le 14, Insee le 15), ainsi que de l'IRAV espagnol le 14."
+      },
+      {
+        "cuando": "23 octobre 2026",
+        "que": "France : décision de Moody's sur la note souveraine (Aa3, perspective négative)."
+      },
+      {
+        "cuando": "29 octobre 2026",
+        "que": "Zone euro : réunion de politique monétaire de la BCE, avec une nouvelle hausse de taux possible."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "Bulletin Rilamax n° 1 – Semaine du 28 septembre au 3 octobre 2026\n\nÉnergie chère, logement en suspens : deux pays sous tension\n\nUn même choc domine la semaine : l'énergie, renchérie par la guerre en Iran et le blocage du détroit d'Ormuz. L'inflation atteint 3,0 % en France et 4,9 % en Espagne, 3,8 % dans la zone euro. En France, le budget 2027 prévoit 54 milliards d'euros d'effort pour viser un déficit de 5,0 %, alors que le taux à 10 ans a dépassé 4,8 %. En Espagne, le Congrès a abrogé les deux décrets logement et un scénario électoral est à l'étude, tandis que l'emploi reste porteur.\n\nÀ retenir\n- L'inflation repart partout : 3,0 % en France, 4,9 % en Espagne, 3,8 % dans la zone euro, et l'OAT à 10 ans atteint 4,90 %.\n- En Espagne, les décrets logement sont tombés, mais le déficit d'environ 755 000 logements et les zones tendues catalanes restent.\n- Plafonds catalans : loyers contenus, annonces en recul d'environ 20 % ; la causalité reste débattue, en Espagne comme en France.\n\nLe dossier : logement en Espagne, un déficit d'offre que les décrets ne traitaient pas\n\nSelon la Banque d'Espagne, le déficit cumulé de logements depuis 2021 atteint environ 755 000 unités et pourrait dépasser le million en 2028. Les prix réels sont revenus à des niveaux proches de 2005. Seuls environ 92 000 logements ont été achevés en 2025, alors que BBVA Research attend environ 223 000 nouveaux ménages en 2026.\n\nLe 29 septembre, le gouvernement a approuvé deux décrets-lois qui pesaient surtout sur le bailleur : prorogation des baux jusqu'à deux ans, plafond de 2 % sur les hausses de loyer, indemnité d'au moins douze mensualités en cas de non-renouvellement. Le 2 octobre, le Congrès les a rejetés, par 178 voix contre 172 et 184 contre 166. Le petit bailleur est nombreux : 76,1 % des bailleurs particuliers ne louent qu'un logement. Mais, sociétés et fonds inclus, ces bailleurs détiennent environ 39 % du parc locatif.\n\nL'expérience catalane est nuancée. Selon Fedea, le loyer moyen a progressé de 5,7 % en Catalogne entre début 2024 et fin 2025, contre 8,5 % à Madrid et 10,8 % en Espagne. Mais les annonces de location ont reculé de 20,5 % en Catalogne, alors qu'elles augmentaient de 3,9 % à Madrid. La Generalitat relève de son côté un loyer en baisse de 4,7 % à Barcelone, une hausse de 9,5 % hors zones tendues et des nouveaux contrats en recul de 36 % depuis 2021, avec un solde net encore positif. Les annonces ne sont qu'un indicateur approché et la causalité n'est pas établie.\n\nEn France, le choix est différent : le statut du bailleur privé offre un amortissement fiscal en échange de loyers plafonnés, mais il semble encore peu utilisé. L'encadrement des loyers, lui, produit une baisse de 2 à 4 % hors Paris et un recul d'environ 8 % des annonces, sans lien causal prouvé.\n\nNotre lecture : un investisseur qui regarde vers l'Espagne devrait valoriser au moins deux scénarios, un cadre inchangé et un cadre durci pour les grands détenteurs, et revoir ses clauses d'indexation et de durée des baux. Le levier durable reste l'offre.\n\nPour lire l'édition complète du Bulletin Rilamax, rendez-vous sur https://bulletin.rilamax.com",
+      "post": "-20,5 %. C'est le recul des annonces de location en Catalogne depuis l'entrée en vigueur des zones tendues, selon Fedea. Dans le même temps, le loyer moyen y a progressé de 5,7 %, contre 8,5 % à Madrid.\n\nCette semaine, le Congrès espagnol a fait tomber en quelques heures les deux décrets qui pesaient sur le propriétaire : prorogation des baux, plafond de 2 % sur les loyers, indemnité de douze mois. Le déficit de logements, lui, reste : environ 755 000 selon la Banque d'Espagne.\n\nLa France a choisi une autre voie, l'amortissement fiscal contre des loyers plafonnés. Son usage reste limité, et son encadrement des loyers livre un signal proche sur l'offre, sans causalité établie.\n\nNotre dossier compare les deux approches, avec les chiffres et les arguments contraires.\n\nÉdition complète sur https://bulletin.rilamax.com\n\n#Espagne #Logement #Immobilier #France #BulletinRilamax"
+    },
+    "minutos": 23
+  },
+  "es": {
+    "editorial": {
+      "titulo": "Energía cara, vivienda en suspenso: dos países bajo tensión",
+      "parrafos": [
+        "Un mismo choque domina la semana: la energía, encarecida por la guerra de Irán y el bloqueo del estrecho de Ormuz. La inflación se ha acelerado hasta el 3,0 % en Francia (Insee) y el 4,9 % en España (INE), y alcanza el 3,8 % en la eurozona. El BCE subió los tipos el 10 de septiembre y podría volver a actuar en su reunión del 29 de octubre.",
+        "En Francia, el Gobierno presentó el jueves su presupuesto de 2027: 54.000 millones de euros de esfuerzo para situar el déficit en el 5,0 % del PIB. El mercado no esperó. El tipo a 10 años superó el 4,8 %, algo que no ocurría desde 2008. El Alto Consejo de las Finanzas Públicas considera optimista la previsión de crecimiento del 1,0 %, y el debate parlamentario se anuncia tenso.",
+        "En España, el riesgo se ha desplazado hacia lo político. El Congreso derogó el viernes los dos decretos de vivienda, pocas horas después de su entrada en vigor, y Pedro Sánchez estudia un escenario electoral, sin decisión anunciada. La economía real se mantiene sólida: 92.327 afiliados más en septiembre y un paro registrado en su nivel más bajo para un mes de septiembre desde 2007, con efecto de la regularización de migrantes. El Ibex perdió un 3,12 % en la semana.",
+        "El dossier de esta edición trata de lo que esos decretos dejan intacto. Según el Banco de España, el déficit acumulado ronda las 755.000 viviendas y podría superar el millón en 2028. Las medidas que recaían sobre el propietario han caído; la ley de 2023 y las zonas tensionadas catalanas siguen vigentes, con rentas contenidas pero menos anuncios. Francia eligió el camino inverso: una ventaja fiscal para el arrendador, el estatuto Jeanbrun, hasta ahora poco utilizado. El contraste es útil para quien, desde España, mira hacia el mercado francés."
+      ],
+      "puntos_clave": [
+        "La inflación repunta a ambos lados de los Pirineos: 3,0 % en Francia, 4,9 % en España y 3,8 % en la eurozona, mientras el OAT a 10 años llega al 4,90 %.",
+        "En España han caído los decretos de vivienda, pero siguen el déficit de unas 755.000 viviendas y las zonas tensionadas catalanas.",
+        "Topes catalanes: rentas contenidas y anuncios en retroceso de en torno al 20 %; la causalidad sigue en debate, en España y en Francia."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "3,0 %",
+        "texto": "Inflación anual en Francia en septiembre (estimación provisional), frente al 2,4 % de agosto",
+        "fuente": "Insee",
+        "pais": "fr"
+      },
+      {
+        "valor": "8,3 %",
+        "texto": "Tasa de paro en el segundo trimestre de 2026, la más alta desde 2020",
+        "fuente": "Insee",
+        "pais": "fr"
+      },
+      {
+        "valor": "54.000 M€",
+        "texto": "Esfuerzo presupuestario anunciado para 2027, de los que 43.000 M€ son medidas nuevas",
+        "fuente": "Ministerio de Economía, PLF 2027",
+        "pais": "fr"
+      },
+      {
+        "valor": "4,9 %",
+        "texto": "Inflación anual en España en septiembre (indicador adelantado), su nivel más alto desde febrero de 2023",
+        "fuente": "INE",
+        "pais": "es"
+      },
+      {
+        "valor": "92.327",
+        "texto": "Afiliados más a la Seguridad Social en septiembre, el mejor septiembre de la serie",
+        "fuente": "Ministerio de Inclusión y Seguridad Social",
+        "pais": "es"
+      },
+      {
+        "valor": "99,9 %",
+        "texto": "Deuda pública española en julio de 2026 (% del PIB), estimación revisable",
+        "fuente": "Banco de España",
+        "pais": "es"
+      }
+    ],
+    "dossier": {
+      "titulo": "Vivienda en España: un déficit de oferta que los decretos no abordaban y unas zonas tensionadas puestas a prueba por los datos",
+      "intro": "El 2 de octubre el Congreso derogó los dos reales decretos-ley de vivienda, cuyo peso recaía sobre el propietario arrendador: prórroga de los contratos, tope del 2 % a las rentas e indemnización de doce mensualidades. El texto cae; el déficit de oferta permanece. Este dossier reconstruye su origen, describe lo que imponían los decretos, mide la experiencia de las zonas tensionadas catalanas y la compara con la opción francesa.",
+      "cifras": [
+        {
+          "valor": "755.000",
+          "texto": "Déficit acumulado de viviendas desde 2021 según el Banco de España, que prevé que supere el millón en 2028"
+        },
+        {
+          "valor": "-20,5 % / +3,9 %",
+          "texto": "Variación de los anuncios de alquiler, 1T 2024 a 4T 2025: Cataluña (zonas tensionadas) / Madrid (Fedea)"
+        },
+        {
+          "valor": "-4,7 % / +9,5 %",
+          "texto": "Renta media de los nuevos contratos, 1T 2024 a 1T 2026: Barcelona / resto de Cataluña fuera de zonas tensionadas (Generalitat)"
+        },
+        {
+          "valor": "150-200 / 4.000",
+          "texto": "Ventas mensuales acogidas al estatuto Jeanbrun estimadas por un profesional, frente a las 4.000 esperadas"
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. Origen: hogares más rápidos que las obras",
+          "parrafos": [
+            "El Banco de España cifra en 755.000 el déficit acumulado de viviendas desde 2021, dato presentado el 23 de septiembre por la subgobernadora Soledad Núñez. Podría aumentar en 300.000 unidades entre 2026 y 2028 y superar el millón. Los precios reales han vuelto a niveles comparables a los de 2005. Sobre el parque existente, el déficit alcanza el 3,7 % en España, frente al 1,5 % en Italia. En 2025 solo se terminaron unas 92.000 viviendas.",
+            "La causa primera es la brecha entre hogares y obras. BBVA Research espera unos 223.000 hogares nuevos en 2026 para 153.000 viviendas iniciadas, frente a las 139.000 de 2025. Los visados de arquitectos para vivienda nueva crecen un 21,4 % en el primer semestre, hasta 72.056, pero la formación de hogares sigue siendo más rápida que la construcción. Las compras de no residentes (7,4 % de las ventas entre 2021 y 2025) se concentran en el litoral y las islas: 1,6 % en Madrid y 2,2 % en Barcelona. A diferencia de 2008, el Banco de España no ve, por ahora, una amenaza para el sistema financiero."
+          ]
+        },
+        {
+          "titulo": "2. La respuesta pública: un paquete que recaía sobre el arrendador",
+          "parrafos": [
+            "El 29 de septiembre el Gobierno aprobó dos reales decretos-ley. El 26/2026, en vigor el 1 de octubre, preveía una prórroga extraordinaria de los contratos de hasta dos años, un tope del 2 % a las subidas sin nuevo acuerdo, la regulación de los alquileres de temporada y de habitaciones, y la protección frente a ciertos desahucios. El 27/2026, en vigor el 2 de octubre, imponía, tras la duración mínima, renovaciones por periodos de cinco años, un preaviso de seis meses y una indemnización de al menos doce mensualidades en caso de no renovación. A ello se sumaban límites a las compras especulativas hasta finales de 2028 e incentivos en el IRPF.",
+            "¿Quién soporta ese peso? Según el Banco de España, con datos fiscales de 2024, el 76,1 % de los arrendadores particulares alquila una sola vivienda y posee el 50,7 % de las viviendas alquiladas por particulares. Incluidas sociedades y fondos, estos pequeños arrendadores poseen alrededor del 39 % del parque de alquiler, según una nota ministerial de abril de 2026. En Barcelona, el 7 % de los arrendadores controla el 45 % del parque (datos de 2023, Verificat). El pequeño propietario es numeroso, pero no mayoritario en volumen.",
+            "El 2 de octubre el Congreso rechazó el primer decreto por 178 votos contra 172 y el segundo por 184 contra 166. El Gobierno se había negado a retirarlos. Según la OCU, el primero estuvo vigente alrededor de un día: la derogación no borra su existencia jurídica. Junts ha presentado un texto alternativo de 59 páginas: prórrogas voluntarias de hasta dos años, prohibición de compra para bancos y fondos hasta finales de 2028, salvo destino de cinco años a vivienda asequible."
+          ]
+        },
+        {
+          "titulo": "3. Efectos medidos: en Cataluña, rentas contenidas y una oferta que retrocede",
+          "parrafos": [
+            "La derogación no afecta ni a la ley de 2023 ni a las zonas tensionadas. Cataluña es la única región que ha aplicado el tope de forma general, desde el 16 de marzo de 2024, primero a 140 municipios y después a 271. Según Fedea (Pinto, junio de 2026), la renta media subió allí un 5,7 % entre el primer trimestre de 2024 y el cuarto de 2025, frente al 8,5 % de Madrid y el 10,8 % del conjunto de España. Pero los anuncios de alquiler cayeron un 22,2 % en Barcelona y un 20,5 % en Cataluña, mientras en Madrid aumentaban un 3,9 %. Barcelona registra 462 contactos por anuncio, frente a 103 en Madrid.",
+            "Los datos de la Generalitat, procedentes de los depósitos de fianzas, matizan el cuadro. Entre el primer trimestre de 2024 y el de 2026, la renta media de los nuevos contratos pasa de 887,90 a 876,56 euros en las zonas tensionadas, con un -4,7 % en Barcelona, pero un +9,5 % fuera de ellas. Los nuevos contratos de alquiler habitual han pasado de 167.842 en 2021 a 108.057 en 2025, un -36 %, aunque el saldo neto sigue siendo positivo (8.895 en 2025). La Generalitat admite una fuerte desaceleración y un desplazamiento hacia el alquiler de temporada y de habitaciones. Fedea atribuye al ciclo de mercado la caída de en torno al 10 % observada en Valencia y Andalucía, donde no hay regulación.",
+            "Las limitaciones son reales: Fedea cuenta anuncios, no contratos, y su balance es descriptivo. El alza fuera de las zonas tensionadas podría reflejar un desplazamiento de la demanda; es una hipótesis, no está demostrada. La Generalitat revisa su mapa: entrarían 53 municipios, saldrían 22 y el total sería de 302."
+          ]
+        },
+        {
+          "titulo": "4. El contrapunto francés: primero el incentivo, la regulación a título experimental",
+          "parrafos": [
+            "Francia ha priorizado el incentivo. El estatuto del arrendador privado, conocido como dispositivo Jeanbrun, creado por la ley de presupuestos de 2026 promulgada el 20 de febrero, se aplica del 21 de febrero de 2026 a finales de 2028. Permite amortizar el 80 % del precio, excluido el suelo, con un límite anual de entre 8.000 y 12.000 euros según el nivel de renta. Contrapartidas: alquiler sin amueblar como vivienda habitual durante nueve años, topes de renta y de ingresos, inmueble colectivo y sin zonificación. El Gobierno apuntaba a 50.000 viviendas de alquiler privado desde 2026. Un profesional citado por Batirama estima el uso actual en 150-200 ventas al mes, frente a las 4.000 esperadas. Las ventas a inversores han remontado un 13,4 % en el primer semestre, hasta 3.427 viviendas.",
+            "La regulación de los alquileres sigue siendo experimental y se extingue a finales de noviembre de 2026 si no hay nueva ley. El informe Chapelle-Fack (mayo de 2026) estima las rentas entre un 2 % y un 4 % inferiores fuera de París, hasta un 5 % al final del periodo. Constata un retroceso de en torno al 8 % de los anuncios fuera de la Île-de-France, sin probar la causalidad, y un 35,6 % de contratos parisinos por encima del tope. Los dos países ofrecen la misma señal sobre la oferta, con la misma incertidumbre. Se distinguen por el instrumento: incentivo fiscal sobre el flujo nuevo en Francia, restricción sobre el stock existente en los decretos españoles."
+          ]
+        },
+        {
+          "titulo": "5. Palancas y puntos de atención",
+          "parrafos": [
+            "Los decretos actuaban sobre el reparto del parque existente; el déficit se juega en el flujo. El Banco de España aboga por medidas de oferta en lugar de intervenciones generales sobre los precios. Tres puntos decidirán lo que viene: una eventual negociación entre el PSOE y Junts, la aprobación definitiva del mapa catalán y el calendario político español."
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "despues_de_seccion": 1,
+          "aria": "Déficit de viviendas en España: 755.000 acumuladas en 2021-2025, otras 300.000 posibles hasta 2028, es decir, unas 1.055.000",
+          "pie": "España, 2021-2028. Fuente: Banco de España (S. Núñez, 23 de septiembre de 2026); total 2028 = 755.000 + 300.000.",
+          "barras": [
+            {
+              "etiqueta": "Déficit acumulado 2021-2025",
+              "valor": 755000,
+              "texto": "≈ 755.000",
+              "pct": 72
+            },
+            {
+              "etiqueta": "Aumento posible 2026-2028",
+              "valor": 300000,
+              "texto": "≈ 300.000",
+              "pct": 28
+            },
+            {
+              "etiqueta": "Total estimado en 2028",
+              "valor": 1055000,
+              "texto": "≈ 1.055.000",
+              "pct": 100
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 3,
+          "aria": "Caída del número de anuncios de alquiler entre el 1T 2024 y el 4T 2025: Barcelona 22,2 %, Cataluña 20,5 %, Valencia y Andalucía alrededor del 10 %, España sin Cataluña 7,0 %",
+          "pie": "Caída de los anuncios de alquiler, 1T 2024 a 4T 2025, en %. En Madrid, los anuncios aumentaron un 3,9 %. Fuente: Fedea (Pinto, junio de 2026).",
+          "barras": [
+            {
+              "etiqueta": "Barcelona",
+              "valor": 22.2,
+              "texto": "-22,2 %",
+              "pct": 100
+            },
+            {
+              "etiqueta": "Cataluña",
+              "valor": 20.5,
+              "texto": "-20,5 %",
+              "pct": 92
+            },
+            {
+              "etiqueta": "Valencia y Andalucía",
+              "valor": 10,
+              "texto": "≈ -10 %",
+              "pct": 45
+            },
+            {
+              "etiqueta": "España sin Cataluña",
+              "valor": 7.0,
+              "texto": "-7,0 %",
+              "pct": 32
+            }
+          ]
+        }
+      ],
+      "debate": {
+        "despues_de_seccion": 3,
+        "texto": "Para los defensores de la regulación, los topes protegen a los inquilinos actuales: Fedea constata una subida menor de las rentas donde la ley se aplica, y la Generalitat señala que el saldo de contratos sigue siendo positivo. El Gobierno presentaba sus decretos como una respuesta de urgencia. Para sus detractores, entre ellos Fedea, Junts y parte del sector, la contracción de la oferta agrava el acceso a la vivienda, y las medidas que recaen sobre el pequeño arrendador pueden acentuarla. Fedea, no obstante, exculpa a la ley de la subida general de precios, porque se aplica poco fuera de Cataluña. Investigadores de la UPC cuestionan incluso el diagnóstico de déficit, que ignoraría el excedente acumulado antes de 2021. Ambos bandos tienen límites: los anuncios son solo un indicador aproximado de la oferta y la causalidad no está establecida. La evidencia es coherente con un arbitraje entre precio y volumen, pero no concluyente sobre su magnitud."
+      },
+      "lectura": "Para una empresa o un inversor español que mira hacia Francia, el caso español deja cuatro enseñanzas. Primera: Francia no está exenta de riesgo regulatorio. Opta por el incentivo fiscal, pero su regulación de alquileres es experimental y se extingue a finales de noviembre de 2026 sin nueva ley; conviene valorar dos escenarios, prórroga y extinción. Segunda: los incentivos tienen contrapartidas. El estatuto Jeanbrun exige alquiler sin amueblar como vivienda habitual durante nueve años, con topes de renta y de ingresos, y una primera estimación sectorial sugiere un uso aún escaso. Tercera: ninguna de las dos vías está probada. Los datos catalanes y los franceses apuntan a un arbitraje entre rentas contenidas y volumen de oferta, sin causalidad demostrada ni magnitud concluyente. Cuarta: conviene revisar las cláusulas de indexación, la duración de los contratos, el peso del alquiler de temporada y la exposición a zonas tensionadas, a ambos lados de la frontera. La palanca duradera sigue siendo la oferta, que los decretos no abordaban.",
+      "vigilaremos": "Seguiremos la negociación entre el PSOE y Junts, la decisión final sobre el mapa catalán de zonas tensionadas y, en Francia, la decisión sobre la regulación de los alquileres antes de finales de noviembre.",
+      "fuentes": [
+        {
+          "nombre": "Infobae (EFE): El Banco de España cree que el déficit superará el millón en dos años",
+          "url": "https://www.infobae.com/espana/agencias/2026/09/23/el-banco-de-espana-cree-que-el-deficit-de-viviendas-superara-el-millon-en-dos-anos/"
+        },
+        {
+          "nombre": "Público: El Banco de España estima un déficit de más de un millón en 2028",
+          "url": "https://www.publico.es/economia/vivienda/banco-espana-estima-deficit-viviendas-superara-millon-dos-anos.html"
+        },
+        {
+          "nombre": "COPE: El Banco de España eleva a 750.000 el déficit de vivienda",
+          "url": "https://www.cope.es/actualidad/economia/noticias/banco-espana-eleva-750-000-deficit-vivienda-doble-italia-20260618_3386980.html"
+        },
+        {
+          "nombre": "The Objective: BBVA Research, la vivienda nueva no alcanza",
+          "url": "https://theobjective.com/economia/2026-08-18/vivienda-cubrira-mitad-nuevos-hogares/"
+        },
+        {
+          "nombre": "elEconomista: visados de vivienda nueva, primer semestre 2026 (CSCAE)",
+          "url": "https://www.eleconomista.es/vivienda-inmobiliario/noticias/14014029/09/26/los-visados-para-construir-vivienda-nueva-crecen-un-21-en-el-primer-semestre-segun-los-arquitectos.html"
+        },
+        {
+          "nombre": "UPC: Cinco tesis sobre la política de vivienda en España",
+          "url": "https://www.upc.edu/ca/sala-de-premsa/pdfs/cinco-tesis-sobre-la-vivienda-en-espana"
+        },
+        {
+          "nombre": "OCU: Derogados los RDL 26 y 27/2026",
+          "url": "https://www.ocu.org/fincas-y-casas/gestion/alquiler/analisis/2026/10/derogados-los-decretos-de-alquileres"
+        },
+        {
+          "nombre": "Garantilo: Decretos de vivienda 2026, derogados",
+          "url": "https://www.garantilo.es/decretos-vivienda-2026.html"
+        },
+        {
+          "nombre": "Deia: el BOE publica la derogación de los decretos",
+          "url": "https://www.deia.eus/politica/2026/10/02/boe-publica-derogacion-reales-decretos-11611804.html"
+        },
+        {
+          "nombre": "Vozpópuli: Junts presenta su propio decreto de vivienda",
+          "url": "https://www.vozpopuli.com/espana/politica/junts-responde-al-ordago-de-sanchez-con-su-propio-decreto-de-vivienda-y-le-emplaza-a-romper-el-pacto-con-sumar.html"
+        },
+        {
+          "nombre": "Democrata: Junts emplaza al PSOE a negociar",
+          "url": "https://www.democrata.es/politica/junts-emplaza-psoe-negociar-su-decreto-vivienda-tumbar-gobierno-depende-ellos/"
+        },
+        {
+          "nombre": "Democrata: quién tiene las viviendas de alquiler (datos Banco de España)",
+          "url": "https://www.democrata.es/vivienda/quien-tiene-viviendas-alquiler-en-espana-mitad-pisos-particulares-esta-en-manos-caseros-con-sola-casa/"
+        },
+        {
+          "nombre": "Ministerio de Derechos Sociales y Consumo: el mercado del alquiler en manos de multiarrendadores",
+          "url": "https://www.dsca.gob.es/en/comunicacion/notas-prensa/61-mercado-alquiler-esta-manos-multiarrendadores-particulares-personas"
+        },
+        {
+          "nombre": "Verificat: grandes tenedores y alquileres en Barcelona",
+          "url": "https://www.verificat.cat/es/grupo-3000-grandes-tenedores-concentra-33-alquileres-barcelona-mayoria-pequenos-propietarios/"
+        },
+        {
+          "nombre": "Fedea: La Ley 12/2023, un primer balance empírico",
+          "url": "https://fedea.net/la-ley-12-2023-por-el-derecho-a-la-vivienda-un-primer-balance-empirico/"
+        },
+        {
+          "nombre": "Fedea: documento completo (Pinto, 2026/15)",
+          "url": "https://documentos.fedea.net/documento/ap2026-15/texto"
+        },
+        {
+          "nombre": "idealista: La Generalitat reconoce que el alquiler habitual pierde fuerza",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/07/21/907151-la-generalitat-reconoce-que-el-alquiler-habitual-pierde-fuerza-en-cataluna-tras"
+        },
+        {
+          "nombre": "Catalunya Press: datos de la Generalitat, primer trimestre de 2026",
+          "url": "https://www.catalunyapress.es/articulo/economia/2026-09-15/6013955-catalunya-crecen-quienes-no-tienen-vivienda-quienes-acumulan-varias"
+        },
+        {
+          "nombre": "Infobae (EFE): alquileres de temporada y datos Incasòl",
+          "url": "https://www.infobae.com/espana/agencias/2026/04/18/los-alquileres-de-temporada-caen-por-primera-vez-en-cataluna-desde-el-tope-a-los-precios/"
+        },
+        {
+          "nombre": "idealista: nuevo mapa de zonas tensionadas en Cataluña",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/09/14/913612-el-nuevo-mapa-de-zonas-tensionadas-en-cataluna-53-municipios-entrarian-y-otros-22"
+        },
+        {
+          "nombre": "I-Immobilier: estatuto de arrendador privado, dispositivo Jeanbrun",
+          "url": "https://cabinet-i-immobilier.fr/statut-bailleur-prive/"
+        },
+        {
+          "nombre": "Batirama: vivienda nueva, se acelera la caída de las ventas",
+          "url": "https://www.batirama.com/article/109202-logements-neufs-la-baisse-des-ventes-s-accelere.html"
+        },
+        {
+          "nombre": "IPP: nota n.º 125, la regulación de los alquileres",
+          "url": "https://www.ipp.eu/wp-content/uploads/2026/05/Note_IPP_Encadrement_des_loyers.pdf"
+        },
+        {
+          "nombre": "Politique du logement: lo que dice el informe Fack y Chapelle",
+          "url": "https://politiquedulogement.com/2026/06/encadrement-des-loyers-ce-que-dit-le-rapport-fack-chapelle/"
+        },
+        {
+          "nombre": "Moneyvox: regulación de los alquileres, un informe plantea si debe continuar",
+          "url": "https://www.moneyvox.fr/immobilier/actualites/108939/encadrement-des-loyers-un-rapport-pose-la-question-de-la-poursuite-du-dispositif"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Política",
+        "titulo": "Presupuesto 2027: 54.000 millones de esfuerzo para un déficit del 5,0 %",
+        "resumen": "El Gobierno presentó el 1 de octubre el proyecto de ley de presupuestos (PLF) y el de financiación de la Seguridad Social (PLFSS) para 2027. Anuncia 43.000 millones de euros de medidas de reequilibrio, que ascienden a 54.000 millones con la entrada en vigor plena de medidas anteriores, para reducir el déficit del 5,4 % en 2026 al 5,0 %. La deuda alcanzaría el 121,7 % del PIB y la carga de intereses, 91.000 millones. El Alto Consejo de las Finanzas Públicas (HCFP) considera optimista el crecimiento del 1,0 %. Los diputados deben empezar a examinarlo el 6 de octubre, con riesgo de censura mencionado.",
+        "lectura": "El texto es un punto de partida, no un marco estable. Las empresas españolas con negocio o filiales en Francia harían bien en construir dos escenarios para 2027: aprobación con enmiendas o régimen transitorio si fracasa. El desenlace pesará sobre los tipos y, por tanto, sobre el coste de la financiación.",
+        "fuentes": [
+          {
+            "nombre": "France 24",
+            "url": "https://www.france24.com/fr/france/20261001-budget-2027-le-gouvernement-d%C3%A9voile-son-projet-sous-la-pression-des-march%C3%A9s"
+          },
+          {
+            "nombre": "Euronews",
+            "url": "https://fr.euronews.com/2026/10/01/budget-2027-le-gouvernement-propose-un-effort-de-54-milliards-deuros-pour-ramener-le-defic"
+          },
+          {
+            "nombre": "Legifiscal",
+            "url": "https://www.legifiscal.fr/actualites-fiscales/4656-presentation-plf-2027.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Política",
+        "titulo": "Empresas: recargo del impuesto de sociedades aliviado, tasas sectoriales al alza",
+        "resumen": "El PLF 2027 prorroga por tercer año el recargo del impuesto sobre sociedades de los grandes grupos, pero lo reduce un 30 %, con una recaudación de 5.000 millones de euros frente a 7.000 millones. La tasa sobre los operadores de autopistas y aeropuertos pasaría del 4,6 % a un máximo del 12,2 %. El crédito fiscal a la investigación y el pacto Dutreil no cambian. La patronal Medef cifra en casi 20.000 millones de euros los gravámenes que pesan sobre las empresas.",
+        "lectura": "La cifra del Medef y el cálculo del Gobierno divergen, y el texto aún puede cambiar. Conviene revisar las hipótesis de tipo efectivo en los planes de 2027, en especial para los grupos españoles con actividad en Francia y los grupos franceses con actividad en España.",
+        "fuentes": [
+          {
+            "nombre": "DAF Mag",
+            "url": "https://www.daf-mag.fr/reglementation-1243/fiscalite-2115/budget-2027-ce-que-le-projet-de-loi-de-finances-prevoit-pour-les-entreprises-27545"
+          },
+          {
+            "nombre": "Le Monde du Chiffre",
+            "url": "https://www.lemondeduchiffre.fr/a-la-une/80682-budget-2027-l-impot-epargne-la-fiche-de-paie-mise-a-contribution.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "Inflación del 3,0 % en septiembre, impulsada por la energía",
+        "resumen": "Según la estimación provisional del Insee del 30 de septiembre, los precios de consumo subieron un 3,0 % interanual, frente al 2,4 % de agosto y por encima del consenso del 2,8 %. La energía se disparó un 21,2 % y los productos frescos un 9,9 %. En datos armonizados, la inflación alcanza el 3,4 %. Antes del bloqueo del estrecho de Ormuz a finales de febrero, los precios subían solo en torno a un 1 %. Los resultados definitivos se publicarán el 15 de octubre.",
+        "lectura": "El Insee precisa que los índices provisionales no deben utilizarse para revalorizaciones contractuales. Las empresas que indexan alquileres, contratos o salarios al IPC francés deben esperar al índice definitivo y verificar las cláusulas correspondientes.",
+        "fuentes": [
+          {
+            "nombre": "Insee",
+            "url": "https://www.insee.fr/fr/statistiques/9056956"
+          },
+          {
+            "nombre": "Zonebourse (AFP)",
+            "url": "https://www.zonebourse.com/actualite-bourse/france-l-inflation-grimpe-a-3-sur-un-an-en-septembre-selon-l-insee-ce785ad2dd8ef52c"
+          },
+          {
+            "nombre": "Option Finance",
+            "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-09-30-france-linflation-depasse-les-attentes-en-septembre.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finanzas y mercados",
+        "titulo": "El OAT a 10 años supera el 4,8 % y el BCE puede endurecer más",
+        "resumen": "El tipo a 10 años de Francia superó el martes el 4,8 %, algo inédito desde la crisis de 2008. El 1 de octubre se situaba en el 4,90 %, con un Bund al 3,60 %, es decir, un diferencial de 130 puntos básicos. La inflación de la eurozona fue del 3,8 % en septiembre, frente al 3,2 % de agosto. El BCE subió sus tres tipos de referencia 25 puntos básicos el 10 de septiembre, con lo que el tipo de depósito queda en el 2,5 %. Cabe una nueva decisión el 29 de octubre.",
+        "lectura": "El coste de la deuda pública y el del crédito a las empresas evolucionan juntos. Los grupos con financiación variable o refinanciación próxima, también los españoles con deuda en euros, deberían valorar dos escenarios de tipos, con y sin nueva subida del BCE.",
+        "fuentes": [
+          {
+            "nombre": "Ideal Investisseur",
+            "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+          },
+          {
+            "nombre": "Échos Plus (Eurostat)",
+            "url": "https://echosplus.com/2026/10/02/inflation-en-zone-euro-a-38-en-septembre-lenergie-accentue-la-pression-sur-la-bce/"
+          },
+          {
+            "nombre": "BCE",
+            "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.fr.html"
+          },
+          {
+            "nombre": "Boursorama (Reuters)",
+            "url": "https://www.boursorama.com/actualite-economique/actualites/bce-une-nouvelle-hausse-des-taux-pourrait-intervenir-des-octobre-sources-91f0445ce49d379a6233fa198bb6213a"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Política",
+        "titulo": "El Congreso deroga los decretos de vivienda; se habla de elecciones",
+        "resumen": "El 2 de octubre el Congreso rechazó los dos reales decretos-ley de vivienda (26/2026 y 27/2026), por 178 votos contra 172 el primero y 184 contra 166 el segundo. PP, Vox, Junts y UPN votaron en contra. Caen la prórroga extraordinaria de los contratos de alquiler y la protección frente a ciertos desahucios. Junts considera que estas medidas reducirían la oferta de alquiler. Pedro Sánchez estudia un escenario electoral; se menciona la fecha del 29 de noviembre, sin confirmar.",
+        "lectura": "El marco regulatorio del alquiler residencial sigue abierto. Según la prensa, el decreto 26/2026 creaba también una cuenta ahorro-inversión europea, cuyo destino habrá que aclarar. Quienes tienen exposición al residencial español deberían valorar un escenario de nueva ley negociada y otro de statu quo, y compararlos con el marco francés, donde prima el incentivo.",
+        "fuentes": [
+          {
+            "nombre": "Euribor.com.es",
+            "url": "https://www.euribor.com.es/2026/10/03/congreso-deroga-los-decretos-de-vivienda-con-el-no-de-junts-pp/"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/10/02/congreso-tumba-reales-decretos-vivienda/"
+          },
+          {
+            "nombre": "El Diario de Madrid",
+            "url": "https://www.eldiariodemadrid.es/articulo/politica/pedro-sanchez-adelanto-elecciones-rechazo-decretos-vivienda-manifestaciones/20261002172336143219.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "La inflación española sube al 4,9 %, máximo desde 2023",
+        "resumen": "El indicador adelantado del INE sitúa la inflación en el 4,9 % en septiembre, frente al 4,3 % de agosto. La inflación subyacente sube al 3,1 % y el índice armonizado, al 5,0 %. El INE cita el encarecimiento de los carburantes y de los paquetes turísticos. El dato superó las previsiones de Bankinter (4,6 %). Las cifras definitivas se esperan para el 14 de octubre. El último IRAV, que limita la revalorización de los alquileres recientes, es del 2,47 % (agosto).",
+        "lectura": "La distancia entre IPC e IRAV es considerable para los arrendamientos. Conviene verificar, contrato por contrato, qué índice se aplica, en particular en los activos de alquiler y en las cláusulas de indexación, y contrastarlo con la referencia de inflación francesa cuando haya contrapartes al otro lado de la frontera.",
+        "fuentes": [
+          {
+            "nombre": "INE",
+            "url": "https://www.ine.es/dyngs/Prensa/adIPC0926.htm"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/09/30/ipc-septiembre-2026-sube-carburantes/"
+          },
+          {
+            "nombre": "Cronista España",
+            "url": "https://www.cronista.com/espana/economia-finanzas/como-se-actualiza-el-precio-del-alquiler-ahora-ipc-irav-y-que-indice-corresponde-en-cada-contrato/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "Empleo: récord de afiliados en septiembre, con efecto de la regularización",
+        "resumen": "La Seguridad Social ganó 92.327 afiliados en septiembre, el mejor septiembre de la serie, y suma más de 22,4 millones de cotizantes. El paro registrado aumentó en 23.587 personas, hasta 2.379.505, el nivel más bajo para un mes de septiembre desde 2007. Unos 421.000 afiliados extranjeros proceden de la regularización extraordinaria. Entre los desempleados, 56.476 se inscribieron tras acogerse a ella.",
+        "lectura": "Las cifras reflejan en parte el afloramiento de empleos ya existentes. Conviene leer afiliación y paro conjuntamente, sin ver solo creación neta de empleo. El mercado laboral español sigue siendo dinámico, pero la comparación con Francia, donde el paro alcanza el 8,3 %, exige esta cautela.",
+        "fuentes": [
+          {
+            "nombre": "Moncloa.com",
+            "url": "https://www.moncloa.com/2026/10/02/paro-septiembre-2026-minimo-desde-2007-3441450"
+          },
+          {
+            "nombre": "El Salto",
+            "url": "https://www.elsaltodiario.com/desempleo/empleo-se-apunta-un-septiembre-record-92-000-personas-gracias-regulacion-migrantes"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/10/02/paro-septiembre-afiliacion-record/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finanzas y mercados",
+        "titulo": "Presupuestos 2027 fuera de plazo, Ibex en retroceso del 3,12 % semanal",
+        "resumen": "El proyecto de presupuestos de 2027 no se presentó antes del plazo constitucional del 30 de septiembre. El vicepresidente Carlos Cuerpo asegura que llegará, sin fecha. Siguen prorrogadas las cuentas de 2023. En julio el Gobierno había fijado un techo de gasto de 226.032 millones de euros (+6,6 %) y un objetivo de déficit del 1,8 % en 2027. El Ibex 35 cerró el viernes en 19.085,30 puntos, con un descenso del 3,12 % en la semana, la peor desde abril.",
+        "lectura": "La ausencia de presupuestos no impide que la economía funcione, pero priva de visibilidad sobre la fiscalidad y el gasto. Con la banca a la baja el jueves (CaixaBank, Santander y BBVA, entre el 4 % y el 4,6 %), los actores del crédito deben seguir los tipos y la agenda política.",
+        "fuentes": [
+          {
+            "nombre": "elEconomista",
+            "url": "https://www.eleconomista.es/economia/noticias/14018480/10/26/el-ejecutivo-cierra-toda-una-legislatura-sin-aprobar-nuevos-presupuestos-del-estado.html"
+          },
+          {
+            "nombre": "Infobae (EFE)",
+            "url": "https://www.infobae.com/espana/agencias/2026/09/29/cuerpo-insiste-en-que-habra-presupuestos-pese-a-que-el-plazo-constitucional-vence-manana/"
+          },
+          {
+            "nombre": "Ministerio de Hacienda",
+            "url": "https://www.hacienda.gob.es/es-ES/Prensa/Noticias/Paginas/2026/20260707-NP-CM-TECHO-GASTOS-2027.aspx"
+          },
+          {
+            "nombre": "elEconomista (Ibex)",
+            "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14018339/10/26/el-ibex-35-cae-un-3-en-su-peor-semana-desde-abril-y-pierde-el-soporte-de-los-19390-puntos.html"
+          },
+          {
+            "nombre": "Euribor.com.es",
+            "url": "https://www.euribor.com.es/2026/10/02/analisis-de-mercados-2-de-octubre-de-2026-2-octubre-2026/"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "3-4 de octubre de 2026",
+        "que": "España: manifestaciones del Sindicato de Inquilinas en más de 50 ciudades; Pedro Sánchez debe evaluar un posible escenario electoral."
+      },
+      {
+        "cuando": "6 de octubre de 2026",
+        "que": "Francia: inicio del examen del PLF 2027 por los diputados."
+      },
+      {
+        "cuando": "14 y 15 de octubre de 2026",
+        "que": "España y Francia: publicación de los índices de precios definitivos de septiembre (INE el 14, Insee el 15) y del IRAV español el 14."
+      },
+      {
+        "cuando": "23 de octubre de 2026",
+        "que": "Francia: decisión de Moody's sobre la calificación soberana (Aa3, perspectiva negativa)."
+      },
+      {
+        "cuando": "29 de octubre de 2026",
+        "que": "Eurozona: reunión de política monetaria del BCE, con posible nueva subida de tipos."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "Bulletin Rilamax n.º 1 – Semana del 28 de septiembre al 3 de octubre de 2026\n\nEnergía cara, vivienda en suspenso: dos países bajo tensión\n\nUn mismo choque domina la semana: la energía, encarecida por la guerra de Irán y el bloqueo del estrecho de Ormuz. La inflación alcanza el 3,0 % en Francia y el 4,9 % en España, y el 3,8 % en la eurozona. En Francia, el presupuesto de 2027 prevé 54.000 millones de euros de esfuerzo para situar el déficit en el 5,0 %, mientras el tipo a 10 años ha superado el 4,8 %. En España, el Congreso ha derogado los dos decretos de vivienda y se estudia un escenario electoral, aunque el empleo sigue siendo dinámico.\n\nLo que hay que retener\n- La inflación repunta a ambos lados de los Pirineos: 3,0 % en Francia, 4,9 % en España y 3,8 % en la eurozona, mientras el OAT a 10 años llega al 4,90 %.\n- En España han caído los decretos de vivienda, pero siguen el déficit de unas 755.000 viviendas y las zonas tensionadas catalanas.\n- Topes catalanes: rentas contenidas y anuncios en retroceso de en torno al 20 %; la causalidad sigue en debate, en España y en Francia.\n\nEl dossier: vivienda en España, un déficit de oferta que los decretos no abordaban\n\nSegún el Banco de España, el déficit acumulado de viviendas desde 2021 ronda las 755.000 unidades y podría superar el millón en 2028. Los precios reales han vuelto a niveles próximos a los de 2005. En 2025 se terminaron solo unas 92.000 viviendas, mientras BBVA Research espera unos 223.000 hogares nuevos en 2026.\n\nEl 29 de septiembre el Gobierno aprobó dos reales decretos-ley que recaían sobre todo en el arrendador: prórroga de los contratos de hasta dos años, tope del 2 % a las subidas de renta e indemnización de al menos doce mensualidades si no se renueva. El 2 de octubre el Congreso los rechazó, por 178 votos contra 172 y 184 contra 166. El pequeño arrendador es numeroso: el 76,1 % de los arrendadores particulares alquila una sola vivienda. Pero, incluidas sociedades y fondos, estos arrendadores poseen alrededor del 39 % del parque de alquiler.\n\nLa experiencia catalana es matizada. Según Fedea, la renta media subió un 5,7 % en Cataluña entre principios de 2024 y finales de 2025, frente al 8,5 % de Madrid y el 10,8 % de España. Pero los anuncios de alquiler cayeron un 20,5 % en Cataluña, mientras en Madrid aumentaban un 3,9 %. La Generalitat señala por su parte una renta un 4,7 % menor en Barcelona, un alza del 9,5 % fuera de las zonas tensionadas y unos nuevos contratos un 36 % por debajo desde 2021, con saldo neto todavía positivo. Los anuncios son solo un indicador aproximado y la causalidad no está establecida.\n\nEn Francia la opción es otra: el estatuto del arrendador privado ofrece amortización fiscal a cambio de rentas limitadas, pero parece aún poco utilizado. La regulación de los alquileres, por su parte, arroja rentas entre un 2 % y un 4 % menores fuera de París y un retroceso de en torno al 8 % de los anuncios, sin vínculo causal probado.\n\nNuestra lectura: una empresa o un inversor español que mira hacia Francia debería valorar al menos dos escenarios para la regulación de alquileres, prórroga o extinción a finales de noviembre, y revisar sus cláusulas de indexación y la duración de los contratos. La palanca duradera sigue siendo la oferta.\n\nPara leer la edición completa del Bulletin Rilamax, visite https://bulletin.rilamax.com",
+      "post": "-20,5 %. Es el retroceso de los anuncios de alquiler en Cataluña entre principios de 2024 y finales de 2025, según Fedea. En el mismo periodo, la renta media subió un 5,7 %, frente al 8,5 % de Madrid.\n\nEsta semana el Congreso derogó en pocas horas los dos decretos que recaían sobre el propietario: prórroga de contratos, tope del 2 % a las rentas e indemnización de doce mensualidades. El déficit de vivienda, en cambio, permanece: unas 755.000 según el Banco de España.\n\nFrancia eligió otra vía, la amortización fiscal a cambio de rentas limitadas. Su uso sigue siendo escaso, y su regulación de alquileres da una señal parecida sobre la oferta, sin causalidad establecida.\n\nNuestro dossier compara ambos enfoques, con las cifras y los argumentos contrarios.\n\nEdición completa en https://bulletin.rilamax.com\n\n#España #Francia #Vivienda #Inmobiliario #BulletinRilamax"
+    },
+    "minutos": 24
+  }
+}
