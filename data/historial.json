@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "numero": 1,
+    "fecha": "2026-10-03",
+    "semana": 40,
+    "ruta": "/ediciones/2026-10-03/",
+    "titulo_fr": "La dette française face au miroir espagnol : le prix du risque",
+    "titulo_es": "La deuda francesa ante el espejo español: el precio del riesgo"
+  }
+]

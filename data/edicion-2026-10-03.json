@@ -1,0 +1,852 @@
+{
+  "fr": {
+    "editorial": {
+      "titre": "Énergie, dette, politique : deux pays sous pression",
+      "parrafos": [
+        "Un même choc domine la semaine : l'énergie, renchérie par la guerre en Iran et le blocage du détroit d'Ormuz. L'inflation a accéléré à 3,0 % en France (Insee) et à 4,9 % en Espagne (INE). Elle atteint 3,8 % dans la zone euro. La BCE a relevé ses taux le 10 septembre et pourrait agir de nouveau lors de sa réunion du 29 octobre.",
+        "En France, le gouvernement a présenté jeudi son budget 2027 : 54 milliards d'euros d'effort pour viser un déficit de 5,0 % du PIB. Le marché n'a pas attendu. Le taux à 10 ans a dépassé 4,8 %, une première depuis 2008. Le Haut Conseil des finances publiques juge la prévision de croissance de 1,0 % optimiste, et le débat parlementaire s'annonce tendu.",
+        "En Espagne, le risque s'est déplacé vers le politique. Le Congrès a abrogé vendredi les deux décrets sur le logement, et Pedro Sánchez étudie un scénario électoral, sans décision annoncée. L'économie réelle reste solide : 92 327 affiliés supplémentaires en septembre et un chômage enregistré au plus bas pour un mois de septembre depuis 2007, avec un effet de la régularisation de migrants. L'Ibex a perdu 3,12 % sur la semaine.",
+        "Pour le lecteur français qui regarde vers l'Espagne, la semaine illustre un contraste : deux pays face au même choc, avec des points de départ budgétaires très différents. Le dossier de cette première édition y est consacré : ce que le marché mesure déjà, et ce que cet écart change pour ceux qui investissent ou opèrent entre les deux pays."
+      ],
+      "puntos_clave": [
+        "L'inflation repart partout : 3,0 % en France, 4,9 % en Espagne, 3,8 % dans la zone euro.",
+        "Le taux français à 10 ans (4,90 %) creuse l'écart avec l'Espagne malgré un budget d'effort de 54 Md€.",
+        "En Espagne, le risque est politique : décrets logement abrogés, budget 2027 absent, élections possibles."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "3,0 %",
+        "texto": "Inflation annuelle en France en septembre (estimation provisoire), contre 2,4 % en août",
+        "fuente": "Insee",
+        "pais": "fr"
+      },
+      {
+        "valor": "8,3 %",
+        "texto": "Taux de chômage au deuxième trimestre 2026, le plus haut depuis 2020",
+        "fuente": "Insee",
+        "pais": "fr"
+      },
+      {
+        "valor": "54 Md€",
+        "texto": "Effort budgétaire annoncé pour 2027, dont 43 Md€ de mesures nouvelles",
+        "fuente": "Ministère de l'Économie, PLF 2027",
+        "pais": "fr"
+      },
+      {
+        "valor": "4,9 %",
+        "texto": "Inflation annuelle en Espagne en septembre (indicateur avancé), son plus haut depuis février 2023",
+        "fuente": "INE",
+        "pais": "es"
+      },
+      {
+        "valor": "92 327",
+        "texto": "Affiliés supplémentaires à la Sécurité sociale en septembre, meilleur septembre de la série",
+        "fuente": "Ministère de l'Inclusion et de la Sécurité sociale",
+        "pais": "es"
+      },
+      {
+        "valor": "99,9 %",
+        "texto": "Dette publique espagnole en juillet 2026 (% du PIB), estimation révisable",
+        "fuente": "Banque d'Espagne",
+        "pais": "es"
+      }
+    ],
+    "dossier": {
+      "titulo": "La dette française face au miroir espagnol : le prix du risque",
+      "intro": "Le rendement des OAT à 10 ans a franchi 4,8 % cette semaine, au moment où Paris dévoilait son budget 2027. Dans le même temps, l'Espagne repasse sous 100 % de dette publique. Ce dossier explique ce qui sépare les deux trajectoires, ce que le marché mesure déjà et ce que cela change pour qui regarde vers l'Espagne.",
+      "cifras": [
+        {
+          "valor": "130 pb",
+          "texto": "Écart OAT/Bund à 10 ans au 1er octobre 2026, contre environ 75 pb de moyenne sur un an"
+        },
+        {
+          "valor": "91,2 Md€",
+          "texto": "Charge d'intérêts prévue en 2027, contre 79,2 Md€ en 2026"
+        },
+        {
+          "valor": "119 % / 101,4 %",
+          "texto": "Dette publique fin juin 2026, France / Espagne (% du PIB)"
+        },
+        {
+          "valor": "5,1 % / 2,4 %",
+          "texto": "Déficit public 2025, France / Espagne (% du PIB)"
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. Deux économies, deux points de départ",
+          "parrafos": [
+            "En 2025, les administrations publiques françaises ont enregistré un déficit de 5,1 % du PIB, contre 2,4 % en Espagne : 2,7 points d'écart, selon des données Eurostat reprises par Le Petit Journal. Fin juin 2026, la dette atteignait 119 % du PIB côté français et 101,4 % côté espagnol. Pour 2026, le gouvernement français table désormais sur un déficit de 5,4 %, au-dessus des 5,0 % inscrits dans la loi de finances initiale.",
+            "La baisse de la dette espagnole tient en grande partie à l'arithmétique. Entre juin 2025 et juin 2026, l'encours a encore progressé de 72 milliards d'euros (+4,3 %), mais le PIB nominal a augmenté de 6,1 % : le ratio est passé de 103,2 % à 101,4 %. Une première estimation de la Banque d'Espagne le place à 99,9 % en juillet, sous 100 % pour la première fois depuis février 2020. Cette donnée reste révisable."
+          ]
+        },
+        {
+          "titulo": "2. La réponse de Paris : un budget d'effort sous contrainte",
+          "parrafos": [
+            "Le projet de loi de finances 2027, présenté le 1er octobre, annonce 43 milliards d'euros de mesures de redressement, portés à 54 milliards avec la montée en charge de dispositifs de 2026. L'objectif est de ramener le déficit à 5,0 % du PIB. Les retraités contribuent à hauteur de 5,5 milliards : sous-indexation des pensions supérieures à 1 260 euros (4,1 milliards) et plafonnement de l'abattement fiscal de 10 % à 3 000 euros, contre 4 439 aujourd'hui. Le point d'indice de la fonction publique est gelé, de même que les crédits ministériels hors Défense.",
+            "Les entreprises sont aussi sollicitées. La surtaxe d'impôt sur les sociétés des grands groupes est reconduite mais abaissée de 30 %, pour un rendement de 5 milliards contre 7 milliards. Les taxes sur les opérateurs d'autoroutes et d'aéroports sont relevées. Le Medef chiffre à près de 20 milliards d'euros les prélèvements qui pèsent sur les entreprises. Le Haut Conseil des finances publiques juge la prévision de croissance de 1,0 % en 2027 optimiste et estime que le redressement se ferait à un rythme ralenti."
+          ]
+        },
+        {
+          "titulo": "3. Ce que le marché mesure déjà",
+          "parrafos": [
+            "Le marché n'a pas attendu le vote. Le taux à 10 ans de l'État français a dépassé 4,8 % mardi 29 septembre, pour la première fois depuis la crise de 2008. Le 1er octobre, l'OAT s'établissait à 4,90 % pour un Bund à 3,60 %, soit un écart de 130 points de base, contre environ 75 points de moyenne sur douze mois, selon des données Banque de France et Bundesbank agrégées par Ideal Investisseur.",
+            "La facture suit. La charge d'intérêts des administrations passerait de 79,2 milliards d'euros en 2026 à 91,2 milliards en 2027, soit 12 milliards de plus en un an. Le HCFP relève que cette charge approcherait 3 points de PIB, malgré une amélioration du solde primaire. Le choc n'est pas uniquement français : l'Espagne emprunte à 10 ans autour de 4,1 à 4,2 %, en hausse d'environ 0,8 point depuis le début de l'année, sous l'effet du pétrole et du resserrement de la BCE."
+          ]
+        },
+        {
+          "titulo": "4. Le contrepoint espagnol : solide, mais pas sans fragilités",
+          "parrafos": [
+            "L'écart entre Paris et Madrid est devenu mesurable. À partir des cotations du 1er octobre, l'OAT rendait de 0,7 à 0,8 point de plus que le bono espagnol selon les sources. Début septembre, la presse espagnole faisait déjà état d'un record de 42 points de base. Côté croissance, le gouvernement espagnol a relevé sa prévision 2026 de 2,2 % à 2,6 %, quand l'Insee ne table que sur 0,4 % en France. L'objectif espagnol de déficit est de 1,8 % en 2027.",
+            "Cette solidité a des limites. Elle s'appuie en partie sur la régularisation extraordinaire de migrants, à l'origine de 421 000 affiliations à la Sécurité sociale, et sur un PIB nominal soutenu par les prix, l'inflation atteignant 4,9 %. Surtout, le risque politique s'est déplacé à Madrid. Le Congrès a abrogé les décrets logement le 2 octobre, aucun budget n'a été adopté depuis 2023 et le projet 2027 n'a pas respecté l'échéance constitutionnelle du 30 septembre. L'Ibex a perdu 3,12 % sur la semaine."
+          ]
+        },
+        {
+          "titulo": "5. Leviers et points de vigilance",
+          "parrafos": [
+            "Trois éléments décideront de la suite. D'abord, le sort du budget français : l'examen commence à l'Assemblée le 6 octobre, avec un risque de censure à sept mois de la présidentielle, et Moody's rend son verdict sur la note de la France le 23 octobre. Ensuite, la politique monétaire : une nouvelle hausse de la BCE est possible le 29 octobre, ce qui renchérirait les deux dettes. Enfin, la décision de Pedro Sánchez sur d'éventuelles élections, dont la date du 29 novembre est évoquée sans être confirmée. Les leviers français restent la croissance, la maîtrise de la dépense et le coût de refinancement."
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "despues_de_seccion": 1,
+          "aria": "Dette publique en pourcentage du PIB fin juin 2026 : France 119 %, Espagne 101,4 %",
+          "pie": "Dette des administrations publiques, fin juin 2026, en % du PIB. Sources : Banque d'Espagne, Eurostat, d'après Le Petit Journal.",
+          "barras": [
+            {
+              "etiqueta": "France",
+              "valor": 119,
+              "texto": "119 %",
+              "pct": 100.0
+            },
+            {
+              "etiqueta": "Espagne",
+              "valor": 101.4,
+              "texto": "101,4 %",
+              "pct": 85.2
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 3,
+          "aria": "Rendement des obligations à 10 ans au 1er octobre 2026 : Allemagne 3,60 %, Espagne 4,17 %, France 4,90 %",
+          "pie": "Rendement à 10 ans, 1er octobre 2026, en %. Sources : Ideal Investisseur (Banque de France, Bundesbank) pour France et Allemagne ; Investing.com pour l'Espagne.",
+          "barras": [
+            {
+              "etiqueta": "Allemagne",
+              "valor": 3.6,
+              "texto": "3,60 %",
+              "pct": 73.5
+            },
+            {
+              "etiqueta": "Espagne",
+              "valor": 4.17,
+              "texto": "4,17 %",
+              "pct": 85.1
+            },
+            {
+              "etiqueta": "France",
+              "valor": 4.9,
+              "texto": "4,90 %",
+              "pct": 100.0
+            }
+          ]
+        }
+      ],
+      "debate": {
+        "despues_de_seccion": 4,
+        "texto": "Pour les uns, l'écart France-Espagne reflète directement des fondamentaux budgétaires : un déficit de 5 % contre moins de 2,5 %, une dette plus élevée et, selon Natixis, une cinquième année consécutive de déficit supérieur ou égal à 5 %. Pour d'autres, la prime française tient aussi à la fragmentation politique avant la présidentielle, tandis que le marché espagnol reste exposé à la même hausse des rendements mondiaux. Sur le budget lui-même, le Medef estime qu'alourdir les prélèvements sur les entreprises fragilise la croissance. Le gouvernement défend un effort partagé, et l'Inspection générale des finances calcule qu'une loi spéciale appliquée toute l'année 2027 creuserait le déficit d'au moins 0,5 point de PIB. La part exacte de chaque facteur n'est pas établie."
+      },
+      "lectura": "Pour un investisseur ou un dirigeant français qui regarde vers l'Espagne, ce dossier appelle deux lectures. La première est favorable : l'État espagnol emprunte moins cher que l'État français, la croissance est plus rapide et l'endettement recule. La seconde invite à la prudence. Une partie de l'amélioration espagnole est mécanique, liée à l'inflation et à la régularisation de travailleurs, et le cadre politique est fragile : décrets logement tombés, budget absent, échéance électorale possible. Un investisseur devrait donc valoriser deux scénarios : un cadre stable qui prolonge la trajectoire actuelle, et un cadre où les réformes du logement et du budget restent en suspens. Il convient aussi de revoir les clauses d'indexation, car l'IPC espagnol (4,9 %) s'écarte de l'IRAV (2,47 %) qui plafonne les loyers des contrats récents. Côté français, l'écart de taux peut se répercuter sur le coût du crédit : les plans 2027 gagnent à intégrer une hypothèse de financement plus chère et l'issue incertaine du budget.",
+      "vigilaremos": "Nous suivrons le vote du budget français, la décision de Moody's du 23 octobre et la réunion de la BCE du 29 octobre. Côté espagnol, nous regarderons la décision de Pedro Sánchez sur les élections et le calendrier du budget 2027.",
+      "fuentes": [
+        {
+          "nombre": "Le Petit Journal : Dette publique, pourquoi l'écart se creuse entre la France et l'Espagne",
+          "url": "https://lepetitjournal.com/barcelone/actualites/dette-publique-france-espagne-ecart-2026-454923"
+        },
+        {
+          "nombre": "L'Essentiel de l'Éco : L'Espagne réduit sa dette publique",
+          "url": "https://lessentieldeleco.fr/8482-lespagne-reduit-sa-dette-publique/"
+        },
+        {
+          "nombre": "Banco de España : dette des administrations publiques, juillet 2026",
+          "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-banco-espana/notas-banco-espana/deuda-aapp-julio26.html"
+        },
+        {
+          "nombre": "France 24 : Budget 2027, le gouvernement dévoile son projet",
+          "url": "https://www.france24.com/fr/france/20261001-budget-2027-le-gouvernement-d%C3%A9voile-son-projet-sous-la-pression-des-march%C3%A9s"
+        },
+        {
+          "nombre": "Boursorama : principales économies du projet de budget 2027",
+          "url": "https://www.boursorama.com/actualite-economique/actualites/france-les-principales-economies-du-projet-de-budget-2027-8e90ab9ee654853ce96894c53064baa5"
+        },
+        {
+          "nombre": "Legifiscal : Présentation du PLF 2027",
+          "url": "https://www.legifiscal.fr/actualites-fiscales/4656-presentation-plf-2027.html"
+        },
+        {
+          "nombre": "HCFP : avis sur les PLF et PLFSS 2027",
+          "url": "https://x.com/HCFP_fr/status/2105617322211733799"
+        },
+        {
+          "nombre": "Ideal Investisseur : spread OAT/Bund au 1er octobre 2026",
+          "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+        },
+        {
+          "nombre": "Investing.com : bono español a 10 años",
+          "url": "https://www.investing.com/rates-bonds/spain-10-year-bond-yield-historical-data"
+        },
+        {
+          "nombre": "elEconomista : la prima de riesgo francesa marca máximos frente a la española",
+          "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14011436/09/26/la-prima-de-riesgo-francesa-marca-maximos-frente-a-la-espanola-los-42-puntos.html"
+        },
+        {
+          "nombre": "Euronews : Budget 2027, effort de 54 milliards",
+          "url": "https://fr.euronews.com/2026/10/01/budget-2027-le-gouvernement-propose-un-effort-de-54-milliards-deuros-pour-ramener-le-defic"
+        },
+        {
+          "nombre": "Club Patrimoine : Budget 2027, pistes et débats",
+          "url": "https://www.clubpatrimoine.com/contenus/budget-2027"
+        },
+        {
+          "nombre": "El Salto : la afiliación y la regularización de migrantes",
+          "url": "https://www.elsaltodiario.com/desempleo/empleo-se-apunta-un-septiembre-record-92-000-personas-gracias-regulacion-migrantes"
+        },
+        {
+          "nombre": "elEconomista : el Ibex 35 cae un 3 % en su peor semana desde abril",
+          "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14018339/10/26/el-ibex-35-cae-un-3-en-su-peor-semana-desde-abril-y-pierde-el-soporte-de-los-19390-puntos.html"
+        },
+        {
+          "nombre": "Agence France Trésor : notations de la France",
+          "url": "https://www.aft.gouv.fr/en/frances-credit-ratings"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Politique",
+        "titulo": "Budget 2027 : 54 milliards d'effort pour viser un déficit de 5,0 %",
+        "resumen": "Le gouvernement a présenté le 1er octobre le PLF et le PLFSS 2027. Il annonce 43 milliards d'euros de mesures de redressement, portés à 54 milliards avec la montée en charge de mesures antérieures, pour ramener le déficit de 5,4 % en 2026 à 5,0 %. La dette atteindrait 121,7 % du PIB et la charge d'intérêts 91 milliards. Le HCFP juge optimiste la croissance de 1,0 %. L'examen par les députés doit débuter le 6 octobre, avec un risque de censure évoqué.",
+        "lectura": "Le texte est un point de départ, pas un cadre stable. Les entreprises gagnent à bâtir deux scénarios pour 2027 : adoption avec amendements, ou régime transitoire en cas d'échec. L'issue pèsera sur les taux, donc sur le coût des financements.",
+        "fuentes": [
+          {
+            "nombre": "France 24",
+            "url": "https://www.france24.com/fr/france/20261001-budget-2027-le-gouvernement-d%C3%A9voile-son-projet-sous-la-pression-des-march%C3%A9s"
+          },
+          {
+            "nombre": "Euronews",
+            "url": "https://fr.euronews.com/2026/10/01/budget-2027-le-gouvernement-propose-un-effort-de-54-milliards-deuros-pour-ramener-le-defic"
+          },
+          {
+            "nombre": "Legifiscal",
+            "url": "https://www.legifiscal.fr/actualites-fiscales/4656-presentation-plf-2027.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Politique",
+        "titulo": "Entreprises : surtaxe d'IS allégée, taxes sectorielles relevées",
+        "resumen": "Le PLF 2027 reconduit pour une troisième année la surtaxe d'impôt sur les sociétés des grands groupes, mais la réduit de 30 %, pour un rendement de 5 milliards d'euros contre 7 milliards. La taxe sur les opérateurs d'autoroutes et d'aéroports passerait de 4,6 % à 12,2 % au maximum. Le crédit d'impôt recherche et le pacte Dutreil restent inchangés. Le Medef chiffre à près de 20 milliards d'euros les prélèvements pesant sur les entreprises.",
+        "lectura": "Le chiffre du Medef et le calibrage du gouvernement divergent, et le texte peut encore changer. Il convient de revoir les hypothèses de taux effectif d'impôt dans les plans 2027, en particulier pour les groupes ayant des activités en Espagne.",
+        "fuentes": [
+          {
+            "nombre": "DAF Mag",
+            "url": "https://www.daf-mag.fr/reglementation-1243/fiscalite-2115/budget-2027-ce-que-le-projet-de-loi-de-finances-prevoit-pour-les-entreprises-27545"
+          },
+          {
+            "nombre": "Le Monde du Chiffre",
+            "url": "https://www.lemondeduchiffre.fr/a-la-une/80682-budget-2027-l-impot-epargne-la-fiche-de-paie-mise-a-contribution.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "Inflation à 3,0 % en septembre, tirée par l'énergie",
+        "resumen": "Selon l'estimation provisoire de l'Insee du 30 septembre, les prix à la consommation ont progressé de 3,0 % sur un an, contre 2,4 % en août, et au-dessus du consensus de 2,8 %. L'énergie a bondi de 21,2 % et les produits frais de 9,9 %. En données harmonisées, l'inflation atteint 3,4 %. Avant le blocage du détroit d'Ormuz fin février, les prix n'augmentaient que d'environ 1 %. Les résultats définitifs seront publiés le 15 octobre.",
+        "lectura": "L'Insee précise que les indices provisoires ne doivent pas servir aux revalorisations contractuelles. Les entreprises indexant loyers, contrats ou salaires sur l'IPC doivent attendre l'indice définitif et vérifier les clauses concernées.",
+        "fuentes": [
+          {
+            "nombre": "Insee",
+            "url": "https://www.insee.fr/fr/statistiques/9056956"
+          },
+          {
+            "nombre": "Zonebourse (AFP)",
+            "url": "https://www.zonebourse.com/actualite-bourse/france-l-inflation-grimpe-a-3-sur-un-an-en-septembre-selon-l-insee-ce785ad2dd8ef52c"
+          },
+          {
+            "nombre": "Option Finance",
+            "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-09-30-france-linflation-depasse-les-attentes-en-septembre.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finances et marchés",
+        "titulo": "L'OAT à 10 ans dépasse 4,8 %, la BCE peut encore resserrer",
+        "resumen": "Le taux à 10 ans de la France a dépassé 4,8 % mardi, une première depuis la crise de 2008. Le 1er octobre, il s'établissait à 4,90 % pour un Bund à 3,60 %, soit un écart de 130 points de base. L'inflation de la zone euro est ressortie à 3,8 % en septembre, contre 3,2 % en août. La BCE a relevé ses trois taux directeurs de 25 points de base le 10 septembre, portant le taux de dépôt à 2,5 %. Une décision est possible le 29 octobre.",
+        "lectura": "Le coût de la dette publique et celui du crédit aux entreprises évoluent ensemble. Les groupes à financement variable ou à refinancement proche devraient valoriser deux scénarios de taux, avec et sans nouvelle hausse de la BCE.",
+        "fuentes": [
+          {
+            "nombre": "Ideal Investisseur",
+            "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+          },
+          {
+            "nombre": "Échos Plus (Eurostat)",
+            "url": "https://echosplus.com/2026/10/02/inflation-en-zone-euro-a-38-en-septembre-lenergie-accentue-la-pression-sur-la-bce/"
+          },
+          {
+            "nombre": "BCE",
+            "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.fr.html"
+          },
+          {
+            "nombre": "Boursorama (Reuters)",
+            "url": "https://www.boursorama.com/actualite-economique/actualites/bce-une-nouvelle-hausse-des-taux-pourrait-intervenir-des-octobre-sources-91f0445ce49d379a6233fa198bb6213a"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Politique",
+        "titulo": "Le Congrès abroge les décrets logement ; des élections évoquées",
+        "resumen": "Le 2 octobre, le Congrès a rejeté les deux décrets-lois logement (26/2026 et 27/2026), par 178 voix contre 172 pour le premier et 184 contre 166 pour le second. PP, Vox, Junts et UPN ont voté contre. Tombent la prorogation extraordinaire des baux et la protection contre certaines expulsions. Junts estime que ces mesures réduiraient l'offre locative. Pedro Sánchez étudie un scénario électoral ; la date du 29 novembre est évoquée, sans être confirmée.",
+        "lectura": "Le cadre réglementaire du logement locatif reste ouvert. Selon la presse, le décret 26/2026 créait aussi un compte épargne-investissement européen, dont le sort devra être clarifié. Les acteurs exposés au résidentiel espagnol devraient valoriser un scénario de nouvelle loi négociée et un scénario de statu quo.",
+        "fuentes": [
+          {
+            "nombre": "Euribor.com.es",
+            "url": "https://www.euribor.com.es/2026/10/03/congreso-deroga-los-decretos-de-vivienda-con-el-no-de-junts-pp/"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/10/02/congreso-tumba-reales-decretos-vivienda/"
+          },
+          {
+            "nombre": "El Diario de Madrid",
+            "url": "https://www.eldiariodemadrid.es/articulo/politica/pedro-sanchez-adelanto-elecciones-rechazo-decretos-vivienda-manifestaciones/20261002172336143219.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "L'inflation espagnole grimpe à 4,9 %, plus haut depuis 2023",
+        "resumen": "L'indicateur avancé de l'INE situe l'inflation à 4,9 % en septembre, contre 4,3 % en août. L'inflation sous-jacente monte à 3,1 % et l'indice harmonisé à 5,0 %. L'INE cite la hausse des carburants et des forfaits touristiques. Le dato a dépassé les attentes de Bankinter (4,6 %). Les chiffres définitifs sont attendus le 14 octobre. Le dernier IRAV, qui plafonne la revalorisation des loyers récents, est de 2,47 % (août).",
+        "lectura": "L'écart entre IPC et IRAV est considérable pour les baux. Il convient de vérifier, contrat par contrat, quel indice s'applique, notamment pour les actifs locatifs et les clauses d'indexation de contrats conclus avec des partenaires espagnols.",
+        "fuentes": [
+          {
+            "nombre": "INE",
+            "url": "https://www.ine.es/dyngs/Prensa/adIPC0926.htm"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/09/30/ipc-septiembre-2026-sube-carburantes/"
+          },
+          {
+            "nombre": "Cronista España",
+            "url": "https://www.cronista.com/espana/economia-finanzas/como-se-actualiza-el-precio-del-alquiler-ahora-ipc-irav-y-que-indice-corresponde-en-cada-contrato/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "Emploi : record d'affiliés en septembre, effet de la régularisation",
+        "resumen": "La Sécurité sociale a gagné 92 327 affiliés en septembre, meilleur septembre de la série, et totalise plus de 22,4 millions de cotisants. Le chômage enregistré a augmenté de 23 587 personnes, à 2 379 505, le niveau le plus bas pour un mois de septembre depuis 2007. Environ 421 000 affiliés étrangers proviennent de la régularisation extraordinaire. Parmi les chômeurs, 56 476 se sont inscrits après y avoir eu recours.",
+        "lectura": "Les chiffres reflètent en partie une mise au jour d'emplois existants. Il faut lire affiliation et chômage ensemble, sans y voir uniquement de la création nette. Le marché du travail espagnol reste porteur, mais la comparaison avec la France demande cette précaution.",
+        "fuentes": [
+          {
+            "nombre": "Moncloa.com",
+            "url": "https://www.moncloa.com/2026/10/02/paro-septiembre-2026-minimo-desde-2007-3441450"
+          },
+          {
+            "nombre": "El Salto",
+            "url": "https://www.elsaltodiario.com/desempleo/empleo-se-apunta-un-septiembre-record-92-000-personas-gracias-regulacion-migrantes"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/10/02/paro-septiembre-afiliacion-record/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finances et marchés",
+        "titulo": "Budget 2027 hors délai, Ibex en repli de 3,12 % sur la semaine",
+        "resumen": "Le projet de budget 2027 n'a pas été déposé avant l'échéance constitutionnelle du 30 septembre. Le vice-président Carlos Cuerpo assure qu'il viendra, sans date. Les comptes de 2023 sont toujours prorogés. En juillet, le gouvernement avait fixé un plafond de dépenses de 226 032 millions d'euros (+6,6 %) et un objectif de déficit de 1,8 % en 2027. L'Ibex 35 a clôturé à 19 085,30 points vendredi, en baisse de 3,12 % sur la semaine, sa pire depuis avril.",
+        "lectura": "L'absence de budget n'empêche pas l'économie de fonctionner, mais prive d'une visibilité sur la fiscalité et la dépense. Avec la banque en repli jeudi (CaixaBank, Santander, BBVA entre 4 % et 4,6 %), les acteurs du crédit doivent suivre taux et agenda politique.",
+        "fuentes": [
+          {
+            "nombre": "elEconomista",
+            "url": "https://www.eleconomista.es/economia/noticias/14018480/10/26/el-ejecutivo-cierra-toda-una-legislatura-sin-aprobar-nuevos-presupuestos-del-estado.html"
+          },
+          {
+            "nombre": "Infobae (EFE)",
+            "url": "https://www.infobae.com/espana/agencias/2026/09/29/cuerpo-insiste-en-que-habra-presupuestos-pese-a-que-el-plazo-constitucional-vence-manana/"
+          },
+          {
+            "nombre": "Ministerio de Hacienda",
+            "url": "https://www.hacienda.gob.es/es-ES/Prensa/Noticias/Paginas/2026/20260707-NP-CM-TECHO-GASTOS-2027.aspx"
+          },
+          {
+            "nombre": "elEconomista (Ibex)",
+            "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14018339/10/26/el-ibex-35-cae-un-3-en-su-peor-semana-desde-abril-y-pierde-el-soporte-de-los-19390-puntos.html"
+          },
+          {
+            "nombre": "Euribor.com.es",
+            "url": "https://www.euribor.com.es/2026/10/02/analisis-de-mercados-2-de-octubre-de-2026-2-octubre-2026/"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "3-4 octobre 2026",
+        "que": "Espagne : manifestations du Syndicat des locataires dans plus de 50 villes ; Pedro Sánchez doit évaluer un éventuel scénario électoral."
+      },
+      {
+        "cuando": "6 octobre 2026",
+        "que": "France : début de l'examen du PLF 2027 par les députés."
+      },
+      {
+        "cuando": "14 et 15 octobre 2026",
+        "que": "Espagne et France : publication des indices de prix définitifs de septembre (INE le 14, Insee le 15), ainsi que de l'IRAV espagnol le 14."
+      },
+      {
+        "cuando": "23 octobre 2026",
+        "que": "France : décision de Moody's sur la note souveraine (Aa3, perspective négative)."
+      },
+      {
+        "cuando": "29 octobre 2026",
+        "que": "Zone euro : réunion de politique monétaire de la BCE, avec une nouvelle hausse de taux possible."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "Bulletin Rilamax n° 1 – Semaine du 28 septembre au 3 octobre 2026\n\nÉnergie, dette, politique : deux pays sous pression\n\nUn même choc domine la semaine : l'énergie, renchérie par la guerre en Iran et le blocage du détroit d'Ormuz. L'inflation atteint 3,0 % en France et 4,9 % en Espagne, 3,8 % dans la zone euro. En France, le budget 2027 prévoit 54 milliards d'euros d'effort pour viser un déficit de 5,0 %, alors que le taux à 10 ans a dépassé 4,8 %. En Espagne, le Congrès a abrogé les décrets logement et un scénario électoral est à l'étude, tandis que l'emploi reste porteur.\n\nÀ retenir\n- L'inflation repart partout : 3,0 % en France, 4,9 % en Espagne, 3,8 % dans la zone euro.\n- Le taux français à 10 ans (4,90 %) creuse l'écart avec l'Espagne malgré un budget d'effort de 54 Md€.\n- En Espagne, le risque est politique : décrets logement abrogés, budget 2027 absent, élections possibles.\n\nLe dossier : la dette française face au miroir espagnol\n\nEn 2025, la France a affiché un déficit public de 5,1 % du PIB, contre 2,4 % en Espagne. Fin juin 2026, la dette atteignait 119 % du PIB en France et 101,4 % en Espagne. La baisse espagnole est en bonne partie arithmétique : l'encours a augmenté de 4,3 % sur un an, mais le PIB nominal de 6,1 %.\n\nParis a présenté un budget 2027 de 54 milliards d'euros d'effort : sous-indexation des pensions supérieures à 1 260 euros, gel du point d'indice, surtaxe d'IS reconduite mais réduite, taxes sectorielles relevées. Le HCFP juge optimiste la croissance de 1,0 %. Le marché a réagi : l'OAT à 10 ans a dépassé 4,8 %, puis atteint 4,90 % le 1er octobre pour un Bund à 3,60 %, soit un écart de 130 points de base contre 75 en moyenne sur un an. La charge d'intérêts passerait de 79,2 à 91,2 milliards d'euros en 2027.\n\nL'Espagne emprunte moins cher, avec une croissance 2026 révisée à 2,6 % et une dette passée sous 100 % du PIB en juillet. Mais cette solidité s'appuie en partie sur la régularisation de migrants et sur les prix, et le cadre politique est fragile : décrets logement abrogés, aucun budget depuis 2023, élections possibles. Le débat reste ouvert : fondamentaux budgétaires pour les uns, incertitude politique et chocs mondiaux pour les autres.\n\nNotre lecture : un investisseur qui regarde vers l'Espagne devrait valoriser deux scénarios, un cadre stable et un cadre où logement et budget restent en suspens, et revoir ses clauses d'indexation, l'IPC (4,9 %) s'écartant de l'IRAV (2,47 %).\n\nPour lire l'édition complète du Bulletin Rilamax, rendez-vous sur https://bulletin.rilamax.com",
+      "post": "130 points de base. C'est l'écart entre le taux à 10 ans français (4,90 %) et le Bund allemand (3,60 %) au 1er octobre, contre environ 75 points de moyenne sur un an.\n\nLa semaine où Paris a présenté un budget 2027 de 54 milliards d'euros d'effort, l'Espagne est passée sous 100 % de dette publique. Déficit 2025 : 5,1 % du PIB en France, 2,4 % en Espagne.\n\nMais le contraste n'est pas sans nuances. Côté espagnol, les décrets logement sont tombés au Congrès, aucun budget n'a été adopté depuis 2023 et des élections anticipées sont évoquées. L'inflation atteint 4,9 %.\n\nNotre dossier de la semaine compare les deux trajectoires, avec les chiffres et les arguments contraires.\n\nÉdition complète sur https://bulletin.rilamax.com\n\n#France #Espagne #Économie #DetteSouveraine #BulletinRilamax"
+    },
+    "minutos": 20
+  },
+  "es": {
+    "editorial": {
+      "titulo": "Energía, deuda, política: dos países bajo presión",
+      "parrafos": [
+        "Un mismo choque domina la semana: la energía, encarecida por la guerra en Irán y el bloqueo del estrecho de Ormuz. La inflación se ha acelerado hasta el 3,0 % en Francia (Insee) y el 4,9 % en España (INE). En la zona euro alcanza el 3,8 %. El BCE subió los tipos el 10 de septiembre y podría actuar de nuevo en su reunión del 29 de octubre.",
+        "En Francia, el Gobierno presentó el jueves su presupuesto de 2027: 54.000 millones de euros de esfuerzo para apuntar a un déficit del 5,0 % del PIB. El mercado no esperó. El tipo a 10 años superó el 4,8 %, algo que no ocurría desde 2008. El Alto Consejo de las Finanzas Públicas considera optimista la previsión de crecimiento del 1,0 % y el debate parlamentario se anuncia tenso.",
+        "En España, el riesgo se ha desplazado a lo político. El Congreso derogó el viernes los dos decretos de vivienda y Pedro Sánchez estudia un escenario electoral, sin decisión anunciada. La economía real se mantiene sólida: 92.327 afiliados más en septiembre y un paro registrado en su mínimo para un mes de septiembre desde 2007, con efecto de la regularización de migrantes. El Ibex perdió un 3,12 % en la semana.",
+        "Para el lector español que mira hacia Francia, la semana deja un contraste: dos países ante el mismo choque, con puntos de partida presupuestarios muy distintos y un coste de financiación que ya los separa. El dossier de esta primera edición se centra en ello: qué mide ya el mercado y qué implica esa distancia para quien invierte u opera entre ambos países."
+      ],
+      "puntos_clave": [
+        "La inflación repunta en todas partes: 3,0 % en Francia, 4,9 % en España y 3,8 % en la zona euro.",
+        "El bono francés a 10 años (4,90 %) se aleja del español pese a un presupuesto de 54.000 M€ de esfuerzo, cuyo voto es incierto.",
+        "En España el riesgo es político: decretos de vivienda derogados, sin presupuestos 2027 y elecciones posibles."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "3,0 %",
+        "texto": "Inflación anual en Francia en septiembre (estimación provisional), frente al 2,4 % de agosto",
+        "fuente": "Insee",
+        "pais": "fr"
+      },
+      {
+        "valor": "8,3 %",
+        "texto": "Tasa de paro en el segundo trimestre de 2026, la más alta desde 2020",
+        "fuente": "Insee",
+        "pais": "fr"
+      },
+      {
+        "valor": "54.000 M€",
+        "texto": "Esfuerzo presupuestario anunciado para 2027, con 43.000 M€ de medidas nuevas",
+        "fuente": "Ministerio de Economía, PLF 2027",
+        "pais": "fr"
+      },
+      {
+        "valor": "4,9 %",
+        "texto": "Inflación anual en España en septiembre (indicador adelantado), su nivel más alto desde febrero de 2023",
+        "fuente": "INE",
+        "pais": "es"
+      },
+      {
+        "valor": "92.327",
+        "texto": "Afiliados adicionales a la Seguridad Social en septiembre, el mejor septiembre de la serie",
+        "fuente": "Ministerio de Inclusión y Seguridad Social",
+        "pais": "es"
+      },
+      {
+        "valor": "99,9 %",
+        "texto": "Deuda pública española en julio de 2026 (% del PIB), estimación revisable",
+        "fuente": "Banco de España",
+        "pais": "es"
+      }
+    ],
+    "dossier": {
+      "titulo": "La deuda francesa ante el espejo español: el precio del riesgo",
+      "intro": "La rentabilidad de las OAT a 10 años superó el 4,8 % esta semana, justo cuando París desvelaba su presupuesto de 2027. Al mismo tiempo, España baja del 100 % de deuda pública. Este dossier explica qué separa ambas trayectorias, qué mide ya el mercado y qué implica para quien mira hacia Francia.",
+      "cifras": [
+        {
+          "valor": "130 pb",
+          "texto": "Diferencial OAT/Bund a 10 años el 1 de octubre de 2026, frente a unos 75 pb de media en un año"
+        },
+        {
+          "valor": "91.200 M€",
+          "texto": "Carga de intereses prevista en 2027, frente a 79.200 M€ en 2026"
+        },
+        {
+          "valor": "119 % / 101,4 %",
+          "texto": "Deuda pública a finales de junio de 2026, Francia / España (% del PIB)"
+        },
+        {
+          "valor": "5,1 % / 2,4 %",
+          "texto": "Déficit público de 2025, Francia / España (% del PIB)"
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. Dos economías, dos puntos de partida",
+          "parrafos": [
+            "En 2025, las administraciones públicas francesas registraron un déficit del 5,1 % del PIB, frente al 2,4 % de España: 2,7 puntos de diferencia, según datos de Eurostat recogidos por Le Petit Journal. A finales de junio de 2026, la deuda alcanzaba el 119 % del PIB en Francia y el 101,4 % en España. Para 2026, el Gobierno francés prevé ahora un déficit del 5,4 %, por encima del 5,0 % que figuraba en la ley de presupuestos inicial.",
+            "La bajada de la deuda española se explica en buena parte por la aritmética. Entre junio de 2025 y junio de 2026, el saldo vivo aún aumentó en 72.000 millones de euros (+4,3 %), pero el PIB nominal creció un 6,1 %: el ratio pasó del 103,2 % al 101,4 %. Una primera estimación del Banco de España lo sitúa en el 99,9 % en julio, por debajo del 100 % por primera vez desde febrero de 2020. El dato es revisable."
+          ]
+        },
+        {
+          "titulo": "2. La respuesta de París: un presupuesto de esfuerzo bajo presión",
+          "parrafos": [
+            "El proyecto de ley de presupuestos de 2027, presentado el 1 de octubre, anuncia 43.000 millones de euros de medidas de saneamiento, que ascienden a 54.000 millones con la plena aplicación de medidas de 2026. El objetivo es reducir el déficit al 5,0 % del PIB. Los jubilados aportan 5.500 millones: infraindexación de las pensiones superiores a 1.260 euros (4.100 millones) y tope de 3.000 euros a la reducción fiscal del 10 %, frente a los 4.439 actuales. Se congela el punto de índice de la función pública, igual que los créditos ministeriales salvo Defensa.",
+            "Las empresas también contribuyen. El recargo del impuesto sobre sociedades a los grandes grupos se prorroga, pero con una rebaja del 30 %, con una recaudación de 5.000 millones frente a 7.000. Se elevan las tasas sobre los operadores de autopistas y aeropuertos. La patronal Medef cifra en casi 20.000 millones de euros las cargas que recaen sobre las empresas. El Alto Consejo de las Finanzas Públicas juzga optimista la previsión de crecimiento del 1,0 % en 2027 y estima que el saneamiento se haría a un ritmo más lento."
+          ]
+        },
+        {
+          "titulo": "3. Lo que el mercado ya mide",
+          "parrafos": [
+            "El mercado no esperó a la votación. El tipo a 10 años del Estado francés superó el 4,8 % el martes 29 de septiembre, por primera vez desde la crisis de 2008. El 1 de octubre, la OAT se situaba en el 4,90 % con un Bund al 3,60 %, es decir, un diferencial de 130 puntos básicos, frente a unos 75 puntos de media en doce meses, según datos del Banco de Francia y del Bundesbank agregados por Ideal Investisseur.",
+            "La factura se nota. La carga de intereses de las administraciones pasaría de 79.200 millones de euros en 2026 a 91.200 millones en 2027, es decir, 12.000 millones más en un año. El Alto Consejo señala que esa carga se acercaría a los 3 puntos de PIB, pese a la mejora del saldo primario. El choque no es solo francés: España se financia a 10 años en torno al 4,1-4,2 %, unos 0,8 puntos más que a principios de año, por el efecto del petróleo y del endurecimiento del BCE."
+          ]
+        },
+        {
+          "titulo": "4. El contrapunto español: sólido, pero no sin fragilidades",
+          "parrafos": [
+            "La brecha entre París y Madrid ya es medible. Con las cotizaciones del 1 de octubre, la OAT rendía entre 0,7 y 0,8 puntos más que el bono español, según las fuentes. A principios de septiembre, la prensa española ya recogía un récord de 42 puntos básicos en la prima de riesgo. En crecimiento, el Gobierno español ha elevado su previsión de 2026 del 2,2 % al 2,6 %, mientras el Insee solo cuenta con un 0,4 % en Francia. El objetivo español de déficit es del 1,8 % en 2027.",
+            "Esa solidez tiene límites. Se apoya en parte en la regularización extraordinaria de migrantes, origen de 421.000 afiliaciones a la Seguridad Social, y en un PIB nominal sostenido por los precios, con una inflación del 4,9 %. Sobre todo, el riesgo político se ha desplazado a Madrid. El Congreso derogó los decretos de vivienda el 2 de octubre, no se aprueba un presupuesto desde 2023 y el proyecto de 2027 no cumplió el plazo constitucional del 30 de septiembre. El Ibex perdió un 3,12 % en la semana."
+          ]
+        },
+        {
+          "titulo": "5. Palancas y puntos de vigilancia",
+          "parrafos": [
+            "Tres elementos decidirán lo que viene. Primero, la suerte del presupuesto francés: el examen empieza en la Asamblea el 6 de octubre, con riesgo de censura a siete meses de las elecciones presidenciales, y Moody's da su veredicto sobre la nota de Francia el 23 de octubre. Segundo, la política monetaria: una nueva subida del BCE es posible el 29 de octubre y encarecería ambas deudas. Tercero, la decisión de Pedro Sánchez sobre unas posibles elecciones, con el 29 de noviembre como fecha mencionada sin confirmar. Las palancas francesas siguen siendo el crecimiento, el control del gasto y el coste de refinanciación."
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "despues_de_seccion": 1,
+          "aria": "Deuda pública en porcentaje del PIB a finales de junio de 2026: Francia 119 %, España 101,4 %",
+          "pie": "Deuda de las administraciones públicas, finales de junio de 2026, en % del PIB. Fuentes: Banco de España, Eurostat, según Le Petit Journal.",
+          "barras": [
+            {
+              "etiqueta": "Francia",
+              "valor": 119,
+              "texto": "119 %",
+              "pct": 100.0
+            },
+            {
+              "etiqueta": "España",
+              "valor": 101.4,
+              "texto": "101,4 %",
+              "pct": 85.2
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 3,
+          "aria": "Rentabilidad de los bonos a 10 años el 1 de octubre de 2026: Alemania 3,60 %, España 4,17 %, Francia 4,90 %",
+          "pie": "Rentabilidad a 10 años, 1 de octubre de 2026, en %. Fuentes: Ideal Investisseur (Banco de Francia, Bundesbank) para Francia y Alemania; Investing.com para España.",
+          "barras": [
+            {
+              "etiqueta": "Alemania",
+              "valor": 3.6,
+              "texto": "3,60 %",
+              "pct": 73.5
+            },
+            {
+              "etiqueta": "España",
+              "valor": 4.17,
+              "texto": "4,17 %",
+              "pct": 85.1
+            },
+            {
+              "etiqueta": "Francia",
+              "valor": 4.9,
+              "texto": "4,90 %",
+              "pct": 100.0
+            }
+          ]
+        }
+      ],
+      "debate": {
+        "despues_de_seccion": 4,
+        "texto": "Para unos, el diferencial entre Francia y España refleja directamente los fundamentos presupuestarios: un déficit del 5 % frente a menos del 2,5 %, una deuda más alta y, según Natixis, un quinto año consecutivo con déficit igual o superior al 5 %. Para otros, la prima francesa obedece también a la fragmentación política antes de las presidenciales, mientras que el mercado español sigue expuesto al mismo repunte global de las rentabilidades. Sobre el presupuesto en sí, el Medef opina que aumentar las cargas sobre las empresas debilita el crecimiento. El Gobierno defiende un esfuerzo compartido, y la Inspección General de Finanzas calcula que una ley especial aplicada durante todo 2027 ampliaría el déficit al menos en 0,5 puntos de PIB. No está establecido el peso exacto de cada factor."
+      },
+      "lectura": "Para una empresa o un inversor español que mira hacia Francia, este dossier admite dos lecturas. La primera pide cautela: el Estado francés se financia a un coste claramente superior al español, con una prima que el mercado ha ampliado en poco tiempo, y el presupuesto de 2027 afronta un voto incierto, con riesgo de censura. La segunda matiza: el esfuerzo de 54.000 millones muestra que hay una respuesta, y su desenlace sigue abierto. Conviene valorar dos escenarios para 2027 en Francia: presupuesto adoptado con enmiendas o régimen transitorio si fracasa. Quien tenga filiales, contratos o financiación en Francia debería revisar sus hipótesis de coste de financiación y de tipo efectivo del impuesto, en particular ante el recargo del impuesto sobre sociedades y las tasas sectoriales. También conviene repasar las cláusulas de indexación, porque el Insee advierte de que los índices provisionales no sirven para revalorizaciones contractuales. Por último, la comparación favorable a España exige matices: parte de su mejora es mecánica, por la inflación y la regularización de trabajadores, y el marco político español es frágil.",
+      "vigilaremos": "Seguiremos la votación del presupuesto francés, la decisión de Moody's del 23 de octubre y la reunión del BCE del 29 de octubre. En España, la decisión de Pedro Sánchez sobre las elecciones y el calendario del presupuesto de 2027.",
+      "fuentes": [
+        {
+          "nombre": "Le Petit Journal : Dette publique, pourquoi l'écart se creuse entre la France et l'Espagne",
+          "url": "https://lepetitjournal.com/barcelone/actualites/dette-publique-france-espagne-ecart-2026-454923"
+        },
+        {
+          "nombre": "L'Essentiel de l'Éco : L'Espagne réduit sa dette publique",
+          "url": "https://lessentieldeleco.fr/8482-lespagne-reduit-sa-dette-publique/"
+        },
+        {
+          "nombre": "Banco de España: deuda de las Administraciones Públicas, julio de 2026",
+          "url": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-banco-espana/notas-banco-espana/deuda-aapp-julio26.html"
+        },
+        {
+          "nombre": "France 24 : Budget 2027, le gouvernement dévoile son projet",
+          "url": "https://www.france24.com/fr/france/20261001-budget-2027-le-gouvernement-d%C3%A9voile-son-projet-sous-la-pression-des-march%C3%A9s"
+        },
+        {
+          "nombre": "Boursorama : principales économies du projet de budget 2027",
+          "url": "https://www.boursorama.com/actualite-economique/actualites/france-les-principales-economies-du-projet-de-budget-2027-8e90ab9ee654853ce96894c53064baa5"
+        },
+        {
+          "nombre": "Legifiscal : Présentation du PLF 2027",
+          "url": "https://www.legifiscal.fr/actualites-fiscales/4656-presentation-plf-2027.html"
+        },
+        {
+          "nombre": "HCFP: dictamen sobre los PLF y PLFSS 2027",
+          "url": "https://x.com/HCFP_fr/status/2105617322211733799"
+        },
+        {
+          "nombre": "Ideal Investisseur: diferencial OAT/Bund a 1 de octubre de 2026",
+          "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+        },
+        {
+          "nombre": "Investing.com : bono español a 10 años",
+          "url": "https://www.investing.com/rates-bonds/spain-10-year-bond-yield-historical-data"
+        },
+        {
+          "nombre": "elEconomista : la prima de riesgo francesa marca máximos frente a la española",
+          "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14011436/09/26/la-prima-de-riesgo-francesa-marca-maximos-frente-a-la-espanola-los-42-puntos.html"
+        },
+        {
+          "nombre": "Euronews : Budget 2027, effort de 54 milliards",
+          "url": "https://fr.euronews.com/2026/10/01/budget-2027-le-gouvernement-propose-un-effort-de-54-milliards-deuros-pour-ramener-le-defic"
+        },
+        {
+          "nombre": "Club Patrimoine : Budget 2027, pistes et débats",
+          "url": "https://www.clubpatrimoine.com/contenus/budget-2027"
+        },
+        {
+          "nombre": "El Salto : la afiliación y la regularización de migrantes",
+          "url": "https://www.elsaltodiario.com/desempleo/empleo-se-apunta-un-septiembre-record-92-000-personas-gracias-regulacion-migrantes"
+        },
+        {
+          "nombre": "elEconomista : el Ibex 35 cae un 3 % en su peor semana desde abril",
+          "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14018339/10/26/el-ibex-35-cae-un-3-en-su-peor-semana-desde-abril-y-pierde-el-soporte-de-los-19390-puntos.html"
+        },
+        {
+          "nombre": "Agence France Trésor: calificaciones de Francia",
+          "url": "https://www.aft.gouv.fr/en/frances-credit-ratings"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Política",
+        "titulo": "Presupuestos 2027: 54.000 millones de esfuerzo para apuntar a un déficit del 5,0 %",
+        "resumen": "El Gobierno presentó el 1 de octubre el proyecto de presupuestos y el de financiación de la Seguridad Social para 2027. Anuncia 43.000 millones de euros de medidas de saneamiento, que suben a 54.000 millones con la plena aplicación de medidas anteriores, para reducir el déficit del 5,4 % en 2026 al 5,0 %. La deuda alcanzaría el 121,7 % del PIB y la carga de intereses, 91.000 millones. El Alto Consejo de las Finanzas Públicas considera optimista el crecimiento del 1,0 %. El examen por los diputados debe comenzar el 6 de octubre, con riesgo de censura.",
+        "lectura": "El texto es un punto de partida, no un marco estable. Las empresas con actividad en Francia deberían construir dos escenarios para 2027: adopción con enmiendas o régimen transitorio si fracasa. El desenlace influirá en los tipos y, por tanto, en el coste de financiación.",
+        "fuentes": [
+          {
+            "nombre": "France 24",
+            "url": "https://www.france24.com/fr/france/20261001-budget-2027-le-gouvernement-d%C3%A9voile-son-projet-sous-la-pression-des-march%C3%A9s"
+          },
+          {
+            "nombre": "Euronews",
+            "url": "https://fr.euronews.com/2026/10/01/budget-2027-le-gouvernement-propose-un-effort-de-54-milliards-deuros-pour-ramener-le-defic"
+          },
+          {
+            "nombre": "Legifiscal",
+            "url": "https://www.legifiscal.fr/actualites-fiscales/4656-presentation-plf-2027.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Política",
+        "titulo": "Empresas: recargo del impuesto sobre sociedades rebajado y tasas sectoriales al alza",
+        "resumen": "El proyecto de presupuestos de 2027 prorroga por tercer año el recargo del impuesto sobre sociedades a los grandes grupos, pero lo reduce un 30 %, con una recaudación de 5.000 millones de euros frente a 7.000 millones. La tasa sobre los operadores de autopistas y aeropuertos pasaría del 4,6 % a un máximo del 12,2 %. El crédito fiscal a la investigación y el pacto Dutreil no cambian. El Medef cifra en casi 20.000 millones de euros las cargas que pesan sobre las empresas.",
+        "lectura": "La cifra del Medef y el cálculo del Gobierno divergen, y el texto aún puede cambiar. Los grupos españoles con filiales en Francia deberían revisar las hipótesis de tipo efectivo del impuesto en sus planes de 2027.",
+        "fuentes": [
+          {
+            "nombre": "DAF Mag",
+            "url": "https://www.daf-mag.fr/reglementation-1243/fiscalite-2115/budget-2027-ce-que-le-projet-de-loi-de-finances-prevoit-pour-les-entreprises-27545"
+          },
+          {
+            "nombre": "Le Monde du Chiffre",
+            "url": "https://www.lemondeduchiffre.fr/a-la-une/80682-budget-2027-l-impot-epargne-la-fiche-de-paie-mise-a-contribution.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "Inflación del 3,0 % en septiembre, tirada por la energía",
+        "resumen": "Según la estimación provisional del Insee del 30 de septiembre, los precios de consumo subieron un 3,0 % interanual, frente al 2,4 % de agosto y por encima del consenso del 2,8 %. La energía se disparó un 21,2 % y los productos frescos un 9,9 %. En términos armonizados, la inflación llega al 3,4 %. Antes del bloqueo del estrecho de Ormuz, a finales de febrero, los precios solo subían en torno al 1 %. Los resultados definitivos se publicarán el 15 de octubre.",
+        "lectura": "El Insee precisa que los índices provisionales no deben usarse para revalorizaciones contractuales. Las empresas españolas con contratos o alquileres en Francia indexados al IPC deberían esperar al índice definitivo y comprobar las cláusulas correspondientes.",
+        "fuentes": [
+          {
+            "nombre": "Insee",
+            "url": "https://www.insee.fr/fr/statistiques/9056956"
+          },
+          {
+            "nombre": "Zonebourse (AFP)",
+            "url": "https://www.zonebourse.com/actualite-bourse/france-l-inflation-grimpe-a-3-sur-un-an-en-septembre-selon-l-insee-ce785ad2dd8ef52c"
+          },
+          {
+            "nombre": "Option Finance",
+            "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-09-30-france-linflation-depasse-les-attentes-en-septembre.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finanzas y mercados",
+        "titulo": "La OAT a 10 años supera el 4,8 % y el BCE puede endurecer aún más",
+        "resumen": "El tipo a 10 años de Francia superó el 4,8 % el martes, algo que no ocurría desde la crisis de 2008. El 1 de octubre se situaba en el 4,90 % con un Bund al 3,60 %, un diferencial de 130 puntos básicos. La inflación de la zona euro fue del 3,8 % en septiembre, frente al 3,2 % de agosto. El BCE subió sus tres tipos de referencia 25 puntos básicos el 10 de septiembre, hasta dejar el de depósito en el 2,5 %. Una nueva decisión es posible el 29 de octubre.",
+        "lectura": "El coste de la deuda pública y el del crédito a las empresas evolucionan a la par. Los grupos con financiación variable o refinanciación próxima deberían valorar dos escenarios de tipos, con y sin una nueva subida del BCE.",
+        "fuentes": [
+          {
+            "nombre": "Ideal Investisseur",
+            "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+          },
+          {
+            "nombre": "Échos Plus (Eurostat)",
+            "url": "https://echosplus.com/2026/10/02/inflation-en-zone-euro-a-38-en-septembre-lenergie-accentue-la-pression-sur-la-bce/"
+          },
+          {
+            "nombre": "BCE",
+            "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.fr.html"
+          },
+          {
+            "nombre": "Boursorama (Reuters)",
+            "url": "https://www.boursorama.com/actualite-economique/actualites/bce-une-nouvelle-hausse-des-taux-pourrait-intervenir-des-octobre-sources-91f0445ce49d379a6233fa198bb6213a"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Política",
+        "titulo": "El Congreso deroga los decretos de vivienda; se evocan elecciones",
+        "resumen": "El 2 de octubre, el Congreso rechazó los dos reales decretos-leyes de vivienda (26/2026 y 27/2026), por 178 votos contra 172 el primero y 184 contra 166 el segundo. PP, Vox, Junts y UPN votaron en contra. Decaen la prórroga extraordinaria de los alquileres y la protección frente a ciertos desahucios. Junts estima que esas medidas reducirían la oferta de alquiler. Pedro Sánchez estudia un escenario electoral; se menciona el 29 de noviembre, sin confirmar.",
+        "lectura": "El marco regulatorio del alquiler residencial sigue abierto. Según la prensa, el decreto 26/2026 creaba también una cuenta de ahorro-inversión europea, cuyo destino habrá que aclarar. Las empresas y los inversores con exposición al residencial español deberían valorar un escenario de nueva ley negociada y otro de statu quo.",
+        "fuentes": [
+          {
+            "nombre": "Euribor.com.es",
+            "url": "https://www.euribor.com.es/2026/10/03/congreso-deroga-los-decretos-de-vivienda-con-el-no-de-junts-pp/"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/10/02/congreso-tumba-reales-decretos-vivienda/"
+          },
+          {
+            "nombre": "El Diario de Madrid",
+            "url": "https://www.eldiariodemadrid.es/articulo/politica/pedro-sanchez-adelanto-elecciones-rechazo-decretos-vivienda-manifestaciones/20261002172336143219.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "La inflación española sube al 4,9 %, máximo desde 2023",
+        "resumen": "El indicador adelantado del INE sitúa la inflación en el 4,9 % en septiembre, frente al 4,3 % de agosto. La inflación subyacente sube al 3,1 % y el índice armonizado al 5,0 %. El INE cita el encarecimiento de los carburantes y de los paquetes turísticos. El dato superó las previsiones de Bankinter (4,6 %). Los datos definitivos se esperan el 14 de octubre. El último IRAV, que limita la revalorización de los alquileres de contratos recientes, es del 2,47 % (agosto).",
+        "lectura": "La distancia entre el IPC y el IRAV es considerable en los alquileres. Conviene comprobar, contrato a contrato, qué índice se aplica, sobre todo en los activos en alquiler y en las cláusulas de indexación de contratos con socios, también franceses.",
+        "fuentes": [
+          {
+            "nombre": "INE",
+            "url": "https://www.ine.es/dyngs/Prensa/adIPC0926.htm"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/09/30/ipc-septiembre-2026-sube-carburantes/"
+          },
+          {
+            "nombre": "Cronista España",
+            "url": "https://www.cronista.com/espana/economia-finanzas/como-se-actualiza-el-precio-del-alquiler-ahora-ipc-irav-y-que-indice-corresponde-en-cada-contrato/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "Empleo: récord de afiliados en septiembre, con efecto de la regularización",
+        "resumen": "La Seguridad Social ganó 92.327 afiliados en septiembre, el mejor septiembre de la serie, y suma más de 22,4 millones de cotizantes. El paro registrado aumentó en 23.587 personas, hasta 2.379.505, el nivel más bajo para un mes de septiembre desde 2007. Unos 421.000 afiliados extranjeros proceden de la regularización extraordinaria. Entre los parados, 56.476 se inscribieron tras acogerse a ella.",
+        "lectura": "Las cifras reflejan en parte el afloramiento de empleo ya existente. Hay que leer afiliación y paro juntos, sin ver solo creación neta. El mercado laboral español sigue siendo dinámico, pero compararlo con el francés exige esa cautela.",
+        "fuentes": [
+          {
+            "nombre": "Moncloa.com",
+            "url": "https://www.moncloa.com/2026/10/02/paro-septiembre-2026-minimo-desde-2007-3441450"
+          },
+          {
+            "nombre": "El Salto",
+            "url": "https://www.elsaltodiario.com/desempleo/empleo-se-apunta-un-septiembre-record-92-000-personas-gracias-regulacion-migrantes"
+          },
+          {
+            "nombre": "Que.es",
+            "url": "https://www.que.es/2026/10/02/paro-septiembre-afiliacion-record/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finanzas y mercados",
+        "titulo": "Presupuestos 2027 fuera de plazo e Ibex con un descenso del 3,12 % en la semana",
+        "resumen": "El proyecto de presupuestos de 2027 no se presentó antes del plazo constitucional del 30 de septiembre. El vicepresidente Carlos Cuerpo asegura que llegará, sin fecha. Siguen prorrogadas las cuentas de 2023. En julio, el Gobierno había fijado un techo de gasto de 226.032 millones de euros (+6,6 %) y un objetivo de déficit del 1,8 % en 2027. El Ibex 35 cerró el viernes en 19.085,30 puntos, un 3,12 % menos en la semana, la peor desde abril.",
+        "lectura": "La ausencia de presupuestos no impide que la economía funcione, pero priva de visibilidad sobre fiscalidad y gasto. Con la banca a la baja el jueves (CaixaBank, Santander y BBVA, entre un 4 % y un 4,6 %), quienes operan en el crédito deben seguir los tipos y la agenda política.",
+        "fuentes": [
+          {
+            "nombre": "elEconomista",
+            "url": "https://www.eleconomista.es/economia/noticias/14018480/10/26/el-ejecutivo-cierra-toda-una-legislatura-sin-aprobar-nuevos-presupuestos-del-estado.html"
+          },
+          {
+            "nombre": "Infobae (EFE)",
+            "url": "https://www.infobae.com/espana/agencias/2026/09/29/cuerpo-insiste-en-que-habra-presupuestos-pese-a-que-el-plazo-constitucional-vence-manana/"
+          },
+          {
+            "nombre": "Ministerio de Hacienda",
+            "url": "https://www.hacienda.gob.es/es-ES/Prensa/Noticias/Paginas/2026/20260707-NP-CM-TECHO-GASTOS-2027.aspx"
+          },
+          {
+            "nombre": "elEconomista (Ibex)",
+            "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14018339/10/26/el-ibex-35-cae-un-3-en-su-peor-semana-desde-abril-y-pierde-el-soporte-de-los-19390-puntos.html"
+          },
+          {
+            "nombre": "Euribor.com.es",
+            "url": "https://www.euribor.com.es/2026/10/02/analisis-de-mercados-2-de-octubre-de-2026-2-octubre-2026/"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "3-4 de octubre de 2026",
+        "que": "España: manifestaciones del Sindicato de Inquilinas en más de 50 ciudades; Pedro Sánchez debe evaluar un posible escenario electoral."
+      },
+      {
+        "cuando": "6 de octubre de 2026",
+        "que": "Francia: comienza el examen del PLF 2027 por los diputados."
+      },
+      {
+        "cuando": "14 y 15 de octubre de 2026",
+        "que": "España y Francia: publicación de los índices de precios definitivos de septiembre (INE el 14, Insee el 15) y del IRAV español el 14."
+      },
+      {
+        "cuando": "23 de octubre de 2026",
+        "que": "Francia: decisión de Moody's sobre la nota soberana (Aa3, perspectiva negativa)."
+      },
+      {
+        "cuando": "29 de octubre de 2026",
+        "que": "Zona euro: reunión de política monetaria del BCE, con posible nueva subida de tipos."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "Bulletin Rilamax n.º 1 – Semana del 28 de septiembre al 3 de octubre de 2026\n\nEnergía, deuda, política: dos países bajo presión\n\nUn mismo choque domina la semana: la energía, encarecida por la guerra en Irán y el bloqueo del estrecho de Ormuz. La inflación alcanza el 3,0 % en Francia y el 4,9 % en España, y el 3,8 % en la zona euro. En Francia, el presupuesto de 2027 prevé 54.000 millones de euros de esfuerzo para apuntar a un déficit del 5,0 %, mientras el tipo a 10 años ha superado el 4,8 %. En España, el Congreso ha derogado los decretos de vivienda y se estudia un escenario electoral, mientras el empleo se mantiene sólido.\n\nPara retener\n- La inflación repunta en todas partes: 3,0 % en Francia, 4,9 % en España y 3,8 % en la zona euro.\n- El bono francés a 10 años (4,90 %) se aleja del español pese a un presupuesto de 54.000 M€ de esfuerzo, cuyo voto es incierto.\n- En España el riesgo es político: decretos de vivienda derogados, sin presupuestos 2027 y elecciones posibles.\n\nEl dossier: la deuda francesa ante el espejo español\n\nEn 2025, Francia registró un déficit público del 5,1 % del PIB, frente al 2,4 % de España. A finales de junio de 2026, la deuda alcanzaba el 119 % del PIB en Francia y el 101,4 % en España. La bajada española es en buena parte aritmética: el saldo vivo aumentó un 4,3 % en un año, pero el PIB nominal creció un 6,1 %.\n\nParís ha presentado un presupuesto de 2027 con 54.000 millones de euros de esfuerzo: infraindexación de las pensiones superiores a 1.260 euros, congelación del punto de índice de la función pública, recargo del impuesto sobre sociedades prorrogado pero rebajado y tasas sectoriales al alza. El Alto Consejo de las Finanzas Públicas juzga optimista el crecimiento del 1,0 %. El mercado ha reaccionado: la OAT a 10 años superó el 4,8 % y llegó al 4,90 % el 1 de octubre con un Bund al 3,60 %, un diferencial de 130 puntos básicos frente a unos 75 de media en un año. La carga de intereses pasaría de 79.200 a 91.200 millones de euros en 2027.\n\nEspaña se financia a menor coste, con un crecimiento de 2026 revisado al 2,6 % y una deuda que bajó del 100 % del PIB en julio. Pero esa solidez se apoya en parte en la regularización de migrantes y en los precios, y el marco político es frágil: decretos de vivienda derogados, ningún presupuesto desde 2023 y posibles elecciones. El debate sigue abierto: fundamentos presupuestarios para unos, incertidumbre política y choques globales para otros.\n\nNuestra lectura: una empresa o un inversor español que mira hacia Francia debería valorar dos escenarios para 2027, presupuesto adoptado con enmiendas o régimen transitorio, revisar sus hipótesis de coste de financiación y de fiscalidad, y repasar las cláusulas de indexación, ya que el Insee advierte de que los índices provisionales no sirven para revalorizaciones contractuales.\n\nPara leer la edición completa del Bulletin Rilamax, visita https://bulletin.rilamax.com",
+      "post": "130 puntos básicos. Es la distancia entre el tipo a 10 años francés (4,90 %) y el Bund alemán (3,60 %) a 1 de octubre, frente a unos 75 puntos de media en un año.\n\nLa semana en que París presentó un presupuesto de 2027 con 54.000 millones de euros de esfuerzo, España bajó del 100 % de deuda pública. Déficit de 2025: 5,1 % del PIB en Francia, 2,4 % en España.\n\nPero el contraste tiene matices. En España han caído los decretos de vivienda en el Congreso, no se aprueba un presupuesto desde 2023 y se habla de elecciones anticipadas. La inflación llega al 4,9 %.\n\nSi tu empresa mira hacia Francia, el dossier de la semana compara ambas trayectorias, con las cifras y los argumentos contrarios.\n\nEdición completa en https://bulletin.rilamax.com\n\n#Francia #España #Economía #DeudaSoberana #BulletinRilamax"
+    },
+    "minutos": 21
+  }
+}
