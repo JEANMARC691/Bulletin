@@ -4,7 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{{ L.fr.titulo }} — N° {{ meta.numero }}</title>
-<meta name="description" content="{{ fr.editorial.titulo }}">
+<meta name="description" content="{{ fr.dossier.titulo }}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Le Bulletin Rilamax">
+<meta property="og:title" content="{{ L.fr.titulo }} N° {{ meta.numero }} · {{ fr.dossier.titulo }}">
+<meta property="og:description" content="{{ fr.dossier.intro }}">
+<meta property="og:image" content="{{ site_url }}/portada.png">
+<meta property="og:url" content="{{ site_url }}{{ meta.ruta }}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -50,7 +57,7 @@
     <li><a href="#{{ code }}-fr">{{ l.p1 }}</a></li>
     <li><a href="#{{ code }}-es">{{ l.p2 }}</a></li>
     <li><a href="#{{ code }}-agenda">{{ l.agenda }}</a></li>
-    {% if archivo %}<li><a href="#{{ code }}-archivo">{{ l.archivo }}</a></li>{% endif %}
+    <li><a href="/archivo/?lang={{ code }}">{{ l.todas }}</a></li>
   </ul></div>
 </nav>
 

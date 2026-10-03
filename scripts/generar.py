@@ -39,6 +39,7 @@ LABELS = {
         "puntos": "Les trois points à retenir", "lectura_r": "Lecture Rilamax",
         "debate": "Le débat", "vigilaremos": "Ce que nous surveillerons",
         "fuentes": "Sources : ", "fuente": "Source : ", "archivo": "Éditions précédentes",
+        "todas": "Toutes les éditions", "ultima": "Dernière édition",
         "firma": "— Jean Marc, RILAMAX 2025",
         "cta": "Le Bulletin Rilamax paraît chaque samedi : l'essentiel de l'économie, de la finance et de la politique entre la France et l'Espagne, avec notre lecture.",
         "cta_btn": "S'abonner sur LinkedIn",
@@ -54,6 +55,7 @@ LABELS = {
         "puntos": "Los tres puntos clave", "lectura_r": "Lectura Rilamax",
         "debate": "El debate", "vigilaremos": "Lo que vigilaremos",
         "fuentes": "Fuentes: ", "fuente": "Fuente: ", "archivo": "Ediciones anteriores",
+        "todas": "Todas las ediciones", "ultima": "Última edición",
         "firma": "— Jean Marc, RILAMAX 2025",
         "cta": "El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.",
         "cta_btn": "Suscribirse en LinkedIn",
@@ -256,7 +258,7 @@ def main():
 
     fecha = hoy.isoformat()
     ruta_ed = f"/ediciones/{fecha}/"
-    meta = {"numero": numero, "semana": semana, "fecha": fecha,
+    meta = {"numero": numero, "semana": semana, "fecha": fecha, "ruta": ruta_ed,
             "rango_fr": rango(lunes, hoy, "fr"), "rango_es": rango(lunes, hoy, "es")}
     historial = [h for h in historial if h["fecha"] != fecha]
     historial.append({"numero": numero, "fecha": fecha, "semana": semana, "ruta": ruta_ed,
@@ -267,11 +269,15 @@ def main():
     plantilla = env.get_template("boletin.html.j2")
     css = (ROOT / "plantillas" / "estilos.css").read_text(encoding="utf-8")
     html = plantilla.render(fr=ed_fr, es=ed_es, L=LABELS, meta=meta, css=css,
-                            archivo=anteriores, linkedin_url=CONFIG.get("linkedin_url", ""))
+                            archivo=anteriores, linkedin_url=CONFIG.get("linkedin_url", ""), site_url=SITE_URL)
+    html_archivo = env.get_template("archivo.html.j2").render(
+        L=LABELS, css=css, ediciones=list(reversed(historial)), site_url=SITE_URL)
 
     (SITE / "ediciones" / fecha).mkdir(parents=True, exist_ok=True)
     (SITE / "ediciones" / fecha / "index.html").write_text(html, encoding="utf-8")
     (SITE / "index.html").write_text(html, encoding="utf-8")
+    (SITE / "archivo").mkdir(parents=True, exist_ok=True)
+    (SITE / "archivo" / "index.html").write_text(html_archivo, encoding="utf-8")
     (SITE / "CNAME").write_text(SITE_URL.split("//", 1)[1] + "\n", encoding="utf-8")
     (DATA / "historial.json").write_text(json.dumps(historial, ensure_ascii=False, indent=2), encoding="utf-8")
     (DATA / f"edicion-{fecha}.json").write_text(json.dumps({"fr": ed_fr, "es": ed_es}, ensure_ascii=False, indent=2), encoding="utf-8")

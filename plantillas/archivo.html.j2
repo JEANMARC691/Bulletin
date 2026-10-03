@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Le Bulletin Rilamax — Toutes les éditions</title>
+<meta property="og:title" content="Le Bulletin Rilamax — Toutes les éditions">
+<meta property="og:image" content="{{ site_url }}/portada.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+{{ css|safe }}
+.ed-list{list-style:none;margin:0;padding:0;display:grid;gap:.75rem}
+.ed-list a{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1rem 1.25rem}
+.ed-list a:hover{border-color:var(--fr)}
+.ed-list .n{font-size:.88rem;color:var(--muted)}
+.ed-list .t{display:block;font-family:"Literata",Georgia,serif;font-size:1.15rem;margin-top:.25rem}
+</style>
+</head>
+<body>
+{% for code in ['fr', 'es'] %}{% set l = L[code] %}
+<div class="edition" data-lang="{{ code }}" lang="{{ code }}"{% if code == 'es' %} hidden{% endif %}>
+<header class="mast"><div class="wrap">
+  <div class="bridge"><span>{{ l.p1 }}</span><span class="line" aria-hidden="true"></span><span>{{ l.p2 }}</span></div>
+  <div class="titlerow"><h1>{{ l.titulo }}</h1>
+    <div class="langs" role="group" aria-label="{{ l.lang_aria }}"><button type="button" data-set="fr" aria-pressed="{{ 'true' if code == 'fr' else 'false' }}">FR</button><button type="button" data-set="es" aria-pressed="{{ 'true' if code == 'es' else 'false' }}">ES</button></div>
+  </div>
+  <div class="meta"><span>{{ l.todas }}</span><span><a href="/?lang={{ code }}">{{ l.ultima }}</a></span></div>
+</div></header>
+<main class="wrap"><section>
+  <ul class="ed-list">{% for e in ediciones %}<li><a href="{{ e.ruta }}?lang={{ code }}"><span class="n">{{ l.numero.format(n=e.numero, s=e.semana) }} · {{ e.fecha }}</span><span class="t">{{ e['titulo_' ~ code] }}</span></a></li>{% endfor %}</ul>
+</section></main>
+<footer class="wrap"><p>{{ l.footer }}</p></footer>
+</div>
+{% endfor %}
+<script>
+(function(){
+  function setLang(l){
+    document.querySelectorAll('.edition').forEach(function(e){e.hidden=e.dataset.lang!==l});
+    document.documentElement.lang=l;
+    try{localStorage.setItem('rilamax-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set)})});
+  var p=new URLSearchParams(location.search).get('lang'); var saved=null;
+  try{saved=localStorage.getItem('rilamax-lang')}catch(e){}
+  var l=(p==='es'||p==='fr')?p:saved; if(l==='es'||l==='fr') setLang(l);
+})();
+</script>
+</body>
+</html>
