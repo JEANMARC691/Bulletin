@@ -41,6 +41,7 @@ LABELS = {
         "fuentes": "Sources : ", "fuente": "Source : ", "archivo": "Éditions précédentes",
         "todas": "Toutes les éditions", "ultima": "Dernière édition",
         "glosario": "Lexique", "glosario_t": "Les sigles de cette édition",
+        "tip": "Survolez ou touchez un segment pour afficher le détail.",
         "firma": "— Jean Marc, RILAMAX 2025",
         "cta": "Le Bulletin Rilamax paraît chaque samedi : l'essentiel de l'économie, de la finance et de la politique entre la France et l'Espagne, avec notre lecture.",
         "cta_btn": "S'abonner sur LinkedIn",
@@ -58,6 +59,7 @@ LABELS = {
         "fuentes": "Fuentes: ", "fuente": "Fuente: ", "archivo": "Ediciones anteriores",
         "todas": "Todas las ediciones", "ultima": "Última edición",
         "glosario": "Glosario", "glosario_t": "Las siglas de esta edición",
+        "tip": "Pase el cursor o toque un segmento para ver el detalle.",
         "firma": "— Jean Marc, RILAMAX 2025",
         "cta": "El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.",
         "cta_btn": "Suscribirse en LinkedIn",
@@ -146,9 +148,23 @@ def validar(ed, idioma):
     d.setdefault("cifras", [])
     d.setdefault("graficos", [])
     d.setdefault("fuentes", [])
-    d["graficos"] = [g for g in (d.get("graficos") or []) if g and g.get("barras")]
+    d["graficos"] = [g for g in (d.get("graficos") or []) if g and (g.get("barras") or g.get("filas") or g.get("tipo") == "ilustracion")]
+    if d.get("tabla"):
+        d["tabla"]["despues_de_seccion"] = int(d["tabla"].get("despues_de_seccion") or 1)
     for g in d["graficos"]:
         g["despues_de_seccion"] = int(g.get("despues_de_seccion") or 1)
+        if g.get("tipo") == "ilustracion":
+            continue
+        if g.get("tipo") == "mix":
+            for f in g["filas"]:
+                total = sum(float(x.get("valor") or 0) for x in f["segmentos"]) or 1
+                for x in f["segmentos"]:
+                    x["pct"] = max(1, round(float(x.get("valor") or 0) / total * 100))
+                ajuste = 100 - sum(x["pct"] for x in f["segmentos"])
+                if ajuste:
+                    mayor = max(f["segmentos"], key=lambda x: x["pct"])
+                    mayor["pct"] = max(1, min(100, mayor["pct"] + ajuste))
+            continue
         maximo = max(float(b.get("valor") or 0) for b in g["barras"]) or 1
         for b in g["barras"]:
             b["pct"] = min(100, max(1, round(float(b.get("valor") or 0) / maximo * 100)))
@@ -159,6 +175,7 @@ def validar(ed, idioma):
     for c in ed["cifras"]:
         c["pais"] = "es" if str(c.get("pais", "")).lower().startswith("es") else "fr"
     visibles = {k: v for k, v in ed.items() if k not in ("linkedin", "minutos")}
+    visibles = json.loads(json.dumps(visibles, ensure_ascii=False).replace('"src"', '"url"'))
     texto = json.dumps(visibles, ensure_ascii=False)
     texto = re.sub(r'"(url|fuentes|fuente|pais|aria|despues_de_seccion|valor|pct)"\s*:\s*("[^"]*"|\d+|\[[^\]]*\])', " ", texto)
     palabras = len(re.findall(r"\w+", texto))
@@ -209,6 +226,16 @@ def main():
                         if tema else "Elige tú el tema del dossier según la actualidad de la semana.")
 
     extra = f"Instrucciones adicionales del editor (prioritarias): {instrucciones}\n" if instrucciones else ""
+    fijo_ruta = DATA / "dossier_fijo.json"
+    fijo = json.loads(fijo_ruta.read_text(encoding="utf-8")) if fijo_ruta.exists() and modo != "solo_dossier" else None
+    if fijo:
+        log("Se usa el dossier redactado y validado por el editor (data/dossier_fijo.json).")
+        usa_tema_txt = bool(leer_tema()[0])
+        instruccion_tema = (
+            "El DOSSIER de esta semana ya está redactado y validado por el editor; te lo paso a continuación. "
+            "NO investigues ni redactes otro dossier: en tu JSON pon \"dossier\": null. El editorial, los puntos clave, "
+            "las cifras, la agenda, el glosario y los textos de LinkedIn deben ser coherentes con este dossier y presentarlo.\n"
+            "DOSSIER DEL EDITOR: " + json.dumps(fijo["fr"], ensure_ascii=False))
     log(f"Edición N.º {numero}, semana {semana} ({lunes} → {hoy}), modelo {MODELO}, modo {modo}")
     previa_ruta = DATA / "previa.json"
     if modo == "solo_dossier":
@@ -244,7 +271,10 @@ def main():
         "reserva toda la redacción para el JSON final."
     )
     if ed_fr is None:
-        ed_fr = validar(obtener_edicion(sistema, user_fr, True), "fr")
+        bruto = obtener_edicion(sistema, user_fr, True)
+        if fijo:
+            bruto["dossier"] = fijo["fr"]
+        ed_fr = validar(bruto, "fr")
     log("Edición francesa lista.")
 
     user_es = (
@@ -257,9 +287,14 @@ def main():
         "Usa el formato numérico español (punto para miles, coma para decimales).\n"
         + (f"Ten en cuenta estas instrucciones del editor: {instrucciones}\n" if instrucciones else "") +
         "Devuelve únicamente el JSON entre <json> y </json>.\n\n"
-        + json.dumps({k: v for k, v in ed_fr.items() if k != "minutos"}, ensure_ascii=False)
+        + json.dumps({k: v for k, v in ed_fr.items() if k not in ("minutos",) and not (fijo and k == "dossier")}, ensure_ascii=False)
+        + ("\n\nEl dossier en español ya está redactado por el editor: en tu JSON pon \"dossier\": null. "
+           "Dossier en español, para que el resto sea coherente: " + json.dumps(fijo["es"], ensure_ascii=False) if fijo else "")
     )
-    ed_es = validar(obtener_edicion(sistema, user_es, False), "es")
+    bruto_es = obtener_edicion(sistema, user_es, False)
+    if fijo:
+        bruto_es["dossier"] = fijo["es"]
+    ed_es = validar(bruto_es, "es")
     log("Edición española lista.")
 
     fecha = hoy.isoformat()
@@ -287,6 +322,8 @@ def main():
     (SITE / "CNAME").write_text(SITE_URL.split("//", 1)[1] + "\n", encoding="utf-8")
     (DATA / "historial.json").write_text(json.dumps(historial, ensure_ascii=False, indent=2), encoding="utf-8")
     (DATA / f"edicion-{fecha}.json").write_text(json.dumps({"fr": ed_fr, "es": ed_es}, ensure_ascii=False, indent=2), encoding="utf-8")
+    if fijo:
+        fijo_ruta.unlink()
     if usa_tema_txt:
         (ROOT / "tema.txt").write_text("\n".join(cabecera_tema) + "\n", encoding="utf-8")
 

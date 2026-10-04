@@ -1,0 +1,35 @@
+<figure class="illus" aria-label="Deux énergies tirées de l'agriculture : le bioéthanol (en haut) et le biométhane (en bas).">
+<svg viewBox="0 0 660 300" role="img" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:'Public Sans',system-ui,sans-serif">
+<text x="10" y="22" font-size="12" font-weight="700" letter-spacing="1.5" fill="var(--es)">BIOÉTHANOL</text>
+<g transform="translate(0,38)">
+ <rect x="10" y="0" width="170" height="96" rx="12" fill="var(--es-soft)"/>
+ <g stroke="#7A9A3A" stroke-width="4" stroke-linecap="round" fill="none"><path d="M40 70 v-34 M40 46 l-10 -10 M40 52 l10 -10 M70 70 v-40 M70 42 l-10 -10 M70 50 l10 -10 M100 70 v-34 M100 46 l-10 -10 M100 52 l10 -10"/></g>
+ <path d="M24 72 h132" stroke="var(--es)" stroke-width="4" stroke-linecap="round"/>
+ <text x="95" y="88" text-anchor="middle" font-size="11.5" fill="var(--ink)">Champ de betteraves ou de blé</text>
+ <g transform="translate(192,48)"><path d="M0 0 h34 m-10 -9 l10 9 l-10 9" fill="none" stroke="var(--muted)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+ <rect x="240" y="0" width="170" height="96" rx="12" fill="var(--surface)" stroke="var(--rule)" stroke-width="2"/>
+ <g fill="none" stroke="var(--muted)" stroke-width="4" stroke-linejoin="round"><path d="M282 70 v-32 l18 -12 v12 l18 -12 v12 l18 -12 v44 z"/><path d="M350 70 v-46 h12 v46"/></g>
+ <text x="325" y="88" text-anchor="middle" font-size="11.5" fill="var(--ink)">Distillerie</text>
+ <g transform="translate(422,48)"><path d="M0 0 h34 m-10 -9 l10 9 l-10 9" fill="none" stroke="var(--muted)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+ <rect x="470" y="0" width="180" height="96" rx="12" fill="var(--surface)" stroke="var(--rule)" stroke-width="2"/>
+ <g fill="none" stroke="var(--es)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><rect x="530" y="18" width="34" height="54" rx="4"/><path d="M536 30 h22"/><path d="M564 32 h10 v26 a6 6 0 0 0 12 0 v-20"/></g>
+ <text x="560" y="88" text-anchor="middle" font-size="11.5" fill="var(--ink)">Pompe E85</text>
+</g>
+<text x="10" y="172" font-size="12" font-weight="700" letter-spacing="1.5" fill="var(--note)">BIOMÉTHANE</text>
+<g transform="translate(0,188)">
+ <rect x="10" y="0" width="170" height="96" rx="12" fill="var(--note-soft)"/>
+ <g fill="none" stroke="var(--note)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><path d="M44 66 v-24 l26 -18 l26 18 v24 z"/><path d="M62 66 v-14 h16 v14"/><path d="M112 66 v-30 a10 10 0 0 1 20 0 v30"/></g>
+ <text x="95" y="82" text-anchor="middle" font-size="11.5" fill="var(--ink)">Élevage et</text>
+ <text x="95" y="94" text-anchor="middle" font-size="11.5" fill="var(--ink)">déchets agricoles</text>
+ <g transform="translate(192,48)"><path d="M0 0 h34 m-10 -9 l10 9 l-10 9" fill="none" stroke="var(--muted)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+ <rect x="240" y="0" width="170" height="96" rx="12" fill="var(--surface)" stroke="var(--rule)" stroke-width="2"/>
+ <g fill="none" stroke="var(--note)" stroke-width="4" stroke-linejoin="round"><path d="M285 70 v-22 a40 30 0 0 1 80 0 v22 z"/><path d="M285 70 h80"/></g>
+ <text x="325" y="88" text-anchor="middle" font-size="11.5" fill="var(--ink)">Méthaniseur</text>
+ <g transform="translate(422,48)"><path d="M0 0 h34 m-10 -9 l10 9 l-10 9" fill="none" stroke="var(--muted)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+ <rect x="470" y="0" width="180" height="96" rx="12" fill="var(--surface)" stroke="var(--rule)" stroke-width="2"/>
+ <g fill="none" stroke="var(--note)" stroke-width="5" stroke-linecap="round"><path d="M500 44 h120"/><path d="M520 44 v-16 M600 44 v20"/><circle cx="520" cy="24" r="5"/><path d="M590 64 h20"/></g>
+ <text x="560" y="88" text-anchor="middle" font-size="11.5" fill="var(--ink)">Réseau de gaz</text>
+</g>
+</svg>
+<figcaption>Deux énergies tirées de l'agriculture : le bioéthanol (en haut) et le biométhane (en bas).</figcaption>
+</figure>

@@ -20,6 +20,46 @@
 </style>
 </head>
 <body>
+{% macro cita(idx, fuentes) -%}
+{%- set ok = [] -%}{%- set vistos = [] -%}{%- for n in idx if n < fuentes|length -%}{%- set k = fuentes[n].corto or fuentes[n].nombre -%}{%- if k not in vistos -%}{%- set _ = ok.append(fuentes[n]) -%}{%- set _ = vistos.append(k) -%}{%- endif -%}{%- endfor -%}
+{%- if ok %} <span class="cite">({% for f in ok %}<a href="{{ f.url }}" target="_blank" rel="noopener" title="{{ f.nombre }}">{{ f.corto or f.nombre }}</a>{% if not loop.last %}, {% endif %}{% endfor %})</span>{% endif -%}
+{%- endmacro %}
+
+{% macro parrafo(p, fuentes) -%}
+{%- if p is mapping -%}<p>{{ p.t }}{{ cita(p.src or [], fuentes) }}</p>{%- else -%}<p>{{ p }}</p>{%- endif -%}
+{%- endmacro %}
+
+{% macro tabla(t, fuentes) -%}
+<figure class="cmp">
+  {% if t.titulo %}<p class="chart-t">{{ t.titulo }}</p>{% endif %}
+  <div class="cmp-wrap"><table>
+    <thead><tr>{% for c in t.columnas %}<th scope="col">{{ c }}</th>{% endfor %}</tr></thead>
+    <tbody>{% for f in t.filas %}<tr><th scope="row">{{ f[0] }}</th><td>{{ f[1] }}</td><td>{{ f[2] }}</td><td class="src-cell">{{ cita(f[3] if f|length > 3 else [], fuentes) }}</td></tr>{% endfor %}</tbody>
+  </table></div>
+  {% if t.nota %}<figcaption>{{ t.nota }}</figcaption>{% endif %}
+</figure>
+{%- endmacro %}
+
+{% macro grafico(g, l, code) -%}
+{% if g.tipo == 'ilustracion' %}
+  {% include 'ilustraciones/' ~ g.clave ~ '_' ~ code ~ '.svg' %}
+{% elif g.tipo == 'mix' %}
+<figure class="chart mix" aria-label="{{ g.aria }}">
+  {% if g.titulo %}<p class="chart-t">{{ g.titulo }}</p>{% endif %}
+  {% for f in g.filas %}<div class="mix-row"><span class="lbl">{{ f.etiqueta }}</span><span class="mix-bar">{% for sg in f.segmentos %}<span class="seg k-{{ sg.clave }} w{{ sg.pct }}" tabindex="0" title="{{ f.etiqueta }} · {{ sg.nombre }} : {{ sg.texto }}" data-tip="{{ f.etiqueta }} · {{ sg.nombre }} : {{ sg.texto }}">{% if sg.pct >= 9 %}<i>{{ sg.texto }}</i>{% endif %}</span>{% endfor %}</span></div>{% endfor %}
+  <div class="mix-legend">{% for sg in g.filas[0].segmentos %}<span><b class="k-{{ sg.clave }}"></b>{{ sg.nombre }}</span>{% endfor %}</div>
+  <p class="mix-info" data-default="{{ l.tip }}">{{ l.tip }}</p>
+  <figcaption>{{ g.pie }}</figcaption>
+</figure>
+{% else %}
+<figure class="chart" aria-label="{{ g.aria }}">
+  {% if g.titulo %}<p class="chart-t">{{ g.titulo }}</p>{% endif %}
+  {% for b in g.barras %}<div class="bar-row"><span class="lbl">{{ b.etiqueta }}</span><span class="bar"><span class="fill w{{ b.pct }} c-{{ b.color or ('es' if loop.first or g.barras|length > 2 else 'muted') }}"></span></span><span class="val">{{ b.texto }}</span></div>{% endfor %}
+  <figcaption>{{ g.pie }}</figcaption>
+</figure>
+{% endif %}
+{%- endmacro %}
+
 {% macro fuentes(lista, l) -%}
 {% if lista %}<p class="src">{{ l.fuentes if lista|length > 1 else l.fuente }}{% for f in lista %}<a href="{{ f.url }}" target="_blank" rel="noopener">{{ f.nombre }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
 {%- endmacro %}
@@ -93,19 +133,15 @@
       {% for s in d.secciones %}
         {% set i = loop.index %}
         <h3>{{ s.titulo }}</h3>
-        {% for p in s.parrafos %}<p>{{ p }}</p>{% endfor %}
-        {% for g in d.graficos if g.despues_de_seccion == i %}
-        <figure class="chart" aria-label="{{ g.aria }}">
-          {% for b in g.barras %}<div class="bar-row"><span class="lbl">{{ b.etiqueta }}</span><span class="bar"><span class="fill w{{ b.pct }} c-{{ 'es' if loop.first or g.barras|length > 2 else 'muted' }}"></span></span><span class="val">{{ b.texto }}</span></div>{% endfor %}
-          <figcaption>{{ g.pie }}</figcaption>
-        </figure>
-        {% endfor %}
+        {% for p in s.parrafos %}{{ parrafo(p, d.fuentes) }}{% endfor %}
+        {% for g in d.graficos if g.despues_de_seccion == i %}{{ grafico(g, l, code) }}{% endfor %}
+        {% if d.tabla and d.tabla.despues_de_seccion == i %}{{ tabla(d.tabla, d.fuentes) }}{% endif %}
         {% if d.debate and d.debate.texto and d.debate.despues_de_seccion == i %}
-        <div class="debate"><h4>{{ l.debate }}</h4><p>{{ d.debate.texto }}</p></div>
+        <div class="debate"><h4>{{ l.debate }}</h4>{{ parrafo(d.debate.texto, d.fuentes) }}</div>
         {% endif %}
       {% endfor %}
     </div>
-    <aside class="lecture"><h4>{{ l.lectura_r }}</h4><p>{{ d.lectura }}</p></aside>
+    <aside class="lecture"><h4>{{ l.lectura_r }}</h4>{% for par in d.lectura.split('\n\n') %}<p>{{ par }}</p>{% endfor %}</aside>
     {% if d.vigilaremos %}<div class="watch"><h4>{{ l.vigilaremos }}</h4><p>{{ d.vigilaremos }}</p></div>{% endif %}
     {{ fuentes(d.fuentes, l) }}
   </section>
@@ -165,6 +201,25 @@
   var p=new URLSearchParams(location.search).get('lang'); var saved=null;
   try{saved=localStorage.getItem('rilamax-lang')}catch(e){}
   var l=(p==='es'||p==='fr')?p:saved; if(l==='es'||l==='fr') setLang(l);
+  // Detalle del gráfico de mix al pasar el ratón, tocar o enfocar un segmento
+  document.querySelectorAll('figure.mix').forEach(function(fig){
+    var info=fig.querySelector('.mix-info'); if(!info) return;
+    fig.querySelectorAll('.seg').forEach(function(sg){
+      function show(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});sg.classList.add('on');info.textContent=sg.getAttribute('data-tip');info.classList.add('act')}
+      sg.addEventListener('mouseenter',show);sg.addEventListener('focus',show);sg.addEventListener('click',show);
+    });
+    fig.addEventListener('mouseleave',function(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});info.textContent=info.getAttribute('data-default');info.classList.remove('act')});
+  });
+  // Animación de los gráficos al aparecer en pantalla
+  try{
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(!reduce&&'IntersectionObserver' in window){
+      var charts=document.querySelectorAll('figure.chart');
+      charts.forEach(function(c){c.classList.add('pre')});
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target)}})},{threshold:.35});
+      charts.forEach(function(c){io.observe(c)});
+    }
+  }catch(e){}
 })();
 </script>
 </body>
