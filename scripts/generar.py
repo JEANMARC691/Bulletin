@@ -332,6 +332,14 @@ def main():
 
     OUT.mkdir(exist_ok=True)
     (OUT / f"boletin-rilamax-{fecha}.html").write_text(html, encoding="utf-8")
+    # Enlaces de LinkedIn: versión española directa y aviso en la newsletter francesa
+    url_es = SITE_URL + "/?lang=es"
+    for k in ("newsletter", "post"):
+        txt = ed_es["linkedin"].get(k, "")
+        ed_es["linkedin"][k] = re.sub(re.escape(SITE_URL) + r"(?![/?\w])/?", url_es, txt)
+    nl_fr = ed_fr["linkedin"].get("newsletter", "")
+    if url_es not in nl_fr:
+        ed_fr["linkedin"]["newsletter"] = "Versión en español: " + url_es + "\n\n" + nl_fr
     for idioma, ed in (("fr", ed_fr), ("es", ed_es)):
         li = ed["linkedin"]
         (OUT / f"linkedin_{idioma}.txt").write_text(
