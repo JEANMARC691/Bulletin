@@ -1,0 +1,2236 @@
+{
+  "fr": {
+    "editorial": {
+      "titulo": "Un même choc pétrolier, deux factures différentes",
+      "parrafos": [
+        "L'énergie a dicté la semaine des deux côtés des Pyrénées. En France, l'Insee (institut national de la statistique) estime l'inflation à 3,0 % sur un an en septembre, avec une énergie renchérie de 21,2 %. L'Espagne affiche 4,9 %, son plus haut niveau depuis février 2023. Vendredi, le G7 a annoncé la libération de jusqu'à 100 millions de barils sur quatre mois. Le Brent est brièvement passé sous 100 dollars avant de repartir au-dessus.",
+        "Les marchés ont réagi aux budgets plus qu'au pétrole. Jeudi, le gouvernement a présenté un projet de loi de finances (PLF) qui vise un déficit de 5,0 % du PIB en 2027. Le même jour, l'OAT (l'obligation d'État française à 10 ans) a touché 4,96 % en séance, avant de refluer. Le bono, son équivalent espagnol, cotait 4,17 % le 1er octobre. La France paie donc près de 70 points de base de plus que l'Espagne pour emprunter à dix ans.",
+        "La politique ajoute son propre calendrier. Après le rejet par le Congrès de deux décrets sur le logement, Pedro Sánchez a convoqué des élections générales pour le 29 novembre. À Paris, le Parti socialiste juge le budget «pas acceptable» et maintient la menace d'une censure. Dans les deux pays, l'incertitude parlementaire pèse sur la trajectoire des finances publiques, et les investisseurs devront suivre deux calendriers à la fois.",
+        "Le dossier de cette semaine part de ce choc. La France et l'Espagne exportent de l'électricité, mais dépendent de l'extérieur pour leurs carburants et leur chaleur : la France importe 39 % de son énergie, l'Espagne 68 %. Entre les deux, la fiscalité fait la différence. L'E85, carburant à base de bioéthanol, se vend 0,90 € le litre en France, alors que l'Espagne, qui produit et exporte ce bioéthanol, ne le vend presque pas chez elle. Nous chiffrons l'écart sans en faire une recette universelle."
+      ],
+      "puntos_clave": [
+        "L'inflation atteint 3,0 % en France et 4,9 % en Espagne, tirée par l'énergie.",
+        "L'OAT a touché 4,96 % jeudi, son plus haut depuis 2002, quand le bono espagnol cote 4,17 %.",
+        "La France importe 39 % de son énergie, l'Espagne 68 %, et leur fiscalité du bioéthanol diverge : 0,12 € contre 0,47 € le litre."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "4,87 %",
+        "texto": "Rendement de l'OAT (obligation d'État française à 10 ans) au 2 octobre, après un pic à 4,96 en séance le 1er octobre",
+        "fuente": "Trading Economics ; Reuters",
+        "pais": "fr",
+        "comparacion": "Espagne : 4,17 % pour le bono à 10 ans (1er octobre, Investing.com)"
+      },
+      {
+        "valor": "3,0 %",
+        "texto": "Hausse des prix à la consommation sur un an en septembre (estimation provisoire), contre 2,4 % en août",
+        "fuente": "Insee",
+        "pais": "fr",
+        "comparacion": "Espagne : 4,9 % (IPC avancé de septembre, INE)"
+      },
+      {
+        "valor": "5,0 %",
+        "texto": "Cible de déficit public pour 2027 dans le projet de budget, après 5,4 % prévu pour 2026",
+        "fuente": "Gouvernement (PLF 2027)",
+        "pais": "fr",
+        "comparacion": "Espagne : objectif de 1,8 % du PIB pour 2027 (Hacienda, juillet 2026)"
+      },
+      {
+        "valor": "9,87 %",
+        "texto": "Taux de chômage de l'EPA (enquête trimestrielle de l'INE sur la population active) au deuxième trimestre",
+        "fuente": "INE",
+        "pais": "es",
+        "comparacion": "France : 8,3 % (T2 2026, Insee, au sens du BIT)"
+      },
+      {
+        "valor": "56,8",
+        "texto": "PMI composite espagnol de septembre (au-dessus de 50, l'activité progresse), meilleur niveau depuis décembre 2024",
+        "fuente": "S&P Global, via El Boletín",
+        "pais": "es",
+        "comparacion": "France : 51,1 (PMI composite final de septembre, S&P Global)"
+      },
+      {
+        "valor": "-3,12 %",
+        "texto": "Variation de l'Ibex 35 sur la semaine du 28 septembre au 2 octobre, sa pire semaine depuis avril",
+        "fuente": "Estrategias de Inversión, d'après la clôture de l'Ibex 35",
+        "pais": "es",
+        "comparacion": "CAC 40 : -2,24 % sur la même semaine (BFM Bourse)"
+      }
+    ],
+    "dossier": {
+      "titulo": "Énergie : ce que la France tire de ses champs et que l'Espagne laisse filer",
+      "intro": "Depuis le choc pétrolier lié au conflit au Moyen-Orient, le litre de SP95-E10 se vend autour de 2,15 € en France. Des millions d'automobilistes français font pourtant le plein à 0,90 €, avec un carburant agricole que l'Espagne produit et exporte, mais ne vend presque pas chez elle. Pour comprendre ce paradoxe, il faut d'abord revenir à une question simple : de quoi un pays dépend-il vraiment quand il parle d'énergie ?",
+      "cifras": [
+        {
+          "valor": "39 % / 68 %",
+          "texto": "part de l'énergie importée, France / Espagne (2024)"
+        },
+        {
+          "valor": "26 % / 24 %",
+          "texto": "part de l'électricité dans l'énergie consommée, France / Espagne"
+        },
+        {
+          "valor": "0,12 € / 0,47 €",
+          "texto": "accise par litre sur le bioéthanol carburant, France / Espagne (taux ordinaire)"
+        },
+        {
+          "valor": "803 / 21",
+          "texto": "unités de biométhane en service, France / Espagne (2025)"
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. Autosuffisant en électricité, dépendant en énergie : comment est-ce possible ?",
+          "parrafos": [
+            "Un pays utilise l'énergie sous trois grandes formes. L'électricité fait tourner les appareils, l'éclairage, l'informatique et une partie du chauffage. Les carburants font rouler les voitures, les camions et voler les avions. La chaleur, enfin, chauffe les bâtiments et alimente les fours industriels, le plus souvent au gaz ou au fioul. Quand on dit qu'un pays « produit plus d'électricité qu'il n'en consomme », on ne parle que de la première de ces trois formes.",
+            {
+              "t": "Or l'électricité ne représente qu'une petite partie du total. En France, elle couvre 26 % de l'énergie réellement consommée, contre 39 % pour le pétrole. En Espagne, la proportion est voisine : 23,6 % en 2024. À lui seul, le transport absorbe 43 % de l'énergie finale espagnole, et il fonctionne presque entièrement au pétrole.",
+              "src": [
+                0,
+                5,
+                6
+              ]
+            },
+            "Prenons l'image d'un ménage. Ses panneaux solaires couvrent toute sa facture d'électricité et il revend même le surplus à ses voisins. Mais il fait le plein de sa voiture à la station et chauffe sa maison au gaz. Ce ménage est autosuffisant en électricité, pas en énergie. C'est exactement la situation de la France et de l'Espagne.",
+            {
+              "t": "Les chiffres le confirment. La France a exporté en 2024 un record de 89 TWh d'électricité, ce qui lui a rapporté environ 5 milliards d'euros. Mais sa facture énergétique est restée de 57,8 milliards, dont 43,8 milliards pour le pétrole et les biocarburants et 17,4 milliards pour le gaz. Au total, elle importe environ 39 % de l'énergie qu'elle consomme.",
+              "src": [
+                7,
+                1,
+                2
+              ]
+            },
+            {
+              "t": "L'Espagne exporte de l'électricité depuis quatre années consécutives, et 56,8 % de son électricité était renouvelable en 2024. Pourtant, elle dépend de l'extérieur pour 68,4 % de son énergie, car le pétrole représente 46,5 % de son énergie primaire et le gaz environ 20 %. Le solde de ses échanges énergétiques a coûté 32 milliards d'euros en 2025, soit 1,9 % du PIB.",
+              "src": [
+                8,
+                5,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "2. Deux mix électriques, une même faiblesse",
+          "parrafos": [
+            {
+              "t": "Côté électricité, les deux pays ont fait des choix opposés. La France s'appuie sur le nucléaire, qui fournit près des deux tiers de sa production. L'Espagne a misé sur l'éolien et le solaire, qui représentaient ensemble plus de 40 % de sa production en 2023, à côté du nucléaire et du gaz.",
+              "src": [
+                9,
+                10
+              ]
+            },
+            "Mais aucun de ces deux modèles ne règle la question des carburants et de la chaleur. C'est précisément sur ce terrain que l'agriculture peut jouer un rôle, avec deux filières : le bioéthanol, qui remplace une partie de l'essence, et le biométhane, qui remplace une partie du gaz."
+          ]
+        },
+        {
+          "titulo": "3. Le superéthanol E85 : un carburant agricole rendu compétitif par l'impôt",
+          "parrafos": [
+            {
+              "t": "L'E85 contient entre 65 et 85 % de bioéthanol, produit en France surtout à partir de betterave et de blé. Il est distribué dans 4 131 stations et 93 % des Français vivent à moins de 10 kilomètres de l'une d'elles. Les 22 et 23 septembre 2026, il coûtait en moyenne 0,90 € le litre, contre 2,15 € pour le SP95-E10.",
+              "src": [
+                15,
+                14
+              ]
+            },
+            {
+              "t": "L'écart affiché à la pompe surestime le gain réel. Avec de l'E85, un moteur consomme environ 30 % de litres en plus, selon une étude de l'IFP Énergies nouvelles pour l'Ademe. À distance parcourue égale, le litre revient donc à environ 1,17 €, ce qui reste près de 45 % moins cher que l'essence (calcul Rilamax). Pour une voiture essence non compatible, un boîtier de conversion homologué coûte à partir de 579 €, et la région Sud offre par exemple une aide de 250 €.",
+              "src": [
+                14,
+                15
+              ]
+            },
+            {
+              "t": "Ce prix bas s'explique d'abord par la fiscalité. En 2026, l'État français prélève 11,83 € d'accise par hectolitre d'E85, contre 67,50 € pour le SP95-E10 et 69,02 € pour le SP95-E5, soit environ 12 centimes par litre contre 67 à 69 centimes. Même rapportée au contenu énergétique, plus faible pour l'éthanol, l'E85 reste taxée environ quatre fois moins que l'essence : 17,9 € par mégawattheure contre 75,4 €.",
+              "src": [
+                11
+              ]
+            },
+            {
+              "t": "Ce choix a un coût pour les finances publiques, et il est régulièrement contesté. Le projet de budget 2026 prévoyait de réduire progressivement cet avantage ; le tarif est finalement resté inchangé.",
+              "src": [
+                18,
+                11
+              ]
+            },
+            {
+              "t": "Le résultat est mesurable. En 2025, la France a consommé plus de 1,9 milliard de litres de bioéthanol dans ses essences. Un tiers de ce bioéthanol est consommé sous forme d'E85, dont il s'est vendu environ 900 millions de litres (l'E85 contient aussi une part d'essence) ; le reste est incorporé à l'essence ordinaire. C'est davantage que la production nationale, estimée entre 1,1 et 1,2 milliard de litres par an dans une réponse ministérielle à l'Assemblée nationale. La France doit donc en importer une partie.",
+              "src": [
+                16,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "4. L'Espagne produit, la France consomme",
+          "parrafos": [
+            {
+              "t": "L'Espagne fait partie des grands producteurs européens de bioéthanol, avec environ 400 000 tonnes par an, soit près de 500 millions de litres (calcul Rilamax, densité de 0,79). Selon l'association espagnole des producteurs, plus de la moitié est exportée, principalement vers la France et l'Allemagne.",
+              "src": [
+                19,
+                20
+              ]
+            },
+            {
+              "t": "Sur son propre marché, l'E85 est quasiment introuvable : la carte officielle du ministère ne recensait que cinq stations en 2023. La raison est fiscale. La loi espagnole des accises applique au bioéthanol exactement le même taux qu'à l'essence : 400,69 € par 1 000 litres de taux général, plus 72 € de taux spécial, soit 47,3 centimes par litre en régime ordinaire. Les baisses temporaires décidées en 2026 face à la crise ont été appliquées de la même façon aux deux carburants. Sans écart de prix, ni les distributeurs ni les automobilistes n'ont de raison de changer.",
+              "src": [
+                20,
+                12,
+                13,
+                21
+              ]
+            },
+            {
+              "t": "Madrid encourage le bioéthanol par une autre voie : l'obligation d'incorporation. Le décret royal 5/2026 a porté de 12 à 14 % la part minimale de biocarburants dans les carburants vendus en 2026, en contenu énergétique. Le bioéthanol est mélangé à l'essence ordinaire, sans avantage de prix pour l'automobiliste. Selon la confédération des stations-service, en 2022, 70 % du réseau, géré par des PME, se disait prêt à vendre de l'E85 si la fiscalité le permettait.",
+              "src": [
+                22,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "5. Biométhane : 803 contre 21",
+          "parrafos": [
+            "Le biométhane est un gaz renouvelable produit en faisant fermenter des effluents d'élevage, des résidus de cultures et des biodéchets dans un méthaniseur. Une fois épuré, il est injecté dans le réseau de gaz, comme du gaz naturel. Le résidu de la fermentation, le digestat, sert d'engrais.",
+            {
+              "t": "La France comptait 803 sites d'injection à la fin de 2025. Ils ont produit 13,6 TWh de biométhane, soit 3,9 % de la consommation de gaz du pays, et la programmation énergétique vise 44 TWh en 2030. Cette croissance repose sur des tarifs d'achat garantis, qui donnent aux producteurs des revenus prévisibles.",
+              "src": [
+                24,
+                26
+              ]
+            },
+            {
+              "t": "L'Espagne ne disposait que de 21 usines en service en 2025, avec plus d'une centaine de projets en cours. Elle a pourtant une matière première considérable : avec 34,5 millions de porcs en 2024, elle possède le premier cheptel porcin de l'Union européenne, trois fois celui de la France (11,7 millions). Sa surface agricole, de 23,5 millions d'hectares, est en revanche un peu inférieure à celle de la France (27,2 millions).",
+              "src": [
+                25,
+                28,
+                29
+              ]
+            },
+            {
+              "t": "Le potentiel espagnol fait l'objet d'estimations très différentes. L'association gazière Sedigas l'évalue à 163 TWh par an, soit environ la moitié de la consommation de gaz du pays. Une évaluation fondée sur les critères de durabilité de la Commission européenne retient un chiffre bien plus prudent, de l'ordre de 13 % de la consommation actuelle. L'Association européenne du biogaz prévoit toutefois 4,8 milliards d'euros d'investissements en Espagne d'ici 2030. Le secteur attribue le retard espagnol à l'absence d'un cadre de soutien stable, comparable aux tarifs français.",
+              "src": [
+                30,
+                27,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "6. Pourquoi l'Espagne ne suit pas",
+          "parrafos": [
+            "Plusieurs explications coexistent. La première est budgétaire : chaque litre d'E85 moins taxé est une recette en moins, dans un pays qui doit réduire son déficit. La deuxième est stratégique : l'Espagne a fait de l'électrification, et notamment de la voiture électrique, la priorité de sa politique énergétique, et ne souhaite pas prolonger la vie du moteur thermique. La troisième tient à l'organisation du marché, les stations indépendantes estimant que les intérêts du raffinage traditionnel ont pesé dans ce choix.",
+            {
+              "t": "Or l'électrification avance lentement. En 2025, les voitures 100 % électriques ne représentaient que 0,8 % du parc automobile espagnol. Pendant la transition, qui se comptera en décennies, des millions de véhicules thermiques continueront de rouler, et de consommer du pétrole importé.",
+              "src": [
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "tipo": "ilustracion",
+          "clave": "tres-necesidades",
+          "despues_de_seccion": 1
+        },
+        {
+          "tipo": "mix",
+          "despues_de_seccion": 1,
+          "titulo": "Part de l'électricité dans l'énergie réellement consommée (2024)",
+          "aria": "Part de l'électricité dans la consommation finale d'énergie",
+          "pie": "Consommation finale d'énergie, 2024. France : 26 % (SDES). Espagne : 23,6 % (étude APPA).",
+          "filas": [
+            {
+              "etiqueta": "France",
+              "segmentos": [
+                {
+                  "nombre": "Électricité",
+                  "clave": "hidro",
+                  "valor": 26.0,
+                  "texto": "26 %",
+                  "pct": 26
+                },
+                {
+                  "nombre": "Carburants, gaz, chaleur et autres",
+                  "clave": "otros",
+                  "valor": 74.0,
+                  "texto": "74 %",
+                  "pct": 74
+                }
+              ]
+            },
+            {
+              "etiqueta": "Espagne",
+              "segmentos": [
+                {
+                  "nombre": "Électricité",
+                  "clave": "hidro",
+                  "valor": 23.6,
+                  "texto": "23,6 %",
+                  "pct": 24
+                },
+                {
+                  "nombre": "Carburants, gaz, chaleur et autres",
+                  "clave": "otros",
+                  "valor": 76.4,
+                  "texto": "76,4 %",
+                  "pct": 76
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "mix",
+          "despues_de_seccion": 2,
+          "titulo": "Comment chaque pays produit son électricité",
+          "aria": "Mix électrique de la France et de l'Espagne",
+          "pie": "Part de chaque source dans la production d'électricité, données 2023 (dernière année comparable sur cette source). Source : DatosMundial, d'après IRENA.",
+          "filas": [
+            {
+              "etiqueta": "France",
+              "segmentos": [
+                {
+                  "nombre": "Nucléaire",
+                  "clave": "nuclear",
+                  "valor": 63.9,
+                  "texto": "63,9 %",
+                  "pct": 64
+                },
+                {
+                  "nombre": "Fossiles",
+                  "clave": "fosil",
+                  "valor": 7.9,
+                  "texto": "7,9 %",
+                  "pct": 8
+                },
+                {
+                  "nombre": "Éolien",
+                  "clave": "eolica",
+                  "valor": 10.4,
+                  "texto": "10,4 %",
+                  "pct": 10
+                },
+                {
+                  "nombre": "Solaire",
+                  "clave": "solar",
+                  "valor": 4.5,
+                  "texto": "4,5 %",
+                  "pct": 5
+                },
+                {
+                  "nombre": "Hydraulique",
+                  "clave": "hidro",
+                  "valor": 10.8,
+                  "texto": "10,8 %",
+                  "pct": 11
+                },
+                {
+                  "nombre": "Biomasse",
+                  "clave": "biomasa",
+                  "valor": 2.3,
+                  "texto": "2,3 %",
+                  "pct": 2
+                }
+              ]
+            },
+            {
+              "etiqueta": "Espagne",
+              "segmentos": [
+                {
+                  "nombre": "Nucléaire",
+                  "clave": "nuclear",
+                  "valor": 20.4,
+                  "texto": "20,4 %",
+                  "pct": 20
+                },
+                {
+                  "nombre": "Fossiles",
+                  "clave": "fosil",
+                  "valor": 28.0,
+                  "texto": "28,0 %",
+                  "pct": 29
+                },
+                {
+                  "nombre": "Éolien",
+                  "clave": "eolica",
+                  "valor": 23.6,
+                  "texto": "23,6 %",
+                  "pct": 24
+                },
+                {
+                  "nombre": "Solaire",
+                  "clave": "solar",
+                  "valor": 17.3,
+                  "texto": "17,3 %",
+                  "pct": 17
+                },
+                {
+                  "nombre": "Hydraulique",
+                  "clave": "hidro",
+                  "valor": 8.5,
+                  "texto": "8,5 %",
+                  "pct": 8
+                },
+                {
+                  "nombre": "Biomasse",
+                  "clave": "biomasa",
+                  "valor": 2.2,
+                  "texto": "2,2 %",
+                  "pct": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "ilustracion",
+          "clave": "del-campo",
+          "despues_de_seccion": 2
+        },
+        {
+          "despues_de_seccion": 3,
+          "titulo": "Prix du litre en France, 22-23 septembre 2026",
+          "aria": "Prix comparé de l'E85 et du SP95-E10",
+          "pie": "« E85 à distance égale » : prix corrigé d'une surconsommation de 30 % (calcul Rilamax). Source des prix : Selectra, d'après le flux officiel des prix des carburants.",
+          "barras": [
+            {
+              "etiqueta": "SP95-E10",
+              "valor": 2.15,
+              "texto": "2,15 €",
+              "pct": 100
+            },
+            {
+              "etiqueta": "E85, à distance égale",
+              "valor": 1.17,
+              "texto": "≈ 1,17 €",
+              "pct": 54
+            },
+            {
+              "etiqueta": "E85, à la pompe",
+              "valor": 0.9,
+              "texto": "0,90 €",
+              "pct": 42
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 4,
+          "titulo": "Accise sur les carburants, en centimes par litre",
+          "aria": "Accise comparée sur l'essence et le bioéthanol",
+          "pie": "Hors TVA. France : tarifs au 1er août 2026 (Guide 2026 de la fiscalité des énergies). Espagne : taux ordinaires de la loi 38/1992, hors baisses temporaires de 2026 appliquées aux deux produits.",
+          "barras": [
+            {
+              "etiqueta": "Essence SP95-E10, France",
+              "valor": 67.5,
+              "texto": "67,5 cts",
+              "color": "fr",
+              "pct": 100
+            },
+            {
+              "etiqueta": "Essence, Espagne",
+              "valor": 47.27,
+              "texto": "47,3 cts",
+              "color": "es",
+              "pct": 70
+            },
+            {
+              "etiqueta": "Bioéthanol / E85, Espagne",
+              "valor": 47.27,
+              "texto": "47,3 cts",
+              "color": "es",
+              "pct": 70
+            },
+            {
+              "etiqueta": "E85, France",
+              "valor": 11.83,
+              "texto": "11,8 cts",
+              "color": "fr",
+              "pct": 18
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 5,
+          "titulo": "Unités de biométhane en service, fin 2025",
+          "aria": "Installations de biométhane en France et en Espagne",
+          "pie": "France : sites injectant dans les réseaux de gaz (Panorama des gaz renouvelables 2025). Espagne : usines en service (Suez).",
+          "barras": [
+            {
+              "etiqueta": "France",
+              "valor": 803,
+              "texto": "803",
+              "color": "fr",
+              "pct": 100
+            },
+            {
+              "etiqueta": "Espagne",
+              "valor": 21,
+              "texto": "21",
+              "color": "es",
+              "pct": 3
+            }
+          ]
+        }
+      ],
+      "tabla": {
+        "despues_de_seccion": 2,
+        "titulo": "La France et l'Espagne en chiffres comparables",
+        "columnas": [
+          "Indicateur",
+          "France",
+          "Espagne",
+          "Sources"
+        ],
+        "filas": [
+          [
+            "Énergie importée (taux de dépendance)",
+            "39,3 % (2024)",
+            "68,4 % (2024)",
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            "Coût net des échanges d'énergie",
+            "57,8 Md€ (2024)",
+            "32 Md€ (2025)",
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            "Électricité dans l'énergie consommée",
+            "26 % (2024)",
+            "23,6 % (2024)",
+            [
+              0,
+              5
+            ]
+          ],
+          [
+            "Première source d'électricité (2023)",
+            "Nucléaire, 64 %",
+            "Fossiles, 28 % ; éolien, 24 %",
+            [
+              9,
+              10
+            ]
+          ],
+          [
+            "Surface agricole utilisée",
+            "27,2 M ha",
+            "23,5 M ha",
+            [
+              29
+            ]
+          ],
+          [
+            "Cheptel porcin (2024)",
+            "11,7 M de têtes",
+            "34,5 M de têtes",
+            [
+              28
+            ]
+          ],
+          [
+            "Accise sur l'essence (par litre)",
+            "67,5 cts (E10)",
+            "47,3 cts (taux ordinaire)",
+            [
+              11,
+              12
+            ]
+          ],
+          [
+            "Accise sur le bioéthanol carburant",
+            "11,8 cts (E85)",
+            "47,3 cts (identique à l'essence)",
+            [
+              11,
+              12
+            ]
+          ],
+          [
+            "Stations distribuant de l'E85",
+            "4 131",
+            "5 (2023)",
+            [
+              15,
+              20
+            ]
+          ],
+          [
+            "Bioéthanol consommé dans les essences",
+            "> 1,9 Md de litres (2025)",
+            "Non publié séparément",
+            [
+              16
+            ]
+          ],
+          [
+            "Bioéthanol produit",
+            "1,1 à 1,2 Md de litres par an",
+            "≈ 400 000 t (≈ 500 M de litres)",
+            [
+              17,
+              19
+            ]
+          ],
+          [
+            "Sites de biométhane en service (fin 2025)",
+            "803",
+            "21",
+            [
+              24,
+              25
+            ]
+          ],
+          [
+            "Biométhane injecté",
+            "13,6 TWh (3,9 % du gaz)",
+            "Marginal",
+            [
+              24
+            ]
+          ]
+        ],
+        "nota": "Les montants financiers ne portent pas sur la même année et les méthodes nationales diffèrent légèrement : ils donnent un ordre de grandeur, pas une comparaison au centime. M ha : millions d'hectares ; Md : milliards ; M : millions ; cts : centimes d'euro."
+      },
+      "debate": {
+        "despues_de_seccion": 6,
+        "texto": {
+          "t": "Les réserves sont sérieuses. Les biocarburants issus de cultures alimentaires mobilisent des terres et l'Union européenne plafonne leur contribution aux objectifs d'énergie renouvelable dans les transports. L'avantage de prix de l'E85 repose sur un renoncement fiscal que l'État doit compenser ailleurs. Le biométhane coûte plus cher que le gaz fossile et dépend d'aides durables. Enfin, ces filières ne couvriront qu'une partie des besoins : même en France, le biométhane ne représente encore que 3,9 % du gaz consommé. Elles réduisent la dépendance, elles ne la suppriment pas.",
+          "src": [
+            24
+          ]
+        }
+      },
+      "lectura": "Les chiffres posent une question simple. Pourquoi un pays qui importe 68 % de son énergie, et qui fabrique un carburant renouvelable vendu 0,90 € de l'autre côté des Pyrénées, ne le propose-t-il pas à ses propres automobilistes ? La réponse n'est pas technique. Elle est fiscale et politique.\n\nOn objectera le manque à gagner fiscal. C'est ce que Frédéric Bastiat appelait, en 1850, « ce qu'on voit » : une recette en moins s'inscrit noir sur blanc dans le budget. « Ce qu'on ne voit pas » est plus difficile à chiffrer, mais bien réel. Ce sont les emplois des distilleries, des méthaniseurs et des exploitations qui les approvisionnent. C'est une population moins exposée à une crise qu'elle ne maîtrise pas. C'est enfin l'argent qui n'est pas prélevé à la pompe : il ne disparaît pas, il se dépense ailleurs, dans d'autres secteurs qui embauchent et paient à leur tour impôts et cotisations. Il ne s'agit pas d'une perte sèche, mais d'une réallocation de la richesse. L'argument vaut d'ailleurs dans les deux sens, car ce que l'État ne perçoit pas, il ne le dépense pas non plus : raison de plus pour mesurer plutôt que présumer.\n\nDes leviers existent pour en limiter le coût budgétaire. Une accise réduite pour l'E85, mais limitée dans le temps et assortie d'une évaluation publique annuelle de ses effets sur l'emploi, les importations et les recettes. Un financement porté par le secteur plutôt que par le contribuable, comme la taxe incitative française, qui pénalise les distributeurs incorporant trop peu d'énergie renouvelable, ou les certificats de production de biogaz, qui obligent les fournisseurs de gaz à soutenir le biométhane. Enfin, une priorité donnée aux coopératives et aux exploitations d'élevage, pour que la valeur reste dans les territoires ruraux. Chacun de ces leviers allège une facture énergétique de 32 milliards d'euros par an.\n\nReste l'obstacle le plus profond, celui du temps. Une filière énergétique se construit en dix ou quinze ans ; un mandat dure quatre ans. Celui qui engage la dépense a toutes les chances de ne pas être là pour en recueillir les fruits. C'est pourquoi ces décisions sont sans cesse reportées. Il faudra pourtant qu'un responsable accepte d'en payer le prix politique sans en récolter le bénéfice électoral. Celui-là laissera une trace durable dans l'histoire énergétique du pays.",
+      "vigilaremos": "La fiscalité de l'E85 dans le budget français 2027, et les prochaines décisions espagnoles sur la fiscalité des biocarburants et le soutien au biométhane.",
+      "fuentes": [
+        {
+          "nombre": "SDES, Bilan énergétique 2024",
+          "url": "https://www.statistiques.developpement-durable.gouv.fr/bilan-energetique-de-la-france-pour-2024",
+          "corto": "SDES"
+        },
+        {
+          "nombre": "SDES, Chiffres clés 2025",
+          "url": "https://www.statistiques.developpement-durable.gouv.fr/chiffres-cles-de-lenergie-edition-2025",
+          "corto": "SDES"
+        },
+        {
+          "nombre": "SDES, bilan 2024 (provisoire)",
+          "url": "https://www.statistiques.developpement-durable.gouv.fr/bilan-energetique-de-la-france-en-2024-donnees-provisoires",
+          "corto": "SDES"
+        },
+        {
+          "nombre": "MITECO, Balance energético 2024",
+          "url": "https://www.miteco.gob.es/content/dam/miteco/es/energia/files-1/balances/Balances/Documents/Balance%20energetico%202024_simplificado_v1.pdf",
+          "corto": "MITECO"
+        },
+        {
+          "nombre": "Foro Nuclear, Energía 2026",
+          "url": "https://www.foronuclear.org/wp-content/uploads/2026/06/Energia_2026.pdf",
+          "corto": "Foro Nuclear"
+        },
+        {
+          "nombre": "APPA, Estudio macroeconómico 2024",
+          "url": "https://www.energias-renovables.com/panorama/espa-a-importa-m-s-del-80-20260818",
+          "corto": "APPA"
+        },
+        {
+          "nombre": "Fundación Renovables / Instituto Meridiano",
+          "url": "https://www.energias-renovables.com/panorama/la-soleada-espa-a-importa-el-70-20260608",
+          "corto": "Fundación Renovables"
+        },
+        {
+          "nombre": "Connaissance des énergies",
+          "url": "https://www.connaissancedesenergies.org/quel-est-le-montant-de-la-facture-energetique-francaise-120328",
+          "corto": "Connaissance des énergies"
+        },
+        {
+          "nombre": "REE, vía Autosolar",
+          "url": "https://autosolar.es/actualidad-luz/donde-compra-espana-la-luz",
+          "corto": "REE"
+        },
+        {
+          "nombre": "DatosMundial (France)",
+          "url": "https://www.datosmundial.com/europa/francia/balance-energetico.php",
+          "corto": "DatosMundial"
+        },
+        {
+          "nombre": "DatosMundial (Espagne)",
+          "url": "https://www.datosmundial.com/europa/espana/balance-energetico.php",
+          "corto": "DatosMundial"
+        },
+        {
+          "nombre": "Ministère de la Transition écologique, Guide 2026 de la fiscalité des énergies",
+          "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide%202026%20sur%20fiscalit%C3%A9%20des%20%C3%A9nergies.pdf",
+          "corto": "Guide fiscalité 2026"
+        },
+        {
+          "nombre": "BOE, Ley 38/1992 de Impuestos Especiales",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741",
+          "corto": "BOE"
+        },
+        {
+          "nombre": "Mundo Petróleo (RDL 7/2026)",
+          "url": "https://mundopetroleo.com/news/new/nw/nuevos-tipos-impositivos-del-impuesto-sobre-hidrocarburos-articulo-38-del-real-decreto-ley-72026-de-20-de-marzo-por-el-que-se-aprueba-el-plan-integral-de-respuesta-a-la-crisis-en-oriente-medio",
+          "corto": "Mundo Petróleo"
+        },
+        {
+          "nombre": "Selectra",
+          "url": "https://selectra.info/energie/actualites/marche/superethanol-e85-boitier-economie-plein",
+          "corto": "Selectra"
+        },
+        {
+          "nombre": "Bioéthanol Carburant",
+          "url": "https://www.bioethanolcarburant.com/actualite/superethanol-e85-prix-economies/",
+          "corto": "Bioéthanol Carburant"
+        },
+        {
+          "nombre": "Collective du bioéthanol",
+          "url": "https://www.bioethanolfrance.fr/apres-une-hausse-de-15-de-sa-consommation-en-france-en-2025-une-nouvelle-ere-souvre-pour-le-bioethanol-en-2026/",
+          "corto": "Collective du bioéthanol"
+        },
+        {
+          "nombre": "Assemblée nationale, réponse ministérielle",
+          "url": "https://questions.assemblee-nationale.fr/dyn/15/questions/QANR5L15QOSD438.pdf",
+          "corto": "Assemblée nationale"
+        },
+        {
+          "nombre": "Leocare",
+          "url": "https://leocare.eu/fr/blog/nouvelle-taxe-carburant-2026/",
+          "corto": "Leocare"
+        },
+        {
+          "nombre": "Motorpasión",
+          "url": "https://www.motorpasion.com/revision/gasolina-e85-que-producimos-espana-cuesta-euro-litro-francia-aqui-olemos-tiene-explicacion",
+          "corto": "Motorpasión"
+        },
+        {
+          "nombre": "El Confidencial Digital",
+          "url": "https://www.elconfidencialdigital.com/articulo/dinero/gasolineras-reclaman-menos-impuestos-combustible-verde-reduciria-60-emisiones-co2/20230131172731513329.html",
+          "corto": "El Confidencial Digital"
+        },
+        {
+          "nombre": "The Objective",
+          "url": "https://theobjective.com/economia/transporte/2026-10-03/etanol-carburante-espana-fabrica-francia/",
+          "corto": "The Objective"
+        },
+        {
+          "nombre": "Afinca Mundo Rural (RD 5/2026)",
+          "url": "https://afincamundorural.com/bioetanol-oportunidades-para-el-campo/",
+          "corto": "Afinca"
+        },
+        {
+          "nombre": "Energías Renovables (CEES)",
+          "url": "https://www.energias-renovables.com/bioenergia/el-70-de-las-estaciones-de-servicio-20221125",
+          "corto": "Energías Renovables"
+        },
+        {
+          "nombre": "Panorama des gaz renouvelables 2025, via AFP",
+          "url": "https://www.connaissancedesenergies.org/afp/la-france-leader-europeen-de-linjection-de-biomethane-dans-les-reseaux-260409",
+          "corto": "Panorama gaz 2025"
+        },
+        {
+          "nombre": "Suez España",
+          "url": "https://www.suez.com/es/aire-espana/noticias/cuantas-plantas-biometano-hay-espana",
+          "corto": "Suez"
+        },
+        {
+          "nombre": "Retema / EBA",
+          "url": "https://www.retema.es/articulos-reportajes/espana-y-el-biometano-la-urgencia-de-pasar-de-la-expectativa-la-accion",
+          "corto": "Retema"
+        },
+        {
+          "nombre": "Genia Bioenergy, d'après la Commission européenne",
+          "url": "https://geniabioenergy.com/cual-es-el-nivel-de-produccion-de-biometano-sostenible-en-espana/",
+          "corto": "Genia Bioenergy"
+        },
+        {
+          "nombre": "Eurostat, via Agronews",
+          "url": "https://www.agronewscastillayleon.com/censo-ganadero-ue-2024/",
+          "corto": "Eurostat"
+        },
+        {
+          "nombre": "Eurostat, via Agroempresario",
+          "url": "https://agroempresario.com/publicacion/119681/espana-y-francia-tambien-juegan-un-clasico-del-agro-asi-compiten-las-dos-mayores-potencias-productivas-de-europa/",
+          "corto": "Eurostat"
+        },
+        {
+          "nombre": "Energética 21 (Sedigas)",
+          "url": "https://energetica21.com/articulo/biometano-espana-oportunidad-estrategica-en-pausa/",
+          "corto": "Energética 21"
+        },
+        {
+          "nombre": "Forbes España (Enerclub)",
+          "url": "https://forbes.es/economia/906423/energia-pone-en-valor-el-ejemplo-de-exito-que-representa-espana-en-la-actual-crisis-energetica/",
+          "corto": "Forbes"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Politique",
+        "titulo": "Budget 2027 : 43 milliards d'économies et une menace de censure",
+        "contexto": "Le budget 2026 n'a été adopté qu'en février, après l'échec de deux motions de censure, avec une cible de déficit de 5 % du PIB. Cette cible est désormais revue à 5,4 % pour 2026, selon les prévisions transmises au HCFP (Haut Conseil des finances publiques, organisme indépendant qui évalue les prévisions du gouvernement). L'État devra par ailleurs emprunter 339,7 milliards d'euros en 2027, soit 28 milliards de plus que cette année, selon l'Agence France Trésor.",
+        "resumen": "Présenté le 1er octobre, le PLF 2027 prévoit 43 milliards d'euros de mesures de redressement, 54 milliards avec la montée en charge des mesures antérieures. L'objectif est un déficit de 5,0 % du PIB en 2027, après 5,4 % cette année, sur une croissance de 1,0 % que le HCFP juge optimiste. Les retraités contribuent pour 5,5 milliards et les allègements de cotisations des entreprises sont gelés. Dans un courrier du 2 octobre, le PS juge le texte «pas acceptable» et maintient la menace de censure. L'Espagne vise 1,8 % de déficit en 2027, avec une dette de 101,4 % du PIB au deuxième trimestre, contre 121,7 % attendus en France l'an prochain.",
+        "lectura": "Un budget bâti sur 1,0 % de croissance s'expose à une révision en cours de route, puisque le HCFP lui-même juge l'hypothèse optimiste. Un dirigeant qui prépare son exercice 2027 devrait travailler sur deux scénarios : texte adopté en l'état, ou amendé sous la menace de censure. Le gel des allègements de cotisations, s'il survit à la discussion parlementaire, renchérira le coût du travail.",
+        "fuentes": [
+          {
+            "nombre": "France 24",
+            "url": "https://www.france24.com/fr/france/20261001-budget-2027-le-gouvernement-d%C3%A9voile-son-projet-sous-la-pression-des-march%C3%A9s"
+          },
+          {
+            "nombre": "Boursorama (AFP)",
+            "url": "https://www.boursorama.com/actualite-economique/actualites/la-france-prevoit-43-milliards-d-euros-de-mesures-de-redressement-dans-son-budget-2027-dd687555d1c017fb107b5763012cd964"
+          },
+          {
+            "nombre": "France Budget (avis du HCFP)",
+            "url": "https://francebudget.fr/budget-2027"
+          },
+          {
+            "nombre": "Echos Plus",
+            "url": "https://echosplus.com/2026/10/03/budget-2027-le-ps-presse-lecornu-de-revoir-sa-copie-et-maintient-la-menace-de-censure/"
+          },
+          {
+            "nombre": "Agence France Trésor",
+            "url": "https://www.aft.gouv.fr/en/state-budget"
+          },
+          {
+            "nombre": "Ministerio de Hacienda (Espagne)",
+            "url": "https://www.hacienda.gob.es/es-ES/Prensa/Noticias/Paginas/2026/20260707-NP-CM-TECHO-GASTOS-2027.aspx"
+          },
+          {
+            "nombre": "El Conciso",
+            "url": "https://www.elconciso.es/coyuntura/deuda-deficit-publico-pib_0_2008115990.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finances et marchés",
+        "titulo": "L'OAT frôle 5 % et le CAC 40 recule de 2,2 % sur la semaine",
+        "contexto": "Le rendement de l'OAT a franchi 4,5 % le 14 septembre, son plus haut depuis 2008. Le 28 août, Fitch avait confirmé la note A+ de la France, avec une perspective stable. La dette publique atteignait 117,5 % du PIB fin mars, contre 115,7 % fin 2025, selon l'Insee. Entre-temps, la BCE (Banque centrale européenne) a relevé ses taux de 0,25 point le 10 septembre, portant son taux de dépôt à 2,50 %.",
+        "resumen": "Jeudi 1er octobre, jour de la présentation du budget, l'OAT à 10 ans a touché 4,96 % en séance, son plus haut depuis 2002, avant de refluer ; elle s'établissait à 4,87 % le 2 octobre. L'écart avec le Bund (obligation d'État allemande à 10 ans, référence sans risque de la zone euro) tourne autour de 130 points de base, contre 100 le 18 septembre, déjà inédit depuis 2012. Le CAC 40 a perdu 2,24 % sur la semaine pour clore à 7 897 points vendredi, et 4,43 % sur septembre. En Espagne, le rendement à 10 ans était de 4,17 % le 1er octobre, soit un peu moins de 60 points de base au-dessus du Bund (calcul Rilamax).",
+        "lectura": "Un écart de 130 points de base avec l'Allemagne contre moins de 60 pour l'Espagne signifie que les investisseurs exigent plus du double pour détenir de la dette française. Cette prime se répercute sur les banques et sur les entreprises qui empruntent à long terme. Mieux vaut revoir les clauses de taux variable et les covenants (engagements financiers imposés par les prêteurs) avant le 23 octobre, date de la prochaine revue de Moody's.",
+        "fuentes": [
+          {
+            "nombre": "Boursorama (Reuters), 1er octobre",
+            "url": "https://www.boursorama.com/bourse/actualites/taux-les-rendements-obligataires-se-tendent-l-oat-touche-un-sommet-depuis-2002-avant-de-refluer-actualise-835a60194a63a23aa7d9d0789e330791"
+          },
+          {
+            "nombre": "Boursorama (Reuters), 18 septembre",
+            "url": "https://www.boursorama.com/bourse/actualites/taux-le-spread-entre-le-bund-et-l-oat-a-10-ans-atteint-100-pdb-pour-la-premiere-fois-depuis-2012-e097e1724cc78bd4583e4db6d2030ad3"
+          },
+          {
+            "nombre": "Ideal Investisseur (Banque de France, Bundesbank)",
+            "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+          },
+          {
+            "nombre": "Trading Economics",
+            "url": "https://fr.tradingeconomics.com/france/government-bond-yield"
+          },
+          {
+            "nombre": "BFM Bourse",
+            "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-soutenu-par-la-baisse-des-prix-du-petrole-le-cac-40-termine-dans-le-vert-mais-cede-22-sur-la-semaine-1171214.html"
+          },
+          {
+            "nombre": "Boursorama, récap de la semaine",
+            "url": "https://www.boursorama.com/bourse/actualites/une-semaine-en-bourse-le-recap-du-28-septembre-au-2-octobre-c34c4be9a9687417b349e4362ac9ec46"
+          },
+          {
+            "nombre": "Agence France Trésor, notations",
+            "url": "https://www.aft.gouv.fr/en/frances-credit-ratings"
+          },
+          {
+            "nombre": "France Épargne",
+            "url": "https://www.france-epargne.fr/news/oat-10-ans-au-dessus-de-4-la-france-aborde-la-revue-fitch-du-28-aout-sur-la-defensive"
+          },
+          {
+            "nombre": "Investing.com (bono espagnol)",
+            "url": "https://www.investing.com/rates-bonds/spain-10-year-bond-yield-historical-data"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "Inflation à 3,0 % en France : l'énergie reste le moteur",
+        "contexto": "Avant le déclenchement de la guerre en Iran et le blocage du détroit d'Ormuz, fin février, les prix à la consommation progressaient d'environ 1 % sur un an. L'inflation moyenne de 2025 avait été de 0,9 %, selon l'Insee. Depuis, le pétrole et le gaz ont renchéri et les carburants ont suivi : le dossier de cette semaine situe le litre de SP95-E10 autour de 2,15 €.",
+        "resumen": "Selon l'estimation provisoire de l'Insee du 30 septembre, les prix ont augmenté de 3,0 % sur un an en septembre, contre 2,4 % en août, un rythme inégalé depuis février 2024. L'énergie progresse de 21,2 % et les produits frais de 9,9 %. L'IPCH (indice des prix harmonisé, qui permet de comparer les pays de la zone euro) atteint 3,4 %, contre 5,0 % en Espagne et 3,8 % pour la zone euro, selon Eurostat. Sur un mois, les prix reculent de 0,3 %, mais moins qu'en septembre 2025 (-1,0 %). Vendredi, le G7 a annoncé la libération de jusqu'à 100 millions de barils en quatre mois. Le chiffre définitif de l'Insee sortira le 15 octobre.",
+        "lectura": "L'effet de base explique une partie du saut de 2,4 % à 3,0 %, mais une énergie à +21,2 % reste un phénomène réel. L'écart d'IPCH de 1,6 point avec l'Espagne (3,4 % contre 5,0 %) joue sur les coûts salariaux des deux côtés. Mieux vaut revoir les clauses d'indexation des contrats pluriannuels et le calendrier des révisions de prix fournisseurs.",
+        "fuentes": [
+          {
+            "nombre": "Boursorama (AFP), Insee",
+            "url": "https://www.boursorama.com/actualite-economique/actualites/france-l-inflation-grimpe-a-3-sur-un-an-en-septembre-selon-l-insee-a2c8950bbbb65d6ed4e3f29132ff41f6"
+          },
+          {
+            "nombre": "La Clé Publique (effet de base)",
+            "url": "https://laclepublique.fr/national/articles/2026/2026-09-30-inflation-diffusion/"
+          },
+          {
+            "nombre": "INE, indicateur avancé de l'IPC",
+            "url": "https://www.ine.es/dyngs/Prensa/adIPC0926.htm"
+          },
+          {
+            "nombre": "Eurostat, estimation rapide",
+            "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
+          },
+          {
+            "nombre": "Franceinfo (G7)",
+            "url": "https://www.franceinfo.fr/economie/automobile/essence/100-millions-de-barils-du-g7-liberes-l-annonce-d-emmanuel-macron-va-t-elle-faire-baisser-les-prix-a-la-pompe_8220349.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "Activité : le PMI repasse au-dessus de 50, le chômage reste élevé",
+        "contexto": "Le PMI (indice d'enquête auprès des directeurs d'achat : au-dessus de 50, l'activité progresse) était tombé à 48,5 en août, mois pénalisé par la canicule. Côté emploi, le taux de chômage au sens du BIT (Bureau international du travail) a atteint 8,3 % au deuxième trimestre, son plus haut niveau depuis l'automne 2020, soit 2,7 millions de personnes sans emploi, selon l'Insee.",
+        "resumen": "L'indice PMI composite définitif de septembre ressort à 51,1, contre 48,5 en août, grâce au retour des services en zone de croissance. L'économiste de S&P Global Joe Hayes juge toutefois fragile la demande sous-jacente et y voit en partie un rebond après la canicule d'août. Le chômage, lui, a progressé six trimestres de suite pour atteindre 8,3 %, avec 21,6 % chez les 15-24 ans. En Espagne, le PMI composite s'établit à 56,8 en septembre, son meilleur niveau depuis décembre 2024, et le taux de chômage de l'EPA (enquête trimestrielle sur la population active) est de 9,87 % au deuxième trimestre.",
+        "lectura": "Les deux pays racontent des dynamiques opposées : en France, un chômage en hausse depuis six trimestres et un PMI à peine au-dessus de 50 ; en Espagne, un chômage passé sous 10 % et une activité plus vive. Un indice d'enquête qui rebondit après un mois de canicule ne fait pas encore une tendance. Un investisseur devrait attendre les chiffres d'octobre avant de réviser ses hypothèses de croissance française.",
+        "fuentes": [
+          {
+            "nombre": "Boursorama (S&P Global), PMI France",
+            "url": "https://www.boursorama.com/bourse/actualites/france-pmi-le-secteur-des-services-renoue-avec-la-croissance-en-septembre-a8b6bad8a466ea835684672e9b545ad5"
+          },
+          {
+            "nombre": "Insee, l'essentiel sur le chômage",
+            "url": "https://www.insee.fr/fr/statistiques/4805248"
+          },
+          {
+            "nombre": "Journal du Net (Insee), chômage T2",
+            "url": "https://www.journaldunet.com/business/1553489-le-taux-de-chomage-en-france-atteint-8-3-au-deuxieme-trimestre-2026-sixieme-hausse-consecutive/"
+          },
+          {
+            "nombre": "INE, EPA deuxième trimestre 2026",
+            "url": "https://www.ine.es/dyngs/Prensa/EPA2T26.htm"
+          },
+          {
+            "nombre": "El Boletín (PMI espagnol)",
+            "url": "https://www.elboletin.com/el-ibex-35-cierra-con-una-subida-del-112-tras-la-convocatoria-electoral-y-roza-los-19-300-puntos/"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Politique",
+        "titulo": "Espagne : élections le 29 novembre après la chute des décrets logement",
+        "contexto": "Le gouvernement avait approuvé le 29 septembre deux décrets-lois sur le logement. Le premier prévoyait notamment une interdiction des expulsions de ménages vulnérables, une prolongation extraordinaire des baux arrivant à échéance cette année, un encadrement des locations saisonnières (par modification de la LAU, loi espagnole sur les baux urbains), des avantages fiscaux pour les bailleurs et des prêts à taux zéro jusqu'à 50 000 € pour un premier achat. Le second instaurait des baux à durée indéterminée.",
+        "resumen": "Le 2 octobre, le Congrès a rejeté le premier décret par 178 voix contre 172 et le second par 184 contre 166, avec les votes du PP, de Vox, de Junts et de l'UPN. Le premier texte n'aura été appliqué qu'environ 24 heures. Lundi 5 octobre, Pedro Sánchez a annoncé la dissolution des Cortes (le Parlement espagnol) et des élections générales le 29 novembre ; la convocation paraît au BOE (Journal officiel espagnol) le 6 octobre. L'Ibex 35 a gagné 1,12 % ce lundi, à 19 299,70 points. En France, le PLF 2027 doit être voté avant le 31 décembre, sous menace de censure.",
+        "lectura": "Jusqu'au scrutin, aucune de ces mesures ne s'applique : le régime locatif antérieur reste en vigueur. Un investisseur exposé au résidentiel espagnol devrait valoriser deux scénarios post-électoraux, selon que la prochaine majorité reprend, amende ou abandonne l'encadrement des baux. Les 54 jours de campagne laissent peu de marge à une réforme avant la fin de l'année.",
+        "fuentes": [
+          {
+            "nombre": "La Moncloa",
+            "url": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2026/051026-sanchez-convocatoria-elecciones.aspx"
+          },
+          {
+            "nombre": "The Objective",
+            "url": "https://theobjective.com/espana/politica/2026-10-02/congreso-sanchez-decretos-vivienda-elecciones/"
+          },
+          {
+            "nombre": "Demócrata",
+            "url": "https://www.democrata.es/politica/congreso-y-senado/ampliacion-el-congreso-tumba-el-primer-decreto-de-vivienda-con-el-rechazo-de-pp-vox-junts-y-upn/"
+          },
+          {
+            "nombre": "Investing.com",
+            "url": "https://es.investing.com/news/stock-market-news/pedro-sanchez-convoca-elecciones-el-29-de-noviembre-asi-se-mueve-el-ibex-35-3860001"
+          },
+          {
+            "nombre": "France Budget",
+            "url": "https://francebudget.fr/budget-2027"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finances et marchés",
+        "titulo": "Madrid : l'Ibex 35 perd 3,1 % sur la semaine, puis rebondit sur l'annonce électorale",
+        "contexto": "Depuis le début de 2026, l'Ibex 35 (indice des 35 premières valeurs de la Bourse de Madrid) progressait d'environ 10 %, quand le CAC 40 figurait parmi les indices européens les plus en retard. La semaine du 28 septembre a été dominée par le refus américain d'une trêve proposée par l'Iran et par un pétrole autour de 100 dollars.",
+        "resumen": "L'Ibex 35 a clos vendredi 2 octobre à 19 085,30 points, en recul de 3,12 % sur la semaine, sa pire semaine depuis avril. Les banques ont le plus souffert : CaixaBank a cédé 11,12 % et Santander 6,75 %. Lundi 5 octobre, l'indice a rebondi de 1,12 % à 19 299,70 points après l'annonce des élections, Santander gagnant 4,52 %. Le PMI composite espagnol de septembre est monté à 56,8, contre 55,8 en août. Pendant ce temps, le CAC 40 a reculé de 2,24 % sur la semaine, à 7 897 points vendredi.",
+        "lectura": "Les valeurs bancaires ont subi la plus forte baisse de la semaine, puis mené le rebond du lundi. Un investisseur devrait distinguer ce qui tient au pétrole et aux taux, communs à toute la zone euro, de ce qui relève du calendrier électoral espagnol. Selon Investing.com, l'Ibex a perdu en moyenne près de 1 % durant les 54 jours précédant des législatives depuis 1992.",
+        "fuentes": [
+          {
+            "nombre": "elEconomista",
+            "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14018339/10/26/el-ibex-35-cae-un-3-en-su-peor-semana-desde-abril-y-pierde-el-soporte-de-los-19390-puntos.html"
+          },
+          {
+            "nombre": "El Cronista",
+            "url": "https://www.cronista.com/espana/economia-finanzas/el-ibex-35-vuelve-al-verde-y-mantiene-los-19000-puntos-pese-a-caer-un-312-en-la-semana/"
+          },
+          {
+            "nombre": "Catalunya Press",
+            "url": "https://www.catalunyapress.es/articulo/economia/2026-10-05/6040568-ibex-celebra-adelanto-electoral-sanchez-sube-112-hasta-19300-puntos"
+          },
+          {
+            "nombre": "El Boletín",
+            "url": "https://www.elboletin.com/el-ibex-35-cierra-con-una-subida-del-112-tras-la-convocatoria-electoral-y-roza-los-19-300-puntos/"
+          },
+          {
+            "nombre": "Investing.com",
+            "url": "https://es.investing.com/news/stock-market-news/pedro-sanchez-convoca-elecciones-el-29-de-noviembre-asi-se-mueve-el-ibex-35-3860001"
+          },
+          {
+            "nombre": "BFM Bourse",
+            "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-soutenu-par-la-baisse-des-prix-du-petrole-le-cac-40-termine-dans-le-vert-mais-cede-22-sur-la-semaine-1171214.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "Emploi espagnol : record d'affiliations en septembre, porté par la régularisation",
+        "contexto": "L'Espagne a lancé une régularisation extraordinaire de travailleurs étrangers, que le Tribunal suprême a refusé de suspendre en mai. Elle rend visibles dans les statistiques des personnes qui travaillaient déjà, ce qui gonfle les affiliations à la Sécurité sociale et, lorsqu'elles s'inscrivent au SEPE (service public de l'emploi), le chômage enregistré. Le taux de chômage de l'EPA était de 9,87 % au deuxième trimestre.",
+        "resumen": "La Sécurité sociale a gagné 92 327 affiliés en septembre, meilleur mois de septembre de la série, pour un total de plus de 22,4 millions. Environ 83 400 de ces nouveaux affiliés proviennent de la régularisation ; sans elle, la hausse aurait été d'environ 8 900. Le chômage enregistré a augmenté de 23 587 personnes, la plus forte hausse pour un mois de septembre depuis 2017, à 2 379 505. C'est pourtant le niveau le plus bas pour un septembre depuis 2007, et il est inférieur de 42 160 à celui d'il y a un an. En France, l'Insee comptait 3,32 millions d'inscrits à France Travail en catégorie A au deuxième trimestre, selon une définition différente.",
+        "lectura": "La régularisation gonfle à la fois les affiliations et le chômage enregistré, si bien qu'aucune des deux séries ne mesure à elle seule la création d'emploi. Funcas voit dans l'évolution des travailleurs nationaux, qui ralentit au troisième trimestre, un meilleur indicateur de la tendance de fond. Un employeur français qui recrute en Espagne devrait lire ces chiffres hors régularisation.",
+        "fuentes": [
+          {
+            "nombre": "Funcas",
+            "url": "https://www.funcas.es/textointegro/afiliados-a-la-seguridad-social-y-paro-registrado-septiembre-2026/"
+          },
+          {
+            "nombre": "Moncloa.com",
+            "url": "https://www.moncloa.com/2026/10/02/paro-septiembre-2026-minimo-desde-2007-3441450"
+          },
+          {
+            "nombre": "La Crónica del Henares",
+            "url": "https://www.cronicadelhenares.com/2026/10/afiliacion-paro-septiembre-2026-regularizacion.html"
+          },
+          {
+            "nombre": "Bilbao Hiria",
+            "url": "https://bilbaohiria.com/actualidad/afiliacion-seguridad-social-septiembre-2026-extranjeros-regularizacion/"
+          },
+          {
+            "nombre": "Insee, l'essentiel sur le chômage",
+            "url": "https://www.insee.fr/fr/statistiques/4805248"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "Inflation à 4,9 %, Euribor à 3,25 % : le SMI 2027 en préparation",
+        "contexto": "L'inflation espagnole s'est accélérée tout au long de 2026 : 2,3 % en janvier, 3,6 % en juillet, 4,3 % en août. La BCE a relevé ses taux de 0,25 point le 10 septembre, deuxième hausse de l'année, portant le taux de dépôt à 2,50 %. Le SMI (salaire minimum interprofessionnel, équivalent du SMIC) avait été relevé de 3,1 % pour 2026 et s'établit à 1 221 € bruts par mois en 14 versements.",
+        "resumen": "L'indicateur avancé de l'INE (Institut national de la statistique espagnol) donne une inflation de 4,9 % en septembre, la plus haute depuis février 2023, avec une inflation sous-jacente de 3,1 %. Les carburants et les forfaits touristiques pèsent dans la hausse. L'Euribor à 12 mois (taux interbancaire de référence de la plupart des hypothèques à taux variable) a clos septembre à 3,247 %, contre 2,954 % en août. Le ministère du Travail réunit en octobre les experts sur le SMI 2027 ; le gouvernement dit tenir compte de l'inflation, et le syndicat CCOO réclame plus de 5 %, soit au-delà de 1 282 €. En France, l'inflation est de 3,0 % et le taux de dépôt de la BCE, commun aux deux pays, de 2,50 %.",
+        "lectura": "Avec 4,9 % d'inflation et un SMI qui ne bougera pas avant 2027, la pression salariale se reporte sur la revalorisation de janvier et sur les négociations de branche. Un groupe français implanté en Espagne devrait budgéter une hausse du SMI supérieure à 3 %, hypothèse que le gouvernement espagnol avance lui-même.",
+        "fuentes": [
+          {
+            "nombre": "INE, indicateur avancé de l'IPC",
+            "url": "https://www.ine.es/dyngs/Prensa/adIPC0926.htm"
+          },
+          {
+            "nombre": "Infobae (EFE), Euribor",
+            "url": "https://www.infobae.com/espana/agencias/2026/10/01/el-banco-de-espana-confirma-la-subida-del-euribor-en-septiembre-al-3247/"
+          },
+          {
+            "nombre": "EmpleoJob, SMI 2027",
+            "url": "https://empleojob.es/yolanda-diaz-reune-este-mes-a-los-expertos-que-decidiran-cuanto-sube-el-salario-minimo-en-2027-mientras-los-sindicatos-piden-superar-los-1-282-euros/"
+          },
+          {
+            "nombre": "Qué.es, SMI 2027",
+            "url": "https://www.que.es/2026/09/03/subida-salario-minimo-2027"
+          },
+          {
+            "nombre": "Ahora León (INE)",
+            "url": "https://ahoraleon.com/inflacion-espana-septiembre-2026/"
+          },
+          {
+            "nombre": "Eurostat, estimation rapide",
+            "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "6 octobre 2026",
+        "que": "Espagne : publication au BOE de la convocation des élections générales, prévues le 29 novembre"
+      },
+      {
+        "cuando": "14 et 15 octobre 2026",
+        "que": "Espagne et France : inflation définitive de septembre, publiée par l'INE le 14 et par l'Insee le 15"
+      },
+      {
+        "cuando": "23 octobre 2026",
+        "que": "France : revue de la note souveraine par Moody's (Aa3, perspective négative)"
+      },
+      {
+        "cuando": "29 octobre 2026",
+        "que": "Zone euro : décision de politique monétaire de la BCE"
+      },
+      {
+        "cuando": "29 novembre 2026",
+        "que": "Espagne : élections générales"
+      }
+    ],
+    "glosario": [
+      {
+        "sigla": "Accise",
+        "definicion": "Impôt indirect prélevé par litre sur les carburants, distinct de la TVA. En France, il est de 67,5 centimes par litre sur le SP95-E10 et de 11,8 centimes sur l'E85."
+      },
+      {
+        "sigla": "Bund",
+        "definicion": "Obligation d'État allemande à 10 ans, référence sans risque de la zone euro. L'écart de rendement avec l'OAT mesure la prime de risque exigée sur la dette française."
+      },
+      {
+        "sigla": "EPA",
+        "definicion": "Encuesta de Población Activa : enquête trimestrielle de l'INE espagnol sur l'emploi, équivalent de l'enquête Emploi de l'Insee. Elle mesure le chômage au sens du BIT."
+      },
+      {
+        "sigla": "Euribor",
+        "definicion": "Taux interbancaire de la zone euro. Sa version à 12 mois sert d'indice à la plupart des hypothèques à taux variable en Espagne."
+      },
+      {
+        "sigla": "HCFP",
+        "definicion": "Haut Conseil des finances publiques : organisme indépendant qui évalue les prévisions macroéconomiques du gouvernement français."
+      },
+      {
+        "sigla": "IPCH",
+        "definicion": "Indice des prix à la consommation harmonisé : méthode commune qui permet de comparer l'inflation entre pays de la zone euro."
+      },
+      {
+        "sigla": "OAT",
+        "definicion": "Obligation assimilable du Trésor : titre de dette de l'État français. Son rendement à 10 ans sert de référence au coût d'emprunt de la France."
+      },
+      {
+        "sigla": "PLF",
+        "definicion": "Projet de loi de finances : texte du budget de l'État français, déposé chaque automne et voté avant le 31 décembre."
+      },
+      {
+        "sigla": "PMI",
+        "definicion": "Indice d'enquête auprès des directeurs d'achat. Au-dessus de 50, l'activité progresse ; en dessous, elle recule."
+      },
+      {
+        "sigla": "SMI",
+        "definicion": "Salario mínimo interprofesional : salaire minimum espagnol, équivalent du SMIC, de 1 221 € bruts par mois en 14 versements."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "En septembre, l'inflation atteint 3,0 % en France et 4,9 % en Espagne, et l'OAT française a touché 4,96 % jeudi, son plus haut niveau depuis 2002.\n\nLire l'édition complète, avec les graphiques et le dossier intégral : https://bulletin.rilamax.com\n\nL'énergie a dicté la semaine des deux côtés des Pyrénées. L'énergie coûte 21,2 % de plus qu'il y a un an en France, et le G7 a décidé de libérer jusqu'à 100 millions de barils. Les marchés ont surtout réagi aux budgets : la France vise 5,0 % de déficit en 2027 et son OAT à 10 ans rend 4,87 %, contre 4,17 % pour le bono espagnol. À Madrid, des élections sont convoquées pour le 29 novembre après la chute des décrets logement.\n\nÀ retenir :\n1) L'inflation atteint 3,0 % en France et 4,9 % en Espagne, tirée par l'énergie.\n2) L'OAT a touché 4,96 % jeudi, quand le bono espagnol cote 4,17 %.\n3) La France importe 39 % de son énergie, l'Espagne 68 %.\n\nLe dossier : ce que la France tire de ses champs et que l'Espagne laisse filer. Les deux pays exportent de l'électricité, mais restent dépendants pour les carburants et la chaleur. La France taxe l'E85, carburant à base de bioéthanol, 11,8 centimes le litre contre 67,5 pour le SP95-E10. Résultat : 0,90 € le litre les 22 et 23 septembre contre 2,15 €, soit environ 1,17 € à distance égale une fois corrigée la surconsommation de 30 % (calcul Rilamax). L'Espagne produit environ 500 millions de litres de bioéthanol par an et en exporte plus de la moitié, surtout vers la France et l'Allemagne, mais le taxe comme l'essence, à 47,3 centimes. On y compte cinq stations E85 en 2023, contre 4 131 en France. Même écart pour le biométhane : 803 sites en France, 21 en Espagne, malgré le premier cheptel porcin de l'Union européenne. Les réserves sont réelles : manque à gagner fiscal, terres mobilisées, aides durables, et une part encore faible du gaz (3,9 % en France).\n\nLire l'édition complète, avec les graphiques et le dossier intégral : https://bulletin.rilamax.com\n\nSelon vous, une fiscalité différenciée des carburants renouvelables relève-t-elle d'abord de la politique énergétique ou du calcul budgétaire ?",
+      "post": "À la pompe française, le litre d'E85 se vendait 0,90 € les 22 et 23 septembre, contre 2,15 € pour le SP95-E10.\nLire l'édition complète du Bulletin Rilamax : https://bulletin.rilamax.com\nL'Espagne produit environ 500 millions de litres de bioéthanol par an et en exporte plus de la moitié, surtout vers la France et l'Allemagne. Chez elle, ce bioéthanol est taxé comme l'essence, à 47,3 centimes le litre, contre 11,8 centimes pour l'E85 en France. Le pays importe 68 % de son énergie, la France 39 %. Faut-il y voir une affaire de fiscalité plutôt que de ressources agricoles ?\n#Énergie #FranceEspagne #Bioéthanol"
+    },
+    "minutos": 26
+  },
+  "es": {
+    "editorial": {
+      "titulo": "Un mismo choque petrolero, dos facturas distintas",
+      "parrafos": [
+        "La energía marcó la semana a ambos lados de los Pirineos. En Francia, el Insee (instituto nacional de estadística francés, equivalente al INE) estima la inflación de septiembre en el 3,0 % interanual, con una energía un 21,2 % más cara. España registra un 4,9 %, su nivel más alto desde febrero de 2023. El viernes, el G7 anunció la liberación de hasta 100 millones de barriles en cuatro meses. El Brent bajó brevemente de los 100 dólares antes de volver a superarlos.",
+        "Los mercados reaccionaron más a los presupuestos que al petróleo. El jueves, el Gobierno francés presentó su proyecto de ley de presupuestos (PLF, el equivalente a los Presupuestos Generales del Estado), que fija un déficit del 5,0 % del PIB en 2027. Ese mismo día, la OAT (la obligación del Estado francés a 10 años, referencia de su coste de financiación) tocó el 4,96 % en sesión y después retrocedió. El bono español a 10 años cotizaba al 4,17 % el 1 de octubre. Francia paga, por tanto, cerca de 70 puntos básicos más que España para endeudarse a diez años.",
+        "La política añade su propio calendario. Tras el rechazo del Congreso a dos decretos de vivienda, Pedro Sánchez convocó elecciones generales para el 29 de noviembre. En París, el Partido Socialista considera el presupuesto «no aceptable» y mantiene la amenaza de censura. En ambos países, la incertidumbre parlamentaria pesa sobre la trayectoria de las cuentas públicas, y quien invierte a los dos lados de la frontera deberá seguir dos calendarios a la vez.",
+        "El dossier de esta semana arranca de ese choque. Francia y España exportan electricidad, pero dependen del exterior para sus carburantes y su calefacción: Francia importa el 39 % de su energía y España el 68 %. Entre ambas, la fiscalidad marca la diferencia. El E85, un carburante a base de bioetanol, se vende a 0,90 € el litro en Francia, mientras que España, que produce y exporta ese bioetanol, apenas lo vende en su propio mercado. Cuantificamos la distancia sin convertirla en receta universal."
+      ],
+      "puntos_clave": [
+        "La inflación llega al 3,0 % en Francia y al 4,9 % en España, empujada por la energía.",
+        "La OAT francesa tocó el 4,96 % el jueves, su máximo desde 2002, mientras el bono español cotiza al 4,17 %.",
+        "Francia importa el 39 % de su energía y España el 68 %, y el bioetanol tributa 0,12 € por litro en Francia frente a 0,47 € en España."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "4,87 %",
+        "texto": "Rentabilidad de la OAT (obligación del Estado francés a 10 años) a 2 de octubre, tras un máximo del 4,96 % en sesión el 1 de octubre",
+        "fuente": "Trading Economics; Reuters",
+        "pais": "fr",
+        "comparacion": "España: 4,17 % para el bono a 10 años (1 de octubre, Investing.com)"
+      },
+      {
+        "valor": "3,0 %",
+        "texto": "Subida de los precios de consumo en septiembre sobre un año antes (estimación provisional), frente al 2,4 % de agosto",
+        "fuente": "Insee",
+        "pais": "fr",
+        "comparacion": "España: 4,9 % (IPC adelantado de septiembre, INE)"
+      },
+      {
+        "valor": "5,0 %",
+        "texto": "Objetivo de déficit público para 2027 en el proyecto de presupuestos, tras el 5,4 % previsto para 2026",
+        "fuente": "Gobierno francés (PLF 2027)",
+        "pais": "fr",
+        "comparacion": "España: objetivo del 1,8 % del PIB para 2027 (Hacienda, julio de 2026)"
+      },
+      {
+        "valor": "9,87 %",
+        "texto": "Tasa de paro de la EPA (Encuesta de Población Activa) en el segundo trimestre",
+        "fuente": "INE",
+        "pais": "es",
+        "comparacion": "Francia: 8,3 % (2.º trimestre de 2026, Insee, según la definición de la OIT)"
+      },
+      {
+        "valor": "56,8",
+        "texto": "PMI compuesto español de septiembre (por encima de 50, la actividad crece), el mejor nivel desde diciembre de 2024",
+        "fuente": "S&P Global, vía El Boletín",
+        "pais": "es",
+        "comparacion": "Francia: 51,1 (PMI compuesto final de septiembre, S&P Global)"
+      },
+      {
+        "valor": "-3,12 %",
+        "texto": "Variación del Ibex 35 en la semana del 28 de septiembre al 2 de octubre, su peor semana desde abril",
+        "fuente": "Estrategias de Inversión, a partir del cierre del Ibex 35",
+        "pais": "es",
+        "comparacion": "CAC 40: -2,24 % en la misma semana (BFM Bourse)"
+      }
+    ],
+    "dossier": {
+      "titulo": "Energía: lo que Francia saca de sus campos y España deja escapar",
+      "intro": "Desde el choque petrolero provocado por el conflicto en Oriente Próximo, el litro de gasolina E10 ronda los 2,15 euros en Francia. Aun así, millones de conductores franceses llenan el depósito a 0,90 euros, con un carburante agrícola que España produce y exporta, pero que apenas vende en su propio mercado. Para entender esta paradoja hay que empezar por una pregunta sencilla: ¿de qué depende realmente un país cuando hablamos de energía?",
+      "cifras": [
+        {
+          "valor": "39 % / 68 %",
+          "texto": "energía importada, Francia / España (2024)"
+        },
+        {
+          "valor": "26 % / 24 %",
+          "texto": "peso de la electricidad en la energía consumida, Francia / España"
+        },
+        {
+          "valor": "0,12 € / 0,47 €",
+          "texto": "impuesto por litro sobre el bioetanol carburante, Francia / España (tipo ordinario)"
+        },
+        {
+          "valor": "803 / 21",
+          "texto": "plantas de biometano en funcionamiento, Francia / España (2025)"
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. Autosuficientes en electricidad, dependientes en energía: ¿cómo es posible?",
+          "parrafos": [
+            "Un país utiliza la energía de tres grandes formas. La electricidad mueve los aparatos, la iluminación, la informática y parte de la calefacción. Los carburantes hacen circular coches y camiones, y volar los aviones. Y el calor calienta los edificios y alimenta los hornos industriales, casi siempre con gas o gasóleo. Cuando se dice que un país «produce más electricidad de la que consume», solo se habla de la primera de estas tres formas.",
+            {
+              "t": "Y la electricidad es solo una parte pequeña del total. En Francia cubre el 26 % de la energía realmente consumida, frente al 39 % del petróleo. En España la proporción es parecida: un 23,6 % en 2024. Solo el transporte absorbe el 43 % de la energía final española, y funciona casi por completo con petróleo.",
+              "src": [
+                0,
+                5,
+                6
+              ]
+            },
+            "Pensemos en un hogar. Sus placas solares cubren toda su factura de luz y hasta vende el excedente a los vecinos. Pero llena el depósito del coche en la gasolinera y calienta la casa con gas. Ese hogar es autosuficiente en electricidad, no en energía. Es exactamente la situación de Francia y de España.",
+            {
+              "t": "Las cifras lo confirman. Francia exportó en 2024 un récord de 89 TWh de electricidad, que le reportaron unos 5.000 millones de euros. Pero su factura energética fue de 57.800 millones, de los que 43.800 millones correspondieron al petróleo y los biocarburantes y 17.400 millones al gas. En total, importa alrededor del 39 % de la energía que consume.",
+              "src": [
+                7,
+                1,
+                2
+              ]
+            },
+            {
+              "t": "España lleva cuatro años seguidos exportando electricidad, y el 56,8 % de su electricidad fue renovable en 2024. Sin embargo, depende del exterior para el 68,4 % de su energía, porque el petróleo supone el 46,5 % de su energía primaria y el gas alrededor del 20 %. El saldo de sus intercambios energéticos costó 32.000 millones de euros en 2025, el 1,9 % del PIB.",
+              "src": [
+                8,
+                5,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "2. Dos mix eléctricos, una misma debilidad",
+          "parrafos": [
+            {
+              "t": "En electricidad, los dos países han tomado caminos opuestos. Francia se apoya en la nuclear, que aporta casi dos tercios de su producción. España ha apostado por la eólica y la solar, que en 2023 sumaban más del 40 % de su producción, junto a la nuclear y el gas.",
+              "src": [
+                9,
+                10
+              ]
+            },
+            "Pero ninguno de los dos modelos resuelve la cuestión de los carburantes y del calor. Y es justo ahí donde la agricultura puede jugar un papel, con dos sectores: el bioetanol, que sustituye parte de la gasolina, y el biometano, que sustituye parte del gas."
+          ]
+        },
+        {
+          "titulo": "3. El E85: un carburante agrícola que el impuesto hace competitivo",
+          "parrafos": [
+            {
+              "t": "El E85 contiene entre un 65 y un 85 % de bioetanol, que en Francia se obtiene sobre todo de remolacha y trigo. Se vende en 4.131 gasolineras y el 93 % de los franceses vive a menos de 10 kilómetros de una de ellas. Los días 22 y 23 de septiembre de 2026 costaba de media 0,90 euros el litro, frente a 2,15 euros de la gasolina E10.",
+              "src": [
+                15,
+                14
+              ]
+            },
+            {
+              "t": "La diferencia en el surtidor exagera el ahorro real. Con E85, un motor consume alrededor de un 30 % más de litros, según un estudio del IFP Énergies nouvelles para la agencia francesa Ademe. A igual distancia, el litro sale por unos 1,17 euros: sigue siendo casi un 45 % más barato que la gasolina (cálculo de Rilamax). Para un coche de gasolina no compatible, un kit de conversión homologado cuesta desde 579 euros, y la región francesa Sud, por ejemplo, ofrece una ayuda de 250 euros.",
+              "src": [
+                14,
+                15
+              ]
+            },
+            {
+              "t": "Ese precio bajo se explica ante todo por la fiscalidad. En 2026, Francia grava el E85 con 11,83 euros por hectolitro, frente a 67,50 euros de la gasolina E10 y 69,02 euros de la E5: unos 12 céntimos por litro frente a 67-69 céntimos. Incluso si se compara por contenido energético, menor en el etanol, el E85 tributa unas cuatro veces menos que la gasolina: 17,9 euros por megavatio hora frente a 75,4.",
+              "src": [
+                11
+              ]
+            },
+            {
+              "t": "La decisión tiene un coste para las arcas públicas y se cuestiona con frecuencia. El proyecto de presupuestos franceses de 2026 preveía reducir esta ventaja de forma progresiva; finalmente, el tipo se mantuvo sin cambios.",
+              "src": [
+                18,
+                11
+              ]
+            },
+            {
+              "t": "El resultado es medible. En 2025, Francia consumió más de 1.900 millones de litros de bioetanol en sus gasolinas. Un tercio de ese bioetanol se consume en forma de E85, del que se vendieron unos 900 millones de litros (el E85 también lleva una parte de gasolina); el resto se mezcla en la gasolina corriente. Es más que su producción nacional, estimada entre 1.100 y 1.200 millones de litros al año en una respuesta ministerial a la Asamblea Nacional. Francia tiene, por tanto, que importar una parte.",
+              "src": [
+                16,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "4. España produce, Francia consume",
+          "parrafos": [
+            {
+              "t": "España es uno de los grandes productores europeos de bioetanol, con unas 400.000 toneladas al año, cerca de 500 millones de litros (cálculo de Rilamax, densidad de 0,79). Según la asociación española del sector, más de la mitad se exporta, sobre todo a Francia y Alemania.",
+              "src": [
+                19,
+                20
+              ]
+            },
+            {
+              "t": "En el mercado nacional, el E85 es casi imposible de encontrar: el mapa oficial del Ministerio solo recogía cinco gasolineras en 2023. El motivo es fiscal. La Ley de Impuestos Especiales aplica al bioetanol exactamente el mismo tipo que a la gasolina: 400,69 euros por cada 1.000 litros de tipo general, más 72 euros de tipo especial, es decir, 47,3 céntimos por litro en régimen ordinario. Las rebajas temporales aprobadas en 2026 por la crisis se aplicaron igual a los dos carburantes. Sin diferencia de precio, ni distribuidores ni conductores tienen motivos para cambiar.",
+              "src": [
+                20,
+                12,
+                13,
+                21
+              ]
+            },
+            {
+              "t": "El Gobierno impulsa el bioetanol por otra vía: la obligación de mezcla. El Real Decreto 5/2026 elevó del 12 al 14 % el porcentaje mínimo de biocarburantes en los combustibles vendidos en 2026, medido en contenido energético. El bioetanol se mezcla en la gasolina corriente, sin ventaja de precio para el conductor. Según la confederación de estaciones de servicio, en 2022 el 70 % de la red, gestionada por pymes, se declaraba dispuesta a vender E85 si la fiscalidad lo permitía.",
+              "src": [
+                22,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "5. Biometano: 803 frente a 21",
+          "parrafos": [
+            "El biometano es un gas renovable que se obtiene fermentando purines, restos de cultivos y biorresiduos en un digestor. Una vez depurado, se inyecta en la red de gas como si fuera gas natural. El residuo de la fermentación, el digestato, se usa como fertilizante.",
+            {
+              "t": "Francia contaba con 803 plantas de inyección a finales de 2025. Produjeron 13,6 TWh de biometano, el 3,9 % del consumo de gas del país, y la planificación energética francesa apunta a 44 TWh en 2030. Ese crecimiento se apoya en tarifas de compra garantizadas, que dan a los productores ingresos previsibles.",
+              "src": [
+                24,
+                26
+              ]
+            },
+            {
+              "t": "España solo tenía 21 plantas en funcionamiento en 2025, con más de un centenar de proyectos en tramitación. Y sin embargo dispone de una materia prima enorme: con 34,5 millones de cerdos en 2024, tiene la mayor cabaña porcina de la Unión Europea, tres veces la de Francia (11,7 millones). Su superficie agraria, de 23,5 millones de hectáreas, es en cambio algo menor que la francesa (27,2 millones).",
+              "src": [
+                25,
+                28,
+                29
+              ]
+            },
+            {
+              "t": "Las estimaciones del potencial español varían mucho. Sedigas, la asociación del sector gasista, lo cifra en 163 TWh al año, cerca de la mitad del consumo de gas del país. Una evaluación basada en los criterios de sostenibilidad de la Comisión Europea da una cifra mucho más prudente, en torno al 13 % del consumo actual. Aun así, la Asociación Europea del Biogás prevé 4.800 millones de euros de inversión en España hasta 2030. El sector atribuye el retraso español a la falta de un marco de apoyo estable, comparable a las tarifas francesas.",
+              "src": [
+                30,
+                27,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "6. Por qué España no da el paso",
+          "parrafos": [
+            "Conviven varias explicaciones. La primera es presupuestaria: cada litro de E85 con menos impuestos es recaudación perdida, en un país que debe reducir su déficit. La segunda es estratégica: España ha hecho de la electrificación, y en particular del coche eléctrico, la prioridad de su política energética, y no quiere alargar la vida del motor de combustión. La tercera tiene que ver con la organización del mercado: las gasolineras independientes consideran que los intereses del refino tradicional han pesado en esa decisión.",
+            {
+              "t": "Pero la electrificación avanza despacio. En 2025, los coches 100 % eléctricos eran solo el 0,8 % del parque español. Durante la transición, que se medirá en décadas, millones de vehículos de combustión seguirán circulando y consumiendo petróleo importado.",
+              "src": [
+                6
+              ]
+            }
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "tipo": "ilustracion",
+          "clave": "tres-necesidades",
+          "despues_de_seccion": 1
+        },
+        {
+          "tipo": "mix",
+          "despues_de_seccion": 1,
+          "titulo": "Peso de la electricidad en la energía realmente consumida (2024)",
+          "aria": "Peso de la electricidad en el consumo final de energía",
+          "pie": "Consumo final de energía, 2024. Francia: 26 % (SDES). España: 23,6 % (estudio de APPA).",
+          "filas": [
+            {
+              "etiqueta": "Francia",
+              "segmentos": [
+                {
+                  "nombre": "Electricidad",
+                  "clave": "hidro",
+                  "valor": 26.0,
+                  "texto": "26 %",
+                  "pct": 26
+                },
+                {
+                  "nombre": "Carburantes, gas, calor y otros",
+                  "clave": "otros",
+                  "valor": 74.0,
+                  "texto": "74 %",
+                  "pct": 74
+                }
+              ]
+            },
+            {
+              "etiqueta": "España",
+              "segmentos": [
+                {
+                  "nombre": "Electricidad",
+                  "clave": "hidro",
+                  "valor": 23.6,
+                  "texto": "23,6 %",
+                  "pct": 24
+                },
+                {
+                  "nombre": "Carburantes, gas, calor y otros",
+                  "clave": "otros",
+                  "valor": 76.4,
+                  "texto": "76,4 %",
+                  "pct": 76
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "mix",
+          "despues_de_seccion": 2,
+          "titulo": "Cómo produce cada país su electricidad",
+          "aria": "Mix eléctrico de Francia y España",
+          "pie": "Peso de cada fuente en la producción de electricidad, datos de 2023 (último año comparable en esta fuente). Fuente: DatosMundial, a partir de IRENA.",
+          "filas": [
+            {
+              "etiqueta": "Francia",
+              "segmentos": [
+                {
+                  "nombre": "Nuclear",
+                  "clave": "nuclear",
+                  "valor": 63.9,
+                  "texto": "63,9 %",
+                  "pct": 64
+                },
+                {
+                  "nombre": "Fósiles",
+                  "clave": "fosil",
+                  "valor": 7.9,
+                  "texto": "7,9 %",
+                  "pct": 8
+                },
+                {
+                  "nombre": "Eólica",
+                  "clave": "eolica",
+                  "valor": 10.4,
+                  "texto": "10,4 %",
+                  "pct": 10
+                },
+                {
+                  "nombre": "Solar",
+                  "clave": "solar",
+                  "valor": 4.5,
+                  "texto": "4,5 %",
+                  "pct": 5
+                },
+                {
+                  "nombre": "Hidráulica",
+                  "clave": "hidro",
+                  "valor": 10.8,
+                  "texto": "10,8 %",
+                  "pct": 11
+                },
+                {
+                  "nombre": "Biomasa",
+                  "clave": "biomasa",
+                  "valor": 2.3,
+                  "texto": "2,3 %",
+                  "pct": 2
+                }
+              ]
+            },
+            {
+              "etiqueta": "España",
+              "segmentos": [
+                {
+                  "nombre": "Nuclear",
+                  "clave": "nuclear",
+                  "valor": 20.4,
+                  "texto": "20,4 %",
+                  "pct": 20
+                },
+                {
+                  "nombre": "Fósiles",
+                  "clave": "fosil",
+                  "valor": 28.0,
+                  "texto": "28,0 %",
+                  "pct": 29
+                },
+                {
+                  "nombre": "Eólica",
+                  "clave": "eolica",
+                  "valor": 23.6,
+                  "texto": "23,6 %",
+                  "pct": 24
+                },
+                {
+                  "nombre": "Solar",
+                  "clave": "solar",
+                  "valor": 17.3,
+                  "texto": "17,3 %",
+                  "pct": 17
+                },
+                {
+                  "nombre": "Hidráulica",
+                  "clave": "hidro",
+                  "valor": 8.5,
+                  "texto": "8,5 %",
+                  "pct": 8
+                },
+                {
+                  "nombre": "Biomasa",
+                  "clave": "biomasa",
+                  "valor": 2.2,
+                  "texto": "2,2 %",
+                  "pct": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "ilustracion",
+          "clave": "del-campo",
+          "despues_de_seccion": 2
+        },
+        {
+          "despues_de_seccion": 3,
+          "titulo": "Precio del litro en Francia, 22-23 de septiembre de 2026",
+          "aria": "Precio comparado del E85 y la gasolina E10",
+          "pie": "«E85 a igual distancia»: precio corregido por un consumo un 30 % mayor (cálculo de Rilamax). Fuente de los precios: Selectra, a partir del registro oficial de precios de carburantes.",
+          "barras": [
+            {
+              "etiqueta": "Gasolina E10",
+              "valor": 2.15,
+              "texto": "2,15 €",
+              "pct": 100
+            },
+            {
+              "etiqueta": "E85, a igual distancia",
+              "valor": 1.17,
+              "texto": "≈ 1,17 €",
+              "pct": 54
+            },
+            {
+              "etiqueta": "E85, en surtidor",
+              "valor": 0.9,
+              "texto": "0,90 €",
+              "pct": 42
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 4,
+          "titulo": "Impuesto especial sobre carburantes, en céntimos por litro",
+          "aria": "Impuesto comparado sobre la gasolina y el bioetanol",
+          "pie": "Sin IVA. Francia: tipos a 1 de agosto de 2026 (guía oficial de fiscalidad energética 2026). España: tipos ordinarios de la Ley 38/1992, sin las rebajas temporales de 2026, aplicadas a ambos productos.",
+          "barras": [
+            {
+              "etiqueta": "Gasolina E10, Francia",
+              "valor": 67.5,
+              "texto": "67,5 cts",
+              "color": "fr",
+              "pct": 100
+            },
+            {
+              "etiqueta": "Gasolina, España",
+              "valor": 47.27,
+              "texto": "47,3 cts",
+              "color": "es",
+              "pct": 70
+            },
+            {
+              "etiqueta": "Bioetanol / E85, España",
+              "valor": 47.27,
+              "texto": "47,3 cts",
+              "color": "es",
+              "pct": 70
+            },
+            {
+              "etiqueta": "E85, Francia",
+              "valor": 11.83,
+              "texto": "11,8 cts",
+              "color": "fr",
+              "pct": 18
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 5,
+          "titulo": "Plantas de biometano en funcionamiento, finales de 2025",
+          "aria": "Instalaciones de biometano en Francia y en España",
+          "pie": "Francia: plantas que inyectan en la red de gas (Panorama des gaz renouvelables 2025). España: plantas en funcionamiento (Suez).",
+          "barras": [
+            {
+              "etiqueta": "Francia",
+              "valor": 803,
+              "texto": "803",
+              "color": "fr",
+              "pct": 100
+            },
+            {
+              "etiqueta": "España",
+              "valor": 21,
+              "texto": "21",
+              "color": "es",
+              "pct": 3
+            }
+          ]
+        }
+      ],
+      "tabla": {
+        "despues_de_seccion": 2,
+        "titulo": "Francia y España en cifras comparables",
+        "columnas": [
+          "Indicador",
+          "Francia",
+          "España",
+          "Fuentes"
+        ],
+        "filas": [
+          [
+            "Energía importada (tasa de dependencia)",
+            "39,3 % (2024)",
+            "68,4 % (2024)",
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            "Coste neto de los intercambios energéticos",
+            "57.800 M€ (2024)",
+            "32.000 M€ (2025)",
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            "Electricidad en la energía consumida",
+            "26 % (2024)",
+            "23,6 % (2024)",
+            [
+              0,
+              5
+            ]
+          ],
+          [
+            "Primera fuente de electricidad (2023)",
+            "Nuclear, 64 %",
+            "Fósiles, 28 %; eólica, 24 %",
+            [
+              9,
+              10
+            ]
+          ],
+          [
+            "Superficie agraria utilizada",
+            "27,2 M ha",
+            "23,5 M ha",
+            [
+              29
+            ]
+          ],
+          [
+            "Cabaña porcina (2024)",
+            "11,7 M de cabezas",
+            "34,5 M de cabezas",
+            [
+              28
+            ]
+          ],
+          [
+            "Impuesto sobre la gasolina (por litro)",
+            "67,5 cts (E10)",
+            "47,3 cts (tipo ordinario)",
+            [
+              11,
+              12
+            ]
+          ],
+          [
+            "Impuesto sobre el bioetanol carburante",
+            "11,8 cts (E85)",
+            "47,3 cts (igual que la gasolina)",
+            [
+              11,
+              12
+            ]
+          ],
+          [
+            "Gasolineras con E85",
+            "4.131",
+            "5 (2023)",
+            [
+              15,
+              20
+            ]
+          ],
+          [
+            "Bioetanol consumido en gasolinas",
+            "> 1.900 M de litros (2025)",
+            "No se publica por separado",
+            [
+              16
+            ]
+          ],
+          [
+            "Bioetanol producido",
+            "1.100 a 1.200 M de litros al año",
+            "≈ 400.000 t (≈ 500 M de litros)",
+            [
+              17,
+              19
+            ]
+          ],
+          [
+            "Plantas de biometano en funcionamiento (fin 2025)",
+            "803",
+            "21",
+            [
+              24,
+              25
+            ]
+          ],
+          [
+            "Biometano inyectado",
+            "13,6 TWh (3,9 % del gas)",
+            "Marginal",
+            [
+              24
+            ]
+          ]
+        ],
+        "nota": "Las cifras económicas no corresponden al mismo año y las metodologías nacionales difieren ligeramente: dan un orden de magnitud, no una comparación exacta. M ha: millones de hectáreas; M: millones; cts: céntimos de euro."
+      },
+      "debate": {
+        "despues_de_seccion": 6,
+        "texto": {
+          "t": "Las objeciones son serias. Los biocarburantes de cultivos alimentarios ocupan tierra y la Unión Europea limita su contribución a los objetivos de energía renovable en el transporte. La ventaja de precio del E85 descansa en una renuncia fiscal que el Estado debe compensar por otra vía. El biometano es más caro que el gas fósil y necesita apoyos duraderos. Y estos sectores solo cubrirán una parte de las necesidades: incluso en Francia, el biometano solo supone todavía el 3,9 % del gas consumido. Reducen la dependencia, no la eliminan.",
+          "src": [
+            24
+          ]
+        }
+      },
+      "lectura": "Los datos plantean una pregunta sencilla. ¿Por qué un país que importa el 68 % de su energía, y que fabrica un carburante renovable que se vende a 0,90 euros al otro lado de los Pirineos, no se lo ofrece a sus propios conductores? La respuesta no es técnica. Es fiscal y política.\n\nSe objetará la pérdida de recaudación. Es lo que Frédéric Bastiat llamaba, en 1850, «lo que se ve»: un ingreso menos queda escrito, negro sobre blanco, en el presupuesto. «Lo que no se ve» es más difícil de cuantificar, pero muy real. Son los empleos de las destilerías, de las plantas de biogás y de las explotaciones que las abastecen. Es una población menos expuesta a una crisis que no controla. Y es el dinero que no se recauda en el surtidor: no desaparece, se gasta en otra parte, en otros sectores que contratan y pagan a su vez impuestos y cotizaciones. No es una pérdida neta, sino una reasignación de la riqueza. El argumento vale, eso sí, en los dos sentidos, porque lo que el Estado no recauda tampoco lo gasta: razón de más para medir en lugar de suponer.\n\nHay palancas para limitar el coste presupuestario. Un impuesto reducido para el E85, pero limitado en el tiempo y con una evaluación pública anual de sus efectos sobre el empleo, las importaciones y la recaudación. Una financiación a cargo del propio sector y no del contribuyente, como el impuesto incentivador francés, que penaliza a los distribuidores que incorporan poca energía renovable, o los certificados de producción de biogás, que obligan a los suministradores de gas a sostener el biometano. Y prioridad para cooperativas y explotaciones ganaderas, para que el valor se quede en el mundo rural. Cada una de estas palancas alivia una factura energética de 32.000 millones de euros al año.\n\nQueda el obstáculo de fondo, el del tiempo. Un sector energético se construye en diez o quince años; una legislatura dura cuatro. Quien asume el gasto tiene todas las papeletas de no estar ahí para recoger los frutos. Por eso estas decisiones se aplazan una y otra vez. Hará falta que algún responsable acepte pagar el precio político sin cosechar el rédito electoral. Ese nombre quedará en la historia energética del país.",
+      "vigilaremos": "La fiscalidad del E85 en los presupuestos franceses de 2027 y las próximas decisiones españolas sobre la fiscalidad de los biocarburantes y el apoyo al biometano.",
+      "fuentes": [
+        {
+          "nombre": "SDES, Bilan énergétique 2024",
+          "url": "https://www.statistiques.developpement-durable.gouv.fr/bilan-energetique-de-la-france-pour-2024",
+          "corto": "SDES"
+        },
+        {
+          "nombre": "SDES, Chiffres clés 2025",
+          "url": "https://www.statistiques.developpement-durable.gouv.fr/chiffres-cles-de-lenergie-edition-2025",
+          "corto": "SDES"
+        },
+        {
+          "nombre": "SDES, bilan 2024 (provisoire)",
+          "url": "https://www.statistiques.developpement-durable.gouv.fr/bilan-energetique-de-la-france-en-2024-donnees-provisoires",
+          "corto": "SDES"
+        },
+        {
+          "nombre": "MITECO, Balance energético 2024",
+          "url": "https://www.miteco.gob.es/content/dam/miteco/es/energia/files-1/balances/Balances/Documents/Balance%20energetico%202024_simplificado_v1.pdf",
+          "corto": "MITECO"
+        },
+        {
+          "nombre": "Foro Nuclear, Energía 2026",
+          "url": "https://www.foronuclear.org/wp-content/uploads/2026/06/Energia_2026.pdf",
+          "corto": "Foro Nuclear"
+        },
+        {
+          "nombre": "APPA, Estudio macroeconómico 2024",
+          "url": "https://www.energias-renovables.com/panorama/espa-a-importa-m-s-del-80-20260818",
+          "corto": "APPA"
+        },
+        {
+          "nombre": "Fundación Renovables / Instituto Meridiano",
+          "url": "https://www.energias-renovables.com/panorama/la-soleada-espa-a-importa-el-70-20260608",
+          "corto": "Fundación Renovables"
+        },
+        {
+          "nombre": "Connaissance des énergies",
+          "url": "https://www.connaissancedesenergies.org/quel-est-le-montant-de-la-facture-energetique-francaise-120328",
+          "corto": "Connaissance des énergies"
+        },
+        {
+          "nombre": "REE, vía Autosolar",
+          "url": "https://autosolar.es/actualidad-luz/donde-compra-espana-la-luz",
+          "corto": "REE"
+        },
+        {
+          "nombre": "DatosMundial (France)",
+          "url": "https://www.datosmundial.com/europa/francia/balance-energetico.php",
+          "corto": "DatosMundial"
+        },
+        {
+          "nombre": "DatosMundial (Espagne)",
+          "url": "https://www.datosmundial.com/europa/espana/balance-energetico.php",
+          "corto": "DatosMundial"
+        },
+        {
+          "nombre": "Ministère de la Transition écologique, Guide 2026 de la fiscalité des énergies",
+          "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide%202026%20sur%20fiscalit%C3%A9%20des%20%C3%A9nergies.pdf",
+          "corto": "Guide fiscalité 2026"
+        },
+        {
+          "nombre": "BOE, Ley 38/1992 de Impuestos Especiales",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741",
+          "corto": "BOE"
+        },
+        {
+          "nombre": "Mundo Petróleo (RDL 7/2026)",
+          "url": "https://mundopetroleo.com/news/new/nw/nuevos-tipos-impositivos-del-impuesto-sobre-hidrocarburos-articulo-38-del-real-decreto-ley-72026-de-20-de-marzo-por-el-que-se-aprueba-el-plan-integral-de-respuesta-a-la-crisis-en-oriente-medio",
+          "corto": "Mundo Petróleo"
+        },
+        {
+          "nombre": "Selectra",
+          "url": "https://selectra.info/energie/actualites/marche/superethanol-e85-boitier-economie-plein",
+          "corto": "Selectra"
+        },
+        {
+          "nombre": "Bioéthanol Carburant",
+          "url": "https://www.bioethanolcarburant.com/actualite/superethanol-e85-prix-economies/",
+          "corto": "Bioéthanol Carburant"
+        },
+        {
+          "nombre": "Collective du bioéthanol",
+          "url": "https://www.bioethanolfrance.fr/apres-une-hausse-de-15-de-sa-consommation-en-france-en-2025-une-nouvelle-ere-souvre-pour-le-bioethanol-en-2026/",
+          "corto": "Collective du bioéthanol"
+        },
+        {
+          "nombre": "Assemblée nationale, réponse ministérielle",
+          "url": "https://questions.assemblee-nationale.fr/dyn/15/questions/QANR5L15QOSD438.pdf",
+          "corto": "Assemblée nationale"
+        },
+        {
+          "nombre": "Leocare",
+          "url": "https://leocare.eu/fr/blog/nouvelle-taxe-carburant-2026/",
+          "corto": "Leocare"
+        },
+        {
+          "nombre": "Motorpasión",
+          "url": "https://www.motorpasion.com/revision/gasolina-e85-que-producimos-espana-cuesta-euro-litro-francia-aqui-olemos-tiene-explicacion",
+          "corto": "Motorpasión"
+        },
+        {
+          "nombre": "El Confidencial Digital",
+          "url": "https://www.elconfidencialdigital.com/articulo/dinero/gasolineras-reclaman-menos-impuestos-combustible-verde-reduciria-60-emisiones-co2/20230131172731513329.html",
+          "corto": "El Confidencial Digital"
+        },
+        {
+          "nombre": "The Objective",
+          "url": "https://theobjective.com/economia/transporte/2026-10-03/etanol-carburante-espana-fabrica-francia/",
+          "corto": "The Objective"
+        },
+        {
+          "nombre": "Afinca Mundo Rural (RD 5/2026)",
+          "url": "https://afincamundorural.com/bioetanol-oportunidades-para-el-campo/",
+          "corto": "Afinca"
+        },
+        {
+          "nombre": "Energías Renovables (CEES)",
+          "url": "https://www.energias-renovables.com/bioenergia/el-70-de-las-estaciones-de-servicio-20221125",
+          "corto": "Energías Renovables"
+        },
+        {
+          "nombre": "Panorama des gaz renouvelables 2025, via AFP",
+          "url": "https://www.connaissancedesenergies.org/afp/la-france-leader-europeen-de-linjection-de-biomethane-dans-les-reseaux-260409",
+          "corto": "Panorama gaz 2025"
+        },
+        {
+          "nombre": "Suez España",
+          "url": "https://www.suez.com/es/aire-espana/noticias/cuantas-plantas-biometano-hay-espana",
+          "corto": "Suez"
+        },
+        {
+          "nombre": "Retema / EBA",
+          "url": "https://www.retema.es/articulos-reportajes/espana-y-el-biometano-la-urgencia-de-pasar-de-la-expectativa-la-accion",
+          "corto": "Retema"
+        },
+        {
+          "nombre": "Genia Bioenergy, d'après la Commission européenne",
+          "url": "https://geniabioenergy.com/cual-es-el-nivel-de-produccion-de-biometano-sostenible-en-espana/",
+          "corto": "Genia Bioenergy"
+        },
+        {
+          "nombre": "Eurostat, via Agronews",
+          "url": "https://www.agronewscastillayleon.com/censo-ganadero-ue-2024/",
+          "corto": "Eurostat"
+        },
+        {
+          "nombre": "Eurostat, via Agroempresario",
+          "url": "https://agroempresario.com/publicacion/119681/espana-y-francia-tambien-juegan-un-clasico-del-agro-asi-compiten-las-dos-mayores-potencias-productivas-de-europa/",
+          "corto": "Eurostat"
+        },
+        {
+          "nombre": "Energética 21 (Sedigas)",
+          "url": "https://energetica21.com/articulo/biometano-espana-oportunidad-estrategica-en-pausa/",
+          "corto": "Energética 21"
+        },
+        {
+          "nombre": "Forbes España (Enerclub)",
+          "url": "https://forbes.es/economia/906423/energia-pone-en-valor-el-ejemplo-de-exito-que-representa-espana-en-la-actual-crisis-energetica/",
+          "corto": "Forbes"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Política",
+        "titulo": "Presupuesto 2027: 43.000 millones de ahorro y amenaza de censura",
+        "contexto": "El presupuesto de 2026 no se aprobó hasta febrero, tras fracasar dos mociones de censura, con un objetivo de déficit del 5 % del PIB. Ese objetivo se revisa ahora al 5,4 % para 2026, según las previsiones remitidas al HCFP (Haut Conseil des finances publiques, organismo independiente que evalúa las previsiones macroeconómicas del Gobierno francés). El Estado deberá además endeudarse en 339.700 millones de euros en 2027, 28.000 millones más que este año, según la Agence France Trésor (organismo que gestiona la deuda del Estado francés).",
+        "resumen": "Presentado el 1 de octubre, el PLF 2027 prevé 43.000 millones de euros en medidas de ajuste, 54.000 millones si se suma el efecto de las medidas anteriores. El objetivo es un déficit del 5,0 % del PIB en 2027, tras el 5,4 % de este año, sobre un crecimiento del 1,0 % que el HCFP juzga optimista. Los jubilados aportan 5.500 millones y se congelan las reducciones de cotizaciones de las empresas. En una carta del 2 de octubre, el Partido Socialista (PS) califica el texto de «no aceptable» y mantiene la amenaza de censura. España apunta a un déficit del 1,8 % en 2027, con una deuda del 101,4 % del PIB en el segundo trimestre, frente al 121,7 % que se espera en Francia el año próximo.",
+        "lectura": "Un presupuesto construido sobre un 1,0 % de crecimiento se expone a una revisión sobre la marcha, porque el propio HCFP considera optimista la hipótesis. Una empresa española con filiales o clientes en Francia debería preparar 2027 con dos escenarios: texto aprobado tal cual, o enmendado bajo amenaza de censura. La congelación de las reducciones de cotizaciones, si sobrevive al debate parlamentario, encarecerá el coste laboral.",
+        "fuentes": [
+          {
+            "nombre": "France 24",
+            "url": "https://www.france24.com/fr/france/20261001-budget-2027-le-gouvernement-d%C3%A9voile-son-projet-sous-la-pression-des-march%C3%A9s"
+          },
+          {
+            "nombre": "Boursorama (AFP)",
+            "url": "https://www.boursorama.com/actualite-economique/actualites/la-france-prevoit-43-milliards-d-euros-de-mesures-de-redressement-dans-son-budget-2027-dd687555d1c017fb107b5763012cd964"
+          },
+          {
+            "nombre": "France Budget (dictamen del HCFP)",
+            "url": "https://francebudget.fr/budget-2027"
+          },
+          {
+            "nombre": "Echos Plus",
+            "url": "https://echosplus.com/2026/10/03/budget-2027-le-ps-presse-lecornu-de-revoir-sa-copie-et-maintient-la-menace-de-censure/"
+          },
+          {
+            "nombre": "Agence France Trésor",
+            "url": "https://www.aft.gouv.fr/en/state-budget"
+          },
+          {
+            "nombre": "Ministerio de Hacienda",
+            "url": "https://www.hacienda.gob.es/es-ES/Prensa/Noticias/Paginas/2026/20260707-NP-CM-TECHO-GASTOS-2027.aspx"
+          },
+          {
+            "nombre": "El Conciso",
+            "url": "https://www.elconciso.es/coyuntura/deuda-deficit-publico-pib_0_2008115990.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finanzas y mercados",
+        "titulo": "La OAT roza el 5 % y el CAC 40 cae un 2,2 % en la semana",
+        "contexto": "La rentabilidad de la OAT superó el 4,5 % el 14 de septiembre, su nivel más alto desde 2008. El 28 de agosto, Fitch (agencia de calificación) había confirmado la nota A+ de Francia, con perspectiva estable. La deuda pública alcanzaba el 117,5 % del PIB a finales de marzo, frente al 115,7 % de finales de 2025, según el Insee. Entre tanto, el BCE subió sus tipos 0,25 puntos el 10 de septiembre, hasta dejar el tipo de depósito en el 2,50 %.",
+        "resumen": "El jueves 1 de octubre, día de la presentación del presupuesto, la OAT a 10 años tocó el 4,96 % en sesión, su máximo desde 2002, antes de retroceder; el 2 de octubre se situaba en el 4,87 %. El diferencial con el Bund (obligación del Estado alemán a 10 años, referencia sin riesgo de la zona euro) ronda los 130 puntos básicos, frente a 100 el 18 de septiembre, un nivel que no se veía desde 2012. El CAC 40 (índice de referencia de la bolsa de París) perdió un 2,24 % en la semana y cerró el viernes en 7.897 puntos, tras ceder un 4,43 % en septiembre. En España, la rentabilidad a 10 años era del 4,17 % el 1 de octubre, algo menos de 60 puntos básicos por encima del Bund (cálculo de Rilamax).",
+        "lectura": "Un diferencial de 130 puntos básicos con Alemania frente a menos de 60 en el caso español significa que los inversores exigen más del doble para tener deuda francesa. Esa prima se traslada a los bancos y a las empresas que se financian a largo plazo. Conviene revisar las cláusulas de tipo variable y los covenants (compromisos financieros que imponen los prestamistas) antes del 23 de octubre, fecha de la próxima revisión de Moody's.",
+        "fuentes": [
+          {
+            "nombre": "Boursorama (Reuters), 1 de octubre",
+            "url": "https://www.boursorama.com/bourse/actualites/taux-les-rendements-obligataires-se-tendent-l-oat-touche-un-sommet-depuis-2002-avant-de-refluer-actualise-835a60194a63a23aa7d9d0789e330791"
+          },
+          {
+            "nombre": "Boursorama (Reuters), 18 de septiembre",
+            "url": "https://www.boursorama.com/bourse/actualites/taux-le-spread-entre-le-bund-et-l-oat-a-10-ans-atteint-100-pdb-pour-la-premiere-fois-depuis-2012-e097e1724cc78bd4583e4db6d2030ad3"
+          },
+          {
+            "nombre": "Ideal Investisseur (Banque de France, Bundesbank)",
+            "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+          },
+          {
+            "nombre": "Trading Economics",
+            "url": "https://fr.tradingeconomics.com/france/government-bond-yield"
+          },
+          {
+            "nombre": "BFM Bourse",
+            "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-soutenu-par-la-baisse-des-prix-du-petrole-le-cac-40-termine-dans-le-vert-mais-cede-22-sur-la-semaine-1171214.html"
+          },
+          {
+            "nombre": "Boursorama, resumen de la semana",
+            "url": "https://www.boursorama.com/bourse/actualites/une-semaine-en-bourse-le-recap-du-28-septembre-au-2-octobre-c34c4be9a9687417b349e4362ac9ec46"
+          },
+          {
+            "nombre": "Agence France Trésor, calificaciones",
+            "url": "https://www.aft.gouv.fr/en/frances-credit-ratings"
+          },
+          {
+            "nombre": "France Épargne",
+            "url": "https://www.france-epargne.fr/news/oat-10-ans-au-dessus-de-4-la-france-aborde-la-revue-fitch-du-28-aout-sur-la-defensive"
+          },
+          {
+            "nombre": "Investing.com (bono español)",
+            "url": "https://www.investing.com/rates-bonds/spain-10-year-bond-yield-historical-data"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "Inflación del 3,0 % en Francia: la energía sigue marcando el ritmo",
+        "contexto": "Antes del estallido de la guerra en Irán y del bloqueo del estrecho de Ormuz, a finales de febrero, los precios de consumo subían en torno a un 1 % interanual. La inflación media de 2025 fue del 0,9 %, según el Insee. Desde entonces se han encarecido el petróleo y el gas, y los carburantes han seguido el mismo camino: el dossier de esta semana sitúa el litro de SP95-E10 (gasolina sin plomo 95 con hasta un 10 % de etanol) en torno a 2,15 €.",
+        "resumen": "Según la estimación provisional del Insee del 30 de septiembre, los precios subieron un 3,0 % interanual en septiembre, frente al 2,4 % de agosto, el ritmo más alto desde febrero de 2024. La energía avanza un 21,2 % y los productos frescos un 9,9 %. El IPCA (índice de precios de consumo armonizado, que permite comparar los países de la zona euro) llega al 3,4 %, frente al 5,0 % de España y al 3,8 % de la zona euro, según Eurostat. En un mes los precios bajan un 0,3 %, aunque menos que en septiembre de 2025 (-1,0 %). El viernes, el G7 anunció la liberación de hasta 100 millones de barriles en cuatro meses. El dato definitivo del Insee saldrá el 15 de octubre.",
+        "lectura": "El efecto base explica una parte del salto del 2,4 % al 3,0 %, pero una energía con una subida del 21,2 % sigue siendo un fenómeno real. La diferencia de 1,6 puntos de IPCA con España (3,4 % frente a 5,0 %) pesa sobre los costes salariales de ambos lados. Conviene revisar las cláusulas de indexación de los contratos plurianuales y el calendario de revisión de precios de los proveedores.",
+        "fuentes": [
+          {
+            "nombre": "Boursorama (AFP), Insee",
+            "url": "https://www.boursorama.com/actualite-economique/actualites/france-l-inflation-grimpe-a-3-sur-un-an-en-septembre-selon-l-insee-a2c8950bbbb65d6ed4e3f29132ff41f6"
+          },
+          {
+            "nombre": "La Clé Publique (efecto base)",
+            "url": "https://laclepublique.fr/national/articles/2026/2026-09-30-inflation-diffusion/"
+          },
+          {
+            "nombre": "INE, indicador adelantado del IPC",
+            "url": "https://www.ine.es/dyngs/Prensa/adIPC0926.htm"
+          },
+          {
+            "nombre": "Eurostat, estimación rápida",
+            "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
+          },
+          {
+            "nombre": "Franceinfo (G7)",
+            "url": "https://www.franceinfo.fr/economie/automobile/essence/100-millions-de-barils-du-g7-liberes-l-annonce-d-emmanuel-macron-va-t-elle-faire-baisser-les-prix-a-la-pompe_8220349.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "Actividad: el PMI vuelve a superar 50, el paro sigue alto",
+        "contexto": "El PMI (índice de encuesta a directores de compras: por encima de 50, la actividad crece) había caído a 48,5 en agosto, un mes penalizado por la ola de calor. En empleo, la tasa de paro según la OIT (Organización Internacional del Trabajo) alcanzó el 8,3 % en el segundo trimestre, su nivel más alto desde el otoño de 2020, es decir, 2,7 millones de personas sin empleo, según el Insee.",
+        "resumen": "El PMI compuesto definitivo de septiembre se sitúa en 51,1, frente a 48,5 en agosto, gracias a la vuelta de los servicios a zona de crecimiento. El economista de S&P Global Joe Hayes considera, no obstante, frágil la demanda subyacente y ve en parte un rebote tras la ola de calor de agosto. El paro, por su parte, ha subido seis trimestres seguidos hasta el 8,3 %, con un 21,6 % entre los jóvenes de 15 a 24 años. En España, el PMI compuesto se sitúa en 56,8 en septiembre, su mejor nivel desde diciembre de 2024, y la tasa de paro de la EPA es del 9,87 % en el segundo trimestre.",
+        "lectura": "Los dos países muestran dinámicas opuestas: en Francia, un paro que sube desde hace seis trimestres y un PMI apenas por encima de 50; en España, un paro por debajo del 10 % y una actividad más viva. Un índice de encuesta que rebota tras un mes de ola de calor todavía no es una tendencia. Un inversor debería esperar a las cifras de octubre antes de revisar sus hipótesis de crecimiento para Francia.",
+        "fuentes": [
+          {
+            "nombre": "Boursorama (S&P Global), PMI Francia",
+            "url": "https://www.boursorama.com/bourse/actualites/france-pmi-le-secteur-des-services-renoue-avec-la-croissance-en-septembre-a8b6bad8a466ea835684672e9b545ad5"
+          },
+          {
+            "nombre": "Insee, síntesis sobre el paro",
+            "url": "https://www.insee.fr/fr/statistiques/4805248"
+          },
+          {
+            "nombre": "Journal du Net (Insee), paro 2.º trimestre",
+            "url": "https://www.journaldunet.com/business/1553489-le-taux-de-chomage-en-france-atteint-8-3-au-deuxieme-trimestre-2026-sixieme-hausse-consecutive/"
+          },
+          {
+            "nombre": "INE, EPA segundo trimestre de 2026",
+            "url": "https://www.ine.es/dyngs/Prensa/EPA2T26.htm"
+          },
+          {
+            "nombre": "El Boletín (PMI español)",
+            "url": "https://www.elboletin.com/el-ibex-35-cierra-con-una-subida-del-112-tras-la-convocatoria-electoral-y-roza-los-19-300-puntos/"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Política",
+        "titulo": "España: elecciones el 29 de noviembre tras la caída de los decretos de vivienda",
+        "contexto": "El Gobierno había aprobado el 29 de septiembre dos decretos-leyes sobre vivienda. El primero preveía, entre otras medidas, la prohibición de desahucios de hogares vulnerables, una prórroga extraordinaria de los contratos de alquiler que vencen este año, una regulación de los alquileres de temporada (mediante una modificación de la LAU, la Ley de Arrendamientos Urbanos), ventajas fiscales para los arrendadores y préstamos a tipo cero de hasta 50.000 € para una primera compra. El segundo instauraba contratos de duración indefinida.",
+        "resumen": "El 2 de octubre, el Congreso rechazó el primer decreto por 178 votos contra 172 y el segundo por 184 contra 166, con los votos del PP, Vox, Junts y UPN. El primer texto solo estuvo en vigor unas 24 horas. El lunes 5 de octubre, Pedro Sánchez anunció la disolución de las Cortes y elecciones generales el 29 de noviembre; la convocatoria se publica en el BOE el 6 de octubre. El Ibex 35 ganó un 1,12 % ese lunes, hasta los 19.299,70 puntos. En Francia, el PLF 2027 debe votarse antes del 31 de diciembre, bajo amenaza de censura.",
+        "lectura": "Hasta las urnas no se aplica ninguna de estas medidas: sigue vigente el régimen de alquileres anterior. Un inversor con exposición a la vivienda residencial española debería valorar dos escenarios posteriores a las elecciones, según que la próxima mayoría retome, enmiende o abandone la regulación de los alquileres. Los 54 días de campaña dejan poco margen para una reforma antes de fin de año.",
+        "fuentes": [
+          {
+            "nombre": "La Moncloa",
+            "url": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2026/051026-sanchez-convocatoria-elecciones.aspx"
+          },
+          {
+            "nombre": "The Objective",
+            "url": "https://theobjective.com/espana/politica/2026-10-02/congreso-sanchez-decretos-vivienda-elecciones/"
+          },
+          {
+            "nombre": "Demócrata",
+            "url": "https://www.democrata.es/politica/congreso-y-senado/ampliacion-el-congreso-tumba-el-primer-decreto-de-vivienda-con-el-rechazo-de-pp-vox-junts-y-upn/"
+          },
+          {
+            "nombre": "Investing.com",
+            "url": "https://es.investing.com/news/stock-market-news/pedro-sanchez-convoca-elecciones-el-29-de-noviembre-asi-se-mueve-el-ibex-35-3860001"
+          },
+          {
+            "nombre": "France Budget",
+            "url": "https://francebudget.fr/budget-2027"
+          }
+        ]
+      },
+      {
+        "rubrica": "Finanzas y mercados",
+        "titulo": "Madrid: el Ibex 35 pierde un 3,1 % en la semana y rebota con el anuncio electoral",
+        "contexto": "Desde principios de 2026, el Ibex 35 acumulaba una subida de en torno al 10 %, mientras que el CAC 40 figuraba entre los índices europeos más rezagados. La semana del 28 de septiembre estuvo dominada por el rechazo de Estados Unidos a una tregua propuesta por Irán y por un petróleo en torno a los 100 dólares.",
+        "resumen": "El Ibex 35 cerró el viernes 2 de octubre en 19.085,30 puntos, con una caída del 3,12 % en la semana, su peor semana desde abril. Los bancos fueron los más castigados: CaixaBank cedió un 11,12 % y Santander un 6,75 %. El lunes 5 de octubre, el índice rebotó un 1,12 %, hasta los 19.299,70 puntos, tras el anuncio de las elecciones, con una subida del 4,52 % de Santander. El PMI compuesto español de septiembre subió a 56,8, frente a 55,8 en agosto. Entretanto, el CAC 40 retrocedió un 2,24 % en la semana, hasta los 7.897 puntos el viernes.",
+        "lectura": "Los valores bancarios sufrieron la mayor caída de la semana y lideraron después el rebote del lunes. Un inversor debería distinguir lo que depende del petróleo y de los tipos, común a toda la zona euro, de lo que corresponde al calendario electoral español. Según Investing.com, el Ibex ha perdido de media cerca de un 1 % durante los 54 días previos a unas elecciones generales desde 1992.",
+        "fuentes": [
+          {
+            "nombre": "elEconomista",
+            "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14018339/10/26/el-ibex-35-cae-un-3-en-su-peor-semana-desde-abril-y-pierde-el-soporte-de-los-19390-puntos.html"
+          },
+          {
+            "nombre": "El Cronista",
+            "url": "https://www.cronista.com/espana/economia-finanzas/el-ibex-35-vuelve-al-verde-y-mantiene-los-19000-puntos-pese-a-caer-un-312-en-la-semana/"
+          },
+          {
+            "nombre": "Catalunya Press",
+            "url": "https://www.catalunyapress.es/articulo/economia/2026-10-05/6040568-ibex-celebra-adelanto-electoral-sanchez-sube-112-hasta-19300-puntos"
+          },
+          {
+            "nombre": "El Boletín",
+            "url": "https://www.elboletin.com/el-ibex-35-cierra-con-una-subida-del-112-tras-la-convocatoria-electoral-y-roza-los-19-300-puntos/"
+          },
+          {
+            "nombre": "Investing.com",
+            "url": "https://es.investing.com/news/stock-market-news/pedro-sanchez-convoca-elecciones-el-29-de-noviembre-asi-se-mueve-el-ibex-35-3860001"
+          },
+          {
+            "nombre": "BFM Bourse",
+            "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-soutenu-par-la-baisse-des-prix-du-petrole-le-cac-40-termine-dans-le-vert-mais-cede-22-sur-la-semaine-1171214.html"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "Empleo en España: récord de afiliaciones en septiembre, impulsado por la regularización",
+        "contexto": "España ha puesto en marcha una regularización extraordinaria de trabajadores extranjeros, que el Tribunal Supremo se negó a suspender en mayo. Hace visibles en las estadísticas a personas que ya trabajaban, lo que infla las afiliaciones a la Seguridad Social y, cuando se inscriben en el SEPE (servicio público de empleo), también el paro registrado. La tasa de paro de la EPA fue del 9,87 % en el segundo trimestre.",
+        "resumen": "La Seguridad Social ganó 92.327 afiliados en septiembre, el mejor septiembre de la serie, hasta superar los 22,4 millones en total. Unos 83.400 de esos nuevos afiliados proceden de la regularización; sin ella, el aumento habría sido de unos 8.900. El paro registrado subió en 23.587 personas, la mayor alza en un mes de septiembre desde 2017, hasta 2.379.505. Aun así, es el nivel más bajo para un septiembre desde 2007 y está 42.160 por debajo del de hace un año. En Francia, el Insee contabilizaba 3,32 millones de inscritos en France Travail (servicio público de empleo francés, equivalente al SEPE) en categoría A en el segundo trimestre, con una definición distinta.",
+        "lectura": "La regularización infla a la vez las afiliaciones y el paro registrado, de modo que ninguna de las dos series mide por sí sola la creación de empleo. Funcas ve en la evolución de los trabajadores nacionales, que se ralentiza en el tercer trimestre, un mejor indicador de la tendencia de fondo. Una empresa que planifique contrataciones en España debería leer estas cifras sin el efecto de la regularización.",
+        "fuentes": [
+          {
+            "nombre": "Funcas",
+            "url": "https://www.funcas.es/textointegro/afiliados-a-la-seguridad-social-y-paro-registrado-septiembre-2026/"
+          },
+          {
+            "nombre": "Moncloa.com",
+            "url": "https://www.moncloa.com/2026/10/02/paro-septiembre-2026-minimo-desde-2007-3441450"
+          },
+          {
+            "nombre": "La Crónica del Henares",
+            "url": "https://www.cronicadelhenares.com/2026/10/afiliacion-paro-septiembre-2026-regularizacion.html"
+          },
+          {
+            "nombre": "Bilbao Hiria",
+            "url": "https://bilbaohiria.com/actualidad/afiliacion-seguridad-social-septiembre-2026-extranjeros-regularizacion/"
+          },
+          {
+            "nombre": "Insee, síntesis sobre el paro",
+            "url": "https://www.insee.fr/fr/statistiques/4805248"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "Inflación del 4,9 %, euríbor al 3,25 %: se prepara el SMI de 2027",
+        "contexto": "La inflación española se aceleró a lo largo de 2026: 2,3 % en enero, 3,6 % en julio, 4,3 % en agosto. El BCE subió los tipos 0,25 puntos el 10 de septiembre, su segunda subida del año, hasta dejar el tipo de depósito en el 2,50 %. El SMI (salario mínimo interprofesional; en Francia, el equivalente es el SMIC) se había subido un 3,1 % para 2026 y está en 1.221 € brutos al mes en 14 pagas.",
+        "resumen": "El indicador adelantado del INE da una inflación del 4,9 % en septiembre, la más alta desde febrero de 2023, con una inflación subyacente del 3,1 %. Los carburantes y los paquetes turísticos pesan en la subida. El euríbor a 12 meses (referencia de la mayoría de las hipotecas a tipo variable) cerró septiembre en el 3,247 %, frente al 2,954 % de agosto. El Ministerio de Trabajo reúne en octubre a los expertos para fijar el SMI de 2027; el Gobierno dice que tendrá en cuenta la inflación, y el sindicato CCOO reclama más del 5 %, es decir, por encima de 1.282 €. En Francia, la inflación es del 3,0 % y el tipo de depósito del BCE, común a ambos países, del 2,50 %.",
+        "lectura": "Con una inflación del 4,9 % y un SMI que no cambiará hasta 2027, la presión salarial se traslada a la revalorización de enero y a la negociación de los convenios sectoriales. Un grupo con plantilla en España debería presupuestar una subida del SMI superior al 3 %, hipótesis que plantea el propio Gobierno.",
+        "fuentes": [
+          {
+            "nombre": "INE, indicador adelantado del IPC",
+            "url": "https://www.ine.es/dyngs/Prensa/adIPC0926.htm"
+          },
+          {
+            "nombre": "Infobae (EFE), euríbor",
+            "url": "https://www.infobae.com/espana/agencias/2026/10/01/el-banco-de-espana-confirma-la-subida-del-euribor-en-septiembre-al-3247/"
+          },
+          {
+            "nombre": "EmpleoJob, SMI 2027",
+            "url": "https://empleojob.es/yolanda-diaz-reune-este-mes-a-los-expertos-que-decidiran-cuanto-sube-el-salario-minimo-en-2027-mientras-los-sindicatos-piden-superar-los-1-282-euros/"
+          },
+          {
+            "nombre": "Qué.es, SMI 2027",
+            "url": "https://www.que.es/2026/09/03/subida-salario-minimo-2027"
+          },
+          {
+            "nombre": "Ahora León (INE)",
+            "url": "https://ahoraleon.com/inflacion-espana-septiembre-2026/"
+          },
+          {
+            "nombre": "Eurostat, estimación rápida",
+            "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "6 de octubre de 2026",
+        "que": "España: publicación en el BOE de la convocatoria de elecciones generales, previstas para el 29 de noviembre"
+      },
+      {
+        "cuando": "14 y 15 de octubre de 2026",
+        "que": "España y Francia: inflación definitiva de septiembre, publicada por el INE el 14 y por el Insee el 15"
+      },
+      {
+        "cuando": "23 de octubre de 2026",
+        "que": "Francia: revisión de la nota soberana por Moody's (Aa3, perspectiva negativa)"
+      },
+      {
+        "cuando": "29 de octubre de 2026",
+        "que": "Zona euro: decisión de política monetaria del BCE"
+      },
+      {
+        "cuando": "29 de noviembre de 2026",
+        "que": "España: elecciones generales"
+      }
+    ],
+    "glosario": [
+      {
+        "sigla": "Bund",
+        "definicion": "Obligación del Estado alemán a 10 años, referencia sin riesgo de la zona euro. El diferencial de rentabilidad entre la OAT y el Bund mide la prima de riesgo que se exige por la deuda francesa."
+      },
+      {
+        "sigla": "E85",
+        "definicion": "Carburante con entre un 65 y un 85 % de bioetanol, y el resto de gasolina. En Francia se vende en 4.131 gasolineras; en España apenas existe."
+      },
+      {
+        "sigla": "HCFP",
+        "definicion": "Haut Conseil des finances publiques: organismo independiente que evalúa las previsiones macroeconómicas del Gobierno francés, comparable a la AIReF española."
+      },
+      {
+        "sigla": "Insee",
+        "definicion": "Institut national de la statistique et des études économiques: instituto estadístico francés, equivalente al INE. Publica la inflación, el PIB y el paro."
+      },
+      {
+        "sigla": "IPCA",
+        "definicion": "Índice de precios de consumo armonizado: método común que permite comparar la inflación entre los países de la zona euro. En Francia se denomina IPCH."
+      },
+      {
+        "sigla": "OAT",
+        "definicion": "Obligation assimilable du Trésor: título de deuda del Estado francés. Su rentabilidad a 10 años es la referencia del coste de financiación de Francia, equivalente al bono español a 10 años."
+      },
+      {
+        "sigla": "PLF",
+        "definicion": "Projet de loi de finances: proyecto de ley de presupuestos del Estado francés, equivalente a los Presupuestos Generales del Estado. Se presenta cada otoño y se vota antes del 31 de diciembre."
+      },
+      {
+        "sigla": "PMI",
+        "definicion": "Índice de encuesta a directores de compras. Por encima de 50, la actividad crece; por debajo, retrocede."
+      },
+      {
+        "sigla": "SMIC",
+        "definicion": "Salaire minimum interprofessionnel de croissance: salario mínimo francés, equivalente al SMI español."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "En septiembre, la inflación llegó al 3,0 % en Francia y al 4,9 % en España, y la OAT francesa tocó el jueves el 4,96 %, su nivel más alto desde 2002.\n\nLee la edición completa, con los gráficos y el dossier íntegro: https://bulletin.rilamax.com\n\nLa energía marcó la semana a ambos lados de los Pirineos. En Francia cuesta un 21,2 % más que hace un año, y el G7 decidió liberar hasta 100 millones de barriles. Los mercados reaccionaron sobre todo a los presupuestos: Francia fija un déficit del 5,0 % para 2027 y su OAT a 10 años rinde un 4,87 %, frente al 4,17 % del bono español. En España, las elecciones se han convocado para el 29 de noviembre tras la caída de los decretos de vivienda.\n\nA retener:\n1) La inflación llega al 3,0 % en Francia y al 4,9 % en España, empujada por la energía.\n2) La OAT tocó el 4,96 % el jueves, mientras el bono español cotiza al 4,17 %.\n3) Francia importa el 39 % de su energía y España el 68 %.\n\nEl dossier: lo que Francia saca de sus campos y España deja escapar. Los dos países exportan electricidad, pero siguen dependiendo del exterior para los carburantes y el calor. Francia grava el E85, un carburante a base de bioetanol, con 11,8 céntimos por litro, frente a 67,5 de la gasolina SP95-E10. El resultado: 0,90 € el litro los días 22 y 23 de septiembre frente a 2,15 €, unos 1,17 € a igual distancia una vez corregido el sobreconsumo del 30 % (cálculo de Rilamax). España produce unos 500 millones de litros de bioetanol al año y exporta más de la mitad, sobre todo a Francia y Alemania, pero lo grava como la gasolina, a 47,3 céntimos. Allí había cinco gasolineras con E85 en 2023, frente a 4.131 en Francia. La misma distancia se ve en el biometano: 803 plantas en Francia y 21 en España, pese a tener la mayor cabaña porcina de la Unión Europea. Las objeciones son serias: recaudación perdida, tierras movilizadas, ayudas duraderas y una cuota todavía baja del gas (3,9 % en Francia).\n\nLee la edición completa, con los gráficos y el dossier íntegro: https://bulletin.rilamax.com\n\n¿Debe una fiscalidad diferenciada para los carburantes renovables decidirse por razones de política energética o por cálculo presupuestario?",
+      "post": "En los surtidores franceses, el litro de E85 costaba 0,90 € los días 22 y 23 de septiembre, frente a 2,15 € de la gasolina SP95-E10.\nLee la edición completa del Bulletin Rilamax: https://bulletin.rilamax.com\nEspaña produce unos 500 millones de litros de bioetanol al año y exporta más de la mitad, sobre todo a Francia y Alemania. En su mercado, ese bioetanol tributa como la gasolina, a 47,3 céntimos por litro, frente a 11,8 céntimos del E85 en Francia. España importa el 68 % de su energía, Francia el 39 %. ¿Es una cuestión de fiscalidad más que de recursos agrarios?\n#Energía #FranciaEspaña #Bioetanol"
+    },
+    "minutos": 26
+  }
+}
