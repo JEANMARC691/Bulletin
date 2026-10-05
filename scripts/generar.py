@@ -223,7 +223,20 @@ def main():
     tema = tema_manual or tema
     sistema = (ROOT / "editorial" / "lineas_editoriales.md").read_text(encoding="utf-8").replace("{SITE_URL}", SITE_URL)
 
-    recientes = "; ".join(h["titulo_es"] for h in historial[-8:] if h["fecha"] != hoy.isoformat()) or "ninguno todavía"
+    recientes = "; ".join(h["titulo_es"] for h in historial[-8:] if h["fecha"] != hoy.isoformat())
+    ya_publicado = []
+    for ruta_ed in sorted(DATA.glob("edicion-*.json"))[-3:]:
+        if ruta_ed.stem.endswith(hoy.isoformat()):
+            continue
+        try:
+            prev = json.loads(ruta_ed.read_text(encoding="utf-8")).get("es", {})
+        except Exception:  # noqa: BLE001
+            continue
+        lineas = [f"Edición del {ruta_ed.stem.replace('edicion-', '')}:"]
+        lineas += ["- Noticia: " + n.get("titulo", "") for n in (prev.get("francia", []) + prev.get("espana", []))]
+        lineas += ["- Cifra: " + c.get("valor", "") + " — " + c.get("texto", "") for c in prev.get("cifras", [])]
+        ya_publicado.append("\n".join(lineas))
+    ya_publicado = "\n\n".join(ya_publicado[-2:]) or "Ninguna edición anterior." or "ninguno todavía"
     instruccion_tema = (f"Tema del dossier IMPUESTO por el editor: «{tema}». Desarróllalo aunque no sea la noticia principal."
                         if tema else "Elige tú el tema del dossier según la actualidad de la semana.")
 
@@ -268,6 +281,8 @@ def main():
         f"Prepara la edición N.º {numero} del boletín en FRANCÉS (edición francesa, público francés).\n"
         f"{instruccion_tema}\n{extra}"
         f"Temas de dossiers recientes, que no debes repetir salvo novedad importante: {recientes}.\n"
+        "YA PUBLICADO en las ediciones anteriores (no repitas estas noticias, enfoques ni cifras salvo novedad importante; "
+        "busca temas nuevos, en especial fiscales, regulatorios y empresariales):\n" + ya_publicado + "\n"
         "Investiga primero con la búsqueda web y después devuelve únicamente el JSON entre <json> y </json>.\n"
         "Durante la investigación NO escribas comentarios, planes ni resúmenes intermedios entre búsquedas: "
         "reserva toda la redacción para el JSON final."
