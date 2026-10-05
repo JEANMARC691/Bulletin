@@ -42,6 +42,7 @@ LABELS = {
         "todas": "Toutes les éditions", "ultima": "Dernière édition",
         "glosario": "Lexique", "glosario_t": "Les sigles de cette édition",
         "tip": "Survolez ou touchez un segment pour afficher le détail.",
+        "contexto": "Contexte",
         "firma": "— Jean Marc, RILAMAX 2025",
         "cta": "Le Bulletin Rilamax paraît chaque samedi : l'essentiel de l'économie, de la finance et de la politique entre la France et l'Espagne, avec notre lecture.",
         "cta_btn": "S'abonner sur LinkedIn",
@@ -60,6 +61,7 @@ LABELS = {
         "todas": "Todas las ediciones", "ultima": "Última edición",
         "glosario": "Glosario", "glosario_t": "Las siglas de esta edición",
         "tip": "Pase el cursor o toque un segmento para ver el detalle.",
+        "contexto": "Contexto",
         "firma": "— Jean Marc, RILAMAX 2025",
         "cta": "El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.",
         "cta_btn": "Suscribirse en LinkedIn",
@@ -282,6 +284,7 @@ def main():
         "Reglas: traduce con fidelidad hechos, cifras, gráficos y fuentes (mismas URLs), con buena prosa española, no una traducción literal. "
         "Adapta los campos «lectura», «puntos_clave», «lectura» del dossier y los textos de LinkedIn al lector español "
         "(empresa o inversor español que mira hacia Francia). No añadas hechos nuevos. "
+        "Traduce también los campos «contexto» de las noticias y «comparacion» de las cifras (en ellos, «France :» pasa a «Francia:» y «Espagne :» a «España:»). "
         "Adapta también las aposiciones explicativas y el «glosario» al lector español: explica con más detalle las siglas e instituciones francesas "
         "y basta una mención breve para las españolas más conocidas. "
         "Usa el formato numérico español (punto para miles, coma para decimales).\n"

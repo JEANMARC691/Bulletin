@@ -69,6 +69,7 @@
   <div>
     <span class="tag {{ pais }}">{{ n.rubrica }}</span>
     <h3>{{ n.titulo }}</h3>
+    {% if n.contexto %}<div class="ctx"><span class="ctx-l">{{ l.contexto }}</span><p>{{ n.contexto }}</p></div>{% endif %}
     <p class="sum">{{ n.resumen }}</p>
     {{ fuentes(n.fuentes, l) }}
   </div>
@@ -120,7 +121,7 @@
   <section id="{{ code }}-cifras">
     <h2>{{ l.cifras_t }}</h2>
     <div class="figs">
-      {% for c in e.cifras %}<div class="fig {{ c.pais }}"><strong>{{ c.valor }}</strong><span>{{ c.texto }}</span><small>{{ c.fuente }}</small></div>{% endfor %}
+      {% for c in e.cifras %}<div class="fig {{ c.pais }}"><strong>{{ c.valor }}</strong><span>{{ c.texto }}</span>{% if c.comparacion %}<em class="cmp-o {{ 'es' if c.pais == 'fr' else 'fr' }}">{{ c.comparacion }}</em>{% endif %}<small>{{ c.fuente }}</small></div>{% endfor %}
     </div>
   </section>
 
