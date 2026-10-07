@@ -9,7 +9,7 @@ on:
       modo:
         description: "completa = rehacer toda la edición · solo_dossier = rehacer solo el dossier"
         type: choice
-        options: [completa, solo_dossier]
+        options: [completa, solo_dossier, solo_maquetar]
         default: completa
       tema:
         description: "Tema del dossier (opcional)"
