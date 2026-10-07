@@ -24,8 +24,11 @@ def enviar(asunto, cuerpo_html, cuerpo_txt, adjuntos=()):
     for ruta in adjuntos:
         ruta = pathlib.Path(ruta)
         if ruta.exists():
-            sub = "html" if ruta.suffix == ".html" else "plain"
-            msg.add_attachment(ruta.read_bytes(), maintype="text", subtype=sub, filename=ruta.name)
+            if ruta.suffix == ".json":
+                msg.add_attachment(ruta.read_bytes(), maintype="application", subtype="json", filename=ruta.name)
+            else:
+                sub = "html" if ruta.suffix == ".html" else "plain"
+                msg.add_attachment(ruta.read_bytes(), maintype="text", subtype=sub, filename=ruta.name)
     with smtplib.SMTP("smtp-relay.brevo.com", 587, timeout=60) as s:
         s.starttls()
         s.login(os.environ["BREVO_SMTP_LOGIN"], os.environ["BREVO_SMTP_KEY"])
@@ -64,14 +67,16 @@ def revision():
 <li><b>Modo</b>: «solo_dossier» para cambiar solo el dossier (se conservan noticias y cifras) o «completa» para rehacerlo todo.</li>
 <li><b>Tema</b>: el tema del dossier que quieres. <b>Instrucciones</b>: cualquier indicación libre.</li>
 <li>Pulsa el botón verde <b>Run workflow</b>. En unos minutos recibirás la nueva versión; la anterior se descarta sola.</li>
-</ol></div>
+</ol>
+<p style="margin:10px 0 0;font-size:14px;line-height:1.5"><b>Cambios puntuales sin gastar crédito:</b> envía el adjunto <i>edicion-{r['fecha']}.json</i> a Claude en el chat del proyecto con tus cambios. Sube a la carpeta <b>data</b> el archivo <i>edicion_editada.json</i> que te devuelva y lanza <b>Run workflow</b> con el modo <b>solo_maquetar</b>.</p></div>
 {bloque('LinkedIn — Français', li['fr'])}
 {bloque('LinkedIn — Español', li['es'])}
 <p style="margin-top:28px;font-size:12px;color:#5A6478">Modelo: {html.escape(r['modelo'])} · Búsquedas web: {uso['busquedas']} · Tokens: {uso['input']:,} de entrada, {uso['output']:,} de salida.</p>
 </div>"""
     txt = (f"Bulletin Rilamax N.º {r['numero']} listo para revisar.\nAprobar: {pr}\n\n"
            f"LinkedIn FR:\n{li['fr']}\n\nLinkedIn ES:\n{li['es']}\n")
-    adj = [OUT / f"boletin-rilamax-{r['fecha']}.html", OUT / "linkedin_fr.txt", OUT / "linkedin_es.txt"]
+    adj = [OUT / f"boletin-rilamax-{r['fecha']}.html", OUT / "linkedin_fr.txt", OUT / "linkedin_es.txt",
+           ROOT / "data" / f"edicion-{r['fecha']}.json"]
     enviar(asunto, cuerpo, txt, adj)
 
 

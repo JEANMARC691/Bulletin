@@ -221,6 +221,19 @@ def main():
     instrucciones = (os.environ.get("INSTRUCCIONES") or "").strip()
     usa_tema_txt = bool(tema) and not tema_manual
     tema = tema_manual or tema
+    editada_ruta = DATA / "edicion_editada.json"
+    editada = None
+    if modo == "solo_maquetar":
+        if not editada_ruta.exists():
+            raise RuntimeError("Modo «solo_maquetar»: no se encuentra data/edicion_editada.json. Súbelo a la carpeta data antes de lanzar el proceso.")
+        editada = json.loads(editada_ruta.read_text(encoding="utf-8"))
+        m = editada.get("meta") or {}
+        if m.get("fecha"):
+            hoy = datetime.date.fromisoformat(m["fecha"])
+            lunes = hoy - datetime.timedelta(days=hoy.weekday())
+            semana = hoy.isocalendar()[1]
+        previa = next((h for h in historial if h["fecha"] == hoy.isoformat()), None)
+        numero = m.get("numero") or (previa["numero"] if previa else len(historial) + 1)
     sistema = (ROOT / "editorial" / "lineas_editoriales.md").read_text(encoding="utf-8").replace("{SITE_URL}", SITE_URL)
 
     recientes = "; ".join(h["titulo_es"] for h in historial[-8:] if h["fecha"] != hoy.isoformat())
@@ -242,7 +255,7 @@ def main():
 
     extra = f"Instrucciones adicionales del editor (prioritarias): {instrucciones}\n" if instrucciones else ""
     fijo_ruta = DATA / "dossier_fijo.json"
-    fijo = json.loads(fijo_ruta.read_text(encoding="utf-8")) if fijo_ruta.exists() and modo != "solo_dossier" else None
+    fijo = json.loads(fijo_ruta.read_text(encoding="utf-8")) if fijo_ruta.exists() and modo not in ("solo_dossier", "solo_maquetar") else None
     if fijo:
         log("Se usa el dossier redactado y validado por el editor (data/dossier_fijo.json).")
         usa_tema_txt = bool(leer_tema()[0])
@@ -274,6 +287,9 @@ def main():
             if nuevo.get(k):
                 base_fr[k] = nuevo[k]
         ed_fr = validar(base_fr, "fr")
+    elif modo == "solo_maquetar":
+        log("Modo «solo_maquetar»: se rehacen las páginas con el texto editado, sin llamar a Claude.")
+        ed_fr = validar(editada["fr"], "fr")
     else:
         ed_fr = None
     user_fr = (
@@ -309,10 +325,13 @@ def main():
         + ("\n\nEl dossier en español ya está redactado por el editor: en tu JSON pon \"dossier\": null. "
            "Dossier en español, para que el resto sea coherente: " + json.dumps(fijo["es"], ensure_ascii=False) if fijo else "")
     )
-    bruto_es = obtener_edicion(sistema, user_es, False)
-    if fijo:
-        bruto_es["dossier"] = fijo["es"]
-    ed_es = validar(bruto_es, "es")
+    if modo == "solo_maquetar":
+        ed_es = validar(editada["es"], "es")
+    else:
+        bruto_es = obtener_edicion(sistema, user_es, False)
+        if fijo:
+            bruto_es["dossier"] = fijo["es"]
+        ed_es = validar(bruto_es, "es")
     log("Edición española lista.")
 
     fecha = hoy.isoformat()
@@ -339,9 +358,14 @@ def main():
     (SITE / "archivo" / "index.html").write_text(html_archivo, encoding="utf-8")
     (SITE / "CNAME").write_text(SITE_URL.split("//", 1)[1] + "\n", encoding="utf-8")
     (DATA / "historial.json").write_text(json.dumps(historial, ensure_ascii=False, indent=2), encoding="utf-8")
-    (DATA / f"edicion-{fecha}.json").write_text(json.dumps({"fr": ed_fr, "es": ed_es}, ensure_ascii=False, indent=2), encoding="utf-8")
-    if fijo:
+    (DATA / f"edicion-{fecha}.json").write_text(json.dumps(
+        {"meta": {"numero": numero, "fecha": fecha, "semana": semana}, "fr": ed_fr, "es": ed_es},
+        ensure_ascii=False, indent=2), encoding="utf-8")
+    if fijo or (modo == "solo_maquetar" and fijo_ruta.exists()):
         fijo_ruta.unlink()
+    if modo == "solo_maquetar":
+        editada_ruta.unlink()
+        usa_tema_txt = bool(leer_tema()[0])
     if usa_tema_txt:
         (ROOT / "tema.txt").write_text("\n".join(cabecera_tema) + "\n", encoding="utf-8")
 
