@@ -6,5 +6,13 @@
     "ruta": "/ediciones/2026-10-03/",
     "titulo_fr": "Logement en Espagne : un déficit d'offre que les décrets ne traitaient pas, des zones tendues à l'épreuve des chiffres",
     "titulo_es": "Vivienda en España: un déficit de oferta que los decretos no abordaban y unas zonas tensionadas puestas a prueba por los datos"
+  },
+  {
+    "numero": 2,
+    "fecha": "2026-10-10",
+    "semana": 41,
+    "ruta": "/ediciones/2026-10-10/",
+    "titulo_fr": "Énergie : ce que la France tire de ses champs et que l'Espagne laisse filer",
+    "titulo_es": "Energía: lo que Francia saca de sus campos y España deja escapar"
   }
 ]
