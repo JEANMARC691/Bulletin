@@ -14,5 +14,13 @@
     "ruta": "/ediciones/2026-10-10/",
     "titulo_fr": "Énergie : ce que la France tire de ses champs et que l'Espagne laisse filer",
     "titulo_es": "Energía: lo que Francia saca de sus campos y España deja escapar"
+  },
+  {
+    "numero": 3,
+    "fecha": "2026-10-17",
+    "semana": 42,
+    "ruta": "/ediciones/2026-10-17/",
+    "titulo_fr": "Inflation : l'Espagne croît plus vite que la France, mais renchérit plus vite",
+    "titulo_es": "Inflación: España crece más deprisa que Francia, pero se encarece más deprisa"
   }
 ]
