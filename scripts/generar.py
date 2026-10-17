@@ -114,10 +114,28 @@ def llamar_claude(system, user, buscar):
 
 
 def extraer_json(texto):
-    m = re.search(r"<json>\s*(.*?)\s*</json>", texto, re.S)
-    cand = m.group(1) if m else texto[texto.find("{"): texto.rfind("}") + 1]
-    cand = re.sub(r"^```(?:json)?\s*|\s*```$", "", cand.strip())
-    return json.loads(cand)
+    bloques = re.findall(r"<json>\s*(.*?)\s*(?:</json>|$)", texto, re.S)
+    if not bloques:
+        bloques = [texto[texto.find("{"): texto.rfind("}") + 1]]
+    limpiar = lambda c: re.sub(r"^```(?:json)?\s*|\s*```$", "", c.strip())
+    bloques = [limpiar(b) for b in bloques if b.strip()]
+    # 1) un único bloque válido
+    if len(bloques) == 1:
+        return json.loads(bloques[0])
+    # 2) varios bloques: se fusionan los que sean JSON válidos (p. ej. si Claude reabrió <json> tras un corte)
+    fusion, ok = {}, False
+    for b in bloques:
+        try:
+            d = json.loads(b)
+        except Exception:  # noqa: BLE001
+            continue
+        if isinstance(d, dict):
+            fusion.update({k: v for k, v in d.items() if v})
+            ok = True
+    if ok:
+        return fusion
+    # 3) bloques que son trozos de un mismo JSON
+    return json.loads("".join(bloques))
 
 
 def obtener_edicion(system, user, buscar):
@@ -136,9 +154,40 @@ def obtener_edicion(system, user, buscar):
         return extraer_json(arreglo)
 
 
+OBLIGATORIOS = ("editorial", "cifras", "dossier", "francia", "espana", "agenda", "linkedin")
+
+
+def completar(ed, system, contexto, buscar):
+    """Si a la edición le faltan apartados, se piden solo esos a Claude y se añaden (sin rehacer el resto)."""
+    for intento in range(2):
+        faltan = [k for k in OBLIGATORIOS if not ed.get(k)]
+        if not faltan:
+            return ed
+        log(f"Faltan apartados {faltan}; se piden solo esos (intento {intento + 1}).")
+        resto = {k: v for k, v in ed.items() if k not in ("minutos",)}
+        if resto.get("dossier"):
+            resto["dossier"] = {k: resto["dossier"].get(k) for k in ("titulo", "intro", "puntos_clave") if resto["dossier"].get(k)}
+        peticion = (
+            contexto + "\n\nYa tienes preparada esta parte de la edición (JSON, dossier resumido):\n"
+            + json.dumps(resto, ensure_ascii=False)
+            + f"\n\nFaltan los apartados {faltan}. Redáctalos ahora siguiendo exactamente el esquema y las reglas editoriales, "
+            "coherentes con lo anterior y sin repetir sus noticias. Devuelve únicamente un JSON que contenga SOLO esas claves, "
+            "entre <json> y </json>. No escribas comentarios entre búsquedas."
+        )
+        try:
+            nuevo = obtener_edicion(system, peticion, buscar)
+        except Exception as err:  # noqa: BLE001
+            log(f"No se pudieron completar los apartados ({err}).")
+            continue
+        for k in faltan:
+            if nuevo.get(k):
+                ed[k] = nuevo[k]
+    return ed
+
+
 # ---------------------------------------------------------------- Validación
 def validar(ed, idioma):
-    faltan = [k for k in ("editorial", "cifras", "dossier", "francia", "espana", "agenda", "linkedin") if not ed.get(k)]
+    faltan = [k for k in OBLIGATORIOS if not ed.get(k)]
     if faltan:
         raise ValueError(f"Edición {idioma}: faltan apartados {faltan}")
     d = ed["dossier"]
@@ -286,7 +335,7 @@ def main():
         for k in ("editorial", "dossier", "linkedin"):
             if nuevo.get(k):
                 base_fr[k] = nuevo[k]
-        ed_fr = validar(base_fr, "fr")
+        ed_fr = validar(completar(base_fr, sistema, user_dossier, True), "fr")
     elif modo == "solo_maquetar":
         log("Modo «solo_maquetar»: se rehacen las páginas con el texto editado, sin llamar a Claude.")
         ed_fr = validar(editada["fr"], "fr")
@@ -307,6 +356,7 @@ def main():
         bruto = obtener_edicion(sistema, user_fr, True)
         if fijo:
             bruto["dossier"] = fijo["fr"]
+        bruto = completar(bruto, sistema, user_fr, True)
         ed_fr = validar(bruto, "fr")
     log("Edición francesa lista.")
 
@@ -331,6 +381,7 @@ def main():
         bruto_es = obtener_edicion(sistema, user_es, False)
         if fijo:
             bruto_es["dossier"] = fijo["es"]
+        bruto_es = completar(bruto_es, sistema, user_es, False)
         ed_es = validar(bruto_es, "es")
     log("Edición española lista.")
 
