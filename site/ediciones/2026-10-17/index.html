@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Le Bulletin Rilamax — N° 3</title>
+<meta name="description" content="Inflation : l&#39;Espagne croît plus vite que la France, mais renchérit plus vite">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Le Bulletin Rilamax">
+<meta property="og:title" content="Le Bulletin Rilamax N° 3 · Inflation : l&#39;Espagne croît plus vite que la France, mais renchérit plus vite">
+<meta property="og:description" content="Septembre a livré deux séries de chiffres qui ne vont pas ensemble : une inflation harmonisée de 5,0 % en Espagne et de 3,4 % en France, pour une croissance de 2,6 % d&#39;un côté et d&#39;environ 0,4 % de l&#39;autre. Le Banco de España avertit que l&#39;écart de prix avec la zone euro peut éroder la compétitivité du pays. Pour un investisseur, il s&#39;agit de mesurer lequel des deux déséquilibres coûte le plus.">
+<meta property="og:image" content="https://bulletin.rilamax.com/portada.png">
+<meta property="og:url" content="https://bulletin.rilamax.com/ediciones/2026-10-17/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --paper:#F5F7FA; --surface:#FFFFFF; --ink:#16233D; --muted:#5A6478; --rule:#D9DEE7;
+  --fr:#2F4FA8; --fr-soft:#E7ECF8; --es:#B5751A; --es-soft:#F8EEDD;
+  --note:#1F5C55; --note-soft:#E4F0EE;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+    --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+    --note:#7FCBC0; --note-soft:#173532;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+  --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+  --note:#7FCBC0; --note-soft:#173532;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.55}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--fr);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.25rem}
+.serif{font-family:"Literata",Georgia,serif}
+
+/* Masthead */
+.mast{padding:2.5rem 0 1.75rem}
+.bridge{display:flex;align-items:center;gap:.75rem;color:var(--muted);font-size:.9rem}
+.bridge .line{flex:1;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--fr) 0 50%,var(--es) 50% 100%)}
+h1{font-family:"Literata",Georgia,serif;font-weight:700;font-size:clamp(2.2rem,6vw,3.6rem);line-height:1.05;letter-spacing:-.02em;margin:1rem 0 .5rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;color:var(--muted);font-size:.95rem}
+
+/* Sommaire */
+.toc{position:sticky;top:0;z-index:5;background:var(--paper);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.toc ul{list-style:none;margin:0;padding:.6rem 0;display:flex;gap:1.25rem;overflow-x:auto;white-space:nowrap;font-size:.92rem}
+.toc a{text-decoration:none;color:var(--muted)}
+.toc a:hover{color:var(--ink)}
+
+section{padding:2.75rem 0;border-bottom:1px solid var(--rule)}
+h2{font-family:"Literata",Georgia,serif;font-size:1.75rem;line-height:1.2;margin:0 0 1.25rem}
+.lede{color:var(--muted);margin:-.75rem 0 1.5rem;max-width:62ch}
+
+/* Edito */
+.edito{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:780px){.edito{grid-template-columns:1.7fr 1fr}}
+.edito .body p{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;margin:0 0 1rem;max-width:62ch}
+.edito .sign{font-size:.92rem;color:var(--muted)}
+.keys{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:1.4rem 1.5rem;align-self:start}
+.keys h3{margin:0 0 .8rem;font-size:1rem}
+.keys ol{margin:0;padding-left:1.2rem}
+.keys li{margin:0 0 .6rem}
+
+/* Chiffres */
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.fig{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--c);border-radius:4px 4px 10px 10px;padding:1.1rem 1.25rem}
+.fig.fr{--c:var(--fr)} .fig.es{--c:var(--es)}
+.fig strong{display:block;font-family:"Literata",Georgia,serif;font-size:2.2rem;line-height:1.05;color:var(--c)}
+.fig span{display:block;margin-top:.5rem;font-size:.93rem}
+.fig small{display:block;margin-top:.4rem;color:var(--muted);font-size:.8rem}
+
+/* Dossier */
+.dossier .intro{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;max-width:66ch;margin:0 0 1.75rem}
+.cols{display:grid;grid-template-columns:1fr;gap:1rem;margin-bottom:1.5rem}
+@media(min-width:780px){.cols{grid-template-columns:repeat(3,1fr)}}
+.col{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1.2rem 1.3rem}
+.col h3{margin:0 0 .6rem;font-size:1.02rem}
+.col ul{margin:0;padding-left:1.1rem}
+.col li{margin:0 0 .55rem;font-size:.95rem}
+
+/* Items */
+.country-head{display:flex;align-items:center;gap:.75rem;margin:0 0 .5rem}
+.country-head .bar{width:28px;height:6px;border-radius:3px;background:var(--c)}
+.country-head.fr{--c:var(--fr)} .country-head.es{--c:var(--es)}
+.item{display:grid;grid-template-columns:1fr;gap:1rem 2.5rem;padding:1.75rem 0;border-top:1px solid var(--rule)}
+.item:first-of-type{border-top:0}
+@media(min-width:780px){.item{grid-template-columns:1.5fr 1fr}}
+.tag{display:inline-flex;align-items:center;gap:.5rem;font-size:.86rem;font-weight:600;padding:.2rem .65rem;border-radius:6px}
+.tag.fr{background:var(--fr-soft);color:var(--fr)}
+.tag.es{background:var(--es-soft);color:var(--es)}
+.item h3{font-family:"Literata",Georgia,serif;font-size:1.35rem;line-height:1.25;margin:.7rem 0 .55rem;max-width:32ch}
+.item .sum{margin:0 0 .8rem;max-width:62ch}
+.src{font-size:.86rem;color:var(--muted)}
+.src a{color:var(--muted);text-underline-offset:3px}
+.lecture{align-self:start;background:var(--note-soft);border-left:3px solid var(--note);border-radius:0 10px 10px 0;padding:1.1rem 1.25rem}
+.lecture h4{margin:0 0 .45rem;font-size:.93rem;font-weight:600;color:var(--note)}
+.lecture p{margin:0;font-family:"Literata",Georgia,serif;font-size:1rem;line-height:1.65}
+
+/* Agenda */
+.agenda{list-style:none;margin:0;padding:0;display:grid;gap:.75rem}
+.agenda li{display:grid;grid-template-columns:8.5rem 1fr;gap:1rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1rem 1.2rem}
+@media(max-width:560px){.agenda li{grid-template-columns:1fr;gap:.25rem}}
+.agenda .when{font-weight:600}
+.agenda .what{max-width:62ch}
+
+/* CTA + footer */
+.cta{display:grid;grid-template-columns:1fr;gap:1.25rem;align-items:center}
+@media(min-width:780px){.cta{grid-template-columns:1.6fr 1fr}}
+.cta p{font-family:"Literata",Georgia,serif;font-size:1.1rem;margin:0;max-width:56ch}
+.btn{display:inline-block;text-align:center;text-decoration:none;font-weight:600;background:var(--ink);color:var(--paper);padding:.85rem 1.3rem;border-radius:10px}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.86rem}
+footer p{max-width:72ch;margin:0 0 .6rem}
+
+
+.titlerow{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.langs{display:inline-flex;border:1px solid var(--rule);border-radius:999px;padding:3px;background:var(--surface);margin-bottom:.6rem}
+.langs button{font:inherit;font-size:.88rem;font-weight:600;border:0;background:transparent;color:var(--muted);padding:.35rem .85rem;border-radius:999px;cursor:pointer}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--fr);outline-offset:2px}
+.edition[hidden]{display:none}
+
+.dfigs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:12px;overflow:hidden;margin:0 0 2.25rem}
+.dfigs div{background:var(--surface);padding:1.1rem 1.25rem}
+.dfigs strong{display:block;font-family:"Literata",Georgia,serif;font-size:1.9rem;line-height:1.1;color:var(--es)}
+.dfigs span{display:block;margin-top:.35rem;font-size:.9rem;color:var(--muted)}
+.longform{max-width:none}
+.longform>h3,.longform>p,.longform>.debate{max-width:68ch}
+.longform>figure{max-width:860px}
+.longform h3{font-family:"Literata",Georgia,serif;font-size:1.3rem;line-height:1.3;margin:2.25rem 0 .75rem}
+.longform h3:first-child{margin-top:0}
+.longform p{font-family:"Literata",Georgia,serif;font-size:1.06rem;line-height:1.78;margin:0 0 1.1rem}
+.chart{margin:1.5rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.bar-row{display:grid;grid-template-columns:9.5rem 1fr 5.5rem;align-items:center;gap:.75rem;margin:.45rem 0;font-size:.92rem}
+.bar-row .bar{display:block;height:14px;border-radius:7px;background:#D9DEE7;background:var(--rule);overflow:hidden}
+.bar-row .fill{display:block;height:14px;width:0;border-radius:7px;background:#B5751A;background:var(--es)}
+.bar-row .fill.c-muted{background:#5A6478;background:var(--muted)}
+.bar-row .fill.c-fr{background:#2F4FA8;background:var(--fr)}
+.bar-row .val{font-weight:600;text-align:right}
+.chart figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted)}
+@media(max-width:560px){.bar-row{grid-template-columns:1fr auto}.bar-row .bar{grid-column:1/-1;order:3}}
+.debate{margin:1.5rem 0;padding:1rem 1.25rem;border:1px dashed var(--rule);border-radius:10px}
+.debate h4,.watch h4{margin:0 0 .4rem;font-size:.95rem}
+.debate p,.watch p{margin:0;font-size:.97rem;font-family:"Public Sans",system-ui,sans-serif;line-height:1.6}
+.dossier .lecture{margin-top:2rem;max-width:none}
+.dossier .lecture p{font-size:1.06rem}
+.watch{margin:1.25rem 0;padding:1rem 1.25rem;background:var(--es-soft);border-radius:10px}
+.dossier .src{margin-top:1rem;line-height:1.7}
+
+.archive ul{list-style:none;margin:0;padding:0;display:grid;gap:.5rem}
+.archive a{text-underline-offset:3px}
+.archive li span{color:var(--muted);font-size:.9rem;margin-left:.5rem}
+.bar-row .fill.w1{width:1%}.bar-row .fill.w2{width:2%}.bar-row .fill.w3{width:3%}.bar-row .fill.w4{width:4%}.bar-row .fill.w5{width:5%}.bar-row .fill.w6{width:6%}.bar-row .fill.w7{width:7%}.bar-row .fill.w8{width:8%}.bar-row .fill.w9{width:9%}.bar-row .fill.w10{width:10%}.bar-row .fill.w11{width:11%}.bar-row .fill.w12{width:12%}.bar-row .fill.w13{width:13%}.bar-row .fill.w14{width:14%}.bar-row .fill.w15{width:15%}.bar-row .fill.w16{width:16%}.bar-row .fill.w17{width:17%}.bar-row .fill.w18{width:18%}.bar-row .fill.w19{width:19%}.bar-row .fill.w20{width:20%}.bar-row .fill.w21{width:21%}.bar-row .fill.w22{width:22%}.bar-row .fill.w23{width:23%}.bar-row .fill.w24{width:24%}.bar-row .fill.w25{width:25%}.bar-row .fill.w26{width:26%}.bar-row .fill.w27{width:27%}.bar-row .fill.w28{width:28%}.bar-row .fill.w29{width:29%}.bar-row .fill.w30{width:30%}.bar-row .fill.w31{width:31%}.bar-row .fill.w32{width:32%}.bar-row .fill.w33{width:33%}.bar-row .fill.w34{width:34%}.bar-row .fill.w35{width:35%}.bar-row .fill.w36{width:36%}.bar-row .fill.w37{width:37%}.bar-row .fill.w38{width:38%}.bar-row .fill.w39{width:39%}.bar-row .fill.w40{width:40%}.bar-row .fill.w41{width:41%}.bar-row .fill.w42{width:42%}.bar-row .fill.w43{width:43%}.bar-row .fill.w44{width:44%}.bar-row .fill.w45{width:45%}.bar-row .fill.w46{width:46%}.bar-row .fill.w47{width:47%}.bar-row .fill.w48{width:48%}.bar-row .fill.w49{width:49%}.bar-row .fill.w50{width:50%}.bar-row .fill.w51{width:51%}.bar-row .fill.w52{width:52%}.bar-row .fill.w53{width:53%}.bar-row .fill.w54{width:54%}.bar-row .fill.w55{width:55%}.bar-row .fill.w56{width:56%}.bar-row .fill.w57{width:57%}.bar-row .fill.w58{width:58%}.bar-row .fill.w59{width:59%}.bar-row .fill.w60{width:60%}.bar-row .fill.w61{width:61%}.bar-row .fill.w62{width:62%}.bar-row .fill.w63{width:63%}.bar-row .fill.w64{width:64%}.bar-row .fill.w65{width:65%}.bar-row .fill.w66{width:66%}.bar-row .fill.w67{width:67%}.bar-row .fill.w68{width:68%}.bar-row .fill.w69{width:69%}.bar-row .fill.w70{width:70%}.bar-row .fill.w71{width:71%}.bar-row .fill.w72{width:72%}.bar-row .fill.w73{width:73%}.bar-row .fill.w74{width:74%}.bar-row .fill.w75{width:75%}.bar-row .fill.w76{width:76%}.bar-row .fill.w77{width:77%}.bar-row .fill.w78{width:78%}.bar-row .fill.w79{width:79%}.bar-row .fill.w80{width:80%}.bar-row .fill.w81{width:81%}.bar-row .fill.w82{width:82%}.bar-row .fill.w83{width:83%}.bar-row .fill.w84{width:84%}.bar-row .fill.w85{width:85%}.bar-row .fill.w86{width:86%}.bar-row .fill.w87{width:87%}.bar-row .fill.w88{width:88%}.bar-row .fill.w89{width:89%}.bar-row .fill.w90{width:90%}.bar-row .fill.w91{width:91%}.bar-row .fill.w92{width:92%}.bar-row .fill.w93{width:93%}.bar-row .fill.w94{width:94%}.bar-row .fill.w95{width:95%}.bar-row .fill.w96{width:96%}.bar-row .fill.w97{width:97%}.bar-row .fill.w98{width:98%}.bar-row .fill.w99{width:99%}.bar-row .fill.w100{width:100%}
+
+.glossary{margin:0;display:grid;grid-template-columns:1fr;gap:.6rem}
+@media(min-width:780px){.glossary{grid-template-columns:1fr 1fr}}
+.glossary div{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:.9rem 1.1rem}
+.glossary dt{font-weight:600;color:var(--fr);margin:0 0 .2rem}
+.glossary dd{margin:0;font-size:.95rem;line-height:1.55}
+
+.chart-t{margin:0 0 .7rem;font-weight:600;font-size:.95rem}
+.bar-row .fill{transition:width 1.1s cubic-bezier(.2,.7,.2,1)}
+.chart.pre .bar-row .fill,.chart.pre .seg{width:0 !important}
+.mix-row{display:grid;grid-template-columns:6.5rem 1fr;align-items:center;gap:.75rem;margin:.55rem 0;font-size:.92rem}
+.mix-bar{display:flex;height:30px;border-radius:7px;overflow:hidden;background:var(--rule)}
+.seg{display:flex;align-items:center;justify-content:center;height:100%;width:0;color:#fff;font-style:normal;font-size:.75rem;font-weight:600;position:relative;transition:width 1.2s cubic-bezier(.2,.7,.2,1);cursor:default;outline:none}
+.seg i{font-style:normal;white-space:nowrap;overflow:hidden}
+.seg:hover,.seg:focus{filter:brightness(1.12)}
+.mix-legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin-top:.75rem;font-size:.82rem;color:var(--muted)}
+.mix-legend b{display:inline-block;width:.8rem;height:.8rem;border-radius:3px;margin-right:.35rem;vertical-align:-1px}
+.k-nuclear{background:#6C4AB6}.k-fosil{background:#5A6478}.k-eolica{background:#2F8F83}.k-solar{background:#D9A21B}.k-hidro{background:#2F4FA8}.k-biomasa{background:#7A9A3A}.k-otros{background:#A3ADC0}
+.mix .chart.pre .seg{width:0}
+.seg[class*=" w"]{flex:none}
+.seg.w1{width:1%}.seg.w2{width:2%}.seg.w3{width:3%}.seg.w4{width:4%}.seg.w5{width:5%}.seg.w6{width:6%}.seg.w7{width:7%}.seg.w8{width:8%}.seg.w9{width:9%}.seg.w10{width:10%}.seg.w11{width:11%}.seg.w12{width:12%}.seg.w13{width:13%}.seg.w14{width:14%}.seg.w15{width:15%}.seg.w16{width:16%}.seg.w17{width:17%}.seg.w18{width:18%}.seg.w19{width:19%}.seg.w20{width:20%}.seg.w21{width:21%}.seg.w22{width:22%}.seg.w23{width:23%}.seg.w24{width:24%}.seg.w25{width:25%}.seg.w26{width:26%}.seg.w27{width:27%}.seg.w28{width:28%}.seg.w29{width:29%}.seg.w30{width:30%}.seg.w31{width:31%}.seg.w32{width:32%}.seg.w33{width:33%}.seg.w34{width:34%}.seg.w35{width:35%}.seg.w36{width:36%}.seg.w37{width:37%}.seg.w38{width:38%}.seg.w39{width:39%}.seg.w40{width:40%}.seg.w41{width:41%}.seg.w42{width:42%}.seg.w43{width:43%}.seg.w44{width:44%}.seg.w45{width:45%}.seg.w46{width:46%}.seg.w47{width:47%}.seg.w48{width:48%}.seg.w49{width:49%}.seg.w50{width:50%}.seg.w51{width:51%}.seg.w52{width:52%}.seg.w53{width:53%}.seg.w54{width:54%}.seg.w55{width:55%}.seg.w56{width:56%}.seg.w57{width:57%}.seg.w58{width:58%}.seg.w59{width:59%}.seg.w60{width:60%}.seg.w61{width:61%}.seg.w62{width:62%}.seg.w63{width:63%}.seg.w64{width:64%}.seg.w65{width:65%}.seg.w66{width:66%}.seg.w67{width:67%}.seg.w68{width:68%}.seg.w69{width:69%}.seg.w70{width:70%}.seg.w71{width:71%}.seg.w72{width:72%}.seg.w73{width:73%}.seg.w74{width:74%}.seg.w75{width:75%}.seg.w76{width:76%}.seg.w77{width:77%}.seg.w78{width:78%}.seg.w79{width:79%}.seg.w80{width:80%}.seg.w81{width:81%}.seg.w82{width:82%}.seg.w83{width:83%}.seg.w84{width:84%}.seg.w85{width:85%}.seg.w86{width:86%}.seg.w87{width:87%}.seg.w88{width:88%}.seg.w89{width:89%}.seg.w90{width:90%}.seg.w91{width:91%}.seg.w92{width:92%}.seg.w93{width:93%}.seg.w94{width:94%}.seg.w95{width:95%}.seg.w96{width:96%}.seg.w97{width:97%}.seg.w98{width:98%}.seg.w99{width:99%}.seg.w100{width:100%}
+
+.seg{cursor:pointer}
+.seg.on{filter:brightness(1.18);box-shadow:inset 0 0 0 2px rgba(255,255,255,.85)}
+.mix-info{margin:.7rem 0 0;padding:.5rem .75rem;border-radius:8px;background:var(--paper);font-size:.88rem;color:var(--muted);min-height:1.2em}
+.mix-info.act{color:var(--ink);font-weight:600;background:var(--fr-soft)}
+.cite{font-family:"Public Sans",system-ui,sans-serif;font-size:.78rem;color:var(--muted);white-space:normal}
+.cite a{color:var(--muted);text-underline-offset:2px}
+.illus{margin:1.6rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.illus figcaption,.cmp figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted);font-family:"Public Sans",system-ui,sans-serif}
+.cmp{margin:1.75rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;max-width:none}
+.cmp-wrap{overflow-x:auto}
+.cmp table{width:100%;border-collapse:collapse;font-size:.88rem;font-family:"Public Sans",system-ui,sans-serif;min-width:560px}
+.cmp th,.cmp td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.cmp thead th{font-weight:600;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.cmp thead th:nth-child(2){color:var(--fr)}.cmp thead th:nth-child(3){color:var(--es)}
+.cmp tbody th{font-weight:600}
+.cmp td{white-space:nowrap}
+.cmp td.src-cell{white-space:normal}
+.cmp td.src-cell .cite{font-size:.75rem}
+.longform .cmp,.longform .illus{max-width:none}
+
+.mix-info{font-family:"Public Sans",system-ui,sans-serif !important;font-size:.88rem !important;line-height:1.5 !important}
+.cmp td.src-cell{min-width:9rem}
+
+.lecture p+p{margin-top:.8rem}
+
+.ctx{margin:.2rem 0 .9rem;padding:.75rem 1rem;background:var(--paper);border:1px solid var(--rule);border-radius:8px;max-width:62ch}
+.ctx-l{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:.25rem}
+.ctx p{margin:0;font-size:.95rem;line-height:1.6}
+.fig .cmp-o{display:block;margin-top:.45rem;font-style:normal;font-size:.85rem;font-weight:600;padding-top:.4rem;border-top:1px dashed var(--rule)}
+.fig .cmp-o.fr{color:var(--fr)}.fig .cmp-o.es{color:var(--es)}
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="edition" data-lang="fr" lang="fr">
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>France</span><span class="line" aria-hidden="true"></span><span>Espagne</span></div>
+    <div class="titlerow">
+      <h1>Le Bulletin Rilamax</h1>
+      <div class="langs" role="group" aria-label="Langue"><button type="button" data-set="fr" aria-pressed="true">FR</button><button type="button" data-set="es" aria-pressed="false">ES</button></div>
+    </div>
+    <div class="meta"><span>N° 3 · Semaine 42</span><span>Du 12 au 17 octobre 2026</span><span>Lecture : 21 minutes</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sommaire">
+  <div class="wrap"><ul>
+    <li><a href="#fr-edito">L&#39;édito</a></li>
+    <li><a href="#fr-cifras">Les chiffres</a></li>
+    <li><a href="#fr-dossier">Le dossier</a></li>
+    <li><a href="#fr-fr">France</a></li>
+    <li><a href="#fr-es">Espagne</a></li>
+    <li><a href="#fr-agenda">À surveiller</a></li>
+    <li><a href="#fr-glosario">Lexique</a></li>
+    <li><a href="/archivo/?lang=fr">Toutes les éditions</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="fr-edito">
+    <h2>Deux économies, deux façons de payer l&#39;inflation</h2>
+    <div class="edito">
+      <div class="body">
+        <p>Le budget 2027 (projet de loi de finances, ou PLF, le texte qui fixe les recettes et les dépenses de l&#39;État) est entré dans l&#39;hémicycle mardi. La motion de rejet des socialistes a été repoussée par 236 voix contre 149, et le vote sur les recettes est fixé au 20 octobre. Pour un investisseur français qui regarde vers l&#39;Espagne, le contraste est net : les Cortes y sont dissoutes et le budget de 2023 sera prorogé pour 2027.</p><p>Les prix creusent l&#39;écart. Selon Eurostat (l&#39;office statistique de l&#39;Union européenne), l&#39;inflation harmonisée de septembre atteint 5,0 % en Espagne, 3,8 % dans la zone euro et 3,4 % en France. Le Banco de España, la banque centrale espagnole, chiffre à 1,2 point l&#39;avance de l&#39;Espagne sur la zone euro, la plus large depuis août 2022. Le pays croît vite et renchérit vite ; la France stagne avec des prix plus sages. Le dossier détaille ce que cela change.</p><p>La rue a son calendrier dans chaque pays. En France, le mouvement lycéen et étudiant réclame 10 milliards d&#39;euros pendant que l&#39;Assemblée examine un effort budgétaire de 54 milliards. En Espagne, CCOO et UGT, les deux grands syndicats, ont fixé au 11 novembre la première grève générale conjointe depuis 2012, deux jours avant le début de la campagne des élections du 29 novembre.</p><p>Les capitaux, eux, avancent. BPCE, deuxième groupe bancaire français, a pris 7 % de Sabadell, quatrième banque espagnole, tandis que Crédit Agricole détient près de 10 % de Cajamar depuis juin. Ces banques s&#39;installent dans une économie qui croît de 2,6 % cette année, alors que la Banque de France (banque centrale française) attend 0,1 % pour la France au troisième trimestre. Nous y voyons un signal à lire avec les prix.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Les trois points à retenir</h3>
+        <ol><li>Budget 2027 : vote sur les recettes le 20 octobre, vote d&#39;ensemble le 17 novembre.</li><li>Inflation harmonisée de septembre : 5,0 % en Espagne, 3,4 % en France.</li><li>Les banques françaises prennent position en Espagne : BPCE dans Sabadell, Crédit Agricole dans Cajamar.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="fr-cifras">
+    <h2>Les chiffres de la semaine</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>119 307</strong><span>Créations d&#39;entreprises en France en septembre, un record depuis le début de la série de l&#39;Insee en 2000 ; les micro-entrepreneurs (régime simplifié d&#39;entrepreneur individuel) en forment environ les deux tiers.</span><em class="cmp-o es">Espagne : 7 526 sociétés commerciales créées en août (+5,7 % sur un an), selon l&#39;INE (institut statistique espagnol). Le périmètre diffère : l&#39;INE ne compte que les sociétés.</em><small>Insee (Institut national de la statistique), 16 octobre 2026</small></div><div class="fig fr"><strong>+1,57 %</strong><span>Hausse annuelle de l&#39;indice de référence des loyers (IRL) au troisième trimestre, qui plafonne la révision des loyers d&#39;habitation en France ; elle était de 1,15 % au trimestre précédent.</span><em class="cmp-o es">Espagne : +2,54 % pour l&#39;IRAV, l&#39;indice espagnol de référence des loyers du logement, en septembre (INE, 14 octobre).</em><small>Insee, 15 octobre 2026</small></div><div class="fig fr"><strong>0,1 %</strong><span>Croissance du PIB attendue par la Banque de France au troisième trimestre, après 0,0 % au deuxième (enquête du 12 octobre) ; la prévision pour 2026 est de 0,4 %.</span><em class="cmp-o es">Espagne : +0,7 % au deuxième trimestre (INE) et 2,6 % prévus pour 2026 par le Banco de España ; l&#39;estimation du troisième trimestre n&#39;est pas encore publiée.</em><small>Banque de France, 12 octobre 2026</small></div><div class="fig es"><strong>7 526</strong><span>Sociétés commerciales créées en Espagne en août, soit +5,7 % sur un an et le meilleur mois d&#39;août depuis 2007 ; le capital souscrit progresse de 92,8 %.</span><em class="cmp-o fr">France : 26 864 sociétés créées en août (Insee, données corrigées des variations saisonnières, publiées le 18 septembre).</em><small>INE, 13 octobre 2026</small></div><div class="fig es"><strong>−7,0 %</strong><span>Production de la construction en Espagne en août, variation annuelle corrigée des variations saisonnières (−4,2 % en série brute).</span><em class="cmp-o fr">France : la Banque de France estime que la valeur ajoutée de la construction reculerait de 1,2 % au troisième trimestre (enquête du 12 octobre). Les mesures ne sont pas strictement comparables.</em><small>INE, 14 octobre 2026</small></div><div class="fig es"><strong>+2,54 %</strong><span>Variation annuelle en septembre de l&#39;IRAV, l&#39;indice espagnol de référence des loyers du logement publié par l&#39;INE.</span><em class="cmp-o fr">France : IRL de +1,57 % au troisième trimestre (Insee, 15 octobre).</em><small>INE, 14 octobre 2026</small></div>
+    </div>
+  </section>
+
+  
+  <section id="fr-dossier" class="dossier">
+    <h2>Le dossier : Inflation : l&#39;Espagne croît plus vite que la France, mais renchérit plus vite</h2>
+    <p class="intro">Septembre a livré deux séries de chiffres qui ne vont pas ensemble : une inflation harmonisée de 5,0 % en Espagne et de 3,4 % en France, pour une croissance de 2,6 % d&#39;un côté et d&#39;environ 0,4 % de l&#39;autre. Le Banco de España avertit que l&#39;écart de prix avec la zone euro peut éroder la compétitivité du pays. Pour un investisseur, il s&#39;agit de mesurer lequel des deux déséquilibres coûte le plus.</p>
+    <div class="dfigs"><div><strong>1,2 pt</strong><span>Écart d&#39;inflation entre l&#39;Espagne et la zone euro en septembre, le plus large depuis août 2022 (Banco de España)</span></div><div><strong>5,0 % contre 3,4 %</strong><span>Inflation harmonisée de septembre, Espagne contre France (zone euro : 3,8 %)</span></div><div><strong>2,6 %</strong><span>Croissance 2026 prévue pour l&#39;Espagne par le Banco de España ; la Banque de France retient 0,4 % pour la France</span></div><div><strong>−0,6 %</strong><span>Recul du pouvoir d&#39;achat des ménages français par unité de consommation au deuxième trimestre (Insee)</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. L&#39;écart se creuse depuis le printemps</h3>
+        <p>Selon Eurostat, l&#39;inflation harmonisée de la zone euro est montée à 3,8 % en septembre, contre 3,2 % en août, son plus haut niveau depuis septembre 2023. L&#39;Espagne affiche 5,0 %, l&#39;Italie 4,2 %, la France 3,4 % et l&#39;Allemagne 3,3 %. L&#39;énergie tire l&#39;ensemble : elle renchérit de 18,8 % sur un an dans la zone euro d&#39;après l&#39;estimation préliminaire d&#39;Eurostat. L&#39;indice national espagnol de l&#39;INE ressort à 4,9 %, son niveau le plus haut depuis février 2023.</p><p>Le point nouveau vient du Banco de España. Dans son rapport trimestriel du 9 octobre, il relève que l&#39;écart d&#39;inflation avec la zone euro est passé de 0,5 point en avril à 1,2 point en septembre. L&#39;écart sur l&#39;inflation sous-jacente, qui exclut l&#39;énergie et l&#39;alimentation fraîche, atteint un point, son plus haut niveau depuis septembre 2006. Les services expliquent près de la moitié de l&#39;écart total, avec le tourisme et la restauration, dont le poids dans le panier espagnol est plus lourd qu&#39;ailleurs.</p>
+        
+<figure class="chart" aria-label="Barres : inflation harmonisée de septembre 2026 en Espagne, Italie, zone euro, France et Allemagne">
+  
+  <div class="bar-row"><span class="lbl">Espagne</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">5,0 %</span></div><div class="bar-row"><span class="lbl">Italie</span><span class="bar"><span class="fill w84 c-es"></span></span><span class="val">4,2 %</span></div><div class="bar-row"><span class="lbl">Zone euro</span><span class="bar"><span class="fill w76 c-es"></span></span><span class="val">3,8 %</span></div><div class="bar-row"><span class="lbl">France</span><span class="bar"><span class="fill w68 c-es"></span></span><span class="val">3,4 %</span></div><div class="bar-row"><span class="lbl">Allemagne</span><span class="bar"><span class="fill w66 c-es"></span></span><span class="val">3,3 %</span></div>
+  <figcaption>Inflation harmonisée, septembre 2026, variation annuelle en %. Source : Eurostat.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>2. Deux réponses : l&#39;impôt en Espagne, le plafond privé et les taux en France</h3>
+        <p>Madrid a choisi la fiscalité. Le décret-loi 25/2026, validé le 16 octobre par la Diputación Permanente (la commission réduite du Congrès qui siège pendant la dissolution des Cortes), prolonge la baisse de la taxe sur les hydrocarbures : 20 centimes par litre en octobre, 13 en novembre, 6 en décembre. Le Banco de España note que des baisses d&#39;impôt plus agressives qu&#39;ailleurs avaient réduit l&#39;écart sur l&#39;énergie au printemps, et qu&#39;il est reparti à la hausse en août et en septembre, à mesure que ces baisses étaient retirées.</p><p>En France, le dispositif repose sur d&#39;autres leviers. Le PDG de TotalEnergies, Patrick Pouyanné, a confirmé le 12 octobre le maintien d&#39;un plafond de 2,25 euros le litre de gazole pour les particuliers. À l&#39;Assemblée, des amendements prolongent en 2027 l&#39;exonération de la prime carburant, jusqu&#39;à 1 000 euros, mais ces votes restent provisoires. La Banque centrale européenne (BCE) a relevé ses taux directeurs à deux reprises cette année ; le taux de dépôt est à 2,50 % depuis le 16 septembre.</p>
+        
+        
+        
+      
+        
+        <h3>3. Croissance contre pouvoir d&#39;achat</h3>
+        <p>L&#39;Espagne a progressé de 0,7 % au deuxième trimestre et de 2,6 % sur un an, selon l&#39;INE. Le Banco de España relève sa prévision 2026 de 2,3 % à 2,6 % et attend 2,2 % en 2027. Le taux de chômage s&#39;établit à 9,87 % au deuxième trimestre. La France, elle, a vu son PIB stagner (0,0 % après −0,2 %) ; la Banque de France attend 0,1 % au troisième trimestre et 0,4 % pour 2026, et le chômage atteint 8,3 %. L&#39;Espagne garde donc un chômage plus élevé, avec une tendance inverse.</p><p>Encore faut-il ouvrir le chiffre de 2,6 %. Le PIB mesure ce qu&#39;un pays produit au total, pas ce que gagne chacun de ses habitants, et l&#39;Espagne croît d&#39;abord parce qu&#39;elle met plus de monde au travail. En septembre, la Sécurité sociale comptait 3 635 979 affiliés étrangers, un record, soit 16,2 % des cotisants et 547 637 de plus en un an (+17,7 %). Une partie de cette hausse est statistique : 421 306 personnes régularisées dans le cadre de la régularisation extraordinaire (décret royal 316/2026, demandes du 16 avril au 30 juin) étaient affiliées au 30 septembre. Beaucoup travaillaient déjà, de façon non déclarée ; leur inscription gonfle l&#39;emploi mesuré davantage que la production. (Sources : Infobae d&#39;après la Sécurité sociale ; Crónica del Henares)</p><p>Deuxième moteur, temporaire : les fonds européens NextGenerationEU. Le 30 septembre, l&#39;Espagne a déposé la septième et dernière demande de paiement de son plan de relance, 25 861 millions d&#39;euros, que la Commission doit verser d&#39;ici au 31 décembre. Pour prolonger l&#39;effet, le gouvernement a créé le fonds « España Crece », doté de 13 300 millions d&#39;euros apportés à l&#39;ICO (Instituto de Crédito Oficial, la banque publique espagnole), dont 10 500 millions de prêts du plan de relance, avec un objectif de 120 milliards de financements mobilisés. (Sources : ministère espagnol des Finances ; La Moncloa)</p><p>Troisième variable, la moins flatteuse : la productivité. Selon le Conseil de la productivité espagnol, la production par heure travaillée en Espagne représentait en 2024 environ 81 % du niveau français en parité de pouvoir d&#39;achat. L&#39;Espagne crée vite de l&#39;emploi et de l&#39;activité ; la France produit davantage par heure mais fait à peine croître son économie. Croissance agrégée et rattrapage du revenu par habitant ne sont donc pas synonymes : la vraie épreuve espagnole viendra quand il faudra croître sans l&#39;élan européen, avec une population qui réclame déjà plus de logements, d&#39;infrastructures et de services publics. (Source : Consejo de la Productividad de España)</p><p>Le revers apparaît dans les revenus. En France, l&#39;Insee mesure un recul de 0,6 % du pouvoir d&#39;achat par unité de consommation au deuxième trimestre. En Espagne, la presse économique rapporte, d&#39;après l&#39;INE, une hausse de 4 % des coûts du travail sur un an entre avril et juin, et la confédération patronale CEOE chiffre à 30,7 % la hausse du coût total par salarié depuis 2018. Pour comparaison, Eurostat relève un coût horaire de la main-d&#39;œuvre en hausse de 3,1 % dans la zone euro au deuxième trimestre, la France figurant parmi les plus faibles hausses de coût salarial horaire, à 2,1 %. Les méthodes diffèrent : ces chiffres donnent un ordre de grandeur.</p>
+        
+<figure class="chart" aria-label="Barres : croissance du PIB prévue en 2026 en Espagne et en France">
+  
+  <div class="bar-row"><span class="lbl">Espagne</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">2,6 %</span></div><div class="bar-row"><span class="lbl">France</span><span class="bar"><span class="fill w15 c-muted"></span></span><span class="val">0,4 %</span></div>
+  <figcaption>Croissance du PIB prévue pour 2026, en %. Source : Banco de España (9 octobre) et Banque de France (12 octobre).</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. Loyers, grève et calendrier électoral</h3>
+        <p>Les loyers suivent la même divergence. L&#39;indice de référence des loyers français (IRL) progresse de 1,57 % sur un an au troisième trimestre selon l&#39;Insee, et son équivalent espagnol, l&#39;IRAV, de 2,54 % en septembre selon l&#39;INE. Un bailleur français qui révise son loyer ne peut dépasser 1,57 %. En Espagne, le décret-loi 29/2026, en vigueur depuis le 8 octobre mais pas encore validé, fixerait à 2 % l&#39;actualisation de la rente jusqu&#39;en 2027 à défaut d&#39;accord entre les parties.</p><p>Le coût social arrive par le calendrier. CCOO et UGT, avec le Syndicat des locataires, ont fixé la grève générale au 11 novembre pour réclamer des salaires qui permettent de se loger. Une simulation publiée par elEconomista chiffre le coût à 0,19 % du PIB, soit 3 380 millions d&#39;euros, pour un taux de suivi de 50 %, et à 0,11 % (2 028 millions) pour 30 %. Il s&#39;agit de calculs arithmétiques sur le PIB, sans mesure observée. En France, le coût des mobilisations de cette semaine n&#39;a pas été chiffré.</p>
+        
+        
+        
+        <div class="debate"><h4>Le débat</h4><p>Les lectures divergent. Pour les uns, l&#39;écart espagnol tient largement à la fin des baisses fiscales sur l&#39;énergie et au poids du tourisme : il se refermerait si les prix du pétrole refluent. Pour les autres, l&#39;écart d&#39;un point sur l&#39;inflation sous-jacente et la hausse des coûts salariaux annoncent une inflation de services plus durable, que le calendrier social peut entretenir. Côté français, une inflation plus basse s&#39;accompagne d&#39;une demande atone : pouvoir d&#39;achat en recul, chômage en hausse. Les données de cette semaine ne permettent pas de trancher.</p></div>
+        
+      
+        
+        <h3>5. Ce que nous suivrons</h3>
+        <p>Le 29 octobre, la BCE se prononce sur ses taux, avec une inflation de zone euro à 3,8 % ; le 30, l&#39;INE et l&#39;Insee publient leurs estimations d&#39;octobre. Le Banco de España souligne qu&#39;un différentiel d&#39;inflation durable érodera peu à peu la compétitivité de l&#39;économie espagnole, et plusieurs institutions du pays alertent sur la hausse des coûts salariaux unitaires sans gains de productivité. La grève du 11 novembre et le scrutin du 29 novembre diront si ces coûts entrent dans la campagne.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lecture Rilamax</h4><p>Les deux économies subissent le même choc énergétique et le digèrent à des vitesses différentes. L&#39;Espagne en sort avec de la croissance et de l&#39;inflation, la France avec peu de l&#39;un et de l&#39;autre. Un écart de 1,2 point n&#39;a rien de dramatique sur un trimestre. Sur plusieurs années, il rogne la compétitivité-prix d&#39;un pays qui ne peut plus dévaluer, et il se retrouve dans les salaires, les loyers et les baux commerciaux. Un investisseur devrait donc valoriser deux scénarios : un reflux de l&#39;énergie qui referme l&#39;écart, ou un écart installé par les services et les salaires. Dans le second cas, il faut revoir les clauses d&#39;indexation des contrats espagnols, comparer l&#39;IRAV et l&#39;IRL dans les baux, et intégrer le calendrier social dans les hypothèses de coûts. Côté France, la faible inflation allège les coûts, mais le chiffre de croissance doit peser davantage dans un plan d&#39;affaires que le chiffre de prix. Notre lecture : la prime de croissance espagnole existe, et son prix augmente.</p></aside>
+    <div class="watch"><h4>Ce que nous surveillerons</h4><p>Nous suivrons les estimations d&#39;inflation d&#39;octobre du 30 octobre, la décision de la BCE du 29 octobre et l&#39;effet de la grève du 11 novembre sur l&#39;activité espagnole.</p></div>
+    <p class="src">Sources : <a href="https://www.moncloa.com/2026/10/16/inflacion-espana-eurozona-maximo-del-euro-3449719/" target="_blank" rel="noopener">Moncloa.com (données Eurostat, 16 octobre)</a>, <a href="https://www.infobae.com/espana/2026/10/16/el-banco-de-espana-alerta-sobre-la-subida-de-precios-en-comparacion-con-el-resto-de-europa-podria-erosionar-gradualmente-la-competitividad-de-la-economia-espanola/" target="_blank" rel="noopener">Infobae (rapport trimestriel du Banco de España)</a>, <a href="https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/proyecciones-macro-informe-trimestral/proyecciones-e-informe-trimestral-de-la-economia-espanola-tercer-trimestre-2026.html" target="_blank" rel="noopener">Banco de España, projections macroéconomiques (octobre 2026)</a>, <a href="https://www.insee.fr/fr/statistiques/2107840" target="_blank" rel="noopener">Insee, tableau de bord de la conjoncture</a>, <a href="https://www.banque-france.fr/fr/publications-et-statistiques/publications/enquete-mensuelle-de-conjoncture-debut-octobre-2026" target="_blank" rel="noopener">Banque de France, enquête mensuelle de conjoncture</a>, <a href="https://ine.es/dyngs/Prensa/EPA2T26.htm" target="_blank" rel="noopener">INE, enquête sur la population active, deuxième trimestre 2026</a>, <a href="https://pich.bnfix.com/convalidada-la-prorroga-de-los-descuentos-en-los-los-hidrocarburos/" target="_blank" rel="noopener">Pich BNFIX (validation du décret-loi 25/2026)</a>, <a href="https://www.banque-france.fr/en/policy-rates" target="_blank" rel="noopener">Banque de France, taux directeurs de la BCE</a>, <a href="https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-16092026-bp" target="_blank" rel="noopener">Eurostat, coûts de la main-d&#39;œuvre, deuxième trimestre 2026</a>, <a href="https://www.eleconomista.es/economia/noticias/14019459/10/26/un-seguimiento-del-50-de-la-huelga-costaria-un-019-de-pib-el-equivalente-a-3380-millones.html" target="_blank" rel="noopener">elEconomista, coût de la grève générale</a>, <a href="https://www.infobae.com/espana/agencias/2026/10/14/el-empleo-extranjero-rompe-la-barrera-de-los-36-millones-de-afiliados/" target="_blank" rel="noopener">Infobae, affiliation étrangère (14 octobre)</a>, <a href="https://www.cronicadelhenares.com/2026/10/afiliacion-paro-septiembre-2026-regularizacion.html" target="_blank" rel="noopener">Crónica del Henares, affiliation et régularisation (septembre)</a>, <a href="https://www.hacienda.gob.es/gl-es/prensa/noticias/paginas/2026/20260930-np-solicitud-septimo-desembolso-prtr.aspx" target="_blank" rel="noopener">Ministère espagnol des Finances, dernière demande de paiement du plan de relance</a>, <a href="https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/economia-comercio-empresa/paginas/2026/160226-fondo-espana-crece.aspx" target="_blank" rel="noopener">La Moncloa, fonds España Crece</a>, <a href="https://portal.mineco.gob.es/es-es/economiayempresa/ConsejoProductividad/Documents/Evolucion-productividad-hora-Espana_1999-2024.pdf" target="_blank" rel="noopener">Consejo de la Productividad de España, productivité horaire 1999-2024</a></p>
+  </section>
+
+  <section id="fr-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">France</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalité</span>
+    <h3>Budget 2027 : l&#39;Assemblée repart du texte du gouvernement, vote sur les recettes le 20 octobre</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le gouvernement a déposé le PLF 2027 le 1er octobre, avec un objectif de déficit de 5,0 % du PIB pour un effort de 54 milliards d&#39;euros. La commission des finances a rejeté la partie recettes le 9 octobre par 31 voix contre 3, après avoir adopté 211 amendements, dont une taxe annuelle de 2 % sur les titres de placement des holdings familiales. Ces votes n&#39;ont aucun effet : en séance, le débat repart du texte initial.</p></div>
+    <p class="sum">L&#39;examen en séance a débuté le 13 octobre. La motion de rejet préalable des socialistes a été repoussée par 236 voix contre 149, le Rassemblement national votant contre. Selon LégiFiscal, des mesures de rendement du gouvernement visant notamment les retraités ont été supprimées, et l&#39;Assemblée a relevé de 18 % à 25 % le taux de la réduction d&#39;impôt IR-PME (souscription au capital de PME). La surtaxe sur les grandes entreprises reste dans le texte, aux taux de 15,7 % et 31,4 %. La taxe sur les holdings, absente du texte de séance, devra être redéposée. Vote sur les recettes le 20 octobre, vote d&#39;ensemble le 17 novembre. Espagne : budget 2023 prorogé pour 2027, donc aucun texte comparable.</p>
+    <p class="src">Sources : <a href="https://www.legifiscal.fr/actualites-fiscales/4689-plf-2027-premiers-amendements-adoptes-seance-assemblee-nationale.html" target="_blank" rel="noopener">LégiFiscal</a>, <a href="https://nosparlementaires.fr/actualites/budget-2027-calendrier-assemblee-cinq-semaines" target="_blank" rel="noopener">NosParlementaires</a>, <a href="https://www.leclubdesjuristes.com/en-bref/budget-2027-la-motion-de-rejet-prealable-rejetee-par-les-deputes-17829/" target="_blank" rel="noopener">Le Club des Juristes</a>, <a href="https://fiscalonline.com/outils-fiscaux/suite-amendements-adoptes-apres-article-3-plf2027" target="_blank" rel="noopener">Fiscalonline</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Rien n&#39;est acquis avant la loi promulguée. Un investisseur qui compare la France à l&#39;Espagne devrait raisonner en scénarios pour la structuration par holding : la taxe de 2 % et le taux de l&#39;IR-PME peuvent encore changer au Sénat, et il serait prématuré de provisionner une taxe qui n&#39;existe pas à ce stade.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Réglementation</span>
+    <h3>Agriculture : 500 à 700 millions d&#39;euros et un « pacte Genevard » pour la transmission des fermes</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Les canicules répétées et la hausse des carburants ont fragilisé l&#39;agriculture française. Depuis septembre, le gouvernement a pris des mesures d&#39;urgence d&#39;environ 1,2 à 1,3 milliard d&#39;euros : prêts à taux zéro, indemnisation calculée sur huit ans au lieu de cinq, dégrèvements de taxe foncière sur les propriétés non bâties. La transmission reste un point faible, alors que le pacte Dutreil exonère déjà 75 % de la valeur des titres transmis.</p></div>
+    <p class="sum">Le 15 octobre, à Matignon, Sébastien Lecornu a annoncé une enveloppe de 500 à 700 millions d&#39;euros pour un plan de relance agricole, prélevée sur des crédits déjà inscrits au budget 2027 : aucune dépense supplémentaire n&#39;est prévue. Le plan crée un « pacte Genevard », du nom de la ministre de l&#39;Agriculture, inspiré du pacte Dutreil avec une exonération fiscale pour faciliter la reprise des exploitations. Son mécanisme et son calendrier ne sont pas publiés ; plusieurs mesures passeront par des amendements au PLF. En Espagne, le Conseil des ministres du 6 octobre a majoré de 18,2 % l&#39;aide aux assurances agricoles, sur une base initiale de 315 millions d&#39;euros.</p>
+    <p class="src">Sources : <a href="https://www.legifiscal.fr/actualites-fiscales/4688-plan-relance-agricole-sebastien-lecornu-annonce-500-700-millions-euros-pacte-transmission.html" target="_blank" rel="noopener">LégiFiscal</a>, <a href="https://www.reussir.fr/articles/sebastien-lecornu-annonce-un-plan-de-relance-agricole-de-500-700-millions-deuros" target="_blank" rel="noopener">Réussir</a>, <a href="https://www.france-epargne.fr/news/plan-de-relance-agricole-lecornu-annonce-500-a-700-millions-deuros-pour-2027" target="_blank" rel="noopener">France Épargne</a>, <a href="https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261006-referencia-rueda-de-prensa-ministros.aspx" target="_blank" rel="noopener">La Moncloa, Conseil des ministres du 6 octobre</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Le montant compte moins que les outils. L&#39;Espagne finance déjà l&#39;assurance récolte ; la France annonce un pacte dont le contenu fiscal n&#39;existe pas encore. Un investisseur devrait attendre le texte voté avant d&#39;intégrer ce pacte dans une valorisation d&#39;exploitation ou de foncier agricole.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Économie</span>
+    <h3>Créations d&#39;entreprises à un record en septembre, croissance de 0,1 % au troisième trimestre</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>La France compte 70 766 défaillances sur douze mois jusqu&#39;en août, et son chômage est monté à 8,3 % au deuxième trimestre. L&#39;économie a reculé de 0,2 % au premier trimestre avant de stagner au deuxième. Dans ce décor, les créations d&#39;entreprises, tirées par les micro-entrepreneurs, ont accéléré depuis le printemps.</p></div>
+    <p class="sum">L&#39;Insee a publié le 16 octobre 119 307 créations d&#39;entreprises en septembre, un plus haut depuis le début de la série en 2000 (+1,1 % sur un mois). Depuis janvier, 971 803 entreprises ont été créées contre 859 047 un an plus tôt, soit environ 13 % de plus. Les micro-entrepreneurs reculent de 1,6 % en septembre, les entreprises individuelles classiques progressent de 11,6 % et les sociétés de 5,0 %. L&#39;industrie (−5,1 %) et les transports (−3,6 %) reculent. La Banque de France maintient 0,1 % de croissance au troisième trimestre et 0,4 % pour 2026. En Espagne, 7 526 sociétés ont été créées en août (+5,7 %).</p>
+    <p class="src">Sources : <a href="https://www.infomediaire.net/france-record-creations-entreprises-septembre-2026/" target="_blank" rel="noopener">Infomédiaire (données Insee)</a>, <a href="https://www.europe1.fr/economie/malgre-une-economie-francaise-atone-le-nombre-de-creations-dentreprise-bat-un-record-en-septembre-1153922" target="_blank" rel="noopener">Europe 1</a>, <a href="https://www.banque-france.fr/fr/publications-et-statistiques/publications/enquete-mensuelle-de-conjoncture-debut-octobre-2026" target="_blank" rel="noopener">Banque de France</a>, <a href="https://www.elboletin.com/la-creacion-de-empresas-alcanza-su-mejor-agosto-desde-2007/" target="_blank" rel="noopener">El Boletín (données INE)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Le record dit peu de la santé du tissu productif : les micro-entreprises en forment les deux tiers et l&#39;industrie recule. Un investisseur devrait lire ce chiffre avec les défaillances et la croissance, non comme un indicateur de demande. En Espagne, l&#39;INE ne compte que les sociétés, ce qui interdit une comparaison directe.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Finances et marchés</span>
+    <h3>Dette : pour le FMI, la hausse des taux français reste gérable, mais la pression budgétaire montera</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>L&#39;OAT à dix ans (obligation assimilable du Trésor, la dette de l&#39;État français) approche 4,9 %, son plus haut depuis plus de vingt ans, et l&#39;écart avec le Bund allemand avoisine 140 points de base. Les taux ont monté dans toute l&#39;Europe, mais cet écart mesure le risque propre que les investisseurs attribuent aux finances publiques françaises.</p></div>
+    <p class="sum">Le 16 octobre, en marge des assemblées annuelles, le directeur Europe du FMI, Mateusz Szczurek, a jugé la hausse « gérable » : le marché français est liquide, la maturité moyenne de la dette est longue et la base d&#39;investisseurs diversifiée. Mais si les taux restent élevés durablement, Paris devra présenter un plan de consolidation crédible au-delà du budget 2027, qu&#39;il appelle à adopter à temps. Le mécanisme est progressif : chaque année, une partie de la dette émise à taux bas est refinancée aux taux actuels. Espagne : dette de 1 763 milliards d&#39;euros, en hausse de 4,3 % sur un an, mais ramenée à 101,4 % du PIB, 1,8 point de moins, parce que le PIB nominal croît plus vite. (Sources : Reuters ; Banco de España)</p>
+    <p class="src">Sources : <a href="https://uk.finance.yahoo.com/news/rise-french-yields-manageable-now-100636071.html" target="_blank" rel="noopener">Reuters, via Yahoo Finance (16 octobre)</a>, <a href="https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/deuda-aapp-2026t2.html" target="_blank" rel="noopener">Banco de España, dette des APU au 2e trimestre 2026</a>, <a href="https://www.france24.com/fr/france/20261001-budget-2027-le-gouvernement-d%C3%A9voile-son-projet-sous-la-pression-des-march%C3%A9s" target="_blank" rel="noopener">France 24, budget 2027</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un ratio dette/PIB baisse de deux façons : en remboursant ou en faisant croître le PIB plus vite que la dette. L&#39;Espagne utilise la seconde, ce qui n&#39;est pas de l&#39;amortissement. La France cumule une croissance proche de zéro (0,4 % attendu en 2026), un déficit visé à 5 % en 2027 et des taux proches de 5 % : le dénominateur n&#39;aide plus et les intérêts absorbent une part croissante du budget. Pas de crise en vue ; le risque est silencieux.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">Espagne</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalité</span>
+    <h3>Décrets-lois fiscaux : baisse sur les carburants validée, TVA touristique et IBI en attente</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>L&#39;Espagne gouverne par décrets-lois depuis la dissolution des Cortes, début octobre. Le Congrès avait rejeté le 2 octobre un premier décret sur le logement ; le gouvernement l&#39;a réapprouvé le 6 octobre. Pendant la dissolution, la Diputación Permanente, commission réduite du Congrès, valide ou abroge les décrets-lois dans un délai de trente jours.</p></div>
+    <p class="sum">Le 16 octobre, la Diputación Permanente a validé le décret-loi 25/2026, qui prolonge jusqu&#39;au 31 décembre la baisse de la taxe sur les hydrocarbures (20 centimes par litre en octobre, 13 en novembre, 6 en décembre), avec une clause de sauvegarde liée à l&#39;inflation. Le décret-loi 29/2026 sur le logement, en vigueur depuis le 8 octobre, n&#39;était pas à l&#39;ordre du jour ; un vote est attendu au plus tard mi-novembre et le PNV annonce son soutien. Il prévoit une TVA de 10 % sur les locations meublées de 30 nuits ou moins dès le 1er décembre et permet aux communes en zone tendue de majorer l&#39;IBI (impôt foncier espagnol) des logements touristiques jusqu&#39;à 150 %. France : exonération de la prime carburant, jusqu&#39;à 1 000 €, prolongée en 2027 par amendement provisoire.</p>
+    <p class="src">Sources : <a href="https://pich.bnfix.com/convalidada-la-prorroga-de-los-descuentos-en-los-los-hidrocarburos/" target="_blank" rel="noopener">Pich BNFIX</a>, <a href="https://www.idealista.com/news/finanzas/economia/2026/10/16/919373-el-decreto-con-ayudas-fiscales-al-combustible-consigue-el-aval-del-congreso" target="_blank" rel="noopener">Idealista News</a>, <a href="https://notariasbarcelona.es/real-decreto-ley-29-2026-novedades-fiscales/" target="_blank" rel="noopener">Notarías de Barcelona</a>, <a href="https://www.economistjurist.es/articulos-juridicos-destacados/medidas-tributarias-del-real-decreto-ley-29-2026-sobre-vivienda/" target="_blank" rel="noopener">Economist &amp; Jurist</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un non-résident qui loue en courte durée en Espagne devrait modéliser deux scénarios : décret validé, avec TVA à 10 % et majoration d&#39;IBI selon la commune, ou décret abrogé. Dans les deux cas, les ordonnances fiscales municipales décideront du coût réel.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Politique et société</span>
+    <h3>Grève générale le 11 novembre, élections le 29 : un calendrier social serré</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Après le rejet des décrets sur le logement par le Congrès, des élections législatives ont été convoquées pour le 29 novembre. CCOO et UGT, les deux grands syndicats espagnols, ont annoncé le 5 octobre une grève générale de 24 heures pour les salaires et le logement, la première conjointe depuis 2012.</p></div>
+    <p class="sum">Les syndicats ont fixé la grève au mercredi 11 novembre, avec le Syndicat des locataires ; la campagne électorale démarre le 13. La CEOE (patronat) avance que le coût total par salarié a augmenté de 30,7 % depuis 2018, et la presse rapporte une hausse de 4 % des coûts du travail entre avril et juin selon l&#39;INE. Selon une simulation d&#39;elEconomista, une grève suivie par 50 % des salariés coûterait 0,19 % du PIB, soit 3 380 millions d&#39;euros, et 2 028 millions à 30 %. Ce sont des calculs arithmétiques, sans mesure observée. En France, aucune grève générale n&#39;est annoncée ; les mobilisations en cours ne sont pas chiffrées.</p>
+    <p class="src">Sources : <a href="https://www.eldebate.com/economia/20261007/sindicatos-colocan-huelga-general-11-noviembre-dos-dias-antes-empezar-campana-electoral_467069.html" target="_blank" rel="noopener">El Debate</a>, <a href="https://www.elespanol.com/invertia/economia/macroeconomia/20261008/cifras-desmontan-huelga-salarios-suben-costes-laborales-ahogan-economia/1003744412240_0.html" target="_blank" rel="noopener">El Español</a>, <a href="https://www.eleconomista.es/economia/noticias/14019459/10/26/un-seguimiento-del-50-de-la-huelga-costaria-un-019-de-pib-el-equivalente-a-3380-millones.html" target="_blank" rel="noopener">elEconomista</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Pour une entreprise française implantée en Espagne, une journée de grève pèse surtout sur la logistique et les délais de livraison. Il vaut mieux revoir dès maintenant les plans de continuité du 11 novembre, et suivre le calendrier de campagne pour les décisions réglementaires.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Entreprises et investissement</span>
+    <h3>Banques françaises en Espagne : BPCE dans Sabadell, Crédit Agricole dans Cajamar, Cetelem à vendre</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>L&#39;OPA de BBVA sur Sabadell a échoué en octobre 2025 après 17 mois de bataille, et les banques espagnoles cherchent des actionnaires stables. En juin, Crédit Agricole a pris près de 10 % de la maison mère de Cajamar. BNP Paribas a mis en vente Cetelem, sa filiale espagnole de crédit à la consommation, estimée entre 900 millions et plus d&#39;un milliard d&#39;euros selon les sources.</p></div>
+    <p class="sum">BPCE a pris 7 % de Sabadell pour environ 1,2 milliard d&#39;euros, s&#39;engage à ne pas dépasser 9,99 % et aura un siège au conseil après accord de la BCE. Selon les documents transmis à la CNMV (le régulateur boursier espagnol), 4,16 % passent par des dérivés financiers. Les deux banques explorent une alliance dans le crédit à la consommation et la banque d&#39;entreprise à partir de 2027. Sur Cetelem, CaixaBank, Unicaja, Cofidis (Crédit Mutuel) et Crédit Agricole sont cités. Comparaison : selon Madrid, plus de 800 entreprises espagnoles opèrent en France (55 000 emplois), contre près de 3 000 entreprises françaises en Espagne.</p>
+    <p class="src">Sources : <a href="https://www.eleconomista.es/banca-finanzas/noticias/14018911/10/26/banco-sabadell-incorpora-al-frances-grupo-bcpe-en-el-capital-con-un-7-y-tendra-un-consejero.html" target="_blank" rel="noopener">elEconomista</a>, <a href="https://www.democrata.es/economia/bpce-alcanza-un-4-16-en-banco-sabadell-a-traves-de-derivados-financieros/" target="_blank" rel="noopener">Demócrata</a>, <a href="https://theobjective.com/economia/banca/2026-10-07/bancos-franceses-irrumpen-espanoles-fusiones-europeas/" target="_blank" rel="noopener">The Objective</a>, <a href="https://www.infobae.com/espana/agencias/2026/09/30/espana-y-francia-estrechan-su-cooperacion-para-reforzar-europa-en-un-contexto-complejo/" target="_blank" rel="noopener">Infobae (Europa Press)</a>, <a href="https://portal.mineco.gob.es/es-es/comunicacion/Paginas/declaracion-conjunta-espa%C3%B1a-francia.aspx" target="_blank" rel="noopener">Ministère espagnol de l&#39;Économie</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Ces participations minoritaires, sous le seuil de 10 %, évitent une consommation de capital plus lourde et ouvrent des alliances commerciales sans contrôle. Un groupe français qui regarde le marché espagnol devrait étudier ces montages avant une acquisition complète : les banques elles-mêmes jugent les fusions transfrontalières inviables tant que les normes diffèrent.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Immobilier</span>
+    <h3>Construction en recul de 7 % en août, loyers à +2,54 % : l&#39;offre ne suit pas</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>L&#39;Espagne manque de logements neufs, et le Congrès a rejeté le 2 octobre les premiers décrets de logement, réapprouvés le 6. Le décret 29/2026, pas encore validé, fixerait à 2 % l&#39;actualisation des loyers jusqu&#39;en 2027 à défaut d&#39;accord entre les parties, et autorise des plafonds de loyer en zone tendue.</p></div>
+    <p class="sum">L&#39;INE a publié le 14 octobre deux chiffres. L&#39;indice de production de la construction recule de 7,0 % sur un an en août en série corrigée (−4,2 % en brut), avec +0,8 % sur le mois. L&#39;IRAV, indice de référence des loyers du logement, progresse de 2,54 % sur un an en septembre. En France, l&#39;IRL est à +1,57 % au troisième trimestre (Insee, 15 octobre) et la Banque de France estime que la valeur ajoutée de la construction reculerait de 1,2 % au troisième trimestre. Dans les deux pays, la construction recule alors que les loyers montent ; l&#39;écart de rythme est plus marqué en Espagne.</p>
+    <p class="src">Sources : <a href="https://www.ine.es/" target="_blank" rel="noopener">INE</a>, <a href="https://www.insee.fr/fr/statistiques/9081853" target="_blank" rel="noopener">Insee</a>, <a href="https://www.banque-france.fr/fr/publications-et-statistiques/publications/enquete-mensuelle-de-conjoncture-debut-octobre-2026" target="_blank" rel="noopener">Banque de France</a>, <a href="https://aqui.madrid/decreto-de-vivienda-29-2026-lo-que-concede-y-lo-que-niega/" target="_blank" rel="noopener">Aquí Madrid</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un investisseur dans le résidentiel espagnol devrait comparer les deux indices dans ses baux : l&#39;IRAV sert de référence, tandis que le décret en attente fixerait 2 % à défaut d&#39;accord. La baisse de la production soutient la rareté ; elle entretient aussi le risque réglementaire.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-agenda">
+    <h2>À surveiller dans les prochaines semaines</h2>
+    <ul class="agenda"><li><span class="when">20 octobre 2026</span><span class="what">France : vote solennel de l&#39;Assemblée sur la première partie (recettes) du PLF 2027 ; vote d&#39;ensemble prévu le 17 novembre</span></li><li><span class="when">29 octobre 2026</span><span class="what">Zone euro : décision de politique monétaire de la BCE (taux de dépôt à 2,50 % depuis le 16 septembre)</span></li><li><span class="when">30 octobre 2026</span><span class="what">France et Espagne : estimations provisoires d&#39;inflation d&#39;octobre (Insee, INE) ; l&#39;Insee publie aussi le PIB du troisième trimestre</span></li><li><span class="when">11 novembre 2026</span><span class="what">Espagne : grève générale de 24 heures (CCOO, UGT, Syndicat des locataires)</span></li><li><span class="when">29 novembre 2026</span><span class="what">Espagne : élections générales, campagne à partir du 13 novembre</span></li></ul>
+  </section>
+
+  
+  <section id="fr-glosario">
+    <h2>Les sigles de cette édition</h2>
+    <dl class="glossary"><div><dt>BCE</dt><dd>Banque centrale européenne : elle fixe les taux directeurs de la zone euro. Son taux de dépôt est à 2,50 % depuis le 16 septembre 2026.</dd></div><div><dt>Bund</dt><dd>Obligation de l&#39;État fédéral allemand, référence de taux sans risque en zone euro.</dd></div><div><dt>CNMV</dt><dd>Comisión Nacional del Mercado de Valores : le régulateur boursier espagnol, équivalent de l&#39;AMF française. Toute participation de 3 % ou plus dans une société cotée lui est déclarée.</dd></div><div><dt>Diputación Permanente</dt><dd>Commission réduite du Congrès espagnol qui exerce certaines fonctions pendant la dissolution des Cortes, notamment la validation des décrets-lois dans un délai de trente jours.</dd></div><div><dt>FMI</dt><dd>Fonds monétaire international.</dd></div><div><dt>IBI</dt><dd>Impuesto sobre Bienes Inmuebles : l&#39;impôt foncier espagnol, équivalent de la taxe foncière française, perçu par les communes.</dd></div><div><dt>ICO</dt><dd>Instituto de Crédito Oficial, banque publique espagnole rattachée au ministère de l&#39;Économie.</dd></div><div><dt>IPCH</dt><dd>Indice des prix à la consommation harmonisé : la mesure d&#39;inflation utilisée par Eurostat pour comparer les pays de l&#39;Union européenne.</dd></div><div><dt>IR-PME</dt><dd>Réduction d&#39;impôt sur le revenu accordée aux contribuables qui souscrivent au capital de petites et moyennes entreprises ; le taux serait relevé de 18 % à 25 % dans le PLF 2027 voté en séance.</dd></div><div><dt>IRAV</dt><dd>Índice de Referencia de Arrendamientos de Vivienda : l&#39;indice espagnol de référence des loyers du logement, publié par l&#39;INE. Il progresse de 2,54 % sur un an en septembre 2026.</dd></div><div><dt>IRL</dt><dd>Indice de référence des loyers : publié chaque trimestre par l&#39;Insee, il plafonne la révision annuelle des loyers d&#39;habitation en France.</dd></div><div><dt>OAT</dt><dd>Obligation assimilable du Trésor, titre de dette de l&#39;État français.</dd></div><div><dt>PLF</dt><dd>Projet de loi de finances : le budget de l&#39;État français, qui fixe recettes et dépenses. Le PLF 2027 vise un déficit de 5,0 % du PIB.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>Le Bulletin Rilamax paraît chaque samedi : l&#39;essentiel de l&#39;économie, de la finance et de la politique entre la France et l&#39;Espagne, avec notre lecture.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">S&#39;abonner sur LinkedIn</a>
+  </section>
+
+  
+  <section id="fr-archivo" class="archive">
+    <h2>Éditions précédentes</h2>
+    <ul><li><a href="/ediciones/2026-10-10/">N° 2 — Énergie : ce que la France tire de ses champs et que l&#39;Espagne laisse filer</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Logement en Espagne : un déficit d&#39;offre que les décrets ne traitaient pas, des zones tendues à l&#39;épreuve des chiffres</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>Le Bulletin Rilamax est publié par RILAMAX 2025 SL. Les résumés sont rédigés par nos soins à partir des sources citées. Les lectures Rilamax sont des analyses générales et ne constituent pas des conseils d&#39;investissement personnalisés. Veille et rédaction assistées par l&#39;IA. Sélection, vérification et analyse : Jean Marc Pavia.</p></footer>
+</div>
+
+
+<div class="edition" data-lang="es" lang="es" hidden>
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>Francia</span><span class="line" aria-hidden="true"></span><span>España</span></div>
+    <div class="titlerow">
+      <h1>El Boletín Rilamax</h1>
+      <div class="langs" role="group" aria-label="Idioma"><button type="button" data-set="fr" aria-pressed="false">FR</button><button type="button" data-set="es" aria-pressed="true">ES</button></div>
+    </div>
+    <div class="meta"><span>N.º 3 · Semana 42</span><span>Del 12 al 17 de octubre de 2026</span><span>Lectura: 22 minutos</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sumario">
+  <div class="wrap"><ul>
+    <li><a href="#es-edito">El editorial</a></li>
+    <li><a href="#es-cifras">Las cifras</a></li>
+    <li><a href="#es-dossier">El dossier</a></li>
+    <li><a href="#es-fr">Francia</a></li>
+    <li><a href="#es-es">España</a></li>
+    <li><a href="#es-agenda">A vigilar</a></li>
+    <li><a href="#es-glosario">Glosario</a></li>
+    <li><a href="/archivo/?lang=es">Todas las ediciones</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="es-edito">
+    <h2>Dos economías, dos formas de pagar la inflación</h2>
+    <div class="edito">
+      <div class="body">
+        <p>El presupuesto francés de 2027 (el proyecto de ley de finanzas, o PLF, que fija los ingresos y gastos del Estado) entró el martes en el hemiciclo de la Asamblea Nacional. La moción de rechazo de los socialistas fue rechazada por 236 votos frente a 149, y la votación de la parte de ingresos está fijada para el 20 de octubre. Para un inversor español que mira hacia Francia, el contraste es claro: en España las Cortes están disueltas y el presupuesto de 2023 se prorrogará para 2027.</p><p>Los precios abren la brecha. Según Eurostat (la oficina estadística de la Unión Europea), la inflación armonizada de septiembre (IPCA, el índice de precios que Eurostat usa para comparar países) alcanza el 5,0 % en España, el 3,8 % en la zona euro y el 3,4 % en Francia. El Banco de España cifra en 1,2 puntos el diferencial de España con la zona euro, el mayor desde agosto de 2022. El país crece deprisa y se encarece deprisa; Francia se estanca con precios más moderados. El dossier detalla lo que eso cambia.</p><p>En la calle, cada país tiene su calendario. En Francia, el movimiento de estudiantes de secundaria y universitarios reclama 10.000 millones de euros mientras la Asamblea examina un esfuerzo presupuestario de 54.000 millones. En España, CCOO y UGT, los dos grandes sindicatos, han fijado el 11 de noviembre la primera huelga general conjunta desde 2012, dos días antes de que empiece la campaña de las elecciones del 29 de noviembre.</p><p>Los capitales, por su parte, avanzan. BPCE, segundo grupo bancario francés, ha tomado un 7 % de Sabadell, cuarto banco español, mientras que Crédit Agricole posee cerca del 10 % de Cajamar desde junio. Estos bancos entran en una economía que crece un 2,6 % este año, cuando el Banco de Francia (Banque de France, el banco central francés) espera un 0,1 % para Francia en el tercer trimestre. Vemos en ello una señal que conviene leer junto a los precios.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Los tres puntos clave</h3>
+        <ol><li>Presupuesto francés de 2027: votación de la parte de ingresos el 20 de octubre y votación de conjunto el 17 de noviembre.</li><li>Inflación armonizada de septiembre: 5,0 % en España y 3,4 % en Francia.</li><li>Los bancos franceses toman posiciones en España: BPCE en Sabadell y Crédit Agricole en Cajamar.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="es-cifras">
+    <h2>Las cifras de la semana</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>119.307</strong><span>Creaciones de empresas en Francia en septiembre, un récord desde que comenzó la serie del Insee en 2000; los microempresarios (el régimen simplificado francés de empresario individual, comparable al autónomo) representan aproximadamente dos tercios.</span><em class="cmp-o es">España: 7.526 sociedades mercantiles creadas en agosto (+5,7 % interanual), según el INE. El perímetro difiere: el INE solo cuenta sociedades.</em><small>Insee (Instituto Nacional de Estadística de Francia), 16 de octubre de 2026</small></div><div class="fig fr"><strong>+1,57 %</strong><span>Subida anual del índice de referencia de los alquileres (IRL) en el tercer trimestre, que limita la revisión de los alquileres de vivienda en Francia; era del 1,15 % el trimestre anterior.</span><em class="cmp-o es">España: +2,54 % para el IRAV, el índice español de referencia de los alquileres de vivienda, en septiembre (INE, 14 de octubre).</em><small>Insee, 15 de octubre de 2026</small></div><div class="fig fr"><strong>0,1 %</strong><span>Crecimiento del PIB esperado por el Banco de Francia en el tercer trimestre, tras un 0,0 % en el segundo (encuesta del 12 de octubre); la previsión para 2026 es del 0,4 %.</span><em class="cmp-o es">España: +0,7 % en el segundo trimestre (INE) y 2,6 % previsto para 2026 por el Banco de España; la estimación del tercer trimestre aún no se ha publicado.</em><small>Banco de Francia, 12 de octubre de 2026</small></div><div class="fig es"><strong>7.526</strong><span>Sociedades mercantiles creadas en España en agosto, un 5,7 % más que un año antes y el mejor mes de agosto desde 2007; el capital suscrito crece un 92,8 %.</span><em class="cmp-o fr">Francia: 26.864 sociedades creadas en agosto (Insee, datos corregidos de variaciones estacionales, publicados el 18 de septiembre).</em><small>INE, 13 de octubre de 2026</small></div><div class="fig es"><strong>−7,0 %</strong><span>Producción de la construcción en España en agosto, variación anual corregida de variaciones estacionales (−4,2 % en serie bruta).</span><em class="cmp-o fr">Francia: el Banco de Francia estima que el valor añadido de la construcción retrocedería un 1,2 % en el tercer trimestre (encuesta del 12 de octubre). Las mediciones no son estrictamente comparables.</em><small>INE, 14 de octubre de 2026</small></div><div class="fig es"><strong>+2,54 %</strong><span>Variación anual en septiembre del IRAV, el índice español de referencia de los alquileres de vivienda publicado por el INE.</span><em class="cmp-o fr">Francia: IRL de +1,57 % en el tercer trimestre (Insee, 15 de octubre).</em><small>INE, 14 de octubre de 2026</small></div>
+    </div>
+  </section>
+
+  
+  <section id="es-dossier" class="dossier">
+    <h2>El dossier: Inflación: España crece más deprisa que Francia, pero se encarece más deprisa</h2>
+    <p class="intro">Septiembre ha dejado dos series de cifras que no van juntas: una inflación armonizada del 5,0 % en España y del 3,4 % en Francia, con un crecimiento del 2,6 % en un caso y de en torno al 0,4 % en el otro. El Banco de España advierte de que el diferencial de precios con la zona euro puede erosionar la competitividad del país. Para un inversor, se trata de medir cuál de los dos desequilibrios cuesta más.</p>
+    <div class="dfigs"><div><strong>1,2 puntos</strong><span>Diferencial de inflación entre España y la zona euro en septiembre, el mayor desde agosto de 2022 (Banco de España)</span></div><div><strong>5,0 % frente a 3,4 %</strong><span>Inflación armonizada de septiembre, España frente a Francia (zona euro: 3,8 %)</span></div><div><strong>2,6 %</strong><span>Crecimiento de 2026 previsto para España por el Banco de España; el Banco de Francia retiene un 0,4 % para Francia</span></div><div><strong>−0,6 %</strong><span>Caída del poder adquisitivo de los hogares franceses por unidad de consumo en el segundo trimestre (Insee)</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. El diferencial se amplía desde la primavera</h3>
+        <p>Según Eurostat, la inflación armonizada de la zona euro subió al 3,8 % en septiembre, desde el 3,2 % de agosto, su nivel más alto desde septiembre de 2023. España marca el 5,0 %, Italia el 4,2 %, Francia el 3,4 % y Alemania el 3,3 %. La energía tira del conjunto: se encarece un 18,8 % interanual en la zona euro, según la estimación preliminar de Eurostat. El IPC nacional del INE se sitúa en el 4,9 %, su nivel más alto desde febrero de 2023.</p><p>La novedad procede del Banco de España. En su informe trimestral del 9 de octubre señala que el diferencial de inflación con la zona euro pasó de 0,5 puntos en abril a 1,2 puntos en septiembre. El diferencial de la inflación subyacente, que excluye la energía y los alimentos frescos, alcanza un punto, su nivel más alto desde septiembre de 2006. Los servicios explican casi la mitad del diferencial total, con el turismo y la restauración, cuyo peso en la cesta española es mayor que en otros países.</p>
+        
+<figure class="chart" aria-label="Barras: inflación armonizada de septiembre de 2026 en España, Italia, zona euro, Francia y Alemania">
+  
+  <div class="bar-row"><span class="lbl">España</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">5,0 %</span></div><div class="bar-row"><span class="lbl">Italia</span><span class="bar"><span class="fill w84 c-es"></span></span><span class="val">4,2 %</span></div><div class="bar-row"><span class="lbl">Zona euro</span><span class="bar"><span class="fill w76 c-es"></span></span><span class="val">3,8 %</span></div><div class="bar-row"><span class="lbl">Francia</span><span class="bar"><span class="fill w68 c-es"></span></span><span class="val">3,4 %</span></div><div class="bar-row"><span class="lbl">Alemania</span><span class="bar"><span class="fill w66 c-es"></span></span><span class="val">3,3 %</span></div>
+  <figcaption>Inflación armonizada, septiembre de 2026, variación anual en %. Fuente: Eurostat.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>2. Dos respuestas: impuestos en España, tope privado y tipos en Francia</h3>
+        <p>Madrid ha elegido la fiscalidad. El Real Decreto-ley 25/2026, convalidado el 16 de octubre por la Diputación Permanente (la comisión reducida del Congreso que actúa durante la disolución de las Cortes), prorroga la rebaja del impuesto sobre hidrocarburos: 20 céntimos por litro en octubre, 13 en noviembre y 6 en diciembre. El Banco de España señala que unas rebajas de impuestos más agresivas que en otros países habían reducido el diferencial en energía en primavera, y que este repuntó en agosto y septiembre a medida que esas rebajas se retiraban.</p><p>En Francia, el dispositivo descansa en otras palancas. El consejero delegado de TotalEnergies, Patrick Pouyanné, confirmó el 12 de octubre el mantenimiento de un tope de 2,25 euros por litro de gasóleo para los particulares. En la Asamblea, varias enmiendas prorrogan en 2027 la exención de la prima carburante, de hasta 1.000 euros, pero estas votaciones son todavía provisionales. El Banco Central Europeo (BCE) ha subido sus tipos oficiales en dos ocasiones este año; el tipo de depósito está en el 2,50 % desde el 16 de septiembre.</p>
+        
+        
+        
+      
+        
+        <h3>3. Crecimiento frente a poder adquisitivo</h3>
+        <p>España creció un 0,7 % en el segundo trimestre y un 2,6 % interanual, según el INE. El Banco de España eleva su previsión de 2026 del 2,3 % al 2,6 % y espera un 2,2 % en 2027. La tasa de paro se sitúa en el 9,87 % en el segundo trimestre. Francia, en cambio, vio estancarse su PIB (0,0 % tras −0,2 %); el Banco de Francia espera un 0,1 % en el tercer trimestre y un 0,4 % para 2026, y el paro alcanza el 8,3 %. España conserva, pues, un paro más elevado, con una tendencia inversa.</p><p>Pero el 2,6 % hay que abrirlo. El PIB mide lo que produce un país en total, no lo que gana cada habitante, y España crece ante todo porque pone a trabajar a más gente. En septiembre, la Seguridad Social contaba 3.635.979 afiliados extranjeros, un récord: el 16,2 % de los cotizantes y 547.637 más que hace un año (+17,7 %). Parte de ese aumento es estadístico: 421.306 personas acogidas a la regularización extraordinaria (Real Decreto 316/2026, solicitudes del 16 de abril al 30 de junio) estaban dadas de alta el 30 de septiembre. Muchas ya trabajaban sin declarar; su alta engorda el empleo medido más que la producción. (Fuentes: Infobae, a partir de datos de la Seguridad Social; Crónica del Henares)</p><p>Segundo motor, temporal: los fondos europeos NextGenerationEU. El 30 de septiembre, España presentó la séptima y última solicitud de pago del Plan de Recuperación, 25.861 millones de euros, que la Comisión debe abonar antes del 31 de diciembre. Para prolongar el impulso, el Gobierno ha creado el fondo «España Crece», dotado con 13.300 millones de euros aportados al ICO, de los que 10.500 millones son préstamos del Plan de Recuperación, con el objetivo de movilizar 120.000 millones de financiación. (Fuentes: Ministerio de Hacienda; La Moncloa)</p><p>Tercera variable, la menos brillante: la productividad. Según el Consejo de la Productividad de España, la producción por hora trabajada en España equivalía en 2024 a cerca del 81 % del nivel francés en paridad de poder adquisitivo. España crea empleo y actividad con rapidez; Francia produce más por hora pero apenas hace crecer su economía. Crecimiento agregado y convergencia de renta por habitante no son sinónimos: la verdadera prueba española llegará cuando haya que crecer sin el impulso europeo y con una población que ya exige más vivienda, infraestructuras y servicios públicos. (Fuente: Consejo de la Productividad de España)</p><p>El reverso aparece en las rentas. En Francia, el Insee mide una caída del 0,6 % del poder adquisitivo por unidad de consumo en el segundo trimestre. En España, la prensa económica recoge, a partir de datos del INE, una subida del 4 % de los costes laborales interanual entre abril y junio, y la patronal CEOE cifra en un 30,7 % el aumento del coste total por asalariado desde 2018. A modo de comparación, Eurostat registra un coste horario de la mano de obra un 3,1 % más alto en la zona euro en el segundo trimestre, y Francia figura entre los aumentos más bajos del coste salarial horario, con un 2,1 %. Los métodos difieren: estas cifras dan un orden de magnitud.</p>
+        
+<figure class="chart" aria-label="Barras: crecimiento del PIB previsto para 2026 en España y en Francia">
+  
+  <div class="bar-row"><span class="lbl">España</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">2,6 %</span></div><div class="bar-row"><span class="lbl">Francia</span><span class="bar"><span class="fill w15 c-muted"></span></span><span class="val">0,4 %</span></div>
+  <figcaption>Crecimiento del PIB previsto para 2026, en %. Fuente: Banco de España (9 de octubre) y Banco de Francia (12 de octubre).</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. Alquileres, huelga y calendario electoral</h3>
+        <p>Los alquileres siguen la misma divergencia. El índice de referencia de los alquileres francés (IRL) sube un 1,57 % interanual en el tercer trimestre según el Insee, y su equivalente español, el IRAV, un 2,54 % en septiembre según el INE. Un arrendador francés que revisa su alquiler no puede superar el 1,57 %. En España, el Real Decreto-ley 29/2026, en vigor desde el 8 de octubre pero aún sin convalidar, fijaría en el 2 % la actualización de la renta hasta 2027 a falta de acuerdo entre las partes.</p><p>El coste social llega de la mano del calendario. CCOO y UGT, junto con el Sindicato de Inquilinas e Inquilinos, han fijado la huelga general el 11 de noviembre para reclamar salarios que permitan pagar la vivienda. Una simulación publicada por elEconomista cifra el coste en el 0,19 % del PIB, es decir, 3.380 millones de euros, con un seguimiento del 50 %, y en el 0,11 % (2.028 millones) con un 30 %. Son cálculos aritméticos sobre el PIB, sin medición observada. En Francia, el coste de las movilizaciones de esta semana no se ha cifrado.</p>
+        
+        
+        
+        <div class="debate"><h4>El debate</h4><p>Las lecturas divergen. Para unos, el diferencial español se explica en buena parte por el fin de las rebajas fiscales en la energía y por el peso del turismo: se cerraría si los precios del petróleo retroceden. Para otros, el punto de diferencia en la inflación subyacente y el aumento de los costes laborales anuncian una inflación de servicios más duradera, que el calendario social puede alimentar. En el lado francés, una inflación más baja viene acompañada de una demanda débil: poder adquisitivo en caída y paro en aumento. Los datos de esta semana no permiten zanjar el debate.</p></div>
+        
+      
+        
+        <h3>5. Lo que seguiremos</h3>
+        <p>El 29 de octubre, el BCE decide sobre sus tipos, con una inflación de la zona euro del 3,8 %; el 30, el INE y el Insee publican sus estimaciones de octubre. El Banco de España subraya que un diferencial de inflación duradero erosionará poco a poco la competitividad de la economía española, y varias instituciones del país alertan del aumento de los costes laborales unitarios sin ganancias de productividad. La huelga del 11 de noviembre y los comicios del 29 dirán si esos costes entran en la campaña.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lectura Rilamax</h4><p>Las dos economías sufren el mismo choque energético y lo digieren a distinta velocidad. España sale de él con crecimiento e inflación; Francia, con poco de ambos. Un diferencial de 1,2 puntos no es dramático en un trimestre. Sostenido durante varios años, erosiona la competitividad-precio de un país que ya no puede devaluar y acaba trasladándose a salarios, alquileres y rentas comerciales. Para una empresa o un inversor español que mira hacia Francia, la inflación baja alivia los costes, pero la demanda es débil: poder adquisitivo en caída del 0,6 % y PIB estancado. En un plan de negocio, la cifra de crecimiento debe pesar más que la de precios. Conviene además comparar cómo se indexan los contratos a ambos lados de los Pirineos, con el IRAV en España y el IRL en Francia, que limita la revisión de los alquileres de vivienda al 1,57 %. Un inversor debería valorar dos escenarios: un reflujo de la energía que cierre el diferencial, o un diferencial instalado por los servicios y los salarios. En el segundo, los costes españoles se encarecerían frente a los franceses. Nuestra lectura: la prima de crecimiento española existe y su precio sube.</p></aside>
+    <div class="watch"><h4>Lo que vigilaremos</h4><p>Seguiremos las estimaciones de inflación de octubre del 30 de octubre, la decisión del BCE del 29 de octubre y el efecto de la huelga del 11 de noviembre sobre la actividad española.</p></div>
+    <p class="src">Fuentes: <a href="https://www.moncloa.com/2026/10/16/inflacion-espana-eurozona-maximo-del-euro-3449719/" target="_blank" rel="noopener">Moncloa.com (datos de Eurostat, 16 de octubre)</a>, <a href="https://www.infobae.com/espana/2026/10/16/el-banco-de-espana-alerta-sobre-la-subida-de-precios-en-comparacion-con-el-resto-de-europa-podria-erosionar-gradualmente-la-competitividad-de-la-economia-espanola/" target="_blank" rel="noopener">Infobae (informe trimestral del Banco de España)</a>, <a href="https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/proyecciones-macro-informe-trimestral/proyecciones-e-informe-trimestral-de-la-economia-espanola-tercer-trimestre-2026.html" target="_blank" rel="noopener">Banco de España, proyecciones macroeconómicas (octubre de 2026)</a>, <a href="https://www.insee.fr/fr/statistiques/2107840" target="_blank" rel="noopener">Insee, cuadro de mando de la coyuntura</a>, <a href="https://www.banque-france.fr/fr/publications-et-statistiques/publications/enquete-mensuelle-de-conjoncture-debut-octobre-2026" target="_blank" rel="noopener">Banco de Francia, encuesta mensual de coyuntura</a>, <a href="https://ine.es/dyngs/Prensa/EPA2T26.htm" target="_blank" rel="noopener">INE, Encuesta de Población Activa, segundo trimestre de 2026</a>, <a href="https://pich.bnfix.com/convalidada-la-prorroga-de-los-descuentos-en-los-los-hidrocarburos/" target="_blank" rel="noopener">Pich BNFIX (convalidación del Real Decreto-ley 25/2026)</a>, <a href="https://www.banque-france.fr/en/policy-rates" target="_blank" rel="noopener">Banco de Francia, tipos oficiales del BCE</a>, <a href="https://ec.europa.eu/eurostat/web/products-euro-indicators/w/3-16092026-bp" target="_blank" rel="noopener">Eurostat, costes laborales, segundo trimestre de 2026</a>, <a href="https://www.eleconomista.es/economia/noticias/14019459/10/26/un-seguimiento-del-50-de-la-huelga-costaria-un-019-de-pib-el-equivalente-a-3380-millones.html" target="_blank" rel="noopener">elEconomista, coste de la huelga general</a>, <a href="https://www.infobae.com/espana/agencias/2026/10/14/el-empleo-extranjero-rompe-la-barrera-de-los-36-millones-de-afiliados/" target="_blank" rel="noopener">Infobae, afiliación extranjera (14 de octubre)</a>, <a href="https://www.cronicadelhenares.com/2026/10/afiliacion-paro-septiembre-2026-regularizacion.html" target="_blank" rel="noopener">Crónica del Henares, afiliación y regularización (septiembre)</a>, <a href="https://www.hacienda.gob.es/gl-es/prensa/noticias/paginas/2026/20260930-np-solicitud-septimo-desembolso-prtr.aspx" target="_blank" rel="noopener">Ministerio de Hacienda, última solicitud de pago del PRTR</a>, <a href="https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/economia-comercio-empresa/paginas/2026/160226-fondo-espana-crece.aspx" target="_blank" rel="noopener">La Moncloa, fondo España Crece</a>, <a href="https://portal.mineco.gob.es/es-es/economiayempresa/ConsejoProductividad/Documents/Evolucion-productividad-hora-Espana_1999-2024.pdf" target="_blank" rel="noopener">Consejo de la Productividad de España, productividad por hora 1999-2024</a></p>
+  </section>
+
+  <section id="es-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">Francia</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalidad</span>
+    <h3>Presupuesto de 2027: la Asamblea parte del texto del Gobierno, votación de ingresos el 20 de octubre</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El Gobierno francés presentó el proyecto de presupuestos (PLF) de 2027 el 1 de octubre, con un objetivo de déficit del 5,0 % del PIB y un esfuerzo de 54.000 millones de euros. La comisión de Finanzas de la Asamblea Nacional rechazó la parte de ingresos el 9 de octubre por 31 votos contra 3, tras aprobar 211 enmiendas, entre ellas una tasa anual del 2 % sobre los títulos de inversión de las holdings familiares. Estos votos carecen de efecto: en el pleno, el debate parte del texto inicial.</p></div>
+    <p class="sum">El examen en el pleno comenzó el 13 de octubre. La moción de rechazo previo de los socialistas fue rechazada por 236 votos frente a 149, con el voto en contra de la Agrupación Nacional (Rassemblement national). Según LégiFiscal, se suprimieron medidas recaudatorias del Gobierno dirigidas, entre otros colectivos, a los jubilados, y la Asamblea elevó del 18 % al 25 % el tipo de la reducción de impuesto IR-PME (por suscripción de capital de pymes en el impuesto sobre la renta). La sobretasa sobre las grandes empresas se mantiene en el texto, con tipos del 15,7 % y del 31,4 %. La tasa sobre las holdings, ausente del texto del pleno, deberá volver a presentarse. Votación de ingresos el 20 de octubre y votación de conjunto el 17 de noviembre. España: presupuesto de 2023 prorrogado para 2027, por lo que no hay un texto comparable.</p>
+    <p class="src">Fuentes: <a href="https://www.legifiscal.fr/actualites-fiscales/4689-plf-2027-premiers-amendements-adoptes-seance-assemblee-nationale.html" target="_blank" rel="noopener">LégiFiscal</a>, <a href="https://nosparlementaires.fr/actualites/budget-2027-calendrier-assemblee-cinq-semaines" target="_blank" rel="noopener">NosParlementaires</a>, <a href="https://www.leclubdesjuristes.com/en-bref/budget-2027-la-motion-de-rejet-prealable-rejetee-par-les-deputes-17829/" target="_blank" rel="noopener">Le Club des Juristes</a>, <a href="https://fiscalonline.com/outils-fiscaux/suite-amendements-adoptes-apres-article-3-plf2027" target="_blank" rel="noopener">Fiscalonline</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Nada está cerrado hasta que se promulga la ley. Un inversor español con presencia en Francia que estructure su inversión mediante una holding debería razonar por escenarios: la tasa del 2 % y el tipo del IR-PME todavía pueden cambiar en el Senado, y sería prematuro provisionar un impuesto que a día de hoy no existe.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Regulación</span>
+    <h3>Agricultura: de 500 a 700 millones de euros y un «pacto Genevard» para la transmisión de explotaciones</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Las olas de calor repetidas y el encarecimiento de los carburantes han debilitado la agricultura francesa. Desde septiembre, el Gobierno ha adoptado medidas de urgencia por unos 1.200 a 1.300 millones de euros: préstamos a tipo cero, una indemnización calculada sobre ocho años en lugar de cinco y desgravaciones de la taxe foncière sobre propiedades no edificadas (el impuesto local francés equivalente al IBI). La transmisión sigue siendo un punto débil, aunque el pacto Dutreil (el régimen francés de transmisión de empresas) ya exonera el 75 % del valor de los títulos transmitidos.</p></div>
+    <p class="sum">El 15 de octubre, en Matignon (la sede del primer ministro), Sébastien Lecornu anunció una dotación de 500 a 700 millones de euros para un plan de relanzamiento agrícola, tomada de créditos ya inscritos en el presupuesto de 2027: no se prevé ningún gasto adicional. El plan crea un «pacto Genevard», por la ministra de Agricultura, inspirado en el pacto Dutreil y con una exención fiscal para facilitar el relevo de las explotaciones. Su mecánica y su calendario no se han publicado; varias medidas pasarán por enmiendas al PLF. En España, el Consejo de Ministros del 6 de octubre aumentó un 18,2 % la ayuda a los seguros agrarios, sobre una base inicial de 315 millones de euros.</p>
+    <p class="src">Fuentes: <a href="https://www.legifiscal.fr/actualites-fiscales/4688-plan-relance-agricole-sebastien-lecornu-annonce-500-700-millions-euros-pacte-transmission.html" target="_blank" rel="noopener">LégiFiscal</a>, <a href="https://www.reussir.fr/articles/sebastien-lecornu-annonce-un-plan-de-relance-agricole-de-500-700-millions-deuros" target="_blank" rel="noopener">Réussir</a>, <a href="https://www.france-epargne.fr/news/plan-de-relance-agricole-lecornu-annonce-500-a-700-millions-deuros-pour-2027" target="_blank" rel="noopener">France Épargne</a>, <a href="https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261006-referencia-rueda-de-prensa-ministros.aspx" target="_blank" rel="noopener">La Moncloa, Consejo de Ministros del 6 de octubre</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Cuenta menos la cuantía que los instrumentos. España ya financia el seguro de cosechas; Francia anuncia un pacto cuyo contenido fiscal todavía no existe. Un inversor con intereses en explotaciones o suelo agrícola francés debería esperar al texto votado antes de incorporar ese pacto a una valoración.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Economía</span>
+    <h3>Creación de empresas en récord en septiembre y crecimiento del 0,1 % en el tercer trimestre</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Francia suma 70.766 quiebras de empresas en doce meses hasta agosto, y su paro subió al 8,3 % en el segundo trimestre. La economía retrocedió un 0,2 % en el primer trimestre antes de estancarse en el segundo. En ese marco, la creación de empresas, impulsada por los microempresarios, se ha acelerado desde la primavera.</p></div>
+    <p class="sum">El Insee publicó el 16 de octubre 119.307 creaciones de empresas en septiembre, el máximo desde que comenzó la serie en 2000 (+1,1 % mensual). Desde enero se han creado 971.803 empresas, frente a 859.047 un año antes, un 13 % más aproximadamente. Los microempresarios retroceden un 1,6 % en septiembre, las empresas individuales clásicas suben un 11,6 % y las sociedades un 5,0 %. La industria (−5,1 %) y el transporte (−3,6 %) bajan. El Banco de Francia mantiene un crecimiento del 0,1 % en el tercer trimestre y del 0,4 % para 2026. En España se crearon 7.526 sociedades en agosto (+5,7 %).</p>
+    <p class="src">Fuentes: <a href="https://www.infomediaire.net/france-record-creations-entreprises-septembre-2026/" target="_blank" rel="noopener">Infomédiaire (datos del Insee)</a>, <a href="https://www.europe1.fr/economie/malgre-une-economie-francaise-atone-le-nombre-de-creations-dentreprise-bat-un-record-en-septembre-1153922" target="_blank" rel="noopener">Europe 1</a>, <a href="https://www.banque-france.fr/fr/publications-et-statistiques/publications/enquete-mensuelle-de-conjoncture-debut-octobre-2026" target="_blank" rel="noopener">Banco de Francia</a>, <a href="https://www.elboletin.com/la-creacion-de-empresas-alcanza-su-mejor-agosto-desde-2007/" target="_blank" rel="noopener">El Boletín (datos del INE)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>El récord dice poco de la salud del tejido productivo: las microempresas representan dos tercios del total y la industria retrocede. Un inversor debería leer esta cifra junto con las quiebras y el crecimiento; como indicador de demanda sirve poco. En España, el INE solo cuenta sociedades, lo que impide una comparación directa.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Finanzas y mercados</span>
+    <h3>Deuda: para el FMI, la subida de los tipos franceses es manejable, pero la presión presupuestaria crecerá</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El bono francés a diez años (OAT, la deuda del Estado francés) se acerca al 4,9 %, su nivel más alto en más de veinte años, y el diferencial con el Bund alemán ronda los 140 puntos básicos. Los tipos han subido en toda Europa, pero ese diferencial mide el riesgo propio que los inversores atribuyen a las finanzas públicas francesas.</p></div>
+    <p class="sum">El 16 de octubre, en las reuniones anuales, el director para Europa del FMI, Mateusz Szczurek, calificó la subida de «manejable»: el mercado francés es líquido, el vencimiento medio de la deuda es largo y la base inversora está diversificada. Pero si los tipos se mantienen altos durante tiempo, París tendrá que presentar un plan de consolidación creíble más allá del presupuesto de 2027, que pidió aprobar a tiempo. El mecanismo es gradual: cada año, parte de la deuda emitida a tipos bajos se refinancia a los tipos actuales. España: deuda de 1,763 billones de euros, un 4,3 % más que hace un año, pero rebajada al 101,4 % del PIB, 1,8 puntos menos, porque el PIB nominal crece más deprisa. (Fuentes: Reuters; Banco de España)</p>
+    <p class="src">Fuentes: <a href="https://uk.finance.yahoo.com/news/rise-french-yields-manageable-now-100636071.html" target="_blank" rel="noopener">Reuters, vía Yahoo Finance (16 de octubre)</a>, <a href="https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/deuda-aapp-2026t2.html" target="_blank" rel="noopener">Banco de España, deuda de las AA. PP. en el 2.º trimestre de 2026</a>, <a href="https://www.france24.com/fr/france/20261001-budget-2027-le-gouvernement-d%C3%A9voile-son-projet-sous-la-pression-des-march%C3%A9s" target="_blank" rel="noopener">France 24, presupuesto de 2027</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Una ratio deuda/PIB baja de dos maneras: amortizando o haciendo crecer el PIB más que la deuda. España usa la segunda, que no equivale a amortizar. Francia combina un crecimiento cercano a cero (0,4 % previsto en 2026), un déficit objetivo del 5 % en 2027 y tipos próximos al 5 %: el denominador ya no ayuda y los intereses absorben una parte creciente del presupuesto. No hay crisis a la vista; el riesgo es silencioso.</p></aside>
+</article>
+  </section>
+
+  <section id="es-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">España</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalidad</span>
+    <h3>Decretos-leyes fiscales: rebaja de los carburantes convalidada, IVA turístico e IBI pendientes</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>España gobierna por decretos-leyes desde la disolución de las Cortes, a principios de octubre. El Congreso había rechazado el 2 de octubre un primer decreto sobre vivienda; el Gobierno lo volvió a aprobar el 6 de octubre. Durante la disolución, la Diputación Permanente, la comisión reducida del Congreso, convalida o deroga los decretos-leyes en un plazo de treinta días.</p></div>
+    <p class="sum">El 16 de octubre, la Diputación Permanente convalidó el Real Decreto-ley 25/2026, que prorroga hasta el 31 de diciembre la rebaja del impuesto sobre hidrocarburos (20 céntimos por litro en octubre, 13 en noviembre y 6 en diciembre), con una cláusula de salvaguarda ligada a la inflación. El Real Decreto-ley 29/2026 sobre vivienda, en vigor desde el 8 de octubre, no figuraba en el orden del día; se espera una votación como tarde a mediados de noviembre y el PNV anuncia su apoyo. Prevé un IVA del 10 % sobre los alquileres amueblados de 30 noches o menos desde el 1 de diciembre y permite a los municipios en zona tensionada recargar el IBI de las viviendas turísticas hasta un 150 %. Francia: exención de la prima carburante, de hasta 1.000 €, prorrogada en 2027 mediante una enmienda provisional.</p>
+    <p class="src">Fuentes: <a href="https://pich.bnfix.com/convalidada-la-prorroga-de-los-descuentos-en-los-los-hidrocarburos/" target="_blank" rel="noopener">Pich BNFIX</a>, <a href="https://www.idealista.com/news/finanzas/economia/2026/10/16/919373-el-decreto-con-ayudas-fiscales-al-combustible-consigue-el-aval-del-congreso" target="_blank" rel="noopener">Idealista News</a>, <a href="https://notariasbarcelona.es/real-decreto-ley-29-2026-novedades-fiscales/" target="_blank" rel="noopener">Notarías de Barcelona</a>, <a href="https://www.economistjurist.es/articulos-juridicos-destacados/medidas-tributarias-del-real-decreto-ley-29-2026-sobre-vivienda/" target="_blank" rel="noopener">Economist &amp; Jurist</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Un propietario o gestor de viviendas turísticas debería modelizar dos escenarios: decreto convalidado, con IVA del 10 % y recargo del IBI según el municipio, o decreto derogado. En ambos casos, las ordenanzas fiscales municipales decidirán el coste real.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Política y sociedad</span>
+    <h3>Huelga general el 11 de noviembre, elecciones el 29: un calendario social apretado</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Tras el rechazo de los decretos sobre vivienda por el Congreso, se convocaron elecciones generales para el 29 de noviembre. CCOO y UGT, los dos grandes sindicatos españoles, anunciaron el 5 de octubre una huelga general de 24 horas por los salarios y la vivienda, la primera conjunta desde 2012.</p></div>
+    <p class="sum">Los sindicatos han fijado la huelga el miércoles 11 de noviembre, junto con el Sindicato de Inquilinas e Inquilinos; la campaña electoral arranca el 13. La CEOE (la patronal) sostiene que el coste total por asalariado ha subido un 30,7 % desde 2018, y la prensa recoge una subida del 4 % de los costes laborales entre abril y junio según el INE. Según una simulación de elEconomista, una huelga secundada por el 50 % de los asalariados costaría el 0,19 % del PIB, es decir, 3.380 millones de euros, y 2.028 millones con un seguimiento del 30 %. Son cálculos aritméticos, sin medición observada. Francia: no hay anunciada ninguna huelga general; las movilizaciones en curso no se han cifrado.</p>
+    <p class="src">Fuentes: <a href="https://www.eldebate.com/economia/20261007/sindicatos-colocan-huelga-general-11-noviembre-dos-dias-antes-empezar-campana-electoral_467069.html" target="_blank" rel="noopener">El Debate</a>, <a href="https://www.elespanol.com/invertia/economia/macroeconomia/20261008/cifras-desmontan-huelga-salarios-suben-costes-laborales-ahogan-economia/1003744412240_0.html" target="_blank" rel="noopener">El Español</a>, <a href="https://www.eleconomista.es/economia/noticias/14019459/10/26/un-seguimiento-del-50-de-la-huelga-costaria-un-019-de-pib-el-equivalente-a-3380-millones.html" target="_blank" rel="noopener">elEconomista</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Para una empresa con operaciones en España, una jornada de huelga pesa sobre todo en la logística y los plazos de entrega. Conviene revisar desde ahora los planes de continuidad del 11 de noviembre y seguir el calendario de campaña de cara a las decisiones regulatorias.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Empresas e inversión</span>
+    <h3>Bancos franceses en España: BPCE en Sabadell, Crédit Agricole en Cajamar, Cetelem a la venta</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>La OPA de BBVA sobre Sabadell fracasó en octubre de 2025 tras 17 meses de batalla, y los bancos españoles buscan accionistas estables. En junio, Crédit Agricole tomó cerca del 10 % de la matriz de Cajamar. BNP Paribas ha puesto a la venta Cetelem, su filial española de crédito al consumo, valorada entre 900 millones y más de 1.000 millones de euros según las fuentes.</p></div>
+    <p class="sum">BPCE ha tomado un 7 % de Sabadell por unos 1.200 millones de euros, se compromete a no superar el 9,99 % y tendrá un asiento en el consejo tras el visto bueno del BCE. Según los documentos remitidos a la CNMV, el 4,16 % pasa por derivados financieros. Los dos bancos exploran una alianza en crédito al consumo y banca de empresas a partir de 2027. Sobre Cetelem se citan CaixaBank, Unicaja, Cofidis (Crédit Mutuel) y Crédit Agricole. Comparación: según Madrid, más de 800 empresas españolas operan en Francia (55.000 empleos), frente a cerca de 3.000 empresas francesas en España.</p>
+    <p class="src">Fuentes: <a href="https://www.eleconomista.es/banca-finanzas/noticias/14018911/10/26/banco-sabadell-incorpora-al-frances-grupo-bcpe-en-el-capital-con-un-7-y-tendra-un-consejero.html" target="_blank" rel="noopener">elEconomista</a>, <a href="https://www.democrata.es/economia/bpce-alcanza-un-4-16-en-banco-sabadell-a-traves-de-derivados-financieros/" target="_blank" rel="noopener">Demócrata</a>, <a href="https://theobjective.com/economia/banca/2026-10-07/bancos-franceses-irrumpen-espanoles-fusiones-europeas/" target="_blank" rel="noopener">The Objective</a>, <a href="https://www.infobae.com/espana/agencias/2026/09/30/espana-y-francia-estrechan-su-cooperacion-para-reforzar-europa-en-un-contexto-complejo/" target="_blank" rel="noopener">Infobae (Europa Press)</a>, <a href="https://portal.mineco.gob.es/es-es/comunicacion/Paginas/declaracion-conjunta-espa%C3%B1a-francia.aspx" target="_blank" rel="noopener">Ministerio de Economía de España</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Estas participaciones minoritarias, por debajo del umbral del 10 %, evitan un mayor consumo de capital y abren alianzas comerciales sin control. Un grupo español que mire al mercado francés debería estudiar estos montajes antes de plantear una adquisición completa: los propios bancos consideran inviables las fusiones transfronterizas mientras las normas difieran.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Inmobiliario</span>
+    <h3>Construcción en caída del 7 % en agosto, alquileres al +2,54 %: la oferta no sigue</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>España carece de vivienda nueva, y el Congreso rechazó el 2 de octubre los primeros decretos de vivienda, que se aprobaron de nuevo el 6. El Real Decreto-ley 29/2026, aún sin convalidar, fijaría en el 2 % la actualización de los alquileres hasta 2027 a falta de acuerdo entre las partes, y autoriza topes de alquiler en zona tensionada.</p></div>
+    <p class="sum">El INE publicó el 14 de octubre dos cifras. El índice de producción de la construcción cae un 7,0 % interanual en agosto en serie corregida de variaciones estacionales (−4,2 % en bruto), con un +0,8 % mensual. El IRAV, índice de referencia de los alquileres de vivienda, sube un 2,54 % interanual en septiembre. Francia: el IRL está en +1,57 % en el tercer trimestre (Insee, 15 de octubre) y el Banco de Francia estima que el valor añadido de la construcción retrocedería un 1,2 % en el tercer trimestre. En los dos países la construcción retrocede mientras suben los alquileres; la diferencia de ritmo es más marcada en España.</p>
+    <p class="src">Fuentes: <a href="https://www.ine.es/" target="_blank" rel="noopener">INE</a>, <a href="https://www.insee.fr/fr/statistiques/9081853" target="_blank" rel="noopener">Insee</a>, <a href="https://www.banque-france.fr/fr/publications-et-statistiques/publications/enquete-mensuelle-de-conjoncture-debut-octobre-2026" target="_blank" rel="noopener">Banco de Francia</a>, <a href="https://aqui.madrid/decreto-de-vivienda-29-2026-lo-que-concede-y-lo-que-niega/" target="_blank" rel="noopener">Aquí Madrid</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Un inversor en vivienda residencial en España debería comparar los dos índices en sus contratos: el IRAV sirve de referencia, mientras que el decreto pendiente fijaría un 2 % a falta de acuerdo. La caída de la producción sostiene la escasez; también alimenta el riesgo regulatorio.</p></aside>
+</article>
+  </section>
+
+  <section id="es-agenda">
+    <h2>A vigilar en las próximas semanas</h2>
+    <ul class="agenda"><li><span class="when">20 de octubre de 2026</span><span class="what">Francia: votación solemne de la Asamblea sobre la primera parte (ingresos) del PLF 2027; votación de conjunto prevista el 17 de noviembre</span></li><li><span class="when">29 de octubre de 2026</span><span class="what">Zona euro: decisión de política monetaria del BCE (tipo de depósito en el 2,50 % desde el 16 de septiembre)</span></li><li><span class="when">30 de octubre de 2026</span><span class="what">Francia y España: estimaciones provisionales de inflación de octubre (Insee, INE); el Insee publica también el PIB del tercer trimestre</span></li><li><span class="when">11 de noviembre de 2026</span><span class="what">España: huelga general de 24 horas (CCOO, UGT, Sindicato de Inquilinas e Inquilinos)</span></li><li><span class="when">29 de noviembre de 2026</span><span class="what">España: elecciones generales, con campaña a partir del 13 de noviembre</span></li></ul>
+  </section>
+
+  
+  <section id="es-glosario">
+    <h2>Las siglas de esta edición</h2>
+    <dl class="glossary"><div><dt>BCE</dt><dd>Banco Central Europeo: fija los tipos de interés oficiales de la zona euro. Su tipo de depósito está en el 2,50 % desde el 16 de septiembre de 2026.</dd></div><div><dt>Bund</dt><dd>Bono del Estado federal alemán, referencia de tipo sin riesgo en la zona euro.</dd></div><div><dt>CNMV</dt><dd>Comisión Nacional del Mercado de Valores: regulador bursátil español, equivalente a la AMF francesa (Autorité des marchés financiers). Recibe la comunicación de toda participación del 3 % o más en una sociedad cotizada.</dd></div><div><dt>Diputación Permanente</dt><dd>Comisión reducida del Congreso que ejerce ciertas funciones durante la disolución de las Cortes, en particular la convalidación de los decretos-leyes en un plazo de treinta días.</dd></div><div><dt>FMI</dt><dd>Fondo Monetario Internacional.</dd></div><div><dt>IBI</dt><dd>Impuesto sobre Bienes Inmuebles: impuesto local sobre la propiedad inmobiliaria que cobran los ayuntamientos; equivale a la taxe foncière francesa.</dd></div><div><dt>ICO</dt><dd>Instituto de Crédito Oficial, banca pública española.</dd></div><div><dt>Insee</dt><dd>Institut national de la statistique et des études économiques: el instituto estadístico oficial de Francia, equivalente al INE español.</dd></div><div><dt>IPCA</dt><dd>Índice de Precios de Consumo Armonizado: la medida de inflación que usa Eurostat para comparar los países de la Unión Europea. Es la cifra citada para España (5,0 %) y Francia (3,4 %) en septiembre de 2026.</dd></div><div><dt>IR-PME</dt><dd>Réduction d&#39;impôt sur le revenu francesa para quienes suscriben capital de pequeñas y medianas empresas; el PLF 2027, tal como se votó en el pleno, eleva el tipo del 18 % al 25 %.</dd></div><div><dt>IRAV</dt><dd>Índice de Referencia de Arrendamientos de Vivienda: índice español de referencia de los alquileres de vivienda, publicado por el INE. Sube un 2,54 % interanual en septiembre de 2026.</dd></div><div><dt>IRL</dt><dd>Indice de référence des loyers: índice francés que el Insee publica cada trimestre y que limita la revisión anual de los alquileres de vivienda en Francia.</dd></div><div><dt>OAT</dt><dd>Obligation assimilable du Trésor: título de deuda del Estado francés, equivalente a los bonos del Tesoro español.</dd></div><div><dt>PLF</dt><dd>Projet de loi de finances: proyecto de ley de presupuestos del Estado francés, que fija ingresos y gastos. El PLF 2027 apunta a un déficit del 5,0 % del PIB.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">Suscribirse en LinkedIn</a>
+  </section>
+
+  
+  <section id="es-archivo" class="archive">
+    <h2>Ediciones anteriores</h2>
+    <ul><li><a href="/ediciones/2026-10-10/">N° 2 — Energía: lo que Francia saca de sus campos y España deja escapar</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Vivienda en España: un déficit de oferta que los decretos no abordaban y unas zonas tensionadas puestas a prueba por los datos</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>El Boletín Rilamax lo publica RILAMAX 2025 SL. Los resúmenes son de elaboración propia a partir de las fuentes citadas. Las lecturas Rilamax son análisis generales y no constituyen asesoramiento de inversión personalizado. Seguimiento y redacción asistidos por IA. Selección, verificación y análisis: Jean Marc Pavia.</p></footer>
+</div>
+
+
+<script>
+(function(){
+  var titles={fr:"Le Bulletin Rilamax \u2014 N\u00b0 3",es:"El Bolet\u00edn Rilamax \u2014 N.\u00ba 3"};
+  function setLang(l){
+    document.querySelectorAll('.edition').forEach(function(e){e.hidden=e.dataset.lang!==l});
+    document.querySelectorAll('.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});
+    document.documentElement.lang=l; document.title=titles[l];
+    try{localStorage.setItem('rilamax-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set);window.scrollTo(0,0)})});
+  var p=new URLSearchParams(location.search).get('lang'); var saved=null;
+  try{saved=localStorage.getItem('rilamax-lang')}catch(e){}
+  var l=(p==='es'||p==='fr')?p:saved; if(l==='es'||l==='fr') setLang(l);
+  // Detalle del gráfico de mix al pasar el ratón, tocar o enfocar un segmento
+  document.querySelectorAll('figure.mix').forEach(function(fig){
+    var info=fig.querySelector('.mix-info'); if(!info) return;
+    fig.querySelectorAll('.seg').forEach(function(sg){
+      function show(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});sg.classList.add('on');info.textContent=sg.getAttribute('data-tip');info.classList.add('act')}
+      sg.addEventListener('mouseenter',show);sg.addEventListener('focus',show);sg.addEventListener('click',show);
+    });
+    fig.addEventListener('mouseleave',function(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});info.textContent=info.getAttribute('data-default');info.classList.remove('act')});
+  });
+  // Animación de los gráficos al aparecer en pantalla
+  try{
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(!reduce&&'IntersectionObserver' in window){
+      var charts=document.querySelectorAll('figure.chart');
+      charts.forEach(function(c){c.classList.add('pre')});
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target)}})},{threshold:.35});
+      charts.forEach(function(c){io.observe(c)});
+    }
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
