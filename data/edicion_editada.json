@@ -261,25 +261,37 @@
     "contexto": "Le PLF 2027 prévoit, à son article 5, de mettre fin à l'effacement de la plus-value en report quand un entrepreneur donne ou lègue les titres de sa holding après un apport-cession (mécanisme qui permet de différer l'impôt sur la plus-value en apportant ses titres à sa holding avant de les revendre). La commission des finances avait déjà adouci le texte le 8 octobre, avant de rejeter l'ensemble de la partie recettes le 9."
    },
    {
-    "rubrica": "Politique et société",
-    "titulo": "Violences du 17 octobre : chômage partiel à 100 %, fonds de soutien et au moins 3 000 commerces touchés",
-    "resumen": "Le ministre du Commerce Serge Papin compte au moins 3 000 commerces touchés, contre 2 000 pour les CCI. Le Premier ministre a activé le chômage partiel à 100 % dès le 20 octobre, annoncé un fonds de soutien spécifique et des reports de charges sociales et fiscales ; le montant du fonds n'est pas encore fixé. Pour lui, « C'est avant tout ceux qui ont cassé qui doivent payer » : un projet de loi dit « casseurs-payeurs » arrive au Sénat le 27 octobre. France Assureurs a allongé à 30 jours le délai de déclaration. En Espagne, le CCS couvre déjà les tumultes populaires, comme le détaille le dossier.",
-    "lectura": "La réponse publique couvre la trésorerie et l'emploi, pas le coût final, qui reste à chiffrer. Pour un groupe qui a des sites en France, la question utile est celle des pertes d'exploitation : le contrat les couvre-t-il en cas d'émeute ? Le calendrier du fonds de soutien et du texte « casseurs-payeurs » mérite un suivi hebdomadaire.",
+    "rubrica": "Finances et marchés",
+    "titulo": "OAT au-dessus de 5 %, activité en contraction : la dette commence à peser sur l'économie réelle",
+    "contexto": "Depuis début octobre, ce bulletin suit la hausse des taux français : écart de 140 points de base avec le Bund allemand le 6 octobre, puis avertissement du FMI le 16 sur une pression budgétaire croissante si les taux restent hauts. Cette semaine, deux seuils ont été franchis en même temps, sur le marché obligataire et dans les enquêtes auprès des entreprises.",
+    "resumen": "Le 21 octobre, l'OAT à dix ans a atteint 5 % pour la première fois depuis juillet 2002, puis 5,14 % le 22, sur fond de doutes quant au redressement des finances publiques. Le 23, l'écart avec le Bund (3,34 %) avoisinait 170 points de base, un plus haut depuis la crise des dettes souveraines. Le même jour, l'indice PMI flash HCOB (enquête mensuelle auprès des directeurs d'achat ; sous 50, l'activité recule) est retombé à 48,4 pour l'ensemble du secteur privé, contre 51,1 en septembre : 48,4 dans les services, 49,3 dans l'industrie. Le crédit immobilier tient encore, autour de 3,7 % sur 20 ans selon Meilleurtaux, mais Allianz Trade anticipe plus de 4 % d'ici au premier trimestre 2027. Espagne : bono à dix ans à 4,05 % le 23 octobre, soit un écart d'environ 71 points avec le Bund. (Sources : Boursorama ; Trading Economics ; S&P Global via investingLive ; Meilleurtaux)",
+    "lectura": "La transmission se fait par trois canaux. L'État refinance chaque année une partie de sa dette à des taux plus élevés, ce qui alourdit la charge d'intérêts que le budget 2027, encore en débat, devra absorber. Les banques répercutent avec retard leur coût de financement sur le crédit aux ménages et aux entreprises. Et la confiance recule, comme le montre le PMI. Un investisseur qui compare les deux pays devrait regarder l'écart de financement plus que le niveau des taux : à monnaie et BCE communes, la France emprunte désormais environ un point plus cher que l'Espagne.",
     "fuentes": [
      {
-      "nombre": "Franceinfo",
-      "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/assurances-chomage-partiel-fonds-de-soutien-sebastien-lecornu-fait-des-annonces-pour-les-commercants-touches-par-les-pillages-du-week-end_8243902.html"
+      "nombre": "Boursorama, l'OAT atteint 5 % (21 octobre)",
+      "url": "https://www.boursorama.com/bourse/actualites/taux-le-rendement-de-l-oat-a-10-ans-atteint-5-pour-la-premiere-fois-depuis-juillet-2002-actualise-38331256bf247784a52c027e0325ad00"
      },
      {
-      "nombre": "LCP",
-      "url": "https://lcp.fr/actualites/commerces-ravages-et-pilles-le-17-octobre-l-etat-au-chevet-des-entreprises-le-projet-de"
+      "nombre": "Boursorama, l'OAT à 5,14 % (22 octobre)",
+      "url": "https://www.boursorama.com/bourse/actualites/france-le-rendement-de-l-oat-a-dix-ans-grimpe-a-5-14-06464487463bcdc4bef39a954787a234"
      },
      {
-      "nombre": "TPE Actu",
-      "url": "https://tpeactu.fr/2026/10/19/pillages-17-octobre-aides-commercants-annonces-lecornu/"
+      "nombre": "Trading Economics, Bund et écart OAT-Bund (23 octobre)",
+      "url": "https://tradingeconomics.com/germany/government-bond-yield"
+     },
+     {
+      "nombre": "Trading Economics, bono espagnol à dix ans",
+      "url": "https://tradingeconomics.com/spain/government-bond-yield"
+     },
+     {
+      "nombre": "investingLive, PMI flash France d'octobre",
+      "url": "https://investinglive.com/news/france-october-pmi-slumps-back-into-contraction-as-political-uncertainty-weighs-on-demand/"
+     },
+     {
+      "nombre": "Meilleurtaux, OAT à 5 % et crédit immobilier",
+      "url": "https://www.meilleurtaux.com/credit-immobilier/actualites/2026-octobre/oat-10-ans-a-5-quelles-consequences-pour-limmo.html"
      }
-    ],
-    "contexto": "Une journée de mobilisation contre la vie chère, le 17 octobre, a dégénéré en pillages et en incendies de bâtiments publics, dont plusieurs hôtels de ville. Les émeutes de 2023 avaient coûté 730 à 793 M€ aux assureurs selon les sources. Le gouvernement de Sébastien Lecornu a réuni une cellule interministérielle de crise le 19 octobre."
+    ]
    },
    {
     "rubrica": "Entreprises et investissement",
@@ -450,6 +462,10 @@
     "definicion": "Mécanisme français qui permet à un entrepreneur de différer l'impôt sur la plus-value en apportant ses titres à sa holding avant de les revendre. Le PLF 2027 veut en limiter l'effacement à la donation."
    },
    {
+    "sigla": "Bund",
+    "definicion": "Obligation de l'État fédéral allemand, référence de taux sans risque en zone euro."
+   },
+   {
     "sigla": "CatNat",
     "definicion": "Régime français d'indemnisation des catastrophes naturelles, en vigueur depuis 1982 et financé par une surprime sur les contrats de dommages, aujourd'hui à 20 % pour l'habitation."
    },
@@ -474,8 +490,16 @@
     "definicion": "Incapacidad temporal : arrêt maladie espagnol, indemnisé à 60 % de la base de calcul jusqu'au 20e jour, puis à 75 %."
    },
    {
+    "sigla": "OAT",
+    "definicion": "Obligation assimilable du Trésor, titre de dette de l'État français."
+   },
+   {
     "sigla": "PLF",
     "definicion": "Projet de loi de finances : texte annuel qui fixe les recettes et les dépenses de l'État français, voté par le Parlement."
+   },
+   {
+    "sigla": "PMI",
+    "definicion": "Indice des directeurs d'achat : enquête mensuelle auprès des entreprises ; au-dessus de 50, l'activité progresse, en dessous elle recule."
    },
    {
     "sigla": "RDL",
@@ -745,23 +769,35 @@
     ]
    },
    {
-    "rubrica": "Política y sociedad",
-    "titulo": "Violencia del 17 de octubre: desempleo parcial al 100 %, fondo de apoyo y al menos 3.000 comercios afectados",
-    "contexto": "Una jornada de movilización contra la carestía de la vida, el 17 de octubre, degeneró en saqueos y en incendios de edificios públicos, entre ellos varios ayuntamientos. Los disturbios de 2023 habían costado de 730 a 793 M€ a las aseguradoras según las fuentes. El Gobierno del primer ministro Sébastien Lecornu reunió una célula interministerial de crisis el 19 de octubre.",
-    "resumen": "El ministro de Comercio, Serge Papin, cuenta al menos 3.000 comercios afectados, frente a 2.000 según las CCI (cámaras de comercio e industria). El primer ministro activó el desempleo parcial al 100 % desde el 20 de octubre (el chômage partiel, mecanismo francés de reducción temporal de jornada financiado por el Estado, parecido a un ERTE), anunció un fondo de apoyo específico y aplazamientos de cargas sociales y fiscales; el importe del fondo aún no está fijado. Según él, «Son ante todo quienes han destrozado los que deben pagar»: un proyecto de ley llamado «casseurs-payeurs» llega al Senado el 27 de octubre. France Assureurs ha ampliado a 30 días el plazo de declaración. En España, el CCS ya cubre los tumultos populares, como detalla el dossier.",
-    "lectura": "La respuesta pública cubre la tesorería y el empleo, no el coste final, que sigue por cuantificar. Para un grupo español con centros en Francia, la pregunta útil es la de la pérdida de beneficios: ¿la cubre el contrato en caso de disturbios? El calendario del fondo de apoyo y del texto «casseurs-payeurs» merece un seguimiento semanal.",
+    "rubrica": "Finanzas y mercados",
+    "titulo": "OAT por encima del 5 % y actividad en contracción: la deuda empieza a pesar en la economía real",
+    "contexto": "Desde principios de octubre, este boletín sigue la subida de los tipos franceses: diferencial de 140 puntos básicos con el Bund alemán el 6 de octubre y aviso del FMI el día 16 sobre una presión presupuestaria creciente si los tipos siguen altos. Esta semana se han cruzado dos umbrales a la vez, en el mercado de deuda y en las encuestas a empresas.",
+    "resumen": "El 21 de octubre, la OAT a diez años (bono del Estado francés) alcanzó el 5 % por primera vez desde julio de 2002, y el 22 subió al 5,14 %, por las dudas sobre el saneamiento de las finanzas públicas. El 23, el diferencial con el Bund (3,34 %) rondaba los 170 puntos básicos, máximo desde la crisis de la deuda soberana. Ese mismo día, el índice PMI flash HCOB (encuesta mensual a directores de compras; por debajo de 50, la actividad retrocede) cayó a 48,4 para el conjunto del sector privado, frente a 51,1 en septiembre: 48,4 en servicios y 49,3 en industria. El crédito hipotecario aguanta, en torno al 3,7 % a 20 años según Meilleurtaux, pero Allianz Trade prevé más del 4 % antes del primer trimestre de 2027. España: bono a diez años al 4,05 % el 23 de octubre, un diferencial de unos 71 puntos con el Bund. (Fuentes: Boursorama; Trading Economics; S&P Global vía investingLive; Meilleurtaux)",
+    "lectura": "La transmisión llega por tres vías. El Estado refinancia cada año parte de su deuda a tipos más altos, lo que encarece los intereses que tendrá que absorber el presupuesto de 2027, aún en debate. Los bancos trasladan con retraso su coste de financiación al crédito a hogares y empresas. Y la confianza cae, como muestra el PMI. Un inversor que compare ambos países debería fijarse en el diferencial de financiación más que en el nivel de los tipos: con la misma moneda y el mismo BCE, Francia se financia ya cerca de un punto más caro que España.",
     "fuentes": [
      {
-      "nombre": "Franceinfo",
-      "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/assurances-chomage-partiel-fonds-de-soutien-sebastien-lecornu-fait-des-annonces-pour-les-commercants-touches-par-les-pillages-du-week-end_8243902.html"
+      "nombre": "Boursorama, la OAT alcanza el 5 % (21 de octubre)",
+      "url": "https://www.boursorama.com/bourse/actualites/taux-le-rendement-de-l-oat-a-10-ans-atteint-5-pour-la-premiere-fois-depuis-juillet-2002-actualise-38331256bf247784a52c027e0325ad00"
      },
      {
-      "nombre": "LCP",
-      "url": "https://lcp.fr/actualites/commerces-ravages-et-pilles-le-17-octobre-l-etat-au-chevet-des-entreprises-le-projet-de"
+      "nombre": "Boursorama, la OAT al 5,14 % (22 de octubre)",
+      "url": "https://www.boursorama.com/bourse/actualites/france-le-rendement-de-l-oat-a-dix-ans-grimpe-a-5-14-06464487463bcdc4bef39a954787a234"
      },
      {
-      "nombre": "TPE Actu",
-      "url": "https://tpeactu.fr/2026/10/19/pillages-17-octobre-aides-commercants-annonces-lecornu/"
+      "nombre": "Trading Economics, Bund y diferencial OAT-Bund (23 de octubre)",
+      "url": "https://tradingeconomics.com/germany/government-bond-yield"
+     },
+     {
+      "nombre": "Trading Economics, bono español a diez años",
+      "url": "https://tradingeconomics.com/spain/government-bond-yield"
+     },
+     {
+      "nombre": "investingLive, PMI flash de Francia de octubre",
+      "url": "https://investinglive.com/news/france-october-pmi-slumps-back-into-contraction-as-political-uncertainty-weighs-on-demand/"
+     },
+     {
+      "nombre": "Meilleurtaux, OAT al 5 % y crédito hipotecario",
+      "url": "https://www.meilleurtaux.com/credit-immobilier/actualites/2026-octobre/oat-10-ans-a-5-quelles-consequences-pour-limmo.html"
      }
     ]
    },
@@ -934,6 +970,10 @@
     "definicion": "Mecanismo francés que permite a un empresario diferir el impuesto sobre la plusvalía aportando sus títulos a su sociedad holding antes de venderlos. El PLF 2027 pretende restringir la extinción de la plusvalía diferida cuando hay donación."
    },
    {
+    "sigla": "Bund",
+    "definicion": "Bono del Estado federal alemán, referencia de tipo sin riesgo en la zona euro."
+   },
+   {
     "sigla": "CatNat",
     "definicion": "Régimen francés de indemnización de catástrofes naturales, vigente desde 1982 y financiado con un recargo sobre los contratos de seguro de daños, hoy del 20 % para la vivienda."
    },
@@ -962,8 +1002,16 @@
     "definicion": "Incapacidad temporal: baja por enfermedad, indemnizada al 60 % de la base de cálculo hasta el día 20 y al 75 % después."
    },
    {
+    "sigla": "OAT",
+    "definicion": "Obligation assimilable du Trésor: título de deuda del Estado francés, equivalente a los bonos del Tesoro español."
+   },
+   {
     "sigla": "PLF",
     "definicion": "Projet de loi de finances: texto anual que fija los ingresos y los gastos del Estado francés, votado por el Parlamento; es el equivalente francés a los Presupuestos Generales del Estado."
+   },
+   {
+    "sigla": "PMI",
+    "definicion": "Índice de gestores de compras: encuesta mensual a empresas; por encima de 50, la actividad crece; por debajo, retrocede."
    },
    {
     "sigla": "RDL",
