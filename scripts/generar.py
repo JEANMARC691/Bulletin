@@ -186,7 +186,29 @@ def completar(ed, system, contexto, buscar):
 
 
 # ---------------------------------------------------------------- Validación
+ALIAS_NOTICIA = {"contexte": "contexto", "context": "contexto", "résumé": "resumen", "resume": "resumen",
+                 "lecture": "lectura", "sources": "fuentes", "titre": "titulo", "rubrique": "rubrica"}
+
+
+def normalizar(ed, idioma):
+    """Corrige claves que Claude a veces traduce (p. ej. «contexte» en vez de «contexto») y el nombre del boletín."""
+    for sec in ("francia", "espana"):
+        for n in ed.get(sec) or []:
+            for mal, bien in ALIAS_NOTICIA.items():
+                if mal in n and not n.get(bien):
+                    n[bien] = n.pop(mal)
+    for c in ed.get("cifras") or []:
+        if "comparaison" in c and not c.get("comparacion"):
+            c["comparacion"] = c.pop("comparaison")
+    if idioma == "es" and isinstance(ed.get("linkedin"), dict):
+        for k, v in ed["linkedin"].items():
+            if isinstance(v, str):
+                ed["linkedin"][k] = re.sub(r"\b(?:del|el) Bulletin Rilamax", lambda m: m.group(0).split()[0] + " Boletín Rilamax", v)
+    return ed
+
+
 def validar(ed, idioma):
+    ed = normalizar(ed, idioma)
     faltan = [k for k in OBLIGATORIOS if not ed.get(k)]
     if faltan:
         raise ValueError(f"Edición {idioma}: faltan apartados {faltan}")
