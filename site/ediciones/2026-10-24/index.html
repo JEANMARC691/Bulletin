@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Le Bulletin Rilamax — N° 4</title>
+<meta name="description" content="Émeutes et inondations : deux modèles pour payer le risque qui s&#39;emballe">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Le Bulletin Rilamax">
+<meta property="og:title" content="Le Bulletin Rilamax N° 4 · Émeutes et inondations : deux modèles pour payer le risque qui s&#39;emballe">
+<meta property="og:description" content="Pillages en France, inondations en Espagne : la même semaine, deux pays ont dû établir qui rembourse. Leurs réponses diffèrent par l&#39;âge et par la conception : un guichet public espagnol ancien, un régime français encore en chantier pour les émeutes. Les chiffres disponibles permettent déjà de comparer.">
+<meta property="og:image" content="https://bulletin.rilamax.com/portada.png">
+<meta property="og:url" content="https://bulletin.rilamax.com/ediciones/2026-10-24/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --paper:#F5F7FA; --surface:#FFFFFF; --ink:#16233D; --muted:#5A6478; --rule:#D9DEE7;
+  --fr:#2F4FA8; --fr-soft:#E7ECF8; --es:#B5751A; --es-soft:#F8EEDD;
+  --note:#1F5C55; --note-soft:#E4F0EE;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+    --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+    --note:#7FCBC0; --note-soft:#173532;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+  --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+  --note:#7FCBC0; --note-soft:#173532;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.55}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--fr);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.25rem}
+.serif{font-family:"Literata",Georgia,serif}
+
+/* Masthead */
+.mast{padding:2.5rem 0 1.75rem}
+.bridge{display:flex;align-items:center;gap:.75rem;color:var(--muted);font-size:.9rem}
+.bridge .line{flex:1;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--fr) 0 50%,var(--es) 50% 100%)}
+h1{font-family:"Literata",Georgia,serif;font-weight:700;font-size:clamp(2.2rem,6vw,3.6rem);line-height:1.05;letter-spacing:-.02em;margin:1rem 0 .5rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;color:var(--muted);font-size:.95rem}
+
+/* Sommaire */
+.toc{position:sticky;top:0;z-index:5;background:var(--paper);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.toc ul{list-style:none;margin:0;padding:.6rem 0;display:flex;gap:1.25rem;overflow-x:auto;white-space:nowrap;font-size:.92rem}
+.toc a{text-decoration:none;color:var(--muted)}
+.toc a:hover{color:var(--ink)}
+
+section{padding:2.75rem 0;border-bottom:1px solid var(--rule)}
+h2{font-family:"Literata",Georgia,serif;font-size:1.75rem;line-height:1.2;margin:0 0 1.25rem}
+.lede{color:var(--muted);margin:-.75rem 0 1.5rem;max-width:62ch}
+
+/* Edito */
+.edito{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:780px){.edito{grid-template-columns:1.7fr 1fr}}
+.edito .body p{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;margin:0 0 1rem;max-width:62ch}
+.edito .sign{font-size:.92rem;color:var(--muted)}
+.keys{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:1.4rem 1.5rem;align-self:start}
+.keys h3{margin:0 0 .8rem;font-size:1rem}
+.keys ol{margin:0;padding-left:1.2rem}
+.keys li{margin:0 0 .6rem}
+
+/* Chiffres */
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.fig{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--c);border-radius:4px 4px 10px 10px;padding:1.1rem 1.25rem}
+.fig.fr{--c:var(--fr)} .fig.es{--c:var(--es)}
+.fig strong{display:block;font-family:"Literata",Georgia,serif;font-size:2.2rem;line-height:1.05;color:var(--c)}
+.fig span{display:block;margin-top:.5rem;font-size:.93rem}
+.fig small{display:block;margin-top:.4rem;color:var(--muted);font-size:.8rem}
+
+/* Dossier */
+.dossier .intro{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;max-width:66ch;margin:0 0 1.75rem}
+.cols{display:grid;grid-template-columns:1fr;gap:1rem;margin-bottom:1.5rem}
+@media(min-width:780px){.cols{grid-template-columns:repeat(3,1fr)}}
+.col{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1.2rem 1.3rem}
+.col h3{margin:0 0 .6rem;font-size:1.02rem}
+.col ul{margin:0;padding-left:1.1rem}
+.col li{margin:0 0 .55rem;font-size:.95rem}
+
+/* Items */
+.country-head{display:flex;align-items:center;gap:.75rem;margin:0 0 .5rem}
+.country-head .bar{width:28px;height:6px;border-radius:3px;background:var(--c)}
+.country-head.fr{--c:var(--fr)} .country-head.es{--c:var(--es)}
+.item{display:grid;grid-template-columns:1fr;gap:1rem 2.5rem;padding:1.75rem 0;border-top:1px solid var(--rule)}
+.item:first-of-type{border-top:0}
+@media(min-width:780px){.item{grid-template-columns:1.5fr 1fr}}
+.tag{display:inline-flex;align-items:center;gap:.5rem;font-size:.86rem;font-weight:600;padding:.2rem .65rem;border-radius:6px}
+.tag.fr{background:var(--fr-soft);color:var(--fr)}
+.tag.es{background:var(--es-soft);color:var(--es)}
+.item h3{font-family:"Literata",Georgia,serif;font-size:1.35rem;line-height:1.25;margin:.7rem 0 .55rem;max-width:32ch}
+.item .sum{margin:0 0 .8rem;max-width:62ch}
+.src{font-size:.86rem;color:var(--muted)}
+.src a{color:var(--muted);text-underline-offset:3px}
+.lecture{align-self:start;background:var(--note-soft);border-left:3px solid var(--note);border-radius:0 10px 10px 0;padding:1.1rem 1.25rem}
+.lecture h4{margin:0 0 .45rem;font-size:.93rem;font-weight:600;color:var(--note)}
+.lecture p{margin:0;font-family:"Literata",Georgia,serif;font-size:1rem;line-height:1.65}
+
+/* Agenda */
+.agenda{list-style:none;margin:0;padding:0;display:grid;gap:.75rem}
+.agenda li{display:grid;grid-template-columns:8.5rem 1fr;gap:1rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1rem 1.2rem}
+@media(max-width:560px){.agenda li{grid-template-columns:1fr;gap:.25rem}}
+.agenda .when{font-weight:600}
+.agenda .what{max-width:62ch}
+
+/* CTA + footer */
+.cta{display:grid;grid-template-columns:1fr;gap:1.25rem;align-items:center}
+@media(min-width:780px){.cta{grid-template-columns:1.6fr 1fr}}
+.cta p{font-family:"Literata",Georgia,serif;font-size:1.1rem;margin:0;max-width:56ch}
+.btn{display:inline-block;text-align:center;text-decoration:none;font-weight:600;background:var(--ink);color:var(--paper);padding:.85rem 1.3rem;border-radius:10px}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.86rem}
+footer p{max-width:72ch;margin:0 0 .6rem}
+
+
+.titlerow{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.langs{display:inline-flex;border:1px solid var(--rule);border-radius:999px;padding:3px;background:var(--surface);margin-bottom:.6rem}
+.langs button{font:inherit;font-size:.88rem;font-weight:600;border:0;background:transparent;color:var(--muted);padding:.35rem .85rem;border-radius:999px;cursor:pointer}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--fr);outline-offset:2px}
+.edition[hidden]{display:none}
+
+.dfigs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:12px;overflow:hidden;margin:0 0 2.25rem}
+.dfigs div{background:var(--surface);padding:1.1rem 1.25rem}
+.dfigs strong{display:block;font-family:"Literata",Georgia,serif;font-size:1.9rem;line-height:1.1;color:var(--es)}
+.dfigs span{display:block;margin-top:.35rem;font-size:.9rem;color:var(--muted)}
+.longform{max-width:none}
+.longform>h3,.longform>p,.longform>.debate{max-width:68ch}
+.longform>figure{max-width:860px}
+.longform h3{font-family:"Literata",Georgia,serif;font-size:1.3rem;line-height:1.3;margin:2.25rem 0 .75rem}
+.longform h3:first-child{margin-top:0}
+.longform p{font-family:"Literata",Georgia,serif;font-size:1.06rem;line-height:1.78;margin:0 0 1.1rem}
+.chart{margin:1.5rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.bar-row{display:grid;grid-template-columns:9.5rem 1fr 5.5rem;align-items:center;gap:.75rem;margin:.45rem 0;font-size:.92rem}
+.bar-row .bar{display:block;height:14px;border-radius:7px;background:#D9DEE7;background:var(--rule);overflow:hidden}
+.bar-row .fill{display:block;height:14px;width:0;border-radius:7px;background:#B5751A;background:var(--es)}
+.bar-row .fill.c-muted{background:#5A6478;background:var(--muted)}
+.bar-row .fill.c-fr{background:#2F4FA8;background:var(--fr)}
+.bar-row .val{font-weight:600;text-align:right}
+.chart figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted)}
+@media(max-width:560px){.bar-row{grid-template-columns:1fr auto}.bar-row .bar{grid-column:1/-1;order:3}}
+.debate{margin:1.5rem 0;padding:1rem 1.25rem;border:1px dashed var(--rule);border-radius:10px}
+.debate h4,.watch h4{margin:0 0 .4rem;font-size:.95rem}
+.debate p,.watch p{margin:0;font-size:.97rem;font-family:"Public Sans",system-ui,sans-serif;line-height:1.6}
+.dossier .lecture{margin-top:2rem;max-width:none}
+.dossier .lecture p{font-size:1.06rem}
+.watch{margin:1.25rem 0;padding:1rem 1.25rem;background:var(--es-soft);border-radius:10px}
+.dossier .src{margin-top:1rem;line-height:1.7}
+
+.archive ul{list-style:none;margin:0;padding:0;display:grid;gap:.5rem}
+.archive a{text-underline-offset:3px}
+.archive li span{color:var(--muted);font-size:.9rem;margin-left:.5rem}
+.bar-row .fill.w1{width:1%}.bar-row .fill.w2{width:2%}.bar-row .fill.w3{width:3%}.bar-row .fill.w4{width:4%}.bar-row .fill.w5{width:5%}.bar-row .fill.w6{width:6%}.bar-row .fill.w7{width:7%}.bar-row .fill.w8{width:8%}.bar-row .fill.w9{width:9%}.bar-row .fill.w10{width:10%}.bar-row .fill.w11{width:11%}.bar-row .fill.w12{width:12%}.bar-row .fill.w13{width:13%}.bar-row .fill.w14{width:14%}.bar-row .fill.w15{width:15%}.bar-row .fill.w16{width:16%}.bar-row .fill.w17{width:17%}.bar-row .fill.w18{width:18%}.bar-row .fill.w19{width:19%}.bar-row .fill.w20{width:20%}.bar-row .fill.w21{width:21%}.bar-row .fill.w22{width:22%}.bar-row .fill.w23{width:23%}.bar-row .fill.w24{width:24%}.bar-row .fill.w25{width:25%}.bar-row .fill.w26{width:26%}.bar-row .fill.w27{width:27%}.bar-row .fill.w28{width:28%}.bar-row .fill.w29{width:29%}.bar-row .fill.w30{width:30%}.bar-row .fill.w31{width:31%}.bar-row .fill.w32{width:32%}.bar-row .fill.w33{width:33%}.bar-row .fill.w34{width:34%}.bar-row .fill.w35{width:35%}.bar-row .fill.w36{width:36%}.bar-row .fill.w37{width:37%}.bar-row .fill.w38{width:38%}.bar-row .fill.w39{width:39%}.bar-row .fill.w40{width:40%}.bar-row .fill.w41{width:41%}.bar-row .fill.w42{width:42%}.bar-row .fill.w43{width:43%}.bar-row .fill.w44{width:44%}.bar-row .fill.w45{width:45%}.bar-row .fill.w46{width:46%}.bar-row .fill.w47{width:47%}.bar-row .fill.w48{width:48%}.bar-row .fill.w49{width:49%}.bar-row .fill.w50{width:50%}.bar-row .fill.w51{width:51%}.bar-row .fill.w52{width:52%}.bar-row .fill.w53{width:53%}.bar-row .fill.w54{width:54%}.bar-row .fill.w55{width:55%}.bar-row .fill.w56{width:56%}.bar-row .fill.w57{width:57%}.bar-row .fill.w58{width:58%}.bar-row .fill.w59{width:59%}.bar-row .fill.w60{width:60%}.bar-row .fill.w61{width:61%}.bar-row .fill.w62{width:62%}.bar-row .fill.w63{width:63%}.bar-row .fill.w64{width:64%}.bar-row .fill.w65{width:65%}.bar-row .fill.w66{width:66%}.bar-row .fill.w67{width:67%}.bar-row .fill.w68{width:68%}.bar-row .fill.w69{width:69%}.bar-row .fill.w70{width:70%}.bar-row .fill.w71{width:71%}.bar-row .fill.w72{width:72%}.bar-row .fill.w73{width:73%}.bar-row .fill.w74{width:74%}.bar-row .fill.w75{width:75%}.bar-row .fill.w76{width:76%}.bar-row .fill.w77{width:77%}.bar-row .fill.w78{width:78%}.bar-row .fill.w79{width:79%}.bar-row .fill.w80{width:80%}.bar-row .fill.w81{width:81%}.bar-row .fill.w82{width:82%}.bar-row .fill.w83{width:83%}.bar-row .fill.w84{width:84%}.bar-row .fill.w85{width:85%}.bar-row .fill.w86{width:86%}.bar-row .fill.w87{width:87%}.bar-row .fill.w88{width:88%}.bar-row .fill.w89{width:89%}.bar-row .fill.w90{width:90%}.bar-row .fill.w91{width:91%}.bar-row .fill.w92{width:92%}.bar-row .fill.w93{width:93%}.bar-row .fill.w94{width:94%}.bar-row .fill.w95{width:95%}.bar-row .fill.w96{width:96%}.bar-row .fill.w97{width:97%}.bar-row .fill.w98{width:98%}.bar-row .fill.w99{width:99%}.bar-row .fill.w100{width:100%}
+
+.glossary{margin:0;display:grid;grid-template-columns:1fr;gap:.6rem}
+@media(min-width:780px){.glossary{grid-template-columns:1fr 1fr}}
+.glossary div{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:.9rem 1.1rem}
+.glossary dt{font-weight:600;color:var(--fr);margin:0 0 .2rem}
+.glossary dd{margin:0;font-size:.95rem;line-height:1.55}
+
+.chart-t{margin:0 0 .7rem;font-weight:600;font-size:.95rem}
+.bar-row .fill{transition:width 1.1s cubic-bezier(.2,.7,.2,1)}
+.chart.pre .bar-row .fill,.chart.pre .seg{width:0 !important}
+.mix-row{display:grid;grid-template-columns:6.5rem 1fr;align-items:center;gap:.75rem;margin:.55rem 0;font-size:.92rem}
+.mix-bar{display:flex;height:30px;border-radius:7px;overflow:hidden;background:var(--rule)}
+.seg{display:flex;align-items:center;justify-content:center;height:100%;width:0;color:#fff;font-style:normal;font-size:.75rem;font-weight:600;position:relative;transition:width 1.2s cubic-bezier(.2,.7,.2,1);cursor:default;outline:none}
+.seg i{font-style:normal;white-space:nowrap;overflow:hidden}
+.seg:hover,.seg:focus{filter:brightness(1.12)}
+.mix-legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin-top:.75rem;font-size:.82rem;color:var(--muted)}
+.mix-legend b{display:inline-block;width:.8rem;height:.8rem;border-radius:3px;margin-right:.35rem;vertical-align:-1px}
+.k-nuclear{background:#6C4AB6}.k-fosil{background:#5A6478}.k-eolica{background:#2F8F83}.k-solar{background:#D9A21B}.k-hidro{background:#2F4FA8}.k-biomasa{background:#7A9A3A}.k-otros{background:#A3ADC0}
+.mix .chart.pre .seg{width:0}
+.seg[class*=" w"]{flex:none}
+.seg.w1{width:1%}.seg.w2{width:2%}.seg.w3{width:3%}.seg.w4{width:4%}.seg.w5{width:5%}.seg.w6{width:6%}.seg.w7{width:7%}.seg.w8{width:8%}.seg.w9{width:9%}.seg.w10{width:10%}.seg.w11{width:11%}.seg.w12{width:12%}.seg.w13{width:13%}.seg.w14{width:14%}.seg.w15{width:15%}.seg.w16{width:16%}.seg.w17{width:17%}.seg.w18{width:18%}.seg.w19{width:19%}.seg.w20{width:20%}.seg.w21{width:21%}.seg.w22{width:22%}.seg.w23{width:23%}.seg.w24{width:24%}.seg.w25{width:25%}.seg.w26{width:26%}.seg.w27{width:27%}.seg.w28{width:28%}.seg.w29{width:29%}.seg.w30{width:30%}.seg.w31{width:31%}.seg.w32{width:32%}.seg.w33{width:33%}.seg.w34{width:34%}.seg.w35{width:35%}.seg.w36{width:36%}.seg.w37{width:37%}.seg.w38{width:38%}.seg.w39{width:39%}.seg.w40{width:40%}.seg.w41{width:41%}.seg.w42{width:42%}.seg.w43{width:43%}.seg.w44{width:44%}.seg.w45{width:45%}.seg.w46{width:46%}.seg.w47{width:47%}.seg.w48{width:48%}.seg.w49{width:49%}.seg.w50{width:50%}.seg.w51{width:51%}.seg.w52{width:52%}.seg.w53{width:53%}.seg.w54{width:54%}.seg.w55{width:55%}.seg.w56{width:56%}.seg.w57{width:57%}.seg.w58{width:58%}.seg.w59{width:59%}.seg.w60{width:60%}.seg.w61{width:61%}.seg.w62{width:62%}.seg.w63{width:63%}.seg.w64{width:64%}.seg.w65{width:65%}.seg.w66{width:66%}.seg.w67{width:67%}.seg.w68{width:68%}.seg.w69{width:69%}.seg.w70{width:70%}.seg.w71{width:71%}.seg.w72{width:72%}.seg.w73{width:73%}.seg.w74{width:74%}.seg.w75{width:75%}.seg.w76{width:76%}.seg.w77{width:77%}.seg.w78{width:78%}.seg.w79{width:79%}.seg.w80{width:80%}.seg.w81{width:81%}.seg.w82{width:82%}.seg.w83{width:83%}.seg.w84{width:84%}.seg.w85{width:85%}.seg.w86{width:86%}.seg.w87{width:87%}.seg.w88{width:88%}.seg.w89{width:89%}.seg.w90{width:90%}.seg.w91{width:91%}.seg.w92{width:92%}.seg.w93{width:93%}.seg.w94{width:94%}.seg.w95{width:95%}.seg.w96{width:96%}.seg.w97{width:97%}.seg.w98{width:98%}.seg.w99{width:99%}.seg.w100{width:100%}
+
+.seg{cursor:pointer}
+.seg.on{filter:brightness(1.18);box-shadow:inset 0 0 0 2px rgba(255,255,255,.85)}
+.mix-info{margin:.7rem 0 0;padding:.5rem .75rem;border-radius:8px;background:var(--paper);font-size:.88rem;color:var(--muted);min-height:1.2em}
+.mix-info.act{color:var(--ink);font-weight:600;background:var(--fr-soft)}
+.cite{font-family:"Public Sans",system-ui,sans-serif;font-size:.78rem;color:var(--muted);white-space:normal}
+.cite a{color:var(--muted);text-underline-offset:2px}
+.illus{margin:1.6rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.illus figcaption,.cmp figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted);font-family:"Public Sans",system-ui,sans-serif}
+.cmp{margin:1.75rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;max-width:none}
+.cmp-wrap{overflow-x:auto}
+.cmp table{width:100%;border-collapse:collapse;font-size:.88rem;font-family:"Public Sans",system-ui,sans-serif;min-width:560px}
+.cmp th,.cmp td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.cmp thead th{font-weight:600;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.cmp thead th:nth-child(2){color:var(--fr)}.cmp thead th:nth-child(3){color:var(--es)}
+.cmp tbody th{font-weight:600}
+.cmp td{white-space:nowrap}
+.cmp td.src-cell{white-space:normal}
+.cmp td.src-cell .cite{font-size:.75rem}
+.longform .cmp,.longform .illus{max-width:none}
+
+.mix-info{font-family:"Public Sans",system-ui,sans-serif !important;font-size:.88rem !important;line-height:1.5 !important}
+.cmp td.src-cell{min-width:9rem}
+
+.lecture p+p{margin-top:.8rem}
+
+.ctx{margin:.2rem 0 .9rem;padding:.75rem 1rem;background:var(--paper);border:1px solid var(--rule);border-radius:8px;max-width:62ch}
+.ctx-l{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:.25rem}
+.ctx p{margin:0;font-size:.95rem;line-height:1.6}
+.fig .cmp-o{display:block;margin-top:.45rem;font-style:normal;font-size:.85rem;font-weight:600;padding-top:.4rem;border-top:1px dashed var(--rule)}
+.fig .cmp-o.fr{color:var(--fr)}.fig .cmp-o.es{color:var(--es)}
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="edition" data-lang="fr" lang="fr">
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>France</span><span class="line" aria-hidden="true"></span><span>Espagne</span></div>
+    <div class="titlerow">
+      <h1>Le Bulletin Rilamax</h1>
+      <div class="langs" role="group" aria-label="Langue"><button type="button" data-set="fr" aria-pressed="true">FR</button><button type="button" data-set="es" aria-pressed="false">ES</button></div>
+    </div>
+    <div class="meta"><span>N° 4 · Semaine 43</span><span>Du 19 au 24 octobre 2026</span><span>Lecture : 19 minutes</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sommaire">
+  <div class="wrap"><ul>
+    <li><a href="#fr-edito">L&#39;édito</a></li>
+    <li><a href="#fr-cifras">Les chiffres</a></li>
+    <li><a href="#fr-dossier">Le dossier</a></li>
+    <li><a href="#fr-fr">France</a></li>
+    <li><a href="#fr-es">Espagne</a></li>
+    <li><a href="#fr-agenda">À surveiller</a></li>
+    <li><a href="#fr-glosario">Lexique</a></li>
+    <li><a href="/archivo/?lang=fr">Toutes les éditions</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="fr-edito">
+    <h2>Émeutes françaises, inondations espagnoles : deux factures, deux régimes</h2>
+    <div class="edito">
+      <div class="body">
+        <p>Deux épisodes ont occupé la semaine, de part et d&#39;autre des Pyrénées. En France, les violences du 17 octobre ont touché au moins 3 000 commerces selon le gouvernement, et Morningstar DBRS (agence de notation) plafonne les pertes assurées à 1,2 Md€ si elles ne s&#39;étendent pas. En Espagne, la dana Adam a déclenché 6 528 demandes d&#39;indemnisation au CCS (Consorcio de Compensación de Seguros, organisme public qui indemnise les risques dits extraordinaires) au 22 octobre.</p><p>Les deux pays ont des mécanismes pour absorber ces chocs, mais pas du même âge. Le CCS espagnol couvre inondations et tumultes populaires par une surprime obligatoire, dans sa forme actuelle depuis plus de soixante-dix ans. La France a voté en février une garantie émeutes qui attend toujours son décret et l&#39;accord de la Commission européenne : elle ne jouera pas pour les dégâts d&#39;octobre. Le dossier détaille les deux modèles, chiffres à l&#39;appui.</p><p>Côté budget, l&#39;Assemblée nationale n&#39;a pas pu voter le 20 octobre la partie recettes du projet de loi de finances (PLF) pour 2027, le texte qui fixe les impôts de l&#39;État français : il restait environ 2 600 amendements, et l&#39;examen reprend le 27 octobre. Le ministre des Comptes publics chiffre à 10 Md€ la dégradation du déficit à ce stade, avant même la fin du débat.</p><p>Je retiens de ces sept jours un point de méthode : les chiffres de sinistres arrivent bien avant les décrets. Le coût réel des violences d&#39;octobre sera connu dans des mois ; celui de la dana de 2024 reste estimé à 4,8 Md€ deux ans après les faits. Les entreprises qui opèrent des deux côtés de la frontière ont intérêt à relire leurs polices avant la prochaine alerte.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Les trois points à retenir</h3>
+        <ol><li>La garantie émeutes française n&#39;existe encore que sur le papier, alors que le Consorcio espagnol couvre déjà les tumultes.</li><li>Violences d&#39;octobre en France : jusqu&#39;à 1,2 Md€ de pertes assurées ; dana Adam : 6 528 demandes au 22 octobre.</li><li>Budget 2027 : l&#39;examen des recettes reprend le 27 octobre, avec une échéance au 17 novembre avant le Sénat.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="fr-cifras">
+    <h2>Les chiffres de la semaine</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>1,2 Md€</strong><span>Pertes assurées maximales estimées pour les violences des 17 et 18 octobre en France, si elles ne s&#39;étendent pas.</span><em class="cmp-o es">France, émeutes de 2023 : 730 à 793 M€ selon les sources. Espagne : pas d&#39;épisode comparable cette semaine.</em><small>Morningstar DBRS, via L&#39;Assurance en mouvement</small></div><div class="fig fr"><strong>2,345 €</strong><span>Prix moyen du litre de gazole en France, taxes comprises, du 13 au 19 octobre.</span><em class="cmp-o es">Espagne : 1,889 € (13-19 octobre).</em><small>Bulletin pétrolier de l&#39;Union européenne</small></div><div class="fig fr"><strong>+1,2 %</strong><span>Ventes à périmètre comparable de Carrefour en France au troisième trimestre 2026.</span><em class="cmp-o es">Espagne : +2,1 % (troisième trimestre 2026).</em><small>Carrefour (communiqué du 20 octobre)</small></div><div class="fig es"><strong>6 528</strong><span>Demandes d&#39;indemnisation reçues par le CCS pour la dana Adam entre le 16 et le 18 octobre, au 22 octobre.</span><em class="cmp-o fr">France : au moins 3 000 commerces touchés le 17 octobre (gouvernement) ; pas de donnée strictement comparable.</em><small>CCS (Consorcio de Compensación de Seguros)</small></div><div class="fig es"><strong>40,1 M</strong><span>Nuitées dans les hôtels espagnols en septembre, soit +1,7 % sur un an.</span><em class="cmp-o fr">France : 92,0 M de nuitées hôtelières de mai à août, +1,7 % (Insee, institut français de la statistique, 29 septembre).</em><small>INE (institut espagnol de la statistique)</small></div><div class="fig es"><strong>3,04 %</strong><span>Taux moyen des nouveaux crédits immobiliers aux ménages en Espagne en août, contre 2,69 % un an plus tôt.</span><em class="cmp-o fr">France : 3,32 % en août (Banque de France).</em><small>Banque d&#39;Espagne, via euribor.com.es</small></div>
+    </div>
+  </section>
+
+  
+  <section id="fr-dossier" class="dossier">
+    <h2>Le dossier : Émeutes et inondations : deux modèles pour payer le risque qui s&#39;emballe</h2>
+    <p class="intro">Pillages en France, inondations en Espagne : la même semaine, deux pays ont dû établir qui rembourse. Leurs réponses diffèrent par l&#39;âge et par la conception : un guichet public espagnol ancien, un régime français encore en chantier pour les émeutes. Les chiffres disponibles permettent déjà de comparer.</p>
+    <div class="dfigs"><div><strong>1,2 Md€</strong><span>pertes assurées maximales estimées pour les violences des 17-18 octobre en France</span></div><div><strong>6 528</strong><span>demandes reçues par le CCS pour la dana Adam au 22 octobre</span></div><div><strong>4,8 Md€</strong><span>coût final estimé par le CCS pour la dana de 2024</span></div><div><strong>1,5 %</strong><span>plafond de la contribution des assureurs français au futur fonds émeutes</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. Deux chocs en une semaine</h3>
+        <p>Le 17 octobre, une journée de mobilisation contre la vie chère a tourné aux pillages dans plusieurs villes françaises. Le gouvernement compte au moins 3 000 commerces touchés, le réseau des CCI (chambres de commerce et d&#39;industrie) 2 000. Selon Morningstar DBRS, les pertes assurées resteraient sous 1,2 Md€ si les violences ne s&#39;étendent pas, un montant supérieur aux 730 à 793 M€ des émeutes de 2023 selon les sources. L&#39;agence relève que les troubles civils prennent désormais les traits d&#39;un risque de catastrophe.</p><p>Du 16 au 18 octobre, la dana Adam (dépression isolée en altitude, qui provoque des pluies torrentielles) a frappé la province de Valence et d&#39;autres régions espagnoles. Au 22 octobre, le CCS avait reçu 6 528 demandes d&#39;indemnisation : 5 007 dans la province de Valence, dont 2 760 à Oliva. Il juge trop tôt pour chiffrer les dommages et rappelle que l&#39;indemnisation des assurés est automatique, sans attendre la déclaration de zone sinistrée.</p>
+        
+<figure class="chart" aria-label="Pertes assurées de quelques épisodes récents, en millions d&#39;euros">
+  
+  <div class="bar-row"><span class="lbl">Émeutes France 2023</span><span class="bar"><span class="fill w16 c-es"></span></span><span class="val">≈ 793 M€</span></div><div class="bar-row"><span class="lbl">Émeutes France oct. 2026 (hypothèse haute)</span><span class="bar"><span class="fill w24 c-es"></span></span><span class="val">≈ 1 200 M€</span></div><div class="bar-row"><span class="lbl">Dana Valence 2024 (coût final estimé)</span><span class="bar"><span class="fill w96 c-es"></span></span><span class="val">≈ 4 800 M€</span></div><div class="bar-row"><span class="lbl">Catastrophes naturelles France 2024</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 5 000 M€</span></div>
+  <figcaption>France et Espagne, 2023-2026, en M€ ; estimations pour 2026 et pour la dana. Sources : France Assureurs, Morningstar DBRS, CCS, UFC-Que Choisir.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>2. Deux architectures de financement</h3>
+        <p>En France, le régime des catastrophes naturelles (CatNat, en vigueur depuis 1982) repose sur une surprime assise sur les contrats de dommages : elle est passée de 12 % à 20 % au 1er janvier 2025 pour l&#39;habitation et les biens professionnels, et de 6 % à 9 % pour la garantie vol et incendie de l&#39;auto. La CCR (Caisse centrale de réassurance, réassureur public) offre aux assureurs une réassurance garantie sans limite par l&#39;État. Pour les émeutes, le Code des assurances exclut le risque en principe, sauf clause contraire ; la plupart des contrats commerciaux l&#39;incluent, selon France Assureurs (fédération professionnelle du secteur).</p><p>La loi de finances pour 2026, promulguée le 19 février, rend la garantie émeutes obligatoire dans les contrats de dommages, avec un fonds de mutualisation géré par la CCR et garanti par l&#39;État. Les assureurs le financeront par une contribution de solidarité plafonnée à 1,5 % de leurs primes. Le régime attend un décret et l&#39;avis de la Commission européenne, puis entre en vigueur au plus tard douze mois après cette décision : il ne jouera pas pour octobre.</p><p>L&#39;Espagne a une architecture plus ancienne et plus large. Le Consorcio couvre, pour toute personne titulaire d&#39;une police de dommages aux biens, de vie ou d&#39;accidents, les inondations extraordinaires, mais aussi le terrorisme, la rébellion, la sédition, l&#39;émeute et le tumulte populaire. Un recargo obligatoire s&#39;ajoute à la prime et se calcule en pour mille du capital assuré : 0,08 ‰ pour les logements et 0,21 ‰ pour les risques industriels dans un barème publié par le ministère de la Transition écologique, à lire comme indicatif.</p>
+        
+        
+        
+      
+        
+        <h3>3. Ce que les chiffres mesurent déjà</h3>
+        <p>L&#39;Espagne dispose d&#39;un recul que la France n&#39;a pas. Pour la dana d&#39;octobre 2024, le CCS avait enregistré 251 413 demandes au 16 février 2026 et payé 211 658 d&#39;entre elles, pour 4 271 M€ ; il table sur 4 800 M€ au final. Véhicules (1 198 M€), logements (1 096 M€) et commerces (1 060 M€) forment l&#39;essentiel, les risques industriels pesant 859 M€. Au 1er janvier 2026, 35 040 demandes avaient été refusées pour doublon ou absence de couverture, soit 14 % du total.</p><p>En France, l&#39;épisode de 2023 donne l&#39;échelle : 730 M€ pour 15 600 sinistres selon les assureurs, dont 90 % sur des biens de professionnels ou de collectivités. Le risque d&#39;émeute pèse donc sur les entreprises plus que sur les ménages. Si la contribution était fixée à 1,5 % sur une assiette de 40 à 45 Md€ de primes, hypothèse avancée par Que Choisir, elle rapporterait 600 à 675 M€ par an : il faudrait environ deux ans de cotisations pour couvrir un épisode à 1,2 Md€.</p>
+        
+<figure class="chart" aria-label="Paiements du CCS par classe de risque pour la dana de 2024, en millions d&#39;euros">
+  
+  <div class="bar-row"><span class="lbl">Véhicules</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 1 198 M€</span></div><div class="bar-row"><span class="lbl">Logements</span><span class="bar"><span class="fill w91 c-es"></span></span><span class="val">≈ 1 096 M€</span></div><div class="bar-row"><span class="lbl">Commerces et autres</span><span class="bar"><span class="fill w88 c-es"></span></span><span class="val">≈ 1 060 M€</span></div><div class="bar-row"><span class="lbl">Risques industriels</span><span class="bar"><span class="fill w72 c-es"></span></span><span class="val">≈ 859 M€</span></div>
+  <figcaption>Espagne, dana d&#39;octobre 2024, paiements au 16 février 2026, hors bureaux et travaux publics. Source : CCS, via SegurosNews.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. Ce que chaque modèle laisse de côté</h3>
+        <p>Le modèle espagnol est universel mais conditionnel : il n&#39;indemnise que ceux qui ont une police en vigueur et le recargo payé, et la perte d&#39;exploitation n&#39;est couverte que si le contrat la prévoit. Le modèle français laisse le marché fixer la prime et l&#39;État intervenir en dernier ressort ; son maillon manquant pour les émeutes est un texte d&#39;application. Dans les deux pays, franchise, plafond et couverture des pertes d&#39;exploitation décident du résultat pour une entreprise.</p><p>Sur le coût pour l&#39;assuré, la prudence s&#39;impose : la contribution française est versée par les assureurs, non directement par leurs clients, et aucun montant officiel de hausse de prime n&#39;existe à ce jour. Une répercussion au renouvellement des contrats reste possible, sans que l&#39;on puisse la chiffrer.</p>
+        
+        
+        
+        <div class="debate"><h4>Le débat</h4><p>La mutualisation du risque d&#39;émeute divise. Ses promoteurs y voient le moyen d&#39;éviter que commerçants et particuliers restent sans couverture, en lissant le coût sur tout le territoire sur le modèle CatNat. Plusieurs assureurs répondent que le maintien de l&#39;ordre relève des missions régaliennes de l&#39;État et que la facture devrait revenir au contribuable plutôt qu&#39;aux assurés. D&#39;autres observateurs craignent qu&#39;un fonds calibré pour un risque rare s&#39;épuise si les épisodes se répètent (2005, 2023, 2026), et que le plafond de 1,5 % devienne un plancher. Trois épisodes en vingt ans ne permettent pas encore de trancher.</p></div>
+        
+      
+        
+        <h3>5. Les leviers et les points à suivre</h3>
+        <p>Trois décisions détermineront la suite en France : le décret d&#39;application, l&#39;arrêté qui fixera le taux de contribution sous le plafond de 1,5 %, et l&#39;avis de la Commission européenne, qui doit s&#39;assurer que la garantie de l&#39;État ne constitue pas une aide déguisée. En attendant, les contrats existants jouent : France Assureurs a allongé à 30 jours le délai de déclaration des sinistres, et certains assureurs ont supprimé des franchises. En Espagne, le point à suivre est le rythme des expertises du CCS, que le ministre de l&#39;Économie jugeait en 2025 quatre à cinq fois plus rapide que lors des épisodes précédents.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lecture Rilamax</h4><p>Les deux systèmes remplissent la même fonction et se distinguent surtout par leur état d&#39;avancement. L&#39;Espagne indemnise les tumultes comme les crues avec un mécanisme rodé ; la France a voté en février une garantie qui n&#39;a pas de décret huit mois plus tard, et un épisode coûteux est survenu avant qu&#39;elle puisse jouer. Je juge ce délai sévèrement : la loi existe, le fonds n&#39;existe pas. Pour une entreprise présente des deux côtés, deux contrôles s&#39;imposent : la clause « émeutes et mouvements populaires » des polices françaises et l&#39;inclusion de la perte d&#39;exploitation. En Espagne, il faut vérifier que le recargo du Consorcio figure bien sur les polices. Un investisseur devrait aussi valoriser deux scénarios pour la France : un fonds opérationnel avec une contribution proche du plafond, ou un report prolongé qui laisse les assureurs réajuster tarifs et exclusions. Le bilan chiffré de la dana Adam et le calendrier du décret donneront de quoi arbitrer.</p></aside>
+    <div class="watch"><h4>Ce que nous surveillerons</h4><p>Le décret d&#39;application et l&#39;avis de la Commission européenne sur la garantie émeutes, puis le bilan chiffré du CCS pour la dana Adam.</p></div>
+    <p class="src">Sources : <a href="https://www.lassuranceenmouvement.com/2026/10/21/17-octobre-une-facture-record-et-des-vies-saccagees/" target="_blank" rel="noopener">L&#39;Assurance en mouvement</a>, <a href="https://www.jechange.fr/assurance/habitation/news/garantie-emeutes-obligatoire-contribution-1-5-pourcent-primes-etat-garant" target="_blank" rel="noopener">JeChange – garantie émeutes</a>, <a href="https://eureetloir.quechoisirensemble.fr/2026/10/23/assurance-emeutes-une-nouvelle-garantie-et-une-future-facture-pour-les-assures/" target="_blank" rel="noopener">Que Choisir (Eure-et-Loir)</a>, <a href="https://www.senat.fr/rap/r23-603/r23-603_mono.html" target="_blank" rel="noopener">Sénat – régime CatNat</a>, <a href="https://questions.assemblee-nationale.fr/dyn/16/questions/QANR5L16QE10999.pdf" target="_blank" rel="noopener">Assemblée nationale – réponse sur les émeutes de 2023</a>, <a href="https://segurosnews.com/ultimas-noticias/el-consorcio-ya-ha-pagado-4-271-millones-por-la-dana-de-2024-y-preve-que-finalmente-abonara-4-800-millones" target="_blank" rel="noopener">SegurosNews – CCS, dana 2024</a>, <a href="https://segurosnews.com/news/el-consorcio-ya-ha-recibido-6-528-solicitudes-de-indemnizacion-por-los-efectos-de-adam" target="_blank" rel="noopener">SegurosNews – CCS, dana Adam</a>, <a href="https://www.miteco.gob.es/content/dam/miteco/es/agua/formacion/4-ani_coberturaaseguradora_ccs_tcm30-379121.pdf" target="_blank" rel="noopener">MITECO – seguro de riesgos extraordinarios</a>, <a href="https://www.breizh-info.com/2026/10/22/264806/emeutes-du-17-octobre-assureurs-et-contribuables-face-a-une-lourde-facture/" target="_blank" rel="noopener">Breizh-info</a></p>
+  </section>
+
+  <section id="fr-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">France</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalité</span>
+    <h3>Budget 2027 : l&#39;apport-cession voté à 25 voix contre 23, le vote sur les recettes repoussé</h3>
+    
+    <p class="sum">Le 16 octobre, les députés ont adopté l&#39;article 5 par 25 voix contre 23 et 23 abstentions, dans une version remaniée : sur 45 amendements, deux seulement ont passé. La taxation vise certaines donations et exclut les successions. Le vote solennel sur les recettes, prévu le 20 octobre, est reporté : environ 2 600 amendements restent à examiner, et le débat reprend le 27 octobre. Sans vote d&#39;ici au 17 novembre, le texte part au Sénat. Le ministre David Amiel chiffre à 10 Md€ la dégradation du déficit à ce stade. En Espagne, les droits de donation et de succession relèvent des communautés autonomes : Madrid applique 99 % de bonification pour conjoint, enfants et parents.</p>
+    <p class="src">Sources : <a href="https://www.moneyvox.fr/impot/actualites/110878/budget-2027-un-impot-sur-les-donations-apport-cession-valide-par-les-deputes" target="_blank" rel="noopener">Moneyvox</a>, <a href="https://fiscalonline.com/outils-fiscaux/plf-2027-reforme-minima-apport-cession-applicable-apports-anciens" target="_blank" rel="noopener">Fiscalonline</a>, <a href="https://www.gestiondefortune.com/fiscalite-droit/13424-plf-2027-lexamen-de-la-partie-recettes-mis-sur-pause.html" target="_blank" rel="noopener">Gestion de fortune</a>, <a href="https://amorce.asso.fr/actualite/plf-2027-point-d-etape-sur-l-examen-du-budget-a-l-assemblee-nationale" target="_blank" rel="noopener">Amorce</a>, <a href="https://guiafiscal.es/patrimonio/sucesiones/madrid/" target="_blank" rel="noopener">Guía Fiscal – Madrid</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Le texte n&#39;est pas stabilisé, et la version adoptée en séance est déjà plus étroite que celle du gouvernement. Un dirigeant qui prépare une transmission devrait comparer deux scénarios, avec et sans taxation à la donation, avant de signer un apport. Pour qui regarde l&#39;Espagne, l&#39;écart entre communautés sur les droits de donation mérite d&#39;être chiffré.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Politique et société</span>
+    <h3>Violences du 17 octobre : chômage partiel à 100 %, fonds de soutien et au moins 3 000 commerces touchés</h3>
+    
+    <p class="sum">Le ministre du Commerce Serge Papin compte au moins 3 000 commerces touchés, contre 2 000 pour les CCI. Le Premier ministre a activé le chômage partiel à 100 % dès le 20 octobre, annoncé un fonds de soutien spécifique et des reports de charges sociales et fiscales ; le montant du fonds n&#39;est pas encore fixé. Pour lui, « C&#39;est avant tout ceux qui ont cassé qui doivent payer » : un projet de loi dit « casseurs-payeurs » arrive au Sénat le 27 octobre. France Assureurs a allongé à 30 jours le délai de déclaration. En Espagne, le CCS couvre déjà les tumultes populaires, comme le détaille le dossier.</p>
+    <p class="src">Sources : <a href="https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/assurances-chomage-partiel-fonds-de-soutien-sebastien-lecornu-fait-des-annonces-pour-les-commercants-touches-par-les-pillages-du-week-end_8243902.html" target="_blank" rel="noopener">Franceinfo</a>, <a href="https://lcp.fr/actualites/commerces-ravages-et-pilles-le-17-octobre-l-etat-au-chevet-des-entreprises-le-projet-de" target="_blank" rel="noopener">LCP</a>, <a href="https://tpeactu.fr/2026/10/19/pillages-17-octobre-aides-commercants-annonces-lecornu/" target="_blank" rel="noopener">TPE Actu</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>La réponse publique couvre la trésorerie et l&#39;emploi, pas le coût final, qui reste à chiffrer. Pour un groupe qui a des sites en France, la question utile est celle des pertes d&#39;exploitation : le contrat les couvre-t-il en cas d&#39;émeute ? Le calendrier du fonds de soutien et du texte « casseurs-payeurs » mérite un suivi hebdomadaire.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Entreprises et investissement</span>
+    <h3>Carrefour abaisse ses objectifs 2026 à cause des troubles en France ; l&#39;Espagne tient</h3>
+    
+    <p class="sum">Le 20 octobre, Carrefour a publié un chiffre d&#39;affaires de 22,7 Md€ au troisième trimestre (+3,9 % en données publiées, +2,3 % à périmètre comparable), puis revu à la baisse ses objectifs annuels en invoquant la dégradation de la situation sociale et sécuritaire en France. L&#39;impact maximal sur le résultat opérationnel courant pourrait atteindre 200 M€. Les ventes comparables progressent de 1,2 % en France et de 2,1 % en Espagne, où la proximité gagne 13 %. Début octobre, le groupe a aussi réalisé une cession-bail de 35 magasins en France et en Espagne, pour environ 290 M€.</p>
+    <p class="src">Sources : <a href="https://www.zonebourse.com/actualite-bourse/carrefour-financial-document-cp-carrefour-ca-t3-2026-0-ce785cd8da80f627" target="_blank" rel="noopener">Zonebourse – communiqué Carrefour</a>, <a href="https://fr.investing.com/news/transcripts/carrefour-reduit-ses-perspectives-2026-apres-une-hausse-des-ventes-au-t3-93CH-3643933" target="_blank" rel="noopener">Investing.com</a>, <a href="https://fr.finance.yahoo.com/actualites/tensions-france-inquiet-consommation-carrefour-210837957.html" target="_blank" rel="noopener">Yahoo Finance (AFP)</a>, <a href="https://lecourrier.es/les-10-entreprises-francaises-qui-pesent-le-plus-en-espagne/" target="_blank" rel="noopener">Le Courrier</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Le cas montre que le coût d&#39;une émeute dépasse les dégâts matériels : fréquentation, sécurité et consommation pèsent sur les comptes d&#39;un distributeur. L&#39;écart de croissance entre la France et l&#39;Espagne, moins d&#39;un point, reste modeste et ne dit rien d&#39;une tendance durable. Un investisseur devrait lire la ventilation par pays avant de conclure.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Énergie</span>
+    <h3>Gazole : 2,35 € le litre en France, 1,89 € en Espagne</h3>
+    
+    <p class="sum">Selon le bulletin pétrolier de l&#39;Union européenne, le gazole coûtait en moyenne 2,345 € le litre en France du 13 au 19 octobre, contre 1,889 € en Espagne, soit 46 centimes d&#39;écart. La moyenne de l&#39;Union atteint 2,138 €, le Portugal 2,175 € et l&#39;Italie 2,244 €. En Italie, les routiers ont mis fin le 23 octobre à une semaine de blocages dans le Sud, après l&#39;approbation par le gouvernement d&#39;un plan d&#39;aide de 175,2 M€ pour les transporteurs, agriculteurs et pêcheurs.</p>
+    <p class="src">Sources : <a href="https://www.cadenadesuministro.es/transporte-carretera/precio-gasoleo-se-mantiene-estable-en-1889-euros-en-tercera-semana-octubre_1519149_102.html" target="_blank" rel="noopener">Cadena de Suministro (Boletín Petrolero UE)</a>, <a href="https://www.infobae.com/espana/agencias/2026/10/21/el-precio-de-la-gasolina-cae-un-86-tras-la-entrada-en-vigor-de-la-rebaja-de-20-centimos/" target="_blank" rel="noopener">Infobae</a>, <a href="https://www.boursorama.com/actualite-economique/actualites/prix-des-carburants-les-transporteurs-routiers-italiens-cessent-leur-mouvement-de-greve-5c3927abe88c06aa737c68ee66ae191b" target="_blank" rel="noopener">Boursorama (AFP)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Pour un transporteur ou un industriel qui livre des deux côtés des Pyrénées, le gazole coûte près d&#39;un quart de plus en France, avant tout effet de remise. Il faut revoir les clauses d&#39;indexation carburant des contrats de transport. L&#39;épisode italien rappelle que le sujet peut vite devenir social.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">Espagne</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalité</span>
+    <h3>Décret-loi 31/2026 : nouvelle base de calcul des arrêts maladie, cotisation des indépendants figée dès 2027</h3>
+    
+    <p class="sum">Le RDL 31/2026, publié au BOE (Boletín Oficial del Estado, journal officiel espagnol) le 21 octobre, modifie la loi générale de Sécurité sociale et le statut des travailleurs. La base de calcul de l&#39;IT repose désormais sur la base de cotisation du mois précédant l&#39;avant-mois de l&#39;arrêt. Deux nouvelles situations spéciales (pathologies liées à la ménopause, lésions de victimes de violences de genre) ouvrent droit à l&#39;indemnité sans durée minimale de cotisation, à partir du 1er décembre selon les cabinets d&#39;avocats. Pour les indépendants, dès le 1er janvier 2027, les mois d&#39;arrêt, de congé de naissance ou de cessation d&#39;activité ne seront plus régularisés. La Diputación Permanente (commission restreinte du Parlement qui siège quand les Cortes sont dissoutes) doit encore valider le texte. Aucune donnée française comparable n&#39;a été publiée cette semaine.</p>
+    <p class="src">Sources : <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2026-21872" target="_blank" rel="noopener">BOE – RDL 31/2026</a>, <a href="https://monfortybonell.com/rdl_31_2026/" target="_blank" rel="noopener">Monfort &amp; Bonell</a>, <a href="https://adaralegal.es/boe-real-decreto-ley-31-2026-cambios-laborales-seguridad-social-fechas/" target="_blank" rel="noopener">Adara Legal</a>, <a href="https://e-autonomos.es/regularizacion-de-cuotas-de-autonomos-2027-rdl" target="_blank" rel="noopener">e-autónomos</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Le texte touche peu l&#39;impôt et beaucoup la paie : base de calcul, droits sans carence, cotisation des indépendants. Les groupes français qui emploient en Espagne devraient faire vérifier leurs paramètres de paie avant le 1er décembre. Le décret peut encore tomber : la Diputación Permanente ne l&#39;a pas validé.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Politique et société</span>
+    <h3>Dana Adam : 6 528 demandes au Consorcio, 23,5 M€ d&#39;aides régionales, zone sinistrée annoncée</h3>
+    
+    <p class="sum">Au 22 octobre, le CCS avait reçu 6 528 demandes : 5 007 dans la province de Valence (77 %), dont 2 760 pour la seule commune d&#39;Oliva, puis 847 à Alicante. Il juge trop tôt pour chiffrer les dommages. La Generalitat a voté un premier paquet de 23,5 M€ : 6 000 € pour une résidence principale endommagée, 3 000 € pour une seconde résidence et 800 € par mois pendant douze mois pour les personnes relogées. Pedro Sánchez a annoncé que le Conseil des ministres déclarerait les communes touchées « zone gravement affectée ». En France, au moins 3 000 commerces ont été touchés le 17 octobre, mais la nature des sinistres diffère.</p>
+    <p class="src">Sources : <a href="https://www.infobae.com/espana/agencias/2026/10/22/el-consorcio-de-seguros-ha-recibido-6528-peticiones-de-indemnizacion-por-la-dana-adam/" target="_blank" rel="noopener">Infobae (EFE)</a>, <a href="https://valenciaplaza.com/valenciaplaza/comarca-y-empresa/oliva-concentra-mas-de-la-mitad-de-las-solicitudes-de-indemnizacion-en-valencia-por-la-dana-adam" target="_blank" rel="noopener">Valencia Plaza</a>, <a href="https://www.eleconomista.es/banca-finanzas/noticias/14022884/10/26/el-consorcio-de-seguros-recibe-6500-siniestros-por-la-ultima-dana-de-valencia.html" target="_blank" rel="noopener">elEconomista</a>, <a href="https://www.hacienda.gob.es/eu-ES/Paginas/InfoDana.aspx" target="_blank" rel="noopener">Ministerio de Hacienda – medidas DANA 2024</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Les aides de 2024 avaient inclus une exonération d&#39;IBI (taxe foncière espagnole) et un report du second paiement de l&#39;impôt sur le revenu : ce précédent indique les mesures fiscales à attendre. Les entreprises ayant des actifs dans la zone devraient vérifier que leurs polices incluent la perte d&#39;exploitation, que le Consorcio n&#39;indemnise que si le contrat la prévoit.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Économie</span>
+    <h3>Hôtels espagnols : 40,1 millions de nuitées en septembre, les clients étrangers portent la croissance</h3>
+    
+    <p class="sum">Selon l&#39;INE, les hôtels espagnols ont enregistré plus de 40,1 millions de nuitées en septembre, soit +1,7 % sur un an. Les non-résidents progressent de 3,2 %, les résidents reculent de 1,9 %, pour le troisième mois consécutif. La recette moyenne par chambre occupée atteint 141,6 € (+7,4 %), l&#39;indice des prix hôteliers monte de 6,7 % et l&#39;occupation s&#39;établit à 67,0 %. Les Français pèsent 6,9 % des nuitées de non-résidents, derrière les Britanniques (27,2 %) et les Allemands (17,4 %). En France, l&#39;Insee a compté 92 millions de nuitées hôtelières de mai à août, +1,7 %, hausse portée par la clientèle résidente.</p>
+    <p class="src">Sources : <a href="https://www.hosteleriadigital.es/2026/10/23/el-turismo-internacional-sostiene-el-crecimiento-de-las-pernoctaciones-hoteleras-en-septiembre/" target="_blank" rel="noopener">Hostelería Digital (INE)</a>, <a href="https://forbes.es/ultima-hora/1053146/las-pernoctaciones-hoteleras-en-espana-superan-los-40-millones-en-septiembre-un-17-mas/" target="_blank" rel="noopener">Forbes España</a>, <a href="https://larevuedeshotels.com/en/hotel-industry-summer-2026-analysis-92-million-nights-major-cities" target="_blank" rel="noopener">La Revue des Hôtels (Insee)</a>, <a href="https://www.agenttravel.es/noticia-064473_Espana-crece-como-destino-preferido-por-los-franceses-en-las-agencias-de-viajes.html" target="_blank" rel="noopener">Agenttravel (Turespaña)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>La hausse des prix hôteliers (6,7 %) dépasse celle des nuitées (1,7 %) : la croissance vient des tarifs, tandis que la clientèle espagnole se replie. Un investisseur hôtelier devrait valoriser deux scénarios, un tassement de la clientèle étrangère ou son maintien. Les chiffres de septembre ne permettent pas de trancher.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Immobilier</span>
+    <h3>Logement : 225 M€ du Conseil des ministres pour l&#39;abordable et les résidences étudiantes</h3>
+    
+    <p class="sum">Le 20 octobre, le Conseil des ministres a approuvé deux réels décrets sur l&#39;accès au logement. Ils dotent de 180 M€ le logement abordable dans les zones tendues et de 45 M€ l&#39;hébergement universitaire, soit 225 M€ au total ; 9 M€ vont par ailleurs aux exploitations agricoles touchées par les incendies. Le gouvernement présente ces textes comme destinés à promouvoir le logement là où le besoin est le plus fort. Pas de donnée française comparable fiable cette semaine.</p>
+    <p class="src">Sources : <a href="https://www.lamoncloa.gob.es/consejodeministros/resumenes/Paginas/2026/201026-rueda-prensa-ministros.aspx" target="_blank" rel="noopener">La Moncloa – Consejo de Ministros du 20 octobre</a>, <a href="https://www.alcalahoy.es/2026/10/17/convalida-ayudas-por-la-dana-y-deja-en-el-aire-los-decretos-de-vivienda-asi-decide-la-diputacion-permanente-de-69-diputados/" target="_blank" rel="noopener">Alcalá Hoy</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Les montants restent modestes et financent des projets, non une production en volume. Pour un investisseur français intéressé par les résidences étudiantes, la répartition territoriale et le calendrier de versement comptent, et la synthèse officielle ne les détaille pas. Les décrets-lois logement pourraient en outre tomber le 12 novembre.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-agenda">
+    <h2>À surveiller dans les prochaines semaines</h2>
+    <ul class="agenda"><li><span class="when">27 octobre</span><span class="what">France : reprise de l&#39;examen du PLF 2027 à l&#39;Assemblée (partie recettes) et début de l&#39;examen du projet de loi « casseurs-payeurs » au Sénat</span></li><li><span class="when">27 octobre</span><span class="what">Espagne : publication de l&#39;enquête sur la population active (EPA) du troisième trimestre par l&#39;INE</span></li><li><span class="when">30 octobre</span><span class="what">Espagne : première estimation du PIB du troisième trimestre (INE) et rapport mensuel sur les recettes fiscales de septembre (Agence tributaire)</span></li><li><span class="when">12 novembre (prévue)</span><span class="what">Espagne : séance prévue de la Diputación Permanente sur les décrets-lois logement 28 et 29/2026</span></li><li><span class="when">17 novembre</span><span class="what">France : vote de l&#39;Assemblée sur l&#39;ensemble du PLF 2027 en première lecture ; faute de vote, le texte part au Sénat</span></li></ul>
+  </section>
+
+  
+  <section id="fr-glosario">
+    <h2>Les sigles de cette édition</h2>
+    <dl class="glossary"><div><dt>Apport-cession</dt><dd>Mécanisme français qui permet à un entrepreneur de différer l&#39;impôt sur la plus-value en apportant ses titres à sa holding avant de les revendre. Le PLF 2027 veut en limiter l&#39;effacement à la donation.</dd></div><div><dt>CatNat</dt><dd>Régime français d&#39;indemnisation des catastrophes naturelles, en vigueur depuis 1982 et financé par une surprime sur les contrats de dommages, aujourd&#39;hui à 20 % pour l&#39;habitation.</dd></div><div><dt>CCR</dt><dd>Caisse centrale de réassurance : réassureur public français, détenu par l&#39;État, qui gère aussi le futur fonds de mutualisation du risque d&#39;émeute.</dd></div><div><dt>CCS</dt><dd>Consorcio de Compensación de Seguros : organisme public espagnol qui indemnise les risques extraordinaires (inondations, terrorisme, tumultes) pour les titulaires d&#39;une police avec recargo.</dd></div><div><dt>Diputación Permanente</dt><dd>Commission restreinte du Parlement espagnol qui siège quand les Cortes sont dissoutes et valide les décrets-lois dans un délai de 30 jours.</dd></div><div><dt>IBI</dt><dd>Impuesto sobre Bienes Inmuebles : taxe foncière espagnole, perçue par les communes et souvent exonérée pour les biens sinistrés.</dd></div><div><dt>IT</dt><dd>Incapacidad temporal : arrêt maladie espagnol, indemnisé à 60 % de la base de calcul jusqu&#39;au 20e jour, puis à 75 %.</dd></div><div><dt>PLF</dt><dd>Projet de loi de finances : texte annuel qui fixe les recettes et les dépenses de l&#39;État français, voté par le Parlement.</dd></div><div><dt>RDL</dt><dd>Real decreto-ley : décret-loi espagnol adopté en urgence par le gouvernement, valable immédiatement mais à valider par le Parlement sous 30 jours.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>Le Bulletin Rilamax paraît chaque samedi : l&#39;essentiel de l&#39;économie, de la finance et de la politique entre la France et l&#39;Espagne, avec notre lecture.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">S&#39;abonner sur LinkedIn</a>
+  </section>
+
+  
+  <section id="fr-archivo" class="archive">
+    <h2>Éditions précédentes</h2>
+    <ul><li><a href="/ediciones/2026-10-17/">N° 3 — Inflation : l&#39;Espagne croît plus vite que la France, mais renchérit plus vite</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Énergie : ce que la France tire de ses champs et que l&#39;Espagne laisse filer</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Logement en Espagne : un déficit d&#39;offre que les décrets ne traitaient pas, des zones tendues à l&#39;épreuve des chiffres</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>Le Bulletin Rilamax est publié par RILAMAX 2025 SL. Les résumés sont rédigés par nos soins à partir des sources citées. Les lectures Rilamax sont des analyses générales et ne constituent pas des conseils d&#39;investissement personnalisés. Veille et rédaction assistées par l&#39;IA. Sélection, vérification et analyse : Jean Marc Pavia.</p></footer>
+</div>
+
+
+<div class="edition" data-lang="es" lang="es" hidden>
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>Francia</span><span class="line" aria-hidden="true"></span><span>España</span></div>
+    <div class="titlerow">
+      <h1>El Boletín Rilamax</h1>
+      <div class="langs" role="group" aria-label="Idioma"><button type="button" data-set="fr" aria-pressed="false">FR</button><button type="button" data-set="es" aria-pressed="true">ES</button></div>
+    </div>
+    <div class="meta"><span>N.º 4 · Semana 43</span><span>Del 19 al 24 de octubre de 2026</span><span>Lectura: 19 minutos</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sumario">
+  <div class="wrap"><ul>
+    <li><a href="#es-edito">El editorial</a></li>
+    <li><a href="#es-cifras">Las cifras</a></li>
+    <li><a href="#es-dossier">El dossier</a></li>
+    <li><a href="#es-fr">Francia</a></li>
+    <li><a href="#es-es">España</a></li>
+    <li><a href="#es-agenda">A vigilar</a></li>
+    <li><a href="#es-glosario">Glosario</a></li>
+    <li><a href="/archivo/?lang=es">Todas las ediciones</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="es-edito">
+    <h2>Disturbios en Francia, inundaciones en España: dos facturas, dos regímenes</h2>
+    <div class="edito">
+      <div class="body">
+        <p>Dos episodios han ocupado la semana, a ambos lados de los Pirineos. En Francia, la violencia del 17 de octubre afectó al menos a 3.000 comercios según el Gobierno, y Morningstar DBRS (agencia de calificación) sitúa el techo de las pérdidas aseguradas en 1.200 M€ si los disturbios no se extienden. En España, la dana Adam había generado 6.528 solicitudes de indemnización al Consorcio de Compensación de Seguros (CCS) a 22 de octubre.</p><p>Ambos países cuentan con mecanismos para absorber estos golpes, pero no de la misma edad. El CCS cubre inundaciones y tumultos populares mediante un recargo obligatorio, en su forma actual desde hace más de setenta años. Francia aprobó en febrero una garantía de disturbios que sigue sin decreto de desarrollo y sin el visto bueno de la Comisión Europea: no funcionará para los daños de octubre. El dossier detalla los dos modelos, con cifras.</p><p>En el terreno presupuestario, la Asamblea Nacional no pudo votar el 20 de octubre la parte de ingresos del proyecto de ley de finanzas (PLF) para 2027, el texto que fija los impuestos del Estado francés y que equivale a nuestros Presupuestos Generales. Quedaban unas 2.600 enmiendas y el examen se reanuda el 27 de octubre. El ministro de Cuentas Públicas cifra en 10.000 M€ el deterioro del déficit en esta fase, antes incluso del final del debate.</p><p>De estos siete días me quedo con una cuestión de método: las cifras de siniestros llegan mucho antes que los decretos. El coste real de la violencia de octubre se conocerá dentro de meses; el de la dana de 2024 sigue estimándose en 4.800 M€ dos años después de los hechos. Las empresas que operan a ambos lados de la frontera harían bien en releer sus pólizas antes de la próxima alerta.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Los tres puntos clave</h3>
+        <ol><li>La garantía francesa de disturbios solo existe sobre el papel, mientras que el Consorcio español ya cubre los tumultos populares.</li><li>Violencia de octubre en Francia: hasta 1.200 M€ de pérdidas aseguradas; dana Adam: 6.528 solicitudes a 22 de octubre.</li><li>Presupuestos franceses de 2027: el examen de los ingresos se reanuda el 27 de octubre, con plazo hasta el 17 de noviembre antes de pasar al Senado.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="es-cifras">
+    <h2>Las cifras de la semana</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>1.200 M€</strong><span>Pérdidas aseguradas máximas estimadas por la violencia del 17 y 18 de octubre en Francia, si no se extiende.</span><em class="cmp-o es">Francia, disturbios de 2023: de 730 a 793 M€ según las fuentes. España: sin episodio comparable esta semana.</em><small>Morningstar DBRS, vía L&#39;Assurance en mouvement</small></div><div class="fig fr"><strong>2,345 €</strong><span>Precio medio del litro de gasóleo en Francia, impuestos incluidos, del 13 al 19 de octubre.</span><em class="cmp-o es">España: 1,889 € (13-19 de octubre).</em><small>Boletín Petrolero de la Unión Europea</small></div><div class="fig fr"><strong>+1,2 %</strong><span>Ventas a perímetro comparable de Carrefour en Francia en el tercer trimestre de 2026.</span><em class="cmp-o es">España: +2,1 % (tercer trimestre de 2026).</em><small>Carrefour (comunicado del 20 de octubre)</small></div><div class="fig es"><strong>6.528</strong><span>Solicitudes de indemnización recibidas por el CCS por la dana Adam entre el 16 y el 18 de octubre, a 22 de octubre.</span><em class="cmp-o fr">Francia: al menos 3.000 comercios afectados el 17 de octubre (Gobierno); sin dato estrictamente comparable.</em><small>CCS (Consorcio de Compensación de Seguros)</small></div><div class="fig es"><strong>40,1 M</strong><span>Pernoctaciones en los hoteles españoles en septiembre, un 1,7 % más que un año antes.</span><em class="cmp-o fr">Francia: 92,0 M de pernoctaciones hoteleras de mayo a agosto, +1,7 % (Insee, instituto nacional de estadística francés, 29 de septiembre).</em><small>INE</small></div><div class="fig es"><strong>3,04 %</strong><span>Tipo medio de los nuevos créditos hipotecarios a los hogares en España en agosto, frente al 2,69 % un año antes.</span><em class="cmp-o fr">Francia: 3,32 % en agosto (Banque de France, banco central francés).</em><small>Banco de España, vía euribor.com.es</small></div>
+    </div>
+  </section>
+
+  
+  <section id="es-dossier" class="dossier">
+    <h2>El dossier: Disturbios e inundaciones: dos modelos para pagar un riesgo que se desboca</h2>
+    <p class="intro">Saqueos en Francia, inundaciones en España: la misma semana, dos países han tenido que determinar quién paga. Sus respuestas difieren en edad y en concepción: una ventanilla pública española antigua frente a un régimen francés de disturbios todavía en obras. Las cifras disponibles ya permiten compararlos.</p>
+    <div class="dfigs"><div><strong>1.200 M€</strong><span>pérdidas aseguradas máximas estimadas por la violencia del 17 y 18 de octubre en Francia</span></div><div><strong>6.528</strong><span>solicitudes recibidas por el CCS por la dana Adam a 22 de octubre</span></div><div><strong>4.800 M€</strong><span>coste final estimado por el CCS para la dana de 2024</span></div><div><strong>1,5 %</strong><span>techo de la contribución de las aseguradoras francesas al futuro fondo de disturbios</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. Dos golpes en una semana</h3>
+        <p>El 17 de octubre, una jornada de movilización contra la carestía de la vida degeneró en saqueos en varias ciudades francesas. El Gobierno cuenta al menos 3.000 comercios afectados; la red de las CCI (cámaras de comercio e industria), 2.000. Según Morningstar DBRS, las pérdidas aseguradas quedarían por debajo de 1.200 M€ si la violencia no se extiende, un importe superior a los 730-793 M€ de los disturbios de 2023 según las fuentes. La agencia señala que los disturbios civiles adoptan ya los rasgos de un riesgo catastrófico.</p><p>Del 16 al 18 de octubre, la dana Adam golpeó la provincia de Valencia y otras regiones españolas. A 22 de octubre, el CCS había recibido 6.528 solicitudes de indemnización: 5.007 en la provincia de Valencia, 2.760 de ellas en Oliva. Considera prematuro cuantificar los daños y recuerda que la indemnización de los asegurados es automática, sin esperar a la declaración de zona afectada.</p>
+        
+<figure class="chart" aria-label="Pérdidas aseguradas de algunos episodios recientes, en millones de euros">
+  
+  <div class="bar-row"><span class="lbl">Disturbios Francia 2023</span><span class="bar"><span class="fill w16 c-es"></span></span><span class="val">≈ 793 M€</span></div><div class="bar-row"><span class="lbl">Disturbios Francia oct. 2026 (hipótesis alta)</span><span class="bar"><span class="fill w24 c-es"></span></span><span class="val">≈ 1.200 M€</span></div><div class="bar-row"><span class="lbl">Dana Valencia 2024 (coste final estimado)</span><span class="bar"><span class="fill w96 c-es"></span></span><span class="val">≈ 4.800 M€</span></div><div class="bar-row"><span class="lbl">Catástrofes naturales Francia 2024</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 5.000 M€</span></div>
+  <figcaption>Francia y España, 2023-2026, en M€; estimaciones para 2026 y para la dana. Fuentes: France Assureurs, Morningstar DBRS, CCS, UFC-Que Choisir.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>2. Dos arquitecturas de financiación</h3>
+        <p>En Francia, el régimen de catástrofes naturales (CatNat, vigente desde 1982) se apoya en un recargo sobre los contratos de daños: pasó del 12 % al 20 % el 1 de enero de 2025 para la vivienda y los bienes profesionales, y del 6 % al 9 % para la garantía de robo e incendio del seguro de automóvil. La CCR (Caisse centrale de réassurance, reasegurador público) ofrece a las aseguradoras un reaseguro con garantía ilimitada del Estado. Para los disturbios, el Código de Seguros excluye en principio el riesgo, salvo cláusula en contrario; la mayoría de los contratos comerciales lo incluyen, según France Assureurs (federación profesional del sector asegurador francés).</p><p>La ley de finanzas para 2026, promulgada el 19 de febrero, hace obligatoria la garantía de disturbios en los contratos de daños, con un fondo de mutualización gestionado por la CCR y garantizado por el Estado. Las aseguradoras lo financiarán mediante una contribución de solidaridad limitada al 1,5 % de sus primas. El régimen espera un decreto y el dictamen de la Comisión Europea, y entra en vigor como máximo doce meses después de esa decisión: no funcionará para octubre.</p><p>España tiene una arquitectura más antigua y más amplia. El Consorcio cubre, para cualquier titular de una póliza de daños en los bienes, de vida o de accidentes, las inundaciones extraordinarias, pero también el terrorismo, la rebelión, la sedición, los disturbios y el tumulto popular. Un recargo obligatorio se suma a la prima y se calcula en tanto por mil del capital asegurado: 0,08 ‰ para las viviendas y 0,21 ‰ para los riesgos industriales, según un baremo publicado por el Ministerio para la Transición Ecológica, que debe leerse como orientativo.</p>
+        
+        
+        
+      
+        
+        <h3>3. Lo que las cifras ya miden</h3>
+        <p>España dispone de un recorrido que Francia no tiene. Por la dana de octubre de 2024, el CCS había registrado 251.413 solicitudes a 16 de febrero de 2026 y pagado 211.658 de ellas, por 4.271 M€; prevé llegar a 4.800 M€ al final. Vehículos (1.198 M€), viviendas (1.096 M€) y comercios (1.060 M€) forman lo esencial, y los riesgos industriales suman 859 M€. A 1 de enero de 2026, 35.040 solicitudes habían sido rechazadas por duplicidad o falta de cobertura, el 14 % del total.</p><p>En Francia, el episodio de 2023 da la escala: 730 M€ por 15.600 siniestros según las aseguradoras, el 90 % sobre bienes de profesionales o de administraciones locales. El riesgo de disturbios pesa, pues, más sobre las empresas que sobre los hogares. Si la contribución se fijara en el 1,5 % sobre una base de 40.000 a 45.000 M€ de primas, hipótesis avanzada por Que Choisir (asociación francesa de consumidores), recaudaría de 600 a 675 M€ al año: haría falta alrededor de dos años de cotizaciones para cubrir un episodio de 1.200 M€.</p>
+        
+<figure class="chart" aria-label="Pagos del CCS por clase de riesgo para la dana de 2024, en millones de euros">
+  
+  <div class="bar-row"><span class="lbl">Vehículos</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 1.198 M€</span></div><div class="bar-row"><span class="lbl">Viviendas</span><span class="bar"><span class="fill w91 c-es"></span></span><span class="val">≈ 1.096 M€</span></div><div class="bar-row"><span class="lbl">Comercios y otros</span><span class="bar"><span class="fill w88 c-es"></span></span><span class="val">≈ 1.060 M€</span></div><div class="bar-row"><span class="lbl">Riesgos industriales</span><span class="bar"><span class="fill w72 c-es"></span></span><span class="val">≈ 859 M€</span></div>
+  <figcaption>España, dana de octubre de 2024, pagos a 16 de febrero de 2026, sin oficinas ni obras públicas. Fuente: CCS, vía SegurosNews.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. Lo que cada modelo deja fuera</h3>
+        <p>El modelo español es universal pero condicional: solo indemniza a quienes tienen una póliza en vigor y el recargo pagado, y la pérdida de beneficios solo se cubre si el contrato la prevé. El modelo francés deja que el mercado fije la prima y que el Estado intervenga en última instancia; su eslabón ausente para los disturbios es un texto de desarrollo. En ambos países, la franquicia, el límite y la cobertura de la pérdida de beneficios deciden el resultado para una empresa.</p><p>En cuanto al coste para el asegurado, conviene la prudencia: la contribución francesa la pagan las aseguradoras, no directamente sus clientes, y hoy no existe ningún importe oficial de subida de prima. Una repercusión en la renovación de los contratos sigue siendo posible, sin que pueda cuantificarse.</p>
+        
+        
+        
+        <div class="debate"><h4>El debate</h4><p>La mutualización del riesgo de disturbios divide. Sus promotores ven en ella la manera de evitar que comerciantes y particulares se queden sin cobertura, repartiendo el coste por todo el territorio según el modelo CatNat. Varias aseguradoras responden que el mantenimiento del orden es una función soberana del Estado y que la factura debería recaer en el contribuyente, no en los asegurados. Otros observadores temen que un fondo calibrado para un riesgo raro se agote si los episodios se repiten (2005, 2023, 2026) y que el techo del 1,5 % acabe convirtiéndose en suelo. Tres episodios en veinte años no permiten aún zanjar la cuestión.</p></div>
+        
+      
+        
+        <h3>5. Las palancas y los puntos a seguir</h3>
+        <p>Tres decisiones determinarán lo que venga en Francia: el decreto de desarrollo, la orden (arrêté) que fijará el tipo de contribución por debajo del techo del 1,5 %, y el dictamen de la Comisión Europea, que debe asegurarse de que la garantía del Estado no constituya una ayuda encubierta. Mientras tanto, los contratos existentes funcionan: France Assureurs ha ampliado a 30 días el plazo de declaración de siniestros, y algunas aseguradoras han suprimido franquicias. En España, el punto a seguir es el ritmo de las peritaciones del CCS, que el ministro de Economía juzgaba en 2025 cuatro o cinco veces más rápido que en episodios anteriores.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lectura Rilamax</h4><p>Los dos sistemas cumplen la misma función y se distinguen sobre todo por su grado de avance. España indemniza los tumultos como las crecidas con un mecanismo rodado; Francia aprobó en febrero una garantía que ocho meses después sigue sin decreto, y un episodio costoso se ha producido antes de que pudiera funcionar. Juzgo severamente este retraso: la ley existe, el fondo no. Una empresa española con establecimientos en Francia debería revisar dos puntos en sus pólizas francesas: la cláusula de «disturbios y movimientos populares» y la inclusión de la pérdida de beneficios. En España, conviene comprobar que el recargo del Consorcio figura realmente en las pólizas. Un inversor con activos en Francia debería valorar además dos escenarios: un fondo operativo con una contribución cercana al techo, o un aplazamiento prolongado que permita a las aseguradoras reajustar tarifas y exclusiones. El balance cifrado de la dana Adam y el calendario del decreto darán elementos para decidir.</p></aside>
+    <div class="watch"><h4>Lo que vigilaremos</h4><p>El decreto de desarrollo y el dictamen de la Comisión Europea sobre la garantía de disturbios, y después el balance cifrado del CCS para la dana Adam.</p></div>
+    <p class="src">Fuentes: <a href="https://www.lassuranceenmouvement.com/2026/10/21/17-octobre-une-facture-record-et-des-vies-saccagees/" target="_blank" rel="noopener">L&#39;Assurance en mouvement</a>, <a href="https://www.jechange.fr/assurance/habitation/news/garantie-emeutes-obligatoire-contribution-1-5-pourcent-primes-etat-garant" target="_blank" rel="noopener">JeChange – garantía de disturbios</a>, <a href="https://eureetloir.quechoisirensemble.fr/2026/10/23/assurance-emeutes-une-nouvelle-garantie-et-une-future-facture-pour-les-assures/" target="_blank" rel="noopener">Que Choisir (Eure-et-Loir)</a>, <a href="https://www.senat.fr/rap/r23-603/r23-603_mono.html" target="_blank" rel="noopener">Senado francés – régimen CatNat</a>, <a href="https://questions.assemblee-nationale.fr/dyn/16/questions/QANR5L16QE10999.pdf" target="_blank" rel="noopener">Asamblea Nacional – respuesta sobre los disturbios de 2023</a>, <a href="https://segurosnews.com/ultimas-noticias/el-consorcio-ya-ha-pagado-4-271-millones-por-la-dana-de-2024-y-preve-que-finalmente-abonara-4-800-millones" target="_blank" rel="noopener">SegurosNews – CCS, dana 2024</a>, <a href="https://segurosnews.com/news/el-consorcio-ya-ha-recibido-6-528-solicitudes-de-indemnizacion-por-los-efectos-de-adam" target="_blank" rel="noopener">SegurosNews – CCS, dana Adam</a>, <a href="https://www.miteco.gob.es/content/dam/miteco/es/agua/formacion/4-ani_coberturaaseguradora_ccs_tcm30-379121.pdf" target="_blank" rel="noopener">MITECO – seguro de riesgos extraordinarios</a>, <a href="https://www.breizh-info.com/2026/10/22/264806/emeutes-du-17-octobre-assureurs-et-contribuables-face-a-une-lourde-facture/" target="_blank" rel="noopener">Breizh-info</a></p>
+  </section>
+
+  <section id="es-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">Francia</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalidad</span>
+    <h3>Presupuestos 2027: el apport-cession se aprueba por 25 votos a 23 y se aplaza la votación de los ingresos</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El PLF 2027 prevé, en su artículo 5, acabar con la extinción de la plusvalía diferida cuando un empresario dona o lega los títulos de su holding tras un apport-cession (mecanismo francés que permite diferir el impuesto sobre la plusvalía aportando las acciones a la propia holding antes de venderlas). La comisión de Finanzas de la Asamblea ya había suavizado el texto el 8 de octubre, antes de rechazar el 9 el conjunto de la parte de ingresos.</p></div>
+    <p class="sum">El 16 de octubre, los diputados aprobaron el artículo 5 por 25 votos contra 23 y 23 abstenciones, en una versión retocada: de 45 enmiendas, solo dos prosperaron. La tributación alcanza a ciertas donaciones y excluye las herencias. La votación solemne sobre los ingresos, prevista el 20 de octubre, se aplaza: quedan unas 2.600 enmiendas por examinar y el debate se reanuda el 27 de octubre. Si no hay votación antes del 17 de noviembre, el texto pasa al Senado. El ministro de Cuentas Públicas, David Amiel, cifra en 10.000 M€ el deterioro del déficit en esta fase. En España, los impuestos de donaciones y sucesiones dependen de las comunidades autónomas: Madrid aplica una bonificación del 99 % para cónyuge, hijos y padres.</p>
+    <p class="src">Fuentes: <a href="https://www.moneyvox.fr/impot/actualites/110878/budget-2027-un-impot-sur-les-donations-apport-cession-valide-par-les-deputes" target="_blank" rel="noopener">Moneyvox</a>, <a href="https://fiscalonline.com/outils-fiscaux/plf-2027-reforme-minima-apport-cession-applicable-apports-anciens" target="_blank" rel="noopener">Fiscalonline</a>, <a href="https://www.gestiondefortune.com/fiscalite-droit/13424-plf-2027-lexamen-de-la-partie-recettes-mis-sur-pause.html" target="_blank" rel="noopener">Gestion de fortune</a>, <a href="https://amorce.asso.fr/actualite/plf-2027-point-d-etape-sur-l-examen-du-budget-a-l-assemblee-nationale" target="_blank" rel="noopener">Amorce</a>, <a href="https://guiafiscal.es/patrimonio/sucesiones/madrid/" target="_blank" rel="noopener">Guía Fiscal – Madrid</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>El texto no está estabilizado, y la versión aprobada en el pleno ya es más estrecha que la del Gobierno. Un empresario con intereses en Francia que prepare una transmisión debería comparar dos escenarios, con y sin tributación en la donación, antes de firmar una aportación. Para el inversor español, el contraste con el régimen de donaciones de su propia comunidad autónoma merece cuantificarse.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Política y sociedad</span>
+    <h3>Violencia del 17 de octubre: desempleo parcial al 100 %, fondo de apoyo y al menos 3.000 comercios afectados</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Una jornada de movilización contra la carestía de la vida, el 17 de octubre, degeneró en saqueos y en incendios de edificios públicos, entre ellos varios ayuntamientos. Los disturbios de 2023 habían costado de 730 a 793 M€ a las aseguradoras según las fuentes. El Gobierno del primer ministro Sébastien Lecornu reunió una célula interministerial de crisis el 19 de octubre.</p></div>
+    <p class="sum">El ministro de Comercio, Serge Papin, cuenta al menos 3.000 comercios afectados, frente a 2.000 según las CCI (cámaras de comercio e industria). El primer ministro activó el desempleo parcial al 100 % desde el 20 de octubre (el chômage partiel, mecanismo francés de reducción temporal de jornada financiado por el Estado, parecido a un ERTE), anunció un fondo de apoyo específico y aplazamientos de cargas sociales y fiscales; el importe del fondo aún no está fijado. Según él, «Son ante todo quienes han destrozado los que deben pagar»: un proyecto de ley llamado «casseurs-payeurs» llega al Senado el 27 de octubre. France Assureurs ha ampliado a 30 días el plazo de declaración. En España, el CCS ya cubre los tumultos populares, como detalla el dossier.</p>
+    <p class="src">Fuentes: <a href="https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/assurances-chomage-partiel-fonds-de-soutien-sebastien-lecornu-fait-des-annonces-pour-les-commercants-touches-par-les-pillages-du-week-end_8243902.html" target="_blank" rel="noopener">Franceinfo</a>, <a href="https://lcp.fr/actualites/commerces-ravages-et-pilles-le-17-octobre-l-etat-au-chevet-des-entreprises-le-projet-de" target="_blank" rel="noopener">LCP</a>, <a href="https://tpeactu.fr/2026/10/19/pillages-17-octobre-aides-commercants-annonces-lecornu/" target="_blank" rel="noopener">TPE Actu</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>La respuesta pública cubre la tesorería y el empleo, no el coste final, que sigue por cuantificar. Para un grupo español con centros en Francia, la pregunta útil es la de la pérdida de beneficios: ¿la cubre el contrato en caso de disturbios? El calendario del fondo de apoyo y del texto «casseurs-payeurs» merece un seguimiento semanal.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Empresas e inversión</span>
+    <h3>Carrefour rebaja sus objetivos de 2026 por los disturbios en Francia; España resiste</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Carrefour es, por facturación, la primera empresa francesa implantada en España, con 10.960 M€ en 2025 según un ranking de la prensa hispano-francesa. En Francia, el grupo había multiplicado las inversiones en precios y logrado el reflotamiento de los antiguos supermercados Cora y Match, con un alza del 6,1 % a perímetro comparable en el tercer trimestre.</p></div>
+    <p class="sum">El 20 de octubre, Carrefour publicó una cifra de negocios de 22.700 M€ en el tercer trimestre (+3,9 % en datos publicados, +2,3 % a perímetro comparable) y a continuación rebajó sus objetivos anuales alegando el deterioro de la situación social y de seguridad en Francia. El impacto máximo sobre el resultado operativo corriente podría alcanzar los 200 M€. Las ventas comparables suben un 1,2 % en Francia y un 2,1 % en España, donde la proximidad crece un 13 %. A principios de octubre, el grupo realizó además una venta con arrendamiento posterior (cession-bail) de 35 tiendas en Francia y España, por unos 290 M€.</p>
+    <p class="src">Fuentes: <a href="https://www.zonebourse.com/actualite-bourse/carrefour-financial-document-cp-carrefour-ca-t3-2026-0-ce785cd8da80f627" target="_blank" rel="noopener">Zonebourse – comunicado de Carrefour</a>, <a href="https://fr.investing.com/news/transcripts/carrefour-reduit-ses-perspectives-2026-apres-une-hausse-des-ventes-au-t3-93CH-3643933" target="_blank" rel="noopener">Investing.com</a>, <a href="https://fr.finance.yahoo.com/actualites/tensions-france-inquiet-consommation-carrefour-210837957.html" target="_blank" rel="noopener">Yahoo Finance (AFP)</a>, <a href="https://lecourrier.es/les-10-entreprises-francaises-qui-pesent-le-plus-en-espagne/" target="_blank" rel="noopener">Le Courrier</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>El caso muestra que el coste de unos disturbios supera los daños materiales: afluencia, seguridad y consumo pesan en las cuentas de un distribuidor. La diferencia de crecimiento entre Francia y España, inferior a un punto, es modesta y no indica una tendencia duradera. Un inversor debería leer el desglose por países antes de concluir.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Energía</span>
+    <h3>Gasóleo: 2,35 € el litro en Francia, 1,89 € en España</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Desde la crisis en Oriente Medio, los carburantes pesan sobre los costes de las empresas europeas. España elevó en octubre a 20 céntimos por litro su rebaja del impuesto sobre hidrocarburos para la gasolina, ya que el diésel disfrutaba de esa rebaja; se prolonga en noviembre, al haber superado el índice de precios de septiembre el umbral del 15 % de subida de los carburantes.</p></div>
+    <p class="sum">Según el Boletín Petrolero de la Unión Europea, el gasóleo costaba de media 2,345 € el litro en Francia del 13 al 19 de octubre, frente a 1,889 € en España, una diferencia de 46 céntimos. La media de la Unión alcanza 2,138 €, Portugal 2,175 € e Italia 2,244 €. En Italia, los transportistas pusieron fin el 23 de octubre a una semana de bloqueos en el Sur, tras la aprobación por el Gobierno de un plan de ayudas de 175,2 M€ para transportistas, agricultores y pescadores.</p>
+    <p class="src">Fuentes: <a href="https://www.cadenadesuministro.es/transporte-carretera/precio-gasoleo-se-mantiene-estable-en-1889-euros-en-tercera-semana-octubre_1519149_102.html" target="_blank" rel="noopener">Cadena de Suministro (Boletín Petrolero UE)</a>, <a href="https://www.infobae.com/espana/agencias/2026/10/21/el-precio-de-la-gasolina-cae-un-86-tras-la-entrada-en-vigor-de-la-rebaja-de-20-centimos/" target="_blank" rel="noopener">Infobae</a>, <a href="https://www.boursorama.com/actualite-economique/actualites/prix-des-carburants-les-transporteurs-routiers-italiens-cessent-leur-mouvement-de-greve-5c3927abe88c06aa737c68ee66ae191b" target="_blank" rel="noopener">Boursorama (AFP)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Para un transportista o un industrial español que entrega a ambos lados de los Pirineos, el gasóleo cuesta casi una cuarta parte más en Francia, antes de cualquier efecto de las rebajas. Conviene revisar las cláusulas de indexación del carburante en los contratos de transporte. El episodio italiano recuerda que el asunto puede volverse social con rapidez.</p></aside>
+</article>
+  </section>
+
+  <section id="es-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">España</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalidad</span>
+    <h3>RDL 31/2026: nueva base de cálculo de la incapacidad temporal y cuota de autónomos sin regularización desde 2027</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>En España, las bajas por enfermedad (incapacidad temporal, IT) se indemnizan al 60 % de la base de cálculo hasta el día 20 y al 75 % después, y la empresa sigue cotizando durante la baja. El Gobierno aprobó el 20 de octubre un real decreto-ley (RDL), que debe convalidarse en 30 días, con las Cortes disueltas y las elecciones fijadas para el 29 de noviembre.</p></div>
+    <p class="sum">El RDL 31/2026, publicado en el BOE el 21 de octubre, modifica la Ley General de la Seguridad Social y el Estatuto de los Trabajadores. La base de cálculo de la IT se apoya ahora en la base de cotización del mes anterior al mes previo a la baja. Dos nuevas situaciones especiales (patologías ligadas a la menopausia, lesiones de víctimas de violencia de género) dan derecho a la prestación sin período mínimo de cotización, a partir del 1 de diciembre según despachos de abogados. Para los autónomos, desde el 1 de enero de 2027, los meses de baja, de permiso por nacimiento o de cese de actividad dejarán de regularizarse. La Diputación Permanente (comisión reducida de las Cortes que actúa cuando están disueltas) debe todavía convalidar el texto. Esta semana no se ha publicado ningún dato francés comparable.</p>
+    <p class="src">Fuentes: <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2026-21872" target="_blank" rel="noopener">BOE – RDL 31/2026</a>, <a href="https://monfortybonell.com/rdl_31_2026/" target="_blank" rel="noopener">Monfort &amp; Bonell</a>, <a href="https://adaralegal.es/boe-real-decreto-ley-31-2026-cambios-laborales-seguridad-social-fechas/" target="_blank" rel="noopener">Adara Legal</a>, <a href="https://e-autonomos.es/regularizacion-de-cuotas-de-autonomos-2027-rdl" target="_blank" rel="noopener">e-autónomos</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>El texto toca poco el impuesto y mucho la nómina: base de cálculo, derechos sin carencia, cotización de los autónomos. Las empresas con plantilla en España deberían hacer revisar sus parámetros de nómina antes del 1 de diciembre. El decreto aún puede caer: la Diputación Permanente no lo ha convalidado.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Política y sociedad</span>
+    <h3>Dana Adam: 6.528 solicitudes al Consorcio, 23,5 M€ de ayudas autonómicas y zona afectada anunciada</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>La dana de octubre de 2024 causó 233 muertos según la Generalitat valenciana; el CCS había pagado 4.270 M€ a 16 de febrero de 2026 y estima el coste final en 4.800 M€. La nueva dana, bautizada Adam, golpeó del 16 al 18 de octubre la provincia de Valencia y otras regiones, a poco más de un mes de las elecciones generales del 29 de noviembre.</p></div>
+    <p class="sum">A 22 de octubre, el CCS había recibido 6.528 solicitudes: 5.007 en la provincia de Valencia (77 %), 2.760 de ellas solo en el municipio de Oliva, y 847 en Alicante. Considera prematuro cuantificar los daños. La Generalitat ha aprobado un primer paquete de 23,5 M€: 6.000 € por vivienda habitual dañada, 3.000 € por segunda residencia y 800 € al mes durante doce meses para las personas realojadas. Pedro Sánchez ha anunciado que el Consejo de Ministros declarará los municipios afectados «zona gravemente afectada». En Francia, al menos 3.000 comercios resultaron afectados el 17 de octubre, pero la naturaleza de los siniestros es distinta.</p>
+    <p class="src">Fuentes: <a href="https://www.infobae.com/espana/agencias/2026/10/22/el-consorcio-de-seguros-ha-recibido-6528-peticiones-de-indemnizacion-por-la-dana-adam/" target="_blank" rel="noopener">Infobae (EFE)</a>, <a href="https://valenciaplaza.com/valenciaplaza/comarca-y-empresa/oliva-concentra-mas-de-la-mitad-de-las-solicitudes-de-indemnizacion-en-valencia-por-la-dana-adam" target="_blank" rel="noopener">Valencia Plaza</a>, <a href="https://www.eleconomista.es/banca-finanzas/noticias/14022884/10/26/el-consorcio-de-seguros-recibe-6500-siniestros-por-la-ultima-dana-de-valencia.html" target="_blank" rel="noopener">elEconomista</a>, <a href="https://www.hacienda.gob.es/eu-ES/Paginas/InfoDana.aspx" target="_blank" rel="noopener">Ministerio de Hacienda – medidas DANA 2024</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Las ayudas de 2024 incluyeron una exención del IBI y un aplazamiento del segundo plazo del IRPF: ese precedente indica las medidas fiscales que cabe esperar. Las empresas con activos en la zona deberían comprobar que sus pólizas incluyen la pérdida de beneficios, ya que el Consorcio solo indemniza si el contrato la prevé.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Economía</span>
+    <h3>Hoteles españoles: 40,1 millones de pernoctaciones en septiembre, los clientes extranjeros sostienen el crecimiento</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El turismo sigue siendo un motor de la demanda española. En 2025, el número de turistas franceses en España retrocedió un 1 % mientras que su gasto nominal aumentó un 5,8 %, según Turespaña, el organismo público de promoción turística.</p></div>
+    <p class="sum">Según el INE, los hoteles españoles registraron más de 40,1 millones de pernoctaciones en septiembre, un 1,7 % más que un año antes. Los no residentes suben un 3,2 % y los residentes bajan un 1,9 %, por tercer mes consecutivo. El ingreso medio por habitación ocupada alcanza 141,6 € (+7,4 %), el índice de precios hoteleros sube un 6,7 % y la ocupación se sitúa en el 67,0 %. Los franceses pesan un 6,9 % de las pernoctaciones de no residentes, por detrás de los británicos (27,2 %) y los alemanes (17,4 %). En Francia, el Insee (instituto nacional de estadística francés) contó 92 millones de pernoctaciones hoteleras de mayo a agosto, un 1,7 % más, aumento impulsado por la clientela residente.</p>
+    <p class="src">Fuentes: <a href="https://www.hosteleriadigital.es/2026/10/23/el-turismo-internacional-sostiene-el-crecimiento-de-las-pernoctaciones-hoteleras-en-septiembre/" target="_blank" rel="noopener">Hostelería Digital (INE)</a>, <a href="https://forbes.es/ultima-hora/1053146/las-pernoctaciones-hoteleras-en-espana-superan-los-40-millones-en-septiembre-un-17-mas/" target="_blank" rel="noopener">Forbes España</a>, <a href="https://larevuedeshotels.com/en/hotel-industry-summer-2026-analysis-92-million-nights-major-cities" target="_blank" rel="noopener">La Revue des Hôtels (Insee)</a>, <a href="https://www.agenttravel.es/noticia-064473_Espana-crece-como-destino-preferido-por-los-franceses-en-las-agencias-de-viajes.html" target="_blank" rel="noopener">Agenttravel (Turespaña)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>La subida de los precios hoteleros (6,7 %) supera la de las pernoctaciones (1,7 %): el crecimiento procede de las tarifas, mientras la clientela española se repliega. Un inversor hotelero debería valorar dos escenarios, una moderación de la clientela extranjera o su mantenimiento. Las cifras de septiembre no permiten decidir.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Inmobiliario</span>
+    <h3>Vivienda: 225 M€ del Consejo de Ministros para vivienda asequible y residencias universitarias</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El Congreso había derogado el 2 de octubre dos decretos-ley sobre vivienda; el Gobierno volvió a aprobar las medidas el 6 de octubre en los RDL 28 y 29/2026. Estos textos esperan la convalidación de la Diputación Permanente, que debería reunirse en torno al 12 de noviembre, al día siguiente de una huelga general convocada en torno a la vivienda.</p></div>
+    <p class="sum">El 20 de octubre, el Consejo de Ministros aprobó dos reales decretos sobre el acceso a la vivienda. Dotan con 180 M€ la vivienda asequible en zonas tensionadas y con 45 M€ el alojamiento universitario, 225 M€ en total; otros 9 M€ van a explotaciones agrarias afectadas por los incendios. El Gobierno presenta estos textos como destinados a promover vivienda allí donde la necesidad es mayor. No hay dato francés comparable fiable esta semana.</p>
+    <p class="src">Fuentes: <a href="https://www.lamoncloa.gob.es/consejodeministros/resumenes/Paginas/2026/201026-rueda-prensa-ministros.aspx" target="_blank" rel="noopener">La Moncloa – Consejo de Ministros del 20 de octubre</a>, <a href="https://www.alcalahoy.es/2026/10/17/convalida-ayudas-por-la-dana-y-deja-en-el-aire-los-decretos-de-vivienda-asi-decide-la-diputacion-permanente-de-69-diputados/" target="_blank" rel="noopener">Alcalá Hoy</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Los importes son modestos y financian proyectos, no producción en volumen. Para un inversor interesado en residencias universitarias, el reparto territorial y el calendario de desembolso cuentan, y la referencia oficial no los detalla. Los decretos-ley de vivienda podrían además caer el 12 de noviembre.</p></aside>
+</article>
+  </section>
+
+  <section id="es-agenda">
+    <h2>A vigilar en las próximas semanas</h2>
+    <ul class="agenda"><li><span class="when">27 de octubre</span><span class="what">Francia: reanudación del examen del PLF 2027 en la Asamblea (parte de ingresos) y comienzo del examen del proyecto de ley «casseurs-payeurs» en el Senado</span></li><li><span class="when">27 de octubre</span><span class="what">España: publicación por el INE de la Encuesta de Población Activa (EPA) del tercer trimestre</span></li><li><span class="when">30 de octubre</span><span class="what">España: primera estimación del PIB del tercer trimestre (INE) e informe mensual de recaudación tributaria de septiembre (Agencia Tributaria)</span></li><li><span class="when">12 de noviembre (prevista)</span><span class="what">España: sesión prevista de la Diputación Permanente sobre los decretos-ley de vivienda 28 y 29/2026</span></li><li><span class="when">17 de noviembre</span><span class="what">Francia: votación de la Asamblea sobre el conjunto del PLF 2027 en primera lectura; a falta de votación, el texto pasa al Senado</span></li></ul>
+  </section>
+
+  
+  <section id="es-glosario">
+    <h2>Las siglas de esta edición</h2>
+    <dl class="glossary"><div><dt>Apport-cession</dt><dd>Mecanismo francés que permite a un empresario diferir el impuesto sobre la plusvalía aportando sus títulos a su sociedad holding antes de venderlos. El PLF 2027 pretende restringir la extinción de la plusvalía diferida cuando hay donación.</dd></div><div><dt>CatNat</dt><dd>Régimen francés de indemnización de catástrofes naturales, vigente desde 1982 y financiado con un recargo sobre los contratos de seguro de daños, hoy del 20 % para la vivienda.</dd></div><div><dt>CCI</dt><dd>Chambres de commerce et d&#39;industrie: cámaras de comercio e industria francesas, que representan a las empresas de cada territorio y aportaron su propio recuento de comercios afectados el 17 de octubre.</dd></div><div><dt>CCR</dt><dd>Caisse centrale de réassurance: reasegurador público francés, propiedad del Estado, que gestionará también el futuro fondo de mutualización del riesgo de disturbios.</dd></div><div><dt>CCS</dt><dd>Consorcio de Compensación de Seguros: organismo público español que indemniza los riesgos extraordinarios (inundaciones, terrorismo, tumultos) a los titulares de una póliza con recargo.</dd></div><div><dt>Diputación Permanente</dt><dd>Comisión reducida de las Cortes que actúa cuando están disueltas y convalida los decretos-ley en un plazo de 30 días.</dd></div><div><dt>IBI</dt><dd>Impuesto sobre Bienes Inmuebles: tributo local sobre la propiedad inmobiliaria, a menudo objeto de exención para los bienes siniestrados.</dd></div><div><dt>IT</dt><dd>Incapacidad temporal: baja por enfermedad, indemnizada al 60 % de la base de cálculo hasta el día 20 y al 75 % después.</dd></div><div><dt>PLF</dt><dd>Projet de loi de finances: texto anual que fija los ingresos y los gastos del Estado francés, votado por el Parlamento; es el equivalente francés a los Presupuestos Generales del Estado.</dd></div><div><dt>RDL</dt><dd>Real decreto-ley: norma con rango de ley aprobada por el Gobierno en caso de urgencia, de aplicación inmediata pero sujeta a convalidación parlamentaria en 30 días.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">Suscribirse en LinkedIn</a>
+  </section>
+
+  
+  <section id="es-archivo" class="archive">
+    <h2>Ediciones anteriores</h2>
+    <ul><li><a href="/ediciones/2026-10-17/">N° 3 — Inflación: España crece más deprisa que Francia, pero se encarece más deprisa</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Energía: lo que Francia saca de sus campos y España deja escapar</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Vivienda en España: un déficit de oferta que los decretos no abordaban y unas zonas tensionadas puestas a prueba por los datos</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>El Boletín Rilamax lo publica RILAMAX 2025 SL. Los resúmenes son de elaboración propia a partir de las fuentes citadas. Las lecturas Rilamax son análisis generales y no constituyen asesoramiento de inversión personalizado. Seguimiento y redacción asistidos por IA. Selección, verificación y análisis: Jean Marc Pavia.</p></footer>
+</div>
+
+
+<script>
+(function(){
+  var titles={fr:"Le Bulletin Rilamax \u2014 N\u00b0 4",es:"El Bolet\u00edn Rilamax \u2014 N.\u00ba 4"};
+  function setLang(l){
+    document.querySelectorAll('.edition').forEach(function(e){e.hidden=e.dataset.lang!==l});
+    document.querySelectorAll('.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});
+    document.documentElement.lang=l; document.title=titles[l];
+    try{localStorage.setItem('rilamax-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set);window.scrollTo(0,0)})});
+  var p=new URLSearchParams(location.search).get('lang'); var saved=null;
+  try{saved=localStorage.getItem('rilamax-lang')}catch(e){}
+  var l=(p==='es'||p==='fr')?p:saved; if(l==='es'||l==='fr') setLang(l);
+  // Detalle del gráfico de mix al pasar el ratón, tocar o enfocar un segmento
+  document.querySelectorAll('figure.mix').forEach(function(fig){
+    var info=fig.querySelector('.mix-info'); if(!info) return;
+    fig.querySelectorAll('.seg').forEach(function(sg){
+      function show(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});sg.classList.add('on');info.textContent=sg.getAttribute('data-tip');info.classList.add('act')}
+      sg.addEventListener('mouseenter',show);sg.addEventListener('focus',show);sg.addEventListener('click',show);
+    });
+    fig.addEventListener('mouseleave',function(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});info.textContent=info.getAttribute('data-default');info.classList.remove('act')});
+  });
+  // Animación de los gráficos al aparecer en pantalla
+  try{
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(!reduce&&'IntersectionObserver' in window){
+      var charts=document.querySelectorAll('figure.chart');
+      charts.forEach(function(c){c.classList.add('pre')});
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target)}})},{threshold:.35});
+      charts.forEach(function(c){io.observe(c)});
+    }
+  }catch(e){}
+})();
+</script>
+</body>
+</html>

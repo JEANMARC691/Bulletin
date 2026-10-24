@@ -22,5 +22,13 @@
     "ruta": "/ediciones/2026-10-17/",
     "titulo_fr": "Inflation : l'Espagne croît plus vite que la France, mais renchérit plus vite",
     "titulo_es": "Inflación: España crece más deprisa que Francia, pero se encarece más deprisa"
+  },
+  {
+    "numero": 4,
+    "fecha": "2026-10-24",
+    "semana": 43,
+    "ruta": "/ediciones/2026-10-24/",
+    "titulo_fr": "Émeutes et inondations : deux modèles pour payer le risque qui s'emballe",
+    "titulo_es": "Disturbios e inundaciones: dos modelos para pagar un riesgo que se desboca"
   }
 ]
