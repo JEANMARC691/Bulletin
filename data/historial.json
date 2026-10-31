@@ -30,5 +30,13 @@
     "ruta": "/ediciones/2026-10-24/",
     "titulo_fr": "Émeutes et inondations : deux modèles pour payer le risque qui s'emballe",
     "titulo_es": "Disturbios e inundaciones: dos modelos para pagar un riesgo que se desboca"
+  },
+  {
+    "numero": 5,
+    "fecha": "2026-10-31",
+    "semana": 44,
+    "ruta": "/ediciones/2026-10-31/",
+    "titulo_fr": "Gagner une élection n'est pas un brevet de pilote",
+    "titulo_es": "Ganar unas elecciones no es una licencia de piloto"
   }
 ]
