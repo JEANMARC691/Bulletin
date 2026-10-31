@@ -190,8 +190,23 @@ ALIAS_NOTICIA = {"contexte": "contexto", "context": "contexto", "résumé": "res
                  "lecture": "lectura", "sources": "fuentes", "titre": "titulo", "rubrique": "rubrica"}
 
 
+CITA_RE = re.compile(r"</?cite\b[^>]*>", re.I)
+
+
+def limpiar_citas(x):
+    """Quita las etiquetas <cite index=...> que la búsqueda web deja a veces en el texto."""
+    if isinstance(x, str):
+        return re.sub(r"[ \t]{2,}", " ", CITA_RE.sub("", x))
+    if isinstance(x, list):
+        return [limpiar_citas(v) for v in x]
+    if isinstance(x, dict):
+        return {k: limpiar_citas(v) for k, v in x.items()}
+    return x
+
+
 def normalizar(ed, idioma):
-    """Corrige claves que Claude a veces traduce (p. ej. «contexte» en vez de «contexto») y el nombre del boletín."""
+    """Corrige claves que Claude a veces traduce (p. ej. «contexte» en vez de «contexto»), las citas y el nombre del boletín."""
+    ed.update(limpiar_citas(ed))
     for sec in ("francia", "espana"):
         for n in ed.get(sec) or []:
             for mal, bien in ALIAS_NOTICIA.items():
