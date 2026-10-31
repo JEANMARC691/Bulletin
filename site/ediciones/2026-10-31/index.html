@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Le Bulletin Rilamax — N° 5</title>
+<meta name="description" content="Holdings et patrimoine : la France retouche sans cesse, l&#39;Espagne a laissé ses régions trancher">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Le Bulletin Rilamax">
+<meta property="og:title" content="Le Bulletin Rilamax N° 5 · Holdings et patrimoine : la France retouche sans cesse, l&#39;Espagne a laissé ses régions trancher">
+<meta property="og:description" content="Mercredi 28 octobre, l&#39;Assemblée a adopté, contre l&#39;avis du gouvernement, une taxe de 2 % sur la trésorerie des holdings familiales. C&#39;est la troisième version du dispositif en douze mois. En Espagne, l&#39;impôt censé neutraliser les écarts régionaux sur la fortune a vu son produit s&#39;effondrer dès sa deuxième année.">
+<meta property="og:image" content="https://bulletin.rilamax.com/portada.png">
+<meta property="og:url" content="https://bulletin.rilamax.com/ediciones/2026-10-31/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --paper:#F5F7FA; --surface:#FFFFFF; --ink:#16233D; --muted:#5A6478; --rule:#D9DEE7;
+  --fr:#2F4FA8; --fr-soft:#E7ECF8; --es:#B5751A; --es-soft:#F8EEDD;
+  --note:#1F5C55; --note-soft:#E4F0EE;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+    --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+    --note:#7FCBC0; --note-soft:#173532;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+  --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+  --note:#7FCBC0; --note-soft:#173532;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.55}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--fr);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.25rem}
+.serif{font-family:"Literata",Georgia,serif}
+
+/* Masthead */
+.mast{padding:2.5rem 0 1.75rem}
+.bridge{display:flex;align-items:center;gap:.75rem;color:var(--muted);font-size:.9rem}
+.bridge .line{flex:1;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--fr) 0 50%,var(--es) 50% 100%)}
+h1{font-family:"Literata",Georgia,serif;font-weight:700;font-size:clamp(2.2rem,6vw,3.6rem);line-height:1.05;letter-spacing:-.02em;margin:1rem 0 .5rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;color:var(--muted);font-size:.95rem}
+
+/* Sommaire */
+.toc{position:sticky;top:0;z-index:5;background:var(--paper);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.toc ul{list-style:none;margin:0;padding:.6rem 0;display:flex;gap:1.25rem;overflow-x:auto;white-space:nowrap;font-size:.92rem}
+.toc a{text-decoration:none;color:var(--muted)}
+.toc a:hover{color:var(--ink)}
+
+section{padding:2.75rem 0;border-bottom:1px solid var(--rule)}
+h2{font-family:"Literata",Georgia,serif;font-size:1.75rem;line-height:1.2;margin:0 0 1.25rem}
+.lede{color:var(--muted);margin:-.75rem 0 1.5rem;max-width:62ch}
+
+/* Edito */
+.edito{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:780px){.edito{grid-template-columns:1.7fr 1fr}}
+.edito .body p{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;margin:0 0 1rem;max-width:62ch}
+.edito .sign{font-size:.92rem;color:var(--muted)}
+.keys{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:1.4rem 1.5rem;align-self:start}
+.keys h3{margin:0 0 .8rem;font-size:1rem}
+.keys ol{margin:0;padding-left:1.2rem}
+.keys li{margin:0 0 .6rem}
+
+/* Chiffres */
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.fig{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--c);border-radius:4px 4px 10px 10px;padding:1.1rem 1.25rem}
+.fig.fr{--c:var(--fr)} .fig.es{--c:var(--es)}
+.fig strong{display:block;font-family:"Literata",Georgia,serif;font-size:2.2rem;line-height:1.05;color:var(--c)}
+.fig span{display:block;margin-top:.5rem;font-size:.93rem}
+.fig small{display:block;margin-top:.4rem;color:var(--muted);font-size:.8rem}
+
+/* Dossier */
+.dossier .intro{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;max-width:66ch;margin:0 0 1.75rem}
+.cols{display:grid;grid-template-columns:1fr;gap:1rem;margin-bottom:1.5rem}
+@media(min-width:780px){.cols{grid-template-columns:repeat(3,1fr)}}
+.col{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1.2rem 1.3rem}
+.col h3{margin:0 0 .6rem;font-size:1.02rem}
+.col ul{margin:0;padding-left:1.1rem}
+.col li{margin:0 0 .55rem;font-size:.95rem}
+
+/* Items */
+.country-head{display:flex;align-items:center;gap:.75rem;margin:0 0 .5rem}
+.country-head .bar{width:28px;height:6px;border-radius:3px;background:var(--c)}
+.country-head.fr{--c:var(--fr)} .country-head.es{--c:var(--es)}
+.item{display:grid;grid-template-columns:1fr;gap:1rem 2.5rem;padding:1.75rem 0;border-top:1px solid var(--rule)}
+.item:first-of-type{border-top:0}
+@media(min-width:780px){.item{grid-template-columns:1.5fr 1fr}}
+.tag{display:inline-flex;align-items:center;gap:.5rem;font-size:.86rem;font-weight:600;padding:.2rem .65rem;border-radius:6px}
+.tag.fr{background:var(--fr-soft);color:var(--fr)}
+.tag.es{background:var(--es-soft);color:var(--es)}
+.item h3{font-family:"Literata",Georgia,serif;font-size:1.35rem;line-height:1.25;margin:.7rem 0 .55rem;max-width:32ch}
+.item .sum{margin:0 0 .8rem;max-width:62ch}
+.src{font-size:.86rem;color:var(--muted)}
+.src a{color:var(--muted);text-underline-offset:3px}
+.lecture{align-self:start;background:var(--note-soft);border-left:3px solid var(--note);border-radius:0 10px 10px 0;padding:1.1rem 1.25rem}
+.lecture h4{margin:0 0 .45rem;font-size:.93rem;font-weight:600;color:var(--note)}
+.lecture p{margin:0;font-family:"Literata",Georgia,serif;font-size:1rem;line-height:1.65}
+
+/* Agenda */
+.agenda{list-style:none;margin:0;padding:0;display:grid;gap:.75rem}
+.agenda li{display:grid;grid-template-columns:8.5rem 1fr;gap:1rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1rem 1.2rem}
+@media(max-width:560px){.agenda li{grid-template-columns:1fr;gap:.25rem}}
+.agenda .when{font-weight:600}
+.agenda .what{max-width:62ch}
+
+/* CTA + footer */
+.cta{display:grid;grid-template-columns:1fr;gap:1.25rem;align-items:center}
+@media(min-width:780px){.cta{grid-template-columns:1.6fr 1fr}}
+.cta p{font-family:"Literata",Georgia,serif;font-size:1.1rem;margin:0;max-width:56ch}
+.btn{display:inline-block;text-align:center;text-decoration:none;font-weight:600;background:var(--ink);color:var(--paper);padding:.85rem 1.3rem;border-radius:10px}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.86rem}
+footer p{max-width:72ch;margin:0 0 .6rem}
+
+
+.titlerow{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.langs{display:inline-flex;border:1px solid var(--rule);border-radius:999px;padding:3px;background:var(--surface);margin-bottom:.6rem}
+.langs button{font:inherit;font-size:.88rem;font-weight:600;border:0;background:transparent;color:var(--muted);padding:.35rem .85rem;border-radius:999px;cursor:pointer}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--fr);outline-offset:2px}
+.edition[hidden]{display:none}
+
+.dfigs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:12px;overflow:hidden;margin:0 0 2.25rem}
+.dfigs div{background:var(--surface);padding:1.1rem 1.25rem}
+.dfigs strong{display:block;font-family:"Literata",Georgia,serif;font-size:1.9rem;line-height:1.1;color:var(--es)}
+.dfigs span{display:block;margin-top:.35rem;font-size:.9rem;color:var(--muted)}
+.longform{max-width:none}
+.longform>h3,.longform>p,.longform>.debate{max-width:68ch}
+.longform>figure{max-width:860px}
+.longform h3{font-family:"Literata",Georgia,serif;font-size:1.3rem;line-height:1.3;margin:2.25rem 0 .75rem}
+.longform h3:first-child{margin-top:0}
+.longform p{font-family:"Literata",Georgia,serif;font-size:1.06rem;line-height:1.78;margin:0 0 1.1rem}
+.chart{margin:1.5rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.bar-row{display:grid;grid-template-columns:9.5rem 1fr 5.5rem;align-items:center;gap:.75rem;margin:.45rem 0;font-size:.92rem}
+.bar-row .bar{display:block;height:14px;border-radius:7px;background:#D9DEE7;background:var(--rule);overflow:hidden}
+.bar-row .fill{display:block;height:14px;width:0;border-radius:7px;background:#B5751A;background:var(--es)}
+.bar-row .fill.c-muted{background:#5A6478;background:var(--muted)}
+.bar-row .fill.c-fr{background:#2F4FA8;background:var(--fr)}
+.bar-row .val{font-weight:600;text-align:right}
+.chart figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted)}
+@media(max-width:560px){.bar-row{grid-template-columns:1fr auto}.bar-row .bar{grid-column:1/-1;order:3}}
+.debate{margin:1.5rem 0;padding:1rem 1.25rem;border:1px dashed var(--rule);border-radius:10px}
+.debate h4,.watch h4{margin:0 0 .4rem;font-size:.95rem}
+.debate p,.watch p{margin:0;font-size:.97rem;font-family:"Public Sans",system-ui,sans-serif;line-height:1.6}
+.dossier .lecture{margin-top:2rem;max-width:none}
+.dossier .lecture p{font-size:1.06rem}
+.watch{margin:1.25rem 0;padding:1rem 1.25rem;background:var(--es-soft);border-radius:10px}
+.dossier .src{margin-top:1rem;line-height:1.7}
+
+.archive ul{list-style:none;margin:0;padding:0;display:grid;gap:.5rem}
+.archive a{text-underline-offset:3px}
+.archive li span{color:var(--muted);font-size:.9rem;margin-left:.5rem}
+.bar-row .fill.w1{width:1%}.bar-row .fill.w2{width:2%}.bar-row .fill.w3{width:3%}.bar-row .fill.w4{width:4%}.bar-row .fill.w5{width:5%}.bar-row .fill.w6{width:6%}.bar-row .fill.w7{width:7%}.bar-row .fill.w8{width:8%}.bar-row .fill.w9{width:9%}.bar-row .fill.w10{width:10%}.bar-row .fill.w11{width:11%}.bar-row .fill.w12{width:12%}.bar-row .fill.w13{width:13%}.bar-row .fill.w14{width:14%}.bar-row .fill.w15{width:15%}.bar-row .fill.w16{width:16%}.bar-row .fill.w17{width:17%}.bar-row .fill.w18{width:18%}.bar-row .fill.w19{width:19%}.bar-row .fill.w20{width:20%}.bar-row .fill.w21{width:21%}.bar-row .fill.w22{width:22%}.bar-row .fill.w23{width:23%}.bar-row .fill.w24{width:24%}.bar-row .fill.w25{width:25%}.bar-row .fill.w26{width:26%}.bar-row .fill.w27{width:27%}.bar-row .fill.w28{width:28%}.bar-row .fill.w29{width:29%}.bar-row .fill.w30{width:30%}.bar-row .fill.w31{width:31%}.bar-row .fill.w32{width:32%}.bar-row .fill.w33{width:33%}.bar-row .fill.w34{width:34%}.bar-row .fill.w35{width:35%}.bar-row .fill.w36{width:36%}.bar-row .fill.w37{width:37%}.bar-row .fill.w38{width:38%}.bar-row .fill.w39{width:39%}.bar-row .fill.w40{width:40%}.bar-row .fill.w41{width:41%}.bar-row .fill.w42{width:42%}.bar-row .fill.w43{width:43%}.bar-row .fill.w44{width:44%}.bar-row .fill.w45{width:45%}.bar-row .fill.w46{width:46%}.bar-row .fill.w47{width:47%}.bar-row .fill.w48{width:48%}.bar-row .fill.w49{width:49%}.bar-row .fill.w50{width:50%}.bar-row .fill.w51{width:51%}.bar-row .fill.w52{width:52%}.bar-row .fill.w53{width:53%}.bar-row .fill.w54{width:54%}.bar-row .fill.w55{width:55%}.bar-row .fill.w56{width:56%}.bar-row .fill.w57{width:57%}.bar-row .fill.w58{width:58%}.bar-row .fill.w59{width:59%}.bar-row .fill.w60{width:60%}.bar-row .fill.w61{width:61%}.bar-row .fill.w62{width:62%}.bar-row .fill.w63{width:63%}.bar-row .fill.w64{width:64%}.bar-row .fill.w65{width:65%}.bar-row .fill.w66{width:66%}.bar-row .fill.w67{width:67%}.bar-row .fill.w68{width:68%}.bar-row .fill.w69{width:69%}.bar-row .fill.w70{width:70%}.bar-row .fill.w71{width:71%}.bar-row .fill.w72{width:72%}.bar-row .fill.w73{width:73%}.bar-row .fill.w74{width:74%}.bar-row .fill.w75{width:75%}.bar-row .fill.w76{width:76%}.bar-row .fill.w77{width:77%}.bar-row .fill.w78{width:78%}.bar-row .fill.w79{width:79%}.bar-row .fill.w80{width:80%}.bar-row .fill.w81{width:81%}.bar-row .fill.w82{width:82%}.bar-row .fill.w83{width:83%}.bar-row .fill.w84{width:84%}.bar-row .fill.w85{width:85%}.bar-row .fill.w86{width:86%}.bar-row .fill.w87{width:87%}.bar-row .fill.w88{width:88%}.bar-row .fill.w89{width:89%}.bar-row .fill.w90{width:90%}.bar-row .fill.w91{width:91%}.bar-row .fill.w92{width:92%}.bar-row .fill.w93{width:93%}.bar-row .fill.w94{width:94%}.bar-row .fill.w95{width:95%}.bar-row .fill.w96{width:96%}.bar-row .fill.w97{width:97%}.bar-row .fill.w98{width:98%}.bar-row .fill.w99{width:99%}.bar-row .fill.w100{width:100%}
+
+.glossary{margin:0;display:grid;grid-template-columns:1fr;gap:.6rem}
+@media(min-width:780px){.glossary{grid-template-columns:1fr 1fr}}
+.glossary div{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:.9rem 1.1rem}
+.glossary dt{font-weight:600;color:var(--fr);margin:0 0 .2rem}
+.glossary dd{margin:0;font-size:.95rem;line-height:1.55}
+
+.chart-t{margin:0 0 .7rem;font-weight:600;font-size:.95rem}
+.bar-row .fill{transition:width 1.1s cubic-bezier(.2,.7,.2,1)}
+.chart.pre .bar-row .fill,.chart.pre .seg{width:0 !important}
+.mix-row{display:grid;grid-template-columns:6.5rem 1fr;align-items:center;gap:.75rem;margin:.55rem 0;font-size:.92rem}
+.mix-bar{display:flex;height:30px;border-radius:7px;overflow:hidden;background:var(--rule)}
+.seg{display:flex;align-items:center;justify-content:center;height:100%;width:0;color:#fff;font-style:normal;font-size:.75rem;font-weight:600;position:relative;transition:width 1.2s cubic-bezier(.2,.7,.2,1);cursor:default;outline:none}
+.seg i{font-style:normal;white-space:nowrap;overflow:hidden}
+.seg:hover,.seg:focus{filter:brightness(1.12)}
+.mix-legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin-top:.75rem;font-size:.82rem;color:var(--muted)}
+.mix-legend b{display:inline-block;width:.8rem;height:.8rem;border-radius:3px;margin-right:.35rem;vertical-align:-1px}
+.k-nuclear{background:#6C4AB6}.k-fosil{background:#5A6478}.k-eolica{background:#2F8F83}.k-solar{background:#D9A21B}.k-hidro{background:#2F4FA8}.k-biomasa{background:#7A9A3A}.k-otros{background:#A3ADC0}
+.mix .chart.pre .seg{width:0}
+.seg[class*=" w"]{flex:none}
+.seg.w1{width:1%}.seg.w2{width:2%}.seg.w3{width:3%}.seg.w4{width:4%}.seg.w5{width:5%}.seg.w6{width:6%}.seg.w7{width:7%}.seg.w8{width:8%}.seg.w9{width:9%}.seg.w10{width:10%}.seg.w11{width:11%}.seg.w12{width:12%}.seg.w13{width:13%}.seg.w14{width:14%}.seg.w15{width:15%}.seg.w16{width:16%}.seg.w17{width:17%}.seg.w18{width:18%}.seg.w19{width:19%}.seg.w20{width:20%}.seg.w21{width:21%}.seg.w22{width:22%}.seg.w23{width:23%}.seg.w24{width:24%}.seg.w25{width:25%}.seg.w26{width:26%}.seg.w27{width:27%}.seg.w28{width:28%}.seg.w29{width:29%}.seg.w30{width:30%}.seg.w31{width:31%}.seg.w32{width:32%}.seg.w33{width:33%}.seg.w34{width:34%}.seg.w35{width:35%}.seg.w36{width:36%}.seg.w37{width:37%}.seg.w38{width:38%}.seg.w39{width:39%}.seg.w40{width:40%}.seg.w41{width:41%}.seg.w42{width:42%}.seg.w43{width:43%}.seg.w44{width:44%}.seg.w45{width:45%}.seg.w46{width:46%}.seg.w47{width:47%}.seg.w48{width:48%}.seg.w49{width:49%}.seg.w50{width:50%}.seg.w51{width:51%}.seg.w52{width:52%}.seg.w53{width:53%}.seg.w54{width:54%}.seg.w55{width:55%}.seg.w56{width:56%}.seg.w57{width:57%}.seg.w58{width:58%}.seg.w59{width:59%}.seg.w60{width:60%}.seg.w61{width:61%}.seg.w62{width:62%}.seg.w63{width:63%}.seg.w64{width:64%}.seg.w65{width:65%}.seg.w66{width:66%}.seg.w67{width:67%}.seg.w68{width:68%}.seg.w69{width:69%}.seg.w70{width:70%}.seg.w71{width:71%}.seg.w72{width:72%}.seg.w73{width:73%}.seg.w74{width:74%}.seg.w75{width:75%}.seg.w76{width:76%}.seg.w77{width:77%}.seg.w78{width:78%}.seg.w79{width:79%}.seg.w80{width:80%}.seg.w81{width:81%}.seg.w82{width:82%}.seg.w83{width:83%}.seg.w84{width:84%}.seg.w85{width:85%}.seg.w86{width:86%}.seg.w87{width:87%}.seg.w88{width:88%}.seg.w89{width:89%}.seg.w90{width:90%}.seg.w91{width:91%}.seg.w92{width:92%}.seg.w93{width:93%}.seg.w94{width:94%}.seg.w95{width:95%}.seg.w96{width:96%}.seg.w97{width:97%}.seg.w98{width:98%}.seg.w99{width:99%}.seg.w100{width:100%}
+
+.seg{cursor:pointer}
+.seg.on{filter:brightness(1.18);box-shadow:inset 0 0 0 2px rgba(255,255,255,.85)}
+.mix-info{margin:.7rem 0 0;padding:.5rem .75rem;border-radius:8px;background:var(--paper);font-size:.88rem;color:var(--muted);min-height:1.2em}
+.mix-info.act{color:var(--ink);font-weight:600;background:var(--fr-soft)}
+.cite{font-family:"Public Sans",system-ui,sans-serif;font-size:.78rem;color:var(--muted);white-space:normal}
+.cite a{color:var(--muted);text-underline-offset:2px}
+.illus{margin:1.6rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.illus figcaption,.cmp figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted);font-family:"Public Sans",system-ui,sans-serif}
+.cmp{margin:1.75rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;max-width:none}
+.cmp-wrap{overflow-x:auto}
+.cmp table{width:100%;border-collapse:collapse;font-size:.88rem;font-family:"Public Sans",system-ui,sans-serif;min-width:560px}
+.cmp th,.cmp td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.cmp thead th{font-weight:600;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.cmp thead th:nth-child(2){color:var(--fr)}.cmp thead th:nth-child(3){color:var(--es)}
+.cmp tbody th{font-weight:600}
+.cmp td{white-space:nowrap}
+.cmp td.src-cell{white-space:normal}
+.cmp td.src-cell .cite{font-size:.75rem}
+.longform .cmp,.longform .illus{max-width:none}
+
+.mix-info{font-family:"Public Sans",system-ui,sans-serif !important;font-size:.88rem !important;line-height:1.5 !important}
+.cmp td.src-cell{min-width:9rem}
+
+.lecture p+p{margin-top:.8rem}
+
+.ctx{margin:.2rem 0 .9rem;padding:.75rem 1rem;background:var(--paper);border:1px solid var(--rule);border-radius:8px;max-width:62ch}
+.ctx-l{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:.25rem}
+.ctx p{margin:0;font-size:.95rem;line-height:1.6}
+.fig .cmp-o{display:block;margin-top:.45rem;font-style:normal;font-size:.85rem;font-weight:600;padding-top:.4rem;border-top:1px dashed var(--rule)}
+.fig .cmp-o.fr{color:var(--fr)}.fig .cmp-o.es{color:var(--es)}
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="edition" data-lang="fr" lang="fr">
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>France</span><span class="line" aria-hidden="true"></span><span>Espagne</span></div>
+    <div class="titlerow">
+      <h1>Le Bulletin Rilamax</h1>
+      <div class="langs" role="group" aria-label="Langue"><button type="button" data-set="fr" aria-pressed="true">FR</button><button type="button" data-set="es" aria-pressed="false">ES</button></div>
+    </div>
+    <div class="meta"><span>N° 5 · Semaine 44</span><span>Du 26 au 31 octobre 2026</span><span>Lecture : 22 minutes</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sommaire">
+  <div class="wrap"><ul>
+    <li><a href="#fr-edito">L&#39;édito</a></li>
+    <li><a href="#fr-cifras">Les chiffres</a></li>
+    <li><a href="#fr-dossier">Le dossier</a></li>
+    <li><a href="#fr-fr">France</a></li>
+    <li><a href="#fr-es">Espagne</a></li>
+    <li><a href="#fr-agenda">À surveiller</a></li>
+    <li><a href="#fr-glosario">Lexique</a></li>
+    <li><a href="/archivo/?lang=fr">Toutes les éditions</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="fr-edito">
+    <h2>La France cale, l&#39;Espagne résiste, le budget s&#39;écrit par amendements</h2>
+    <div class="edito">
+      <div class="body">
+        <p>Vendredi 30 octobre, l&#39;Insee (l&#39;institut statistique français) a annoncé un PIB en recul de 0,1 % au troisième trimestre, alors que les économistes attendaient une légère hausse. &lt;cite index=&#34;111-3&#34;&gt;Les économistes interrogés par Reuters tablaient en moyenne sur +0,1 %.&lt;/cite&gt; &lt;cite index=&#34;104-1&#34;&gt;L&#39;INE (l&#39;institut statistique espagnol) a publié le même jour une croissance de 0,6 %.&lt;/cite&gt; Les prix vont dans l&#39;autre sens : &lt;cite index=&#34;32-5&#34;&gt;3,4 % d&#39;inflation en France en octobre&lt;/cite&gt;, &lt;cite index=&#34;38-1&#34;&gt;4,9 % en Espagne&lt;/cite&gt;. Le commerce de détail espagnol le ressent déjà, avec des ventes en baisse de 1,6 % en septembre.</p><p>La vie chère descend dans la rue des deux côtés des Pyrénées. En France, l&#39;intersyndicale appelle à la grève le 5 novembre, &lt;cite index=&#34;131-3&#34;&gt;avec les quatre principaux syndicats de la SNCF&lt;/cite&gt; et, &lt;cite index=&#34;129-4&#34;&gt;pour la première fois, tous ceux de l&#39;enseignement privé sous contrat&lt;/cite&gt;. En Espagne, CCOO et UGT, les deux grandes confédérations syndicales du pays, convoquent le 11 novembre &lt;cite index=&#34;91-2&#34;&gt;leur première grève générale commune depuis quatorze ans&lt;/cite&gt;. Aucun coût chiffré n&#39;a été publié pour l&#39;un ou l&#39;autre mouvement ; nous n&#39;en avancerons pas.</p><p>À l&#39;Assemblée, le budget 2027 continue de s&#39;écrire par amendements. &lt;cite index=&#34;57-2&#34;&gt;Les députés ont adopté mardi 27 octobre une imposition des multinationales sur l&#39;activité réelle en France&lt;/cite&gt;, puis, mercredi, &lt;cite index=&#34;69-3,69-6&#34;&gt;une taxe sur les holdings étendue à la trésorerie, contre l&#39;avis du gouvernement&lt;/cite&gt;. Rien n&#39;est acquis : &lt;cite index=&#34;1-4&#34;&gt;le vote sur les recettes est fixé au 3 novembre&lt;/cite&gt; et, selon LCP, le gouvernement recourra très probablement à l&#39;article 49.3 de la Constitution, procédure qui permet d&#39;adopter un texte sans vote, sauf motion de censure.</p><p>Notre dossier met la taxe sur les holdings en regard de l&#39;impôt espagnol sur les grandes fortunes. &lt;cite index=&#34;170-9&#34;&gt;Le produit de ce dernier a chuté d&#39;environ 95 % dès l&#39;année suivant son lancement&lt;/cite&gt;, quand les régions ont adapté leurs règles. L&#39;épisode vaut d&#39;être lu avant de juger le dispositif français. J&#39;en retiens que le rendement d&#39;un impôt patrimonial dépend de sa conception, bien plus que de son taux affiché.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Les trois points à retenir</h3>
+        <ol><li>Le PIB recule de 0,1 % en France et progresse de 0,6 % en Espagne au troisième trimestre ; les prix montent plus vite en Espagne (4,9 % contre 3,4 %).</li><li>Le budget 2027 s&#39;écrit par amendements, dont une taxe de 2 % sur la trésorerie des holdings, tous fragiles avant le vote du 3 novembre.</li><li>Grève en France le 5 novembre, grève générale en Espagne le 11 : deux mobilisations sur le pouvoir d&#39;achat, sans coût chiffré à ce jour.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="fr-cifras">
+    <h2>Les chiffres de la semaine</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>−0,1 %</strong><span>Variation du PIB français au troisième trimestre 2026 (première estimation), après −0,2 % au premier trimestre et 0,0 % au deuxième.</span><em class="cmp-o es">Espagne : +0,6 % sur le trimestre (INE, 30 octobre)</em><small>Insee, 30 octobre</small></div><div class="fig fr"><strong>3,4 %</strong><span>Inflation annuelle estimée en France en octobre, après 3,1 % en septembre ; l&#39;énergie progresse de 24,1 % sur un an.</span><em class="cmp-o es">Espagne : 4,9 % (INE, indicateur avancé du 30 octobre)</em><small>Insee, 30 octobre</small></div><div class="fig fr"><strong>28 682</strong><span>Logements mis en chantier en France en septembre (estimation), soit −9,7 % sur un mois ; 31 428 logements autorisés, +1,2 %.</span><em class="cmp-o es">Espagne : pas de donnée mensuelle comparable publiée cette semaine ; 49 319 ventes de logements en août (INE), mesure différente.</em><small>SDES (service statistique du ministère du Logement), 28 octobre</small></div><div class="fig es"><strong>10,18 %</strong><span>Taux de chômage espagnol au troisième trimestre (enquête EPA), en hausse de 0,31 point ; l&#39;emploi atteint un record de 22,85 millions de personnes.</span><em class="cmp-o fr">France : 8,3 % au deuxième trimestre (Insee, 7 août) ; chiffre du troisième trimestre attendu le 10 novembre</em><small>INE, 27 octobre</small></div><div class="fig es"><strong>−1,6 %</strong><span>Ventes du commerce de détail espagnol en septembre sur un an, la plus forte baisse depuis novembre 2022 et le troisième recul consécutif.</span><em class="cmp-o fr">France : −0,5 % pour la consommation des ménages en biens en septembre, sur un mois (Insee, 30 octobre) ; période et périmètre différents</em><small>INE, 29 octobre</small></div><div class="fig es"><strong>49 319</strong><span>Ventes de logements en Espagne en août, +3,4 % sur un an, plus haut niveau pour un mois d&#39;août depuis 2024.</span><em class="cmp-o fr">France : pas de donnée de ventes comparable publiée cette semaine ; 28 682 mises en chantier en septembre (SDES)</em><small>INE, 26 octobre</small></div>
+    </div>
+  </section>
+
+  
+  <section id="fr-dossier" class="dossier">
+    <h2>Le dossier : Holdings et patrimoine : la France retouche sans cesse, l&#39;Espagne a laissé ses régions trancher</h2>
+    <p class="intro">Mercredi 28 octobre, l&#39;Assemblée a adopté, contre l&#39;avis du gouvernement, une taxe de 2 % sur la trésorerie des holdings familiales. C&#39;est la troisième version du dispositif en douze mois. En Espagne, l&#39;impôt censé neutraliser les écarts régionaux sur la fortune a vu son produit s&#39;effondrer dès sa deuxième année.</p>
+    <div class="dfigs"><div><strong>2,33 Md€</strong><span>Recettes de l&#39;IFI en 2025 (+8 %), auprès de 193 600 foyers</span></div><div><strong>100 M€</strong><span>Rendement attendu de la taxe sur les holdings adoptée en 2026, contre environ 1 Md€ prévu au départ</span></div><div><strong>623 M€</strong><span>Produit du premier exercice de l&#39;impôt espagnol de solidarité sur les grandes fortunes, dont 555 M€ à Madrid</span></div><div><strong>−95 %</strong><span>Baisse du produit de cet impôt l&#39;année suivante (environ 38 M€ sur huit mois)</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. Un impôt sur la fortune réduit à l&#39;immobilier, des holdings restées en dehors</h3>
+        <p>&lt;cite index=&#34;180-4&#34;&gt;L&#39;impôt sur la fortune immobilière (IFI), créé en 2018 à la place de l&#39;ISF, frappe les foyers dont le patrimoine immobilier net non professionnel dépasse 1,3 M€.&lt;/cite&gt; &lt;cite index=&#34;180-5&#34;&gt;Son barème n&#39;a pas changé depuis l&#39;origine et monte à 1,50 % au-delà de 10 M€.&lt;/cite&gt; &lt;cite index=&#34;180-7&#34;&gt;En 2025, l&#39;IFI a rapporté 2,332 Md€, soit 8 % de plus qu&#39;en 2024&lt;/cite&gt;, selon la DGFiP (la direction générale des finances publiques, l&#39;administration fiscale), auprès de &lt;cite index=&#34;176-1&#34;&gt;193 600 foyers contre 186 100 un an plus tôt&lt;/cite&gt;. &lt;cite index=&#34;180-9&#34;&gt;Cela ne représente que 0,5 % des recettes fiscales nettes de l&#39;État.&lt;/cite&gt; &lt;cite index=&#34;178-7&#34;&gt;Le gel du barème élargit chaque année l&#39;assiette avec la hausse des prix immobiliers.&lt;/cite&gt;</p><p>Ce périmètre laisse de côté le patrimoine financier, &lt;cite index=&#34;301-1&#34;&gt;notamment la trésorerie où s&#39;accumulent les dividendes remontés des filiales&lt;/cite&gt;. &lt;cite index=&#34;64-9&#34;&gt;Le projet de budget 2026 voulait taxer à 2 % par an l&#39;ensemble des actifs non professionnels des holdings patrimoniales, trésorerie comprise&lt;/cite&gt;, &lt;cite index=&#34;300-4&#34;&gt;pour un rendement estimé à 1 Md€ et environ 10 000 holdings visées&lt;/cite&gt;. &lt;cite index=&#34;257-1&#34;&gt;La loi de finances a été promulguée le 19 février 2026 après un recours au 49.3&lt;/cite&gt; et a retenu un autre dispositif : &lt;cite index=&#34;186-1&#34;&gt;une taxe annuelle de 20 % sur certains biens de jouissance logés en société, comme les yachts ou les logements occupés gratuitement par la famille&lt;/cite&gt;. &lt;cite index=&#34;299-9&#34;&gt;Le rendement est tombé à environ 100 M€.&lt;/cite&gt; &lt;cite index=&#34;64-11&#34;&gt;La première imposition porte sur les exercices clos à compter du 31 décembre 2026.&lt;/cite&gt;</p>
+        
+        
+        
+      
+        
+        <h3>2. Le budget 2027 rouvre le dossier</h3>
+        <p>&lt;cite index=&#34;301-2&#34;&gt;L&#39;amendement I-3807 de Jean-Paul Mattei (groupe Les Démocrates) a été adopté le mercredi 28 octobre.&lt;/cite&gt; &lt;cite index=&#34;64-5&#34;&gt;Il étendrait la taxe aux liquidités et placements financiers « qui dorment » dans les holdings, au taux de 2 %&lt;/cite&gt;, &lt;cite index=&#34;301-2&#34;&gt;pour les exercices clos à compter du 31 décembre 2027&lt;/cite&gt;. &lt;cite index=&#34;69-6&#34;&gt;Le gouvernement avait émis un avis défavorable.&lt;/cite&gt; En commission, un amendement de Charles de Courson (groupe Liot) créait déjà &lt;cite index=&#34;305-3&#34;&gt;une taxe annuelle de 2 % sur la valeur nette des titres de placement&lt;/cite&gt;, dont &lt;cite index=&#34;304-5&#34;&gt;ses auteurs attendent 3,5 à 4 Md€&lt;/cite&gt;.</p><p>Ces votes ont une portée limitée. &lt;cite index=&#34;2-1&#34;&gt;La commission des finances a rejeté la partie recettes à la quasi-unanimité le 9 octobre&lt;/cite&gt; et &lt;cite index=&#34;1-4&#34;&gt;le vote solennel en séance se tiendra le 3 novembre&lt;/cite&gt;. &lt;cite index=&#34;56-10&#34;&gt;Le gouvernement peut en outre recourir au 49.3 et ne retenir qu&#39;une partie des amendements adoptés.&lt;/cite&gt; Une mesure votée contre son avis part donc avec peu de chances de survivre, ce que confirme le sort annoncé d&#39;une autre mesure fiscale adoptée la veille.</p>
+        
+<figure class="chart" aria-label="Rendement attendu de la taxe sur les holdings selon la version : environ 1 000 M€ au projet 2026, 100 M€ dans la loi, 3 500 à 4 000 M€ pour un amendement de commission 2027">
+  
+  <div class="bar-row"><span class="lbl">Projet 2026 (2 %, trésorerie incluse)</span><span class="bar"><span class="fill w29 c-es"></span></span><span class="val">≈ 1 000</span></div><div class="bar-row"><span class="lbl">Loi 2026 (20 %, biens de jouissance)</span><span class="bar"><span class="fill w3 c-es"></span></span><span class="val">≈ 100</span></div><div class="bar-row"><span class="lbl">Amendement commission 2027 (estimation des auteurs)</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">3 500 à 4 000</span></div>
+  <figcaption>France, 2025-2026, en M€, estimations. Sources : Auguste Patrimoine, Legifiscal, Max Compta.</figcaption>
+</figure>
+
+        
+        
+        <div class="debate"><h4>Le débat</h4><p>Pour taxer la trésorerie : &lt;cite index=&#34;301-1&#34;&gt;les dividendes remontés des filiales s&#39;accumulent dans les holdings et échappent à la taxe de 20 %&lt;/cite&gt;, et des députés soutenaient en 2025 &lt;cite index=&#34;302-5&#34;&gt;qu&#39;une taxe sur cette trésorerie pourrait la faire investir de manière productive&lt;/cite&gt;. Contre : &lt;cite index=&#34;299-8&#34;&gt;la trésorerie avait été exclue de la loi de 2026 au nom du financement des PME et ETI familiales&lt;/cite&gt;, et d&#39;autres députés estimaient que &lt;cite index=&#34;302-6&#34;&gt;taxer la trésorerie excédentaire revient à empêcher les investissements futurs&lt;/cite&gt;. Dans les deux camps, personne n&#39;a publié d&#39;estimation consolidée du produit : l&#39;évidence n&#39;est pas concluante.</p></div>
+        
+      
+        
+        <h3>3. Ce que l&#39;Espagne a mesuré avec son impôt de solidarité</h3>
+        <p>L&#39;Espagne a déjà mené l&#39;expérience. &lt;cite index=&#34;144-2&#34;&gt;L&#39;impôt temporaire de solidarité sur les grandes fortunes (ITSGF) frappe les patrimoines nets supérieurs à 3 M€&lt;/cite&gt; ; &lt;cite index=&#34;168-5&#34;&gt;il a été conçu en réaction aux bonifications régionales de l&#39;impôt sur le patrimoine à Madrid, en Andalousie et en Galice&lt;/cite&gt;. &lt;cite index=&#34;75-6&#34;&gt;Ses taux vont de 1,7 % à 3,5 % et l&#39;impôt sur le patrimoine payé s&#39;en déduit.&lt;/cite&gt; &lt;cite index=&#34;170-8&#34;&gt;Au titre du premier exercice, il a rapporté 623 M€, dont 555 M€ auprès de contribuables madrilènes.&lt;/cite&gt; &lt;cite index=&#34;167-3&#34;&gt;12 010 grands patrimoines ont payé une cotisation moyenne de 52 000 €.&lt;/cite&gt;</p><p>&lt;cite index=&#34;170-9&#34;&gt;L&#39;année suivante, le produit a baissé d&#39;environ 95 %, autour de 38 M€ sur les huit premiers mois.&lt;/cite&gt; &lt;cite index=&#34;199-3&#34;&gt;Les régions qui exonéraient à 100 % ont rendu leur bonification variable : au-dessus de 3 M€, le résident paie à sa région l&#39;équivalent de ce qui serait allé à l&#39;État.&lt;/cite&gt; Le produit n&#39;a donc pas forcément disparu ; il a changé de destinataire, et les chiffres régionaux ne figurent pas dans les sources consultées. &lt;cite index=&#34;168-6&#34;&gt;L&#39;impôt, d&#39;abord temporaire, a été prolongé&lt;/cite&gt; et, &lt;cite index=&#34;75-7&#34;&gt;au 20 octobre 2026, la réforme du financement régional qui devait le remplacer n&#39;était pas adoptée&lt;/cite&gt;.</p>
+        
+<figure class="chart" aria-label="Produit annuel de quatre impôts sur la fortune ou le patrimoine en France et en Espagne, en millions d&#39;euros">
+  
+  <div class="bar-row"><span class="lbl">IFI France, 2025</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 2 332</span></div><div class="bar-row"><span class="lbl">ITSGF Espagne, premier exercice</span><span class="bar"><span class="fill w27 c-es"></span></span><span class="val">≈ 623</span></div><div class="bar-row"><span class="lbl">Taxe holdings France (attendu)</span><span class="bar"><span class="fill w4 c-es"></span></span><span class="val">≈ 100</span></div><div class="bar-row"><span class="lbl">ITSGF Espagne, 8 premiers mois suivants</span><span class="bar"><span class="fill w2 c-es"></span></span><span class="val">≈ 38</span></div>
+  <figcaption>France 2025 et Espagne 2023-2024, périodes différentes (voir libellés), en M€. Sources : DGFiP, Hacienda, loi de finances 2026.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. Le contrepoint : deux assiettes, deux géographies</h3>
+        <p>La France taxe au niveau national le seul immobilier, à partir de 1,3 M€. L&#39;Espagne taxe l&#39;ensemble du patrimoine net : &lt;cite index=&#34;169-5&#34;&gt;déclaration obligatoire au-delà de 700 000 €, hors résidence principale jusqu&#39;à 300 000 €&lt;/cite&gt;, avec &lt;cite index=&#34;169-6&#34;&gt;un barème d&#39;État de 0,2 % à 3,5 %&lt;/cite&gt; que chaque région module. &lt;cite index=&#34;203-2,203-3&#34;&gt;La Catalogne ramène le seuil à 500 000 € et monte jusqu&#39;à 3,48 %&lt;/cite&gt;, tandis que Madrid bonifie la cuotа autonomique à 100 % sous réserve de l&#39;ITSGF. &lt;cite index=&#34;143-10&#34;&gt;Le patrimoine professionnel est exonéré sous conditions.&lt;/cite&gt; Les bases diffèrent : les taux ne se comparent pas ligne à ligne.</p><p>Pour un non-résident, &lt;cite index=&#34;75-3&#34;&gt;l&#39;Espagne ne taxe que les biens situés sur son territoire, avec un minimum exonéré de 700 000 €&lt;/cite&gt;. &lt;cite index=&#34;75-8,75-9&#34;&gt;Depuis deux arrêts du Tribunal suprême d&#39;octobre et novembre 2025, il bénéficie aussi du plafonnement conjoint de l&#39;impôt sur le revenu et du patrimoine à 60 % de la base, appliqué depuis la déclaration 2025.&lt;/cite&gt; &lt;cite index=&#34;74-2&#34;&gt;Le plan de contrôle de l&#39;administration prévoit toutefois de vérifier les plus-values des non-résidents et les patrimoines détenus en Espagne via des sociétés.&lt;/cite&gt;</p>
+        
+        
+        
+      
+        
+        <h3>5. Ce qu&#39;il faudra regarder</h3>
+        <p>Le 3 novembre dira si les amendements fiscaux poursuivent leur route vers le Sénat ; &lt;cite index=&#34;1-6&#34;&gt;le vote sur l&#39;ensemble du budget est fixé au 17 novembre&lt;/cite&gt;. En Espagne, &lt;cite index=&#34;95-2&#34;&gt;les élections anticipées du 29 novembre&lt;/cite&gt; rouvriront la question du statut de l&#39;ITSGF. La variable décisive, des deux côtés, est la définition de la base : trésorerie, titres de participation ou seulement biens de jouissance. Elle détermine le rendement, bien plus que le taux, et elle conditionne le comportement des détenteurs de holdings, qui peuvent distribuer, réinvestir ou changer de région de résidence.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lecture Rilamax</h4><p>En trois versions successives, la taxe sur les holdings est passée d&#39;un rendement attendu d&#39;environ 1 Md€ à environ 100 M€, puis revient vers une assiette large. L&#39;argument de fond a du poids : une holding qui capitalise des dividendes sans les réinvestir échappe à presque tout. Le défaut tient à la méthode, car trois versions en douze mois rendent la planification patrimoniale difficile. L&#39;expérience espagnole montre que le produit dépend de la conception de l&#39;impôt : 623 M€ la première année, puis environ 38 M€ en huit mois, parce que les régions ont adapté leurs règles. Un investisseur français détenant des participations via une holding devrait valoriser deux scénarios : maintien de la taxe sur les seuls biens de jouissance, ou extension à la trésorerie à partir des exercices clos fin 2027. Pour celui qui regarde l&#39;Espagne, la région de résidence fiscale compte autant que le taux affiché, et le statut de la holding mérite d&#39;être vérifié avant toute décision.</p></aside>
+    <div class="watch"><h4>Ce que nous surveillerons</h4><p>Nous suivrons le vote du 3 novembre, le sort de l&#39;amendement Mattei au Sénat et la position du prochain gouvernement espagnol sur l&#39;ITSGF.</p></div>
+    <p class="src">Sources : <a href="https://www.legifiscal.fr/actualites-fiscales/4709-plf-2027-taxe-holdings-deputes-veulent-entrer-tresorerie-dormante.html" target="_blank" rel="noopener">Legifiscal, taxe sur les holdings et PLF 2027</a>, <a href="https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/AN/3807" target="_blank" rel="noopener">Assemblée nationale, amendement I-3807</a>, <a href="https://lesfourmisdupatrimoine.fr/ifi-2025-23-milliards-deuros-collectes-en-hausse-de-8/" target="_blank" rel="noopener">Les fourmis du patrimoine, note DGFiP sur l&#39;IFI 2025</a>, <a href="https://www.auguste-patrimoine.fr/blog/taxe-holding-2026-taux-conditions-et-actifs-vises" target="_blank" rel="noopener">Auguste Patrimoine, taxe holding 2026</a>, <a href="https://www.maxcompta.com/blogs/actualites/budget-2027-commission-finances-rejet-partie-recettes" target="_blank" rel="noopener">Max Compta, PLF 2027 en commission</a>, <a href="https://asesorexcelente.com/impuesto-solidaridad-grandes-fortunas/" target="_blank" rel="noopener">Asesor Excelente, ITSGF</a>, <a href="https://www.cronista.com/espana/actualidad-es/impuesto-a-las-grandes-fortunas-el-gobierno-anuncia-la-millonaria-cifra-que-recaudo-con-esta-medida/" target="_blank" rel="noopener">El Cronista, recaudación de l&#39;ITSGF (Hacienda)</a>, <a href="https://www.alveo.co/es/blog/impot-fortune" target="_blank" rel="noopener">Alveo, impôt sur le patrimoine 2026 pour non-résidents</a>, <a href="https://guiafiscal.es/patrimonio/ip/" target="_blank" rel="noopener">Guía Fiscal, patrimoine par communauté autonome</a>, <a href="https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/session-ordinaire-de-2025-2026/premiere-seance-du-vendredi-31-octobre-2025" target="_blank" rel="noopener">Assemblée nationale, séance du 31 octobre 2025</a></p>
+  </section>
+
+  <section id="fr-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">France</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalité</span>
+    <h3>Budget 2027 : les députés adoptent, à deux voix près, une taxation des multinationales selon leur activité réelle en France</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le projet de loi de finances (PLF) pour 2027, le budget de l&#39;État, &lt;cite index=&#34;4-7&#34;&gt;vise un déficit public de 5,0 % du PIB après 5,4 % attendus en 2026&lt;/cite&gt;. &lt;cite index=&#34;3-1&#34;&gt;Le vote sur la partie recettes a été reporté en raison de plus de 2 000 amendements restant à examiner&lt;/cite&gt; et &lt;cite index=&#34;1-4&#34;&gt;aura lieu le 3 novembre&lt;/cite&gt;. Le texte sera ensuite transmis au Sénat, puis, selon LCP, le gouvernement choisira très probablement ce qu&#39;il conserve par le 49.3.</p></div>
+    <p class="sum">&lt;cite index=&#34;57-4&#34;&gt;Dans la nuit du 27 au 28 octobre, les députés ont adopté par 74 voix contre 72 un amendement de Nicolas Sansu qui remplacerait l&#39;assiette des bénéfices déclarés en France par la part des bénéfices mondiaux réellement réalisée en France.&lt;/cite&gt; &lt;cite index=&#34;60-1&#34;&gt;La mesure est susceptible de concerner les grandes plateformes numériques.&lt;/cite&gt; &lt;cite index=&#34;60-2&#34;&gt;Des hausses de la taxe sur les services numériques ont en revanche été rejetées ; un taux de 15 % aurait rapporté environ 4 Md€ selon son auteur.&lt;/cite&gt; &lt;cite index=&#34;57-3&#34;&gt;Pour entrer en vigueur, la mesure devra figurer dans le texte final, ce qui est peu probable.&lt;/cite&gt; Comparaison : en Espagne, &lt;cite index=&#34;326-7&#34;&gt;le taux général de l&#39;impôt sur les sociétés (IS) est de 25 %&lt;/cite&gt;, avec &lt;cite index=&#34;328-10&#34;&gt;un minimum effectif de 15 % pour les entreprises dépassant 20 M€ de chiffre d&#39;affaires&lt;/cite&gt;.</p>
+    <p class="src">Sources : <a href="https://lcp.fr/actualites/budget-2027-l-assemblee-vote-un-dispositif-pour-contrer-l-optimisation-fiscale-agressive" target="_blank" rel="noopener">LCP</a>, <a href="https://cbnews.fr/digital/plf-2027-les-deputes-adoptent-nouvelle-taxation-multinationales-ecartent-hausse-taxe-les" target="_blank" rel="noopener">CB News</a>, <a href="https://nosparlementaires.fr/actualites/budget-2027-calendrier-assemblee-cinq-semaines" target="_blank" rel="noopener">NosParlementaires</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un groupe espagnol implanté en France n&#39;a guère de raison de provisionner une mesure adoptée à deux voix près et jugée peu probable dans le texte final. Un groupe français actif en Espagne gagnerait à vérifier ce que deviendraient ses prix de transfert avec une clé de répartition mondiale. Nous n&#39;avons trouvé aucune mesure équivalente en Espagne.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Économie</span>
+    <h3>PIB en recul de 0,1 % au troisième trimestre en France, hausse de 0,6 % en Espagne ; l&#39;inflation française monte à 3,4 %</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>&lt;cite index=&#34;113-1,113-2&#34;&gt;Le PIB français a stagné au deuxième trimestre après avoir reculé de 0,2 % au premier.&lt;/cite&gt; &lt;cite index=&#34;116-4&#34;&gt;Les économistes attendaient une hausse de 0,1 %, chiffre que la Banque de France et l&#39;Insee avaient eux-mêmes prévu.&lt;/cite&gt; L&#39;inflation, de son côté, dépend largement de l&#39;énergie : &lt;cite index=&#34;29-7&#34;&gt;+12,6 % en juillet, +16,7 % en août, +21,3 % en septembre&lt;/cite&gt;.</p></div>
+    <p class="sum">&lt;cite index=&#34;110-2,110-6&#34;&gt;L&#39;Insee annonce une baisse de 0,1 % du PIB ; les exportations se contractent de 1,7 % après +2,8 % et le commerce extérieur retranche 0,6 point.&lt;/cite&gt; &lt;cite index=&#34;112-10&#34;&gt;L&#39;acquis de croissance pour 2026 n&#39;est que de 0,2 %.&lt;/cite&gt; &lt;cite index=&#34;32-5&#34;&gt;L&#39;inflation atteindrait 3,4 % en octobre, contre 3,1 % en septembre&lt;/cite&gt;, &lt;cite index=&#34;29-2&#34;&gt;avec une énergie à +24,1 % sur un an&lt;/cite&gt;. &lt;cite index=&#34;215-1&#34;&gt;Les ménages ont réduit leurs achats de biens de 0,5 % en septembre, après un recul identique en août.&lt;/cite&gt; En Espagne, &lt;cite index=&#34;104-1&#34;&gt;le PIB a progressé de 0,6 % sur le trimestre&lt;/cite&gt;, &lt;cite index=&#34;105-5&#34;&gt;soit 2,7 % sur un an&lt;/cite&gt;, et &lt;cite index=&#34;38-1&#34;&gt;l&#39;inflation s&#39;est stabilisée à 4,9 %&lt;/cite&gt;.</p>
+    <p class="src">Sources : <a href="https://www.insee.fr/fr/statistiques/9107965" target="_blank" rel="noopener">Insee, informations rapides n° 266</a>, <a href="https://www.usinenouvelle.com/eco-social/production-et-exportations-en-baisse-leconomie-francaise-fait-moins-bien-que-prevu-au-troisieme-trimestre-avec-une-baisse-du-pib-de-01.2EL3R6CQJNEERJTQ52BSABKGXM.html" target="_blank" rel="noopener">L&#39;Usine Nouvelle</a>, <a href="https://www.ine.es/" target="_blank" rel="noopener">INE</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un écart de 0,7 point de croissance en un trimestre est considérable, mais l&#39;Espagne paie sa vigueur par des prix qui montent plus vite et un chômage qui repart. Pour un investisseur français tourné vers l&#39;Espagne, le scénario à tester est celui d&#39;une demande intérieure qui ralentit alors que le coût de la vie pèse sur la consommation.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Entreprises et investissement</span>
+    <h3>Fitness Park France passe sous le contrôle de Providence, propriétaire de la chaîne espagnole VivaGym</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>&lt;cite index=&#34;82-5&#34;&gt;Le fonds américain Providence a acquis VivaGym en 2024&lt;/cite&gt; et &lt;cite index=&#34;323-2&#34;&gt;soutient depuis une consolidation agressive du fitness ibérique&lt;/cite&gt;. &lt;cite index=&#34;318-4&#34;&gt;Fitness Park, fondée en 2009, compte plus de 1,7 million d&#39;abonnés dans plus de 467 clubs, la France étant son premier marché.&lt;/cite&gt; &lt;cite index=&#34;320-3&#34;&gt;L&#39;opération avait été notifiée à l&#39;Autorité de la concurrence&lt;/cite&gt; avant l&#39;accord annoncé cette semaine.</p></div>
+    <p class="sum">&lt;cite index=&#34;82-3&#34;&gt;Providence a conclu un accord pour devenir actionnaire de référence de Fitness Park France&lt;/cite&gt;, auprès des vendeurs &lt;cite index=&#34;82-1&#34;&gt;Philippe Herbette, Future French Champions, Momentum Invest et M Capital Partners&lt;/cite&gt;. &lt;cite index=&#34;82-2&#34;&gt;La finalisation est prévue début 2027.&lt;/cite&gt; &lt;cite index=&#34;82-4&#34;&gt;L&#39;opération ne concerne que la France et laisse intacte la master-franchise espagnole, gérée par Upgyms, société indépendante.&lt;/cite&gt; &lt;cite index=&#34;318-5&#34;&gt;La valorisation, d&#39;environ 600 M€, est rapportée par la presse sans confirmation.&lt;/cite&gt; Côté espagnol, &lt;cite index=&#34;82-6&#34;&gt;VivaGym dépassera 500 établissements dans la péninsule Ibérique&lt;/cite&gt; ; &lt;cite index=&#34;318-9&#34;&gt;le réseau Fitness Park a réalisé 461 M€ de chiffre d&#39;affaires réseau en 2025&lt;/cite&gt;.</p>
+    <p class="src">Sources : <a href="https://www.2playbook.com/fitness/providence-confirma-compra-participacion-fitness-park-francia-por-cerca-600-millones_24115_102.html" target="_blank" rel="noopener">2Playbook</a>, <a href="https://dealroom.co/news/168412-providence-buys-frances-fitness-park-in-reported-600m-european-gym-push/" target="_blank" rel="noopener">Dealroom</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Le capital circule dans les deux sens : un fonds actif en Espagne prend position en France. La valorisation de 600 M€ n&#39;est pas confirmée et ne précise pas s&#39;il s&#39;agit de la valeur d&#39;entreprise ou des fonds propres. Un exploitant français du secteur devrait surtout suivre l&#39;avis des autorités de la concurrence, qui conditionne la clôture prévue début 2027.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Politique et société</span>
+    <h3>Grève du 5 novembre : un mouvement élargi à l&#39;enseignement privé, sans chiffrage de son coût</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>La contestation sur le pouvoir d&#39;achat s&#39;organise depuis la fin septembre : &lt;cite index=&#34;131-4&#34;&gt;les syndicats jugent réussie la journée de grève de la fonction publique du 29 septembre&lt;/cite&gt; et appellent désormais le public comme le privé à faire grève. L&#39;inflation atteint 3,4 % en octobre selon l&#39;Insee, et la violence urbaine du 17 octobre a déjà coûté jusqu&#39;à 1,2 Md€ aux assureurs.</p></div>
+    <p class="sum">&lt;cite index=&#34;129-7&#34;&gt;L&#39;intersyndicale du public (CFDT, CGT, FO, Unsa, FSU) est rejointe par tous les syndicats de l&#39;enseignement privé sous contrat&lt;/cite&gt;, &lt;cite index=&#34;129-10&#34;&gt;un secteur de 2,1 millions d&#39;élèves dans 8 500 établissements&lt;/cite&gt;. &lt;cite index=&#34;131-3&#34;&gt;Les quatre principaux syndicats de la SNCF appellent à la grève et la CGT dénombre 185 appels de ses fédérations.&lt;/cite&gt; &lt;cite index=&#34;131-1&#34;&gt;Le secrétaire général de la CGT des dockers annonçait des ports à l&#39;arrêt à 95 % le 30 octobre&lt;/cite&gt;, affirmation syndicale non vérifiée. Aucune estimation du coût économique n&#39;est publiée à ce stade. Comparaison : en Espagne, &lt;cite index=&#34;91-6&#34;&gt;une grève générale de 24 heures est convoquée le 11 novembre&lt;/cite&gt;, &lt;cite index=&#34;91-7&#34;&gt;première mobilisation commune de cette ampleur depuis 2012&lt;/cite&gt;.</p>
+    <p class="src">Sources : <a href="https://www.economiematin.fr/greve-5-novembre-lycee-secteur-prive" target="_blank" rel="noopener">Économie Matin</a>, <a href="https://linsoumission.fr/2026/10/29/greve-du-5-novembre-prepare/" target="_blank" rel="noopener">L&#39;Insoumission (compte rendu des appels syndicaux)</a>, <a href="https://lepetitjournal.com/madrid/actualites/greve-generale-11-novembre-espagne-logement-syndicats-455673" target="_blank" rel="noopener">Le Petit Journal Madrid</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un industriel ou un transporteur dont les flux passent par les ports et la SNCF devrait prévoir des perturbations le 5 novembre côté français, puis le 11 côté espagnol. En l&#39;absence de chiffrage, mieux vaut s&#39;en tenir à une revue des délais de livraison et des stocks que de provisionner un coût inconnu.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">Espagne</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalité</span>
+    <h3>Espagne : l&#39;impôt sur les sociétés des PME baissera de nouveau au 1er janvier 2027</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>&lt;cite index=&#34;326-7&#34;&gt;Le taux général de l&#39;impôt sur les sociétés (IS) espagnol reste à 25 %.&lt;/cite&gt; Pour les petites structures, un calendrier de baisses progressives a déjà été adopté : &lt;cite index=&#34;328-6&#34;&gt;les entreprises de 1 à 10 M€ de chiffre d&#39;affaires sont à 23 % en 2026&lt;/cite&gt; et &lt;cite index=&#34;330-3&#34;&gt;les micro-entreprises à 19 % sur les premiers 50 000 € de base et 21 % au-delà&lt;/cite&gt;. &lt;cite index=&#34;331-3&#34;&gt;Les sociétés nouvelles bénéficient de 15 % pendant leurs deux premiers exercices bénéficiaires.&lt;/cite&gt;</p></div>
+    <p class="sum">&lt;cite index=&#34;326-2&#34;&gt;Hacienda, l&#39;administration fiscale espagnole, confirme que les taux baisseront à compter du 1er janvier 2027&lt;/cite&gt;, &lt;cite index=&#34;326-3&#34;&gt;selon le calendrier déjà approuvé, en fonction du chiffre d&#39;affaires&lt;/cite&gt;. &lt;cite index=&#34;330-7&#34;&gt;Les entreprises de plus de 1 M€ de chiffre d&#39;affaires passent à 22 % en 2027, avec 20 % visé en 2029&lt;/cite&gt; ; &lt;cite index=&#34;330-3,330-4,330-6&#34;&gt;les micro-entreprises passent à 17 % puis 20 %&lt;/cite&gt;. &lt;cite index=&#34;326-4&#34;&gt;Une société clôturant au 31 décembre liquidera en 2027 l&#39;impôt de 2026 aux anciens taux ; les nouveaux n&#39;apparaîtront que dans la déclaration de 2028.&lt;/cite&gt; Comparaison : le taux normal français de l&#39;IS est aussi de 25 % ; l&#39;Espagne applique en outre un minimum effectif de 15 % aux grandes entreprises.</p>
+    <p class="src">Sources : <a href="https://www.autonomosyemprendedor.es/autonomos/hacienda/hacienda-aplicara-nueva-rebaja-impuesto-sociedades-pymes-microempresas-partir-enero/20261026164759056548.html" target="_blank" rel="noopener">Autónomos y Emprendedor</a>, <a href="https://www.grupo2000.es/el-impuesto-sobre-sociedades-en-2025/" target="_blank" rel="noopener">Grupo 2000</a>, <a href="https://teamsystem.es/magazine/tramos-impuesto-sociedades-2026/" target="_blank" rel="noopener">TeamSystem</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Ce calendrier profite surtout aux PME opérationnelles : &lt;cite index=&#34;328-3&#34;&gt;les entités patrimoniales sont exclues de nombreux incitatifs et restent souvent au taux général de 25 %&lt;/cite&gt;. Un investisseur français qui logerait des participations espagnoles dans une holding devrait vérifier si elle est qualifiée de patrimoniale avant de compter sur ces baisses. Le gain, d&#39;un point par an, se mesure à l&#39;échelle de la trésorerie d&#39;une PME.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Énergie</span>
+    <h3>Espagne : la TVA sur l&#39;électricité reste à 21 % en novembre, décembre dépend de l&#39;indice d&#39;octobre</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>En réponse à la crise du Moyen-Orient, &lt;cite index=&#34;267-2&#34;&gt;l&#39;Espagne a adopté un troisième paquet anticrise par le décret-loi 25/2026 du 29 septembre, convalidé le 16 octobre par la Diputación Permanente&lt;/cite&gt;, la commission de 69 députés qui exerce les pouvoirs du Congrès tant que les Cortes sont dissoutes. Il maintient en novembre la baisse de 20 centimes par litre sur l&#39;essence et le gazole et prévoit une baisse conditionnelle de la TVA sur l&#39;énergie.</p></div>
+    <p class="sum">&lt;cite index=&#34;263-2,263-3&#34;&gt;La TVA passerait de 21 % à 10 % pour l&#39;électricité des consommateurs de 10 kW ou moins et des bénéficiaires du bon social, ainsi que pour le gaz, si l&#39;indice des prix concerné dépasse de 15 points celui du même mois un an plus tôt.&lt;/cite&gt; &lt;cite index=&#34;264-1&#34;&gt;L&#39;inflation électrique de septembre, à 11,4 %, n&#39;atteint pas ce seuil&lt;/cite&gt; : la TVA reste à 21 % en novembre. &lt;cite index=&#34;264-9&#34;&gt;Décembre dépend de l&#39;indice d&#39;octobre, connu à la mi-novembre.&lt;/cite&gt; &lt;cite index=&#34;40-4,40-5&#34;&gt;L&#39;indicateur avancé du 30 octobre montre des carburants en baisse mais un gaz plus cher qu&#39;un an plus tôt.&lt;/cite&gt; Comparaison : en France, &lt;cite index=&#34;29-2&#34;&gt;l&#39;énergie progresse de 24,1 % sur un an en octobre&lt;/cite&gt; (Insee).</p>
+    <p class="src">Sources : <a href="https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/septiembre/30/nuevas-medidas-marco-plan-integral-medio.html" target="_blank" rel="noopener">Agencia Tributaria</a>, <a href="https://www.eleconomista.es/energia/noticias/14024041/10/26/la-crisis-energetica-obliga-a-prolongar-las-ayudas-mientras-el-crudo-sigue-al-alza.html" target="_blank" rel="noopener">elEconomista</a>, <a href="https://www.que.es/2026/10/17/iva-luz-bloqueado-plan-anticrisis/" target="_blank" rel="noopener">Qué.es</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Pour une entreprise assujettie, la TVA est en principe récupérable : l&#39;effet de cette clause touche surtout les ménages, et donc la consommation locale. Le seuil de 15 points crée un effet de falaise, puisque 11,4 % ne déclenche rien du tout. Un exploitant français en Espagne devrait suivre l&#39;indice d&#39;octobre avant de bâtir ses hypothèses de prix pour décembre.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Économie</span>
+    <h3>Espagne : record d&#39;emploi mais chômage en hausse à 10,18 %, avec un PIB à +0,6 %</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>L&#39;Espagne croît plus vite que la France mais s&#39;encherit plus vite aussi. &lt;cite index=&#34;207-1&#34;&gt;Le taux de chômage était de 9,87 % au deuxième trimestre.&lt;/cite&gt; Ces données publiées cette semaine précisent la nature de la croissance : consommation des ménages, investissement et emploi.</p></div>
+    <p class="sum">&lt;cite index=&#34;206-1,206-4&#34;&gt;L&#39;enquête EPA du troisième trimestre compte 22 852 600 personnes en emploi, soit 73 600 de plus, et un taux de chômage de 10,18 %, en hausse de 0,31 point.&lt;/cite&gt; &lt;cite index=&#34;210-9&#34;&gt;La hausse de l&#39;emploi du trimestre vient entièrement de travailleurs étrangers après la régularisation extraordinaire d&#39;immigrés.&lt;/cite&gt; &lt;cite index=&#34;103-9&#34;&gt;Le même jour, l&#39;INE a publié un PIB à +0,6 % sur le trimestre ; consommation des ménages +0,6 %, cinq dixièmes de moins, et investissement +0,6 %, plus faible hausse en deux ans.&lt;/cite&gt; Comparaison : en France, le chômage était de &lt;cite index=&#34;271-2&#34;&gt;8,3 % au deuxième trimestre&lt;/cite&gt; ; &lt;cite index=&#34;273-2&#34;&gt;le chiffre du troisième trimestre est attendu le 10 novembre.&lt;/cite&gt;</p>
+    <p class="src">Sources : <a href="https://www.ine.es/dyngs/Prensa/EPA3T26.htm" target="_blank" rel="noopener">INE, EPA troisième trimestre 2026</a>, <a href="https://www.que.es/2026/10/28/epa-tercer-trimestre-2026-paro-2/" target="_blank" rel="noopener">Qué.es</a>, <a href="https://www.moncloa.com/2026/10/30/economia-espanola-pib-freno-consumo-3458602/" target="_blank" rel="noopener">Moncloa.com (comptes nationaux INE)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>La croissance espagnole repose sur la demande intérieure, qui ralentit, et sur un marché du travail dont la progression vient d&#39;un effet de régularisation. Pour un investisseur français, un taux de chômage à 10 % dans un pays à 2,7 % de croissance annuelle montre que l&#39;activité ne suffit pas à résorber le chômage. À suivre avant d&#39;extrapoler les recrutements.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Immobilier</span>
+    <h3>Espagne : 49 319 ventes de logements en août, et le décret fiscal sur le logement attend son vote</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>&lt;cite index=&#34;119-2&#34;&gt;Le Congrès a rejeté le 2 octobre les deux décrets-lois sur le logement (172 voix contre 178 pour l&#39;un, 166 contre 184 pour l&#39;autre).&lt;/cite&gt; &lt;cite index=&#34;119-3&#34;&gt;Le 6 octobre, les Cortes étant dissoutes, le gouvernement a approuvé les décrets 28/2026 et 29/2026, qui reprennent l&#39;essentiel.&lt;/cite&gt; &lt;cite index=&#34;76-5&#34;&gt;Le 29/2026 contient une réforme fiscale touchant l&#39;IRPF, la TVA, l&#39;IS des SOCIMI, l&#39;impôt des non-résidents, l&#39;IBI et la plus-value municipale.&lt;/cite&gt;</p></div>
+    <p class="sum">&lt;cite index=&#34;234-2&#34;&gt;Les ventes de logements ont progressé de 3,4 % sur un an en août, à 49 319, le plus haut pour un mois d&#39;août depuis 2024.&lt;/cite&gt; &lt;cite index=&#34;234-5&#34;&gt;Les logements neufs gagnent 4,9 %, à 10 521 opérations.&lt;/cite&gt; Côté décret, &lt;cite index=&#34;123-3&#34;&gt;la convalidation est prévue le 12 novembre selon une source, devant la Diputación Permanente&lt;/cite&gt;, alors qu&#39;une autre place l&#39;échéance avant le 6 novembre ; &lt;cite index=&#34;125-7&#34;&gt;le PNV soutiendrait le 29/2026 mais pas le 28/2026&lt;/cite&gt;. Comparaison : en France, &lt;cite index=&#34;243-5,243-6&#34;&gt;28 682 logements ont été mis en chantier en septembre (−9,7 % sur un mois) et 31 428 autorisés&lt;/cite&gt;.</p>
+    <p class="src">Sources : <a href="https://www.elespanol.com/invertia/observatorios/vivienda/20261026/compraventa-viviendas-retoma-ascensos-subir-interanual-agosto-operaciones/1003744434470_0.html" target="_blank" rel="noopener">El Español</a>, <a href="https://www.legaltoday.com/opinion/articulos-de-opinion/los-decretos-leyes-de-vivienda-derogacion-reaprobacion-y-convalidacion-en-plena-disolucion-2026-10-08/" target="_blank" rel="noopener">LegalToday</a>, <a href="https://notariasbarcelona.es/real-decreto-ley-29-2026-novedades-fiscales/" target="_blank" rel="noopener">Notarías Barcelona, RDL 29/2026</a>, <a href="https://gestionatualojamiento.com/convalidacion-del-decreto-de-vivienda/" target="_blank" rel="noopener">Gestiona tu alojamiento</a>, <a href="https://www.mysweetimmo.com/2026/10/29/logement-neuf-les-mises-en-chantier-chutent-de-pres-de-10-en-septembre/" target="_blank" rel="noopener">MySweetImmo (SDES)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un détenteur français d&#39;un logement locatif ou d&#39;une SOCIMI (société cotée d&#39;investissement immobilier, équivalent d&#39;une SIIC française) devrait valoriser deux scénarios : décret convalidé ou abrogé. &lt;cite index=&#34;123-8&#34;&gt;En cas d&#39;échec, la TVA à 10 % sur les logements touristiques ne s&#39;appliquerait pas, sa date d&#39;effet du 1er décembre étant postérieure au vote.&lt;/cite&gt; La date incertaine du vote complique la planification : mieux vaut attendre le résultat pour trancher.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-agenda">
+    <h2>À surveiller dans les prochaines semaines</h2>
+    <ul class="agenda"><li><span class="when">3 novembre</span><span class="what">France : vote solennel de l&#39;Assemblée sur la première partie (recettes) du PLF 2027</span></li><li><span class="when">5 novembre</span><span class="what">France : grève intersyndicale, avec la SNCF et, pour la première fois, l&#39;enseignement privé sous contrat</span></li><li><span class="when">11 novembre</span><span class="what">Espagne : grève générale de 24 heures convoquée par CCOO et UGT</span></li><li><span class="when">13 novembre</span><span class="what">France et Espagne : publication des chiffres définitifs d&#39;inflation d&#39;octobre par l&#39;Insee et l&#39;INE</span></li><li><span class="when">29 novembre</span><span class="what">Espagne : élections générales anticipées</span></li></ul>
+  </section>
+
+  
+  <section id="fr-glosario">
+    <h2>Les sigles de cette édition</h2>
+    <dl class="glossary"><div><dt>49.3</dt><dd>Article 49, alinéa 3, de la Constitution française : permet au gouvernement de faire adopter un texte sans vote, sauf motion de censure adoptée par l&#39;Assemblée.</dd></div><div><dt>Diputación Permanente</dt><dd>Commission de 69 députés qui exerce les pouvoirs du Congrès espagnol lorsque les Cortes sont dissoutes, notamment pour convalider les décrets-lois.</dd></div><div><dt>EPA</dt><dd>Encuesta de Población Activa : enquête trimestrielle de l&#39;INE sur l&#39;emploi et le chômage en Espagne, comparable à l&#39;enquête Emploi de l&#39;Insee.</dd></div><div><dt>IFI</dt><dd>Impôt sur la fortune immobilière : frappe le patrimoine immobilier net non professionnel supérieur à 1,3 M€ ; il remplace l&#39;ISF depuis 2018.</dd></div><div><dt>ITSGF</dt><dd>Impuesto Temporal de Solidaridad de las Grandes Fortunas : impôt espagnol sur les patrimoines nets supérieurs à 3 M€, créé fin 2022 en complément de l&#39;impôt sur le patrimoine.</dd></div><div><dt>PLF</dt><dd>Projet de loi de finances : le budget de l&#39;État soumis chaque automne au Parlement français.</dd></div><div><dt>SOCIMI</dt><dd>Sociedad cotizada de inversión inmobiliaria : société cotée espagnole d&#39;investissement immobilier, équivalent d&#39;une SIIC française.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>Le Bulletin Rilamax paraît chaque samedi : l&#39;essentiel de l&#39;économie, de la finance et de la politique entre la France et l&#39;Espagne, avec notre lecture.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">S&#39;abonner sur LinkedIn</a>
+  </section>
+
+  
+  <section id="fr-archivo" class="archive">
+    <h2>Éditions précédentes</h2>
+    <ul><li><a href="/ediciones/2026-10-24/">N° 4 — Émeutes et inondations : deux modèles pour payer le risque qui s&#39;emballe</a><span>2026-10-24</span></li><li><a href="/ediciones/2026-10-17/">N° 3 — Inflation : l&#39;Espagne croît plus vite que la France, mais renchérit plus vite</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Énergie : ce que la France tire de ses champs et que l&#39;Espagne laisse filer</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Logement en Espagne : un déficit d&#39;offre que les décrets ne traitaient pas, des zones tendues à l&#39;épreuve des chiffres</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>Le Bulletin Rilamax est publié par RILAMAX 2025 SL. Les résumés sont rédigés par nos soins à partir des sources citées. Les lectures Rilamax sont des analyses générales et ne constituent pas des conseils d&#39;investissement personnalisés. Veille et rédaction assistées par l&#39;IA. Sélection, vérification et analyse : Jean Marc Pavia.</p></footer>
+</div>
+
+
+<div class="edition" data-lang="es" lang="es" hidden>
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>Francia</span><span class="line" aria-hidden="true"></span><span>España</span></div>
+    <div class="titlerow">
+      <h1>El Boletín Rilamax</h1>
+      <div class="langs" role="group" aria-label="Idioma"><button type="button" data-set="fr" aria-pressed="false">FR</button><button type="button" data-set="es" aria-pressed="true">ES</button></div>
+    </div>
+    <div class="meta"><span>N.º 5 · Semana 44</span><span>Del 26 al 31 de octubre de 2026</span><span>Lectura: 21 minutos</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sumario">
+  <div class="wrap"><ul>
+    <li><a href="#es-edito">El editorial</a></li>
+    <li><a href="#es-cifras">Las cifras</a></li>
+    <li><a href="#es-dossier">El dossier</a></li>
+    <li><a href="#es-fr">Francia</a></li>
+    <li><a href="#es-es">España</a></li>
+    <li><a href="#es-agenda">A vigilar</a></li>
+    <li><a href="#es-glosario">Glosario</a></li>
+    <li><a href="/archivo/?lang=es">Todas las ediciones</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="es-edito">
+    <h2>Francia se estanca, España resiste y el presupuesto se escribe a golpe de enmienda</h2>
+    <div class="edito">
+      <div class="body">
+        <p>El viernes 30 de octubre, el Insee (el instituto estadístico francés) anunció un PIB en retroceso del 0,1 % en el tercer trimestre, cuando los economistas esperaban una ligera subida. Los analistas consultados por Reuters preveían de media un +0,1 %. El INE publicó el mismo día un crecimiento del 0,6 % para España. Los precios van en sentido contrario: la inflación fue del 3,4 % en Francia en octubre y del 4,9 % en España. El comercio minorista español ya lo nota, con unas ventas un 1,6 % inferiores a las de hace un año en septiembre.</p><p>La vida cara sale a la calle a ambos lados de los Pirineos. En Francia, la intersindical (el frente unitario de los sindicatos) convoca huelga el 5 de noviembre, con los cuatro principales sindicatos de la SNCF (la compañía ferroviaria pública) y, por primera vez, todos los de la enseñanza privada concertada. En España, CCOO y UGT convocan el 11 de noviembre su primera huelga general conjunta en catorce años. No se ha publicado ningún coste cifrado de uno ni de otro movimiento, y nosotros no vamos a avanzar ninguno.</p><p>En la Asamblea Nacional, el presupuesto de 2027 sigue escribiéndose a golpe de enmienda. Los diputados aprobaron el martes 27 de octubre una tributación de las multinacionales según su actividad real en Francia y, el miércoles, un impuesto sobre las holdings extendido a la tesorería, contra el criterio del Gobierno. Nada está decidido: la votación sobre los ingresos se fijó para el 3 de noviembre y, según LCP (el canal de la Asamblea), el Gobierno recurrirá muy probablemente al artículo 49.3 de la Constitución, el procedimiento que permite aprobar un texto sin votarlo, salvo que prospere una moción de censura.</p><p>Nuestro dossier compara el impuesto francés sobre las holdings con el impuesto español sobre las grandes fortunas. La recaudación de este último cayó cerca de un 95 % el año siguiente a su puesta en marcha, cuando las comunidades autónomas adaptaron sus normas. El episodio merece leerse antes de juzgar el dispositivo francés. Me quedo con que la recaudación de un impuesto patrimonial depende de su diseño mucho más que del tipo nominal.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Los tres puntos clave</h3>
+        <ol><li>El PIB retrocede un 0,1 % en Francia y avanza un 0,6 % en España en el tercer trimestre; los precios suben más deprisa en España (4,9 % frente a 3,4 %).</li><li>El presupuesto francés de 2027 se escribe a golpe de enmienda, entre ellas un impuesto del 2 % sobre la tesorería de las holdings, todas frágiles antes de la votación del 3 de noviembre.</li><li>Huelga en Francia el 5 de noviembre y huelga general en España el 11: dos movilizaciones por el poder adquisitivo que pueden alterar plazos y flujos logísticos, sin coste cifrado hasta hoy.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="es-cifras">
+    <h2>Las cifras de la semana</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>−0,1 %</strong><span>Variación del PIB francés en el tercer trimestre de 2026 (primera estimación), tras −0,2 % en el primer trimestre y 0,0 % en el segundo.</span><em class="cmp-o es">España: +0,6 % en el trimestre (INE, 30 de octubre)</em><small>Insee, 30 de octubre</small></div><div class="fig fr"><strong>3,4 %</strong><span>Inflación anual estimada en Francia en octubre, tras el 3,1 % de septiembre; la energía sube un 24,1 % en un año.</span><em class="cmp-o es">España: 4,9 % (INE, indicador adelantado del 30 de octubre)</em><small>Insee, 30 de octubre</small></div><div class="fig fr"><strong>28.682</strong><span>Viviendas iniciadas en Francia en septiembre (estimación), un 9,7 % menos que en el mes anterior; 31.428 viviendas autorizadas, +1,2 %.</span><em class="cmp-o es">España: sin dato mensual comparable publicado esta semana; 49.319 compraventas de vivienda en agosto (INE), medida distinta.</em><small>SDES (servicio estadístico del Ministerio de Vivienda francés), 28 de octubre</small></div><div class="fig es"><strong>10,18 %</strong><span>Tasa de paro española en el tercer trimestre (EPA), 0,31 puntos más; el empleo alcanza un récord de 22,85 millones de personas.</span><em class="cmp-o fr">Francia: 8,3 % en el segundo trimestre (Insee, 7 de agosto); la cifra del tercer trimestre se espera el 10 de noviembre</em><small>INE, 27 de octubre</small></div><div class="fig es"><strong>−1,6 %</strong><span>Ventas del comercio minorista español en septiembre en tasa interanual, la mayor caída desde noviembre de 2022 y el tercer descenso consecutivo.</span><em class="cmp-o fr">Francia: −0,5 % en el consumo de bienes de los hogares en septiembre, respecto al mes anterior (Insee, 30 de octubre); período y perímetro distintos</em><small>INE, 29 de octubre</small></div><div class="fig es"><strong>49.319</strong><span>Compraventas de vivienda en España en agosto, +3,4 % interanual, el nivel más alto para un mes de agosto desde 2024.</span><em class="cmp-o fr">Francia: sin dato de ventas comparable publicado esta semana; 28.682 viviendas iniciadas en septiembre (SDES)</em><small>INE, 26 de octubre</small></div>
+    </div>
+  </section>
+
+  
+  <section id="es-dossier" class="dossier">
+    <h2>El dossier: Holdings y patrimonio: Francia retoca sin descanso, España dejó decidir a las comunidades autónomas</h2>
+    <p class="intro">El miércoles 28 de octubre, la Asamblea Nacional aprobó, contra el criterio del Gobierno, un impuesto del 2 % sobre la tesorería de las holdings familiares. Es la tercera versión del dispositivo en doce meses. En España, el impuesto concebido para neutralizar las diferencias regionales en la fortuna vio hundirse su recaudación desde su segundo año.</p>
+    <div class="dfigs"><div><strong>2.330 M€</strong><span>Recaudación del IFI en 2025 (+8 %), de 193.600 hogares</span></div><div><strong>100 M€</strong><span>Recaudación esperada del impuesto sobre las holdings aprobado en 2026, frente a unos 1.000 M€ previstos al principio</span></div><div><strong>623 M€</strong><span>Recaudación del primer ejercicio del impuesto español de solidaridad sobre las grandes fortunas, 555 M€ de ellos en Madrid</span></div><div><strong>−95 %</strong><span>Caída de la recaudación de ese impuesto al año siguiente (unos 38 M€ en ocho meses)</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. Un impuesto sobre la fortuna reducido al inmueble y holdings que quedaron fuera</h3>
+        <p>El impuesto sobre la fortuna inmobiliaria (IFI), creado en 2018 en sustitución del antiguo impuesto sobre la fortuna (ISF), grava a los hogares cuyo patrimonio inmobiliario neto no profesional supera 1,3 M€. Su escala no ha cambiado desde el origen y sube hasta el 1,50 % por encima de 10 M€. En 2025, el IFI recaudó 2.332 M€, un 8 % más que en 2024, según la DGFiP (la dirección general de finanzas públicas, que es la administración tributaria francesa), de 193.600 hogares frente a 186.100 un año antes. Eso representa solo el 0,5 % de los ingresos fiscales netos del Estado. La congelación de la escala amplía cada año la base con el alza de los precios inmobiliarios.</p><p>Este perímetro deja fuera el patrimonio financiero, en particular la tesorería donde se acumulan los dividendos que suben desde las filiales. El proyecto de presupuestos de 2026 pretendía gravar al 2 % anual el conjunto de los activos no profesionales de las holdings patrimoniales, tesorería incluida, con una recaudación estimada de 1.000 M€ y unas 10.000 holdings afectadas. La ley de presupuestos se promulgó el 19 de febrero de 2026 tras recurrir al 49.3 y adoptó otro dispositivo: un impuesto anual del 20 % sobre ciertos bienes de disfrute alojados en sociedades, como yates o viviendas ocupadas gratuitamente por la familia. La recaudación cayó a unos 100 M€. La primera imposición recae sobre los ejercicios cerrados a partir del 31 de diciembre de 2026.</p>
+        
+        
+        
+      
+        
+        <h3>2. El presupuesto de 2027 reabre el expediente</h3>
+        <p>La enmienda I-3807 de Jean-Paul Mattei (grupo Les Démocrates) se aprobó el miércoles 28 de octubre. Extendería el impuesto a la liquidez y a las inversiones financieras que «duermen» en las holdings, al tipo del 2 %, para los ejercicios cerrados a partir del 31 de diciembre de 2027. El Gobierno había emitido un dictamen desfavorable. En comisión, una enmienda de Charles de Courson (grupo Liot) ya creaba un impuesto anual del 2 % sobre el valor neto de los títulos de colocación, del que sus autores esperan entre 3.500 y 4.000 M€.</p><p>Estas votaciones tienen un alcance limitado. La comisión de Finanzas rechazó la parte de ingresos casi por unanimidad el 9 de octubre y la votación solemne en el pleno se celebrará el 3 de noviembre. Además, el Gobierno puede recurrir al 49.3 y retener solo una parte de las enmiendas aprobadas. Una medida votada contra su criterio parte, por tanto, con pocas posibilidades de sobrevivir, como confirma la suerte anunciada de otra medida fiscal aprobada el día anterior.</p>
+        
+<figure class="chart" aria-label="Recaudación esperada del impuesto sobre las holdings según la versión: unos 1.000 M€ en el proyecto de 2026, 100 M€ en la ley, 3.500 a 4.000 M€ para una enmienda de comisión de 2027">
+  
+  <div class="bar-row"><span class="lbl">Proyecto 2026 (2 %, tesorería incluida)</span><span class="bar"><span class="fill w29 c-es"></span></span><span class="val">≈ 1.000</span></div><div class="bar-row"><span class="lbl">Ley 2026 (20 %, bienes de disfrute)</span><span class="bar"><span class="fill w3 c-es"></span></span><span class="val">≈ 100</span></div><div class="bar-row"><span class="lbl">Enmienda de comisión 2027 (estimación de los autores)</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">3.500 a 4.000</span></div>
+  <figcaption>Francia, 2025-2026, en M€, estimaciones. Fuentes: Auguste Patrimoine, Legifiscal, Max Compta.</figcaption>
+</figure>
+
+        
+        
+        <div class="debate"><h4>El debate</h4><p>A favor de gravar la tesorería: los dividendos que suben desde las filiales se acumulan en las holdings y escapan al impuesto del 20 %, y algunos diputados sostenían en 2025 que un impuesto sobre esa tesorería podría llevarla a invertirse de forma productiva. En contra: la tesorería se había excluido de la ley de 2026 en nombre de la financiación de las pymes y de las empresas de tamaño intermedio familiares, y otros diputados estimaban que gravar la tesorería excedentaria equivale a impedir las inversiones futuras. En ambos bandos, nadie ha publicado una estimación consolidada de la recaudación: la evidencia no es concluyente.</p></div>
+        
+      
+        
+        <h3>3. Lo que España ha medido con su impuesto de solidaridad</h3>
+        <p>España ya ha hecho el experimento. El Impuesto Temporal de Solidaridad de las Grandes Fortunas (ITSGF) grava los patrimonios netos superiores a 3 M€; se concibió como reacción a las bonificaciones autonómicas del impuesto sobre el patrimonio en Madrid, Andalucía y Galicia. Sus tipos van del 1,7 % al 3,5 % y el impuesto sobre el patrimonio pagado se deduce de la cuota. En su primer ejercicio recaudó 623 M€, de ellos 555 M€ de contribuyentes madrileños. Un total de 12.010 grandes patrimonios pagaron una cuota media de 52.000 euros.</p><p>Al año siguiente, la recaudación bajó cerca de un 95 %, hasta unos 38 M€ en los ocho primeros meses. Las comunidades que eximían al 100 % hicieron variable su bonificación: por encima de 3 M€, el residente paga a su comunidad el equivalente de lo que habría ido al Estado. La recaudación ha podido cambiar de destinatario en lugar de desaparecer, y las cifras autonómicas no figuran en las fuentes consultadas. El impuesto, en origen temporal, se prorrogó y, a 20 de octubre de 2026, la reforma de la financiación autonómica que debía sustituirlo no estaba aprobada.</p>
+        
+<figure class="chart" aria-label="Recaudación anual de cuatro impuestos sobre la fortuna o el patrimonio en Francia y España, en millones de euros">
+  
+  <div class="bar-row"><span class="lbl">IFI Francia, 2025</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 2.332</span></div><div class="bar-row"><span class="lbl">ITSGF España, primer ejercicio</span><span class="bar"><span class="fill w27 c-es"></span></span><span class="val">≈ 623</span></div><div class="bar-row"><span class="lbl">Impuesto sobre holdings Francia (esperado)</span><span class="bar"><span class="fill w4 c-es"></span></span><span class="val">≈ 100</span></div><div class="bar-row"><span class="lbl">ITSGF España, 8 primeros meses siguientes</span><span class="bar"><span class="fill w2 c-es"></span></span><span class="val">≈ 38</span></div>
+  <figcaption>Francia 2025 y España 2023-2024, períodos distintos (véanse las etiquetas), en M€. Fuentes: DGFiP, Hacienda, ley de presupuestos de 2026.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. El contrapunto: dos bases, dos geografías</h3>
+        <p>Francia grava a escala nacional solo el patrimonio inmobiliario, a partir de 1,3 M€. España grava el patrimonio neto en su conjunto: declaración obligatoria por encima de 700.000 euros, con la vivienda habitual excluida hasta 300.000 euros, y una escala estatal del 0,2 % al 3,5 % que cada comunidad modula. Cataluña rebaja el umbral a 500.000 euros y sube hasta el 3,48 %, mientras que Madrid bonifica la cuota autonómica al 100 % a reserva del ITSGF. El patrimonio profesional está exento con condiciones. Las bases difieren, de modo que los tipos no se comparan línea a línea.</p><p>Para un no residente, España solo grava los bienes situados en su territorio, con un mínimo exento de 700.000 euros. Desde dos sentencias del Tribunal Supremo de octubre y noviembre de 2025, también se beneficia del límite conjunto del impuesto sobre la renta y el patrimonio al 60 % de la base, aplicado desde la declaración de 2025. El plan de control de la Administración tributaria prevé, no obstante, verificar las plusvalías de los no residentes y los patrimonios mantenidos en España a través de sociedades.</p>
+        
+        
+        
+      
+        
+        <h3>5. Qué habrá que mirar</h3>
+        <p>El 3 de noviembre dirá si las enmiendas fiscales siguen su camino hacia el Senado; la votación sobre el conjunto del presupuesto está fijada para el 17 de noviembre. En España, las elecciones anticipadas del 29 de noviembre reabrirán la cuestión del estatuto del ITSGF. La variable decisiva, a ambos lados, es la definición de la base: tesorería, títulos de participación o solo bienes de disfrute. Determina la recaudación mucho más que el tipo y condiciona el comportamiento de los titulares de holdings, que pueden distribuir, reinvertir o cambiar de región de residencia.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lectura Rilamax</h4><p>En tres versiones sucesivas, el impuesto francés sobre las holdings ha pasado de una recaudación esperada de unos 1.000 M€ a unos 100 M€, y ahora vuelve hacia una base amplia. El argumento de fondo tiene peso: una holding que capitaliza dividendos sin reinvertirlos escapa casi por completo. El defecto está en el método, porque tres versiones en doce meses dificultan la planificación patrimonial. La experiencia española enseña que la recaudación depende del diseño: 623 M€ el primer año y unos 38 M€ en ocho meses después, porque las comunidades autónomas adaptaron sus reglas. Un empresario o inversor español que posea participaciones en Francia a través de una sociedad patrimonial debería valorar dos escenarios: mantenimiento del impuesto sobre los bienes de disfrute únicamente, o extensión a la tesorería a partir de los ejercicios cerrados a finales de 2027. Conviene revisar también cuánta tesorería acumula la estructura y si su política de dividendos sigue siendo coherente. Quien conozca el régimen español reconocerá el patrón: lo que decide el resultado es la definición de la base y quién cobra, más que el tipo.</p></aside>
+    <div class="watch"><h4>Lo que vigilaremos</h4><p>Seguiremos la votación del 3 de noviembre, la suerte de la enmienda Mattei en el Senado y la posición del próximo Gobierno español sobre el ITSGF.</p></div>
+    <p class="src">Fuentes: <a href="https://www.legifiscal.fr/actualites-fiscales/4709-plf-2027-taxe-holdings-deputes-veulent-entrer-tresorerie-dormante.html" target="_blank" rel="noopener">Legifiscal, impuesto sobre las holdings y PLF 2027</a>, <a href="https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/AN/3807" target="_blank" rel="noopener">Asamblea Nacional, enmienda I-3807</a>, <a href="https://lesfourmisdupatrimoine.fr/ifi-2025-23-milliards-deuros-collectes-en-hausse-de-8/" target="_blank" rel="noopener">Les fourmis du patrimoine, nota de la DGFiP sobre el IFI 2025</a>, <a href="https://www.auguste-patrimoine.fr/blog/taxe-holding-2026-taux-conditions-et-actifs-vises" target="_blank" rel="noopener">Auguste Patrimoine, impuesto sobre las holdings 2026</a>, <a href="https://www.maxcompta.com/blogs/actualites/budget-2027-commission-finances-rejet-partie-recettes" target="_blank" rel="noopener">Max Compta, PLF 2027 en comisión</a>, <a href="https://asesorexcelente.com/impuesto-solidaridad-grandes-fortunas/" target="_blank" rel="noopener">Asesor Excelente, ITSGF</a>, <a href="https://www.cronista.com/espana/actualidad-es/impuesto-a-las-grandes-fortunas-el-gobierno-anuncia-la-millonaria-cifra-que-recaudo-con-esta-medida/" target="_blank" rel="noopener">El Cronista, recaudación del ITSGF (Hacienda)</a>, <a href="https://www.alveo.co/es/blog/impot-fortune" target="_blank" rel="noopener">Alveo, impuesto sobre el patrimonio 2026 para no residentes</a>, <a href="https://guiafiscal.es/patrimonio/ip/" target="_blank" rel="noopener">Guía Fiscal, patrimonio por comunidad autónoma</a>, <a href="https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/session-ordinaire-de-2025-2026/premiere-seance-du-vendredi-31-octobre-2025" target="_blank" rel="noopener">Asamblea Nacional, sesión del 31 de octubre de 2025</a></p>
+  </section>
+
+  <section id="es-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">Francia</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalidad</span>
+    <h3>Presupuesto de 2027: los diputados aprueban, por dos votos, gravar a las multinacionales según su actividad real en Francia</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El proyecto de ley de presupuestos (PLF) para 2027 persigue un déficit público del 5,0 % del PIB, tras el 5,4 % esperado en 2026. La votación sobre la parte de ingresos se aplazó porque quedaban más de 2.000 enmiendas por examinar y tendrá lugar el 3 de noviembre. El texto pasará después al Senado y, según LCP, el Gobierno decidirá muy probablemente qué conserva mediante el 49.3.</p></div>
+    <p class="sum">En la noche del 27 al 28 de octubre, los diputados aprobaron por 74 votos contra 72 una enmienda de Nicolas Sansu que sustituiría la base de los beneficios declarados en Francia por la parte de los beneficios mundiales realmente obtenida en Francia. La medida podría afectar a las grandes plataformas digitales. En cambio, se rechazaron subidas del impuesto sobre servicios digitales; un tipo del 15 % habría aportado unos 4.000 M€ según su autor. Para entrar en vigor, la medida deberá figurar en el texto final, lo que es poco probable. Comparación: en España, el tipo general del Impuesto sobre Sociedades (IS) es del 25 %, con un mínimo efectivo del 15 % para las empresas que superan los 20 M€ de cifra de negocios.</p>
+    <p class="src">Fuentes: <a href="https://lcp.fr/actualites/budget-2027-l-assemblee-vote-un-dispositif-pour-contrer-l-optimisation-fiscale-agressive" target="_blank" rel="noopener">LCP</a>, <a href="https://cbnews.fr/digital/plf-2027-les-deputes-adoptent-nouvelle-taxation-multinationales-ecartent-hausse-taxe-les" target="_blank" rel="noopener">CB News</a>, <a href="https://nosparlementaires.fr/actualites/budget-2027-calendrier-assemblee-cinq-semaines" target="_blank" rel="noopener">NosParlementaires</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Un grupo español con filial en Francia tiene pocas razones para provisionar una medida aprobada por dos votos y poco probable en el texto final. Quien opere en ambos países debería revisar, aun así, cómo afectaría a sus precios de transferencia una clave de reparto basada en los beneficios mundiales. No hemos encontrado ninguna medida equivalente en España.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Economía</span>
+    <h3>PIB en retroceso del 0,1 % en el tercer trimestre en Francia y alza del 0,6 % en España; la inflación francesa sube al 3,4 %</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El PIB francés se estancó en el segundo trimestre tras caer un 0,2 % en el primero. Los economistas esperaban una subida del 0,1 %, cifra que el Banco de Francia (el banco central francés) y el Insee habían previsto también. La inflación depende en gran parte de la energía: +12,6 % en julio, +16,7 % en agosto y +21,3 % en septiembre.</p></div>
+    <p class="sum">El Insee anuncia una caída del 0,1 % del PIB; las exportaciones se contraen un 1,7 % tras un +2,8 % y el comercio exterior resta 0,6 puntos. El arrastre estadístico de crecimiento para 2026 es de solo el 0,2 %. La inflación alcanzaría el 3,4 % en octubre, frente al 3,1 % de septiembre, con la energía un 24,1 % más cara que hace un año. Los hogares redujeron sus compras de bienes un 0,5 % en septiembre, tras un descenso idéntico en agosto. En España, el PIB avanzó un 0,6 % en el trimestre, un 2,7 % interanual, y la inflación se estabilizó en el 4,9 %.</p>
+    <p class="src">Fuentes: <a href="https://www.insee.fr/fr/statistiques/9107965" target="_blank" rel="noopener">Insee, informaciones rápidas n.º 266</a>, <a href="https://www.usinenouvelle.com/eco-social/production-et-exportations-en-baisse-leconomie-francaise-fait-moins-bien-que-prevu-au-troisieme-trimestre-avec-une-baisse-du-pib-de-01.2EL3R6CQJNEERJTQ52BSABKGXM.html" target="_blank" rel="noopener">L&#39;Usine Nouvelle</a>, <a href="https://www.ine.es/" target="_blank" rel="noopener">INE</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Una diferencia de 0,7 puntos de crecimiento en un trimestre es considerable, pero España paga su vigor con precios que suben más deprisa y un paro que repunta. Para una empresa española con ventas o filiales en Francia, el escenario que conviene contrastar es el de un consumo francés débil, con hogares que recortan compras de bienes y exportaciones en retroceso.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Empresas e inversión</span>
+    <h3>Fitness Park France pasa a manos de Providence, propietario de la cadena española VivaGym</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El fondo estadounidense Providence adquirió VivaGym en 2024 y respalda desde entonces una consolidación agresiva del fitness ibérico. Fitness Park, fundada en 2009, cuenta con más de 1,7 millones de abonados en más de 467 clubes, con Francia como primer mercado. La operación había sido notificada a la autoridad de competencia francesa antes del acuerdo anunciado esta semana.</p></div>
+    <p class="sum">Providence ha cerrado un acuerdo para convertirse en accionista de referencia de Fitness Park France, con los vendedores Philippe Herbette, Future French Champions, Momentum Invest y M Capital Partners. La finalización está prevista a principios de 2027. La operación solo afecta a Francia y deja intacta la máster franquicia española, gestionada por Upgyms, una sociedad independiente. La prensa cifra la valoración en unos 600 M€, sin confirmación. Por el lado español, VivaGym superará los 500 establecimientos en la península ibérica; la red Fitness Park facturó 461 M€ de cifra de negocios de red en 2025.</p>
+    <p class="src">Fuentes: <a href="https://www.2playbook.com/fitness/providence-confirma-compra-participacion-fitness-park-francia-por-cerca-600-millones_24115_102.html" target="_blank" rel="noopener">2Playbook</a>, <a href="https://dealroom.co/news/168412-providence-buys-frances-fitness-park-in-reported-600m-european-gym-push/" target="_blank" rel="noopener">Dealroom</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>El capital circula en los dos sentidos: un fondo activo en España toma posición en Francia. La valoración de 600 M€ no está confirmada y no precisa si se trata del valor de empresa o de los fondos propios. Un operador español del sector debería seguir, sobre todo, el dictamen de las autoridades de competencia, que condiciona el cierre previsto a principios de 2027.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Política y sociedad</span>
+    <h3>Huelga del 5 de noviembre: un movimiento ampliado a la enseñanza privada, sin cifra de su coste</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>La protesta por el poder adquisitivo se organiza desde finales de septiembre: los sindicatos consideran un éxito la jornada de huelga de la función pública del 29 de septiembre y convocan ahora a los sectores público y privado. La inflación alcanza el 3,4 % en octubre según el Insee, y la violencia urbana del 17 de octubre ya ha costado hasta 1.200 M€ a las aseguradoras.</p></div>
+    <p class="sum">La intersindical del sector público (las confederaciones CFDT, CGT, FO, Unsa y FSU) recibe el apoyo de todos los sindicatos de la enseñanza privada concertada, un sector de 2,1 millones de alumnos en 8.500 centros. Los cuatro principales sindicatos de la SNCF convocan huelga y la CGT cuenta 185 convocatorias de sus federaciones. El secretario general de la CGT de los estibadores anunciaba puertos paralizados al 95 % el 30 de octubre, una afirmación sindical no verificada. No se ha publicado ninguna estimación del coste económico. Comparación: en España se ha convocado una huelga general de 24 horas el 11 de noviembre, la primera movilización conjunta de esta magnitud desde 2012.</p>
+    <p class="src">Fuentes: <a href="https://www.economiematin.fr/greve-5-novembre-lycee-secteur-prive" target="_blank" rel="noopener">Économie Matin</a>, <a href="https://linsoumission.fr/2026/10/29/greve-du-5-novembre-prepare/" target="_blank" rel="noopener">L&#39;Insoumission (resumen de las convocatorias sindicales)</a>, <a href="https://lepetitjournal.com/madrid/actualites/greve-generale-11-novembre-espagne-logement-syndicats-455673" target="_blank" rel="noopener">Le Petit Journal Madrid</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Un industrial o transportista español cuyos flujos pasen por los puertos y la SNCF debería prever perturbaciones el 5 de noviembre en Francia y el 11 en España. Sin una cifra de coste, parece más sensato revisar plazos de entrega y existencias que provisionar un coste desconocido.</p></aside>
+</article>
+  </section>
+
+  <section id="es-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">España</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalidad</span>
+    <h3>El Impuesto sobre Sociedades de las pymes volverá a bajar el 1 de enero de 2027</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El tipo general del Impuesto sobre Sociedades (IS) español sigue en el 25 %. Para las estructuras pequeñas ya se aprobó un calendario de rebajas progresivas: las empresas con 1 a 10 M€ de cifra de negocios tributan al 23 % en 2026 y las microempresas al 19 % sobre los primeros 50.000 euros de base y al 21 % por encima. Las sociedades de nueva creación disfrutan del 15 % durante sus dos primeros ejercicios con beneficios.</p></div>
+    <p class="sum">Hacienda confirma que los tipos bajarán a partir del 1 de enero de 2027, según el calendario ya aprobado y en función de la cifra de negocios. Las empresas con más de 1 M€ de facturación pasan al 22 % en 2027, con el 20 % como objetivo en 2029; las microempresas pasan al 17 % y luego al 20 %. Una sociedad que cierre el ejercicio a 31 de diciembre liquidará en 2027 el impuesto de 2026 con los tipos antiguos; los nuevos solo aparecerán en la declaración de 2028. Comparación: el tipo normal francés del IS también es del 25 %; España aplica además un mínimo efectivo del 15 % a las grandes empresas.</p>
+    <p class="src">Fuentes: <a href="https://www.autonomosyemprendedor.es/autonomos/hacienda/hacienda-aplicara-nueva-rebaja-impuesto-sociedades-pymes-microempresas-partir-enero/20261026164759056548.html" target="_blank" rel="noopener">Autónomos y Emprendedor</a>, <a href="https://www.grupo2000.es/el-impuesto-sobre-sociedades-en-2025/" target="_blank" rel="noopener">Grupo 2000</a>, <a href="https://teamsystem.es/magazine/tramos-impuesto-sociedades-2026/" target="_blank" rel="noopener">TeamSystem</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Este calendario beneficia sobre todo a las pymes operativas: las entidades patrimoniales quedan excluidas de numerosos incentivos y suelen seguir al 25 %. Al comparar con una filial en Francia, donde el tipo normal también es del 25 %, conviene comprobar que la sociedad cumple los requisitos para acogerse a las rebajas. El ahorro, de un punto por año, se mide a escala de la tesorería de una pyme.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Energía</span>
+    <h3>El IVA de la electricidad sigue en el 21 % en noviembre y diciembre depende del índice de octubre</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Como respuesta a la crisis de Oriente Medio, España aprobó un tercer paquete anticrisis mediante el Real Decreto-ley 25/2026, de 29 de septiembre, convalidado el 16 de octubre por la Diputación Permanente, que ejerce las funciones del Congreso mientras las Cortes están disueltas. Mantiene en noviembre la rebaja de 20 céntimos por litro en gasolina y gasóleo y prevé una rebaja condicionada del IVA de la energía.</p></div>
+    <p class="sum">El IVA pasaría del 21 % al 10 % para la electricidad de los consumidores de 10 kW o menos y de los beneficiarios del bono social, así como para el gas, si el índice de precios correspondiente supera en 15 puntos el del mismo mes un año antes. La inflación eléctrica de septiembre, del 11,4 %, no alcanza ese umbral: el IVA sigue en el 21 % en noviembre. Diciembre depende del índice de octubre, que se conocerá a mediados de noviembre. El indicador adelantado del 30 de octubre muestra carburantes a la baja, pero un gas más caro que hace un año. Comparación: en Francia, la energía sube un 24,1 % interanual en octubre (Insee).</p>
+    <p class="src">Fuentes: <a href="https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/septiembre/30/nuevas-medidas-marco-plan-integral-medio.html" target="_blank" rel="noopener">Agencia Tributaria</a>, <a href="https://www.eleconomista.es/energia/noticias/14024041/10/26/la-crisis-energetica-obliga-a-prolongar-las-ayudas-mientras-el-crudo-sigue-al-alza.html" target="_blank" rel="noopener">elEconomista</a>, <a href="https://www.que.es/2026/10/17/iva-luz-bloqueado-plan-anticrisis/" target="_blank" rel="noopener">Qué.es</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Para una empresa sujeta al IVA, este impuesto es en principio recuperable: la cláusula afecta sobre todo a los hogares y, por tanto, al consumo local. El umbral de 15 puntos crea un efecto escalón, pues un 11,4 % no activa nada. Al comparar con Francia conviene recordar que las cifras miden cosas distintas: la electricidad en España, la energía en su conjunto en Francia. Seguir el índice de octubre es lo prudente antes de fijar hipótesis de precios para diciembre.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Economía</span>
+    <h3>Récord de empleo, pero el paro sube al 10,18 %, con un PIB del +0,6 %</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>España crece más deprisa que Francia, pero los precios también suben más deprisa. La tasa de paro era del 9,87 % en el segundo trimestre. Los datos publicados esta semana precisan la naturaleza del crecimiento: consumo de los hogares, inversión y empleo.</p></div>
+    <p class="sum">La EPA del tercer trimestre contabiliza 22.852.600 ocupados, 73.600 más, y una tasa de paro del 10,18 %, 0,31 puntos más. El aumento del empleo del trimestre procede íntegramente de trabajadores extranjeros tras la regularización extraordinaria de inmigrantes. El mismo día, el INE publicó un PIB del +0,6 % trimestral, con un consumo de los hogares del +0,6 %, cinco décimas menos, y una inversión del +0,6 %, el menor aumento en dos años. Comparación: en Francia, el paro fue del 8,3 % en el segundo trimestre; la cifra del tercero se espera el 10 de noviembre.</p>
+    <p class="src">Fuentes: <a href="https://www.ine.es/dyngs/Prensa/EPA3T26.htm" target="_blank" rel="noopener">INE, EPA tercer trimestre 2026</a>, <a href="https://www.que.es/2026/10/28/epa-tercer-trimestre-2026-paro-2/" target="_blank" rel="noopener">Qué.es</a>, <a href="https://www.moncloa.com/2026/10/30/economia-espanola-pib-freno-consumo-3458602/" target="_blank" rel="noopener">Moncloa.com (contabilidad nacional del INE)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>El crecimiento español se apoya en una demanda interna que se modera y en un mercado laboral cuyo avance procede de un efecto de regularización. Un paro del 10 % con un crecimiento anual del 2,7 % indica que la actividad no basta para reabsorber el desempleo. Antes de extrapolar contrataciones o de comparar con el 8,3 % francés, conviene esperar al dato de Francia del 10 de noviembre.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Inmobiliario</span>
+    <h3>49.319 compraventas de vivienda en agosto, y el decreto fiscal sobre vivienda espera su votación</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El Congreso rechazó el 2 de octubre los dos decretos-ley sobre vivienda (172 votos contra 178 en uno, 166 contra 184 en el otro). El 6 de octubre, con las Cortes disueltas, el Gobierno aprobó los decretos 28/2026 y 29/2026, que recogen lo esencial. El 29/2026 contiene una reforma fiscal que afecta al IRPF, al IVA, al IS de las SOCIMI, al impuesto de no residentes, al IBI y a la plusvalía municipal.</p></div>
+    <p class="sum">Las compraventas de vivienda subieron un 3,4 % interanual en agosto, hasta 49.319, el nivel más alto para un mes de agosto desde 2024. Las de vivienda nueva suben un 4,9 %, hasta 10.521 operaciones. En cuanto al decreto, la convalidación está prevista el 12 de noviembre según una fuente, ante la Diputación Permanente, mientras otra sitúa el plazo antes del 6 de noviembre; el PNV apoyaría el 29/2026 pero no el 28/2026. Comparación: en Francia se iniciaron 28.682 viviendas en septiembre (−9,7 % en un mes) y se autorizaron 31.428, según el SDES (servicio estadístico del Ministerio de Vivienda francés).</p>
+    <p class="src">Fuentes: <a href="https://www.elespanol.com/invertia/observatorios/vivienda/20261026/compraventa-viviendas-retoma-ascensos-subir-interanual-agosto-operaciones/1003744434470_0.html" target="_blank" rel="noopener">El Español</a>, <a href="https://www.legaltoday.com/opinion/articulos-de-opinion/los-decretos-leyes-de-vivienda-derogacion-reaprobacion-y-convalidacion-en-plena-disolucion-2026-10-08/" target="_blank" rel="noopener">LegalToday</a>, <a href="https://notariasbarcelona.es/real-decreto-ley-29-2026-novedades-fiscales/" target="_blank" rel="noopener">Notarías Barcelona, RDL 29/2026</a>, <a href="https://gestionatualojamiento.com/convalidacion-del-decreto-de-vivienda/" target="_blank" rel="noopener">Gestiona tu alojamiento</a>, <a href="https://www.mysweetimmo.com/2026/10/29/logement-neuf-les-mises-en-chantier-chutent-de-pres-de-10-en-septembre/" target="_blank" rel="noopener">MySweetImmo (SDES)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Un propietario de vivienda en alquiler o una SOCIMI (sociedad cotizada de inversión inmobiliaria, equivalente a una SIIC francesa) debería valorar dos escenarios: decreto convalidado o derogado. En caso de que fracase, el IVA del 10 % sobre las viviendas turísticas no se aplicaría, pues su fecha de efecto, el 1 de diciembre, es posterior a la votación. La incertidumbre sobre la fecha del voto complica la planificación: conviene esperar el resultado antes de decidir.</p></aside>
+</article>
+  </section>
+
+  <section id="es-agenda">
+    <h2>A vigilar en las próximas semanas</h2>
+    <ul class="agenda"><li><span class="when">3 de noviembre</span><span class="what">Francia: votación solemne de la Asamblea Nacional sobre la primera parte (ingresos) del PLF 2027</span></li><li><span class="when">5 de noviembre</span><span class="what">Francia: huelga intersindical, con la SNCF y, por primera vez, la enseñanza privada concertada</span></li><li><span class="when">11 de noviembre</span><span class="what">España: huelga general de 24 horas convocada por CCOO y UGT</span></li><li><span class="when">13 de noviembre</span><span class="what">Francia y España: publicación de las cifras definitivas de inflación de octubre por el Insee y el INE</span></li><li><span class="when">29 de noviembre</span><span class="what">España: elecciones generales anticipadas</span></li></ul>
+  </section>
+
+  
+  <section id="es-glosario">
+    <h2>Las siglas de esta edición</h2>
+    <dl class="glossary"><div><dt>49.3</dt><dd>Artículo 49, apartado 3, de la Constitución francesa: permite al Gobierno hacer aprobar un texto sin votación, salvo que la Asamblea Nacional adopte una moción de censura. Es el instrumento habitual para sacar adelante los presupuestos sin mayoría estable.</dd></div><div><dt>DGFiP</dt><dd>Direction générale des finances publiques: la administración tributaria francesa, equivalente a la Agencia Tributaria española. Publica la recaudación del IFI y de los demás impuestos del Estado.</dd></div><div><dt>Diputación Permanente</dt><dd>Comisión de 69 diputados que ejerce las funciones del Congreso español cuando las Cortes están disueltas, en particular para convalidar los decretos-ley.</dd></div><div><dt>EPA</dt><dd>Encuesta de Población Activa: encuesta trimestral del INE sobre empleo y paro en España, comparable a la enquête Emploi del Insee francés.</dd></div><div><dt>IFI</dt><dd>Impôt sur la fortune immobilière: impuesto francés sobre el patrimonio inmobiliario neto no profesional superior a 1,3 M€. Sustituye desde 2018 al antiguo impuesto sobre la fortuna (ISF), que gravaba también el patrimonio financiero.</dd></div><div><dt>Insee</dt><dd>Institut national de la statistique et des études économiques: el instituto estadístico francés, equivalente al INE español. Publica el PIB, la inflación y el paro de Francia.</dd></div><div><dt>ITSGF</dt><dd>Impuesto Temporal de Solidaridad de las Grandes Fortunas: impuesto español sobre patrimonios netos superiores a 3 M€, creado a finales de 2022 como complemento del impuesto sobre el patrimonio.</dd></div><div><dt>PLF</dt><dd>Projet de loi de finances: el proyecto de presupuestos del Estado francés, que el Gobierno presenta cada otoño al Parlamento y que la Asamblea Nacional enmienda antes de pasarlo al Senado.</dd></div><div><dt>SDES</dt><dd>Service des données et études statistiques: servicio estadístico del Ministerio francés de Transición Ecológica y Vivienda. Publica cada mes las viviendas iniciadas y autorizadas.</dd></div><div><dt>SOCIMI</dt><dd>Sociedad cotizada de inversión inmobiliaria: sociedad española cotizada dedicada al alquiler de inmuebles, con un régimen fiscal específico. Equivale a una SIIC (société d&#39;investissement immobilier cotée) francesa.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">Suscribirse en LinkedIn</a>
+  </section>
+
+  
+  <section id="es-archivo" class="archive">
+    <h2>Ediciones anteriores</h2>
+    <ul><li><a href="/ediciones/2026-10-24/">N° 4 — Disturbios e inundaciones: dos modelos para pagar un riesgo que se desboca</a><span>2026-10-24</span></li><li><a href="/ediciones/2026-10-17/">N° 3 — Inflación: España crece más deprisa que Francia, pero se encarece más deprisa</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Energía: lo que Francia saca de sus campos y España deja escapar</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Vivienda en España: un déficit de oferta que los decretos no abordaban y unas zonas tensionadas puestas a prueba por los datos</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>El Boletín Rilamax lo publica RILAMAX 2025 SL. Los resúmenes son de elaboración propia a partir de las fuentes citadas. Las lecturas Rilamax son análisis generales y no constituyen asesoramiento de inversión personalizado. Seguimiento y redacción asistidos por IA. Selección, verificación y análisis: Jean Marc Pavia.</p></footer>
+</div>
+
+
+<script>
+(function(){
+  var titles={fr:"Le Bulletin Rilamax \u2014 N\u00b0 5",es:"El Bolet\u00edn Rilamax \u2014 N.\u00ba 5"};
+  function setLang(l){
+    document.querySelectorAll('.edition').forEach(function(e){e.hidden=e.dataset.lang!==l});
+    document.querySelectorAll('.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});
+    document.documentElement.lang=l; document.title=titles[l];
+    try{localStorage.setItem('rilamax-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set);window.scrollTo(0,0)})});
+  var p=new URLSearchParams(location.search).get('lang'); var saved=null;
+  try{saved=localStorage.getItem('rilamax-lang')}catch(e){}
+  var l=(p==='es'||p==='fr')?p:saved; if(l==='es'||l==='fr') setLang(l);
+  // Detalle del gráfico de mix al pasar el ratón, tocar o enfocar un segmento
+  document.querySelectorAll('figure.mix').forEach(function(fig){
+    var info=fig.querySelector('.mix-info'); if(!info) return;
+    fig.querySelectorAll('.seg').forEach(function(sg){
+      function show(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});sg.classList.add('on');info.textContent=sg.getAttribute('data-tip');info.classList.add('act')}
+      sg.addEventListener('mouseenter',show);sg.addEventListener('focus',show);sg.addEventListener('click',show);
+    });
+    fig.addEventListener('mouseleave',function(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});info.textContent=info.getAttribute('data-default');info.classList.remove('act')});
+  });
+  // Animación de los gráficos al aparecer en pantalla
+  try{
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(!reduce&&'IntersectionObserver' in window){
+      var charts=document.querySelectorAll('figure.chart');
+      charts.forEach(function(c){c.classList.add('pre')});
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target)}})},{threshold:.35});
+      charts.forEach(function(c){io.observe(c)});
+    }
+  }catch(e){}
+})();
+</script>
+</body>
+</html>

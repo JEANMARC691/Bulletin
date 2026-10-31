@@ -1,0 +1,933 @@
+{
+  "meta": {
+    "numero": 5,
+    "fecha": "2026-10-31",
+    "semana": 44
+  },
+  "fr": {
+    "editorial": {
+      "titulo": "La France cale, l'Espagne résiste, le budget s'écrit par amendements",
+      "parrafos": [
+        "Vendredi 30 octobre, l'Insee (l'institut statistique français) a annoncé un PIB en recul de 0,1 % au troisième trimestre, alors que les économistes attendaient une légère hausse. <cite index=\"111-3\">Les économistes interrogés par Reuters tablaient en moyenne sur +0,1 %.</cite> <cite index=\"104-1\">L'INE (l'institut statistique espagnol) a publié le même jour une croissance de 0,6 %.</cite> Les prix vont dans l'autre sens : <cite index=\"32-5\">3,4 % d'inflation en France en octobre</cite>, <cite index=\"38-1\">4,9 % en Espagne</cite>. Le commerce de détail espagnol le ressent déjà, avec des ventes en baisse de 1,6 % en septembre.",
+        "La vie chère descend dans la rue des deux côtés des Pyrénées. En France, l'intersyndicale appelle à la grève le 5 novembre, <cite index=\"131-3\">avec les quatre principaux syndicats de la SNCF</cite> et, <cite index=\"129-4\">pour la première fois, tous ceux de l'enseignement privé sous contrat</cite>. En Espagne, CCOO et UGT, les deux grandes confédérations syndicales du pays, convoquent le 11 novembre <cite index=\"91-2\">leur première grève générale commune depuis quatorze ans</cite>. Aucun coût chiffré n'a été publié pour l'un ou l'autre mouvement ; nous n'en avancerons pas.",
+        "À l'Assemblée, le budget 2027 continue de s'écrire par amendements. <cite index=\"57-2\">Les députés ont adopté mardi 27 octobre une imposition des multinationales sur l'activité réelle en France</cite>, puis, mercredi, <cite index=\"69-3,69-6\">une taxe sur les holdings étendue à la trésorerie, contre l'avis du gouvernement</cite>. Rien n'est acquis : <cite index=\"1-4\">le vote sur les recettes est fixé au 3 novembre</cite> et, selon LCP, le gouvernement recourra très probablement à l'article 49.3 de la Constitution, procédure qui permet d'adopter un texte sans vote, sauf motion de censure.",
+        "Notre dossier met la taxe sur les holdings en regard de l'impôt espagnol sur les grandes fortunes. <cite index=\"170-9\">Le produit de ce dernier a chuté d'environ 95 % dès l'année suivant son lancement</cite>, quand les régions ont adapté leurs règles. L'épisode vaut d'être lu avant de juger le dispositif français. J'en retiens que le rendement d'un impôt patrimonial dépend de sa conception, bien plus que de son taux affiché."
+      ],
+      "puntos_clave": [
+        "Le PIB recule de 0,1 % en France et progresse de 0,6 % en Espagne au troisième trimestre ; les prix montent plus vite en Espagne (4,9 % contre 3,4 %).",
+        "Le budget 2027 s'écrit par amendements, dont une taxe de 2 % sur la trésorerie des holdings, tous fragiles avant le vote du 3 novembre.",
+        "Grève en France le 5 novembre, grève générale en Espagne le 11 : deux mobilisations sur le pouvoir d'achat, sans coût chiffré à ce jour."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "−0,1 %",
+        "texto": "Variation du PIB français au troisième trimestre 2026 (première estimation), après −0,2 % au premier trimestre et 0,0 % au deuxième.",
+        "fuente": "Insee, 30 octobre",
+        "pais": "fr",
+        "comparacion": "Espagne : +0,6 % sur le trimestre (INE, 30 octobre)"
+      },
+      {
+        "valor": "3,4 %",
+        "texto": "Inflation annuelle estimée en France en octobre, après 3,1 % en septembre ; l'énergie progresse de 24,1 % sur un an.",
+        "fuente": "Insee, 30 octobre",
+        "pais": "fr",
+        "comparacion": "Espagne : 4,9 % (INE, indicateur avancé du 30 octobre)"
+      },
+      {
+        "valor": "28 682",
+        "texto": "Logements mis en chantier en France en septembre (estimation), soit −9,7 % sur un mois ; 31 428 logements autorisés, +1,2 %.",
+        "fuente": "SDES (service statistique du ministère du Logement), 28 octobre",
+        "pais": "fr",
+        "comparacion": "Espagne : pas de donnée mensuelle comparable publiée cette semaine ; 49 319 ventes de logements en août (INE), mesure différente."
+      },
+      {
+        "valor": "10,18 %",
+        "texto": "Taux de chômage espagnol au troisième trimestre (enquête EPA), en hausse de 0,31 point ; l'emploi atteint un record de 22,85 millions de personnes.",
+        "fuente": "INE, 27 octobre",
+        "pais": "es",
+        "comparacion": "France : 8,3 % au deuxième trimestre (Insee, 7 août) ; chiffre du troisième trimestre attendu le 10 novembre"
+      },
+      {
+        "valor": "−1,6 %",
+        "texto": "Ventes du commerce de détail espagnol en septembre sur un an, la plus forte baisse depuis novembre 2022 et le troisième recul consécutif.",
+        "fuente": "INE, 29 octobre",
+        "pais": "es",
+        "comparacion": "France : −0,5 % pour la consommation des ménages en biens en septembre, sur un mois (Insee, 30 octobre) ; période et périmètre différents"
+      },
+      {
+        "valor": "49 319",
+        "texto": "Ventes de logements en Espagne en août, +3,4 % sur un an, plus haut niveau pour un mois d'août depuis 2024.",
+        "fuente": "INE, 26 octobre",
+        "pais": "es",
+        "comparacion": "France : pas de donnée de ventes comparable publiée cette semaine ; 28 682 mises en chantier en septembre (SDES)"
+      }
+    ],
+    "dossier": {
+      "titulo": "Holdings et patrimoine : la France retouche sans cesse, l'Espagne a laissé ses régions trancher",
+      "intro": "Mercredi 28 octobre, l'Assemblée a adopté, contre l'avis du gouvernement, une taxe de 2 % sur la trésorerie des holdings familiales. C'est la troisième version du dispositif en douze mois. En Espagne, l'impôt censé neutraliser les écarts régionaux sur la fortune a vu son produit s'effondrer dès sa deuxième année.",
+      "cifras": [
+        {
+          "valor": "2,33 Md€",
+          "texto": "Recettes de l'IFI en 2025 (+8 %), auprès de 193 600 foyers"
+        },
+        {
+          "valor": "100 M€",
+          "texto": "Rendement attendu de la taxe sur les holdings adoptée en 2026, contre environ 1 Md€ prévu au départ"
+        },
+        {
+          "valor": "623 M€",
+          "texto": "Produit du premier exercice de l'impôt espagnol de solidarité sur les grandes fortunes, dont 555 M€ à Madrid"
+        },
+        {
+          "valor": "−95 %",
+          "texto": "Baisse du produit de cet impôt l'année suivante (environ 38 M€ sur huit mois)"
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. Un impôt sur la fortune réduit à l'immobilier, des holdings restées en dehors",
+          "parrafos": [
+            "<cite index=\"180-4\">L'impôt sur la fortune immobilière (IFI), créé en 2018 à la place de l'ISF, frappe les foyers dont le patrimoine immobilier net non professionnel dépasse 1,3 M€.</cite> <cite index=\"180-5\">Son barème n'a pas changé depuis l'origine et monte à 1,50 % au-delà de 10 M€.</cite> <cite index=\"180-7\">En 2025, l'IFI a rapporté 2,332 Md€, soit 8 % de plus qu'en 2024</cite>, selon la DGFiP (la direction générale des finances publiques, l'administration fiscale), auprès de <cite index=\"176-1\">193 600 foyers contre 186 100 un an plus tôt</cite>. <cite index=\"180-9\">Cela ne représente que 0,5 % des recettes fiscales nettes de l'État.</cite> <cite index=\"178-7\">Le gel du barème élargit chaque année l'assiette avec la hausse des prix immobiliers.</cite>",
+            "Ce périmètre laisse de côté le patrimoine financier, <cite index=\"301-1\">notamment la trésorerie où s'accumulent les dividendes remontés des filiales</cite>. <cite index=\"64-9\">Le projet de budget 2026 voulait taxer à 2 % par an l'ensemble des actifs non professionnels des holdings patrimoniales, trésorerie comprise</cite>, <cite index=\"300-4\">pour un rendement estimé à 1 Md€ et environ 10 000 holdings visées</cite>. <cite index=\"257-1\">La loi de finances a été promulguée le 19 février 2026 après un recours au 49.3</cite> et a retenu un autre dispositif : <cite index=\"186-1\">une taxe annuelle de 20 % sur certains biens de jouissance logés en société, comme les yachts ou les logements occupés gratuitement par la famille</cite>. <cite index=\"299-9\">Le rendement est tombé à environ 100 M€.</cite> <cite index=\"64-11\">La première imposition porte sur les exercices clos à compter du 31 décembre 2026.</cite>"
+          ]
+        },
+        {
+          "titulo": "2. Le budget 2027 rouvre le dossier",
+          "parrafos": [
+            "<cite index=\"301-2\">L'amendement I-3807 de Jean-Paul Mattei (groupe Les Démocrates) a été adopté le mercredi 28 octobre.</cite> <cite index=\"64-5\">Il étendrait la taxe aux liquidités et placements financiers « qui dorment » dans les holdings, au taux de 2 %</cite>, <cite index=\"301-2\">pour les exercices clos à compter du 31 décembre 2027</cite>. <cite index=\"69-6\">Le gouvernement avait émis un avis défavorable.</cite> En commission, un amendement de Charles de Courson (groupe Liot) créait déjà <cite index=\"305-3\">une taxe annuelle de 2 % sur la valeur nette des titres de placement</cite>, dont <cite index=\"304-5\">ses auteurs attendent 3,5 à 4 Md€</cite>.",
+            "Ces votes ont une portée limitée. <cite index=\"2-1\">La commission des finances a rejeté la partie recettes à la quasi-unanimité le 9 octobre</cite> et <cite index=\"1-4\">le vote solennel en séance se tiendra le 3 novembre</cite>. <cite index=\"56-10\">Le gouvernement peut en outre recourir au 49.3 et ne retenir qu'une partie des amendements adoptés.</cite> Une mesure votée contre son avis part donc avec peu de chances de survivre, ce que confirme le sort annoncé d'une autre mesure fiscale adoptée la veille."
+          ]
+        },
+        {
+          "titulo": "3. Ce que l'Espagne a mesuré avec son impôt de solidarité",
+          "parrafos": [
+            "L'Espagne a déjà mené l'expérience. <cite index=\"144-2\">L'impôt temporaire de solidarité sur les grandes fortunes (ITSGF) frappe les patrimoines nets supérieurs à 3 M€</cite> ; <cite index=\"168-5\">il a été conçu en réaction aux bonifications régionales de l'impôt sur le patrimoine à Madrid, en Andalousie et en Galice</cite>. <cite index=\"75-6\">Ses taux vont de 1,7 % à 3,5 % et l'impôt sur le patrimoine payé s'en déduit.</cite> <cite index=\"170-8\">Au titre du premier exercice, il a rapporté 623 M€, dont 555 M€ auprès de contribuables madrilènes.</cite> <cite index=\"167-3\">12 010 grands patrimoines ont payé une cotisation moyenne de 52 000 €.</cite>",
+            "<cite index=\"170-9\">L'année suivante, le produit a baissé d'environ 95 %, autour de 38 M€ sur les huit premiers mois.</cite> <cite index=\"199-3\">Les régions qui exonéraient à 100 % ont rendu leur bonification variable : au-dessus de 3 M€, le résident paie à sa région l'équivalent de ce qui serait allé à l'État.</cite> Le produit n'a donc pas forcément disparu ; il a changé de destinataire, et les chiffres régionaux ne figurent pas dans les sources consultées. <cite index=\"168-6\">L'impôt, d'abord temporaire, a été prolongé</cite> et, <cite index=\"75-7\">au 20 octobre 2026, la réforme du financement régional qui devait le remplacer n'était pas adoptée</cite>."
+          ]
+        },
+        {
+          "titulo": "4. Le contrepoint : deux assiettes, deux géographies",
+          "parrafos": [
+            "La France taxe au niveau national le seul immobilier, à partir de 1,3 M€. L'Espagne taxe l'ensemble du patrimoine net : <cite index=\"169-5\">déclaration obligatoire au-delà de 700 000 €, hors résidence principale jusqu'à 300 000 €</cite>, avec <cite index=\"169-6\">un barème d'État de 0,2 % à 3,5 %</cite> que chaque région module. <cite index=\"203-2,203-3\">La Catalogne ramène le seuil à 500 000 € et monte jusqu'à 3,48 %</cite>, tandis que Madrid bonifie la cuotа autonomique à 100 % sous réserve de l'ITSGF. <cite index=\"143-10\">Le patrimoine professionnel est exonéré sous conditions.</cite> Les bases diffèrent : les taux ne se comparent pas ligne à ligne.",
+            "Pour un non-résident, <cite index=\"75-3\">l'Espagne ne taxe que les biens situés sur son territoire, avec un minimum exonéré de 700 000 €</cite>. <cite index=\"75-8,75-9\">Depuis deux arrêts du Tribunal suprême d'octobre et novembre 2025, il bénéficie aussi du plafonnement conjoint de l'impôt sur le revenu et du patrimoine à 60 % de la base, appliqué depuis la déclaration 2025.</cite> <cite index=\"74-2\">Le plan de contrôle de l'administration prévoit toutefois de vérifier les plus-values des non-résidents et les patrimoines détenus en Espagne via des sociétés.</cite>"
+          ]
+        },
+        {
+          "titulo": "5. Ce qu'il faudra regarder",
+          "parrafos": [
+            "Le 3 novembre dira si les amendements fiscaux poursuivent leur route vers le Sénat ; <cite index=\"1-6\">le vote sur l'ensemble du budget est fixé au 17 novembre</cite>. En Espagne, <cite index=\"95-2\">les élections anticipées du 29 novembre</cite> rouvriront la question du statut de l'ITSGF. La variable décisive, des deux côtés, est la définition de la base : trésorerie, titres de participation ou seulement biens de jouissance. Elle détermine le rendement, bien plus que le taux, et elle conditionne le comportement des détenteurs de holdings, qui peuvent distribuer, réinvestir ou changer de région de résidence."
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "despues_de_seccion": 2,
+          "aria": "Rendement attendu de la taxe sur les holdings selon la version : environ 1 000 M€ au projet 2026, 100 M€ dans la loi, 3 500 à 4 000 M€ pour un amendement de commission 2027",
+          "pie": "France, 2025-2026, en M€, estimations. Sources : Auguste Patrimoine, Legifiscal, Max Compta.",
+          "barras": [
+            {
+              "etiqueta": "Projet 2026 (2 %, trésorerie incluse)",
+              "valor": 1000,
+              "texto": "≈ 1 000",
+              "pct": 29
+            },
+            {
+              "etiqueta": "Loi 2026 (20 %, biens de jouissance)",
+              "valor": 100,
+              "texto": "≈ 100",
+              "pct": 3
+            },
+            {
+              "etiqueta": "Amendement commission 2027 (estimation des auteurs)",
+              "valor": 3500,
+              "texto": "3 500 à 4 000",
+              "pct": 100
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 3,
+          "aria": "Produit annuel de quatre impôts sur la fortune ou le patrimoine en France et en Espagne, en millions d'euros",
+          "pie": "France 2025 et Espagne 2023-2024, périodes différentes (voir libellés), en M€. Sources : DGFiP, Hacienda, loi de finances 2026.",
+          "barras": [
+            {
+              "etiqueta": "IFI France, 2025",
+              "valor": 2332,
+              "texto": "≈ 2 332",
+              "pct": 100
+            },
+            {
+              "etiqueta": "ITSGF Espagne, premier exercice",
+              "valor": 623,
+              "texto": "≈ 623",
+              "pct": 27
+            },
+            {
+              "etiqueta": "Taxe holdings France (attendu)",
+              "valor": 100,
+              "texto": "≈ 100",
+              "pct": 4
+            },
+            {
+              "etiqueta": "ITSGF Espagne, 8 premiers mois suivants",
+              "valor": 38,
+              "texto": "≈ 38",
+              "pct": 2
+            }
+          ]
+        }
+      ],
+      "debate": {
+        "despues_de_seccion": 2,
+        "texto": "Pour taxer la trésorerie : <cite index=\"301-1\">les dividendes remontés des filiales s'accumulent dans les holdings et échappent à la taxe de 20 %</cite>, et des députés soutenaient en 2025 <cite index=\"302-5\">qu'une taxe sur cette trésorerie pourrait la faire investir de manière productive</cite>. Contre : <cite index=\"299-8\">la trésorerie avait été exclue de la loi de 2026 au nom du financement des PME et ETI familiales</cite>, et d'autres députés estimaient que <cite index=\"302-6\">taxer la trésorerie excédentaire revient à empêcher les investissements futurs</cite>. Dans les deux camps, personne n'a publié d'estimation consolidée du produit : l'évidence n'est pas concluante."
+      },
+      "lectura": "En trois versions successives, la taxe sur les holdings est passée d'un rendement attendu d'environ 1 Md€ à environ 100 M€, puis revient vers une assiette large. L'argument de fond a du poids : une holding qui capitalise des dividendes sans les réinvestir échappe à presque tout. Le défaut tient à la méthode, car trois versions en douze mois rendent la planification patrimoniale difficile. L'expérience espagnole montre que le produit dépend de la conception de l'impôt : 623 M€ la première année, puis environ 38 M€ en huit mois, parce que les régions ont adapté leurs règles. Un investisseur français détenant des participations via une holding devrait valoriser deux scénarios : maintien de la taxe sur les seuls biens de jouissance, ou extension à la trésorerie à partir des exercices clos fin 2027. Pour celui qui regarde l'Espagne, la région de résidence fiscale compte autant que le taux affiché, et le statut de la holding mérite d'être vérifié avant toute décision.",
+      "vigilaremos": "Nous suivrons le vote du 3 novembre, le sort de l'amendement Mattei au Sénat et la position du prochain gouvernement espagnol sur l'ITSGF.",
+      "fuentes": [
+        {
+          "nombre": "Legifiscal, taxe sur les holdings et PLF 2027",
+          "url": "https://www.legifiscal.fr/actualites-fiscales/4709-plf-2027-taxe-holdings-deputes-veulent-entrer-tresorerie-dormante.html"
+        },
+        {
+          "nombre": "Assemblée nationale, amendement I-3807",
+          "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/AN/3807"
+        },
+        {
+          "nombre": "Les fourmis du patrimoine, note DGFiP sur l'IFI 2025",
+          "url": "https://lesfourmisdupatrimoine.fr/ifi-2025-23-milliards-deuros-collectes-en-hausse-de-8/"
+        },
+        {
+          "nombre": "Auguste Patrimoine, taxe holding 2026",
+          "url": "https://www.auguste-patrimoine.fr/blog/taxe-holding-2026-taux-conditions-et-actifs-vises"
+        },
+        {
+          "nombre": "Max Compta, PLF 2027 en commission",
+          "url": "https://www.maxcompta.com/blogs/actualites/budget-2027-commission-finances-rejet-partie-recettes"
+        },
+        {
+          "nombre": "Asesor Excelente, ITSGF",
+          "url": "https://asesorexcelente.com/impuesto-solidaridad-grandes-fortunas/"
+        },
+        {
+          "nombre": "El Cronista, recaudación de l'ITSGF (Hacienda)",
+          "url": "https://www.cronista.com/espana/actualidad-es/impuesto-a-las-grandes-fortunas-el-gobierno-anuncia-la-millonaria-cifra-que-recaudo-con-esta-medida/"
+        },
+        {
+          "nombre": "Alveo, impôt sur le patrimoine 2026 pour non-résidents",
+          "url": "https://www.alveo.co/es/blog/impot-fortune"
+        },
+        {
+          "nombre": "Guía Fiscal, patrimoine par communauté autonome",
+          "url": "https://guiafiscal.es/patrimonio/ip/"
+        },
+        {
+          "nombre": "Assemblée nationale, séance du 31 octobre 2025",
+          "url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/session-ordinaire-de-2025-2026/premiere-seance-du-vendredi-31-octobre-2025"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Fiscalité",
+        "titulo": "Budget 2027 : les députés adoptent, à deux voix près, une taxation des multinationales selon leur activité réelle en France",
+        "contexto": "Le projet de loi de finances (PLF) pour 2027, le budget de l'État, <cite index=\"4-7\">vise un déficit public de 5,0 % du PIB après 5,4 % attendus en 2026</cite>. <cite index=\"3-1\">Le vote sur la partie recettes a été reporté en raison de plus de 2 000 amendements restant à examiner</cite> et <cite index=\"1-4\">aura lieu le 3 novembre</cite>. Le texte sera ensuite transmis au Sénat, puis, selon LCP, le gouvernement choisira très probablement ce qu'il conserve par le 49.3.",
+        "resumen": "<cite index=\"57-4\">Dans la nuit du 27 au 28 octobre, les députés ont adopté par 74 voix contre 72 un amendement de Nicolas Sansu qui remplacerait l'assiette des bénéfices déclarés en France par la part des bénéfices mondiaux réellement réalisée en France.</cite> <cite index=\"60-1\">La mesure est susceptible de concerner les grandes plateformes numériques.</cite> <cite index=\"60-2\">Des hausses de la taxe sur les services numériques ont en revanche été rejetées ; un taux de 15 % aurait rapporté environ 4 Md€ selon son auteur.</cite> <cite index=\"57-3\">Pour entrer en vigueur, la mesure devra figurer dans le texte final, ce qui est peu probable.</cite> Comparaison : en Espagne, <cite index=\"326-7\">le taux général de l'impôt sur les sociétés (IS) est de 25 %</cite>, avec <cite index=\"328-10\">un minimum effectif de 15 % pour les entreprises dépassant 20 M€ de chiffre d'affaires</cite>.",
+        "lectura": "Un groupe espagnol implanté en France n'a guère de raison de provisionner une mesure adoptée à deux voix près et jugée peu probable dans le texte final. Un groupe français actif en Espagne gagnerait à vérifier ce que deviendraient ses prix de transfert avec une clé de répartition mondiale. Nous n'avons trouvé aucune mesure équivalente en Espagne.",
+        "fuentes": [
+          {
+            "nombre": "LCP",
+            "url": "https://lcp.fr/actualites/budget-2027-l-assemblee-vote-un-dispositif-pour-contrer-l-optimisation-fiscale-agressive"
+          },
+          {
+            "nombre": "CB News",
+            "url": "https://cbnews.fr/digital/plf-2027-les-deputes-adoptent-nouvelle-taxation-multinationales-ecartent-hausse-taxe-les"
+          },
+          {
+            "nombre": "NosParlementaires",
+            "url": "https://nosparlementaires.fr/actualites/budget-2027-calendrier-assemblee-cinq-semaines"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "PIB en recul de 0,1 % au troisième trimestre en France, hausse de 0,6 % en Espagne ; l'inflation française monte à 3,4 %",
+        "contexto": "<cite index=\"113-1,113-2\">Le PIB français a stagné au deuxième trimestre après avoir reculé de 0,2 % au premier.</cite> <cite index=\"116-4\">Les économistes attendaient une hausse de 0,1 %, chiffre que la Banque de France et l'Insee avaient eux-mêmes prévu.</cite> L'inflation, de son côté, dépend largement de l'énergie : <cite index=\"29-7\">+12,6 % en juillet, +16,7 % en août, +21,3 % en septembre</cite>.",
+        "resumen": "<cite index=\"110-2,110-6\">L'Insee annonce une baisse de 0,1 % du PIB ; les exportations se contractent de 1,7 % après +2,8 % et le commerce extérieur retranche 0,6 point.</cite> <cite index=\"112-10\">L'acquis de croissance pour 2026 n'est que de 0,2 %.</cite> <cite index=\"32-5\">L'inflation atteindrait 3,4 % en octobre, contre 3,1 % en septembre</cite>, <cite index=\"29-2\">avec une énergie à +24,1 % sur un an</cite>. <cite index=\"215-1\">Les ménages ont réduit leurs achats de biens de 0,5 % en septembre, après un recul identique en août.</cite> En Espagne, <cite index=\"104-1\">le PIB a progressé de 0,6 % sur le trimestre</cite>, <cite index=\"105-5\">soit 2,7 % sur un an</cite>, et <cite index=\"38-1\">l'inflation s'est stabilisée à 4,9 %</cite>.",
+        "lectura": "Un écart de 0,7 point de croissance en un trimestre est considérable, mais l'Espagne paie sa vigueur par des prix qui montent plus vite et un chômage qui repart. Pour un investisseur français tourné vers l'Espagne, le scénario à tester est celui d'une demande intérieure qui ralentit alors que le coût de la vie pèse sur la consommation.",
+        "fuentes": [
+          {
+            "nombre": "Insee, informations rapides n° 266",
+            "url": "https://www.insee.fr/fr/statistiques/9107965"
+          },
+          {
+            "nombre": "L'Usine Nouvelle",
+            "url": "https://www.usinenouvelle.com/eco-social/production-et-exportations-en-baisse-leconomie-francaise-fait-moins-bien-que-prevu-au-troisieme-trimestre-avec-une-baisse-du-pib-de-01.2EL3R6CQJNEERJTQ52BSABKGXM.html"
+          },
+          {
+            "nombre": "INE",
+            "url": "https://www.ine.es/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Entreprises et investissement",
+        "titulo": "Fitness Park France passe sous le contrôle de Providence, propriétaire de la chaîne espagnole VivaGym",
+        "contexto": "<cite index=\"82-5\">Le fonds américain Providence a acquis VivaGym en 2024</cite> et <cite index=\"323-2\">soutient depuis une consolidation agressive du fitness ibérique</cite>. <cite index=\"318-4\">Fitness Park, fondée en 2009, compte plus de 1,7 million d'abonnés dans plus de 467 clubs, la France étant son premier marché.</cite> <cite index=\"320-3\">L'opération avait été notifiée à l'Autorité de la concurrence</cite> avant l'accord annoncé cette semaine.",
+        "resumen": "<cite index=\"82-3\">Providence a conclu un accord pour devenir actionnaire de référence de Fitness Park France</cite>, auprès des vendeurs <cite index=\"82-1\">Philippe Herbette, Future French Champions, Momentum Invest et M Capital Partners</cite>. <cite index=\"82-2\">La finalisation est prévue début 2027.</cite> <cite index=\"82-4\">L'opération ne concerne que la France et laisse intacte la master-franchise espagnole, gérée par Upgyms, société indépendante.</cite> <cite index=\"318-5\">La valorisation, d'environ 600 M€, est rapportée par la presse sans confirmation.</cite> Côté espagnol, <cite index=\"82-6\">VivaGym dépassera 500 établissements dans la péninsule Ibérique</cite> ; <cite index=\"318-9\">le réseau Fitness Park a réalisé 461 M€ de chiffre d'affaires réseau en 2025</cite>.",
+        "lectura": "Le capital circule dans les deux sens : un fonds actif en Espagne prend position en France. La valorisation de 600 M€ n'est pas confirmée et ne précise pas s'il s'agit de la valeur d'entreprise ou des fonds propres. Un exploitant français du secteur devrait surtout suivre l'avis des autorités de la concurrence, qui conditionne la clôture prévue début 2027.",
+        "fuentes": [
+          {
+            "nombre": "2Playbook",
+            "url": "https://www.2playbook.com/fitness/providence-confirma-compra-participacion-fitness-park-francia-por-cerca-600-millones_24115_102.html"
+          },
+          {
+            "nombre": "Dealroom",
+            "url": "https://dealroom.co/news/168412-providence-buys-frances-fitness-park-in-reported-600m-european-gym-push/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Politique et société",
+        "titulo": "Grève du 5 novembre : un mouvement élargi à l'enseignement privé, sans chiffrage de son coût",
+        "contexto": "La contestation sur le pouvoir d'achat s'organise depuis la fin septembre : <cite index=\"131-4\">les syndicats jugent réussie la journée de grève de la fonction publique du 29 septembre</cite> et appellent désormais le public comme le privé à faire grève. L'inflation atteint 3,4 % en octobre selon l'Insee, et la violence urbaine du 17 octobre a déjà coûté jusqu'à 1,2 Md€ aux assureurs.",
+        "resumen": "<cite index=\"129-7\">L'intersyndicale du public (CFDT, CGT, FO, Unsa, FSU) est rejointe par tous les syndicats de l'enseignement privé sous contrat</cite>, <cite index=\"129-10\">un secteur de 2,1 millions d'élèves dans 8 500 établissements</cite>. <cite index=\"131-3\">Les quatre principaux syndicats de la SNCF appellent à la grève et la CGT dénombre 185 appels de ses fédérations.</cite> <cite index=\"131-1\">Le secrétaire général de la CGT des dockers annonçait des ports à l'arrêt à 95 % le 30 octobre</cite>, affirmation syndicale non vérifiée. Aucune estimation du coût économique n'est publiée à ce stade. Comparaison : en Espagne, <cite index=\"91-6\">une grève générale de 24 heures est convoquée le 11 novembre</cite>, <cite index=\"91-7\">première mobilisation commune de cette ampleur depuis 2012</cite>.",
+        "lectura": "Un industriel ou un transporteur dont les flux passent par les ports et la SNCF devrait prévoir des perturbations le 5 novembre côté français, puis le 11 côté espagnol. En l'absence de chiffrage, mieux vaut s'en tenir à une revue des délais de livraison et des stocks que de provisionner un coût inconnu.",
+        "fuentes": [
+          {
+            "nombre": "Économie Matin",
+            "url": "https://www.economiematin.fr/greve-5-novembre-lycee-secteur-prive"
+          },
+          {
+            "nombre": "L'Insoumission (compte rendu des appels syndicaux)",
+            "url": "https://linsoumission.fr/2026/10/29/greve-du-5-novembre-prepare/"
+          },
+          {
+            "nombre": "Le Petit Journal Madrid",
+            "url": "https://lepetitjournal.com/madrid/actualites/greve-generale-11-novembre-espagne-logement-syndicats-455673"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Fiscalité",
+        "titulo": "Espagne : l'impôt sur les sociétés des PME baissera de nouveau au 1er janvier 2027",
+        "contexto": "<cite index=\"326-7\">Le taux général de l'impôt sur les sociétés (IS) espagnol reste à 25 %.</cite> Pour les petites structures, un calendrier de baisses progressives a déjà été adopté : <cite index=\"328-6\">les entreprises de 1 à 10 M€ de chiffre d'affaires sont à 23 % en 2026</cite> et <cite index=\"330-3\">les micro-entreprises à 19 % sur les premiers 50 000 € de base et 21 % au-delà</cite>. <cite index=\"331-3\">Les sociétés nouvelles bénéficient de 15 % pendant leurs deux premiers exercices bénéficiaires.</cite>",
+        "resumen": "<cite index=\"326-2\">Hacienda, l'administration fiscale espagnole, confirme que les taux baisseront à compter du 1er janvier 2027</cite>, <cite index=\"326-3\">selon le calendrier déjà approuvé, en fonction du chiffre d'affaires</cite>. <cite index=\"330-7\">Les entreprises de plus de 1 M€ de chiffre d'affaires passent à 22 % en 2027, avec 20 % visé en 2029</cite> ; <cite index=\"330-3,330-4,330-6\">les micro-entreprises passent à 17 % puis 20 %</cite>. <cite index=\"326-4\">Une société clôturant au 31 décembre liquidera en 2027 l'impôt de 2026 aux anciens taux ; les nouveaux n'apparaîtront que dans la déclaration de 2028.</cite> Comparaison : le taux normal français de l'IS est aussi de 25 % ; l'Espagne applique en outre un minimum effectif de 15 % aux grandes entreprises.",
+        "lectura": "Ce calendrier profite surtout aux PME opérationnelles : <cite index=\"328-3\">les entités patrimoniales sont exclues de nombreux incitatifs et restent souvent au taux général de 25 %</cite>. Un investisseur français qui logerait des participations espagnoles dans une holding devrait vérifier si elle est qualifiée de patrimoniale avant de compter sur ces baisses. Le gain, d'un point par an, se mesure à l'échelle de la trésorerie d'une PME.",
+        "fuentes": [
+          {
+            "nombre": "Autónomos y Emprendedor",
+            "url": "https://www.autonomosyemprendedor.es/autonomos/hacienda/hacienda-aplicara-nueva-rebaja-impuesto-sociedades-pymes-microempresas-partir-enero/20261026164759056548.html"
+          },
+          {
+            "nombre": "Grupo 2000",
+            "url": "https://www.grupo2000.es/el-impuesto-sobre-sociedades-en-2025/"
+          },
+          {
+            "nombre": "TeamSystem",
+            "url": "https://teamsystem.es/magazine/tramos-impuesto-sociedades-2026/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Énergie",
+        "titulo": "Espagne : la TVA sur l'électricité reste à 21 % en novembre, décembre dépend de l'indice d'octobre",
+        "contexto": "En réponse à la crise du Moyen-Orient, <cite index=\"267-2\">l'Espagne a adopté un troisième paquet anticrise par le décret-loi 25/2026 du 29 septembre, convalidé le 16 octobre par la Diputación Permanente</cite>, la commission de 69 députés qui exerce les pouvoirs du Congrès tant que les Cortes sont dissoutes. Il maintient en novembre la baisse de 20 centimes par litre sur l'essence et le gazole et prévoit une baisse conditionnelle de la TVA sur l'énergie.",
+        "resumen": "<cite index=\"263-2,263-3\">La TVA passerait de 21 % à 10 % pour l'électricité des consommateurs de 10 kW ou moins et des bénéficiaires du bon social, ainsi que pour le gaz, si l'indice des prix concerné dépasse de 15 points celui du même mois un an plus tôt.</cite> <cite index=\"264-1\">L'inflation électrique de septembre, à 11,4 %, n'atteint pas ce seuil</cite> : la TVA reste à 21 % en novembre. <cite index=\"264-9\">Décembre dépend de l'indice d'octobre, connu à la mi-novembre.</cite> <cite index=\"40-4,40-5\">L'indicateur avancé du 30 octobre montre des carburants en baisse mais un gaz plus cher qu'un an plus tôt.</cite> Comparaison : en France, <cite index=\"29-2\">l'énergie progresse de 24,1 % sur un an en octobre</cite> (Insee).",
+        "lectura": "Pour une entreprise assujettie, la TVA est en principe récupérable : l'effet de cette clause touche surtout les ménages, et donc la consommation locale. Le seuil de 15 points crée un effet de falaise, puisque 11,4 % ne déclenche rien du tout. Un exploitant français en Espagne devrait suivre l'indice d'octobre avant de bâtir ses hypothèses de prix pour décembre.",
+        "fuentes": [
+          {
+            "nombre": "Agencia Tributaria",
+            "url": "https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/septiembre/30/nuevas-medidas-marco-plan-integral-medio.html"
+          },
+          {
+            "nombre": "elEconomista",
+            "url": "https://www.eleconomista.es/energia/noticias/14024041/10/26/la-crisis-energetica-obliga-a-prolongar-las-ayudas-mientras-el-crudo-sigue-al-alza.html"
+          },
+          {
+            "nombre": "Qué.es",
+            "url": "https://www.que.es/2026/10/17/iva-luz-bloqueado-plan-anticrisis/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "Espagne : record d'emploi mais chômage en hausse à 10,18 %, avec un PIB à +0,6 %",
+        "contexto": "L'Espagne croît plus vite que la France mais s'encherit plus vite aussi. <cite index=\"207-1\">Le taux de chômage était de 9,87 % au deuxième trimestre.</cite> Ces données publiées cette semaine précisent la nature de la croissance : consommation des ménages, investissement et emploi.",
+        "resumen": "<cite index=\"206-1,206-4\">L'enquête EPA du troisième trimestre compte 22 852 600 personnes en emploi, soit 73 600 de plus, et un taux de chômage de 10,18 %, en hausse de 0,31 point.</cite> <cite index=\"210-9\">La hausse de l'emploi du trimestre vient entièrement de travailleurs étrangers après la régularisation extraordinaire d'immigrés.</cite> <cite index=\"103-9\">Le même jour, l'INE a publié un PIB à +0,6 % sur le trimestre ; consommation des ménages +0,6 %, cinq dixièmes de moins, et investissement +0,6 %, plus faible hausse en deux ans.</cite> Comparaison : en France, le chômage était de <cite index=\"271-2\">8,3 % au deuxième trimestre</cite> ; <cite index=\"273-2\">le chiffre du troisième trimestre est attendu le 10 novembre.</cite>",
+        "lectura": "La croissance espagnole repose sur la demande intérieure, qui ralentit, et sur un marché du travail dont la progression vient d'un effet de régularisation. Pour un investisseur français, un taux de chômage à 10 % dans un pays à 2,7 % de croissance annuelle montre que l'activité ne suffit pas à résorber le chômage. À suivre avant d'extrapoler les recrutements.",
+        "fuentes": [
+          {
+            "nombre": "INE, EPA troisième trimestre 2026",
+            "url": "https://www.ine.es/dyngs/Prensa/EPA3T26.htm"
+          },
+          {
+            "nombre": "Qué.es",
+            "url": "https://www.que.es/2026/10/28/epa-tercer-trimestre-2026-paro-2/"
+          },
+          {
+            "nombre": "Moncloa.com (comptes nationaux INE)",
+            "url": "https://www.moncloa.com/2026/10/30/economia-espanola-pib-freno-consumo-3458602/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Immobilier",
+        "titulo": "Espagne : 49 319 ventes de logements en août, et le décret fiscal sur le logement attend son vote",
+        "contexto": "<cite index=\"119-2\">Le Congrès a rejeté le 2 octobre les deux décrets-lois sur le logement (172 voix contre 178 pour l'un, 166 contre 184 pour l'autre).</cite> <cite index=\"119-3\">Le 6 octobre, les Cortes étant dissoutes, le gouvernement a approuvé les décrets 28/2026 et 29/2026, qui reprennent l'essentiel.</cite> <cite index=\"76-5\">Le 29/2026 contient une réforme fiscale touchant l'IRPF, la TVA, l'IS des SOCIMI, l'impôt des non-résidents, l'IBI et la plus-value municipale.</cite>",
+        "resumen": "<cite index=\"234-2\">Les ventes de logements ont progressé de 3,4 % sur un an en août, à 49 319, le plus haut pour un mois d'août depuis 2024.</cite> <cite index=\"234-5\">Les logements neufs gagnent 4,9 %, à 10 521 opérations.</cite> Côté décret, <cite index=\"123-3\">la convalidation est prévue le 12 novembre selon une source, devant la Diputación Permanente</cite>, alors qu'une autre place l'échéance avant le 6 novembre ; <cite index=\"125-7\">le PNV soutiendrait le 29/2026 mais pas le 28/2026</cite>. Comparaison : en France, <cite index=\"243-5,243-6\">28 682 logements ont été mis en chantier en septembre (−9,7 % sur un mois) et 31 428 autorisés</cite>.",
+        "lectura": "Un détenteur français d'un logement locatif ou d'une SOCIMI (société cotée d'investissement immobilier, équivalent d'une SIIC française) devrait valoriser deux scénarios : décret convalidé ou abrogé. <cite index=\"123-8\">En cas d'échec, la TVA à 10 % sur les logements touristiques ne s'appliquerait pas, sa date d'effet du 1er décembre étant postérieure au vote.</cite> La date incertaine du vote complique la planification : mieux vaut attendre le résultat pour trancher.",
+        "fuentes": [
+          {
+            "nombre": "El Español",
+            "url": "https://www.elespanol.com/invertia/observatorios/vivienda/20261026/compraventa-viviendas-retoma-ascensos-subir-interanual-agosto-operaciones/1003744434470_0.html"
+          },
+          {
+            "nombre": "LegalToday",
+            "url": "https://www.legaltoday.com/opinion/articulos-de-opinion/los-decretos-leyes-de-vivienda-derogacion-reaprobacion-y-convalidacion-en-plena-disolucion-2026-10-08/"
+          },
+          {
+            "nombre": "Notarías Barcelona, RDL 29/2026",
+            "url": "https://notariasbarcelona.es/real-decreto-ley-29-2026-novedades-fiscales/"
+          },
+          {
+            "nombre": "Gestiona tu alojamiento",
+            "url": "https://gestionatualojamiento.com/convalidacion-del-decreto-de-vivienda/"
+          },
+          {
+            "nombre": "MySweetImmo (SDES)",
+            "url": "https://www.mysweetimmo.com/2026/10/29/logement-neuf-les-mises-en-chantier-chutent-de-pres-de-10-en-septembre/"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "3 novembre",
+        "que": "France : vote solennel de l'Assemblée sur la première partie (recettes) du PLF 2027"
+      },
+      {
+        "cuando": "5 novembre",
+        "que": "France : grève intersyndicale, avec la SNCF et, pour la première fois, l'enseignement privé sous contrat"
+      },
+      {
+        "cuando": "11 novembre",
+        "que": "Espagne : grève générale de 24 heures convoquée par CCOO et UGT"
+      },
+      {
+        "cuando": "13 novembre",
+        "que": "France et Espagne : publication des chiffres définitifs d'inflation d'octobre par l'Insee et l'INE"
+      },
+      {
+        "cuando": "29 novembre",
+        "que": "Espagne : élections générales anticipées"
+      }
+    ],
+    "glosario": [
+      {
+        "sigla": "49.3",
+        "definicion": "Article 49, alinéa 3, de la Constitution française : permet au gouvernement de faire adopter un texte sans vote, sauf motion de censure adoptée par l'Assemblée."
+      },
+      {
+        "sigla": "Diputación Permanente",
+        "definicion": "Commission de 69 députés qui exerce les pouvoirs du Congrès espagnol lorsque les Cortes sont dissoutes, notamment pour convalider les décrets-lois."
+      },
+      {
+        "sigla": "EPA",
+        "definicion": "Encuesta de Población Activa : enquête trimestrielle de l'INE sur l'emploi et le chômage en Espagne, comparable à l'enquête Emploi de l'Insee."
+      },
+      {
+        "sigla": "IFI",
+        "definicion": "Impôt sur la fortune immobilière : frappe le patrimoine immobilier net non professionnel supérieur à 1,3 M€ ; il remplace l'ISF depuis 2018."
+      },
+      {
+        "sigla": "ITSGF",
+        "definicion": "Impuesto Temporal de Solidaridad de las Grandes Fortunas : impôt espagnol sur les patrimoines nets supérieurs à 3 M€, créé fin 2022 en complément de l'impôt sur le patrimoine."
+      },
+      {
+        "sigla": "PLF",
+        "definicion": "Projet de loi de finances : le budget de l'État soumis chaque automne au Parlement français."
+      },
+      {
+        "sigla": "SOCIMI",
+        "definicion": "Sociedad cotizada de inversión inmobiliaria : société cotée espagnole d'investissement immobilier, équivalent d'une SIIC française."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "Le PIB français a reculé de 0,1 % au troisième trimestre, quand l'espagnol progressait de 0,6 %. Le même jour, les députés français adoptaient une taxe de 2 % sur la trésorerie des holdings.\n\nLire l'édition complète, avec les graphiques et le dossier intégral : https://bulletin.rilamax.com\n\nL'édition n° 5 du Bulletin Rilamax s'ouvre sur un écart de conjoncture. Selon l'Insee, le PIB français recule de 0,1 % de juillet à septembre ; l'INE espagnol publie +0,6 %. Les prix montent plus vite en Espagne : 4,9 % d'inflation en octobre contre 3,4 % en France. Le commerce de détail espagnol a reculé de 1,6 % en septembre et le chômage espagnol remonte à 10,18 %.\n\nTrois clés à retenir. Un : la France cale, l'Espagne croît plus vite mais paie plus cher chaque achat. Deux : le budget 2027 s'écrit par amendements, avec une taxation des multinationales selon leur activité en France et une taxe de 2 % sur la trésorerie des holdings, tous deux fragiles avant le vote du 3 novembre. Trois : deux mobilisations sociales se préparent, le 5 novembre en France et le 11 en Espagne, sans coût chiffré à ce jour.\n\nLe dossier compare la taxe sur les holdings à l'impôt espagnol sur les grandes fortunes. En France, la taxe de 2025-2026 est passée d'un rendement attendu de 1 Md€ à 100 M€, puis revient vers une assiette large, sans que le gouvernement la soutienne. En Espagne, l'ITSGF a rapporté 623 M€ la première année, dont 555 M€ à Madrid, puis environ 38 M€ en huit mois : les régions ont rendu leur exonération variable et le produit a changé de destinataire. La France taxe au niveau national le seul immobilier au-delà de 1,3 M€ ; l'Espagne taxe l'ensemble du patrimoine net au-delà de 700 000 €, avec des régimes régionaux très différents. Notre lecture : le rendement d'un impôt patrimonial dépend de sa conception plus que de son taux, et les détenteurs de holdings devraient valoriser deux scénarios, avec ou sans extension à la trésorerie à partir de fin 2027.\n\nLire l'édition complète, avec les graphiques et le dossier intégral : https://bulletin.rilamax.com\n\nSelon vous, une taxe sur la trésorerie des holdings favorise-t-elle l'investissement productif ou le freine-t-elle ? Votre retour d'expérience entre la France et l'Espagne nous intéresse.",
+      "post": "L'impôt espagnol sur les grandes fortunes a rapporté 623 M€ la première année, puis environ 38 M€ sur les huit premiers mois suivants.\nÉdition complète du Bulletin Rilamax : https://bulletin.rilamax.com\nLes régions qui exonéraient leur impôt sur le patrimoine l'ont rendu variable : le produit n'a pas disparu, il a changé de destinataire. En France, les députés viennent d'adopter une taxe de 2 % sur la trésorerie des holdings, après une première version à 2 %, une loi à 20 % sur les seuls biens de jouissance et un rendement tombé d'environ 1 Md€ à 100 M€. Rien n'est acquis avant le vote du 3 novembre. Selon vous, une taxe sur la trésorerie des holdings oriente-t-elle les capitaux vers l'investissement productif ?\n#Fiscalité #Holdings #FranceEspagne"
+    },
+    "minutos": 22
+  },
+  "es": {
+    "editorial": {
+      "titulo": "Francia se estanca, España resiste y el presupuesto se escribe a golpe de enmienda",
+      "parrafos": [
+        "El viernes 30 de octubre, el Insee (el instituto estadístico francés) anunció un PIB en retroceso del 0,1 % en el tercer trimestre, cuando los economistas esperaban una ligera subida. Los analistas consultados por Reuters preveían de media un +0,1 %. El INE publicó el mismo día un crecimiento del 0,6 % para España. Los precios van en sentido contrario: la inflación fue del 3,4 % en Francia en octubre y del 4,9 % en España. El comercio minorista español ya lo nota, con unas ventas un 1,6 % inferiores a las de hace un año en septiembre.",
+        "La vida cara sale a la calle a ambos lados de los Pirineos. En Francia, la intersindical (el frente unitario de los sindicatos) convoca huelga el 5 de noviembre, con los cuatro principales sindicatos de la SNCF (la compañía ferroviaria pública) y, por primera vez, todos los de la enseñanza privada concertada. En España, CCOO y UGT convocan el 11 de noviembre su primera huelga general conjunta en catorce años. No se ha publicado ningún coste cifrado de uno ni de otro movimiento, y nosotros no vamos a avanzar ninguno.",
+        "En la Asamblea Nacional, el presupuesto de 2027 sigue escribiéndose a golpe de enmienda. Los diputados aprobaron el martes 27 de octubre una tributación de las multinacionales según su actividad real en Francia y, el miércoles, un impuesto sobre las holdings extendido a la tesorería, contra el criterio del Gobierno. Nada está decidido: la votación sobre los ingresos se fijó para el 3 de noviembre y, según LCP (el canal de la Asamblea), el Gobierno recurrirá muy probablemente al artículo 49.3 de la Constitución, el procedimiento que permite aprobar un texto sin votarlo, salvo que prospere una moción de censura.",
+        "Nuestro dossier compara el impuesto francés sobre las holdings con el impuesto español sobre las grandes fortunas. La recaudación de este último cayó cerca de un 95 % el año siguiente a su puesta en marcha, cuando las comunidades autónomas adaptaron sus normas. El episodio merece leerse antes de juzgar el dispositivo francés. Me quedo con que la recaudación de un impuesto patrimonial depende de su diseño mucho más que del tipo nominal."
+      ],
+      "puntos_clave": [
+        "El PIB retrocede un 0,1 % en Francia y avanza un 0,6 % en España en el tercer trimestre; los precios suben más deprisa en España (4,9 % frente a 3,4 %).",
+        "El presupuesto francés de 2027 se escribe a golpe de enmienda, entre ellas un impuesto del 2 % sobre la tesorería de las holdings, todas frágiles antes de la votación del 3 de noviembre.",
+        "Huelga en Francia el 5 de noviembre y huelga general en España el 11: dos movilizaciones por el poder adquisitivo que pueden alterar plazos y flujos logísticos, sin coste cifrado hasta hoy."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "−0,1 %",
+        "texto": "Variación del PIB francés en el tercer trimestre de 2026 (primera estimación), tras −0,2 % en el primer trimestre y 0,0 % en el segundo.",
+        "fuente": "Insee, 30 de octubre",
+        "pais": "fr",
+        "comparacion": "España: +0,6 % en el trimestre (INE, 30 de octubre)"
+      },
+      {
+        "valor": "3,4 %",
+        "texto": "Inflación anual estimada en Francia en octubre, tras el 3,1 % de septiembre; la energía sube un 24,1 % en un año.",
+        "fuente": "Insee, 30 de octubre",
+        "pais": "fr",
+        "comparacion": "España: 4,9 % (INE, indicador adelantado del 30 de octubre)"
+      },
+      {
+        "valor": "28.682",
+        "texto": "Viviendas iniciadas en Francia en septiembre (estimación), un 9,7 % menos que en el mes anterior; 31.428 viviendas autorizadas, +1,2 %.",
+        "fuente": "SDES (servicio estadístico del Ministerio de Vivienda francés), 28 de octubre",
+        "pais": "fr",
+        "comparacion": "España: sin dato mensual comparable publicado esta semana; 49.319 compraventas de vivienda en agosto (INE), medida distinta."
+      },
+      {
+        "valor": "10,18 %",
+        "texto": "Tasa de paro española en el tercer trimestre (EPA), 0,31 puntos más; el empleo alcanza un récord de 22,85 millones de personas.",
+        "fuente": "INE, 27 de octubre",
+        "pais": "es",
+        "comparacion": "Francia: 8,3 % en el segundo trimestre (Insee, 7 de agosto); la cifra del tercer trimestre se espera el 10 de noviembre"
+      },
+      {
+        "valor": "−1,6 %",
+        "texto": "Ventas del comercio minorista español en septiembre en tasa interanual, la mayor caída desde noviembre de 2022 y el tercer descenso consecutivo.",
+        "fuente": "INE, 29 de octubre",
+        "pais": "es",
+        "comparacion": "Francia: −0,5 % en el consumo de bienes de los hogares en septiembre, respecto al mes anterior (Insee, 30 de octubre); período y perímetro distintos"
+      },
+      {
+        "valor": "49.319",
+        "texto": "Compraventas de vivienda en España en agosto, +3,4 % interanual, el nivel más alto para un mes de agosto desde 2024.",
+        "fuente": "INE, 26 de octubre",
+        "pais": "es",
+        "comparacion": "Francia: sin dato de ventas comparable publicado esta semana; 28.682 viviendas iniciadas en septiembre (SDES)"
+      }
+    ],
+    "dossier": {
+      "titulo": "Holdings y patrimonio: Francia retoca sin descanso, España dejó decidir a las comunidades autónomas",
+      "intro": "El miércoles 28 de octubre, la Asamblea Nacional aprobó, contra el criterio del Gobierno, un impuesto del 2 % sobre la tesorería de las holdings familiares. Es la tercera versión del dispositivo en doce meses. En España, el impuesto concebido para neutralizar las diferencias regionales en la fortuna vio hundirse su recaudación desde su segundo año.",
+      "cifras": [
+        {
+          "valor": "2.330 M€",
+          "texto": "Recaudación del IFI en 2025 (+8 %), de 193.600 hogares"
+        },
+        {
+          "valor": "100 M€",
+          "texto": "Recaudación esperada del impuesto sobre las holdings aprobado en 2026, frente a unos 1.000 M€ previstos al principio"
+        },
+        {
+          "valor": "623 M€",
+          "texto": "Recaudación del primer ejercicio del impuesto español de solidaridad sobre las grandes fortunas, 555 M€ de ellos en Madrid"
+        },
+        {
+          "valor": "−95 %",
+          "texto": "Caída de la recaudación de ese impuesto al año siguiente (unos 38 M€ en ocho meses)"
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. Un impuesto sobre la fortuna reducido al inmueble y holdings que quedaron fuera",
+          "parrafos": [
+            "El impuesto sobre la fortuna inmobiliaria (IFI), creado en 2018 en sustitución del antiguo impuesto sobre la fortuna (ISF), grava a los hogares cuyo patrimonio inmobiliario neto no profesional supera 1,3 M€. Su escala no ha cambiado desde el origen y sube hasta el 1,50 % por encima de 10 M€. En 2025, el IFI recaudó 2.332 M€, un 8 % más que en 2024, según la DGFiP (la dirección general de finanzas públicas, que es la administración tributaria francesa), de 193.600 hogares frente a 186.100 un año antes. Eso representa solo el 0,5 % de los ingresos fiscales netos del Estado. La congelación de la escala amplía cada año la base con el alza de los precios inmobiliarios.",
+            "Este perímetro deja fuera el patrimonio financiero, en particular la tesorería donde se acumulan los dividendos que suben desde las filiales. El proyecto de presupuestos de 2026 pretendía gravar al 2 % anual el conjunto de los activos no profesionales de las holdings patrimoniales, tesorería incluida, con una recaudación estimada de 1.000 M€ y unas 10.000 holdings afectadas. La ley de presupuestos se promulgó el 19 de febrero de 2026 tras recurrir al 49.3 y adoptó otro dispositivo: un impuesto anual del 20 % sobre ciertos bienes de disfrute alojados en sociedades, como yates o viviendas ocupadas gratuitamente por la familia. La recaudación cayó a unos 100 M€. La primera imposición recae sobre los ejercicios cerrados a partir del 31 de diciembre de 2026."
+          ]
+        },
+        {
+          "titulo": "2. El presupuesto de 2027 reabre el expediente",
+          "parrafos": [
+            "La enmienda I-3807 de Jean-Paul Mattei (grupo Les Démocrates) se aprobó el miércoles 28 de octubre. Extendería el impuesto a la liquidez y a las inversiones financieras que «duermen» en las holdings, al tipo del 2 %, para los ejercicios cerrados a partir del 31 de diciembre de 2027. El Gobierno había emitido un dictamen desfavorable. En comisión, una enmienda de Charles de Courson (grupo Liot) ya creaba un impuesto anual del 2 % sobre el valor neto de los títulos de colocación, del que sus autores esperan entre 3.500 y 4.000 M€.",
+            "Estas votaciones tienen un alcance limitado. La comisión de Finanzas rechazó la parte de ingresos casi por unanimidad el 9 de octubre y la votación solemne en el pleno se celebrará el 3 de noviembre. Además, el Gobierno puede recurrir al 49.3 y retener solo una parte de las enmiendas aprobadas. Una medida votada contra su criterio parte, por tanto, con pocas posibilidades de sobrevivir, como confirma la suerte anunciada de otra medida fiscal aprobada el día anterior."
+          ]
+        },
+        {
+          "titulo": "3. Lo que España ha medido con su impuesto de solidaridad",
+          "parrafos": [
+            "España ya ha hecho el experimento. El Impuesto Temporal de Solidaridad de las Grandes Fortunas (ITSGF) grava los patrimonios netos superiores a 3 M€; se concibió como reacción a las bonificaciones autonómicas del impuesto sobre el patrimonio en Madrid, Andalucía y Galicia. Sus tipos van del 1,7 % al 3,5 % y el impuesto sobre el patrimonio pagado se deduce de la cuota. En su primer ejercicio recaudó 623 M€, de ellos 555 M€ de contribuyentes madrileños. Un total de 12.010 grandes patrimonios pagaron una cuota media de 52.000 euros.",
+            "Al año siguiente, la recaudación bajó cerca de un 95 %, hasta unos 38 M€ en los ocho primeros meses. Las comunidades que eximían al 100 % hicieron variable su bonificación: por encima de 3 M€, el residente paga a su comunidad el equivalente de lo que habría ido al Estado. La recaudación ha podido cambiar de destinatario en lugar de desaparecer, y las cifras autonómicas no figuran en las fuentes consultadas. El impuesto, en origen temporal, se prorrogó y, a 20 de octubre de 2026, la reforma de la financiación autonómica que debía sustituirlo no estaba aprobada."
+          ]
+        },
+        {
+          "titulo": "4. El contrapunto: dos bases, dos geografías",
+          "parrafos": [
+            "Francia grava a escala nacional solo el patrimonio inmobiliario, a partir de 1,3 M€. España grava el patrimonio neto en su conjunto: declaración obligatoria por encima de 700.000 euros, con la vivienda habitual excluida hasta 300.000 euros, y una escala estatal del 0,2 % al 3,5 % que cada comunidad modula. Cataluña rebaja el umbral a 500.000 euros y sube hasta el 3,48 %, mientras que Madrid bonifica la cuota autonómica al 100 % a reserva del ITSGF. El patrimonio profesional está exento con condiciones. Las bases difieren, de modo que los tipos no se comparan línea a línea.",
+            "Para un no residente, España solo grava los bienes situados en su territorio, con un mínimo exento de 700.000 euros. Desde dos sentencias del Tribunal Supremo de octubre y noviembre de 2025, también se beneficia del límite conjunto del impuesto sobre la renta y el patrimonio al 60 % de la base, aplicado desde la declaración de 2025. El plan de control de la Administración tributaria prevé, no obstante, verificar las plusvalías de los no residentes y los patrimonios mantenidos en España a través de sociedades."
+          ]
+        },
+        {
+          "titulo": "5. Qué habrá que mirar",
+          "parrafos": [
+            "El 3 de noviembre dirá si las enmiendas fiscales siguen su camino hacia el Senado; la votación sobre el conjunto del presupuesto está fijada para el 17 de noviembre. En España, las elecciones anticipadas del 29 de noviembre reabrirán la cuestión del estatuto del ITSGF. La variable decisiva, a ambos lados, es la definición de la base: tesorería, títulos de participación o solo bienes de disfrute. Determina la recaudación mucho más que el tipo y condiciona el comportamiento de los titulares de holdings, que pueden distribuir, reinvertir o cambiar de región de residencia."
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "despues_de_seccion": 2,
+          "aria": "Recaudación esperada del impuesto sobre las holdings según la versión: unos 1.000 M€ en el proyecto de 2026, 100 M€ en la ley, 3.500 a 4.000 M€ para una enmienda de comisión de 2027",
+          "pie": "Francia, 2025-2026, en M€, estimaciones. Fuentes: Auguste Patrimoine, Legifiscal, Max Compta.",
+          "barras": [
+            {
+              "etiqueta": "Proyecto 2026 (2 %, tesorería incluida)",
+              "valor": 1000,
+              "texto": "≈ 1.000",
+              "pct": 29
+            },
+            {
+              "etiqueta": "Ley 2026 (20 %, bienes de disfrute)",
+              "valor": 100,
+              "texto": "≈ 100",
+              "pct": 3
+            },
+            {
+              "etiqueta": "Enmienda de comisión 2027 (estimación de los autores)",
+              "valor": 3500,
+              "texto": "3.500 a 4.000",
+              "pct": 100
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 3,
+          "aria": "Recaudación anual de cuatro impuestos sobre la fortuna o el patrimonio en Francia y España, en millones de euros",
+          "pie": "Francia 2025 y España 2023-2024, períodos distintos (véanse las etiquetas), en M€. Fuentes: DGFiP, Hacienda, ley de presupuestos de 2026.",
+          "barras": [
+            {
+              "etiqueta": "IFI Francia, 2025",
+              "valor": 2332,
+              "texto": "≈ 2.332",
+              "pct": 100
+            },
+            {
+              "etiqueta": "ITSGF España, primer ejercicio",
+              "valor": 623,
+              "texto": "≈ 623",
+              "pct": 27
+            },
+            {
+              "etiqueta": "Impuesto sobre holdings Francia (esperado)",
+              "valor": 100,
+              "texto": "≈ 100",
+              "pct": 4
+            },
+            {
+              "etiqueta": "ITSGF España, 8 primeros meses siguientes",
+              "valor": 38,
+              "texto": "≈ 38",
+              "pct": 2
+            }
+          ]
+        }
+      ],
+      "debate": {
+        "despues_de_seccion": 2,
+        "texto": "A favor de gravar la tesorería: los dividendos que suben desde las filiales se acumulan en las holdings y escapan al impuesto del 20 %, y algunos diputados sostenían en 2025 que un impuesto sobre esa tesorería podría llevarla a invertirse de forma productiva. En contra: la tesorería se había excluido de la ley de 2026 en nombre de la financiación de las pymes y de las empresas de tamaño intermedio familiares, y otros diputados estimaban que gravar la tesorería excedentaria equivale a impedir las inversiones futuras. En ambos bandos, nadie ha publicado una estimación consolidada de la recaudación: la evidencia no es concluyente."
+      },
+      "lectura": "En tres versiones sucesivas, el impuesto francés sobre las holdings ha pasado de una recaudación esperada de unos 1.000 M€ a unos 100 M€, y ahora vuelve hacia una base amplia. El argumento de fondo tiene peso: una holding que capitaliza dividendos sin reinvertirlos escapa casi por completo. El defecto está en el método, porque tres versiones en doce meses dificultan la planificación patrimonial. La experiencia española enseña que la recaudación depende del diseño: 623 M€ el primer año y unos 38 M€ en ocho meses después, porque las comunidades autónomas adaptaron sus reglas. Un empresario o inversor español que posea participaciones en Francia a través de una sociedad patrimonial debería valorar dos escenarios: mantenimiento del impuesto sobre los bienes de disfrute únicamente, o extensión a la tesorería a partir de los ejercicios cerrados a finales de 2027. Conviene revisar también cuánta tesorería acumula la estructura y si su política de dividendos sigue siendo coherente. Quien conozca el régimen español reconocerá el patrón: lo que decide el resultado es la definición de la base y quién cobra, más que el tipo.",
+      "vigilaremos": "Seguiremos la votación del 3 de noviembre, la suerte de la enmienda Mattei en el Senado y la posición del próximo Gobierno español sobre el ITSGF.",
+      "fuentes": [
+        {
+          "nombre": "Legifiscal, impuesto sobre las holdings y PLF 2027",
+          "url": "https://www.legifiscal.fr/actualites-fiscales/4709-plf-2027-taxe-holdings-deputes-veulent-entrer-tresorerie-dormante.html"
+        },
+        {
+          "nombre": "Asamblea Nacional, enmienda I-3807",
+          "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/AN/3807"
+        },
+        {
+          "nombre": "Les fourmis du patrimoine, nota de la DGFiP sobre el IFI 2025",
+          "url": "https://lesfourmisdupatrimoine.fr/ifi-2025-23-milliards-deuros-collectes-en-hausse-de-8/"
+        },
+        {
+          "nombre": "Auguste Patrimoine, impuesto sobre las holdings 2026",
+          "url": "https://www.auguste-patrimoine.fr/blog/taxe-holding-2026-taux-conditions-et-actifs-vises"
+        },
+        {
+          "nombre": "Max Compta, PLF 2027 en comisión",
+          "url": "https://www.maxcompta.com/blogs/actualites/budget-2027-commission-finances-rejet-partie-recettes"
+        },
+        {
+          "nombre": "Asesor Excelente, ITSGF",
+          "url": "https://asesorexcelente.com/impuesto-solidaridad-grandes-fortunas/"
+        },
+        {
+          "nombre": "El Cronista, recaudación del ITSGF (Hacienda)",
+          "url": "https://www.cronista.com/espana/actualidad-es/impuesto-a-las-grandes-fortunas-el-gobierno-anuncia-la-millonaria-cifra-que-recaudo-con-esta-medida/"
+        },
+        {
+          "nombre": "Alveo, impuesto sobre el patrimonio 2026 para no residentes",
+          "url": "https://www.alveo.co/es/blog/impot-fortune"
+        },
+        {
+          "nombre": "Guía Fiscal, patrimonio por comunidad autónoma",
+          "url": "https://guiafiscal.es/patrimonio/ip/"
+        },
+        {
+          "nombre": "Asamblea Nacional, sesión del 31 de octubre de 2025",
+          "url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/session-ordinaire-de-2025-2026/premiere-seance-du-vendredi-31-octobre-2025"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Fiscalidad",
+        "titulo": "Presupuesto de 2027: los diputados aprueban, por dos votos, gravar a las multinacionales según su actividad real en Francia",
+        "contexto": "El proyecto de ley de presupuestos (PLF) para 2027 persigue un déficit público del 5,0 % del PIB, tras el 5,4 % esperado en 2026. La votación sobre la parte de ingresos se aplazó porque quedaban más de 2.000 enmiendas por examinar y tendrá lugar el 3 de noviembre. El texto pasará después al Senado y, según LCP, el Gobierno decidirá muy probablemente qué conserva mediante el 49.3.",
+        "resumen": "En la noche del 27 al 28 de octubre, los diputados aprobaron por 74 votos contra 72 una enmienda de Nicolas Sansu que sustituiría la base de los beneficios declarados en Francia por la parte de los beneficios mundiales realmente obtenida en Francia. La medida podría afectar a las grandes plataformas digitales. En cambio, se rechazaron subidas del impuesto sobre servicios digitales; un tipo del 15 % habría aportado unos 4.000 M€ según su autor. Para entrar en vigor, la medida deberá figurar en el texto final, lo que es poco probable. Comparación: en España, el tipo general del Impuesto sobre Sociedades (IS) es del 25 %, con un mínimo efectivo del 15 % para las empresas que superan los 20 M€ de cifra de negocios.",
+        "lectura": "Un grupo español con filial en Francia tiene pocas razones para provisionar una medida aprobada por dos votos y poco probable en el texto final. Quien opere en ambos países debería revisar, aun así, cómo afectaría a sus precios de transferencia una clave de reparto basada en los beneficios mundiales. No hemos encontrado ninguna medida equivalente en España.",
+        "fuentes": [
+          {
+            "nombre": "LCP",
+            "url": "https://lcp.fr/actualites/budget-2027-l-assemblee-vote-un-dispositif-pour-contrer-l-optimisation-fiscale-agressive"
+          },
+          {
+            "nombre": "CB News",
+            "url": "https://cbnews.fr/digital/plf-2027-les-deputes-adoptent-nouvelle-taxation-multinationales-ecartent-hausse-taxe-les"
+          },
+          {
+            "nombre": "NosParlementaires",
+            "url": "https://nosparlementaires.fr/actualites/budget-2027-calendrier-assemblee-cinq-semaines"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "PIB en retroceso del 0,1 % en el tercer trimestre en Francia y alza del 0,6 % en España; la inflación francesa sube al 3,4 %",
+        "contexto": "El PIB francés se estancó en el segundo trimestre tras caer un 0,2 % en el primero. Los economistas esperaban una subida del 0,1 %, cifra que el Banco de Francia (el banco central francés) y el Insee habían previsto también. La inflación depende en gran parte de la energía: +12,6 % en julio, +16,7 % en agosto y +21,3 % en septiembre.",
+        "resumen": "El Insee anuncia una caída del 0,1 % del PIB; las exportaciones se contraen un 1,7 % tras un +2,8 % y el comercio exterior resta 0,6 puntos. El arrastre estadístico de crecimiento para 2026 es de solo el 0,2 %. La inflación alcanzaría el 3,4 % en octubre, frente al 3,1 % de septiembre, con la energía un 24,1 % más cara que hace un año. Los hogares redujeron sus compras de bienes un 0,5 % en septiembre, tras un descenso idéntico en agosto. En España, el PIB avanzó un 0,6 % en el trimestre, un 2,7 % interanual, y la inflación se estabilizó en el 4,9 %.",
+        "lectura": "Una diferencia de 0,7 puntos de crecimiento en un trimestre es considerable, pero España paga su vigor con precios que suben más deprisa y un paro que repunta. Para una empresa española con ventas o filiales en Francia, el escenario que conviene contrastar es el de un consumo francés débil, con hogares que recortan compras de bienes y exportaciones en retroceso.",
+        "fuentes": [
+          {
+            "nombre": "Insee, informaciones rápidas n.º 266",
+            "url": "https://www.insee.fr/fr/statistiques/9107965"
+          },
+          {
+            "nombre": "L'Usine Nouvelle",
+            "url": "https://www.usinenouvelle.com/eco-social/production-et-exportations-en-baisse-leconomie-francaise-fait-moins-bien-que-prevu-au-troisieme-trimestre-avec-une-baisse-du-pib-de-01.2EL3R6CQJNEERJTQ52BSABKGXM.html"
+          },
+          {
+            "nombre": "INE",
+            "url": "https://www.ine.es/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Empresas e inversión",
+        "titulo": "Fitness Park France pasa a manos de Providence, propietario de la cadena española VivaGym",
+        "contexto": "El fondo estadounidense Providence adquirió VivaGym en 2024 y respalda desde entonces una consolidación agresiva del fitness ibérico. Fitness Park, fundada en 2009, cuenta con más de 1,7 millones de abonados en más de 467 clubes, con Francia como primer mercado. La operación había sido notificada a la autoridad de competencia francesa antes del acuerdo anunciado esta semana.",
+        "resumen": "Providence ha cerrado un acuerdo para convertirse en accionista de referencia de Fitness Park France, con los vendedores Philippe Herbette, Future French Champions, Momentum Invest y M Capital Partners. La finalización está prevista a principios de 2027. La operación solo afecta a Francia y deja intacta la máster franquicia española, gestionada por Upgyms, una sociedad independiente. La prensa cifra la valoración en unos 600 M€, sin confirmación. Por el lado español, VivaGym superará los 500 establecimientos en la península ibérica; la red Fitness Park facturó 461 M€ de cifra de negocios de red en 2025.",
+        "lectura": "El capital circula en los dos sentidos: un fondo activo en España toma posición en Francia. La valoración de 600 M€ no está confirmada y no precisa si se trata del valor de empresa o de los fondos propios. Un operador español del sector debería seguir, sobre todo, el dictamen de las autoridades de competencia, que condiciona el cierre previsto a principios de 2027.",
+        "fuentes": [
+          {
+            "nombre": "2Playbook",
+            "url": "https://www.2playbook.com/fitness/providence-confirma-compra-participacion-fitness-park-francia-por-cerca-600-millones_24115_102.html"
+          },
+          {
+            "nombre": "Dealroom",
+            "url": "https://dealroom.co/news/168412-providence-buys-frances-fitness-park-in-reported-600m-european-gym-push/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Política y sociedad",
+        "titulo": "Huelga del 5 de noviembre: un movimiento ampliado a la enseñanza privada, sin cifra de su coste",
+        "contexto": "La protesta por el poder adquisitivo se organiza desde finales de septiembre: los sindicatos consideran un éxito la jornada de huelga de la función pública del 29 de septiembre y convocan ahora a los sectores público y privado. La inflación alcanza el 3,4 % en octubre según el Insee, y la violencia urbana del 17 de octubre ya ha costado hasta 1.200 M€ a las aseguradoras.",
+        "resumen": "La intersindical del sector público (las confederaciones CFDT, CGT, FO, Unsa y FSU) recibe el apoyo de todos los sindicatos de la enseñanza privada concertada, un sector de 2,1 millones de alumnos en 8.500 centros. Los cuatro principales sindicatos de la SNCF convocan huelga y la CGT cuenta 185 convocatorias de sus federaciones. El secretario general de la CGT de los estibadores anunciaba puertos paralizados al 95 % el 30 de octubre, una afirmación sindical no verificada. No se ha publicado ninguna estimación del coste económico. Comparación: en España se ha convocado una huelga general de 24 horas el 11 de noviembre, la primera movilización conjunta de esta magnitud desde 2012.",
+        "lectura": "Un industrial o transportista español cuyos flujos pasen por los puertos y la SNCF debería prever perturbaciones el 5 de noviembre en Francia y el 11 en España. Sin una cifra de coste, parece más sensato revisar plazos de entrega y existencias que provisionar un coste desconocido.",
+        "fuentes": [
+          {
+            "nombre": "Économie Matin",
+            "url": "https://www.economiematin.fr/greve-5-novembre-lycee-secteur-prive"
+          },
+          {
+            "nombre": "L'Insoumission (resumen de las convocatorias sindicales)",
+            "url": "https://linsoumission.fr/2026/10/29/greve-du-5-novembre-prepare/"
+          },
+          {
+            "nombre": "Le Petit Journal Madrid",
+            "url": "https://lepetitjournal.com/madrid/actualites/greve-generale-11-novembre-espagne-logement-syndicats-455673"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Fiscalidad",
+        "titulo": "El Impuesto sobre Sociedades de las pymes volverá a bajar el 1 de enero de 2027",
+        "contexto": "El tipo general del Impuesto sobre Sociedades (IS) español sigue en el 25 %. Para las estructuras pequeñas ya se aprobó un calendario de rebajas progresivas: las empresas con 1 a 10 M€ de cifra de negocios tributan al 23 % en 2026 y las microempresas al 19 % sobre los primeros 50.000 euros de base y al 21 % por encima. Las sociedades de nueva creación disfrutan del 15 % durante sus dos primeros ejercicios con beneficios.",
+        "resumen": "Hacienda confirma que los tipos bajarán a partir del 1 de enero de 2027, según el calendario ya aprobado y en función de la cifra de negocios. Las empresas con más de 1 M€ de facturación pasan al 22 % en 2027, con el 20 % como objetivo en 2029; las microempresas pasan al 17 % y luego al 20 %. Una sociedad que cierre el ejercicio a 31 de diciembre liquidará en 2027 el impuesto de 2026 con los tipos antiguos; los nuevos solo aparecerán en la declaración de 2028. Comparación: el tipo normal francés del IS también es del 25 %; España aplica además un mínimo efectivo del 15 % a las grandes empresas.",
+        "lectura": "Este calendario beneficia sobre todo a las pymes operativas: las entidades patrimoniales quedan excluidas de numerosos incentivos y suelen seguir al 25 %. Al comparar con una filial en Francia, donde el tipo normal también es del 25 %, conviene comprobar que la sociedad cumple los requisitos para acogerse a las rebajas. El ahorro, de un punto por año, se mide a escala de la tesorería de una pyme.",
+        "fuentes": [
+          {
+            "nombre": "Autónomos y Emprendedor",
+            "url": "https://www.autonomosyemprendedor.es/autonomos/hacienda/hacienda-aplicara-nueva-rebaja-impuesto-sociedades-pymes-microempresas-partir-enero/20261026164759056548.html"
+          },
+          {
+            "nombre": "Grupo 2000",
+            "url": "https://www.grupo2000.es/el-impuesto-sobre-sociedades-en-2025/"
+          },
+          {
+            "nombre": "TeamSystem",
+            "url": "https://teamsystem.es/magazine/tramos-impuesto-sociedades-2026/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Energía",
+        "titulo": "El IVA de la electricidad sigue en el 21 % en noviembre y diciembre depende del índice de octubre",
+        "contexto": "Como respuesta a la crisis de Oriente Medio, España aprobó un tercer paquete anticrisis mediante el Real Decreto-ley 25/2026, de 29 de septiembre, convalidado el 16 de octubre por la Diputación Permanente, que ejerce las funciones del Congreso mientras las Cortes están disueltas. Mantiene en noviembre la rebaja de 20 céntimos por litro en gasolina y gasóleo y prevé una rebaja condicionada del IVA de la energía.",
+        "resumen": "El IVA pasaría del 21 % al 10 % para la electricidad de los consumidores de 10 kW o menos y de los beneficiarios del bono social, así como para el gas, si el índice de precios correspondiente supera en 15 puntos el del mismo mes un año antes. La inflación eléctrica de septiembre, del 11,4 %, no alcanza ese umbral: el IVA sigue en el 21 % en noviembre. Diciembre depende del índice de octubre, que se conocerá a mediados de noviembre. El indicador adelantado del 30 de octubre muestra carburantes a la baja, pero un gas más caro que hace un año. Comparación: en Francia, la energía sube un 24,1 % interanual en octubre (Insee).",
+        "lectura": "Para una empresa sujeta al IVA, este impuesto es en principio recuperable: la cláusula afecta sobre todo a los hogares y, por tanto, al consumo local. El umbral de 15 puntos crea un efecto escalón, pues un 11,4 % no activa nada. Al comparar con Francia conviene recordar que las cifras miden cosas distintas: la electricidad en España, la energía en su conjunto en Francia. Seguir el índice de octubre es lo prudente antes de fijar hipótesis de precios para diciembre.",
+        "fuentes": [
+          {
+            "nombre": "Agencia Tributaria",
+            "url": "https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/septiembre/30/nuevas-medidas-marco-plan-integral-medio.html"
+          },
+          {
+            "nombre": "elEconomista",
+            "url": "https://www.eleconomista.es/energia/noticias/14024041/10/26/la-crisis-energetica-obliga-a-prolongar-las-ayudas-mientras-el-crudo-sigue-al-alza.html"
+          },
+          {
+            "nombre": "Qué.es",
+            "url": "https://www.que.es/2026/10/17/iva-luz-bloqueado-plan-anticrisis/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "Récord de empleo, pero el paro sube al 10,18 %, con un PIB del +0,6 %",
+        "contexto": "España crece más deprisa que Francia, pero los precios también suben más deprisa. La tasa de paro era del 9,87 % en el segundo trimestre. Los datos publicados esta semana precisan la naturaleza del crecimiento: consumo de los hogares, inversión y empleo.",
+        "resumen": "La EPA del tercer trimestre contabiliza 22.852.600 ocupados, 73.600 más, y una tasa de paro del 10,18 %, 0,31 puntos más. El aumento del empleo del trimestre procede íntegramente de trabajadores extranjeros tras la regularización extraordinaria de inmigrantes. El mismo día, el INE publicó un PIB del +0,6 % trimestral, con un consumo de los hogares del +0,6 %, cinco décimas menos, y una inversión del +0,6 %, el menor aumento en dos años. Comparación: en Francia, el paro fue del 8,3 % en el segundo trimestre; la cifra del tercero se espera el 10 de noviembre.",
+        "lectura": "El crecimiento español se apoya en una demanda interna que se modera y en un mercado laboral cuyo avance procede de un efecto de regularización. Un paro del 10 % con un crecimiento anual del 2,7 % indica que la actividad no basta para reabsorber el desempleo. Antes de extrapolar contrataciones o de comparar con el 8,3 % francés, conviene esperar al dato de Francia del 10 de noviembre.",
+        "fuentes": [
+          {
+            "nombre": "INE, EPA tercer trimestre 2026",
+            "url": "https://www.ine.es/dyngs/Prensa/EPA3T26.htm"
+          },
+          {
+            "nombre": "Qué.es",
+            "url": "https://www.que.es/2026/10/28/epa-tercer-trimestre-2026-paro-2/"
+          },
+          {
+            "nombre": "Moncloa.com (contabilidad nacional del INE)",
+            "url": "https://www.moncloa.com/2026/10/30/economia-espanola-pib-freno-consumo-3458602/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Inmobiliario",
+        "titulo": "49.319 compraventas de vivienda en agosto, y el decreto fiscal sobre vivienda espera su votación",
+        "contexto": "El Congreso rechazó el 2 de octubre los dos decretos-ley sobre vivienda (172 votos contra 178 en uno, 166 contra 184 en el otro). El 6 de octubre, con las Cortes disueltas, el Gobierno aprobó los decretos 28/2026 y 29/2026, que recogen lo esencial. El 29/2026 contiene una reforma fiscal que afecta al IRPF, al IVA, al IS de las SOCIMI, al impuesto de no residentes, al IBI y a la plusvalía municipal.",
+        "resumen": "Las compraventas de vivienda subieron un 3,4 % interanual en agosto, hasta 49.319, el nivel más alto para un mes de agosto desde 2024. Las de vivienda nueva suben un 4,9 %, hasta 10.521 operaciones. En cuanto al decreto, la convalidación está prevista el 12 de noviembre según una fuente, ante la Diputación Permanente, mientras otra sitúa el plazo antes del 6 de noviembre; el PNV apoyaría el 29/2026 pero no el 28/2026. Comparación: en Francia se iniciaron 28.682 viviendas en septiembre (−9,7 % en un mes) y se autorizaron 31.428, según el SDES (servicio estadístico del Ministerio de Vivienda francés).",
+        "lectura": "Un propietario de vivienda en alquiler o una SOCIMI (sociedad cotizada de inversión inmobiliaria, equivalente a una SIIC francesa) debería valorar dos escenarios: decreto convalidado o derogado. En caso de que fracase, el IVA del 10 % sobre las viviendas turísticas no se aplicaría, pues su fecha de efecto, el 1 de diciembre, es posterior a la votación. La incertidumbre sobre la fecha del voto complica la planificación: conviene esperar el resultado antes de decidir.",
+        "fuentes": [
+          {
+            "nombre": "El Español",
+            "url": "https://www.elespanol.com/invertia/observatorios/vivienda/20261026/compraventa-viviendas-retoma-ascensos-subir-interanual-agosto-operaciones/1003744434470_0.html"
+          },
+          {
+            "nombre": "LegalToday",
+            "url": "https://www.legaltoday.com/opinion/articulos-de-opinion/los-decretos-leyes-de-vivienda-derogacion-reaprobacion-y-convalidacion-en-plena-disolucion-2026-10-08/"
+          },
+          {
+            "nombre": "Notarías Barcelona, RDL 29/2026",
+            "url": "https://notariasbarcelona.es/real-decreto-ley-29-2026-novedades-fiscales/"
+          },
+          {
+            "nombre": "Gestiona tu alojamiento",
+            "url": "https://gestionatualojamiento.com/convalidacion-del-decreto-de-vivienda/"
+          },
+          {
+            "nombre": "MySweetImmo (SDES)",
+            "url": "https://www.mysweetimmo.com/2026/10/29/logement-neuf-les-mises-en-chantier-chutent-de-pres-de-10-en-septembre/"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "3 de noviembre",
+        "que": "Francia: votación solemne de la Asamblea Nacional sobre la primera parte (ingresos) del PLF 2027"
+      },
+      {
+        "cuando": "5 de noviembre",
+        "que": "Francia: huelga intersindical, con la SNCF y, por primera vez, la enseñanza privada concertada"
+      },
+      {
+        "cuando": "11 de noviembre",
+        "que": "España: huelga general de 24 horas convocada por CCOO y UGT"
+      },
+      {
+        "cuando": "13 de noviembre",
+        "que": "Francia y España: publicación de las cifras definitivas de inflación de octubre por el Insee y el INE"
+      },
+      {
+        "cuando": "29 de noviembre",
+        "que": "España: elecciones generales anticipadas"
+      }
+    ],
+    "glosario": [
+      {
+        "sigla": "49.3",
+        "definicion": "Artículo 49, apartado 3, de la Constitución francesa: permite al Gobierno hacer aprobar un texto sin votación, salvo que la Asamblea Nacional adopte una moción de censura. Es el instrumento habitual para sacar adelante los presupuestos sin mayoría estable."
+      },
+      {
+        "sigla": "DGFiP",
+        "definicion": "Direction générale des finances publiques: la administración tributaria francesa, equivalente a la Agencia Tributaria española. Publica la recaudación del IFI y de los demás impuestos del Estado."
+      },
+      {
+        "sigla": "Diputación Permanente",
+        "definicion": "Comisión de 69 diputados que ejerce las funciones del Congreso español cuando las Cortes están disueltas, en particular para convalidar los decretos-ley."
+      },
+      {
+        "sigla": "EPA",
+        "definicion": "Encuesta de Población Activa: encuesta trimestral del INE sobre empleo y paro en España, comparable a la enquête Emploi del Insee francés."
+      },
+      {
+        "sigla": "IFI",
+        "definicion": "Impôt sur la fortune immobilière: impuesto francés sobre el patrimonio inmobiliario neto no profesional superior a 1,3 M€. Sustituye desde 2018 al antiguo impuesto sobre la fortuna (ISF), que gravaba también el patrimonio financiero."
+      },
+      {
+        "sigla": "Insee",
+        "definicion": "Institut national de la statistique et des études économiques: el instituto estadístico francés, equivalente al INE español. Publica el PIB, la inflación y el paro de Francia."
+      },
+      {
+        "sigla": "ITSGF",
+        "definicion": "Impuesto Temporal de Solidaridad de las Grandes Fortunas: impuesto español sobre patrimonios netos superiores a 3 M€, creado a finales de 2022 como complemento del impuesto sobre el patrimonio."
+      },
+      {
+        "sigla": "PLF",
+        "definicion": "Projet de loi de finances: el proyecto de presupuestos del Estado francés, que el Gobierno presenta cada otoño al Parlamento y que la Asamblea Nacional enmienda antes de pasarlo al Senado."
+      },
+      {
+        "sigla": "SDES",
+        "definicion": "Service des données et études statistiques: servicio estadístico del Ministerio francés de Transición Ecológica y Vivienda. Publica cada mes las viviendas iniciadas y autorizadas."
+      },
+      {
+        "sigla": "SOCIMI",
+        "definicion": "Sociedad cotizada de inversión inmobiliaria: sociedad española cotizada dedicada al alquiler de inmuebles, con un régimen fiscal específico. Equivale a una SIIC (société d'investissement immobilier cotée) francesa."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "El PIB francés retrocedió un 0,1 % en el tercer trimestre, mientras el español avanzaba un 0,6 %. Esa misma semana, los diputados franceses aprobaron un impuesto del 2 % sobre la tesorería de las holdings.\n\nLea la edición completa, con los gráficos y el dossier íntegro: https://bulletin.rilamax.com\n\nLa edición n.º 5 del Boletín Rilamax abre con una brecha de coyuntura. Según el Insee, el PIB francés cae un 0,1 % de julio a septiembre; el INE publica un +0,6 % para España. Los precios suben más deprisa en España: 4,9 % de inflación en octubre frente al 3,4 % de Francia. El comercio minorista español retrocedió un 1,6 % interanual en septiembre y el paro vuelve a subir hasta el 10,18 %.\n\nTres claves para retener. Primera: Francia se estanca y España crece más deprisa, pero a costa de precios más altos. Segunda: el presupuesto francés de 2027 se escribe a golpe de enmienda, con una tributación de las multinacionales según su actividad real en Francia y un impuesto del 2 % sobre la tesorería de las holdings, ambos frágiles antes de la votación del 3 de noviembre. Tercera: se preparan dos movilizaciones sociales, el 5 de noviembre en Francia y el 11 en España, sin coste cifrado hasta hoy.\n\nEl dossier compara el impuesto francés sobre las holdings con el ITSGF español. En Francia, el dispositivo pasó entre 2025 y 2026 de una recaudación esperada de unos 1.000 M€ a unos 100 M€ y ahora vuelve hacia una base amplia, sin el apoyo del Gobierno. En España, el ITSGF recaudó 623 M€ el primer año, 555 M€ de ellos en Madrid, y unos 38 M€ en los ocho meses siguientes: las comunidades autónomas hicieron variable su bonificación y la recaudación cambió de destinatario. Francia grava a escala nacional solo el patrimonio inmobiliario por encima de 1,3 M€; España grava el patrimonio neto total por encima de 700.000 euros, con regímenes autonómicos muy distintos. Nuestra lectura: la recaudación de un impuesto patrimonial depende de su diseño más que de su tipo, y un inversor español con participaciones en Francia a través de una holding debería valorar dos escenarios, con o sin extensión a la tesorería a partir de finales de 2027.\n\nLea la edición completa, con los gráficos y el dossier íntegro: https://bulletin.rilamax.com\n\n¿Favorece o frena la inversión productiva un impuesto sobre la tesorería de las holdings? Nos interesa su experiencia entre España y Francia.",
+      "post": "El impuesto español sobre las grandes fortunas recaudó 623 M€ el primer año y unos 38 M€ en los ocho primeros meses siguientes.\nEdición completa del Boletín Rilamax: https://bulletin.rilamax.com\nLas comunidades autónomas que bonificaban al 100 % el impuesto sobre el patrimonio lo hicieron variable, y la recaudación pudo pasar a sus manos. En Francia, los diputados acaban de aprobar un impuesto del 2 % sobre la tesorería de las holdings, tras una primera versión al 2 %, una ley al 20 % solo sobre los bienes de disfrute y una recaudación esperada que cayó de unos 1.000 M€ a 100 M€. Nada está decidido antes de la votación del 3 de noviembre. Para un grupo español con participaciones en Francia, la definición de la base pesa más que el tipo. ¿Orienta un impuesto sobre la tesorería de las holdings el capital hacia la inversión productiva?\n#Fiscalidad #Holdings #FranciaEspaña"
+    },
+    "minutos": 21
+  }
+}

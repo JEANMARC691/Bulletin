@@ -30,5 +30,13 @@
     "ruta": "/ediciones/2026-10-24/",
     "titulo_fr": "Émeutes et inondations : deux modèles pour payer le risque qui s'emballe",
     "titulo_es": "Disturbios e inundaciones: dos modelos para pagar un riesgo que se desboca"
+  },
+  {
+    "numero": 5,
+    "fecha": "2026-10-31",
+    "semana": 44,
+    "ruta": "/ediciones/2026-10-31/",
+    "titulo_fr": "Holdings et patrimoine : la France retouche sans cesse, l'Espagne a laissé ses régions trancher",
+    "titulo_es": "Holdings y patrimonio: Francia retoca sin descanso, España dejó decidir a las comunidades autónomas"
   }
 ]
