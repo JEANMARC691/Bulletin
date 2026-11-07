@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Le Bulletin Rilamax — N° 6</title>
+<meta name="description" content="Régularisation en Espagne : un demi-million d&#39;affiliés, un effet macroéconomique limité">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Le Bulletin Rilamax">
+<meta property="og:title" content="Le Bulletin Rilamax N° 6 · Régularisation en Espagne : un demi-million d&#39;affiliés, un effet macroéconomique limité">
+<meta property="og:description" content="Fin octobre, 490 586 étrangers régularisés par la procédure extraordinaire ouverte au printemps figuraient à la Sécurité sociale espagnole, dont l&#39;affiliation totale a atteint un record de 22,6 millions. Le chômage enregistré a pourtant augmenté de 43 128 personnes, la plus forte hausse pour un mois d&#39;octobre depuis la pandémie. Nous mesurons ce que l&#39;opération change pour le marché du travail et les cotisations, avec en miroir le dispositif français, dont la fenêtre se ferme le 31 décembre.">
+<meta property="og:image" content="https://bulletin.rilamax.com/portada.png">
+<meta property="og:url" content="https://bulletin.rilamax.com/ediciones/2026-11-07/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --paper:#F5F7FA; --surface:#FFFFFF; --ink:#16233D; --muted:#5A6478; --rule:#D9DEE7;
+  --fr:#2F4FA8; --fr-soft:#E7ECF8; --es:#B5751A; --es-soft:#F8EEDD;
+  --note:#1F5C55; --note-soft:#E4F0EE;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+    --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+    --note:#7FCBC0; --note-soft:#173532;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+  --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+  --note:#7FCBC0; --note-soft:#173532;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.55}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--fr);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.25rem}
+.serif{font-family:"Literata",Georgia,serif}
+
+/* Masthead */
+.mast{padding:2.5rem 0 1.75rem}
+.bridge{display:flex;align-items:center;gap:.75rem;color:var(--muted);font-size:.9rem}
+.bridge .line{flex:1;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--fr) 0 50%,var(--es) 50% 100%)}
+h1{font-family:"Literata",Georgia,serif;font-weight:700;font-size:clamp(2.2rem,6vw,3.6rem);line-height:1.05;letter-spacing:-.02em;margin:1rem 0 .5rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;color:var(--muted);font-size:.95rem}
+
+/* Sommaire */
+.toc{position:sticky;top:0;z-index:5;background:var(--paper);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.toc ul{list-style:none;margin:0;padding:.6rem 0;display:flex;gap:1.25rem;overflow-x:auto;white-space:nowrap;font-size:.92rem}
+.toc a{text-decoration:none;color:var(--muted)}
+.toc a:hover{color:var(--ink)}
+
+section{padding:2.75rem 0;border-bottom:1px solid var(--rule)}
+h2{font-family:"Literata",Georgia,serif;font-size:1.75rem;line-height:1.2;margin:0 0 1.25rem}
+.lede{color:var(--muted);margin:-.75rem 0 1.5rem;max-width:62ch}
+
+/* Edito */
+.edito{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:780px){.edito{grid-template-columns:1.7fr 1fr}}
+.edito .body p{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;margin:0 0 1rem;max-width:62ch}
+.edito .sign{font-size:.92rem;color:var(--muted)}
+.keys{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:1.4rem 1.5rem;align-self:start}
+.keys h3{margin:0 0 .8rem;font-size:1rem}
+.keys ol{margin:0;padding-left:1.2rem}
+.keys li{margin:0 0 .6rem}
+
+/* Chiffres */
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.fig{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--c);border-radius:4px 4px 10px 10px;padding:1.1rem 1.25rem}
+.fig.fr{--c:var(--fr)} .fig.es{--c:var(--es)}
+.fig strong{display:block;font-family:"Literata",Georgia,serif;font-size:2.2rem;line-height:1.05;color:var(--c)}
+.fig span{display:block;margin-top:.5rem;font-size:.93rem}
+.fig small{display:block;margin-top:.4rem;color:var(--muted);font-size:.8rem}
+
+/* Dossier */
+.dossier .intro{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;max-width:66ch;margin:0 0 1.75rem}
+.cols{display:grid;grid-template-columns:1fr;gap:1rem;margin-bottom:1.5rem}
+@media(min-width:780px){.cols{grid-template-columns:repeat(3,1fr)}}
+.col{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1.2rem 1.3rem}
+.col h3{margin:0 0 .6rem;font-size:1.02rem}
+.col ul{margin:0;padding-left:1.1rem}
+.col li{margin:0 0 .55rem;font-size:.95rem}
+
+/* Items */
+.country-head{display:flex;align-items:center;gap:.75rem;margin:0 0 .5rem}
+.country-head .bar{width:28px;height:6px;border-radius:3px;background:var(--c)}
+.country-head.fr{--c:var(--fr)} .country-head.es{--c:var(--es)}
+.item{display:grid;grid-template-columns:1fr;gap:1rem 2.5rem;padding:1.75rem 0;border-top:1px solid var(--rule)}
+.item:first-of-type{border-top:0}
+@media(min-width:780px){.item{grid-template-columns:1.5fr 1fr}}
+.tag{display:inline-flex;align-items:center;gap:.5rem;font-size:.86rem;font-weight:600;padding:.2rem .65rem;border-radius:6px}
+.tag.fr{background:var(--fr-soft);color:var(--fr)}
+.tag.es{background:var(--es-soft);color:var(--es)}
+.item h3{font-family:"Literata",Georgia,serif;font-size:1.35rem;line-height:1.25;margin:.7rem 0 .55rem;max-width:32ch}
+.item .sum{margin:0 0 .8rem;max-width:62ch}
+.src{font-size:.86rem;color:var(--muted)}
+.src a{color:var(--muted);text-underline-offset:3px}
+.lecture{align-self:start;background:var(--note-soft);border-left:3px solid var(--note);border-radius:0 10px 10px 0;padding:1.1rem 1.25rem}
+.lecture h4{margin:0 0 .45rem;font-size:.93rem;font-weight:600;color:var(--note)}
+.lecture p{margin:0;font-family:"Literata",Georgia,serif;font-size:1rem;line-height:1.65}
+
+/* Agenda */
+.agenda{list-style:none;margin:0;padding:0;display:grid;gap:.75rem}
+.agenda li{display:grid;grid-template-columns:8.5rem 1fr;gap:1rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1rem 1.2rem}
+@media(max-width:560px){.agenda li{grid-template-columns:1fr;gap:.25rem}}
+.agenda .when{font-weight:600}
+.agenda .what{max-width:62ch}
+
+/* CTA + footer */
+.cta{display:grid;grid-template-columns:1fr;gap:1.25rem;align-items:center}
+@media(min-width:780px){.cta{grid-template-columns:1.6fr 1fr}}
+.cta p{font-family:"Literata",Georgia,serif;font-size:1.1rem;margin:0;max-width:56ch}
+.btn{display:inline-block;text-align:center;text-decoration:none;font-weight:600;background:var(--ink);color:var(--paper);padding:.85rem 1.3rem;border-radius:10px}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.86rem}
+footer p{max-width:72ch;margin:0 0 .6rem}
+
+
+.titlerow{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.langs{display:inline-flex;border:1px solid var(--rule);border-radius:999px;padding:3px;background:var(--surface);margin-bottom:.6rem}
+.langs button{font:inherit;font-size:.88rem;font-weight:600;border:0;background:transparent;color:var(--muted);padding:.35rem .85rem;border-radius:999px;cursor:pointer}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--fr);outline-offset:2px}
+.edition[hidden]{display:none}
+
+.dfigs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:12px;overflow:hidden;margin:0 0 2.25rem}
+.dfigs div{background:var(--surface);padding:1.1rem 1.25rem}
+.dfigs strong{display:block;font-family:"Literata",Georgia,serif;font-size:1.9rem;line-height:1.1;color:var(--es)}
+.dfigs span{display:block;margin-top:.35rem;font-size:.9rem;color:var(--muted)}
+.longform{max-width:none}
+.longform>h3,.longform>p,.longform>.debate{max-width:68ch}
+.longform>figure{max-width:860px}
+.longform h3{font-family:"Literata",Georgia,serif;font-size:1.3rem;line-height:1.3;margin:2.25rem 0 .75rem}
+.longform h3:first-child{margin-top:0}
+.longform p{font-family:"Literata",Georgia,serif;font-size:1.06rem;line-height:1.78;margin:0 0 1.1rem}
+.chart{margin:1.5rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.bar-row{display:grid;grid-template-columns:9.5rem 1fr 5.5rem;align-items:center;gap:.75rem;margin:.45rem 0;font-size:.92rem}
+.bar-row .bar{display:block;height:14px;border-radius:7px;background:#D9DEE7;background:var(--rule);overflow:hidden}
+.bar-row .fill{display:block;height:14px;width:0;border-radius:7px;background:#B5751A;background:var(--es)}
+.bar-row .fill.c-muted{background:#5A6478;background:var(--muted)}
+.bar-row .fill.c-fr{background:#2F4FA8;background:var(--fr)}
+.bar-row .val{font-weight:600;text-align:right}
+.chart figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted)}
+@media(max-width:560px){.bar-row{grid-template-columns:1fr auto}.bar-row .bar{grid-column:1/-1;order:3}}
+.debate{margin:1.5rem 0;padding:1rem 1.25rem;border:1px dashed var(--rule);border-radius:10px}
+.debate h4,.watch h4{margin:0 0 .4rem;font-size:.95rem}
+.debate p,.watch p{margin:0;font-size:.97rem;font-family:"Public Sans",system-ui,sans-serif;line-height:1.6}
+.dossier .lecture{margin-top:2rem;max-width:none}
+.dossier .lecture p{font-size:1.06rem}
+.watch{margin:1.25rem 0;padding:1rem 1.25rem;background:var(--es-soft);border-radius:10px}
+.dossier .src{margin-top:1rem;line-height:1.7}
+
+.archive ul{list-style:none;margin:0;padding:0;display:grid;gap:.5rem}
+.archive a{text-underline-offset:3px}
+.archive li span{color:var(--muted);font-size:.9rem;margin-left:.5rem}
+.bar-row .fill.w1{width:1%}.bar-row .fill.w2{width:2%}.bar-row .fill.w3{width:3%}.bar-row .fill.w4{width:4%}.bar-row .fill.w5{width:5%}.bar-row .fill.w6{width:6%}.bar-row .fill.w7{width:7%}.bar-row .fill.w8{width:8%}.bar-row .fill.w9{width:9%}.bar-row .fill.w10{width:10%}.bar-row .fill.w11{width:11%}.bar-row .fill.w12{width:12%}.bar-row .fill.w13{width:13%}.bar-row .fill.w14{width:14%}.bar-row .fill.w15{width:15%}.bar-row .fill.w16{width:16%}.bar-row .fill.w17{width:17%}.bar-row .fill.w18{width:18%}.bar-row .fill.w19{width:19%}.bar-row .fill.w20{width:20%}.bar-row .fill.w21{width:21%}.bar-row .fill.w22{width:22%}.bar-row .fill.w23{width:23%}.bar-row .fill.w24{width:24%}.bar-row .fill.w25{width:25%}.bar-row .fill.w26{width:26%}.bar-row .fill.w27{width:27%}.bar-row .fill.w28{width:28%}.bar-row .fill.w29{width:29%}.bar-row .fill.w30{width:30%}.bar-row .fill.w31{width:31%}.bar-row .fill.w32{width:32%}.bar-row .fill.w33{width:33%}.bar-row .fill.w34{width:34%}.bar-row .fill.w35{width:35%}.bar-row .fill.w36{width:36%}.bar-row .fill.w37{width:37%}.bar-row .fill.w38{width:38%}.bar-row .fill.w39{width:39%}.bar-row .fill.w40{width:40%}.bar-row .fill.w41{width:41%}.bar-row .fill.w42{width:42%}.bar-row .fill.w43{width:43%}.bar-row .fill.w44{width:44%}.bar-row .fill.w45{width:45%}.bar-row .fill.w46{width:46%}.bar-row .fill.w47{width:47%}.bar-row .fill.w48{width:48%}.bar-row .fill.w49{width:49%}.bar-row .fill.w50{width:50%}.bar-row .fill.w51{width:51%}.bar-row .fill.w52{width:52%}.bar-row .fill.w53{width:53%}.bar-row .fill.w54{width:54%}.bar-row .fill.w55{width:55%}.bar-row .fill.w56{width:56%}.bar-row .fill.w57{width:57%}.bar-row .fill.w58{width:58%}.bar-row .fill.w59{width:59%}.bar-row .fill.w60{width:60%}.bar-row .fill.w61{width:61%}.bar-row .fill.w62{width:62%}.bar-row .fill.w63{width:63%}.bar-row .fill.w64{width:64%}.bar-row .fill.w65{width:65%}.bar-row .fill.w66{width:66%}.bar-row .fill.w67{width:67%}.bar-row .fill.w68{width:68%}.bar-row .fill.w69{width:69%}.bar-row .fill.w70{width:70%}.bar-row .fill.w71{width:71%}.bar-row .fill.w72{width:72%}.bar-row .fill.w73{width:73%}.bar-row .fill.w74{width:74%}.bar-row .fill.w75{width:75%}.bar-row .fill.w76{width:76%}.bar-row .fill.w77{width:77%}.bar-row .fill.w78{width:78%}.bar-row .fill.w79{width:79%}.bar-row .fill.w80{width:80%}.bar-row .fill.w81{width:81%}.bar-row .fill.w82{width:82%}.bar-row .fill.w83{width:83%}.bar-row .fill.w84{width:84%}.bar-row .fill.w85{width:85%}.bar-row .fill.w86{width:86%}.bar-row .fill.w87{width:87%}.bar-row .fill.w88{width:88%}.bar-row .fill.w89{width:89%}.bar-row .fill.w90{width:90%}.bar-row .fill.w91{width:91%}.bar-row .fill.w92{width:92%}.bar-row .fill.w93{width:93%}.bar-row .fill.w94{width:94%}.bar-row .fill.w95{width:95%}.bar-row .fill.w96{width:96%}.bar-row .fill.w97{width:97%}.bar-row .fill.w98{width:98%}.bar-row .fill.w99{width:99%}.bar-row .fill.w100{width:100%}
+
+.glossary{margin:0;display:grid;grid-template-columns:1fr;gap:.6rem}
+@media(min-width:780px){.glossary{grid-template-columns:1fr 1fr}}
+.glossary div{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:.9rem 1.1rem}
+.glossary dt{font-weight:600;color:var(--fr);margin:0 0 .2rem}
+.glossary dd{margin:0;font-size:.95rem;line-height:1.55}
+
+.chart-t{margin:0 0 .7rem;font-weight:600;font-size:.95rem}
+.bar-row .fill{transition:width 1.1s cubic-bezier(.2,.7,.2,1)}
+.chart.pre .bar-row .fill,.chart.pre .seg{width:0 !important}
+.mix-row{display:grid;grid-template-columns:6.5rem 1fr;align-items:center;gap:.75rem;margin:.55rem 0;font-size:.92rem}
+.mix-bar{display:flex;height:30px;border-radius:7px;overflow:hidden;background:var(--rule)}
+.seg{display:flex;align-items:center;justify-content:center;height:100%;width:0;color:#fff;font-style:normal;font-size:.75rem;font-weight:600;position:relative;transition:width 1.2s cubic-bezier(.2,.7,.2,1);cursor:default;outline:none}
+.seg i{font-style:normal;white-space:nowrap;overflow:hidden}
+.seg:hover,.seg:focus{filter:brightness(1.12)}
+.mix-legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin-top:.75rem;font-size:.82rem;color:var(--muted)}
+.mix-legend b{display:inline-block;width:.8rem;height:.8rem;border-radius:3px;margin-right:.35rem;vertical-align:-1px}
+.k-nuclear{background:#6C4AB6}.k-fosil{background:#5A6478}.k-eolica{background:#2F8F83}.k-solar{background:#D9A21B}.k-hidro{background:#2F4FA8}.k-biomasa{background:#7A9A3A}.k-otros{background:#A3ADC0}
+.mix .chart.pre .seg{width:0}
+.seg[class*=" w"]{flex:none}
+.seg.w1{width:1%}.seg.w2{width:2%}.seg.w3{width:3%}.seg.w4{width:4%}.seg.w5{width:5%}.seg.w6{width:6%}.seg.w7{width:7%}.seg.w8{width:8%}.seg.w9{width:9%}.seg.w10{width:10%}.seg.w11{width:11%}.seg.w12{width:12%}.seg.w13{width:13%}.seg.w14{width:14%}.seg.w15{width:15%}.seg.w16{width:16%}.seg.w17{width:17%}.seg.w18{width:18%}.seg.w19{width:19%}.seg.w20{width:20%}.seg.w21{width:21%}.seg.w22{width:22%}.seg.w23{width:23%}.seg.w24{width:24%}.seg.w25{width:25%}.seg.w26{width:26%}.seg.w27{width:27%}.seg.w28{width:28%}.seg.w29{width:29%}.seg.w30{width:30%}.seg.w31{width:31%}.seg.w32{width:32%}.seg.w33{width:33%}.seg.w34{width:34%}.seg.w35{width:35%}.seg.w36{width:36%}.seg.w37{width:37%}.seg.w38{width:38%}.seg.w39{width:39%}.seg.w40{width:40%}.seg.w41{width:41%}.seg.w42{width:42%}.seg.w43{width:43%}.seg.w44{width:44%}.seg.w45{width:45%}.seg.w46{width:46%}.seg.w47{width:47%}.seg.w48{width:48%}.seg.w49{width:49%}.seg.w50{width:50%}.seg.w51{width:51%}.seg.w52{width:52%}.seg.w53{width:53%}.seg.w54{width:54%}.seg.w55{width:55%}.seg.w56{width:56%}.seg.w57{width:57%}.seg.w58{width:58%}.seg.w59{width:59%}.seg.w60{width:60%}.seg.w61{width:61%}.seg.w62{width:62%}.seg.w63{width:63%}.seg.w64{width:64%}.seg.w65{width:65%}.seg.w66{width:66%}.seg.w67{width:67%}.seg.w68{width:68%}.seg.w69{width:69%}.seg.w70{width:70%}.seg.w71{width:71%}.seg.w72{width:72%}.seg.w73{width:73%}.seg.w74{width:74%}.seg.w75{width:75%}.seg.w76{width:76%}.seg.w77{width:77%}.seg.w78{width:78%}.seg.w79{width:79%}.seg.w80{width:80%}.seg.w81{width:81%}.seg.w82{width:82%}.seg.w83{width:83%}.seg.w84{width:84%}.seg.w85{width:85%}.seg.w86{width:86%}.seg.w87{width:87%}.seg.w88{width:88%}.seg.w89{width:89%}.seg.w90{width:90%}.seg.w91{width:91%}.seg.w92{width:92%}.seg.w93{width:93%}.seg.w94{width:94%}.seg.w95{width:95%}.seg.w96{width:96%}.seg.w97{width:97%}.seg.w98{width:98%}.seg.w99{width:99%}.seg.w100{width:100%}
+
+.seg{cursor:pointer}
+.seg.on{filter:brightness(1.18);box-shadow:inset 0 0 0 2px rgba(255,255,255,.85)}
+.mix-info{margin:.7rem 0 0;padding:.5rem .75rem;border-radius:8px;background:var(--paper);font-size:.88rem;color:var(--muted);min-height:1.2em}
+.mix-info.act{color:var(--ink);font-weight:600;background:var(--fr-soft)}
+.cite{font-family:"Public Sans",system-ui,sans-serif;font-size:.78rem;color:var(--muted);white-space:normal}
+.cite a{color:var(--muted);text-underline-offset:2px}
+.illus{margin:1.6rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.illus figcaption,.cmp figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted);font-family:"Public Sans",system-ui,sans-serif}
+.cmp{margin:1.75rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;max-width:none}
+.cmp-wrap{overflow-x:auto}
+.cmp table{width:100%;border-collapse:collapse;font-size:.88rem;font-family:"Public Sans",system-ui,sans-serif;min-width:560px}
+.cmp th,.cmp td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.cmp thead th{font-weight:600;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.cmp thead th:nth-child(2){color:var(--fr)}.cmp thead th:nth-child(3){color:var(--es)}
+.cmp tbody th{font-weight:600}
+.cmp td{white-space:nowrap}
+.cmp td.src-cell{white-space:normal}
+.cmp td.src-cell .cite{font-size:.75rem}
+.longform .cmp,.longform .illus{max-width:none}
+
+.mix-info{font-family:"Public Sans",system-ui,sans-serif !important;font-size:.88rem !important;line-height:1.5 !important}
+.cmp td.src-cell{min-width:9rem}
+
+.lecture p+p{margin-top:.8rem}
+
+.ctx{margin:.2rem 0 .9rem;padding:.75rem 1rem;background:var(--paper);border:1px solid var(--rule);border-radius:8px;max-width:62ch}
+.ctx-l{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:.25rem}
+.ctx p{margin:0;font-size:.95rem;line-height:1.6}
+.fig .cmp-o{display:block;margin-top:.45rem;font-style:normal;font-size:.85rem;font-weight:600;padding-top:.4rem;border-top:1px dashed var(--rule)}
+.fig .cmp-o.fr{color:var(--fr)}.fig .cmp-o.es{color:var(--es)}
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="edition" data-lang="fr" lang="fr">
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>France</span><span class="line" aria-hidden="true"></span><span>Espagne</span></div>
+    <div class="titlerow">
+      <h1>Le Bulletin Rilamax</h1>
+      <div class="langs" role="group" aria-label="Langue"><button type="button" data-set="fr" aria-pressed="true">FR</button><button type="button" data-set="es" aria-pressed="false">ES</button></div>
+    </div>
+    <div class="meta"><span>N° 6 · Semaine 45</span><span>Du 2 au 7 novembre 2026</span><span>Lecture : 19 minutes</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sommaire">
+  <div class="wrap"><ul>
+    <li><a href="#fr-edito">L&#39;édito</a></li>
+    <li><a href="#fr-cifras">Les chiffres</a></li>
+    <li><a href="#fr-dossier">Le dossier</a></li>
+    <li><a href="#fr-fr">France</a></li>
+    <li><a href="#fr-es">Espagne</a></li>
+    <li><a href="#fr-agenda">À surveiller</a></li>
+    <li><a href="#fr-glosario">Lexique</a></li>
+    <li><a href="/archivo/?lang=fr">Toutes les éditions</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="fr-edito">
+    <h2>Deux parlements, deux textes en suspens</h2>
+    <div class="edito">
+      <div class="body">
+        <p>Mercredi 4 novembre, l&#39;Assemblée nationale a rejeté la partie recettes du budget 2027 par 458 voix contre zéro, deux abstentions mises à part. Les ajouts fiscaux votés par les députés tombent avec le texte, et le Sénat repart de la copie du gouvernement à partir du 20 novembre. Un investisseur qui avait intégré l&#39;apport-cession ou la taxation des multinationales dans ses scénarios doit les retirer, au moins pour l&#39;instant.</p><p>À Madrid, la situation est symétrique. Les Cortes (le Parlement espagnol) sont dissoutes, les élections ont lieu le 29 novembre, et le décret-loi 29/2026, qui change la fiscalité des locations touristiques dès le 1er décembre, attend le vote de la Diputación Permanente, la commission qui exerce les pouvoirs du Congrès pendant la dissolution. Le gouvernement arrive au scrutin sans budget nouveau depuis 2023.</p><p>Les situations budgétaires n&#39;ont rien de comparable. La France vise un déficit de 5,0 % en 2027, après 5,4 % attendus en 2026 ; le gouvernement espagnol prévoit 2,1 % pour 2026. D&#39;un côté des finances fragiles et un texte instable, de l&#39;autre des comptes plus sains et un cadre fiscal et locatif suspendu à un scrutin. Pour qui opère des deux côtés, les deux incertitudes se cumulent.</p><p>Sur l&#39;emploi, le contraste est tout aussi net. L&#39;Espagne compte 490 586 étrangers régularisés en emploi déclaré à fin octobre ; la France a délivré 1 655 titres « métiers en tension » en 2025. Le dossier de la semaine examine ce que cet écart change pour le marché du travail et pour les cotisations, chiffres officiels à l&#39;appui.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Les trois points à retenir</h3>
+        <ol><li>La France repart du texte initial sur les recettes 2027 : le Sénat l&#39;examine dès le 20 novembre.</li><li>L&#39;Espagne vote le 29 novembre avec un décret fiscal sur le logement encore à convalider.</li><li>490 586 étrangers régularisés ont un emploi déclaré en Espagne, pour un effet macroéconomique limité.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="fr-cifras">
+    <h2>Les chiffres de la semaine</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>71 139</strong><span>Défaillances d&#39;entreprises en France cumulées sur douze mois à fin septembre 2026, 4,4 % de plus en un an.</span><em class="cmp-o es">Espagne : 1 601 procédures de sociétés au 2e trimestre 2026, +11,6 % sur un an (Colegio de Registradores) ; périmètre et rythme de publication différents.</em><small>Banque de France</small></div><div class="fig fr"><strong>7,3 Md€</strong><span>Déficit commercial de la France en septembre 2026, aggravé de 1,3 Md€ en un mois ; 64,4 Md€ sur douze mois.</span><em class="cmp-o es">Espagne : 7,8 Md€ en août et 45,8 Md€ sur janvier-août (ministère de l&#39;Économie, publié le 20 octobre).</em><small>Douanes françaises</small></div><div class="fig fr"><strong>5,9 %</strong><span>Déficit public évoqué en séance pour 2027 si les amendements des députés étaient maintenus, contre une cible de 5,0 %.</span><em class="cmp-o es">Espagne : 2,1 % prévu pour 2026 (gouvernement espagnol, avril 2026).</em><small>Assemblée nationale, débats du 4 novembre</small></div><div class="fig es"><strong>490 586</strong><span>Étrangers régularisés inscrits à la Sécurité sociale espagnole à fin octobre 2026.</span><em class="cmp-o fr">France : 1 655 titres « métiers en tension » délivrés en 2025 (ministère de l&#39;Intérieur) ; dispositifs de nature différente.</em><small>Seguridad Social</small></div><div class="fig es"><strong>14 488 M€</strong><span>Dépense des touristes internationaux en Espagne en septembre 2026, +8,1 % sur un an.</span><em class="cmp-o fr">Touristes français en Espagne : 1 054 668 en septembre (−1,5 %), pour une dépense d&#39;environ 1 Md€ (+6,5 %) (INE).</em><small>INE (Egatur)</small></div><div class="fig es"><strong>188 000 t</strong><span>Huile d&#39;olive retirée du marché espagnol de novembre 2026 à septembre 2027, soit 12 % de la production estimée.</span><em class="cmp-o fr">Pas de donnée comparable fiable côté français cette semaine.</em><small>Ministère espagnol de l&#39;Agriculture</small></div>
+    </div>
+  </section>
+
+  
+  <section id="fr-dossier" class="dossier">
+    <h2>Le dossier : Régularisation en Espagne : un demi-million d&#39;affiliés, un effet macroéconomique limité</h2>
+    <p class="intro">Fin octobre, 490 586 étrangers régularisés par la procédure extraordinaire ouverte au printemps figuraient à la Sécurité sociale espagnole, dont l&#39;affiliation totale a atteint un record de 22,6 millions. Le chômage enregistré a pourtant augmenté de 43 128 personnes, la plus forte hausse pour un mois d&#39;octobre depuis la pandémie. Nous mesurons ce que l&#39;opération change pour le marché du travail et les cotisations, avec en miroir le dispositif français, dont la fenêtre se ferme le 31 décembre.</p>
+    <div class="dfigs"><div><strong>1 174 978</strong><span>demandes déposées jusqu&#39;au 30 juin 2026, alors que le gouvernement visait jusqu&#39;à 500 000 bénéficiaires</span></div><div><strong>490 586</strong><span>régularisés inscrits à la Sécurité sociale fin octobre, contre 262 475 au 30 juillet</span></div><div><strong>+27 744</strong><span>hausse du chômage enregistré des étrangers en octobre, soit 64 % de la hausse totale (+43 128)</span></div><div><strong>0,03 point</strong><span>de PIB en moyenne d&#39;ici 2050 : l&#39;effet estimé par l&#39;AIReF sur les finances de la Sécurité sociale</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. L&#39;origine : un décret royal, 1,17 million de demandes</h3>
+        <p>Le 27 janvier 2026, le gouvernement espagnol a adopté par décret royal une régularisation extraordinaire, à la suite d&#39;une initiative populaire signée par plus de 600 000 personnes et de discussions avec Podemos. Étaient visées les personnes présentes avant le 31 décembre 2025 et résidant depuis au moins cinq mois. Le centre d&#39;études Funcas évaluait à environ 840 000 les étrangers en situation irrégulière début 2025, dont 91 % de Latino-Américains. Le gouvernement annonçait jusqu&#39;à 500 000 bénéficiaires.</p><p>Le dépôt des demandes a couru d&#39;avril au 30 juin et produit 1 174 978 dossiers, soit plus du double de l&#39;annonce initiale. Au bilan officiel du 2 juillet, 609 737 dossiers avaient été admis à instruction, ce qui ouvre un permis provisoire de résidence et de travail, et environ 11 000 personnes avaient reçu une décision favorable définitive. Le gouvernement disposait de trois mois pour traiter le reste ; à notre connaissance, aucun nouveau bilan national n&#39;a été publié depuis.</p>
+        
+        
+        
+      
+        
+        <h3>2. Les positions des acteurs et le flou administratif</h3>
+        <p>Le gouvernement présente la mesure comme un outil économique : la Banque d&#39;Espagne et l&#39;ONU estiment que le pays a besoin d&#39;environ 300 000 travailleurs migrants par an face au vieillissement. Selon un reportage de franceinfo, elle est soutenue à la fois par la gauche et par le patronat, dans une économie bâtie sur le tourisme et l&#39;agriculture. Ses opposants invoquent un effet d&#39;appel et une pression sur les services publics ; le Parti populaire (PP, droite) propose d&#39;interdire par la loi les régularisations collectives.</p><p>L&#39;administration, elle, traîne. Le silence au-delà de trois mois vaut rejet, ce qui laisse de nombreux dossiers dans une zone grise. Des cabinets d&#39;avocats estiment, sur leurs propres échantillons, qu&#39;environ sept dossiers sur dix restaient sans décision définitive mi-octobre. Un refus fait perdre l&#39;habilitation provisoire à travailler. Pour l&#39;employeur, le risque est donc administratif avant d&#39;être économique.</p>
+        
+        
+        
+      
+        
+        <h3>3. Les effets mesurés : de l&#39;emploi déclaré avant tout</h3>
+        <p>Au 30 juillet, 262 475 régularisés étaient en emploi déclaré. À fin octobre, ils sont 490 586, dont 75,2 % au régime général et 5,9 % indépendants. L&#39;affiliation moyenne atteint 22 624 165 après un gain mensuel de 186 612, le plus fort pour un mois d&#39;octobre de la série. Selon une économiste citée par la radio COPE, un tiers des nouveaux affiliés du mois étaient étrangers.</p><p>Le chômage enregistré a progressé de 43 128 personnes, à 2 422 633, tout en restant à son plus bas niveau pour un mois d&#39;octobre depuis 2007. Celui des étrangers gagne 27 744 personnes (+6,9 %), à 427 407, soit 64 % de la hausse. Selon la même économiste, une part de cette hausse tient à des personnes qui s&#39;inscrivent désormais comme demandeurs d&#39;emploi. L&#39;AIReF, l&#39;autorité budgétaire indépendante espagnole, chiffre à environ 1,07 Md€ les cotisations de la première année, et à 0,03 point de PIB l&#39;effet moyen sur la période.</p><p>Fedea (centre de recherche économique) et BBVA Research jugent que l&#39;affiliation des étrangers pourrait progresser de 17 %, mais que l&#39;écart de PIB avec et sans régularisation est positif sans être statistiquement significatif ; ils attendent aussi une modération des salaires réels. La Sécurité sociale a elle-même demandé de la prudence tant que des centaines de milliers de dossiers restent à traiter.</p>
+        
+<figure class="chart" aria-label="Trois barres : demandes déposées, dossiers admis à instruction, régularisés en emploi déclaré">
+  
+  <div class="bar-row"><span class="lbl">Demandes déposées</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 1 175 000</span></div><div class="bar-row"><span class="lbl">Dossiers admis à instruction</span><span class="bar"><span class="fill w52 c-es"></span></span><span class="val">≈ 610 000</span></div><div class="bar-row"><span class="lbl">Régularisés en emploi déclaré</span><span class="bar"><span class="fill w42 c-es"></span></span><span class="val">≈ 491 000</span></div>
+  <figcaption>Espagne, 2026 (demandes au 30 juin, admissions au 2 juillet, affiliés fin octobre). Sources : ministère de l&#39;Inclusion via InfoMigrante ; Sécurité sociale via El Salto.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. Le contrepoint français : une régularisation au compte-gouttes</h3>
+        <p>En France, la population étrangère atteint 6,3 millions de personnes en 2025, soit 9,1 % de la population, selon l&#39;Insee, et les immigrés représentent 12 % des actifs. Leur taux d&#39;emploi est de 62 % contre 70 % pour les natifs, et leur taux de chômage de 12 % contre 7 %. Nous n&#39;avons pas trouvé de série espagnole équivalente publiée cette semaine : l&#39;Espagne publie ici des affiliations administratives, la France des enquêtes.</p><p>Le dispositif français est individuel et permanent, sauf la voie « métiers en tension », créée par la loi du 26 janvier 2024 et ouverte jusqu&#39;au 31 décembre 2026 : trois ans de résidence et douze mois de salaire sur vingt-quatre. Elle n&#39;a donné lieu qu&#39;à 1 655 titres en 2025, sur 9 690 admissions exceptionnelles au séjour (AES) à titre économique, et la moitié seulement des dossiers avait été instruite selon le ministre de l&#39;Intérieur. Les régularisations ont reculé de 42 % sur les neuf premiers mois de 2025, après la circulaire du 23 janvier 2025.</p>
+        
+<figure class="chart" aria-label="Admissions au séjour : France et Espagne">
+  
+  <div class="bar-row"><span class="lbl">France : titres « métiers en tension »</span><span class="bar"><span class="fill w1 c-es"></span></span><span class="val">1 655</span></div><div class="bar-row"><span class="lbl">France : AES à titre économique</span><span class="bar"><span class="fill w2 c-es"></span></span><span class="val">9 690</span></div><div class="bar-row"><span class="lbl">Espagne : dossiers admis à instruction</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 610 000</span></div>
+  <figcaption>France 2025 ; Espagne juillet 2026. Périmètres différents : dispositif français individuel, dispositif espagnol exceptionnel et collectif. Sources : DGEF via InfoMigrants ; ministère espagnol via InfoMigrante.</figcaption>
+</figure>
+
+        
+        
+        <div class="debate"><h4>Le débat</h4><p>Pour : la régularisation transforme du travail informel en emploi déclaré, élargit l&#39;assiette des cotisations, répond à un besoin de main-d&#39;œuvre que la Banque d&#39;Espagne chiffre à environ 300 000 personnes par an et bénéficie du soutien du patronat. Contre : l&#39;AIReF et Fedea jugent l&#39;effet macroéconomique limité, le dispositif peut modérer les salaires réels, ses critiques redoutent un effet d&#39;appel et une pression sur les services publics, et l&#39;administration n&#39;a publié aucun bilan des décisions définitives. Selon El Independiente, 60 % des nouveaux affiliés issus du processus travaillaient déjà dans l&#39;économie informelle, ce qui conforte la lecture « formalisation » mais relativise les créations d&#39;emplois. Les preuves ne sont pas concluantes sur les salaires ni sur les services publics.</p></div>
+        
+      
+        
+        <h3>5. Ce qu&#39;il faut regarder</h3>
+        <p>Le premier rendez-vous est un bilan national des décisions définitives, que le ministère n&#39;a pas rendu public depuis juillet. Le second est le scrutin du 29 novembre : le PP propose l&#39;interdiction légale des régularisations collectives, mais le texte n&#39;est pas rédigé et son effet sur les autorisations déjà accordées n&#39;est pas précisé.</p><p>Pour les entreprises françaises implantées en Espagne, les secteurs d&#39;emploi des régularisés comptent autant que les volumes. Le reportage de franceinfo cite le tourisme et l&#39;agriculture, mais nous n&#39;avons pas trouvé de ventilation officielle récente par branche. La Sécurité sociale a publié la répartition par régime ; elle ne dit rien des salaires, la donnée qui dira si la modération annoncée par Fedea se vérifie.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lecture Rilamax</h4><p>Les chiffres montrent d&#39;abord une formalisation. Le record d&#39;affiliation espagnol de 22,6 millions inclut des personnes qui travaillaient déjà, au moins en partie, dans l&#39;économie informelle selon la presse économique espagnole ; le comparer aux créations d&#39;emplois françaises sans retraitement surestime la dynamique. Sur le plan budgétaire, l&#39;AIReF situe le gain autour de 1 Md€ la première année, un ordre de grandeur marginal pour les finances publiques : l&#39;argument financier est réel, mais petit. Pour une entreprise française présente en Espagne, l&#39;effet utile est un marché du travail plus fluide dans l&#39;hôtellerie et l&#39;agriculture, avec une pression salariale plus faible si les données de salaires le confirment. Le risque principal est administratif : un salarié sous autorisation provisoire dont le dossier est rejeté perd son droit de travailler, et l&#39;employeur doit pouvoir le démontrer. Après le 29 novembre, un investisseur devrait valoriser deux scénarios, continuité ou durcissement. L&#39;absence de bilan officiel des décisions est, à nos yeux, la principale faiblesse de l&#39;opération à ce jour.</p></aside>
+    <div class="watch"><h4>Ce que nous surveillerons</h4><p>Nous suivrons un éventuel bilan national des décisions définitives et les chiffres de l&#39;emploi de novembre, début décembre, ainsi que la position du prochain gouvernement espagnol.</p></div>
+    <p class="src">Sources : <a href="https://www.elsaltodiario.com/desempleo/afiliacion-bate-nuevo-record-octubre-impulsado-regularizacion-paro-sube-43-128-personas" target="_blank" rel="noopener">El Salto : affiliation et chômage d&#39;octobre</a>, <a href="https://www.cronicadelhenares.com/2026/11/octubre-2026-record-afiliados-sube-paro-regularizacion.html" target="_blank" rel="noopener">La Crónica del Henares : données Sécurité sociale et SEPE</a>, <a href="https://www.salamancahoy.es/economia/pensiones/regularizacion-millon-inmigrantes-apenas-impacto-cuentas-seguridad-20260529175612-ntrc.html" target="_blank" rel="noopener">Salamanca Hoy : étude de l&#39;AIReF</a>, <a href="https://www.todoalicante.es/economia/trabajo/regularizacion-inmigrantes-apenas-impacto-economia-espanola-segun-20260527132755-ntrc.html" target="_blank" rel="noopener">Todoalicante : rapport Fedea et BBVA Research</a>, <a href="https://infomigrante.es/2026/10/16/seis-meses-de-regularizacion-extraordinaria-en-espana-mas-de-un-millon-de-solicitudes-y-pocas-respuestas-oficiales/" target="_blank" rel="noopener">InfoMigrante : bilan à six mois</a>, <a href="https://www.la7tv.es/articulo/empleo/regularizacion-masiva-inmigrantes/20260804114301071818.html" target="_blank" rel="noopener">La7 : affiliés régularisés au 30 juillet</a>, <a href="https://www.rts.ch/info/monde/2026/article/l-espagne-regularise-500-000-sans-papiers-pour-booster-son-economie-29132072.html" target="_blank" rel="noopener">RTS : annonce et chiffres Funcas</a>, <a href="https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/reportage-l-espagne-va-regulariser-pres-de-500-000-migrants-presque-tous-sud-americains_7988648.html" target="_blank" rel="noopener">franceinfo : reportage sur la régularisation</a>, <a href="https://www.infomigrants.net/fr/post/70926/immigration--1-655-titres-de-sejour-metiers-en-tension-ont-ete-delivres-en-2025-selon-laurent-nunez" target="_blank" rel="noopener">InfoMigrants : titres « métiers en tension » en 2025</a>, <a href="https://www.insee.fr/fr/statistiques/3633212" target="_blank" rel="noopener">Insee : immigrés et étrangers</a>, <a href="https://www.immigration.interieur.gouv.fr/documentation/etudes-et-statistiques/activite-emploi-et-chomage-des-immigres-de-2015-a-2025.html" target="_blank" rel="noopener">Ministère de l&#39;Intérieur : activité, emploi et chômage des immigrés</a></p>
+  </section>
+
+  <section id="fr-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">France</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalité</span>
+    <h3>Budget 2027 : l&#39;Assemblée rejette les recettes par 458 voix contre zéro, les ajouts fiscaux tombent</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le gouvernement a déposé le projet de loi de finances (PLF) 2027 le 1er octobre, avec un objectif de déficit de 5,0 % du PIB contre 5,4 % attendus en 2026. Pendant trois semaines, les députés ont modifié la partie recettes, notamment avec les mesures commentées dans nos deux dernières éditions : l&#39;apport-cession et la taxation des multinationales selon leur activité réelle en France. Le vote solennel avait été reporté deux fois.</p></div>
+    <p class="sum">Mercredi 4 novembre, 458 des 460 votants ont rejeté la partie recettes, deux élus communistes et ultramarins s&#39;abstenant. Le rejet emporte tout le texte : le volet dépenses, déjà repoussé en commission, n&#39;a pas été débattu en séance. Le Sénat examinera à partir du 20 novembre la version initiale, qui prolonge d&#39;un an la contribution exceptionnelle sur les bénéfices des groupes réalisant au moins 1,5 Md€ de chiffre d&#39;affaires (15,7 % ou 31,4 % selon la taille) et indexe le barème de l&#39;impôt sur le revenu de 2,1 %. Un chiffrage avancé en séance situe à 5,9 % le déficit si les amendements étaient maintenus. Espagne : 2,1 % prévu pour 2026, sans budget nouveau depuis 2023.</p>
+    <p class="src">Sources : <a href="https://www.france24.com/fr/france/20261104-assemblee-nationale-rejette-unanimite-en-premiere-lecture-budget-etat-2027-pib-finances" target="_blank" rel="noopener">France 24</a>, <a href="https://www.toutsurmesfinances.com/actualites/a/budget-2027-458-voix-contre-zero-pour-les-mesures-fiscales-votees-par-les-deputes-passent-a-la-trappe" target="_blank" rel="noopener">Toutsurmesfinances</a>, <a href="https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/examen-de-la-premiere-partie-du-projet-de-loi-de-finances-pour-2027" target="_blank" rel="noopener">Assemblée nationale</a>, <a href="https://www.mooncard.co/fr/blog/plf-2027-entreprises-principales-mesures" target="_blank" rel="noopener">Mooncard : mesures du PLF pour les entreprises</a>, <a href="https://portal.mineco.gob.es/MediaArticulo/20260430_InformeProgresoAnual_2026.pdf" target="_blank" rel="noopener">Ministère espagnol de l&#39;Économie : rapport de progrès 2026</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un investisseur qui construit un montage entre les deux pays devrait travailler avec deux scénarios : le texte du Sénat, proche du projet initial, et un texte final de compromis encore ouvert. Les mesures votées à l&#39;Assemblée n&#39;ont plus de portée juridique à ce stade ; les intégrer dans un calcul de rendement serait prématuré.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Politique et société</span>
+    <h3>Grève du 5 novembre : 575 000 manifestants selon l&#39;Intérieur, 1,6 million selon la CGT, sans chiffrage du coût</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Depuis le 17 octobre, des manifestations contre la vie chère se succèdent chaque semaine. Les violences du week-end des 17 et 18 octobre pourraient coûter jusqu&#39;à 1,2 Md€ aux assureurs selon l&#39;agence Morningstar DBRS. L&#39;intersyndicale a appelé le 5 novembre à une journée nationale pour les salaires et le pouvoir d&#39;achat, dont nous signalions la préparation dans l&#39;édition précédente.</p></div>
+    <p class="sum">Le ministère de l&#39;Intérieur compte 575 000 manifestants, dont 65 000 à Paris ; la CGT en revendique près de 1,6 million. À 18 heures, le bilan provisoire faisait état de 448 interpellations, 53 membres des forces de l&#39;ordre blessés et 86 interventions pour incendies. Dans la fonction publique d&#39;État, 9,89 % des agents étaient grévistes à la mi-journée, contre 4,60 % dans la territoriale et 3,93 % à l&#39;hôpital. Les samedis précédents, le ministère avait compté 550 000 personnes le 17 octobre, 410 000 le 24 et 320 000 le 31. Nous n&#39;avons trouvé aucune estimation chiffrée du coût économique de la journée. Pas de donnée comparable fiable côté espagnol cette semaine.</p>
+    <p class="src">Sources : <a href="https://www.franceinfo.fr/economie/greve/greve/pres-de-1-6-million-de-personnes-ont-defile-en-france-lors-de-la-mobilisation-du-5-novembre-selon-la-cgt-575-000-selon-le-ministere-de-l-interieur_8269868.html" target="_blank" rel="noopener">franceinfo : bilan de la mobilisation</a>, <a href="https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html" target="_blank" rel="noopener">franceinfo : direct du 5 novembre</a>, <a href="https://www.publicsenat.fr/actualites/economie/violences-urbaines-du-17-octobre-un-bilan-qui-surpasse-deja-celui-de-precedents-episodes" target="_blank" rel="noopener">Public Sénat : violences du 17 octobre</a>, <a href="https://www.economiematin.fr/assurance-plus-chere-emeutes-2026-impact-menages-cout-degats" target="_blank" rel="noopener">Économie Matin : assurances et émeutes</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>La mobilisation remonte après trois semaines de baisse, ce qui écarte une extinction rapide du mouvement. Pour une entreprise qui exploite des sites en France, le coût se mesure en jours d&#39;activité perdus et en primes d&#39;assurance, deux postes à documenter dès maintenant : des assureurs évoquent déjà des hausses de primes dès 2027.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Entreprises et investissement</span>
+    <h3>Défaillances : 71 139 procédures sur douze mois, mais 1,3 million de créations d&#39;entreprises</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Après un ralentissement pendant les années Covid, la Banque de France a observé un rattrapage des défaillances. Une étude publiée cet été estime que ce rattrapage n&#39;explique plus à lui seul les niveaux atteints par les PME hors microentreprises, les ETI et les grandes entreprises. À fin août, le cumul sur douze mois atteignait 70 766.</p></div>
+    <p class="sum">Publié vendredi 6 novembre, le cumul à fin septembre atteint 71 139, contre 70 768 un mois plus tôt : 4,4 % de plus en un an et 19,9 % au-dessus de la moyenne 2010-2019. Tous les secteurs progressent sauf l&#39;industrie et les services aux entreprises, avec des hausses marquées dans l&#39;agriculture (+12,7 %) et la finance-assurance (+11 %). Soixante-deux ETI (entreprises de taille intermédiaire, de 250 à 5 000 salariés) ou grandes entreprises ont ouvert une procédure, 40,9 % de plus en un an. L&#39;Insee compte plus de 1,3 million de créations sur douze mois (+12,2 %). Espagne : 1 601 procédures de sociétés au 2e trimestre (+11,6 %, Colegio de Registradores) et 7 526 sociétés créées en août (+5,7 %, INE) ; périmètres différents.</p>
+    <p class="src">Sources : <a href="https://www.optionfinance.fr/actualites/nouvelle-hausse-des-defaillances-dentreprise-a-fin-septembre.html" target="_blank" rel="noopener">Option Finance</a>, <a href="https://www.boursorama.com/actualite-economique/actualites/france-legere-hausse-des-defaillances-d-entreprises-en-septembre-banque-de-france-4253670283d16055b8feecd4d07754d8" target="_blank" rel="noopener">Boursorama (AFP)</a>, <a href="https://www.moncloa.com/2026/08/11/concursos-acreedores-2026-colegio-registradores-3413961" target="_blank" rel="noopener">Moncloa.com : concursos du 2e trimestre</a>, <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177026&amp;menu=ultiDatos&amp;idp=1254735576606" target="_blank" rel="noopener">INE : sociétés mercantiles, août 2026</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Le nombre de créations ne dit rien de la solidité des contreparties : la hausse des procédures touche aussi les ETI. Un fournisseur ou un investisseur exposé à des clients français devrait revoir ses délais de paiement et ses plafonds d&#39;assurance-crédit.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Énergie</span>
+    <h3>Interconnexion du golfe de Gascogne : câbles terrestres en cours de pose, mise en service fin 2027 ou début 2028</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>La liaison entre Gatika, au Pays basque espagnol, et Cubnezais, en Gironde, doit porter la capacité d&#39;échange entre les deux pays de 2 800 à 5 000 MW. Elle est portée par Inelfe, société commune de RTE (gestionnaire du réseau électrique français) et de Red Eléctrica, son homologue espagnol, et classée projet d&#39;intérêt commun par l&#39;Union européenne. Le chantier a connu trois arrêts et plus de six mois de suspension liés à des rejets de bentonite.</p></div>
+    <p class="sum">Le 29 octobre, Red Eléctrica a annoncé le début de la pose des câbles souterrains côté espagnol, soit 13 km entre Gatika et Lemoiz. Avec la phase d&#39;août, la totalité des câbles marins de la partie biscayenne est installée. Les travaux en mer reprennent au large du Guipuscoa de novembre 2026 à février 2027, et tous les tronçons en eaux françaises doivent être posés à l&#39;été 2027. Le projet est exécuté à 70 %, avec une mise en service attendue fin 2027 ou début 2028 selon le PDG de Redeia. Le tracé compte 276 km sous la mer. Les 5 000 MW visés se partagent entre les deux réseaux ; aucun chiffre français distinct n&#39;a été publié.</p>
+    <p class="src">Sources : <a href="https://www.smartgridsinfo.es/2026/11/04/interconexion-electrica-francia-inicia-tendido-13-kilometros-cables-subterraneos" target="_blank" rel="noopener">Smartgridsinfo</a>, <a href="https://elperiodicodelaenergia.com/la-interconexion-electrica-con-francia-por-el-golfo-de-vizcaya-ejecutada-al-70" target="_blank" rel="noopener">El Periódico de la Energía</a>, <a href="https://www.energynews.es/interconexion-electrica-francia-golfo-vizcaya-cable-submarino/" target="_blank" rel="noopener">Energynews</a>, <a href="https://www.inelfe.eu/en/projects/bay-biscay" target="_blank" rel="noopener">Inelfe</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Pour un industriel gros consommateur d&#39;électricité, l&#39;effet attendu est une meilleure convergence des prix entre les deux marchés, mais pas avant 2028. Les contrats d&#39;approvisionnement conclus aujourd&#39;hui pour 2028 et au-delà devraient prévoir deux scénarios de prix, avec et sans la nouvelle liaison.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">Espagne</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalité</span>
+    <h3>Décret-loi 29/2026 : TVA de 10 % sur les locations touristiques dès le 1er décembre, si la convalidation aboutit</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le 2 octobre, le Congrès a rejeté deux décrets-lois sur le logement (172 voix contre 178 pour l&#39;un, 166 contre 184 pour l&#39;autre). Le gouvernement les a repris le 6 octobre en deux textes, dont le décret-loi (RDL) 29/2026, qui concentre les mesures fiscales et s&#39;applique depuis le 8 octobre. Les Cortes étant dissoutes, la convalidation revient à la Diputación Permanente, qui dispose de trente jours ouvrables.</p></div>
+    <p class="sum">Le texte touche l&#39;IRPF (impôt sur le revenu espagnol), la TVA, la taxe foncière locale (IBI), la plus-value municipale et l&#39;impôt des non-résidents. Au 1er décembre, la location meublée de 30 nuits ou moins cesse d&#39;être exonérée de TVA et passe à 10 %, y compris pour les propriétaires non résidents, qui deviennent assujettis. Les communes en zone tendue pourront majorer l&#39;IBI des logements touristiques jusqu&#39;à 150 %. Les locataires à faible revenu retrouvent une déduction de 10 % du loyer. Sans convalidation avant le 1er décembre, la TVA ne s&#39;applique pas. Le vote est évoqué pour le 12 novembre, sans date confirmée par le Congrès au 6 novembre. France : pas de mesure équivalente chiffrée dans les sources de la semaine.</p>
+    <p class="src">Sources : <a href="https://notariasbarcelona.es/real-decreto-ley-29-2026-novedades-fiscales/" target="_blank" rel="noopener">Notarías de Barcelona</a>, <a href="https://fiscaly.com/rdl-29-2026-todas-las-medidas-fiscales-de-vivienda-y-sus-fechas/" target="_blank" rel="noopener">Fiscaly</a>, <a href="https://provivienda.org/observatorio/real-decreto-ley-26-2026-que-cambia-en-el-precio-del-alquiler-y-la-vivienda-asequible/" target="_blank" rel="noopener">Provivienda</a>, <a href="https://gestionatualojamiento.com/convalidacion-del-decreto-de-vivienda/" target="_blank" rel="noopener">Gestiona tu alojamiento : scénarios de convalidation</a>, <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823" target="_blank" rel="noopener">BOE : RDL 29/2026</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un propriétaire français d&#39;un bien touristique en Espagne devrait chiffrer deux scénarios avant le 1er décembre : avec une TVA à 10 %, qui impose inscription, facturation et déclarations, et sans. Le rendement net dépend de la récupérabilité de la TVA sur les frais. Le scrutin du 29 novembre ajoute une seconde incertitude.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Réglementation</span>
+    <h3>Huile d&#39;olive : l&#39;Espagne retire 188 000 tonnes du marché, un mécanisme activé pour la première fois</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Les prix de l&#39;huile d&#39;olive ont fortement monté après des sécheresses et des canicules sur les récoltes, puis reculé avec le retour de la production. Les organisations agricoles réclamaient un mécanisme de régulation de l&#39;offre pour éviter un effondrement des cours. L&#39;Espagne représente environ 45 % de la production mondiale et 70 % de celle de l&#39;UE selon son ministère, des parts qui varient selon les récoltes.</p></div>
+    <p class="sum">Le ministère de l&#39;Agriculture active pour la première fois le mécanisme de régulation de l&#39;offre : 188 000 tonnes, soit 12 % de la production, seront stockées de novembre à septembre 2027. La campagne est estimée à 1 602 596 tonnes, avec 357 000 tonnes de stocks initiaux. La mesure vise à freiner la baisse des prix à la production ; elle peut aussi retarder celle des prix à la consommation. Le secteur compte plus de 350 000 agriculteurs. Pas de chiffre comparable fiable côté français cette semaine.</p>
+    <p class="src">Sources : <a href="https://www.agropopular.com/aceite-agricultura-61126" target="_blank" rel="noopener">Agropopular : revue de presse</a>, <a href="https://es.euronews.com/2026/11/06/espana-ordena-almacenar-12-produccion-aceite-oliva" target="_blank" rel="noopener">Euronews (espagnol)</a>, <a href="https://www.euronews.com/2026/11/06/why-spain-is-taking-188000-tonnes-of-olive-oil-off-the-market" target="_blank" rel="noopener">Euronews (anglais)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Pour un distributeur ou un industriel français qui s&#39;approvisionne en Espagne, la mesure peut jouer comme un soutien aux prix pendant la campagne. Les contrats indexés sur le cours espagnol sont les premiers concernés ; le premier relevé de stocks dira si l&#39;effet est durable.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Entreprises et investissement</span>
+    <h3>Deoleo : Dcoop et Acesur rachètent le leader mondial des huiles d&#39;olive de marque pour 520 M€</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Deoleo, propriétaire de Carbonell, Hojiblanca, Koipe, Bertolli et Carapelli, était au centre d&#39;une enchère depuis plusieurs mois entre l&#39;alliance des groupes andalous Dcoop et Acesur et un duo formé de l&#39;italien Coricelli et de l&#39;espagnol Migasa. Les fonds CVC et Alchemy détiennent respectivement 50 % et 40 % du capital.</p></div>
+    <p class="sum">Le 5 novembre, Deoleo a accepté l&#39;offre commune de Dcoop et Acesur, qui valorise Deoleo Holding 520 M€ dette comprise pour 91,99 % du capital, à parts égales. L&#39;offre rivale, relevée à 530 M€, n&#39;a pas été retenue ; selon El Español, les vendeurs ont préféré les garanties financières et le calendrier de clôture. L&#39;opération exige des autorisations réglementaires et un vote des actionnaires, avec une clôture attendue sous six à huit mois. Les actifs seront répartis entre les acheteurs pour répondre aux exigences de concurrence : Acesur reprendrait Bertolli pour les États-Unis. Dcoop réalise environ 1,5 Md€ de chiffre d&#39;affaires. Pas de donnée comparable fiable côté français.</p>
+    <p class="src">Sources : <a href="https://elespanol.com/invertia/empresas/20261104/dcoop-acesur-compran-conjuntamente-deoleo-imponerse-oferta-coricelli-migasa/1003744446779_0.html" target="_blank" rel="noopener">El Español (4 novembre)</a>, <a href="https://www.elespanol.com/invertia/empresas/20261106/dcoop-acesur-reconfiguran-andalucia-mapa-mundial-aceite-compra-deoleo/1003744448086_0.html" target="_blank" rel="noopener">El Español (6 novembre)</a>, <a href="https://www.euronews.com/2026/11/06/why-spain-is-taking-188000-tonnes-of-olive-oil-off-the-market" target="_blank" rel="noopener">Euronews</a>, <a href="https://www.agronewscastillayleon.com/deoleo-acesur-dcoop-compra-520-millones" target="_blank" rel="noopener">Agronews Castilla y León</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>La consolidation se fait entre acteurs espagnols, et le contrôle de la concurrence conditionne le partage des marques. Pour un distributeur français, le point à suivre est le calendrier de la réorganisation, qui peut modifier les interlocuteurs commerciaux et les conditions d&#39;approvisionnement.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Politique et société</span>
+    <h3>Élections du 29 novembre : une Espagne sans budget nouveau depuis 2023 et des programmes fiscaux opposés</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le gouvernement a convoqué des élections anticipées après le rejet, le 2 octobre, des deux décrets-lois sur le logement par le Congrès. Les Cortes sont dissoutes et les réformes en cours restent en suspens, dont la réduction du temps de travail à 37,5 heures, retirée après le veto de trois groupes. L&#39;exécutif arrive au scrutin sans budget nouveau depuis 2023.</p></div>
+    <p class="sum">La campagne court du 13 au 27 novembre. Avant la publication des programmes complets, les lignes générales sont connues. Le PP propose une baisse de l&#39;IRPF, une TVA à 0 % sur les produits alimentaires de base, une TVA à 10 % sur l&#39;énergie, des budgets annuels et l&#39;interdiction légale des régularisations collectives. Le PSOE défend une fiscalité plus progressive, le maintien des décrets logement, un salaire minimum d&#39;au moins 60 % du salaire moyen et la semaine de 36 heures en 2030. Sur le plan budgétaire, le gouvernement espagnol prévoit 2,1 % de déficit en 2026, contre 5,4 % attendus en France.</p>
+    <p class="src">Sources : <a href="https://forbes.es/actualidad/1036705/elecciones-2026-batallas-economicas-29-n/" target="_blank" rel="noopener">Forbes España</a>, <a href="https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp" target="_blank" rel="noopener">Política Electoral : programme du PP</a>, <a href="https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe" target="_blank" rel="noopener">Política Electoral : programme du PSOE</a>, <a href="https://aquienvoto.es/elecciones/generales-2026/temas/economia" target="_blank" rel="noopener">A quién voto : économie</a>, <a href="https://winahost.com/blog/elecciones-29n-alquiler-turistico" target="_blank" rel="noopener">Winahost : calendrier électoral</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Le scrutin touche deux terrains pour un investisseur français : la fiscalité du logement locatif et l&#39;encadrement du travail étranger. Les écarts entre programmes sont assez nets pour justifier deux scénarios dans les plans à douze mois. Les programmes complets n&#39;étaient pas publiés à la clôture de cette édition.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-agenda">
+    <h2>À surveiller dans les prochaines semaines</h2>
+    <ul class="agenda"><li><span class="when">9 novembre</span><span class="what">France : début de l&#39;examen du budget de la Sécurité sociale (PLFSS) au Sénat</span></li><li><span class="when">Mi-novembre</span><span class="what">Espagne : vote attendu de la Diputación Permanente sur les décrets-lois logement 28 et 29/2026 (date du 12 novembre évoquée, non confirmée officiellement)</span></li><li><span class="when">À partir du 20 novembre</span><span class="what">France : examen du PLF 2027 en séance au Sénat, sur le texte initial du gouvernement</span></li><li><span class="when">29 novembre</span><span class="what">Espagne : élections générales, campagne du 13 au 27 novembre</span></li><li><span class="when">1er décembre</span><span class="what">Espagne : TVA de 10 % sur les locations meublées de 30 nuits ou moins, si le décret-loi 29/2026 est convalidé</span></li></ul>
+  </section>
+
+  
+  <section id="fr-glosario">
+    <h2>Les sigles de cette édition</h2>
+    <dl class="glossary"><div><dt>AES</dt><dd>Admission exceptionnelle au séjour : voie française de régularisation au cas par cas, dont une branche « métiers en tension » est ouverte jusqu&#39;au 31 décembre 2026.</dd></div><div><dt>AIReF</dt><dd>Autoridad Independiente de Responsabilidad Fiscal : autorité budgétaire indépendante espagnole, comparable au Haut Conseil des finances publiques français.</dd></div><div><dt>Diputación Permanente</dt><dd>Commission du Congrès espagnol qui exerce ses pouvoirs entre deux législatures ou pendant la dissolution des Cortes, notamment pour convalider les décrets-lois.</dd></div><div><dt>Fedea</dt><dd>Fundación de Estudios de Economía Aplicada : centre de recherche économique espagnol, auteur d&#39;un observatoire trimestriel du marché du travail.</dd></div><div><dt>IBI</dt><dd>Impuesto sobre Bienes Inmuebles : taxe foncière espagnole, perçue par les communes, que le décret-loi 29/2026 permet de majorer pour les logements touristiques.</dd></div><div><dt>Inelfe</dt><dd>Société commune de RTE et de Red Eléctrica qui construit la liaison électrique sous-marine entre la France et l&#39;Espagne dans le golfe de Gascogne.</dd></div><div><dt>PLF</dt><dd>Projet de loi de finances : texte annuel qui fixe les recettes et les dépenses de l&#39;État français ; sa première partie porte sur les recettes.</dd></div><div><dt>RDL</dt><dd>Real Decreto-ley : décret-loi espagnol pris par le gouvernement pour des cas d&#39;urgence, valable sous réserve de convalidation par le Congrès dans les trente jours ouvrables.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>Le Bulletin Rilamax paraît chaque samedi : l&#39;essentiel de l&#39;économie, de la finance et de la politique entre la France et l&#39;Espagne, avec notre lecture.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">S&#39;abonner sur LinkedIn</a>
+  </section>
+
+  
+  <section id="fr-archivo" class="archive">
+    <h2>Éditions précédentes</h2>
+    <ul><li><a href="/ediciones/2026-10-31/">N° 5 — Gagner une élection n&#39;est pas un brevet de pilote</a><span>2026-10-31</span></li><li><a href="/ediciones/2026-10-24/">N° 4 — Émeutes et inondations : deux modèles pour payer le risque qui s&#39;emballe</a><span>2026-10-24</span></li><li><a href="/ediciones/2026-10-17/">N° 3 — Inflation : l&#39;Espagne croît plus vite que la France, mais renchérit plus vite</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Énergie : ce que la France tire de ses champs et que l&#39;Espagne laisse filer</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Logement en Espagne : un déficit d&#39;offre que les décrets ne traitaient pas, des zones tendues à l&#39;épreuve des chiffres</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>Le Bulletin Rilamax est publié par RILAMAX 2025 SL. Les résumés sont rédigés par nos soins à partir des sources citées. Les lectures Rilamax sont des analyses générales et ne constituent pas des conseils d&#39;investissement personnalisés. Veille et rédaction assistées par l&#39;IA. Sélection, vérification et analyse : Jean Marc Pavia.</p></footer>
+</div>
+
+
+<div class="edition" data-lang="es" lang="es" hidden>
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>Francia</span><span class="line" aria-hidden="true"></span><span>España</span></div>
+    <div class="titlerow">
+      <h1>El Boletín Rilamax</h1>
+      <div class="langs" role="group" aria-label="Idioma"><button type="button" data-set="fr" aria-pressed="false">FR</button><button type="button" data-set="es" aria-pressed="true">ES</button></div>
+    </div>
+    <div class="meta"><span>N.º 6 · Semana 45</span><span>Del 2 al 7 de noviembre de 2026</span><span>Lectura: 20 minutos</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sumario">
+  <div class="wrap"><ul>
+    <li><a href="#es-edito">El editorial</a></li>
+    <li><a href="#es-cifras">Las cifras</a></li>
+    <li><a href="#es-dossier">El dossier</a></li>
+    <li><a href="#es-fr">Francia</a></li>
+    <li><a href="#es-es">España</a></li>
+    <li><a href="#es-agenda">A vigilar</a></li>
+    <li><a href="#es-glosario">Glosario</a></li>
+    <li><a href="/archivo/?lang=es">Todas las ediciones</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="es-edito">
+    <h2>Dos parlamentos, dos textos en suspenso</h2>
+    <div class="edito">
+      <div class="body">
+        <p>El miércoles 4 de noviembre, la Asamblea Nacional francesa, cámara baja del Parlamento, rechazó la parte de ingresos del presupuesto de 2027 por 458 votos a cero, con dos abstenciones. Las adiciones fiscales aprobadas por los diputados caen con el texto, y el Senado parte de la versión del Gobierno a partir del 20 de noviembre. Un inversor que hubiera incorporado a sus escenarios el apport-cession (mecanismo que permite diferir la plusvalía al aportar títulos a una sociedad holding propia) o la tributación de las multinacionales debe retirarlos, al menos por ahora.</p><p>En Madrid la situación es simétrica. Las Cortes están disueltas, las elecciones se celebran el 29 de noviembre y el Real Decreto-ley 29/2026, que cambia la fiscalidad de los alquileres turísticos desde el 1 de diciembre, espera el voto de la Diputación Permanente, la comisión que ejerce las funciones del Congreso durante la disolución. El Gobierno llega a las urnas sin presupuestos nuevos desde 2023.</p><p>Las situaciones presupuestarias no admiten comparación. Francia apunta a un déficit del 5,0 % en 2027, tras el 5,4 % esperado en 2026; el Gobierno español prevé un 2,1 % para 2026. Por un lado, unas finanzas frágiles y un texto inestable; por otro, unas cuentas más sanas y un marco fiscal y de alquileres pendiente de las urnas. Para quien opera a ambos lados de los Pirineos, las dos incertidumbres se acumulan.</p><p>En empleo, el contraste es igual de marcado. España cuenta con 490.586 extranjeros regularizados con empleo declarado a finales de octubre; Francia concedió 1.655 títulos de residencia por «métiers en tension» (profesiones con escasez de mano de obra) en 2025. El dossier de la semana examina qué cambia esa diferencia para el mercado laboral y las cotizaciones, con cifras oficiales.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Los tres puntos clave</h3>
+        <ol><li>Para quien invierte en Francia, las enmiendas fiscales de los diputados quedan sin efecto: el Senado parte del texto inicial el 20 de noviembre.</li><li>España vota el 29 de noviembre con un decreto fiscal sobre vivienda aún por convalidar.</li><li>490.586 extranjeros regularizados tienen empleo declarado en España, con un efecto macroeconómico limitado.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="es-cifras">
+    <h2>Las cifras de la semana</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>71.139</strong><span>Procedimientos de insolvencia de empresas en Francia acumulados en doce meses hasta finales de septiembre de 2026, un 4,4 % más en un año.</span><em class="cmp-o es">España: 1.601 procedimientos concursales de sociedades en el 2.º trimestre de 2026, +11,6 % interanual (Colegio de Registradores); perímetro y ritmo de publicación distintos.</em><small>Banco de Francia</small></div><div class="fig fr"><strong>7.300 M€</strong><span>Déficit comercial de Francia en septiembre de 2026, 1.300 M€ mayor que el mes anterior; 64.400 M€ en doce meses.</span><em class="cmp-o es">España: 7.800 M€ en agosto y 45.800 M€ en enero-agosto (Ministerio de Economía, publicado el 20 de octubre).</em><small>Aduanas francesas</small></div><div class="fig fr"><strong>5,9 %</strong><span>Déficit público mencionado en el debate para 2027 si se mantuvieran las enmiendas de los diputados, frente a un objetivo del 5,0 %.</span><em class="cmp-o es">España: 2,1 % previsto para 2026 (Gobierno español, abril de 2026).</em><small>Asamblea Nacional, debates del 4 de noviembre</small></div><div class="fig es"><strong>490.586</strong><span>Extranjeros regularizados afiliados a la Seguridad Social a finales de octubre de 2026.</span><em class="cmp-o fr">Francia: 1.655 títulos «métiers en tension» concedidos en 2025 (Ministerio del Interior); dispositivos de naturaleza distinta.</em><small>Seguridad Social</small></div><div class="fig es"><strong>14.488 M€</strong><span>Gasto de los turistas internacionales en España en septiembre de 2026, +8,1 % interanual.</span><em class="cmp-o fr">Turistas franceses en España: 1.054.668 en septiembre (−1,5 %), con un gasto de unos 1.000 M€ (+6,5 %) (INE).</em><small>INE (Egatur)</small></div><div class="fig es"><strong>188.000 t</strong><span>Aceite de oliva retirado del mercado español de noviembre de 2026 a septiembre de 2027, el 12 % de la producción estimada.</span><em class="cmp-o fr">Sin dato comparable fiable en Francia esta semana.</em><small>Ministerio de Agricultura</small></div>
+    </div>
+  </section>
+
+  
+  <section id="es-dossier" class="dossier">
+    <h2>El dossier: Regularización en España: medio millón de afiliados, un efecto macroeconómico limitado</h2>
+    <p class="intro">A finales de octubre, 490.586 extranjeros regularizados por el procedimiento extraordinario abierto en primavera figuraban en la Seguridad Social, cuya afiliación total alcanzó un récord de 22,6 millones. El paro registrado, sin embargo, subió en 43.128 personas, el mayor aumento en un mes de octubre desde la pandemia. Medimos qué cambia la operación para el mercado laboral y las cotizaciones, con el dispositivo francés como espejo: su ventana se cierra el 31 de diciembre.</p>
+    <div class="dfigs"><div><strong>1.174.978</strong><span>solicitudes presentadas hasta el 30 de junio de 2026, cuando el Gobierno preveía hasta 500.000 beneficiarios</span></div><div><strong>490.586</strong><span>regularizados afiliados a la Seguridad Social a finales de octubre, frente a 262.475 el 30 de julio</span></div><div><strong>+27.744</strong><span>aumento del paro registrado de extranjeros en octubre, el 64 % del aumento total (+43.128)</span></div><div><strong>0,03 puntos</strong><span>de PIB de media hasta 2050: efecto estimado por la AIReF (autoridad fiscal independiente) sobre las finanzas de la Seguridad Social</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. El origen: un real decreto, 1,17 millones de solicitudes</h3>
+        <p>El 27 de enero de 2026, el Gobierno español aprobó por real decreto una regularización extraordinaria, tras una iniciativa legislativa popular firmada por más de 600.000 personas y negociaciones con Podemos. Podían acogerse las personas presentes en España antes del 31 de diciembre de 2025 y con al menos cinco meses de residencia. El centro de estudios Funcas calculaba en unos 840.000 los extranjeros en situación irregular a principios de 2025, el 91 % de ellos latinoamericanos. El Gobierno anunciaba hasta 500.000 beneficiarios.</p><p>La presentación de solicitudes transcurrió de abril al 30 de junio y produjo 1.174.978 expedientes, más del doble de lo anunciado. En el balance oficial del 2 de julio, 609.737 expedientes habían sido admitidos a trámite, lo que abre una autorización provisional de residencia y trabajo, y unas 11.000 personas habían recibido una resolución favorable definitiva. El Gobierno disponía de tres meses para resolver el resto; que sepamos, no se ha publicado ningún nuevo balance nacional desde entonces.</p>
+        
+        
+        
+      
+        
+        <h3>2. Las posiciones de los actores y la opacidad administrativa</h3>
+        <p>El Gobierno presenta la medida como una herramienta económica: el Banco de España y la ONU estiman que el país necesita unos 300.000 trabajadores migrantes al año ante el envejecimiento. Según un reportaje de franceinfo (medio público francés), cuenta con el apoyo tanto de la izquierda como de la patronal, en una economía construida sobre el turismo y la agricultura. Sus detractores invocan un efecto llamada y una presión sobre los servicios públicos; el PP propone prohibir por ley las regularizaciones colectivas.</p><p>La administración, por su parte, se retrasa. El silencio más allá de tres meses equivale a una denegación, lo que deja numerosos expedientes en una zona gris. Despachos de abogados estiman, sobre sus propias muestras, que unos siete de cada diez expedientes seguían sin resolución definitiva a mediados de octubre. Una denegación hace perder la habilitación provisional para trabajar. Para el empleador, el riesgo es por tanto administrativo antes que económico.</p>
+        
+        
+        
+      
+        
+        <h3>3. Los efectos medidos: sobre todo empleo declarado</h3>
+        <p>A 30 de julio, 262.475 regularizados tenían empleo declarado. A finales de octubre son 490.586, de ellos el 75,2 % en el régimen general y el 5,9 % autónomos. La afiliación media alcanza 22.624.165 tras una ganancia mensual de 186.612, la mayor para un mes de octubre de la serie. Según una economista citada por la cadena COPE, un tercio de los nuevos afiliados del mes eran extranjeros.</p><p>El paro registrado subió en 43.128 personas, hasta 2.422.633, aunque sigue en su nivel más bajo para un mes de octubre desde 2007. El de los extranjeros aumenta en 27.744 personas (+6,9 %), hasta 427.407, el 64 % del aumento. Según la misma economista, parte de esa subida se debe a personas que se inscriben ahora como demandantes de empleo. La AIReF cifra en unos 1.070 M€ las cotizaciones del primer año y en 0,03 puntos de PIB el efecto medio en el periodo.</p><p>Fedea y BBVA Research juzgan que la afiliación de extranjeros podría crecer un 17 %, pero que la diferencia de PIB con y sin regularización es positiva sin ser estadísticamente significativa; también esperan una moderación de los salarios reales. La propia Seguridad Social pidió prudencia mientras queden cientos de miles de expedientes por tramitar.</p>
+        
+<figure class="chart" aria-label="Tres barras: solicitudes presentadas, expedientes admitidos a trámite, regularizados con empleo declarado">
+  
+  <div class="bar-row"><span class="lbl">Solicitudes presentadas</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 1.175.000</span></div><div class="bar-row"><span class="lbl">Expedientes admitidos a trámite</span><span class="bar"><span class="fill w52 c-es"></span></span><span class="val">≈ 610.000</span></div><div class="bar-row"><span class="lbl">Regularizados con empleo declarado</span><span class="bar"><span class="fill w42 c-es"></span></span><span class="val">≈ 491.000</span></div>
+  <figcaption>España, 2026 (solicitudes a 30 de junio, admisiones a 2 de julio, afiliados a finales de octubre). Fuentes: Ministerio de Inclusión vía InfoMigrante; Seguridad Social vía El Salto.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. El contrapunto francés: una regularización a cuentagotas</h3>
+        <p>En Francia, la población extranjera alcanza 6,3 millones de personas en 2025, el 9,1 % de la población, según el Insee (Instituto Nacional de Estadística francés), y los inmigrantes representan el 12 % de los activos. Su tasa de empleo es del 62 % frente al 70 % de los nativos, y su tasa de paro del 12 % frente al 7 %. No hemos encontrado una serie española equivalente publicada esta semana: España publica aquí afiliaciones administrativas; Francia, encuestas.</p><p>El dispositivo francés es individual y permanente, salvo la vía «métiers en tension» (profesiones con escasez de mano de obra), creada por la ley del 26 de enero de 2024 y abierta hasta el 31 de diciembre de 2026: tres años de residencia y doce meses de salario en veinticuatro. Solo dio lugar a 1.655 títulos en 2025, sobre 9.690 admisiones excepcionales a la residencia (AES) por motivos económicos, y según el ministro del Interior solo se había tramitado la mitad de los expedientes. Las regularizaciones retrocedieron un 42 % en los nueve primeros meses de 2025, tras la circular del 23 de enero de 2025.</p>
+        
+<figure class="chart" aria-label="Admisiones a la residencia: Francia y España">
+  
+  <div class="bar-row"><span class="lbl">Francia: títulos «métiers en tension»</span><span class="bar"><span class="fill w1 c-es"></span></span><span class="val">1.655</span></div><div class="bar-row"><span class="lbl">Francia: AES por motivos económicos</span><span class="bar"><span class="fill w2 c-es"></span></span><span class="val">9.690</span></div><div class="bar-row"><span class="lbl">España: expedientes admitidos a trámite</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 610.000</span></div>
+  <figcaption>Francia 2025; España julio de 2026. Perímetros distintos: dispositivo francés individual, dispositivo español excepcional y colectivo. Fuentes: DGEF (Dirección General de Extranjeros en Francia) vía InfoMigrants; ministerio español vía InfoMigrante.</figcaption>
+</figure>
+
+        
+        
+        <div class="debate"><h4>El debate</h4><p>A favor: la regularización convierte trabajo informal en empleo declarado, amplía la base de cotización, responde a una necesidad de mano de obra que el Banco de España cifra en unas 300.000 personas al año y cuenta con el apoyo de la patronal. En contra: la AIReF y Fedea juzgan limitado el efecto macroeconómico, el dispositivo puede moderar los salarios reales, sus críticos temen un efecto llamada y presión sobre los servicios públicos, y la administración no ha publicado ningún balance de las resoluciones definitivas. Según El Independiente, el 60 % de los nuevos afiliados procedentes del proceso ya trabajaba en la economía informal, lo que refuerza la lectura de «formalización» pero relativiza la creación de empleo. La evidencia no es concluyente ni sobre los salarios ni sobre los servicios públicos.</p></div>
+        
+      
+        
+        <h3>5. Qué hay que vigilar</h3>
+        <p>La primera cita es un balance nacional de las resoluciones definitivas, que el ministerio no ha hecho público desde julio. La segunda son las elecciones del 29 de noviembre: el PP propone prohibir por ley las regularizaciones colectivas, pero el texto no está redactado y no se precisa su efecto sobre las autorizaciones ya concedidas.</p><p>Para las empresas con plantilla en España, los sectores de empleo de los regularizados importan tanto como los volúmenes. El reportaje de franceinfo cita el turismo y la agricultura, pero no hemos encontrado un desglose oficial reciente por ramas. La Seguridad Social ha publicado el reparto por régimen; no dice nada de los salarios, el dato que indicará si se confirma la moderación anunciada por Fedea.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lectura Rilamax</h4><p>Las cifras muestran sobre todo una formalización. El récord de afiliación, 22,6 millones, incluye a personas que ya trabajaban, al menos en parte, en la economía informal según la prensa económica española; compararlo con la creación de empleo en Francia sin ajustar sobrestima la dinámica. En el plano presupuestario, la AIReF sitúa la ganancia en torno a 1.000 M€ el primer año, un orden de magnitud marginal para las cuentas públicas: el argumento financiero es real, pero pequeño. Para una empresa con plantilla en hostelería o agricultura, el efecto útil es un mercado laboral más fluido y, si los datos de salarios lo confirman, menos presión salarial. Quien compare con Francia verá dos modelos: uno colectivo y rápido, con riesgo administrativo, y otro individual y lento, que en 2025 apenas dio 1.655 títulos «métiers en tension». El riesgo principal es administrativo: un trabajador con autorización provisional cuyo expediente se deniega pierde el derecho a trabajar, y el empleador debe poder acreditarlo. Tras el 29 de noviembre, un inversor debería valorar dos escenarios, continuidad o endurecimiento. La ausencia de un balance oficial de las resoluciones es, a nuestro juicio, la principal debilidad de la operación hasta hoy.</p></aside>
+    <div class="watch"><h4>Lo que vigilaremos</h4><p>Seguiremos un posible balance nacional de las resoluciones definitivas y las cifras de empleo de noviembre, a principios de diciembre, así como la posición del próximo Gobierno español.</p></div>
+    <p class="src">Fuentes: <a href="https://www.elsaltodiario.com/desempleo/afiliacion-bate-nuevo-record-octubre-impulsado-regularizacion-paro-sube-43-128-personas" target="_blank" rel="noopener">El Salto: afiliación y paro de octubre</a>, <a href="https://www.cronicadelhenares.com/2026/11/octubre-2026-record-afiliados-sube-paro-regularizacion.html" target="_blank" rel="noopener">La Crónica del Henares: datos de la Seguridad Social y el SEPE</a>, <a href="https://www.salamancahoy.es/economia/pensiones/regularizacion-millon-inmigrantes-apenas-impacto-cuentas-seguridad-20260529175612-ntrc.html" target="_blank" rel="noopener">Salamanca Hoy: estudio de la AIReF</a>, <a href="https://www.todoalicante.es/economia/trabajo/regularizacion-inmigrantes-apenas-impacto-economia-espanola-segun-20260527132755-ntrc.html" target="_blank" rel="noopener">Todoalicante: informe de Fedea y BBVA Research</a>, <a href="https://infomigrante.es/2026/10/16/seis-meses-de-regularizacion-extraordinaria-en-espana-mas-de-un-millon-de-solicitudes-y-pocas-respuestas-oficiales/" target="_blank" rel="noopener">InfoMigrante: balance a los seis meses</a>, <a href="https://www.la7tv.es/articulo/empleo/regularizacion-masiva-inmigrantes/20260804114301071818.html" target="_blank" rel="noopener">La7: afiliados regularizados a 30 de julio</a>, <a href="https://www.rts.ch/info/monde/2026/article/l-espagne-regularise-500-000-sans-papiers-pour-booster-son-economie-29132072.html" target="_blank" rel="noopener">RTS: anuncio y cifras de Funcas</a>, <a href="https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/reportage-l-espagne-va-regulariser-pres-de-500-000-migrants-presque-tous-sud-americains_7988648.html" target="_blank" rel="noopener">franceinfo: reportaje sobre la regularización</a>, <a href="https://www.infomigrants.net/fr/post/70926/immigration--1-655-titres-de-sejour-metiers-en-tension-ont-ete-delivres-en-2025-selon-laurent-nunez" target="_blank" rel="noopener">InfoMigrants: títulos «métiers en tension» en 2025</a>, <a href="https://www.insee.fr/fr/statistiques/3633212" target="_blank" rel="noopener">Insee: inmigrantes y extranjeros</a>, <a href="https://www.immigration.interieur.gouv.fr/documentation/etudes-et-statistiques/activite-emploi-et-chomage-des-immigres-de-2015-a-2025.html" target="_blank" rel="noopener">Ministerio del Interior de Francia: actividad, empleo y paro de los inmigrantes</a></p>
+  </section>
+
+  <section id="es-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">Francia</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalidad</span>
+    <h3>Presupuesto 2027: la Asamblea rechaza los ingresos por 458 votos a cero y decaen las adiciones fiscales</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El Gobierno francés presentó el proyecto de ley de presupuestos (PLF) de 2027 el 1 de octubre, con un objetivo de déficit del 5,0 % del PIB frente al 5,4 % esperado en 2026. Durante tres semanas, los diputados modificaron la parte de ingresos, entre otras con las medidas comentadas en nuestras dos últimas ediciones: el apport-cession (diferimiento de la plusvalía al aportar títulos a una holding propia) y la tributación de las multinacionales según su actividad real en Francia. La votación solemne se había aplazado dos veces.</p></div>
+    <p class="sum">El miércoles 4 de noviembre, 458 de los 460 votantes rechazaron la parte de ingresos; se abstuvieron dos diputados comunistas y de ultramar. El rechazo arrastra todo el texto: el apartado de gastos, ya rechazado en comisión, no se debatió en el pleno. El Senado examinará a partir del 20 de noviembre la versión inicial, que prorroga un año la contribución excepcional sobre los beneficios (recargo temporal del impuesto de sociedades) de los grupos con una facturación de al menos 1.500 M€ (15,7 % o 31,4 % según el tamaño) e indexa un 2,1 % el baremo del impuesto sobre la renta. Una cifra avanzada en el debate sitúa el déficit en el 5,9 % si se mantuvieran las enmiendas. España: 2,1 % previsto para 2026, sin presupuesto nuevo desde 2023.</p>
+    <p class="src">Fuentes: <a href="https://www.france24.com/fr/france/20261104-assemblee-nationale-rejette-unanimite-en-premiere-lecture-budget-etat-2027-pib-finances" target="_blank" rel="noopener">France 24</a>, <a href="https://www.toutsurmesfinances.com/actualites/a/budget-2027-458-voix-contre-zero-pour-les-mesures-fiscales-votees-par-les-deputes-passent-a-la-trappe" target="_blank" rel="noopener">Toutsurmesfinances</a>, <a href="https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/examen-de-la-premiere-partie-du-projet-de-loi-de-finances-pour-2027" target="_blank" rel="noopener">Asamblea Nacional</a>, <a href="https://www.mooncard.co/fr/blog/plf-2027-entreprises-principales-mesures" target="_blank" rel="noopener">Mooncard: medidas del PLF para las empresas</a>, <a href="https://portal.mineco.gob.es/MediaArticulo/20260430_InformeProgresoAnual_2026.pdf" target="_blank" rel="noopener">Ministerio de Economía de España: informe de progreso 2026</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Un inversor español que construya una estructura entre los dos países debería trabajar con dos escenarios: el texto del Senado, próximo al proyecto inicial, y un texto final de compromiso todavía abierto. Las medidas votadas en la Asamblea carecen por ahora de alcance jurídico; incorporarlas a un cálculo de rentabilidad sería prematuro.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Política y sociedad</span>
+    <h3>Huelga del 5 de noviembre: 575.000 manifestantes según Interior, 1,6 millones según la CGT, sin cálculo del coste</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Desde el 17 de octubre se suceden cada semana manifestaciones contra la carestía de la vida. Los disturbios del fin de semana del 17 y 18 de octubre podrían costar hasta 1.200 M€ a las aseguradoras, según la agencia Morningstar DBRS. La intersindical (frente común de los sindicatos franceses) convocó para el 5 de noviembre una jornada nacional por los salarios y el poder adquisitivo, cuya preparación avanzábamos en la edición anterior.</p></div>
+    <p class="sum">El Ministerio del Interior cuenta 575.000 manifestantes, 65.000 de ellos en París; la CGT (Confédération générale du travail, una de las grandes centrales sindicales francesas) reivindica cerca de 1,6 millones. A las 18:00, el balance provisional hablaba de 448 detenciones, 53 miembros de las fuerzas del orden heridos y 86 intervenciones por incendios. En la función pública del Estado, el 9,89 % de los empleados secundaba la huelga a media jornada, frente al 4,60 % en la función pública territorial (ayuntamientos, departamentos y regiones) y el 3,93 % en la hospitalaria. Los sábados anteriores, el ministerio había contado 550.000 personas el 17 de octubre, 410.000 el 24 y 320.000 el 31. No hemos encontrado ninguna estimación cuantificada del coste económico de la jornada. Sin dato comparable fiable en España esta semana.</p>
+    <p class="src">Fuentes: <a href="https://www.franceinfo.fr/economie/greve/greve/pres-de-1-6-million-de-personnes-ont-defile-en-france-lors-de-la-mobilisation-du-5-novembre-selon-la-cgt-575-000-selon-le-ministere-de-l-interieur_8269868.html" target="_blank" rel="noopener">franceinfo: balance de la movilización</a>, <a href="https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html" target="_blank" rel="noopener">franceinfo: directo del 5 de noviembre</a>, <a href="https://www.publicsenat.fr/actualites/economie/violences-urbaines-du-17-octobre-un-bilan-qui-surpasse-deja-celui-de-precedents-episodes" target="_blank" rel="noopener">Public Sénat: violencia del 17 de octubre</a>, <a href="https://www.economiematin.fr/assurance-plus-chere-emeutes-2026-impact-menages-cout-degats" target="_blank" rel="noopener">Économie Matin: seguros y disturbios</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>La movilización repunta tras tres semanas de descenso, lo que descarta una extinción rápida del movimiento. Para una empresa con centros en Francia, el coste se mide en días de actividad perdidos y en primas de seguros, dos partidas que conviene documentar desde ya: algunas aseguradoras ya hablan de subidas de primas a partir de 2027.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Empresas e inversión</span>
+    <h3>Insolvencias: 71.139 procedimientos en doce meses, pero 1,3 millones de creaciones de empresas</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Tras la ralentización de los años de pandemia, el Banco de Francia ha observado un rebote de las insolvencias (procedimientos de salvaguarda, reorganización y liquidación judicial). Un estudio publicado este verano estima que ese rebote ya no explica por sí solo los niveles alcanzados por las pymes sin contar las microempresas, las ETI y las grandes empresas. A finales de agosto, el acumulado en doce meses era de 70.766.</p></div>
+    <p class="sum">Publicado el viernes 6 de noviembre, el acumulado a finales de septiembre alcanza 71.139, frente a 70.768 un mes antes: un 4,4 % más en un año y un 19,9 % por encima de la media de 2010-2019. Todos los sectores suben salvo la industria y los servicios a empresas, con alzas marcadas en la agricultura (+12,7 %) y en finanzas y seguros (+11 %). Sesenta y dos ETI (empresas de tamaño intermedio, de 250 a 5.000 empleados) o grandes empresas abrieron un procedimiento, un 40,9 % más en un año. El Insee cuenta más de 1,3 millones de creaciones en doce meses (+12,2 %). España: 1.601 procedimientos de sociedades en el segundo trimestre (+11,6 %, Colegio de Registradores) y 7.526 sociedades creadas en agosto (+5,7 %, INE); perímetros distintos.</p>
+    <p class="src">Fuentes: <a href="https://www.optionfinance.fr/actualites/nouvelle-hausse-des-defaillances-dentreprise-a-fin-septembre.html" target="_blank" rel="noopener">Option Finance</a>, <a href="https://www.boursorama.com/actualite-economique/actualites/france-legere-hausse-des-defaillances-d-entreprises-en-septembre-banque-de-france-4253670283d16055b8feecd4d07754d8" target="_blank" rel="noopener">Boursorama (AFP)</a>, <a href="https://www.moncloa.com/2026/08/11/concursos-acreedores-2026-colegio-registradores-3413961" target="_blank" rel="noopener">Moncloa.com: concursos del 2.º trimestre</a>, <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177026&amp;menu=ultiDatos&amp;idp=1254735576606" target="_blank" rel="noopener">INE: sociedades mercantiles, agosto de 2026</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>El número de creaciones no dice nada de la solidez de las contrapartes: el aumento de procedimientos afecta también a las ETI. Un proveedor o un inversor español expuesto a clientes franceses debería revisar sus plazos de cobro y sus límites de seguro de crédito.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Energía</span>
+    <h3>Interconexión del golfo de Vizcaya: cables terrestres en tendido, puesta en servicio a finales de 2027 o principios de 2028</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El enlace entre Gatika (Bizkaia) y Cubnezais (Gironda) debe elevar la capacidad de intercambio entre los dos países de 2.800 a 5.000 MW. Lo promueve Inelfe, sociedad conjunta de RTE (gestor de la red eléctrica francesa) y Red Eléctrica, y la Unión Europea lo ha clasificado como proyecto de interés común. La obra ha sufrido tres paradas y más de seis meses de suspensión por vertidos de bentonita.</p></div>
+    <p class="sum">El 29 de octubre, Red Eléctrica anunció el inicio del tendido de los cables subterráneos en el lado español, 13 km entre Gatika y Lemoiz. Con la fase de agosto, la totalidad de los cables marinos del tramo vizcaíno está instalada. Los trabajos en el mar se reanudan frente a Gipuzkoa de noviembre de 2026 a febrero de 2027, y todos los tramos en aguas francesas deben tenderse en el verano de 2027. El proyecto está ejecutado al 70 %, con una puesta en servicio prevista a finales de 2027 o principios de 2028 según el presidente de Redeia. El trazado cuenta con 276 km bajo el mar. Los 5.000 MW buscados se reparten entre ambas redes; no se ha publicado ninguna cifra francesa por separado.</p>
+    <p class="src">Fuentes: <a href="https://www.smartgridsinfo.es/2026/11/04/interconexion-electrica-francia-inicia-tendido-13-kilometros-cables-subterraneos" target="_blank" rel="noopener">Smartgridsinfo</a>, <a href="https://elperiodicodelaenergia.com/la-interconexion-electrica-con-francia-por-el-golfo-de-vizcaya-ejecutada-al-70" target="_blank" rel="noopener">El Periódico de la Energía</a>, <a href="https://www.energynews.es/interconexion-electrica-francia-golfo-vizcaya-cable-submarino/" target="_blank" rel="noopener">Energynews</a>, <a href="https://www.inelfe.eu/en/projects/bay-biscay" target="_blank" rel="noopener">Inelfe</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Para una industria electrointensiva, el efecto esperado es una mayor convergencia de precios entre los dos mercados, pero no antes de 2028. Los contratos de suministro firmados hoy para 2028 en adelante deberían contemplar dos escenarios de precios, con y sin el nuevo enlace.</p></aside>
+</article>
+  </section>
+
+  <section id="es-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">España</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalidad</span>
+    <h3>Real Decreto-ley 29/2026: IVA del 10 % a los alquileres turísticos desde el 1 de diciembre, si se convalida</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El 2 de octubre, el Congreso rechazó dos reales decretos-ley sobre vivienda (172 votos a favor y 178 en contra en uno; 166 y 184 en el otro). El Gobierno los retomó el 6 de octubre en dos textos, entre ellos el Real Decreto-ley (RDL) 29/2026, que concentra las medidas fiscales y se aplica desde el 8 de octubre. Al estar disueltas las Cortes, la convalidación corresponde a la Diputación Permanente, que dispone de treinta días hábiles.</p></div>
+    <p class="sum">El texto afecta al IRPF, al IVA, al IBI, a la plusvalía municipal y al impuesto de no residentes. El 1 de diciembre, el alquiler amueblado de 30 noches o menos deja de estar exento de IVA y pasa al 10 %, también para los propietarios no residentes, que pasan a ser sujetos pasivos. Los ayuntamientos de zonas tensionadas podrán recargar el IBI de las viviendas turísticas hasta un 150 %. Los inquilinos de rentas bajas recuperan una deducción del 10 % del alquiler. Sin convalidación antes del 1 de diciembre, el IVA no se aplica. Se baraja la votación para el 12 de noviembre, sin fecha confirmada por el Congreso a 6 de noviembre. Francia: sin medida equivalente cuantificada en las fuentes de la semana.</p>
+    <p class="src">Fuentes: <a href="https://notariasbarcelona.es/real-decreto-ley-29-2026-novedades-fiscales/" target="_blank" rel="noopener">Notarías de Barcelona</a>, <a href="https://fiscaly.com/rdl-29-2026-todas-las-medidas-fiscales-de-vivienda-y-sus-fechas/" target="_blank" rel="noopener">Fiscaly</a>, <a href="https://provivienda.org/observatorio/real-decreto-ley-26-2026-que-cambia-en-el-precio-del-alquiler-y-la-vivienda-asequible/" target="_blank" rel="noopener">Provivienda</a>, <a href="https://gestionatualojamiento.com/convalidacion-del-decreto-de-vivienda/" target="_blank" rel="noopener">Gestiona tu alojamiento: escenarios de convalidación</a>, <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823" target="_blank" rel="noopener">BOE: RDL 29/2026</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Un propietario de un inmueble turístico en España debería cuantificar dos escenarios antes del 1 de diciembre: con un IVA del 10 %, que obliga a darse de alta, facturar y presentar declaraciones, y sin él. El rendimiento neto depende de que pueda recuperarse el IVA de los gastos. Las elecciones del 29 de noviembre añaden una segunda incertidumbre.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Regulación</span>
+    <h3>Aceite de oliva: España retira 188.000 toneladas del mercado, un mecanismo activado por primera vez</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Los precios del aceite de oliva subieron con fuerza tras sequías y olas de calor que afectaron a las cosechas, y después bajaron con la recuperación de la producción. Las organizaciones agrarias reclamaban un mecanismo de regulación de la oferta para evitar un desplome de las cotizaciones. España representa en torno al 45 % de la producción mundial y el 70 % de la de la UE según su Ministerio, porcentajes que varían según las cosechas.</p></div>
+    <p class="sum">El Ministerio de Agricultura activa por primera vez el mecanismo de regulación de la oferta: 188.000 toneladas, el 12 % de la producción, se almacenarán de noviembre a septiembre de 2027. La campaña se estima en 1.602.596 toneladas, con 357.000 toneladas de existencias iniciales. La medida pretende frenar la caída de los precios en origen; también puede retrasar la de los precios al consumo. El sector cuenta con más de 350.000 agricultores. Sin cifra comparable fiable en Francia esta semana.</p>
+    <p class="src">Fuentes: <a href="https://www.agropopular.com/aceite-agricultura-61126" target="_blank" rel="noopener">Agropopular: revista de prensa</a>, <a href="https://es.euronews.com/2026/11/06/espana-ordena-almacenar-12-produccion-aceite-oliva" target="_blank" rel="noopener">Euronews (español)</a>, <a href="https://www.euronews.com/2026/11/06/why-spain-is-taking-188000-tonnes-of-olive-oil-off-the-market" target="_blank" rel="noopener">Euronews (inglés)</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Para un envasador o exportador español, la medida puede sostener los precios de compra durante la campaña. Los contratos indexados a la cotización española, también los de venta a distribuidores franceses, son los primeros afectados; el primer recuento de existencias dirá si el efecto es duradero.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Empresas e inversión</span>
+    <h3>Deoleo: Dcoop y Acesur compran el líder mundial del aceite de oliva de marca por 520 M€</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Deoleo, propietaria de Carbonell, Hojiblanca, Koipe, Bertolli y Carapelli, estaba en el centro de una puja desde hacía varios meses entre la alianza de los grupos andaluces Dcoop y Acesur y un dúo formado por la italiana Coricelli y la española Migasa. Los fondos CVC y Alchemy detentan el 50 % y el 40 % del capital, respectivamente.</p></div>
+    <p class="sum">El 5 de noviembre, Deoleo aceptó la oferta conjunta de Dcoop y Acesur, que valora Deoleo Holding en 520 M€ incluida la deuda, por el 91,99 % del capital, a partes iguales. La oferta rival, elevada a 530 M€, no fue elegida; según El Español, los vendedores prefirieron las garantías financieras y el calendario de cierre. La operación exige autorizaciones regulatorias y el voto de los accionistas, con cierre previsto en seis a ocho meses. Los activos se repartirán entre los compradores para cumplir los requisitos de competencia: Acesur se quedaría con Bertolli para Estados Unidos. Dcoop factura unos 1.500 M€. Sin dato comparable fiable en Francia.</p>
+    <p class="src">Fuentes: <a href="https://elespanol.com/invertia/empresas/20261104/dcoop-acesur-compran-conjuntamente-deoleo-imponerse-oferta-coricelli-migasa/1003744446779_0.html" target="_blank" rel="noopener">El Español (4 de noviembre)</a>, <a href="https://www.elespanol.com/invertia/empresas/20261106/dcoop-acesur-reconfiguran-andalucia-mapa-mundial-aceite-compra-deoleo/1003744448086_0.html" target="_blank" rel="noopener">El Español (6 de noviembre)</a>, <a href="https://www.euronews.com/2026/11/06/why-spain-is-taking-188000-tonnes-of-olive-oil-off-the-market" target="_blank" rel="noopener">Euronews</a>, <a href="https://www.agronewscastillayleon.com/deoleo-acesur-dcoop-compra-520-millones" target="_blank" rel="noopener">Agronews Castilla y León</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>La consolidación se hace entre actores españoles, y el control de la competencia condiciona el reparto de las marcas. Para quien trabaje con estas marcas, en España o en Francia, el punto a vigilar es el calendario de la reorganización, que puede cambiar los interlocutores comerciales y las condiciones de suministro.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Política y sociedad</span>
+    <h3>Elecciones del 29 de noviembre: una España sin presupuestos nuevos desde 2023 y programas fiscales opuestos</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El Gobierno convocó elecciones anticipadas tras el rechazo, el 2 de octubre, de los dos reales decretos-ley de vivienda por parte del Congreso. Las Cortes están disueltas y las reformas en curso quedan en suspenso, entre ellas la reducción de la jornada laboral a 37,5 horas, retirada tras el veto de tres grupos. El Ejecutivo llega a las urnas sin presupuestos nuevos desde 2023.</p></div>
+    <p class="sum">La campaña transcurre del 13 al 27 de noviembre. Antes de la publicación de los programas completos, se conocen las líneas generales. El PP propone una bajada del IRPF, un IVA del 0 % en los alimentos básicos, un IVA del 10 % en la energía, presupuestos anuales y la prohibición legal de las regularizaciones colectivas. El PSOE defiende una fiscalidad más progresiva, el mantenimiento de los decretos de vivienda, un salario mínimo de al menos el 60 % del salario medio y la semana de 36 horas en 2030. En el plano presupuestario, el Gobierno español prevé un déficit del 2,1 % en 2026, frente al 5,4 % esperado en Francia.</p>
+    <p class="src">Fuentes: <a href="https://forbes.es/actualidad/1036705/elecciones-2026-batallas-economicas-29-n/" target="_blank" rel="noopener">Forbes España</a>, <a href="https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp" target="_blank" rel="noopener">Política Electoral: programa del PP</a>, <a href="https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe" target="_blank" rel="noopener">Política Electoral: programa del PSOE</a>, <a href="https://aquienvoto.es/elecciones/generales-2026/temas/economia" target="_blank" rel="noopener">A quién voto: economía</a>, <a href="https://winahost.com/blog/elecciones-29n-alquiler-turistico" target="_blank" rel="noopener">Winahost: calendario electoral</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Las urnas afectan a dos terrenos para un inversor con exposición a ambos lados de los Pirineos: la fiscalidad de la vivienda en alquiler y el marco del trabajo extranjero. Las diferencias entre programas son lo bastante nítidas como para justificar dos escenarios en los planes a doce meses. Los programas completos no estaban publicados al cierre de esta edición.</p></aside>
+</article>
+  </section>
+
+  <section id="es-agenda">
+    <h2>A vigilar en las próximas semanas</h2>
+    <ul class="agenda"><li><span class="when">9 de noviembre</span><span class="what">Francia: inicio del examen en el Senado del presupuesto de la Seguridad Social francesa (PLFSS)</span></li><li><span class="when">Mediados de noviembre</span><span class="what">España: votación esperada de la Diputación Permanente sobre los reales decretos-ley de vivienda 28 y 29/2026 (se baraja el 12 de noviembre, sin confirmación oficial)</span></li><li><span class="when">A partir del 20 de noviembre</span><span class="what">Francia: examen del PLF 2027 en el pleno del Senado, sobre el texto inicial del Gobierno</span></li><li><span class="when">29 de noviembre</span><span class="what">España: elecciones generales, con campaña del 13 al 27 de noviembre</span></li><li><span class="when">1 de diciembre</span><span class="what">España: IVA del 10 % a los alquileres amueblados de 30 noches o menos, si se convalida el Real Decreto-ley 29/2026</span></li></ul>
+  </section>
+
+  
+  <section id="es-glosario">
+    <h2>Las siglas de esta edición</h2>
+    <dl class="glossary"><div><dt>AES</dt><dd>Admission exceptionnelle au séjour: vía francesa de regularización caso por caso, con una rama «métiers en tension» (profesiones con escasez de mano de obra) abierta hasta el 31 de diciembre de 2026.</dd></div><div><dt>AIReF</dt><dd>Autoridad Independiente de Responsabilidad Fiscal: organismo español que evalúa las previsiones y las cuentas públicas, comparable al Haut Conseil des finances publiques francés.</dd></div><div><dt>Apport-cession</dt><dd>Mecanismo fiscal francés por el que un contribuyente aporta títulos a una sociedad holding que controla; la tributación de la plusvalía se difiere si el producto de la venta se reinvierte en determinadas condiciones.</dd></div><div><dt>CGT</dt><dd>Confédération générale du travail: una de las grandes centrales sindicales francesas. En la jornada del 5 de noviembre cifró la asistencia en cerca de 1,6 millones, frente a los 575.000 del Ministerio del Interior.</dd></div><div><dt>Diputación Permanente</dt><dd>Comisión del Congreso que ejerce sus funciones cuando las Cortes están disueltas, entre otras la convalidación de los reales decretos-ley.</dd></div><div><dt>ETI</dt><dd>Entreprises de taille intermédiaire: categoría estadística francesa de empresas de entre 250 y 5.000 empleados, situada entre la pyme y la gran empresa.</dd></div><div><dt>IBI</dt><dd>Impuesto sobre Bienes Inmuebles, que cobran los ayuntamientos; el Real Decreto-ley 29/2026 permite recargarlo en las viviendas turísticas de zonas tensionadas.</dd></div><div><dt>Inelfe</dt><dd>Sociedad conjunta de RTE, gestor de la red eléctrica francesa, y Red Eléctrica que construye el enlace submarino entre Francia y España por el golfo de Vizcaya.</dd></div><div><dt>PLF</dt><dd>Projet de loi de finances: proyecto de ley de presupuestos del Estado francés, equivalente a los Presupuestos Generales del Estado; su primera parte, la de ingresos, se vota antes que la de gastos.</dd></div><div><dt>RDL</dt><dd>Real Decreto-ley: norma con rango de ley que aprueba el Gobierno por urgencia y que el Congreso debe convalidar en treinta días hábiles.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">Suscribirse en LinkedIn</a>
+  </section>
+
+  
+  <section id="es-archivo" class="archive">
+    <h2>Ediciones anteriores</h2>
+    <ul><li><a href="/ediciones/2026-10-31/">N° 5 — Ganar unas elecciones no es una licencia de piloto</a><span>2026-10-31</span></li><li><a href="/ediciones/2026-10-24/">N° 4 — Disturbios e inundaciones: dos modelos para pagar un riesgo que se desboca</a><span>2026-10-24</span></li><li><a href="/ediciones/2026-10-17/">N° 3 — Inflación: España crece más deprisa que Francia, pero se encarece más deprisa</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Energía: lo que Francia saca de sus campos y España deja escapar</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Vivienda en España: un déficit de oferta que los decretos no abordaban y unas zonas tensionadas puestas a prueba por los datos</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>El Boletín Rilamax lo publica RILAMAX 2025 SL. Los resúmenes son de elaboración propia a partir de las fuentes citadas. Las lecturas Rilamax son análisis generales y no constituyen asesoramiento de inversión personalizado. Seguimiento y redacción asistidos por IA. Selección, verificación y análisis: Jean Marc Pavia.</p></footer>
+</div>
+
+
+<script>
+(function(){
+  var titles={fr:"Le Bulletin Rilamax \u2014 N\u00b0 6",es:"El Bolet\u00edn Rilamax \u2014 N.\u00ba 6"};
+  function setLang(l){
+    document.querySelectorAll('.edition').forEach(function(e){e.hidden=e.dataset.lang!==l});
+    document.querySelectorAll('.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});
+    document.documentElement.lang=l; document.title=titles[l];
+    try{localStorage.setItem('rilamax-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set);window.scrollTo(0,0)})});
+  var p=new URLSearchParams(location.search).get('lang'); var saved=null;
+  try{saved=localStorage.getItem('rilamax-lang')}catch(e){}
+  var l=(p==='es'||p==='fr')?p:saved; if(l==='es'||l==='fr') setLang(l);
+  // Detalle del gráfico de mix al pasar el ratón, tocar o enfocar un segmento
+  document.querySelectorAll('figure.mix').forEach(function(fig){
+    var info=fig.querySelector('.mix-info'); if(!info) return;
+    fig.querySelectorAll('.seg').forEach(function(sg){
+      function show(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});sg.classList.add('on');info.textContent=sg.getAttribute('data-tip');info.classList.add('act')}
+      sg.addEventListener('mouseenter',show);sg.addEventListener('focus',show);sg.addEventListener('click',show);
+    });
+    fig.addEventListener('mouseleave',function(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});info.textContent=info.getAttribute('data-default');info.classList.remove('act')});
+  });
+  // Animación de los gráficos al aparecer en pantalla
+  try{
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(!reduce&&'IntersectionObserver' in window){
+      var charts=document.querySelectorAll('figure.chart');
+      charts.forEach(function(c){c.classList.add('pre')});
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target)}})},{threshold:.35});
+      charts.forEach(function(c){io.observe(c)});
+    }
+  }catch(e){}
+})();
+</script>
+</body>
+</html>

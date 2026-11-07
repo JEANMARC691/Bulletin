@@ -1,0 +1,1009 @@
+{
+  "meta": {
+    "numero": 6,
+    "fecha": "2026-11-07",
+    "semana": 45
+  },
+  "fr": {
+    "editorial": {
+      "titulo": "Deux parlements, deux textes en suspens",
+      "parrafos": [
+        "Mercredi 4 novembre, l'Assemblée nationale a rejeté la partie recettes du budget 2027 par 458 voix contre zéro, deux abstentions mises à part. Les ajouts fiscaux votés par les députés tombent avec le texte, et le Sénat repart de la copie du gouvernement à partir du 20 novembre. Un investisseur qui avait intégré l'apport-cession ou la taxation des multinationales dans ses scénarios doit les retirer, au moins pour l'instant.",
+        "À Madrid, la situation est symétrique. Les Cortes (le Parlement espagnol) sont dissoutes, les élections ont lieu le 29 novembre, et le décret-loi 29/2026, qui change la fiscalité des locations touristiques dès le 1er décembre, attend le vote de la Diputación Permanente, la commission qui exerce les pouvoirs du Congrès pendant la dissolution. Le gouvernement arrive au scrutin sans budget nouveau depuis 2023.",
+        "Les situations budgétaires n'ont rien de comparable. La France vise un déficit de 5,0 % en 2027, après 5,4 % attendus en 2026 ; le gouvernement espagnol prévoit 2,1 % pour 2026. D'un côté des finances fragiles et un texte instable, de l'autre des comptes plus sains et un cadre fiscal et locatif suspendu à un scrutin. Pour qui opère des deux côtés, les deux incertitudes se cumulent.",
+        "Sur l'emploi, le contraste est tout aussi net. L'Espagne compte 490 586 étrangers régularisés en emploi déclaré à fin octobre ; la France a délivré 1 655 titres « métiers en tension » en 2025. Le dossier de la semaine examine ce que cet écart change pour le marché du travail et pour les cotisations, chiffres officiels à l'appui."
+      ],
+      "puntos_clave": [
+        "La France repart du texte initial sur les recettes 2027 : le Sénat l'examine dès le 20 novembre.",
+        "L'Espagne vote le 29 novembre avec un décret fiscal sur le logement encore à convalider.",
+        "490 586 étrangers régularisés ont un emploi déclaré en Espagne, pour un effet macroéconomique limité."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "71 139",
+        "texto": "Défaillances d'entreprises en France cumulées sur douze mois à fin septembre 2026, 4,4 % de plus en un an.",
+        "fuente": "Banque de France",
+        "pais": "fr",
+        "comparacion": "Espagne : 1 601 procédures de sociétés au 2e trimestre 2026, +11,6 % sur un an (Colegio de Registradores) ; périmètre et rythme de publication différents."
+      },
+      {
+        "valor": "7,3 Md€",
+        "texto": "Déficit commercial de la France en septembre 2026, aggravé de 1,3 Md€ en un mois ; 64,4 Md€ sur douze mois.",
+        "fuente": "Douanes françaises",
+        "pais": "fr",
+        "comparacion": "Espagne : 7,8 Md€ en août et 45,8 Md€ sur janvier-août (ministère de l'Économie, publié le 20 octobre)."
+      },
+      {
+        "valor": "5,9 %",
+        "texto": "Déficit public évoqué en séance pour 2027 si les amendements des députés étaient maintenus, contre une cible de 5,0 %.",
+        "fuente": "Assemblée nationale, débats du 4 novembre",
+        "pais": "fr",
+        "comparacion": "Espagne : 2,1 % prévu pour 2026 (gouvernement espagnol, avril 2026)."
+      },
+      {
+        "valor": "490 586",
+        "texto": "Étrangers régularisés inscrits à la Sécurité sociale espagnole à fin octobre 2026.",
+        "fuente": "Seguridad Social",
+        "pais": "es",
+        "comparacion": "France : 1 655 titres « métiers en tension » délivrés en 2025 (ministère de l'Intérieur) ; dispositifs de nature différente."
+      },
+      {
+        "valor": "14 488 M€",
+        "texto": "Dépense des touristes internationaux en Espagne en septembre 2026, +8,1 % sur un an.",
+        "fuente": "INE (Egatur)",
+        "pais": "es",
+        "comparacion": "Touristes français en Espagne : 1 054 668 en septembre (−1,5 %), pour une dépense d'environ 1 Md€ (+6,5 %) (INE)."
+      },
+      {
+        "valor": "188 000 t",
+        "texto": "Huile d'olive retirée du marché espagnol de novembre 2026 à septembre 2027, soit 12 % de la production estimée.",
+        "fuente": "Ministère espagnol de l'Agriculture",
+        "pais": "es",
+        "comparacion": "Pas de donnée comparable fiable côté français cette semaine."
+      }
+    ],
+    "dossier": {
+      "titulo": "Régularisation en Espagne : un demi-million d'affiliés, un effet macroéconomique limité",
+      "intro": "Fin octobre, 490 586 étrangers régularisés par la procédure extraordinaire ouverte au printemps figuraient à la Sécurité sociale espagnole, dont l'affiliation totale a atteint un record de 22,6 millions. Le chômage enregistré a pourtant augmenté de 43 128 personnes, la plus forte hausse pour un mois d'octobre depuis la pandémie. Nous mesurons ce que l'opération change pour le marché du travail et les cotisations, avec en miroir le dispositif français, dont la fenêtre se ferme le 31 décembre.",
+      "cifras": [
+        {
+          "valor": "1 174 978",
+          "texto": "demandes déposées jusqu'au 30 juin 2026, alors que le gouvernement visait jusqu'à 500 000 bénéficiaires"
+        },
+        {
+          "valor": "490 586",
+          "texto": "régularisés inscrits à la Sécurité sociale fin octobre, contre 262 475 au 30 juillet"
+        },
+        {
+          "valor": "+27 744",
+          "texto": "hausse du chômage enregistré des étrangers en octobre, soit 64 % de la hausse totale (+43 128)"
+        },
+        {
+          "valor": "0,03 point",
+          "texto": "de PIB en moyenne d'ici 2050 : l'effet estimé par l'AIReF sur les finances de la Sécurité sociale"
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. L'origine : un décret royal, 1,17 million de demandes",
+          "parrafos": [
+            "Le 27 janvier 2026, le gouvernement espagnol a adopté par décret royal une régularisation extraordinaire, à la suite d'une initiative populaire signée par plus de 600 000 personnes et de discussions avec Podemos. Étaient visées les personnes présentes avant le 31 décembre 2025 et résidant depuis au moins cinq mois. Le centre d'études Funcas évaluait à environ 840 000 les étrangers en situation irrégulière début 2025, dont 91 % de Latino-Américains. Le gouvernement annonçait jusqu'à 500 000 bénéficiaires.",
+            "Le dépôt des demandes a couru d'avril au 30 juin et produit 1 174 978 dossiers, soit plus du double de l'annonce initiale. Au bilan officiel du 2 juillet, 609 737 dossiers avaient été admis à instruction, ce qui ouvre un permis provisoire de résidence et de travail, et environ 11 000 personnes avaient reçu une décision favorable définitive. Le gouvernement disposait de trois mois pour traiter le reste ; à notre connaissance, aucun nouveau bilan national n'a été publié depuis."
+          ]
+        },
+        {
+          "titulo": "2. Les positions des acteurs et le flou administratif",
+          "parrafos": [
+            "Le gouvernement présente la mesure comme un outil économique : la Banque d'Espagne et l'ONU estiment que le pays a besoin d'environ 300 000 travailleurs migrants par an face au vieillissement. Selon un reportage de franceinfo, elle est soutenue à la fois par la gauche et par le patronat, dans une économie bâtie sur le tourisme et l'agriculture. Ses opposants invoquent un effet d'appel et une pression sur les services publics ; le Parti populaire (PP, droite) propose d'interdire par la loi les régularisations collectives.",
+            "L'administration, elle, traîne. Le silence au-delà de trois mois vaut rejet, ce qui laisse de nombreux dossiers dans une zone grise. Des cabinets d'avocats estiment, sur leurs propres échantillons, qu'environ sept dossiers sur dix restaient sans décision définitive mi-octobre. Un refus fait perdre l'habilitation provisoire à travailler. Pour l'employeur, le risque est donc administratif avant d'être économique."
+          ]
+        },
+        {
+          "titulo": "3. Les effets mesurés : de l'emploi déclaré avant tout",
+          "parrafos": [
+            "Au 30 juillet, 262 475 régularisés étaient en emploi déclaré. À fin octobre, ils sont 490 586, dont 75,2 % au régime général et 5,9 % indépendants. L'affiliation moyenne atteint 22 624 165 après un gain mensuel de 186 612, le plus fort pour un mois d'octobre de la série. Selon une économiste citée par la radio COPE, un tiers des nouveaux affiliés du mois étaient étrangers.",
+            "Le chômage enregistré a progressé de 43 128 personnes, à 2 422 633, tout en restant à son plus bas niveau pour un mois d'octobre depuis 2007. Celui des étrangers gagne 27 744 personnes (+6,9 %), à 427 407, soit 64 % de la hausse. Selon la même économiste, une part de cette hausse tient à des personnes qui s'inscrivent désormais comme demandeurs d'emploi. L'AIReF, l'autorité budgétaire indépendante espagnole, chiffre à environ 1,07 Md€ les cotisations de la première année, et à 0,03 point de PIB l'effet moyen sur la période.",
+            "Fedea (centre de recherche économique) et BBVA Research jugent que l'affiliation des étrangers pourrait progresser de 17 %, mais que l'écart de PIB avec et sans régularisation est positif sans être statistiquement significatif ; ils attendent aussi une modération des salaires réels. La Sécurité sociale a elle-même demandé de la prudence tant que des centaines de milliers de dossiers restent à traiter."
+          ]
+        },
+        {
+          "titulo": "4. Le contrepoint français : une régularisation au compte-gouttes",
+          "parrafos": [
+            "En France, la population étrangère atteint 6,3 millions de personnes en 2025, soit 9,1 % de la population, selon l'Insee, et les immigrés représentent 12 % des actifs. Leur taux d'emploi est de 62 % contre 70 % pour les natifs, et leur taux de chômage de 12 % contre 7 %. Nous n'avons pas trouvé de série espagnole équivalente publiée cette semaine : l'Espagne publie ici des affiliations administratives, la France des enquêtes.",
+            "Le dispositif français est individuel et permanent, sauf la voie « métiers en tension », créée par la loi du 26 janvier 2024 et ouverte jusqu'au 31 décembre 2026 : trois ans de résidence et douze mois de salaire sur vingt-quatre. Elle n'a donné lieu qu'à 1 655 titres en 2025, sur 9 690 admissions exceptionnelles au séjour (AES) à titre économique, et la moitié seulement des dossiers avait été instruite selon le ministre de l'Intérieur. Les régularisations ont reculé de 42 % sur les neuf premiers mois de 2025, après la circulaire du 23 janvier 2025."
+          ]
+        },
+        {
+          "titulo": "5. Ce qu'il faut regarder",
+          "parrafos": [
+            "Le premier rendez-vous est un bilan national des décisions définitives, que le ministère n'a pas rendu public depuis juillet. Le second est le scrutin du 29 novembre : le PP propose l'interdiction légale des régularisations collectives, mais le texte n'est pas rédigé et son effet sur les autorisations déjà accordées n'est pas précisé.",
+            "Pour les entreprises françaises implantées en Espagne, les secteurs d'emploi des régularisés comptent autant que les volumes. Le reportage de franceinfo cite le tourisme et l'agriculture, mais nous n'avons pas trouvé de ventilation officielle récente par branche. La Sécurité sociale a publié la répartition par régime ; elle ne dit rien des salaires, la donnée qui dira si la modération annoncée par Fedea se vérifie."
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "despues_de_seccion": 3,
+          "aria": "Trois barres : demandes déposées, dossiers admis à instruction, régularisés en emploi déclaré",
+          "pie": "Espagne, 2026 (demandes au 30 juin, admissions au 2 juillet, affiliés fin octobre). Sources : ministère de l'Inclusion via InfoMigrante ; Sécurité sociale via El Salto.",
+          "barras": [
+            {
+              "etiqueta": "Demandes déposées",
+              "valor": 1174978,
+              "texto": "≈ 1 175 000",
+              "pct": 100
+            },
+            {
+              "etiqueta": "Dossiers admis à instruction",
+              "valor": 609737,
+              "texto": "≈ 610 000",
+              "pct": 52
+            },
+            {
+              "etiqueta": "Régularisés en emploi déclaré",
+              "valor": 490586,
+              "texto": "≈ 491 000",
+              "pct": 42
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 4,
+          "aria": "Admissions au séjour : France et Espagne",
+          "pie": "France 2025 ; Espagne juillet 2026. Périmètres différents : dispositif français individuel, dispositif espagnol exceptionnel et collectif. Sources : DGEF via InfoMigrants ; ministère espagnol via InfoMigrante.",
+          "barras": [
+            {
+              "etiqueta": "France : titres « métiers en tension »",
+              "valor": 1655,
+              "texto": "1 655",
+              "pct": 1
+            },
+            {
+              "etiqueta": "France : AES à titre économique",
+              "valor": 9690,
+              "texto": "9 690",
+              "pct": 2
+            },
+            {
+              "etiqueta": "Espagne : dossiers admis à instruction",
+              "valor": 609737,
+              "texto": "≈ 610 000",
+              "pct": 100
+            }
+          ]
+        }
+      ],
+      "debate": {
+        "despues_de_seccion": 4,
+        "texto": "Pour : la régularisation transforme du travail informel en emploi déclaré, élargit l'assiette des cotisations, répond à un besoin de main-d'œuvre que la Banque d'Espagne chiffre à environ 300 000 personnes par an et bénéficie du soutien du patronat. Contre : l'AIReF et Fedea jugent l'effet macroéconomique limité, le dispositif peut modérer les salaires réels, ses critiques redoutent un effet d'appel et une pression sur les services publics, et l'administration n'a publié aucun bilan des décisions définitives. Selon El Independiente, 60 % des nouveaux affiliés issus du processus travaillaient déjà dans l'économie informelle, ce qui conforte la lecture « formalisation » mais relativise les créations d'emplois. Les preuves ne sont pas concluantes sur les salaires ni sur les services publics."
+      },
+      "lectura": "Les chiffres montrent d'abord une formalisation. Le record d'affiliation espagnol de 22,6 millions inclut des personnes qui travaillaient déjà, au moins en partie, dans l'économie informelle selon la presse économique espagnole ; le comparer aux créations d'emplois françaises sans retraitement surestime la dynamique. Sur le plan budgétaire, l'AIReF situe le gain autour de 1 Md€ la première année, un ordre de grandeur marginal pour les finances publiques : l'argument financier est réel, mais petit. Pour une entreprise française présente en Espagne, l'effet utile est un marché du travail plus fluide dans l'hôtellerie et l'agriculture, avec une pression salariale plus faible si les données de salaires le confirment. Le risque principal est administratif : un salarié sous autorisation provisoire dont le dossier est rejeté perd son droit de travailler, et l'employeur doit pouvoir le démontrer. Après le 29 novembre, un investisseur devrait valoriser deux scénarios, continuité ou durcissement. L'absence de bilan officiel des décisions est, à nos yeux, la principale faiblesse de l'opération à ce jour.",
+      "vigilaremos": "Nous suivrons un éventuel bilan national des décisions définitives et les chiffres de l'emploi de novembre, début décembre, ainsi que la position du prochain gouvernement espagnol.",
+      "fuentes": [
+        {
+          "nombre": "El Salto : affiliation et chômage d'octobre",
+          "url": "https://www.elsaltodiario.com/desempleo/afiliacion-bate-nuevo-record-octubre-impulsado-regularizacion-paro-sube-43-128-personas"
+        },
+        {
+          "nombre": "La Crónica del Henares : données Sécurité sociale et SEPE",
+          "url": "https://www.cronicadelhenares.com/2026/11/octubre-2026-record-afiliados-sube-paro-regularizacion.html"
+        },
+        {
+          "nombre": "Salamanca Hoy : étude de l'AIReF",
+          "url": "https://www.salamancahoy.es/economia/pensiones/regularizacion-millon-inmigrantes-apenas-impacto-cuentas-seguridad-20260529175612-ntrc.html"
+        },
+        {
+          "nombre": "Todoalicante : rapport Fedea et BBVA Research",
+          "url": "https://www.todoalicante.es/economia/trabajo/regularizacion-inmigrantes-apenas-impacto-economia-espanola-segun-20260527132755-ntrc.html"
+        },
+        {
+          "nombre": "InfoMigrante : bilan à six mois",
+          "url": "https://infomigrante.es/2026/10/16/seis-meses-de-regularizacion-extraordinaria-en-espana-mas-de-un-millon-de-solicitudes-y-pocas-respuestas-oficiales/"
+        },
+        {
+          "nombre": "La7 : affiliés régularisés au 30 juillet",
+          "url": "https://www.la7tv.es/articulo/empleo/regularizacion-masiva-inmigrantes/20260804114301071818.html"
+        },
+        {
+          "nombre": "RTS : annonce et chiffres Funcas",
+          "url": "https://www.rts.ch/info/monde/2026/article/l-espagne-regularise-500-000-sans-papiers-pour-booster-son-economie-29132072.html"
+        },
+        {
+          "nombre": "franceinfo : reportage sur la régularisation",
+          "url": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/reportage-l-espagne-va-regulariser-pres-de-500-000-migrants-presque-tous-sud-americains_7988648.html"
+        },
+        {
+          "nombre": "InfoMigrants : titres « métiers en tension » en 2025",
+          "url": "https://www.infomigrants.net/fr/post/70926/immigration--1-655-titres-de-sejour-metiers-en-tension-ont-ete-delivres-en-2025-selon-laurent-nunez"
+        },
+        {
+          "nombre": "Insee : immigrés et étrangers",
+          "url": "https://www.insee.fr/fr/statistiques/3633212"
+        },
+        {
+          "nombre": "Ministère de l'Intérieur : activité, emploi et chômage des immigrés",
+          "url": "https://www.immigration.interieur.gouv.fr/documentation/etudes-et-statistiques/activite-emploi-et-chomage-des-immigres-de-2015-a-2025.html"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Fiscalité",
+        "titulo": "Budget 2027 : l'Assemblée rejette les recettes par 458 voix contre zéro, les ajouts fiscaux tombent",
+        "contexto": "Le gouvernement a déposé le projet de loi de finances (PLF) 2027 le 1er octobre, avec un objectif de déficit de 5,0 % du PIB contre 5,4 % attendus en 2026. Pendant trois semaines, les députés ont modifié la partie recettes, notamment avec les mesures commentées dans nos deux dernières éditions : l'apport-cession et la taxation des multinationales selon leur activité réelle en France. Le vote solennel avait été reporté deux fois.",
+        "resumen": "Mercredi 4 novembre, 458 des 460 votants ont rejeté la partie recettes, deux élus communistes et ultramarins s'abstenant. Le rejet emporte tout le texte : le volet dépenses, déjà repoussé en commission, n'a pas été débattu en séance. Le Sénat examinera à partir du 20 novembre la version initiale, qui prolonge d'un an la contribution exceptionnelle sur les bénéfices des groupes réalisant au moins 1,5 Md€ de chiffre d'affaires (15,7 % ou 31,4 % selon la taille) et indexe le barème de l'impôt sur le revenu de 2,1 %. Un chiffrage avancé en séance situe à 5,9 % le déficit si les amendements étaient maintenus. Espagne : 2,1 % prévu pour 2026, sans budget nouveau depuis 2023.",
+        "lectura": "Un investisseur qui construit un montage entre les deux pays devrait travailler avec deux scénarios : le texte du Sénat, proche du projet initial, et un texte final de compromis encore ouvert. Les mesures votées à l'Assemblée n'ont plus de portée juridique à ce stade ; les intégrer dans un calcul de rendement serait prématuré.",
+        "fuentes": [
+          {
+            "nombre": "France 24",
+            "url": "https://www.france24.com/fr/france/20261104-assemblee-nationale-rejette-unanimite-en-premiere-lecture-budget-etat-2027-pib-finances"
+          },
+          {
+            "nombre": "Toutsurmesfinances",
+            "url": "https://www.toutsurmesfinances.com/actualites/a/budget-2027-458-voix-contre-zero-pour-les-mesures-fiscales-votees-par-les-deputes-passent-a-la-trappe"
+          },
+          {
+            "nombre": "Assemblée nationale",
+            "url": "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/examen-de-la-premiere-partie-du-projet-de-loi-de-finances-pour-2027"
+          },
+          {
+            "nombre": "Mooncard : mesures du PLF pour les entreprises",
+            "url": "https://www.mooncard.co/fr/blog/plf-2027-entreprises-principales-mesures"
+          },
+          {
+            "nombre": "Ministère espagnol de l'Économie : rapport de progrès 2026",
+            "url": "https://portal.mineco.gob.es/MediaArticulo/20260430_InformeProgresoAnual_2026.pdf"
+          }
+        ]
+      },
+      {
+        "rubrica": "Politique et société",
+        "titulo": "Grève du 5 novembre : 575 000 manifestants selon l'Intérieur, 1,6 million selon la CGT, sans chiffrage du coût",
+        "contexto": "Depuis le 17 octobre, des manifestations contre la vie chère se succèdent chaque semaine. Les violences du week-end des 17 et 18 octobre pourraient coûter jusqu'à 1,2 Md€ aux assureurs selon l'agence Morningstar DBRS. L'intersyndicale a appelé le 5 novembre à une journée nationale pour les salaires et le pouvoir d'achat, dont nous signalions la préparation dans l'édition précédente.",
+        "resumen": "Le ministère de l'Intérieur compte 575 000 manifestants, dont 65 000 à Paris ; la CGT en revendique près de 1,6 million. À 18 heures, le bilan provisoire faisait état de 448 interpellations, 53 membres des forces de l'ordre blessés et 86 interventions pour incendies. Dans la fonction publique d'État, 9,89 % des agents étaient grévistes à la mi-journée, contre 4,60 % dans la territoriale et 3,93 % à l'hôpital. Les samedis précédents, le ministère avait compté 550 000 personnes le 17 octobre, 410 000 le 24 et 320 000 le 31. Nous n'avons trouvé aucune estimation chiffrée du coût économique de la journée. Pas de donnée comparable fiable côté espagnol cette semaine.",
+        "lectura": "La mobilisation remonte après trois semaines de baisse, ce qui écarte une extinction rapide du mouvement. Pour une entreprise qui exploite des sites en France, le coût se mesure en jours d'activité perdus et en primes d'assurance, deux postes à documenter dès maintenant : des assureurs évoquent déjà des hausses de primes dès 2027.",
+        "fuentes": [
+          {
+            "nombre": "franceinfo : bilan de la mobilisation",
+            "url": "https://www.franceinfo.fr/economie/greve/greve/pres-de-1-6-million-de-personnes-ont-defile-en-france-lors-de-la-mobilisation-du-5-novembre-selon-la-cgt-575-000-selon-le-ministere-de-l-interieur_8269868.html"
+          },
+          {
+            "nombre": "franceinfo : direct du 5 novembre",
+            "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html"
+          },
+          {
+            "nombre": "Public Sénat : violences du 17 octobre",
+            "url": "https://www.publicsenat.fr/actualites/economie/violences-urbaines-du-17-octobre-un-bilan-qui-surpasse-deja-celui-de-precedents-episodes"
+          },
+          {
+            "nombre": "Économie Matin : assurances et émeutes",
+            "url": "https://www.economiematin.fr/assurance-plus-chere-emeutes-2026-impact-menages-cout-degats"
+          }
+        ]
+      },
+      {
+        "rubrica": "Entreprises et investissement",
+        "titulo": "Défaillances : 71 139 procédures sur douze mois, mais 1,3 million de créations d'entreprises",
+        "contexto": "Après un ralentissement pendant les années Covid, la Banque de France a observé un rattrapage des défaillances. Une étude publiée cet été estime que ce rattrapage n'explique plus à lui seul les niveaux atteints par les PME hors microentreprises, les ETI et les grandes entreprises. À fin août, le cumul sur douze mois atteignait 70 766.",
+        "resumen": "Publié vendredi 6 novembre, le cumul à fin septembre atteint 71 139, contre 70 768 un mois plus tôt : 4,4 % de plus en un an et 19,9 % au-dessus de la moyenne 2010-2019. Tous les secteurs progressent sauf l'industrie et les services aux entreprises, avec des hausses marquées dans l'agriculture (+12,7 %) et la finance-assurance (+11 %). Soixante-deux ETI (entreprises de taille intermédiaire, de 250 à 5 000 salariés) ou grandes entreprises ont ouvert une procédure, 40,9 % de plus en un an. L'Insee compte plus de 1,3 million de créations sur douze mois (+12,2 %). Espagne : 1 601 procédures de sociétés au 2e trimestre (+11,6 %, Colegio de Registradores) et 7 526 sociétés créées en août (+5,7 %, INE) ; périmètres différents.",
+        "lectura": "Le nombre de créations ne dit rien de la solidité des contreparties : la hausse des procédures touche aussi les ETI. Un fournisseur ou un investisseur exposé à des clients français devrait revoir ses délais de paiement et ses plafonds d'assurance-crédit.",
+        "fuentes": [
+          {
+            "nombre": "Option Finance",
+            "url": "https://www.optionfinance.fr/actualites/nouvelle-hausse-des-defaillances-dentreprise-a-fin-septembre.html"
+          },
+          {
+            "nombre": "Boursorama (AFP)",
+            "url": "https://www.boursorama.com/actualite-economique/actualites/france-legere-hausse-des-defaillances-d-entreprises-en-septembre-banque-de-france-4253670283d16055b8feecd4d07754d8"
+          },
+          {
+            "nombre": "Moncloa.com : concursos du 2e trimestre",
+            "url": "https://www.moncloa.com/2026/08/11/concursos-acreedores-2026-colegio-registradores-3413961"
+          },
+          {
+            "nombre": "INE : sociétés mercantiles, août 2026",
+            "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177026&menu=ultiDatos&idp=1254735576606"
+          }
+        ]
+      },
+      {
+        "rubrica": "Énergie",
+        "titulo": "Interconnexion du golfe de Gascogne : câbles terrestres en cours de pose, mise en service fin 2027 ou début 2028",
+        "contexto": "La liaison entre Gatika, au Pays basque espagnol, et Cubnezais, en Gironde, doit porter la capacité d'échange entre les deux pays de 2 800 à 5 000 MW. Elle est portée par Inelfe, société commune de RTE (gestionnaire du réseau électrique français) et de Red Eléctrica, son homologue espagnol, et classée projet d'intérêt commun par l'Union européenne. Le chantier a connu trois arrêts et plus de six mois de suspension liés à des rejets de bentonite.",
+        "resumen": "Le 29 octobre, Red Eléctrica a annoncé le début de la pose des câbles souterrains côté espagnol, soit 13 km entre Gatika et Lemoiz. Avec la phase d'août, la totalité des câbles marins de la partie biscayenne est installée. Les travaux en mer reprennent au large du Guipuscoa de novembre 2026 à février 2027, et tous les tronçons en eaux françaises doivent être posés à l'été 2027. Le projet est exécuté à 70 %, avec une mise en service attendue fin 2027 ou début 2028 selon le PDG de Redeia. Le tracé compte 276 km sous la mer. Les 5 000 MW visés se partagent entre les deux réseaux ; aucun chiffre français distinct n'a été publié.",
+        "lectura": "Pour un industriel gros consommateur d'électricité, l'effet attendu est une meilleure convergence des prix entre les deux marchés, mais pas avant 2028. Les contrats d'approvisionnement conclus aujourd'hui pour 2028 et au-delà devraient prévoir deux scénarios de prix, avec et sans la nouvelle liaison.",
+        "fuentes": [
+          {
+            "nombre": "Smartgridsinfo",
+            "url": "https://www.smartgridsinfo.es/2026/11/04/interconexion-electrica-francia-inicia-tendido-13-kilometros-cables-subterraneos"
+          },
+          {
+            "nombre": "El Periódico de la Energía",
+            "url": "https://elperiodicodelaenergia.com/la-interconexion-electrica-con-francia-por-el-golfo-de-vizcaya-ejecutada-al-70"
+          },
+          {
+            "nombre": "Energynews",
+            "url": "https://www.energynews.es/interconexion-electrica-francia-golfo-vizcaya-cable-submarino/"
+          },
+          {
+            "nombre": "Inelfe",
+            "url": "https://www.inelfe.eu/en/projects/bay-biscay"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Fiscalité",
+        "titulo": "Décret-loi 29/2026 : TVA de 10 % sur les locations touristiques dès le 1er décembre, si la convalidation aboutit",
+        "contexto": "Le 2 octobre, le Congrès a rejeté deux décrets-lois sur le logement (172 voix contre 178 pour l'un, 166 contre 184 pour l'autre). Le gouvernement les a repris le 6 octobre en deux textes, dont le décret-loi (RDL) 29/2026, qui concentre les mesures fiscales et s'applique depuis le 8 octobre. Les Cortes étant dissoutes, la convalidation revient à la Diputación Permanente, qui dispose de trente jours ouvrables.",
+        "resumen": "Le texte touche l'IRPF (impôt sur le revenu espagnol), la TVA, la taxe foncière locale (IBI), la plus-value municipale et l'impôt des non-résidents. Au 1er décembre, la location meublée de 30 nuits ou moins cesse d'être exonérée de TVA et passe à 10 %, y compris pour les propriétaires non résidents, qui deviennent assujettis. Les communes en zone tendue pourront majorer l'IBI des logements touristiques jusqu'à 150 %. Les locataires à faible revenu retrouvent une déduction de 10 % du loyer. Sans convalidation avant le 1er décembre, la TVA ne s'applique pas. Le vote est évoqué pour le 12 novembre, sans date confirmée par le Congrès au 6 novembre. France : pas de mesure équivalente chiffrée dans les sources de la semaine.",
+        "lectura": "Un propriétaire français d'un bien touristique en Espagne devrait chiffrer deux scénarios avant le 1er décembre : avec une TVA à 10 %, qui impose inscription, facturation et déclarations, et sans. Le rendement net dépend de la récupérabilité de la TVA sur les frais. Le scrutin du 29 novembre ajoute une seconde incertitude.",
+        "fuentes": [
+          {
+            "nombre": "Notarías de Barcelona",
+            "url": "https://notariasbarcelona.es/real-decreto-ley-29-2026-novedades-fiscales/"
+          },
+          {
+            "nombre": "Fiscaly",
+            "url": "https://fiscaly.com/rdl-29-2026-todas-las-medidas-fiscales-de-vivienda-y-sus-fechas/"
+          },
+          {
+            "nombre": "Provivienda",
+            "url": "https://provivienda.org/observatorio/real-decreto-ley-26-2026-que-cambia-en-el-precio-del-alquiler-y-la-vivienda-asequible/"
+          },
+          {
+            "nombre": "Gestiona tu alojamiento : scénarios de convalidation",
+            "url": "https://gestionatualojamiento.com/convalidacion-del-decreto-de-vivienda/"
+          },
+          {
+            "nombre": "BOE : RDL 29/2026",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823"
+          }
+        ]
+      },
+      {
+        "rubrica": "Réglementation",
+        "titulo": "Huile d'olive : l'Espagne retire 188 000 tonnes du marché, un mécanisme activé pour la première fois",
+        "contexto": "Les prix de l'huile d'olive ont fortement monté après des sécheresses et des canicules sur les récoltes, puis reculé avec le retour de la production. Les organisations agricoles réclamaient un mécanisme de régulation de l'offre pour éviter un effondrement des cours. L'Espagne représente environ 45 % de la production mondiale et 70 % de celle de l'UE selon son ministère, des parts qui varient selon les récoltes.",
+        "resumen": "Le ministère de l'Agriculture active pour la première fois le mécanisme de régulation de l'offre : 188 000 tonnes, soit 12 % de la production, seront stockées de novembre à septembre 2027. La campagne est estimée à 1 602 596 tonnes, avec 357 000 tonnes de stocks initiaux. La mesure vise à freiner la baisse des prix à la production ; elle peut aussi retarder celle des prix à la consommation. Le secteur compte plus de 350 000 agriculteurs. Pas de chiffre comparable fiable côté français cette semaine.",
+        "lectura": "Pour un distributeur ou un industriel français qui s'approvisionne en Espagne, la mesure peut jouer comme un soutien aux prix pendant la campagne. Les contrats indexés sur le cours espagnol sont les premiers concernés ; le premier relevé de stocks dira si l'effet est durable.",
+        "fuentes": [
+          {
+            "nombre": "Agropopular : revue de presse",
+            "url": "https://www.agropopular.com/aceite-agricultura-61126"
+          },
+          {
+            "nombre": "Euronews (espagnol)",
+            "url": "https://es.euronews.com/2026/11/06/espana-ordena-almacenar-12-produccion-aceite-oliva"
+          },
+          {
+            "nombre": "Euronews (anglais)",
+            "url": "https://www.euronews.com/2026/11/06/why-spain-is-taking-188000-tonnes-of-olive-oil-off-the-market"
+          }
+        ]
+      },
+      {
+        "rubrica": "Entreprises et investissement",
+        "titulo": "Deoleo : Dcoop et Acesur rachètent le leader mondial des huiles d'olive de marque pour 520 M€",
+        "contexto": "Deoleo, propriétaire de Carbonell, Hojiblanca, Koipe, Bertolli et Carapelli, était au centre d'une enchère depuis plusieurs mois entre l'alliance des groupes andalous Dcoop et Acesur et un duo formé de l'italien Coricelli et de l'espagnol Migasa. Les fonds CVC et Alchemy détiennent respectivement 50 % et 40 % du capital.",
+        "resumen": "Le 5 novembre, Deoleo a accepté l'offre commune de Dcoop et Acesur, qui valorise Deoleo Holding 520 M€ dette comprise pour 91,99 % du capital, à parts égales. L'offre rivale, relevée à 530 M€, n'a pas été retenue ; selon El Español, les vendeurs ont préféré les garanties financières et le calendrier de clôture. L'opération exige des autorisations réglementaires et un vote des actionnaires, avec une clôture attendue sous six à huit mois. Les actifs seront répartis entre les acheteurs pour répondre aux exigences de concurrence : Acesur reprendrait Bertolli pour les États-Unis. Dcoop réalise environ 1,5 Md€ de chiffre d'affaires. Pas de donnée comparable fiable côté français.",
+        "lectura": "La consolidation se fait entre acteurs espagnols, et le contrôle de la concurrence conditionne le partage des marques. Pour un distributeur français, le point à suivre est le calendrier de la réorganisation, qui peut modifier les interlocuteurs commerciaux et les conditions d'approvisionnement.",
+        "fuentes": [
+          {
+            "nombre": "El Español (4 novembre)",
+            "url": "https://elespanol.com/invertia/empresas/20261104/dcoop-acesur-compran-conjuntamente-deoleo-imponerse-oferta-coricelli-migasa/1003744446779_0.html"
+          },
+          {
+            "nombre": "El Español (6 novembre)",
+            "url": "https://www.elespanol.com/invertia/empresas/20261106/dcoop-acesur-reconfiguran-andalucia-mapa-mundial-aceite-compra-deoleo/1003744448086_0.html"
+          },
+          {
+            "nombre": "Euronews",
+            "url": "https://www.euronews.com/2026/11/06/why-spain-is-taking-188000-tonnes-of-olive-oil-off-the-market"
+          },
+          {
+            "nombre": "Agronews Castilla y León",
+            "url": "https://www.agronewscastillayleon.com/deoleo-acesur-dcoop-compra-520-millones"
+          }
+        ]
+      },
+      {
+        "rubrica": "Politique et société",
+        "titulo": "Élections du 29 novembre : une Espagne sans budget nouveau depuis 2023 et des programmes fiscaux opposés",
+        "contexto": "Le gouvernement a convoqué des élections anticipées après le rejet, le 2 octobre, des deux décrets-lois sur le logement par le Congrès. Les Cortes sont dissoutes et les réformes en cours restent en suspens, dont la réduction du temps de travail à 37,5 heures, retirée après le veto de trois groupes. L'exécutif arrive au scrutin sans budget nouveau depuis 2023.",
+        "resumen": "La campagne court du 13 au 27 novembre. Avant la publication des programmes complets, les lignes générales sont connues. Le PP propose une baisse de l'IRPF, une TVA à 0 % sur les produits alimentaires de base, une TVA à 10 % sur l'énergie, des budgets annuels et l'interdiction légale des régularisations collectives. Le PSOE défend une fiscalité plus progressive, le maintien des décrets logement, un salaire minimum d'au moins 60 % du salaire moyen et la semaine de 36 heures en 2030. Sur le plan budgétaire, le gouvernement espagnol prévoit 2,1 % de déficit en 2026, contre 5,4 % attendus en France.",
+        "lectura": "Le scrutin touche deux terrains pour un investisseur français : la fiscalité du logement locatif et l'encadrement du travail étranger. Les écarts entre programmes sont assez nets pour justifier deux scénarios dans les plans à douze mois. Les programmes complets n'étaient pas publiés à la clôture de cette édition.",
+        "fuentes": [
+          {
+            "nombre": "Forbes España",
+            "url": "https://forbes.es/actualidad/1036705/elecciones-2026-batallas-economicas-29-n/"
+          },
+          {
+            "nombre": "Política Electoral : programme du PP",
+            "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp"
+          },
+          {
+            "nombre": "Política Electoral : programme du PSOE",
+            "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe"
+          },
+          {
+            "nombre": "A quién voto : économie",
+            "url": "https://aquienvoto.es/elecciones/generales-2026/temas/economia"
+          },
+          {
+            "nombre": "Winahost : calendrier électoral",
+            "url": "https://winahost.com/blog/elecciones-29n-alquiler-turistico"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "9 novembre",
+        "que": "France : début de l'examen du budget de la Sécurité sociale (PLFSS) au Sénat"
+      },
+      {
+        "cuando": "Mi-novembre",
+        "que": "Espagne : vote attendu de la Diputación Permanente sur les décrets-lois logement 28 et 29/2026 (date du 12 novembre évoquée, non confirmée officiellement)"
+      },
+      {
+        "cuando": "À partir du 20 novembre",
+        "que": "France : examen du PLF 2027 en séance au Sénat, sur le texte initial du gouvernement"
+      },
+      {
+        "cuando": "29 novembre",
+        "que": "Espagne : élections générales, campagne du 13 au 27 novembre"
+      },
+      {
+        "cuando": "1er décembre",
+        "que": "Espagne : TVA de 10 % sur les locations meublées de 30 nuits ou moins, si le décret-loi 29/2026 est convalidé"
+      }
+    ],
+    "glosario": [
+      {
+        "sigla": "AES",
+        "definicion": "Admission exceptionnelle au séjour : voie française de régularisation au cas par cas, dont une branche « métiers en tension » est ouverte jusqu'au 31 décembre 2026."
+      },
+      {
+        "sigla": "AIReF",
+        "definicion": "Autoridad Independiente de Responsabilidad Fiscal : autorité budgétaire indépendante espagnole, comparable au Haut Conseil des finances publiques français."
+      },
+      {
+        "sigla": "Diputación Permanente",
+        "definicion": "Commission du Congrès espagnol qui exerce ses pouvoirs entre deux législatures ou pendant la dissolution des Cortes, notamment pour convalider les décrets-lois."
+      },
+      {
+        "sigla": "Fedea",
+        "definicion": "Fundación de Estudios de Economía Aplicada : centre de recherche économique espagnol, auteur d'un observatoire trimestriel du marché du travail."
+      },
+      {
+        "sigla": "IBI",
+        "definicion": "Impuesto sobre Bienes Inmuebles : taxe foncière espagnole, perçue par les communes, que le décret-loi 29/2026 permet de majorer pour les logements touristiques."
+      },
+      {
+        "sigla": "Inelfe",
+        "definicion": "Société commune de RTE et de Red Eléctrica qui construit la liaison électrique sous-marine entre la France et l'Espagne dans le golfe de Gascogne."
+      },
+      {
+        "sigla": "PLF",
+        "definicion": "Projet de loi de finances : texte annuel qui fixe les recettes et les dépenses de l'État français ; sa première partie porte sur les recettes."
+      },
+      {
+        "sigla": "RDL",
+        "definicion": "Real Decreto-ley : décret-loi espagnol pris par le gouvernement pour des cas d'urgence, valable sous réserve de convalidation par le Congrès dans les trente jours ouvrables."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "Le 4 novembre, 458 députés sur 460 ont voté contre la partie recettes du budget français 2027. Le même mois, l'Espagne compte 490 586 étrangers régularisés en emploi déclaré.\n\nLire l'édition complète, avec les graphiques et le dossier intégral : https://bulletin.rilamax.com\n\nÉditorial. La France et l'Espagne ont chacune un texte fiscal en suspens. À Paris, le rejet des recettes efface les ajouts des députés, dont l'apport-cession et la taxation des multinationales ; le Sénat reprend le texte initial à partir du 20 novembre. À Madrid, les Cortes sont dissoutes, les élections ont lieu le 29 novembre et le décret-loi 29/2026, qui soumet à une TVA de 10 % les locations touristiques de 30 nuits ou moins dès le 1er décembre, attend sa convalidation. La France vise 5,0 % de déficit en 2027 ; l'Espagne prévoit 2,1 % en 2026.\n\nÀ retenir : la France repart du texte initial sur les recettes 2027 ; l'Espagne vote avec un décret fiscal sur le logement encore à convalider ; 490 586 régularisés sont en emploi déclaré en Espagne, pour un effet macroéconomique limité.\n\nDossier. La régularisation extraordinaire espagnole a reçu 1 174 978 demandes, plus du double des 500 000 annoncées. Fin octobre, 490 586 régularisés étaient affiliés à la Sécurité sociale, contre 262 475 fin juillet, et l'affiliation totale atteint un record de 22,6 millions. Le chômage enregistré progresse pourtant de 43 128 personnes, dont 64 % de la hausse chez les étrangers. L'AIReF estime le gain de cotisations à environ 1,07 Md€ la première année et à 0,03 point de PIB en moyenne ; Fedea et BBVA Research jugent l'effet sur le PIB non significatif et attendent une modération des salaires réels. En France, la voie « métiers en tension » n'a donné que 1 655 titres en 2025 et se ferme le 31 décembre 2026. Notre lecture : l'Espagne formalise plus qu'elle ne crée, l'argument budgétaire est réel mais petit, et le risque pour l'employeur est administratif tant qu'aucun bilan des décisions définitives n'est publié.\n\nLire l'édition complète, avec les graphiques et le dossier intégral : https://bulletin.rilamax.com\n\nSelon vous, une entreprise qui opère des deux côtés des Pyrénées doit-elle bâtir ses plans 2027 sur le texte actuel ou sur un scénario de changement après le 29 novembre ?",
+      "post": "458 députés sur 460 ont rejeté la partie recettes du budget français 2027 le 4 novembre.\nÉdition complète et dossier : https://bulletin.rilamax.com\nÀ Madrid, l'incertitude est de même nature : les Cortes sont dissoutes, les élections ont lieu le 29 novembre et le décret-loi sur la TVA des locations touristiques attend sa convalidation. La France vise 5,0 % de déficit en 2027, l'Espagne prévoit 2,1 % en 2026. Côté emploi, l'Espagne compte 490 586 étrangers régularisés en emploi déclaré, la France a délivré 1 655 titres « métiers en tension » en 2025.\nQuel texte votre entreprise retient-elle pour ses prévisions 2027 : celui d'aujourd'hui ou celui d'après les scrutins ?\n#Espagne #Fiscalité #Investissement"
+    },
+    "minutos": 19
+  },
+  "es": {
+    "editorial": {
+      "titulo": "Dos parlamentos, dos textos en suspenso",
+      "parrafos": [
+        "El miércoles 4 de noviembre, la Asamblea Nacional francesa, cámara baja del Parlamento, rechazó la parte de ingresos del presupuesto de 2027 por 458 votos a cero, con dos abstenciones. Las adiciones fiscales aprobadas por los diputados caen con el texto, y el Senado parte de la versión del Gobierno a partir del 20 de noviembre. Un inversor que hubiera incorporado a sus escenarios el apport-cession (mecanismo que permite diferir la plusvalía al aportar títulos a una sociedad holding propia) o la tributación de las multinacionales debe retirarlos, al menos por ahora.",
+        "En Madrid la situación es simétrica. Las Cortes están disueltas, las elecciones se celebran el 29 de noviembre y el Real Decreto-ley 29/2026, que cambia la fiscalidad de los alquileres turísticos desde el 1 de diciembre, espera el voto de la Diputación Permanente, la comisión que ejerce las funciones del Congreso durante la disolución. El Gobierno llega a las urnas sin presupuestos nuevos desde 2023.",
+        "Las situaciones presupuestarias no admiten comparación. Francia apunta a un déficit del 5,0 % en 2027, tras el 5,4 % esperado en 2026; el Gobierno español prevé un 2,1 % para 2026. Por un lado, unas finanzas frágiles y un texto inestable; por otro, unas cuentas más sanas y un marco fiscal y de alquileres pendiente de las urnas. Para quien opera a ambos lados de los Pirineos, las dos incertidumbres se acumulan.",
+        "En empleo, el contraste es igual de marcado. España cuenta con 490.586 extranjeros regularizados con empleo declarado a finales de octubre; Francia concedió 1.655 títulos de residencia por «métiers en tension» (profesiones con escasez de mano de obra) en 2025. El dossier de la semana examina qué cambia esa diferencia para el mercado laboral y las cotizaciones, con cifras oficiales."
+      ],
+      "puntos_clave": [
+        "Para quien invierte en Francia, las enmiendas fiscales de los diputados quedan sin efecto: el Senado parte del texto inicial el 20 de noviembre.",
+        "España vota el 29 de noviembre con un decreto fiscal sobre vivienda aún por convalidar.",
+        "490.586 extranjeros regularizados tienen empleo declarado en España, con un efecto macroeconómico limitado."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "71.139",
+        "texto": "Procedimientos de insolvencia de empresas en Francia acumulados en doce meses hasta finales de septiembre de 2026, un 4,4 % más en un año.",
+        "fuente": "Banco de Francia",
+        "pais": "fr",
+        "comparacion": "España: 1.601 procedimientos concursales de sociedades en el 2.º trimestre de 2026, +11,6 % interanual (Colegio de Registradores); perímetro y ritmo de publicación distintos."
+      },
+      {
+        "valor": "7.300 M€",
+        "texto": "Déficit comercial de Francia en septiembre de 2026, 1.300 M€ mayor que el mes anterior; 64.400 M€ en doce meses.",
+        "fuente": "Aduanas francesas",
+        "pais": "fr",
+        "comparacion": "España: 7.800 M€ en agosto y 45.800 M€ en enero-agosto (Ministerio de Economía, publicado el 20 de octubre)."
+      },
+      {
+        "valor": "5,9 %",
+        "texto": "Déficit público mencionado en el debate para 2027 si se mantuvieran las enmiendas de los diputados, frente a un objetivo del 5,0 %.",
+        "fuente": "Asamblea Nacional, debates del 4 de noviembre",
+        "pais": "fr",
+        "comparacion": "España: 2,1 % previsto para 2026 (Gobierno español, abril de 2026)."
+      },
+      {
+        "valor": "490.586",
+        "texto": "Extranjeros regularizados afiliados a la Seguridad Social a finales de octubre de 2026.",
+        "fuente": "Seguridad Social",
+        "pais": "es",
+        "comparacion": "Francia: 1.655 títulos «métiers en tension» concedidos en 2025 (Ministerio del Interior); dispositivos de naturaleza distinta."
+      },
+      {
+        "valor": "14.488 M€",
+        "texto": "Gasto de los turistas internacionales en España en septiembre de 2026, +8,1 % interanual.",
+        "fuente": "INE (Egatur)",
+        "pais": "es",
+        "comparacion": "Turistas franceses en España: 1.054.668 en septiembre (−1,5 %), con un gasto de unos 1.000 M€ (+6,5 %) (INE)."
+      },
+      {
+        "valor": "188.000 t",
+        "texto": "Aceite de oliva retirado del mercado español de noviembre de 2026 a septiembre de 2027, el 12 % de la producción estimada.",
+        "fuente": "Ministerio de Agricultura",
+        "pais": "es",
+        "comparacion": "Sin dato comparable fiable en Francia esta semana."
+      }
+    ],
+    "dossier": {
+      "titulo": "Regularización en España: medio millón de afiliados, un efecto macroeconómico limitado",
+      "intro": "A finales de octubre, 490.586 extranjeros regularizados por el procedimiento extraordinario abierto en primavera figuraban en la Seguridad Social, cuya afiliación total alcanzó un récord de 22,6 millones. El paro registrado, sin embargo, subió en 43.128 personas, el mayor aumento en un mes de octubre desde la pandemia. Medimos qué cambia la operación para el mercado laboral y las cotizaciones, con el dispositivo francés como espejo: su ventana se cierra el 31 de diciembre.",
+      "cifras": [
+        {
+          "valor": "1.174.978",
+          "texto": "solicitudes presentadas hasta el 30 de junio de 2026, cuando el Gobierno preveía hasta 500.000 beneficiarios"
+        },
+        {
+          "valor": "490.586",
+          "texto": "regularizados afiliados a la Seguridad Social a finales de octubre, frente a 262.475 el 30 de julio"
+        },
+        {
+          "valor": "+27.744",
+          "texto": "aumento del paro registrado de extranjeros en octubre, el 64 % del aumento total (+43.128)"
+        },
+        {
+          "valor": "0,03 puntos",
+          "texto": "de PIB de media hasta 2050: efecto estimado por la AIReF (autoridad fiscal independiente) sobre las finanzas de la Seguridad Social"
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. El origen: un real decreto, 1,17 millones de solicitudes",
+          "parrafos": [
+            "El 27 de enero de 2026, el Gobierno español aprobó por real decreto una regularización extraordinaria, tras una iniciativa legislativa popular firmada por más de 600.000 personas y negociaciones con Podemos. Podían acogerse las personas presentes en España antes del 31 de diciembre de 2025 y con al menos cinco meses de residencia. El centro de estudios Funcas calculaba en unos 840.000 los extranjeros en situación irregular a principios de 2025, el 91 % de ellos latinoamericanos. El Gobierno anunciaba hasta 500.000 beneficiarios.",
+            "La presentación de solicitudes transcurrió de abril al 30 de junio y produjo 1.174.978 expedientes, más del doble de lo anunciado. En el balance oficial del 2 de julio, 609.737 expedientes habían sido admitidos a trámite, lo que abre una autorización provisional de residencia y trabajo, y unas 11.000 personas habían recibido una resolución favorable definitiva. El Gobierno disponía de tres meses para resolver el resto; que sepamos, no se ha publicado ningún nuevo balance nacional desde entonces."
+          ]
+        },
+        {
+          "titulo": "2. Las posiciones de los actores y la opacidad administrativa",
+          "parrafos": [
+            "El Gobierno presenta la medida como una herramienta económica: el Banco de España y la ONU estiman que el país necesita unos 300.000 trabajadores migrantes al año ante el envejecimiento. Según un reportaje de franceinfo (medio público francés), cuenta con el apoyo tanto de la izquierda como de la patronal, en una economía construida sobre el turismo y la agricultura. Sus detractores invocan un efecto llamada y una presión sobre los servicios públicos; el PP propone prohibir por ley las regularizaciones colectivas.",
+            "La administración, por su parte, se retrasa. El silencio más allá de tres meses equivale a una denegación, lo que deja numerosos expedientes en una zona gris. Despachos de abogados estiman, sobre sus propias muestras, que unos siete de cada diez expedientes seguían sin resolución definitiva a mediados de octubre. Una denegación hace perder la habilitación provisional para trabajar. Para el empleador, el riesgo es por tanto administrativo antes que económico."
+          ]
+        },
+        {
+          "titulo": "3. Los efectos medidos: sobre todo empleo declarado",
+          "parrafos": [
+            "A 30 de julio, 262.475 regularizados tenían empleo declarado. A finales de octubre son 490.586, de ellos el 75,2 % en el régimen general y el 5,9 % autónomos. La afiliación media alcanza 22.624.165 tras una ganancia mensual de 186.612, la mayor para un mes de octubre de la serie. Según una economista citada por la cadena COPE, un tercio de los nuevos afiliados del mes eran extranjeros.",
+            "El paro registrado subió en 43.128 personas, hasta 2.422.633, aunque sigue en su nivel más bajo para un mes de octubre desde 2007. El de los extranjeros aumenta en 27.744 personas (+6,9 %), hasta 427.407, el 64 % del aumento. Según la misma economista, parte de esa subida se debe a personas que se inscriben ahora como demandantes de empleo. La AIReF cifra en unos 1.070 M€ las cotizaciones del primer año y en 0,03 puntos de PIB el efecto medio en el periodo.",
+            "Fedea y BBVA Research juzgan que la afiliación de extranjeros podría crecer un 17 %, pero que la diferencia de PIB con y sin regularización es positiva sin ser estadísticamente significativa; también esperan una moderación de los salarios reales. La propia Seguridad Social pidió prudencia mientras queden cientos de miles de expedientes por tramitar."
+          ]
+        },
+        {
+          "titulo": "4. El contrapunto francés: una regularización a cuentagotas",
+          "parrafos": [
+            "En Francia, la población extranjera alcanza 6,3 millones de personas en 2025, el 9,1 % de la población, según el Insee (Instituto Nacional de Estadística francés), y los inmigrantes representan el 12 % de los activos. Su tasa de empleo es del 62 % frente al 70 % de los nativos, y su tasa de paro del 12 % frente al 7 %. No hemos encontrado una serie española equivalente publicada esta semana: España publica aquí afiliaciones administrativas; Francia, encuestas.",
+            "El dispositivo francés es individual y permanente, salvo la vía «métiers en tension» (profesiones con escasez de mano de obra), creada por la ley del 26 de enero de 2024 y abierta hasta el 31 de diciembre de 2026: tres años de residencia y doce meses de salario en veinticuatro. Solo dio lugar a 1.655 títulos en 2025, sobre 9.690 admisiones excepcionales a la residencia (AES) por motivos económicos, y según el ministro del Interior solo se había tramitado la mitad de los expedientes. Las regularizaciones retrocedieron un 42 % en los nueve primeros meses de 2025, tras la circular del 23 de enero de 2025."
+          ]
+        },
+        {
+          "titulo": "5. Qué hay que vigilar",
+          "parrafos": [
+            "La primera cita es un balance nacional de las resoluciones definitivas, que el ministerio no ha hecho público desde julio. La segunda son las elecciones del 29 de noviembre: el PP propone prohibir por ley las regularizaciones colectivas, pero el texto no está redactado y no se precisa su efecto sobre las autorizaciones ya concedidas.",
+            "Para las empresas con plantilla en España, los sectores de empleo de los regularizados importan tanto como los volúmenes. El reportaje de franceinfo cita el turismo y la agricultura, pero no hemos encontrado un desglose oficial reciente por ramas. La Seguridad Social ha publicado el reparto por régimen; no dice nada de los salarios, el dato que indicará si se confirma la moderación anunciada por Fedea."
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "despues_de_seccion": 3,
+          "aria": "Tres barras: solicitudes presentadas, expedientes admitidos a trámite, regularizados con empleo declarado",
+          "pie": "España, 2026 (solicitudes a 30 de junio, admisiones a 2 de julio, afiliados a finales de octubre). Fuentes: Ministerio de Inclusión vía InfoMigrante; Seguridad Social vía El Salto.",
+          "barras": [
+            {
+              "etiqueta": "Solicitudes presentadas",
+              "valor": 1174978,
+              "texto": "≈ 1.175.000",
+              "pct": 100
+            },
+            {
+              "etiqueta": "Expedientes admitidos a trámite",
+              "valor": 609737,
+              "texto": "≈ 610.000",
+              "pct": 52
+            },
+            {
+              "etiqueta": "Regularizados con empleo declarado",
+              "valor": 490586,
+              "texto": "≈ 491.000",
+              "pct": 42
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 4,
+          "aria": "Admisiones a la residencia: Francia y España",
+          "pie": "Francia 2025; España julio de 2026. Perímetros distintos: dispositivo francés individual, dispositivo español excepcional y colectivo. Fuentes: DGEF (Dirección General de Extranjeros en Francia) vía InfoMigrants; ministerio español vía InfoMigrante.",
+          "barras": [
+            {
+              "etiqueta": "Francia: títulos «métiers en tension»",
+              "valor": 1655,
+              "texto": "1.655",
+              "pct": 1
+            },
+            {
+              "etiqueta": "Francia: AES por motivos económicos",
+              "valor": 9690,
+              "texto": "9.690",
+              "pct": 2
+            },
+            {
+              "etiqueta": "España: expedientes admitidos a trámite",
+              "valor": 609737,
+              "texto": "≈ 610.000",
+              "pct": 100
+            }
+          ]
+        }
+      ],
+      "debate": {
+        "despues_de_seccion": 4,
+        "texto": "A favor: la regularización convierte trabajo informal en empleo declarado, amplía la base de cotización, responde a una necesidad de mano de obra que el Banco de España cifra en unas 300.000 personas al año y cuenta con el apoyo de la patronal. En contra: la AIReF y Fedea juzgan limitado el efecto macroeconómico, el dispositivo puede moderar los salarios reales, sus críticos temen un efecto llamada y presión sobre los servicios públicos, y la administración no ha publicado ningún balance de las resoluciones definitivas. Según El Independiente, el 60 % de los nuevos afiliados procedentes del proceso ya trabajaba en la economía informal, lo que refuerza la lectura de «formalización» pero relativiza la creación de empleo. La evidencia no es concluyente ni sobre los salarios ni sobre los servicios públicos."
+      },
+      "lectura": "Las cifras muestran sobre todo una formalización. El récord de afiliación, 22,6 millones, incluye a personas que ya trabajaban, al menos en parte, en la economía informal según la prensa económica española; compararlo con la creación de empleo en Francia sin ajustar sobrestima la dinámica. En el plano presupuestario, la AIReF sitúa la ganancia en torno a 1.000 M€ el primer año, un orden de magnitud marginal para las cuentas públicas: el argumento financiero es real, pero pequeño. Para una empresa con plantilla en hostelería o agricultura, el efecto útil es un mercado laboral más fluido y, si los datos de salarios lo confirman, menos presión salarial. Quien compare con Francia verá dos modelos: uno colectivo y rápido, con riesgo administrativo, y otro individual y lento, que en 2025 apenas dio 1.655 títulos «métiers en tension». El riesgo principal es administrativo: un trabajador con autorización provisional cuyo expediente se deniega pierde el derecho a trabajar, y el empleador debe poder acreditarlo. Tras el 29 de noviembre, un inversor debería valorar dos escenarios, continuidad o endurecimiento. La ausencia de un balance oficial de las resoluciones es, a nuestro juicio, la principal debilidad de la operación hasta hoy.",
+      "vigilaremos": "Seguiremos un posible balance nacional de las resoluciones definitivas y las cifras de empleo de noviembre, a principios de diciembre, así como la posición del próximo Gobierno español.",
+      "fuentes": [
+        {
+          "nombre": "El Salto: afiliación y paro de octubre",
+          "url": "https://www.elsaltodiario.com/desempleo/afiliacion-bate-nuevo-record-octubre-impulsado-regularizacion-paro-sube-43-128-personas"
+        },
+        {
+          "nombre": "La Crónica del Henares: datos de la Seguridad Social y el SEPE",
+          "url": "https://www.cronicadelhenares.com/2026/11/octubre-2026-record-afiliados-sube-paro-regularizacion.html"
+        },
+        {
+          "nombre": "Salamanca Hoy: estudio de la AIReF",
+          "url": "https://www.salamancahoy.es/economia/pensiones/regularizacion-millon-inmigrantes-apenas-impacto-cuentas-seguridad-20260529175612-ntrc.html"
+        },
+        {
+          "nombre": "Todoalicante: informe de Fedea y BBVA Research",
+          "url": "https://www.todoalicante.es/economia/trabajo/regularizacion-inmigrantes-apenas-impacto-economia-espanola-segun-20260527132755-ntrc.html"
+        },
+        {
+          "nombre": "InfoMigrante: balance a los seis meses",
+          "url": "https://infomigrante.es/2026/10/16/seis-meses-de-regularizacion-extraordinaria-en-espana-mas-de-un-millon-de-solicitudes-y-pocas-respuestas-oficiales/"
+        },
+        {
+          "nombre": "La7: afiliados regularizados a 30 de julio",
+          "url": "https://www.la7tv.es/articulo/empleo/regularizacion-masiva-inmigrantes/20260804114301071818.html"
+        },
+        {
+          "nombre": "RTS: anuncio y cifras de Funcas",
+          "url": "https://www.rts.ch/info/monde/2026/article/l-espagne-regularise-500-000-sans-papiers-pour-booster-son-economie-29132072.html"
+        },
+        {
+          "nombre": "franceinfo: reportaje sobre la regularización",
+          "url": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/reportage-l-espagne-va-regulariser-pres-de-500-000-migrants-presque-tous-sud-americains_7988648.html"
+        },
+        {
+          "nombre": "InfoMigrants: títulos «métiers en tension» en 2025",
+          "url": "https://www.infomigrants.net/fr/post/70926/immigration--1-655-titres-de-sejour-metiers-en-tension-ont-ete-delivres-en-2025-selon-laurent-nunez"
+        },
+        {
+          "nombre": "Insee: inmigrantes y extranjeros",
+          "url": "https://www.insee.fr/fr/statistiques/3633212"
+        },
+        {
+          "nombre": "Ministerio del Interior de Francia: actividad, empleo y paro de los inmigrantes",
+          "url": "https://www.immigration.interieur.gouv.fr/documentation/etudes-et-statistiques/activite-emploi-et-chomage-des-immigres-de-2015-a-2025.html"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Fiscalidad",
+        "titulo": "Presupuesto 2027: la Asamblea rechaza los ingresos por 458 votos a cero y decaen las adiciones fiscales",
+        "contexto": "El Gobierno francés presentó el proyecto de ley de presupuestos (PLF) de 2027 el 1 de octubre, con un objetivo de déficit del 5,0 % del PIB frente al 5,4 % esperado en 2026. Durante tres semanas, los diputados modificaron la parte de ingresos, entre otras con las medidas comentadas en nuestras dos últimas ediciones: el apport-cession (diferimiento de la plusvalía al aportar títulos a una holding propia) y la tributación de las multinacionales según su actividad real en Francia. La votación solemne se había aplazado dos veces.",
+        "resumen": "El miércoles 4 de noviembre, 458 de los 460 votantes rechazaron la parte de ingresos; se abstuvieron dos diputados comunistas y de ultramar. El rechazo arrastra todo el texto: el apartado de gastos, ya rechazado en comisión, no se debatió en el pleno. El Senado examinará a partir del 20 de noviembre la versión inicial, que prorroga un año la contribución excepcional sobre los beneficios (recargo temporal del impuesto de sociedades) de los grupos con una facturación de al menos 1.500 M€ (15,7 % o 31,4 % según el tamaño) e indexa un 2,1 % el baremo del impuesto sobre la renta. Una cifra avanzada en el debate sitúa el déficit en el 5,9 % si se mantuvieran las enmiendas. España: 2,1 % previsto para 2026, sin presupuesto nuevo desde 2023.",
+        "lectura": "Un inversor español que construya una estructura entre los dos países debería trabajar con dos escenarios: el texto del Senado, próximo al proyecto inicial, y un texto final de compromiso todavía abierto. Las medidas votadas en la Asamblea carecen por ahora de alcance jurídico; incorporarlas a un cálculo de rentabilidad sería prematuro.",
+        "fuentes": [
+          {
+            "nombre": "France 24",
+            "url": "https://www.france24.com/fr/france/20261104-assemblee-nationale-rejette-unanimite-en-premiere-lecture-budget-etat-2027-pib-finances"
+          },
+          {
+            "nombre": "Toutsurmesfinances",
+            "url": "https://www.toutsurmesfinances.com/actualites/a/budget-2027-458-voix-contre-zero-pour-les-mesures-fiscales-votees-par-les-deputes-passent-a-la-trappe"
+          },
+          {
+            "nombre": "Asamblea Nacional",
+            "url": "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/examen-de-la-premiere-partie-du-projet-de-loi-de-finances-pour-2027"
+          },
+          {
+            "nombre": "Mooncard: medidas del PLF para las empresas",
+            "url": "https://www.mooncard.co/fr/blog/plf-2027-entreprises-principales-mesures"
+          },
+          {
+            "nombre": "Ministerio de Economía de España: informe de progreso 2026",
+            "url": "https://portal.mineco.gob.es/MediaArticulo/20260430_InformeProgresoAnual_2026.pdf"
+          }
+        ]
+      },
+      {
+        "rubrica": "Política y sociedad",
+        "titulo": "Huelga del 5 de noviembre: 575.000 manifestantes según Interior, 1,6 millones según la CGT, sin cálculo del coste",
+        "contexto": "Desde el 17 de octubre se suceden cada semana manifestaciones contra la carestía de la vida. Los disturbios del fin de semana del 17 y 18 de octubre podrían costar hasta 1.200 M€ a las aseguradoras, según la agencia Morningstar DBRS. La intersindical (frente común de los sindicatos franceses) convocó para el 5 de noviembre una jornada nacional por los salarios y el poder adquisitivo, cuya preparación avanzábamos en la edición anterior.",
+        "resumen": "El Ministerio del Interior cuenta 575.000 manifestantes, 65.000 de ellos en París; la CGT (Confédération générale du travail, una de las grandes centrales sindicales francesas) reivindica cerca de 1,6 millones. A las 18:00, el balance provisional hablaba de 448 detenciones, 53 miembros de las fuerzas del orden heridos y 86 intervenciones por incendios. En la función pública del Estado, el 9,89 % de los empleados secundaba la huelga a media jornada, frente al 4,60 % en la función pública territorial (ayuntamientos, departamentos y regiones) y el 3,93 % en la hospitalaria. Los sábados anteriores, el ministerio había contado 550.000 personas el 17 de octubre, 410.000 el 24 y 320.000 el 31. No hemos encontrado ninguna estimación cuantificada del coste económico de la jornada. Sin dato comparable fiable en España esta semana.",
+        "lectura": "La movilización repunta tras tres semanas de descenso, lo que descarta una extinción rápida del movimiento. Para una empresa con centros en Francia, el coste se mide en días de actividad perdidos y en primas de seguros, dos partidas que conviene documentar desde ya: algunas aseguradoras ya hablan de subidas de primas a partir de 2027.",
+        "fuentes": [
+          {
+            "nombre": "franceinfo: balance de la movilización",
+            "url": "https://www.franceinfo.fr/economie/greve/greve/pres-de-1-6-million-de-personnes-ont-defile-en-france-lors-de-la-mobilisation-du-5-novembre-selon-la-cgt-575-000-selon-le-ministere-de-l-interieur_8269868.html"
+          },
+          {
+            "nombre": "franceinfo: directo del 5 de noviembre",
+            "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html"
+          },
+          {
+            "nombre": "Public Sénat: violencia del 17 de octubre",
+            "url": "https://www.publicsenat.fr/actualites/economie/violences-urbaines-du-17-octobre-un-bilan-qui-surpasse-deja-celui-de-precedents-episodes"
+          },
+          {
+            "nombre": "Économie Matin: seguros y disturbios",
+            "url": "https://www.economiematin.fr/assurance-plus-chere-emeutes-2026-impact-menages-cout-degats"
+          }
+        ]
+      },
+      {
+        "rubrica": "Empresas e inversión",
+        "titulo": "Insolvencias: 71.139 procedimientos en doce meses, pero 1,3 millones de creaciones de empresas",
+        "contexto": "Tras la ralentización de los años de pandemia, el Banco de Francia ha observado un rebote de las insolvencias (procedimientos de salvaguarda, reorganización y liquidación judicial). Un estudio publicado este verano estima que ese rebote ya no explica por sí solo los niveles alcanzados por las pymes sin contar las microempresas, las ETI y las grandes empresas. A finales de agosto, el acumulado en doce meses era de 70.766.",
+        "resumen": "Publicado el viernes 6 de noviembre, el acumulado a finales de septiembre alcanza 71.139, frente a 70.768 un mes antes: un 4,4 % más en un año y un 19,9 % por encima de la media de 2010-2019. Todos los sectores suben salvo la industria y los servicios a empresas, con alzas marcadas en la agricultura (+12,7 %) y en finanzas y seguros (+11 %). Sesenta y dos ETI (empresas de tamaño intermedio, de 250 a 5.000 empleados) o grandes empresas abrieron un procedimiento, un 40,9 % más en un año. El Insee cuenta más de 1,3 millones de creaciones en doce meses (+12,2 %). España: 1.601 procedimientos de sociedades en el segundo trimestre (+11,6 %, Colegio de Registradores) y 7.526 sociedades creadas en agosto (+5,7 %, INE); perímetros distintos.",
+        "lectura": "El número de creaciones no dice nada de la solidez de las contrapartes: el aumento de procedimientos afecta también a las ETI. Un proveedor o un inversor español expuesto a clientes franceses debería revisar sus plazos de cobro y sus límites de seguro de crédito.",
+        "fuentes": [
+          {
+            "nombre": "Option Finance",
+            "url": "https://www.optionfinance.fr/actualites/nouvelle-hausse-des-defaillances-dentreprise-a-fin-septembre.html"
+          },
+          {
+            "nombre": "Boursorama (AFP)",
+            "url": "https://www.boursorama.com/actualite-economique/actualites/france-legere-hausse-des-defaillances-d-entreprises-en-septembre-banque-de-france-4253670283d16055b8feecd4d07754d8"
+          },
+          {
+            "nombre": "Moncloa.com: concursos del 2.º trimestre",
+            "url": "https://www.moncloa.com/2026/08/11/concursos-acreedores-2026-colegio-registradores-3413961"
+          },
+          {
+            "nombre": "INE: sociedades mercantiles, agosto de 2026",
+            "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177026&menu=ultiDatos&idp=1254735576606"
+          }
+        ]
+      },
+      {
+        "rubrica": "Energía",
+        "titulo": "Interconexión del golfo de Vizcaya: cables terrestres en tendido, puesta en servicio a finales de 2027 o principios de 2028",
+        "contexto": "El enlace entre Gatika (Bizkaia) y Cubnezais (Gironda) debe elevar la capacidad de intercambio entre los dos países de 2.800 a 5.000 MW. Lo promueve Inelfe, sociedad conjunta de RTE (gestor de la red eléctrica francesa) y Red Eléctrica, y la Unión Europea lo ha clasificado como proyecto de interés común. La obra ha sufrido tres paradas y más de seis meses de suspensión por vertidos de bentonita.",
+        "resumen": "El 29 de octubre, Red Eléctrica anunció el inicio del tendido de los cables subterráneos en el lado español, 13 km entre Gatika y Lemoiz. Con la fase de agosto, la totalidad de los cables marinos del tramo vizcaíno está instalada. Los trabajos en el mar se reanudan frente a Gipuzkoa de noviembre de 2026 a febrero de 2027, y todos los tramos en aguas francesas deben tenderse en el verano de 2027. El proyecto está ejecutado al 70 %, con una puesta en servicio prevista a finales de 2027 o principios de 2028 según el presidente de Redeia. El trazado cuenta con 276 km bajo el mar. Los 5.000 MW buscados se reparten entre ambas redes; no se ha publicado ninguna cifra francesa por separado.",
+        "lectura": "Para una industria electrointensiva, el efecto esperado es una mayor convergencia de precios entre los dos mercados, pero no antes de 2028. Los contratos de suministro firmados hoy para 2028 en adelante deberían contemplar dos escenarios de precios, con y sin el nuevo enlace.",
+        "fuentes": [
+          {
+            "nombre": "Smartgridsinfo",
+            "url": "https://www.smartgridsinfo.es/2026/11/04/interconexion-electrica-francia-inicia-tendido-13-kilometros-cables-subterraneos"
+          },
+          {
+            "nombre": "El Periódico de la Energía",
+            "url": "https://elperiodicodelaenergia.com/la-interconexion-electrica-con-francia-por-el-golfo-de-vizcaya-ejecutada-al-70"
+          },
+          {
+            "nombre": "Energynews",
+            "url": "https://www.energynews.es/interconexion-electrica-francia-golfo-vizcaya-cable-submarino/"
+          },
+          {
+            "nombre": "Inelfe",
+            "url": "https://www.inelfe.eu/en/projects/bay-biscay"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Fiscalidad",
+        "titulo": "Real Decreto-ley 29/2026: IVA del 10 % a los alquileres turísticos desde el 1 de diciembre, si se convalida",
+        "contexto": "El 2 de octubre, el Congreso rechazó dos reales decretos-ley sobre vivienda (172 votos a favor y 178 en contra en uno; 166 y 184 en el otro). El Gobierno los retomó el 6 de octubre en dos textos, entre ellos el Real Decreto-ley (RDL) 29/2026, que concentra las medidas fiscales y se aplica desde el 8 de octubre. Al estar disueltas las Cortes, la convalidación corresponde a la Diputación Permanente, que dispone de treinta días hábiles.",
+        "resumen": "El texto afecta al IRPF, al IVA, al IBI, a la plusvalía municipal y al impuesto de no residentes. El 1 de diciembre, el alquiler amueblado de 30 noches o menos deja de estar exento de IVA y pasa al 10 %, también para los propietarios no residentes, que pasan a ser sujetos pasivos. Los ayuntamientos de zonas tensionadas podrán recargar el IBI de las viviendas turísticas hasta un 150 %. Los inquilinos de rentas bajas recuperan una deducción del 10 % del alquiler. Sin convalidación antes del 1 de diciembre, el IVA no se aplica. Se baraja la votación para el 12 de noviembre, sin fecha confirmada por el Congreso a 6 de noviembre. Francia: sin medida equivalente cuantificada en las fuentes de la semana.",
+        "lectura": "Un propietario de un inmueble turístico en España debería cuantificar dos escenarios antes del 1 de diciembre: con un IVA del 10 %, que obliga a darse de alta, facturar y presentar declaraciones, y sin él. El rendimiento neto depende de que pueda recuperarse el IVA de los gastos. Las elecciones del 29 de noviembre añaden una segunda incertidumbre.",
+        "fuentes": [
+          {
+            "nombre": "Notarías de Barcelona",
+            "url": "https://notariasbarcelona.es/real-decreto-ley-29-2026-novedades-fiscales/"
+          },
+          {
+            "nombre": "Fiscaly",
+            "url": "https://fiscaly.com/rdl-29-2026-todas-las-medidas-fiscales-de-vivienda-y-sus-fechas/"
+          },
+          {
+            "nombre": "Provivienda",
+            "url": "https://provivienda.org/observatorio/real-decreto-ley-26-2026-que-cambia-en-el-precio-del-alquiler-y-la-vivienda-asequible/"
+          },
+          {
+            "nombre": "Gestiona tu alojamiento: escenarios de convalidación",
+            "url": "https://gestionatualojamiento.com/convalidacion-del-decreto-de-vivienda/"
+          },
+          {
+            "nombre": "BOE: RDL 29/2026",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823"
+          }
+        ]
+      },
+      {
+        "rubrica": "Regulación",
+        "titulo": "Aceite de oliva: España retira 188.000 toneladas del mercado, un mecanismo activado por primera vez",
+        "contexto": "Los precios del aceite de oliva subieron con fuerza tras sequías y olas de calor que afectaron a las cosechas, y después bajaron con la recuperación de la producción. Las organizaciones agrarias reclamaban un mecanismo de regulación de la oferta para evitar un desplome de las cotizaciones. España representa en torno al 45 % de la producción mundial y el 70 % de la de la UE según su Ministerio, porcentajes que varían según las cosechas.",
+        "resumen": "El Ministerio de Agricultura activa por primera vez el mecanismo de regulación de la oferta: 188.000 toneladas, el 12 % de la producción, se almacenarán de noviembre a septiembre de 2027. La campaña se estima en 1.602.596 toneladas, con 357.000 toneladas de existencias iniciales. La medida pretende frenar la caída de los precios en origen; también puede retrasar la de los precios al consumo. El sector cuenta con más de 350.000 agricultores. Sin cifra comparable fiable en Francia esta semana.",
+        "lectura": "Para un envasador o exportador español, la medida puede sostener los precios de compra durante la campaña. Los contratos indexados a la cotización española, también los de venta a distribuidores franceses, son los primeros afectados; el primer recuento de existencias dirá si el efecto es duradero.",
+        "fuentes": [
+          {
+            "nombre": "Agropopular: revista de prensa",
+            "url": "https://www.agropopular.com/aceite-agricultura-61126"
+          },
+          {
+            "nombre": "Euronews (español)",
+            "url": "https://es.euronews.com/2026/11/06/espana-ordena-almacenar-12-produccion-aceite-oliva"
+          },
+          {
+            "nombre": "Euronews (inglés)",
+            "url": "https://www.euronews.com/2026/11/06/why-spain-is-taking-188000-tonnes-of-olive-oil-off-the-market"
+          }
+        ]
+      },
+      {
+        "rubrica": "Empresas e inversión",
+        "titulo": "Deoleo: Dcoop y Acesur compran el líder mundial del aceite de oliva de marca por 520 M€",
+        "contexto": "Deoleo, propietaria de Carbonell, Hojiblanca, Koipe, Bertolli y Carapelli, estaba en el centro de una puja desde hacía varios meses entre la alianza de los grupos andaluces Dcoop y Acesur y un dúo formado por la italiana Coricelli y la española Migasa. Los fondos CVC y Alchemy detentan el 50 % y el 40 % del capital, respectivamente.",
+        "resumen": "El 5 de noviembre, Deoleo aceptó la oferta conjunta de Dcoop y Acesur, que valora Deoleo Holding en 520 M€ incluida la deuda, por el 91,99 % del capital, a partes iguales. La oferta rival, elevada a 530 M€, no fue elegida; según El Español, los vendedores prefirieron las garantías financieras y el calendario de cierre. La operación exige autorizaciones regulatorias y el voto de los accionistas, con cierre previsto en seis a ocho meses. Los activos se repartirán entre los compradores para cumplir los requisitos de competencia: Acesur se quedaría con Bertolli para Estados Unidos. Dcoop factura unos 1.500 M€. Sin dato comparable fiable en Francia.",
+        "lectura": "La consolidación se hace entre actores españoles, y el control de la competencia condiciona el reparto de las marcas. Para quien trabaje con estas marcas, en España o en Francia, el punto a vigilar es el calendario de la reorganización, que puede cambiar los interlocutores comerciales y las condiciones de suministro.",
+        "fuentes": [
+          {
+            "nombre": "El Español (4 de noviembre)",
+            "url": "https://elespanol.com/invertia/empresas/20261104/dcoop-acesur-compran-conjuntamente-deoleo-imponerse-oferta-coricelli-migasa/1003744446779_0.html"
+          },
+          {
+            "nombre": "El Español (6 de noviembre)",
+            "url": "https://www.elespanol.com/invertia/empresas/20261106/dcoop-acesur-reconfiguran-andalucia-mapa-mundial-aceite-compra-deoleo/1003744448086_0.html"
+          },
+          {
+            "nombre": "Euronews",
+            "url": "https://www.euronews.com/2026/11/06/why-spain-is-taking-188000-tonnes-of-olive-oil-off-the-market"
+          },
+          {
+            "nombre": "Agronews Castilla y León",
+            "url": "https://www.agronewscastillayleon.com/deoleo-acesur-dcoop-compra-520-millones"
+          }
+        ]
+      },
+      {
+        "rubrica": "Política y sociedad",
+        "titulo": "Elecciones del 29 de noviembre: una España sin presupuestos nuevos desde 2023 y programas fiscales opuestos",
+        "contexto": "El Gobierno convocó elecciones anticipadas tras el rechazo, el 2 de octubre, de los dos reales decretos-ley de vivienda por parte del Congreso. Las Cortes están disueltas y las reformas en curso quedan en suspenso, entre ellas la reducción de la jornada laboral a 37,5 horas, retirada tras el veto de tres grupos. El Ejecutivo llega a las urnas sin presupuestos nuevos desde 2023.",
+        "resumen": "La campaña transcurre del 13 al 27 de noviembre. Antes de la publicación de los programas completos, se conocen las líneas generales. El PP propone una bajada del IRPF, un IVA del 0 % en los alimentos básicos, un IVA del 10 % en la energía, presupuestos anuales y la prohibición legal de las regularizaciones colectivas. El PSOE defiende una fiscalidad más progresiva, el mantenimiento de los decretos de vivienda, un salario mínimo de al menos el 60 % del salario medio y la semana de 36 horas en 2030. En el plano presupuestario, el Gobierno español prevé un déficit del 2,1 % en 2026, frente al 5,4 % esperado en Francia.",
+        "lectura": "Las urnas afectan a dos terrenos para un inversor con exposición a ambos lados de los Pirineos: la fiscalidad de la vivienda en alquiler y el marco del trabajo extranjero. Las diferencias entre programas son lo bastante nítidas como para justificar dos escenarios en los planes a doce meses. Los programas completos no estaban publicados al cierre de esta edición.",
+        "fuentes": [
+          {
+            "nombre": "Forbes España",
+            "url": "https://forbes.es/actualidad/1036705/elecciones-2026-batallas-economicas-29-n/"
+          },
+          {
+            "nombre": "Política Electoral: programa del PP",
+            "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/pp"
+          },
+          {
+            "nombre": "Política Electoral: programa del PSOE",
+            "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/psoe"
+          },
+          {
+            "nombre": "A quién voto: economía",
+            "url": "https://aquienvoto.es/elecciones/generales-2026/temas/economia"
+          },
+          {
+            "nombre": "Winahost: calendario electoral",
+            "url": "https://winahost.com/blog/elecciones-29n-alquiler-turistico"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "9 de noviembre",
+        "que": "Francia: inicio del examen en el Senado del presupuesto de la Seguridad Social francesa (PLFSS)"
+      },
+      {
+        "cuando": "Mediados de noviembre",
+        "que": "España: votación esperada de la Diputación Permanente sobre los reales decretos-ley de vivienda 28 y 29/2026 (se baraja el 12 de noviembre, sin confirmación oficial)"
+      },
+      {
+        "cuando": "A partir del 20 de noviembre",
+        "que": "Francia: examen del PLF 2027 en el pleno del Senado, sobre el texto inicial del Gobierno"
+      },
+      {
+        "cuando": "29 de noviembre",
+        "que": "España: elecciones generales, con campaña del 13 al 27 de noviembre"
+      },
+      {
+        "cuando": "1 de diciembre",
+        "que": "España: IVA del 10 % a los alquileres amueblados de 30 noches o menos, si se convalida el Real Decreto-ley 29/2026"
+      }
+    ],
+    "glosario": [
+      {
+        "sigla": "AES",
+        "definicion": "Admission exceptionnelle au séjour: vía francesa de regularización caso por caso, con una rama «métiers en tension» (profesiones con escasez de mano de obra) abierta hasta el 31 de diciembre de 2026."
+      },
+      {
+        "sigla": "AIReF",
+        "definicion": "Autoridad Independiente de Responsabilidad Fiscal: organismo español que evalúa las previsiones y las cuentas públicas, comparable al Haut Conseil des finances publiques francés."
+      },
+      {
+        "sigla": "Apport-cession",
+        "definicion": "Mecanismo fiscal francés por el que un contribuyente aporta títulos a una sociedad holding que controla; la tributación de la plusvalía se difiere si el producto de la venta se reinvierte en determinadas condiciones."
+      },
+      {
+        "sigla": "CGT",
+        "definicion": "Confédération générale du travail: una de las grandes centrales sindicales francesas. En la jornada del 5 de noviembre cifró la asistencia en cerca de 1,6 millones, frente a los 575.000 del Ministerio del Interior."
+      },
+      {
+        "sigla": "Diputación Permanente",
+        "definicion": "Comisión del Congreso que ejerce sus funciones cuando las Cortes están disueltas, entre otras la convalidación de los reales decretos-ley."
+      },
+      {
+        "sigla": "ETI",
+        "definicion": "Entreprises de taille intermédiaire: categoría estadística francesa de empresas de entre 250 y 5.000 empleados, situada entre la pyme y la gran empresa."
+      },
+      {
+        "sigla": "IBI",
+        "definicion": "Impuesto sobre Bienes Inmuebles, que cobran los ayuntamientos; el Real Decreto-ley 29/2026 permite recargarlo en las viviendas turísticas de zonas tensionadas."
+      },
+      {
+        "sigla": "Inelfe",
+        "definicion": "Sociedad conjunta de RTE, gestor de la red eléctrica francesa, y Red Eléctrica que construye el enlace submarino entre Francia y España por el golfo de Vizcaya."
+      },
+      {
+        "sigla": "PLF",
+        "definicion": "Projet de loi de finances: proyecto de ley de presupuestos del Estado francés, equivalente a los Presupuestos Generales del Estado; su primera parte, la de ingresos, se vota antes que la de gastos."
+      },
+      {
+        "sigla": "RDL",
+        "definicion": "Real Decreto-ley: norma con rango de ley que aprueba el Gobierno por urgencia y que el Congreso debe convalidar en treinta días hábiles."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "El 4 de noviembre, 458 de los 460 diputados franceses que votaron rechazaron la parte de ingresos del presupuesto de 2027. Ese mismo mes, España cuenta con 490.586 extranjeros regularizados con empleo declarado.\n\nLea la edición completa, con los gráficos y el dossier íntegro: https://bulletin.rilamax.com\n\nEditorial. Francia y España tienen cada una un texto fiscal en suspenso. En París, el rechazo de los ingresos borra las adiciones de los diputados, entre ellas el apport-cession (diferimiento de la plusvalía al aportar títulos a una holding propia) y la tributación de las multinacionales; el Senado retoma el texto inicial a partir del 20 de noviembre. En Madrid, las Cortes están disueltas, las elecciones son el 29 de noviembre y el Real Decreto-ley 29/2026, que somete a un IVA del 10 % los alquileres turísticos de 30 noches o menos desde el 1 de diciembre, espera su convalidación. Francia apunta a un déficit del 5,0 % en 2027; España prevé un 2,1 % en 2026.\n\nPara retener: quien invierte en Francia debe retirar de sus escenarios las enmiendas fiscales de los diputados; España vota con un decreto fiscal sobre vivienda aún por convalidar; 490.586 regularizados tienen empleo declarado en España, con un efecto macroeconómico limitado.\n\nDossier. La regularización extraordinaria española recibió 1.174.978 solicitudes, más del doble de las 500.000 anunciadas. A finales de octubre, 490.586 regularizados estaban afiliados a la Seguridad Social, frente a 262.475 a finales de julio, y la afiliación total alcanza un récord de 22,6 millones. El paro registrado sube, sin embargo, en 43.128 personas, el 64 % de ellas extranjeras. La AIReF estima la ganancia de cotizaciones en unos 1.070 M€ el primer año y en 0,03 puntos de PIB de media; Fedea y BBVA Research juzgan no significativo el efecto sobre el PIB y esperan una moderación de los salarios reales. En Francia, la vía «métiers en tension» solo dio 1.655 títulos en 2025 y se cierra el 31 de diciembre de 2026. Nuestra lectura: España formaliza más que crea, el argumento presupuestario es real pero pequeño, y el riesgo para el empleador es administrativo mientras no se publique un balance de las resoluciones definitivas.\n\nLea la edición completa, con los gráficos y el dossier íntegro: https://bulletin.rilamax.com\n\n¿Debe una empresa que opera a ambos lados de los Pirineos construir sus planes de 2027 sobre el texto actual o sobre un escenario de cambio tras el 29 de noviembre?",
+      "post": "458 de los 460 diputados franceses que votaron rechazaron el 4 de noviembre la parte de ingresos del presupuesto de 2027.\nEdición completa y dossier: https://bulletin.rilamax.com\nEn Madrid la incertidumbre es de la misma naturaleza: las Cortes están disueltas, las elecciones son el 29 de noviembre y el decreto sobre el IVA de los alquileres turísticos espera su convalidación. Francia apunta a un déficit del 5,0 % en 2027, España prevé un 2,1 % en 2026. En empleo, España cuenta con 490.586 extranjeros regularizados con empleo declarado, mientras Francia concedió 1.655 títulos «métiers en tension» en 2025.\n¿Sobre qué texto construye su empresa las previsiones de 2027: el de hoy o el de después de las urnas?\n#Francia #Fiscalidad #Inversión"
+    },
+    "minutos": 20
+  }
+}
