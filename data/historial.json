@@ -38,5 +38,13 @@
     "ruta": "/ediciones/2026-10-31/",
     "titulo_fr": "Gagner une élection n'est pas un brevet de pilote",
     "titulo_es": "Ganar unas elecciones no es una licencia de piloto"
+  },
+  {
+    "numero": 6,
+    "fecha": "2026-11-07",
+    "semana": 45,
+    "ruta": "/ediciones/2026-11-07/",
+    "titulo_fr": "Régularisation en Espagne : un demi-million d'affiliés, un effet macroéconomique limité",
+    "titulo_es": "Regularización en España: medio millón de afiliados, un efecto macroeconómico limitado"
   }
 ]
