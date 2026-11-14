@@ -46,5 +46,13 @@
     "ruta": "/ediciones/2026-11-07/",
     "titulo_fr": "Régularisation en Espagne : un demi-million d'affiliés, un effet macroéconomique limité",
     "titulo_es": "Regularización en España: medio millón de afiliados, un efecto macroeconómico limitado"
+  },
+  {
+    "numero": 7,
+    "fecha": "2026-11-14",
+    "semana": 46,
+    "ruta": "/ediciones/2026-11-14/",
+    "titulo_fr": "Salaire minimum : la France subventionne les cotisations, l'Espagne laisse la hausse à l'employeur",
+    "titulo_es": "Salario mínimo: Francia subvenciona las cotizaciones, España deja la subida al empleador"
   }
 ]

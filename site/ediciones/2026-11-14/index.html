@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Le Bulletin Rilamax — N° 7</title>
+<meta name="description" content="Salaire minimum : la France subventionne les cotisations, l&#39;Espagne laisse la hausse à l&#39;employeur">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Le Bulletin Rilamax">
+<meta property="og:title" content="Le Bulletin Rilamax N° 7 · Salaire minimum : la France subventionne les cotisations, l&#39;Espagne laisse la hausse à l&#39;employeur">
+<meta property="og:description" content="Le Smic français monte de 1,6 % le 1er décembre et le SMI espagnol pourrait gagner 5,3 % en 2027. Derrière ces deux chiffres, deux mécanismes : en France, l&#39;État absorbe une partie du coût du travail au bas de l&#39;échelle, pour environ 75 Md€ par an ; en Espagne, la hausse pèse presque intégralement sur l&#39;employeur. Pour un groupe qui emploie des deux côtés des Pyrénées, le coût réel au niveau du minimum se rapproche plus qu&#39;on ne le croit.">
+<meta property="og:image" content="https://bulletin.rilamax.com/portada.png">
+<meta property="og:url" content="https://bulletin.rilamax.com/ediciones/2026-11-14/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --paper:#F5F7FA; --surface:#FFFFFF; --ink:#16233D; --muted:#5A6478; --rule:#D9DEE7;
+  --fr:#2F4FA8; --fr-soft:#E7ECF8; --es:#B5751A; --es-soft:#F8EEDD;
+  --note:#1F5C55; --note-soft:#E4F0EE;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+    --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+    --note:#7FCBC0; --note-soft:#173532;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+  --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+  --note:#7FCBC0; --note-soft:#173532;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.55}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--fr);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.25rem}
+.serif{font-family:"Literata",Georgia,serif}
+
+/* Masthead */
+.mast{padding:2.5rem 0 1.75rem}
+.bridge{display:flex;align-items:center;gap:.75rem;color:var(--muted);font-size:.9rem}
+.bridge .line{flex:1;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--fr) 0 50%,var(--es) 50% 100%)}
+h1{font-family:"Literata",Georgia,serif;font-weight:700;font-size:clamp(2.2rem,6vw,3.6rem);line-height:1.05;letter-spacing:-.02em;margin:1rem 0 .5rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;color:var(--muted);font-size:.95rem}
+
+/* Sommaire */
+.toc{position:sticky;top:0;z-index:5;background:var(--paper);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.toc ul{list-style:none;margin:0;padding:.6rem 0;display:flex;gap:1.25rem;overflow-x:auto;white-space:nowrap;font-size:.92rem}
+.toc a{text-decoration:none;color:var(--muted)}
+.toc a:hover{color:var(--ink)}
+
+section{padding:2.75rem 0;border-bottom:1px solid var(--rule)}
+h2{font-family:"Literata",Georgia,serif;font-size:1.75rem;line-height:1.2;margin:0 0 1.25rem}
+.lede{color:var(--muted);margin:-.75rem 0 1.5rem;max-width:62ch}
+
+/* Edito */
+.edito{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:780px){.edito{grid-template-columns:1.7fr 1fr}}
+.edito .body p{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;margin:0 0 1rem;max-width:62ch}
+.edito .sign{font-size:.92rem;color:var(--muted)}
+.keys{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:1.4rem 1.5rem;align-self:start}
+.keys h3{margin:0 0 .8rem;font-size:1rem}
+.keys ol{margin:0;padding-left:1.2rem}
+.keys li{margin:0 0 .6rem}
+
+/* Chiffres */
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.fig{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--c);border-radius:4px 4px 10px 10px;padding:1.1rem 1.25rem}
+.fig.fr{--c:var(--fr)} .fig.es{--c:var(--es)}
+.fig strong{display:block;font-family:"Literata",Georgia,serif;font-size:2.2rem;line-height:1.05;color:var(--c)}
+.fig span{display:block;margin-top:.5rem;font-size:.93rem}
+.fig small{display:block;margin-top:.4rem;color:var(--muted);font-size:.8rem}
+
+/* Dossier */
+.dossier .intro{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;max-width:66ch;margin:0 0 1.75rem}
+.cols{display:grid;grid-template-columns:1fr;gap:1rem;margin-bottom:1.5rem}
+@media(min-width:780px){.cols{grid-template-columns:repeat(3,1fr)}}
+.col{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1.2rem 1.3rem}
+.col h3{margin:0 0 .6rem;font-size:1.02rem}
+.col ul{margin:0;padding-left:1.1rem}
+.col li{margin:0 0 .55rem;font-size:.95rem}
+
+/* Items */
+.country-head{display:flex;align-items:center;gap:.75rem;margin:0 0 .5rem}
+.country-head .bar{width:28px;height:6px;border-radius:3px;background:var(--c)}
+.country-head.fr{--c:var(--fr)} .country-head.es{--c:var(--es)}
+.item{display:grid;grid-template-columns:1fr;gap:1rem 2.5rem;padding:1.75rem 0;border-top:1px solid var(--rule)}
+.item:first-of-type{border-top:0}
+@media(min-width:780px){.item{grid-template-columns:1.5fr 1fr}}
+.tag{display:inline-flex;align-items:center;gap:.5rem;font-size:.86rem;font-weight:600;padding:.2rem .65rem;border-radius:6px}
+.tag.fr{background:var(--fr-soft);color:var(--fr)}
+.tag.es{background:var(--es-soft);color:var(--es)}
+.item h3{font-family:"Literata",Georgia,serif;font-size:1.35rem;line-height:1.25;margin:.7rem 0 .55rem;max-width:32ch}
+.item .sum{margin:0 0 .8rem;max-width:62ch}
+.src{font-size:.86rem;color:var(--muted)}
+.src a{color:var(--muted);text-underline-offset:3px}
+.lecture{align-self:start;background:var(--note-soft);border-left:3px solid var(--note);border-radius:0 10px 10px 0;padding:1.1rem 1.25rem}
+.lecture h4{margin:0 0 .45rem;font-size:.93rem;font-weight:600;color:var(--note)}
+.lecture p{margin:0;font-family:"Literata",Georgia,serif;font-size:1rem;line-height:1.65}
+
+/* Agenda */
+.agenda{list-style:none;margin:0;padding:0;display:grid;gap:.75rem}
+.agenda li{display:grid;grid-template-columns:8.5rem 1fr;gap:1rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1rem 1.2rem}
+@media(max-width:560px){.agenda li{grid-template-columns:1fr;gap:.25rem}}
+.agenda .when{font-weight:600}
+.agenda .what{max-width:62ch}
+
+/* CTA + footer */
+.cta{display:grid;grid-template-columns:1fr;gap:1.25rem;align-items:center}
+@media(min-width:780px){.cta{grid-template-columns:1.6fr 1fr}}
+.cta p{font-family:"Literata",Georgia,serif;font-size:1.1rem;margin:0;max-width:56ch}
+.btn{display:inline-block;text-align:center;text-decoration:none;font-weight:600;background:var(--ink);color:var(--paper);padding:.85rem 1.3rem;border-radius:10px}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.86rem}
+footer p{max-width:72ch;margin:0 0 .6rem}
+
+
+.titlerow{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.langs{display:inline-flex;border:1px solid var(--rule);border-radius:999px;padding:3px;background:var(--surface);margin-bottom:.6rem}
+.langs button{font:inherit;font-size:.88rem;font-weight:600;border:0;background:transparent;color:var(--muted);padding:.35rem .85rem;border-radius:999px;cursor:pointer}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--fr);outline-offset:2px}
+.edition[hidden]{display:none}
+
+.dfigs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:12px;overflow:hidden;margin:0 0 2.25rem}
+.dfigs div{background:var(--surface);padding:1.1rem 1.25rem}
+.dfigs strong{display:block;font-family:"Literata",Georgia,serif;font-size:1.9rem;line-height:1.1;color:var(--es)}
+.dfigs span{display:block;margin-top:.35rem;font-size:.9rem;color:var(--muted)}
+.longform{max-width:none}
+.longform>h3,.longform>p,.longform>.debate{max-width:68ch}
+.longform>figure{max-width:860px}
+.longform h3{font-family:"Literata",Georgia,serif;font-size:1.3rem;line-height:1.3;margin:2.25rem 0 .75rem}
+.longform h3:first-child{margin-top:0}
+.longform p{font-family:"Literata",Georgia,serif;font-size:1.06rem;line-height:1.78;margin:0 0 1.1rem}
+.chart{margin:1.5rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.bar-row{display:grid;grid-template-columns:9.5rem 1fr 5.5rem;align-items:center;gap:.75rem;margin:.45rem 0;font-size:.92rem}
+.bar-row .bar{display:block;height:14px;border-radius:7px;background:#D9DEE7;background:var(--rule);overflow:hidden}
+.bar-row .fill{display:block;height:14px;width:0;border-radius:7px;background:#B5751A;background:var(--es)}
+.bar-row .fill.c-muted{background:#5A6478;background:var(--muted)}
+.bar-row .fill.c-fr{background:#2F4FA8;background:var(--fr)}
+.bar-row .val{font-weight:600;text-align:right}
+.chart figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted)}
+@media(max-width:560px){.bar-row{grid-template-columns:1fr auto}.bar-row .bar{grid-column:1/-1;order:3}}
+.debate{margin:1.5rem 0;padding:1rem 1.25rem;border:1px dashed var(--rule);border-radius:10px}
+.debate h4,.watch h4{margin:0 0 .4rem;font-size:.95rem}
+.debate p,.watch p{margin:0;font-size:.97rem;font-family:"Public Sans",system-ui,sans-serif;line-height:1.6}
+.dossier .lecture{margin-top:2rem;max-width:none}
+.dossier .lecture p{font-size:1.06rem}
+.watch{margin:1.25rem 0;padding:1rem 1.25rem;background:var(--es-soft);border-radius:10px}
+.dossier .src{margin-top:1rem;line-height:1.7}
+
+.archive ul{list-style:none;margin:0;padding:0;display:grid;gap:.5rem}
+.archive a{text-underline-offset:3px}
+.archive li span{color:var(--muted);font-size:.9rem;margin-left:.5rem}
+.bar-row .fill.w1{width:1%}.bar-row .fill.w2{width:2%}.bar-row .fill.w3{width:3%}.bar-row .fill.w4{width:4%}.bar-row .fill.w5{width:5%}.bar-row .fill.w6{width:6%}.bar-row .fill.w7{width:7%}.bar-row .fill.w8{width:8%}.bar-row .fill.w9{width:9%}.bar-row .fill.w10{width:10%}.bar-row .fill.w11{width:11%}.bar-row .fill.w12{width:12%}.bar-row .fill.w13{width:13%}.bar-row .fill.w14{width:14%}.bar-row .fill.w15{width:15%}.bar-row .fill.w16{width:16%}.bar-row .fill.w17{width:17%}.bar-row .fill.w18{width:18%}.bar-row .fill.w19{width:19%}.bar-row .fill.w20{width:20%}.bar-row .fill.w21{width:21%}.bar-row .fill.w22{width:22%}.bar-row .fill.w23{width:23%}.bar-row .fill.w24{width:24%}.bar-row .fill.w25{width:25%}.bar-row .fill.w26{width:26%}.bar-row .fill.w27{width:27%}.bar-row .fill.w28{width:28%}.bar-row .fill.w29{width:29%}.bar-row .fill.w30{width:30%}.bar-row .fill.w31{width:31%}.bar-row .fill.w32{width:32%}.bar-row .fill.w33{width:33%}.bar-row .fill.w34{width:34%}.bar-row .fill.w35{width:35%}.bar-row .fill.w36{width:36%}.bar-row .fill.w37{width:37%}.bar-row .fill.w38{width:38%}.bar-row .fill.w39{width:39%}.bar-row .fill.w40{width:40%}.bar-row .fill.w41{width:41%}.bar-row .fill.w42{width:42%}.bar-row .fill.w43{width:43%}.bar-row .fill.w44{width:44%}.bar-row .fill.w45{width:45%}.bar-row .fill.w46{width:46%}.bar-row .fill.w47{width:47%}.bar-row .fill.w48{width:48%}.bar-row .fill.w49{width:49%}.bar-row .fill.w50{width:50%}.bar-row .fill.w51{width:51%}.bar-row .fill.w52{width:52%}.bar-row .fill.w53{width:53%}.bar-row .fill.w54{width:54%}.bar-row .fill.w55{width:55%}.bar-row .fill.w56{width:56%}.bar-row .fill.w57{width:57%}.bar-row .fill.w58{width:58%}.bar-row .fill.w59{width:59%}.bar-row .fill.w60{width:60%}.bar-row .fill.w61{width:61%}.bar-row .fill.w62{width:62%}.bar-row .fill.w63{width:63%}.bar-row .fill.w64{width:64%}.bar-row .fill.w65{width:65%}.bar-row .fill.w66{width:66%}.bar-row .fill.w67{width:67%}.bar-row .fill.w68{width:68%}.bar-row .fill.w69{width:69%}.bar-row .fill.w70{width:70%}.bar-row .fill.w71{width:71%}.bar-row .fill.w72{width:72%}.bar-row .fill.w73{width:73%}.bar-row .fill.w74{width:74%}.bar-row .fill.w75{width:75%}.bar-row .fill.w76{width:76%}.bar-row .fill.w77{width:77%}.bar-row .fill.w78{width:78%}.bar-row .fill.w79{width:79%}.bar-row .fill.w80{width:80%}.bar-row .fill.w81{width:81%}.bar-row .fill.w82{width:82%}.bar-row .fill.w83{width:83%}.bar-row .fill.w84{width:84%}.bar-row .fill.w85{width:85%}.bar-row .fill.w86{width:86%}.bar-row .fill.w87{width:87%}.bar-row .fill.w88{width:88%}.bar-row .fill.w89{width:89%}.bar-row .fill.w90{width:90%}.bar-row .fill.w91{width:91%}.bar-row .fill.w92{width:92%}.bar-row .fill.w93{width:93%}.bar-row .fill.w94{width:94%}.bar-row .fill.w95{width:95%}.bar-row .fill.w96{width:96%}.bar-row .fill.w97{width:97%}.bar-row .fill.w98{width:98%}.bar-row .fill.w99{width:99%}.bar-row .fill.w100{width:100%}
+
+.glossary{margin:0;display:grid;grid-template-columns:1fr;gap:.6rem}
+@media(min-width:780px){.glossary{grid-template-columns:1fr 1fr}}
+.glossary div{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:.9rem 1.1rem}
+.glossary dt{font-weight:600;color:var(--fr);margin:0 0 .2rem}
+.glossary dd{margin:0;font-size:.95rem;line-height:1.55}
+
+.chart-t{margin:0 0 .7rem;font-weight:600;font-size:.95rem}
+.bar-row .fill{transition:width 1.1s cubic-bezier(.2,.7,.2,1)}
+.chart.pre .bar-row .fill,.chart.pre .seg{width:0 !important}
+.mix-row{display:grid;grid-template-columns:6.5rem 1fr;align-items:center;gap:.75rem;margin:.55rem 0;font-size:.92rem}
+.mix-bar{display:flex;height:30px;border-radius:7px;overflow:hidden;background:var(--rule)}
+.seg{display:flex;align-items:center;justify-content:center;height:100%;width:0;color:#fff;font-style:normal;font-size:.75rem;font-weight:600;position:relative;transition:width 1.2s cubic-bezier(.2,.7,.2,1);cursor:default;outline:none}
+.seg i{font-style:normal;white-space:nowrap;overflow:hidden}
+.seg:hover,.seg:focus{filter:brightness(1.12)}
+.mix-legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin-top:.75rem;font-size:.82rem;color:var(--muted)}
+.mix-legend b{display:inline-block;width:.8rem;height:.8rem;border-radius:3px;margin-right:.35rem;vertical-align:-1px}
+.k-nuclear{background:#6C4AB6}.k-fosil{background:#5A6478}.k-eolica{background:#2F8F83}.k-solar{background:#D9A21B}.k-hidro{background:#2F4FA8}.k-biomasa{background:#7A9A3A}.k-otros{background:#A3ADC0}
+.mix .chart.pre .seg{width:0}
+.seg[class*=" w"]{flex:none}
+.seg.w1{width:1%}.seg.w2{width:2%}.seg.w3{width:3%}.seg.w4{width:4%}.seg.w5{width:5%}.seg.w6{width:6%}.seg.w7{width:7%}.seg.w8{width:8%}.seg.w9{width:9%}.seg.w10{width:10%}.seg.w11{width:11%}.seg.w12{width:12%}.seg.w13{width:13%}.seg.w14{width:14%}.seg.w15{width:15%}.seg.w16{width:16%}.seg.w17{width:17%}.seg.w18{width:18%}.seg.w19{width:19%}.seg.w20{width:20%}.seg.w21{width:21%}.seg.w22{width:22%}.seg.w23{width:23%}.seg.w24{width:24%}.seg.w25{width:25%}.seg.w26{width:26%}.seg.w27{width:27%}.seg.w28{width:28%}.seg.w29{width:29%}.seg.w30{width:30%}.seg.w31{width:31%}.seg.w32{width:32%}.seg.w33{width:33%}.seg.w34{width:34%}.seg.w35{width:35%}.seg.w36{width:36%}.seg.w37{width:37%}.seg.w38{width:38%}.seg.w39{width:39%}.seg.w40{width:40%}.seg.w41{width:41%}.seg.w42{width:42%}.seg.w43{width:43%}.seg.w44{width:44%}.seg.w45{width:45%}.seg.w46{width:46%}.seg.w47{width:47%}.seg.w48{width:48%}.seg.w49{width:49%}.seg.w50{width:50%}.seg.w51{width:51%}.seg.w52{width:52%}.seg.w53{width:53%}.seg.w54{width:54%}.seg.w55{width:55%}.seg.w56{width:56%}.seg.w57{width:57%}.seg.w58{width:58%}.seg.w59{width:59%}.seg.w60{width:60%}.seg.w61{width:61%}.seg.w62{width:62%}.seg.w63{width:63%}.seg.w64{width:64%}.seg.w65{width:65%}.seg.w66{width:66%}.seg.w67{width:67%}.seg.w68{width:68%}.seg.w69{width:69%}.seg.w70{width:70%}.seg.w71{width:71%}.seg.w72{width:72%}.seg.w73{width:73%}.seg.w74{width:74%}.seg.w75{width:75%}.seg.w76{width:76%}.seg.w77{width:77%}.seg.w78{width:78%}.seg.w79{width:79%}.seg.w80{width:80%}.seg.w81{width:81%}.seg.w82{width:82%}.seg.w83{width:83%}.seg.w84{width:84%}.seg.w85{width:85%}.seg.w86{width:86%}.seg.w87{width:87%}.seg.w88{width:88%}.seg.w89{width:89%}.seg.w90{width:90%}.seg.w91{width:91%}.seg.w92{width:92%}.seg.w93{width:93%}.seg.w94{width:94%}.seg.w95{width:95%}.seg.w96{width:96%}.seg.w97{width:97%}.seg.w98{width:98%}.seg.w99{width:99%}.seg.w100{width:100%}
+
+.seg{cursor:pointer}
+.seg.on{filter:brightness(1.18);box-shadow:inset 0 0 0 2px rgba(255,255,255,.85)}
+.mix-info{margin:.7rem 0 0;padding:.5rem .75rem;border-radius:8px;background:var(--paper);font-size:.88rem;color:var(--muted);min-height:1.2em}
+.mix-info.act{color:var(--ink);font-weight:600;background:var(--fr-soft)}
+.cite{font-family:"Public Sans",system-ui,sans-serif;font-size:.78rem;color:var(--muted);white-space:normal}
+.cite a{color:var(--muted);text-underline-offset:2px}
+.illus{margin:1.6rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.illus figcaption,.cmp figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted);font-family:"Public Sans",system-ui,sans-serif}
+.cmp{margin:1.75rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;max-width:none}
+.cmp-wrap{overflow-x:auto}
+.cmp table{width:100%;border-collapse:collapse;font-size:.88rem;font-family:"Public Sans",system-ui,sans-serif;min-width:560px}
+.cmp th,.cmp td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.cmp thead th{font-weight:600;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.cmp thead th:nth-child(2){color:var(--fr)}.cmp thead th:nth-child(3){color:var(--es)}
+.cmp tbody th{font-weight:600}
+.cmp td{white-space:nowrap}
+.cmp td.src-cell{white-space:normal}
+.cmp td.src-cell .cite{font-size:.75rem}
+.longform .cmp,.longform .illus{max-width:none}
+
+.mix-info{font-family:"Public Sans",system-ui,sans-serif !important;font-size:.88rem !important;line-height:1.5 !important}
+.cmp td.src-cell{min-width:9rem}
+
+.lecture p+p{margin-top:.8rem}
+
+.ctx{margin:.2rem 0 .9rem;padding:.75rem 1rem;background:var(--paper);border:1px solid var(--rule);border-radius:8px;max-width:62ch}
+.ctx-l{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:.25rem}
+.ctx p{margin:0;font-size:.95rem;line-height:1.6}
+.fig .cmp-o{display:block;margin-top:.45rem;font-style:normal;font-size:.85rem;font-weight:600;padding-top:.4rem;border-top:1px dashed var(--rule)}
+.fig .cmp-o.fr{color:var(--fr)}.fig .cmp-o.es{color:var(--es)}
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="edition" data-lang="fr" lang="fr">
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>France</span><span class="line" aria-hidden="true"></span><span>Espagne</span></div>
+    <div class="titlerow">
+      <h1>Le Bulletin Rilamax</h1>
+      <div class="langs" role="group" aria-label="Langue"><button type="button" data-set="fr" aria-pressed="true">FR</button><button type="button" data-set="es" aria-pressed="false">ES</button></div>
+    </div>
+    <div class="meta"><span>N° 7 · Semaine 46</span><span>Du 9 au 14 novembre 2026</span><span>Lecture : 21 minutes</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sommaire">
+  <div class="wrap"><ul>
+    <li><a href="#fr-edito">L&#39;édito</a></li>
+    <li><a href="#fr-cifras">Les chiffres</a></li>
+    <li><a href="#fr-dossier">Le dossier</a></li>
+    <li><a href="#fr-fr">France</a></li>
+    <li><a href="#fr-es">Espagne</a></li>
+    <li><a href="#fr-agenda">À surveiller</a></li>
+    <li><a href="#fr-glosario">Lexique</a></li>
+    <li><a href="/archivo/?lang=fr">Toutes les éditions</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="fr-edito">
+    <h2>Deux salaires minimums, deux manières de payer</h2>
+    <div class="edito">
+      <div class="body">
+        <p>Le gouvernement français a annoncé lundi un relèvement du Smic (salaire minimum français) de 1,6 % au 1er décembre, soit environ 24 € nets de plus par mois. À Madrid, le ministère du Travail propose un SMI (salaire minimum espagnol) en hausse de 5,3 % pour 2027. Les deux pays n&#39;absorbent pas la facture de la même façon : la France finance des allègements de cotisations sur les bas salaires, l&#39;Espagne laisse la hausse retomber presque entièrement sur l&#39;employeur.</p><p>Cette différence de mécanique pèse sur le budget français. Les allègements généraux coûtent environ 75 Md€ par an à la Sécurité sociale. Jeudi, le Sénat a voté le report au 1er avril de la réduction de 3,7 Md€ que le gouvernement voulait leur appliquer en 2027, ce qui coûte 900 M€. Les sénateurs veulent laisser au gouvernement le temps de présenter une réforme de fond, promise d&#39;ici au 31 mars.</p><p>En Espagne, la campagne des élections générales du 29 novembre rythme le calendrier. La Députation permanente du Congrès (commission restreinte qui siège pendant la dissolution des Cortes) a validé jeudi, par 35 voix contre 34, le décret sur le logement qui soumet à 10 % de TVA les locations touristiques courtes. Elle a rejeté la reconduction automatique des baux. La CEOE (confédération patronale espagnole) reproche au gouvernement le choix du moment pour la hausse du SMI.</p><p>Côté entreprises, Enagás (gestionnaire du réseau gazier espagnol) porte à 49,5 % sa part dans Teréga (opérateur de gaz du sud-ouest de la France) en achetant 18 % à EDF pour 311 M€. Un actif régulé français attire ainsi du capital ibérique, sans changement de contrôle. La semaine a aussi été sociale des deux côtés : grève générale pour le logement en Espagne le 11 novembre, nouvelle journée de grève en France le 17.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Les trois points à retenir</h3>
+        <ol><li>Au niveau du minimum, l&#39;écart de coût employeur entre la France et l&#39;Espagne est bien plus étroit que l&#39;écart moyen de 45,7 € contre 27,4 € de l&#39;heure.</li><li>Le décret espagnol sur le logement est validé : 10 % de TVA sur les locations touristiques courtes dès le 1er décembre.</li><li>Enagás monte à 49,5 % de Teréga pour 311 M€ : le capital ibérique s&#39;installe dans le gaz du sud-ouest français.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="fr-cifras">
+    <h2>Les chiffres de la semaine</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>8,2 %</strong><span>Taux de chômage français au troisième trimestre 2026, au sens du BIT (Bureau international du travail), selon l&#39;Insee (institut français de la statistique) : 0,1 point de moins sur le trimestre, 0,4 point de plus sur un an.</span><em class="cmp-o es">Espagne : 10,18 % au troisième trimestre 2026 (EPA, enquête espagnole sur la population active).</em><small>Insee, 10 novembre 2026</small></div><div class="fig fr"><strong>+1,6 %</strong><span>Revalorisation du Smic annoncée le 9 novembre pour le 1er décembre 2026, soit environ 1 502 € nets par mois pour un temps plein, contre une inflation de 3,4 % en octobre.</span><em class="cmp-o es">Espagne : +5,3 % proposé pour 2027, soit 1 286 € bruts par mois en 14 versements (ministère du Travail, projet publié le 5 novembre).</em><small>Gouvernement, conférence sociale du 9 novembre 2026</small></div><div class="fig fr"><strong>900 M€</strong><span>Coût pour la Sécurité sociale du report au 1er avril de la baisse de 3,7 Md€ des allègements de cotisations patronales, voté par le Sénat le 12 novembre. Ces allègements coûtent environ 75 Md€ par an.</span><em class="cmp-o es">Espagne : aucun dispositif général comparable relevé ; cotisations patronales d&#39;environ 30,65 % du brut pour un CDI, hors accidents du travail (barème 2026).</em><small>Sénat, séance du 12 novembre 2026</small></div><div class="fig es"><strong>9 174</strong><span>Sociétés commerciales créées en Espagne en septembre 2026, soit 0,9 % de moins en un an et un premier recul depuis mai, selon l&#39;INE (institut espagnol de la statistique).</span><em class="cmp-o fr">France : environ 1,3 million de créations d&#39;entreprises sur douze mois (Insee, publié début novembre) ; le périmètre diffère, la comparaison reste indicative.</em><small>INE, 12 novembre 2026</small></div><div class="fig es"><strong>182,2 M€</strong><span>Montant du décret-loi espagnol de mesures urgentes après la dana Adam (épisode de pluies extrêmes des 17 à 19 octobre), avec exonérations d&#39;impôts locaux pour les biens sinistrés.</span><em class="cmp-o fr">France : pas de donnée comparable fiable cette semaine. Repère espagnol : la dana de 2024 représente environ 4,8 Md€ de sinistres estimés par le Consorcio de Compensación de Seguros (CCS, organisme public espagnol d&#39;indemnisation des catastrophes), juin 2026.</em><small>La Moncloa, Conseil des ministres du 10 novembre 2026</small></div><div class="fig es"><strong>2,57 %</strong><span>Indice IRAV d&#39;octobre 2026, qui plafonne la révision annuelle des loyers d&#39;habitation en Espagne.</span><em class="cmp-o fr">France : +1,57 % sur un an pour l&#39;IRL (indice de référence des loyers, équivalent français) du troisième trimestre 2026 (Insee, 15 octobre).</em><small>INE, 13 novembre 2026</small></div>
+    </div>
+  </section>
+
+  
+  <section id="fr-dossier" class="dossier">
+    <h2>Le dossier : Salaire minimum : la France subventionne les cotisations, l&#39;Espagne laisse la hausse à l&#39;employeur</h2>
+    <p class="intro">Le Smic français monte de 1,6 % le 1er décembre et le SMI espagnol pourrait gagner 5,3 % en 2027. Derrière ces deux chiffres, deux mécanismes : en France, l&#39;État absorbe une partie du coût du travail au bas de l&#39;échelle, pour environ 75 Md€ par an ; en Espagne, la hausse pèse presque intégralement sur l&#39;employeur. Pour un groupe qui emploie des deux côtés des Pyrénées, le coût réel au niveau du minimum se rapproche plus qu&#39;on ne le croit.</p>
+    <div class="dfigs"><div><strong>75 Md€</strong><span>Coût annuel des allègements généraux de cotisations patronales en France, selon le ministre du Travail</span></div><div><strong>1,6 % / 5,3 %</strong><span>Hausse du salaire minimum : Smic français au 1er décembre 2026, SMI espagnol proposé pour 2027</span></div><div><strong>45,7 € / 27,4 €</strong><span>Coût horaire de la main-d&#39;œuvre au deuxième trimestre 2026, France et Espagne (industrie et services marchands)</span></div><div><strong>1 217 €</strong><span>Surcoût annuel pour l&#39;employeur espagnol d&#39;un salarié au SMI en 2027 si la hausse de 5,3 % est adoptée</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. Deux hausses, deux calendriers</h3>
+        <p>Le 9 novembre, à l&#39;issue de la conférence sociale de Matignon, le ministre du Travail a annoncé une revalorisation anticipée du Smic de 1,6 % au 1er décembre. Le Smic net passera de 1 477,93 € à environ 1 502 € par mois, soit 23,65 € de plus. L&#39;annonce suit les grèves du 29 septembre et du 5 novembre, alors que l&#39;inflation a atteint 3,4 % en octobre selon l&#39;Insee, son plus haut niveau depuis janvier 2024. Les syndicats réclamaient 100 € nets ; la CGT parle de « miettes ».</p><p>En Espagne, le ministère du Travail propose de porter le SMI à 1 286 € bruts par mois en 14 versements, soit 18 004 € par an, contre 1 221 € aujourd&#39;hui (+5,3 %). Les experts consultés recommandaient 4,9 % et les syndicats CCOO et UGT demandaient 7 %. La CEOE et la Cepyme (organisation patronale des PME) refusent une hausse décidée à quelques semaines des élections du 29 novembre. Le projet est en consultation publique jusqu&#39;au 16 novembre et pourrait passer en Conseil des ministres les 17 ou 24, avec effet au 1er janvier. Depuis 2018, où il valait 735,90 €, le SMI aurait progressé d&#39;environ 75 %.</p>
+        
+<figure class="chart" aria-label="Salaire minimum brut annuel : Smic français, SMI espagnol 2026 et projet 2027">
+  
+  <div class="bar-row"><span class="lbl">Smic France (avant 1er décembre)</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 21 876 €</span></div><div class="bar-row"><span class="lbl">SMI Espagne 2026</span><span class="bar"><span class="fill w78 c-es"></span></span><span class="val">17 094 €</span></div><div class="bar-row"><span class="lbl">SMI Espagne 2027 (projet)</span><span class="bar"><span class="fill w82 c-es"></span></span><span class="val">18 004 €</span></div>
+  <figcaption>France et Espagne, 2026-2027, en euros bruts par an. France : Smic de référence de 1 823,03 € bruts mensuels sur douze mois, avant la hausse du 1er décembre (calcul Rilamax) ; Espagne : 14 versements. Source : Cadrio, ministère du Travail espagnol.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>2. Le coût réel pour l&#39;employeur : l&#39;État français absorbe une partie de la facture</h3>
+        <p>En France, la RGDU (réduction générale dégressive unique, allègement des cotisations patronales sur les salaires jusqu&#39;à 3 Smic) remplace depuis janvier 2026 la réduction Fillon. Elle coûte environ 75 Md€ par an à la Sécurité sociale, selon le ministre du Travail. Au niveau du Smic, le guide Cadrio chiffre l&#39;allègement à près de 726 € par mois pour un salaire brut de 1 823 €, soit environ 40 % du brut, et estime à 2 690 € le coût mensuel employeur sans ce dispositif. Le Smic de référence utilisé pour le calcul reste gelé à 12,02 € de l&#39;heure en 2026.</p><p>En Espagne, aucun allègement général de cette ampleur n&#39;est apparu dans nos recherches. Les cotisations patronales d&#39;un contrat à durée indéterminée atteignent environ 30,65 % du brut en 2026 : 23,60 % de contingences communes, 5,50 % de chômage, 0,60 % de formation, 0,20 % pour le fonds de garantie salariale et 0,75 % pour le MEI (mécanisme d&#39;équité intergénérationnelle, qui alimente le fonds de réserve des retraites). Pour un salarié au SMI, l&#39;employeur verse environ 5 496 € de cotisations par an, soit 22 590 € de coût total. Le MEI passe à 1,00 % en 2027, dont 0,83 % pour l&#39;employeur.</p><p>Mis côte à côte, le coût employeur annuel d&#39;un salarié au minimum ressort à environ 23 600 € en France (2 690 € par mois moins 726 € d&#39;allègement, sur douze mois) et à 22 600 € en Espagne, soit un écart de 4 % environ. Pour le coût horaire moyen, l&#39;écart est de 67 %. Cette estimation Rilamax demande de la prudence : accidents du travail, prévoyance et dispositions de branche n&#39;y figurent pas.</p>
+        
+        
+        
+        <div class="debate"><h4>Le débat</h4><p>Pour les défenseurs des allègements, ils maintiennent des emplois peu qualifiés qui ne résisteraient pas à un coût plein ; le ministre du Travail rappelle que le dispositif abaisse le coût des bas salaires, « puisque c&#39;est fait pour ça ». Leurs critiques y voient une charge de 75 Md€ par an et un frein aux augmentations, car chaque euro de salaire en plus réduit l&#39;allègement. Côté espagnol, les syndicats jugent 5,3 % insuffisant face aux 7 % demandés, la CEOE critique le moment politique, et le ministère a retenu un chiffre supérieur de quatre dixièmes de point à la recommandation de ses experts. Les données de la semaine ne tranchent pas la question de l&#39;effet sur l&#39;emploi : aucune des deux positions n&#39;est démontrée par les chiffres disponibles.</p></div>
+        
+      
+        
+        <h3>3. Ce que les chiffres mesurent déjà</h3>
+        <p>Au deuxième trimestre 2026, le coût horaire moyen de la main-d&#39;œuvre s&#39;établit à 45,7 € en France, 40,0 € dans la zone euro et 27,4 € en Espagne, dans l&#39;industrie et les services marchands, selon les estimations de Rexecode d&#39;après Eurostat. Dans l&#39;industrie manufacturière, l&#39;écart est de 48,1 € contre 29,0 €. Au niveau du minimum, les deux pays sont plus proches : en brut annuel, le Smic avant sa hausse de décembre représente environ 21 876 €, contre 17 094 € pour le SMI, soit un écart de 28 %.</p><p>Les effets sur l&#39;emploi restent à mesurer, et les données de la semaine ne permettent pas d&#39;isoler celui des minima. Le chômage atteint 8,2 % en France et 10,18 % en Espagne, où l&#39;emploi a pourtant atteint 22,85 millions de personnes au troisième trimestre. L&#39;inflation d&#39;octobre complique la lecture : 3,4 % en France et 4,9 % en Espagne. La hausse du Smic (1,6 %) reste inférieure à l&#39;inflation française, alors que celle du SMI proposée (5,3 %) dépasse de 0,4 point l&#39;inflation espagnole.</p>
+        
+<figure class="chart" aria-label="Coût horaire de la main-d&#39;œuvre au deuxième trimestre 2026 : France, zone euro, Espagne">
+  
+  <div class="bar-row"><span class="lbl">France</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">45,7 €</span></div><div class="bar-row"><span class="lbl">Zone euro</span><span class="bar"><span class="fill w88 c-es"></span></span><span class="val">40,0 €</span></div><div class="bar-row"><span class="lbl">Espagne</span><span class="bar"><span class="fill w60 c-es"></span></span><span class="val">27,4 €</span></div>
+  <figcaption>Industrie et services marchands, entreprises de 10 salariés et plus, deuxième trimestre 2026, en euros par heure. Source : Rexecode, d&#39;après Eurostat.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. Le contrepoint : un budget sous tension, une consultation sous pression</h3>
+        <p>Côté français, la facture des allègements est entrée dans le débat budgétaire. Le PLFSS (projet de loi de financement de la Sécurité sociale) pour 2027 prévoyait de réduire de 3,7 Md€ les allègements en intégrant l&#39;épargne salariale et d&#39;autres compléments dans l&#39;assiette. Le Sénat a adopté l&#39;article le 12 novembre par 184 voix contre 16, avec une entrée en vigueur repoussée au 1er avril, ce qui coûte 900 M€ à raison de 300 M€ par mois. Le gouvernement a promis une réflexion de fond d&#39;ici au 31 mars ; le ministre a décrit le dispositif comme « une espèce de trappe à Smic ».</p><p>Côté espagnol, le calendrier dépend des urnes. Le décret fixant le SMI doit passer en Conseil des ministres avant le 29 novembre ; en 2026, il avait été publié le 19 février avec effet rétroactif au 1er janvier. Les cotisations suivent mécaniquement le salaire : le surcoût annuel d&#39;un salarié au SMI serait d&#39;environ 1 217 € pour l&#39;employeur (910 € de salaire et 307 € de cotisations), selon le cabinet Alvamar. Les bases minimales de cotisation, liées au SMI, passeraient à environ 1 500 € par mois.</p>
+        
+        
+        
+      
+        
+        <h3>5. Ce qu&#39;il faut regarder</h3>
+        <p>En France, le vote du Sénat sur le PLFSS est prévu le 18 novembre, l&#39;examen du budget de l&#39;État court du 20 novembre au 9 décembre, et la discussion d&#39;un mois ouverte avec la fonction publique aboutit à un rendez-vous le 11 décembre. En Espagne, les Conseils des ministres des 17 et 24 novembre et les élections du 29 diront si le SMI est fixé avant le changement éventuel de majorité. Les barèmes de cotisation 2027 n&#39;existent pas encore : seul le MEI est fixé par la loi.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lecture Rilamax</h4><p>L&#39;écart de coût du travail entre la France et l&#39;Espagne atteint deux tiers en moyenne, mais seulement quelques points au niveau du minimum, si l&#39;on retient nos estimations. La raison tient aux 75 Md€ d&#39;allègements que le budget français finance. Cette architecture est coûteuse, et le Sénat vient de le rappeler en reportant une économie de 900 M€ ; elle laisse aussi subsister la trappe à bas salaires que la RGDU cherche à atténuer. L&#39;Espagne a pris l&#39;autre voie : pas de subvention générale, un SMI en hausse d&#39;environ 75 % depuis 2018, un coût qui revient entièrement à l&#39;employeur. À notre avis, aucune des deux voies n&#39;est neutre pour l&#39;investisseur : la première expose à un risque budgétaire, la seconde à un risque de calendrier politique. Un groupe présent des deux côtés devrait valoriser deux scénarios, avec et sans réforme des allègements en France, et conviendrait de revoir les clauses d&#39;indexation de ses contrats de services (nettoyage, sécurité, restauration collective) avant le 1er janvier. Faute de mesure de l&#39;effet sur l&#39;emploi, nous ne tirons pas de conclusion sur ce point.</p></aside>
+    <div class="watch"><h4>Ce que nous surveillerons</h4><p>Nous suivrons le vote du Sénat sur le PLFSS le 18 novembre, l&#39;approbation du SMI espagnol en Conseil des ministres et la réflexion promise sur les allègements d&#39;ici au 31 mars.</p></div>
+    <p class="src">Sources : <a href="https://www.economiematin.fr/conference-sociale-smic-primes-transports-pouvoir-achat-novembre-2026" target="_blank" rel="noopener">Économie Matin, conférence sociale</a>, <a href="https://www.boursorama.com/actualite-economique/actualites/budget-le-senat-vote-le-report-en-avril-de-la-baisse-des-allegements-de-cotisations-patronales-renoncant-a-900-millions-d-euros-d-economies-5295076db96f61987d77dc52634dad25" target="_blank" rel="noopener">Boursorama, report des allègements au Sénat</a>, <a href="https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/projet-de-loi-de-financement-de-la-securite-sociale-pour-2027.html" target="_blank" rel="noopener">Sénat, PLFSS 2027</a>, <a href="https://www.infobae.com/espana/agencias/2026/11/05/el-gobierno-subira-el-smi-un-53-en-2027-y-la-ceoe-critica-que-lo-use-politicamente/" target="_blank" rel="noopener">Infobae / EFE, SMI 2027</a>, <a href="https://alvamarconsultores.com/salario-minimo-2027/" target="_blank" rel="noopener">Alvamar, SMI 2027 et coût employeur</a>, <a href="https://www.rexecode.fr/competitivite-croissance/indicateurs-du-cout-de-l-heure-de-travail-en-europe/les-couts-de-la-main-d-aeuvre-dans-l-union-europeenne-au-2eme-trimestre-2026" target="_blank" rel="noopener">Rexecode, coûts de la main-d&#39;œuvre T2 2026</a>, <a href="https://www.cadrio.fr/guides/rgdu-reduction-generale-degressive-unique" target="_blank" rel="noopener">Cadrio, guide RGDU</a>, <a href="https://www.sage.com/es-es/blog/las-cotizaciones-a-la-seguridad-social-conceptos-bases-y-porcentajes/" target="_blank" rel="noopener">Sage, cotisations Sécurité sociale 2026</a>, <a href="https://www.eldiariodemadrid.es/articulo/economia/trabajo-propone-subir-smi/20261105111309146120.html" target="_blank" rel="noopener">El Diario de Madrid, proposition de SMI</a></p>
+  </section>
+
+  <section id="fr-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">France</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalité</span>
+    <h3>Budget 2027 : au Sénat, la fenêtre des dons à 6 % pourrait courir jusqu&#39;à fin 2027</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le projet de loi de finances (PLF, le budget de l&#39;État) pour 2027 prévoit à son article 4 une mesure temporaire : un taux unique de 6 % sur les dons d&#39;argent consentis du 1er janvier au 30 juin 2027, dans la limite de 100 000 €, réservé aux donataires de moins de 50 ans, et un don familial exonéré porté de 31 865 € à 50 000 €. Les députés avaient élargi le dispositif, mais l&#39;Assemblée a rejeté tout le texte le 4 novembre. Le Sénat repart donc de la version du gouvernement.</p></div>
+    <p class="sum">Le 12 novembre, en commission des finances du Sénat, la rapporteure générale Christine Lavarde a déposé trois amendements sur l&#39;article 4, selon la presse spécialisée : prolonger les mesures jusqu&#39;au 31 décembre 2027, plafonner l&#39;avantage à 200 000 € par donataire et fixer à 80 ans l&#39;âge maximal du donateur pour le taux réduit. La taxe de 2 % sur les placements des holdings familiales, adoptée en commission à l&#39;Assemblée, ne figure plus dans le texte. L&#39;examen en séance court du 20 novembre au 9 décembre. Côté espagnol, pas de donnée comparable fiable cette semaine : les donations y relèvent de l&#39;impôt sur les successions et donations, dont les réductions varient selon la communauté autonome.</p>
+    <p class="src">Sources : <a href="https://www.toulouseimmo9.com/actualites/fiscalite-finance/don-familial-logement-neuf" target="_blank" rel="noopener">Toulouse Immo 9, amendements du 12 novembre</a>, <a href="https://www.france-epargne.fr/news/donations-a-6-le-rejet-du-budget-2027-ramene-la-fenetre-a-six-mois-devant-le-senat" target="_blank" rel="noopener">France Épargne, dons à 6 % devant le Sénat</a>, <a href="https://www.cpim.fr/reforme-succession-2027-impact/" target="_blank" rel="noopener">CPIM, donations 2027</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un contribuable qui prépare une donation pour 2027 devrait raisonner en deux scénarios : une fenêtre de six mois à 100 000 €, ou une fenêtre d&#39;un an plafonnée à 200 000 €. Rien n&#39;est voté, et la commission mixte paritaire (réunion de députés et de sénateurs qui cherche un texte commun) de décembre peut tout changer. Pour une famille répartie entre la France et l&#39;Espagne, la résidence fiscale de chacun reste à vérifier.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Entreprises et investissement</span>
+    <h3>Enagás achète 18 % de Teréga à EDF pour 311 M€ et monte à 49,5 %</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Teréga exploite le réseau de transport et de stockage de gaz du sud-ouest de la France, soit 16 % des gazoducs et 27 % de la capacité de stockage du pays, selon la presse économique espagnole. En juillet, le gestionnaire espagnol Enagás avait acheté 31,5 % du capital au fonds souverain de Singapour GIC pour 573 M€. Les deux sociétés participent aussi, avec l&#39;opérateur français NaTran, à un projet de transport d&#39;hydrogène renouvelable entre la péninsule ibérique et l&#39;Europe.</p></div>
+    <p class="sum">Le 13 novembre, Enagás a annoncé à la CNMV (le régulateur boursier espagnol) un accord avec EDF Invest pour acquérir 18 % supplémentaires de Teréga Holding pour 311 M€. Sa part passera de 31,5 % à 49,5 %, devant l&#39;italien Snam (40,5 %) et Predica, filiale de Crédit Agricole Assurances (10 %). La clôture est prévue avant fin 2026, sans changement de contrôle : la participation reste consolidée par mise en équivalence. La valorisation implicite de Teréga ressort à environ 1,7 Md€, contre 1,8 Md€ en juillet, selon Merca2. Comme repère inverse, l&#39;entrée du français BPCE à 7 % dans Sabadell valait environ 1,2 Md€ au cours de bourse début octobre.</p>
+    <p class="src">Sources : <a href="https://www.elespanol.com/invertia/empresas/energia/20261113/enagas-compra-edf-adicional-francesa-terega-millones-eleva-participacion/1003744456729_0.html" target="_blank" rel="noopener">El Español / Invertia</a>, <a href="https://www.eleconomista.es/energia/noticias/14027550/11/26/enagas-compra-a-edf-invest-su-participacion-en-terega-por-311-millones-y-se-consolida-como-primer-accionista.html" target="_blank" rel="noopener">elEconomista</a>, <a href="https://www.merca2.es/2026/11/13/enagas-compra-terega-311-millones-2504317/" target="_blank" rel="noopener">Merca2</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un actif régulé français attire du capital ibérique sans cession de contrôle : le pacte d&#39;actionnaires reste inchangé. Les infrastructures d&#39;énergie deviennent un terrain d&#39;investissement à double sens entre les deux pays. Un investisseur devrait lire le pacte d&#39;actionnaires avant de comparer des participations minoritaires, dont les droits varient beaucoup.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Politique et société</span>
+    <h3>Fonction publique : grève le 17 novembre, un coût toujours sans chiffre</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Après les grèves du 29 septembre et du 5 novembre, le gouvernement a réuni les partenaires sociaux à Matignon le 9 novembre. Il en est sorti un Smic relevé de 1,6 % au 1er décembre, à environ 1 502 € nets contre 1 478 € aujourd&#39;hui, et un projet de plafond d&#39;exonération des heures supplémentaires porté de 7 500 à 10 000 €, qui doit encore être voté. Les syndicats ont jugé l&#39;ensemble insuffisant.</p></div>
+    <p class="sum">Le 13 novembre, le Premier ministre a reçu les syndicats des 5,8 millions d&#39;agents publics, une première en 18 ans selon son entourage. Il a annoncé 8 points d&#39;indice pour les agents les moins bien payés et un mois de discussions sur cinq chantiers, avec rendez-vous le 11 décembre. Environ 660 000 agents toucheraient encore une indemnité différentielle ; le gouvernement chiffre à 2,4 Md€ une hausse de 1 % du point d&#39;indice. La CFDT rejoint l&#39;appel à la grève du 17 novembre. Aucun calcul du coût économique de la journée n&#39;est publié. En Espagne, la grève générale du 11 novembre n&#39;a pas non plus de chiffrage officiel.</p>
+    <p class="src">Sources : <a href="https://www.boursorama.com/actualite-economique/actualites/les-syndicats-de-fonctionnaires-sortent-remontes-de-matignon-la-cfdt-rejoint-l-appel-a-la-greve-le-17-novembre-853f97d58dc2f2af53ea8acee4d716e3" target="_blank" rel="noopener">Boursorama / AFP</a>, <a href="https://www.ouest-france.fr/economie/social/une-reunion-pour-rien-a-matignon-les-syndicats-de-la-fonction-publique-appellent-a-la-greve-mardi-17-novembre-ed8a8b5a-df83-11f1-b029-43a761592972" target="_blank" rel="noopener">Ouest-France</a>, <a href="https://www.economiematin.fr/conference-sociale-smic-primes-transports-pouvoir-achat-novembre-2026" target="_blank" rel="noopener">Économie Matin</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Pour un prestataire de l&#39;État, la semaine du 17 novembre appelle à vérifier les clauses de force majeure et les délais de livraison. Plus largement, la poussée du Smic comprime les grilles : un employeur voisin du Smic devrait contrôler ses minima conventionnels, car le gouvernement dit avoir un décret prêt pour inciter les branches à les relever.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Économie</span>
+    <h3>Chômage à 8,2 % au troisième trimestre, croissance 2026 ramenée vers 0,3 %</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le taux de chômage français est monté de 7,4 % à l&#39;automne 2024 à 8,3 % au deuxième trimestre 2026, son plus haut niveau depuis 2020. L&#39;activité est atone : le PIB a reculé de 0,1 % au troisième trimestre. Selon l&#39;Insee, les bénéficiaires du RSA et les jeunes inscrits à France Travail, depuis la loi pour le plein emploi, expliquent un peu moins de la moitié de la hausse.</p></div>
+    <p class="sum">L&#39;Insee a publié le 10 novembre un taux de 8,2 % au troisième trimestre, soit 0,1 point de moins qu&#39;au deuxième mais 0,4 point de plus qu&#39;un an plus tôt, avec 2,6 millions de chômeurs, 47 000 de moins. Chez les 15-24 ans, le taux atteint 21 %. L&#39;institut attendait 8,5 % dans sa note de septembre. Le gouverneur de la Banque de France, Emmanuel Moulin, juge désormais une croissance de 0,3 % plus probable pour 2026 que les 0,4 % prévus, avec une hausse modérée du PIB au quatrième trimestre. En Espagne, le taux est de 10,18 % au troisième trimestre, mais l&#39;emploi y atteint un record de 22,85 millions de personnes.</p>
+    <p class="src">Sources : <a href="https://www.insee.fr/fr/statistiques/9118603" target="_blank" rel="noopener">Insee, Informations rapides n° 270</a>, <a href="https://www.ici.fr/infos/economie-social/le-taux-de-chomage-reste-quasiment-stable-au-troisieme-trimestre-en-france-s-etablissant-a-8-2-4286262" target="_blank" rel="noopener">ICI / Maxppp</a>, <a href="https://www.daf-mag.fr/reglementation-1243/fiscalite-2115/croissance-en-2026-la-banque-de-france-table-sur-un-repli-a-03-28179" target="_blank" rel="noopener">Daf-Mag</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Dans les deux pays le chômage a augmenté récemment (+0,4 point sur un an en France, +0,31 point sur le trimestre en Espagne), tout en restant séparé de deux points. Un employeur qui recrute des deux côtés des Pyrénées a intérêt à suivre la tension par métier plutôt que par moyenne nationale.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">Espagne</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalité</span>
+    <h3>Dana Adam : exonérations d&#39;IBI et d&#39;IAE et 182,2 M€ de mesures par décret-loi</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>La dana Adam, une dépression isolée en altitude qui provoque des pluies extrêmes, a frappé la Communauté valencienne et d&#39;autres provinces entre le 17 et le 19 octobre. Le CCS avait enregistré 6 528 demandes d&#39;indemnisation au 22 octobre, dont 77 % dans la province de Valence. Pour mémoire, la dana d&#39;octobre 2024 représente environ 4,8 Md€ de sinistres, selon la dernière estimation du CCS.</p></div>
+    <p class="sum">Le Conseil des ministres du 10 novembre a approuvé le décret-loi 33/2026, publié le 11 au BOE (journal officiel espagnol) : 182,2 M€ de mesures urgentes, dont 88,7 M€ pour l&#39;agriculture. Sur le plan fiscal : exonération de l&#39;IBI (impôt foncier local) 2026 pour les biens endommagés ou dont les occupants ont été relogés, réduction de l&#39;IAE (impôt local sur l&#39;activité économique) pour les activités touchées, et abattements d&#39;impôt sur le revenu et de TVA simplifiée pour les exploitations agricoles. L&#39;État compense les communes et les aides sont exonérées d&#39;impôt. Les contribuables qui ont déjà payé peuvent demander un remboursement. France : pas de donnée comparable fiable cette semaine.</p>
+    <p class="src">Sources : <a href="https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261110-referencia-rueda-de-prensa-ministros.aspx" target="_blank" rel="noopener">La Moncloa, référence du Conseil des ministres</a>, <a href="https://theobjective.com/espana/politica/2026-11-10/gobierno-destinara-180-millones-dana-adam/" target="_blank" rel="noopener">The Objective</a>, <a href="https://www.eleconomista.es/banca-finanzas/noticias/14022782/10/26/el-consorcio-de-seguros-recibe-mas-de-6500-solitudes-de-indemnizacion-por-la-dana-adam.html" target="_blank" rel="noopener">elEconomista, CCS et dana Adam</a>, <a href="https://segurosnews.com/news/el-consorcio-aumenta-sus-indemnizaciones-por-la-dana-hasta-los-4-484-millones" target="_blank" rel="noopener">SegurosNews, coût de la dana de 2024</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Une entreprise française qui possède des locaux ou exploite un site dans la zone sinistrée devrait vérifier si ses biens relèvent de l&#39;exonération d&#39;IBI et si l&#39;IAE est réduit pour son activité. Elle doit conserver les justificatifs de dommages, car les impôts déjà acquittés peuvent donner lieu à remboursement.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Immobilier</span>
+    <h3>Logement : décret validé à une voix près, TVA de 10 % sur les locations touristiques</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le gouvernement avait approuvé le 29 septembre un décret-loi sur le logement, rejeté par le Congrès le 2 octobre par 178 voix contre 172. Il l&#39;a réapprouvé le 6 octobre sous le numéro 29/2026, après la dissolution des Cortes en vue des élections du 29 novembre. Le texte devait donc être validé par la Députation permanente, où l&#39;équilibre des forces est différent de celui du Congrès réuni en séance plénière.</p></div>
+    <p class="sum">Le 12 novembre, la Députation permanente a validé le décret-loi 29/2026 par 35 voix contre 34. Selon les conseillers fiscaux, il applique dès le 1er décembre 10 % de TVA aux locations meublées de 30 nuits ou moins, permet aux communes des zones tendues un supplément d&#39;IBI pouvant atteindre 150 %, ramène à 4 % la TVA sur certains logements protégés et prolonge de deux ans, à loyer inchangé, les baux de résidence principale arrivant à échéance jusqu&#39;au 31 décembre 2028. Le second décret, qui instaurait un renouvellement automatique de cinq ans (sept si le bailleur est une société), est tombé après le vote contre du PNV. Repère : l&#39;IRAV est de 2,57 % en octobre, contre +1,57 % pour l&#39;IRL français au troisième trimestre.</p>
+    <p class="src">Sources : <a href="https://www.eldiariodemadrid.es/articulo/vivienda/congreso-decretos-vivienda-prorroga-alquileres-renovacion-automatica/20261112162933146758.html" target="_blank" rel="noopener">El Diario de Madrid</a>, <a href="https://www.alcalahoy.es/2026/11/12/la-diputacion-permanente-salva-el-decreto-de-vivienda-por-un-voto-y-tumba-la-prorroga-automatica-de-alquileres/" target="_blank" rel="noopener">Alcalá Hoy</a>, <a href="https://www.dig.es/iva-pisos-turisticos-ibi/" target="_blank" rel="noopener">DIG, IVA des logements touristiques</a>, <a href="https://www.democrata.es/economia/ipc-octubre-2026-inflacion-espana/" target="_blank" rel="noopener">Demócrata, IPC d&#39;octobre et IRAV</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>La TVA à 10 % modifie le calcul de rentabilité d&#39;une location touristique espagnole : elle peut être répercutée sur le client, mais son effet net dépend de la déductibilité et du marché local. Le texte reste fragile, car l&#39;opposition indique qu&#39;elle le supprimerait si elle gouverne. Un investisseur devrait donc valoriser deux scénarios après le 29 novembre.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Énergie</span>
+    <h3>Industrie électro-intensive : un décret renforce le statut et les aides, jusqu&#39;à 76 M€ en 2027</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le décret royal 1106/2020 encadre le statut des consommateurs électro-intensifs, et le décret 309/2022 compense les coûts indirects du carbone pour les secteurs exposés à la concurrence internationale. Depuis mars 2026, le plan de réponse à la crise au Moyen-Orient a accumulé plus de 12 Md€ de coût budgétaire, avec des baisses d&#39;impôt sur les carburants et sur l&#39;électricité.</p></div>
+    <p class="sum">Le Conseil des ministres du 10 novembre a approuvé un décret royal qui modifie ces deux textes pour simplifier les démarches, accroître l&#39;efficacité des aides existantes et renforcer la compétitivité de l&#39;industrie électro-intensive. Le nouveau cadre pourrait permettre une aide maximale de 76 M€ en 2027, selon les crédits disponibles. Autre repère : la baisse de la taxe sur les carburants est de 13 centimes par litre en novembre puis de 6 en décembre. Les prix restent élevés : en octobre, le gazole a augmenté de 36,2 % en un an en Espagne (INE), contre 46,7 % en France (Insee).</p>
+    <p class="src">Sources : <a href="https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261110-referencia-rueda-de-prensa-ministros.aspx?qfr=16" target="_blank" rel="noopener">La Moncloa, référence du Conseil des ministres du 10 novembre</a>, <a href="https://www.moncloa.com/2026/09/30/decreto-crisis-energetica-consejo-ministros-3440017/" target="_blank" rel="noopener">Moncloa.com, décret sur la crise énergétique</a>, <a href="https://roams.es/actualidad/finanzas/inflacion-octubre-repite-4-9-septiembre-nivel-alto-febrero-2023/" target="_blank" rel="noopener">Roams, inflation d&#39;octobre</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Les 76 M€ sont un maximum, subordonné aux crédits budgétaires. Un industriel français qui envisage de produire en Espagne devrait comparer le coût net de l&#39;électricité, aides comprises, plutôt que le seul prix de marché. Nous n&#39;avons pas trouvé cette semaine de chiffre comparable côté français.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Politique et société</span>
+    <h3>Grève générale du 11 novembre pour le logement : un suivi contesté, aucun coût chiffré</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Les syndicats ont appelé le 11 novembre à une grève générale pour le droit au logement, la hausse des salaires et de meilleures conditions de vie, à moins de trois semaines des élections du 29 novembre. Le logement en est l&#39;expression principale, mais les revendications dépassent le marché immobilier.</p></div>
+    <p class="sum">Les syndicats évaluent le suivi de 41 % en Estrémadure à 84 % en Catalogne, avec plus de 60 % dans le commerce, l&#39;hôtellerie et le tourisme ; le patronat parle d&#39;échec et d&#39;un suivi historiquement bas. Le Sindicato de Inquilinas, organisation de locataires, avance quatre millions de participants. Aucun chiffrage du coût économique de la journée n&#39;a été publié. Le lendemain, la Députation permanente validait de justesse le décret sur le logement. En France, la grève du 5 novembre avait réuni 575 000 manifestants selon l&#39;Intérieur et 1,6 million selon la CGT, sans coût calculé ; une nouvelle journée est prévue le 17 novembre.</p>
+    <p class="src">Sources : <a href="https://www.eldiario.es/economia/primera-huelga-general-vivienda-moviliza-millones-personas-eleva-tension-pp-vox_1_13656244.html" target="_blank" rel="noopener">elDiario.es</a>, <a href="https://arainfo.org/huelga-general-11n-millones-personas-estado-espanol-derecho-vivienda/" target="_blank" rel="noopener">ARAinfo</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Les chiffres de participation divergent d&#39;un facteur deux ou plus selon la source, et aucune des deux parties ne publie de coût. Une entreprise qui opère en Espagne devrait donc s&#39;appuyer sur ses propres données d&#39;absentéisme et de livraison. Le logement et les salaires resteront au cœur de la campagne jusqu&#39;au 29 novembre.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-agenda">
+    <h2>À surveiller dans les prochaines semaines</h2>
+    <ul class="agenda"><li><span class="when">16 au 24 novembre</span><span class="what">Espagne : fin de la consultation publique sur le SMI de 1 286 € (16), puis Conseils des ministres des 17 et 24, dates possibles d&#39;approbation</span></li><li><span class="when">17 novembre</span><span class="what">France : journée de grève et de mobilisation dans le public et le privé, avec la CFDT</span></li><li><span class="when">18 novembre</span><span class="what">France : vote du Sénat sur le PLFSS 2027</span></li><li><span class="when">29 novembre</span><span class="what">Espagne : élections générales</span></li><li><span class="when">1er décembre</span><span class="what">France : Smic relevé de 1,6 % ; Espagne : entrée en vigueur prévue de la TVA de 10 % sur les locations touristiques</span></li></ul>
+  </section>
+
+  
+  <section id="fr-glosario">
+    <h2>Les sigles de cette édition</h2>
+    <dl class="glossary"><div><dt>CCS</dt><dd>Consorcio de Compensación de Seguros : organisme public espagnol qui indemnise les dommages des catastrophes naturelles, notamment les inondations, quand l&#39;assurance privée ne les couvre pas.</dd></div><div><dt>DANA</dt><dd>Depresión aislada en niveles altos : épisode météorologique espagnol de pluies extrêmes, à l&#39;origine d&#39;inondations en Méditerranée.</dd></div><div><dt>IAE</dt><dd>Impuesto sobre Actividades Económicas : impôt local espagnol dû par les entreprises et les professionnels au titre de leur activité.</dd></div><div><dt>IBI</dt><dd>Impuesto sobre Bienes Inmuebles : impôt foncier local espagnol, équivalent de la taxe foncière française.</dd></div><div><dt>IRAV</dt><dd>Índice de Referencia para la Actualización de Arrendamientos de Vivienda : indice espagnol qui plafonne la révision annuelle des loyers d&#39;habitation.</dd></div><div><dt>IRL</dt><dd>Indice de référence des loyers : indice français publié par l&#39;Insee, qui plafonne la hausse annuelle des loyers d&#39;habitation en cours de bail.</dd></div><div><dt>MEI</dt><dd>Mecanismo de Equidad Intergeneracional : cotisation espagnole additionnelle, partagée entre employeur et salarié, qui alimente le fonds de réserve des retraites. Elle passe à 1,00 % en 2027.</dd></div><div><dt>PLFSS</dt><dd>Projet de loi de financement de la Sécurité sociale : texte annuel qui fixe les recettes et les objectifs de dépenses de la Sécurité sociale française.</dd></div><div><dt>RGDU</dt><dd>Réduction générale dégressive unique : allègement français des cotisations patronales sur les salaires jusqu&#39;à 3 Smic, en vigueur depuis janvier 2026 à la place de la réduction Fillon.</dd></div><div><dt>SMI</dt><dd>Salario Mínimo Interprofesional : salaire minimum légal espagnol, versé en 14 mensualités. Il vaut 1 221 € bruts par mois en 2026, 1 286 € dans le projet pour 2027.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>Le Bulletin Rilamax paraît chaque samedi : l&#39;essentiel de l&#39;économie, de la finance et de la politique entre la France et l&#39;Espagne, avec notre lecture.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">S&#39;abonner sur LinkedIn</a>
+  </section>
+
+  
+  <section id="fr-archivo" class="archive">
+    <h2>Éditions précédentes</h2>
+    <ul><li><a href="/ediciones/2026-11-07/">N° 6 — Régularisation en Espagne : un demi-million d&#39;affiliés, un effet macroéconomique limité</a><span>2026-11-07</span></li><li><a href="/ediciones/2026-10-31/">N° 5 — Gagner une élection n&#39;est pas un brevet de pilote</a><span>2026-10-31</span></li><li><a href="/ediciones/2026-10-24/">N° 4 — Émeutes et inondations : deux modèles pour payer le risque qui s&#39;emballe</a><span>2026-10-24</span></li><li><a href="/ediciones/2026-10-17/">N° 3 — Inflation : l&#39;Espagne croît plus vite que la France, mais renchérit plus vite</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Énergie : ce que la France tire de ses champs et que l&#39;Espagne laisse filer</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Logement en Espagne : un déficit d&#39;offre que les décrets ne traitaient pas, des zones tendues à l&#39;épreuve des chiffres</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>Le Bulletin Rilamax est publié par RILAMAX 2025 SL. Les résumés sont rédigés par nos soins à partir des sources citées. Les lectures Rilamax sont des analyses générales et ne constituent pas des conseils d&#39;investissement personnalisés. Veille et rédaction assistées par l&#39;IA. Sélection, vérification et analyse : Jean Marc Pavia.</p></footer>
+</div>
+
+
+<div class="edition" data-lang="es" lang="es" hidden>
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>Francia</span><span class="line" aria-hidden="true"></span><span>España</span></div>
+    <div class="titlerow">
+      <h1>El Boletín Rilamax</h1>
+      <div class="langs" role="group" aria-label="Idioma"><button type="button" data-set="fr" aria-pressed="false">FR</button><button type="button" data-set="es" aria-pressed="true">ES</button></div>
+    </div>
+    <div class="meta"><span>N.º 7 · Semana 46</span><span>Del 9 al 14 de noviembre de 2026</span><span>Lectura: 22 minutos</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sumario">
+  <div class="wrap"><ul>
+    <li><a href="#es-edito">El editorial</a></li>
+    <li><a href="#es-cifras">Las cifras</a></li>
+    <li><a href="#es-dossier">El dossier</a></li>
+    <li><a href="#es-fr">Francia</a></li>
+    <li><a href="#es-es">España</a></li>
+    <li><a href="#es-agenda">A vigilar</a></li>
+    <li><a href="#es-glosario">Glosario</a></li>
+    <li><a href="/archivo/?lang=es">Todas las ediciones</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="es-edito">
+    <h2>Dos salarios mínimos, dos formas de pagarlos</h2>
+    <div class="edito">
+      <div class="body">
+        <p>El Gobierno francés anunció el lunes una subida del Smic (salario mínimo interprofesional francés) del 1,6 % el 1 de diciembre, unos 24 € netos más al mes. En Madrid, el Ministerio de Trabajo propone un SMI un 5,3 % más alto para 2027. Los dos países no absorben la factura del mismo modo: Francia financia reducciones de cotizaciones sobre los salarios bajos, mientras que en España la subida recae casi por entero sobre el empleador.</p><p>Esa diferencia de mecánica pesa sobre el presupuesto francés. Las reducciones generales cuestan a la Seguridad Social unos 75.000 M€ al año. El jueves, el Senado votó aplazar al 1 de abril el recorte de 3.700 M€ que el Gobierno quería aplicarles en 2027, lo que cuesta 900 M€. Los senadores quieren dar al Ejecutivo tiempo para presentar una reforma de fondo, prometida antes del 31 de marzo.</p><p>En España, la campaña de las elecciones generales del 29 de noviembre marca el calendario. La Diputación Permanente del Congreso convalidó el jueves, por 35 votos contra 34, el decreto de vivienda que somete al 10 % de IVA los alquileres turísticos de corta duración. Rechazó, en cambio, la prórroga automática de los contratos. La CEOE reprocha al Gobierno el momento elegido para subir el SMI.</p><p>En el plano empresarial, Enagás eleva al 49,5 % su participación en Teréga (operador de gas del suroeste de Francia) al comprar a EDF, la eléctrica pública francesa, un 18 % por 311 M€. Un activo regulado francés atrae así capital español, sin cambio de control. La semana fue también de tensión social a ambos lados: huelga general por la vivienda en España el 11 de noviembre y nueva jornada de huelga en Francia el 17.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Los tres puntos clave</h3>
+        <ol><li>En el nivel del mínimo, la diferencia de coste del empleador entre Francia y España es mucho más estrecha que la media horaria de 45,7 € frente a 27,4 €.</li><li>El decreto español de vivienda queda convalidado: 10 % de IVA en los alquileres turísticos de corta duración desde el 1 de diciembre.</li><li>Enagás sube al 49,5 % de Teréga por 311 M€: el capital español se asienta en el gas del suroeste francés.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="es-cifras">
+    <h2>Las cifras de la semana</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>8,2 %</strong><span>Tasa de paro francesa en el tercer trimestre de 2026, según la definición de la OIT (Organización Internacional del Trabajo) y el Insee (instituto nacional de estadística francés): 0,1 puntos menos en el trimestre y 0,4 puntos más en un año.</span><em class="cmp-o es">España: 10,18 % en el tercer trimestre de 2026 (EPA, Encuesta de Población Activa).</em><small>Insee, 10 de noviembre de 2026</small></div><div class="fig fr"><strong>+1,6 %</strong><span>Revalorización del Smic anunciada el 9 de noviembre para el 1 de diciembre de 2026, unos 1.502 € netos al mes a tiempo completo, frente a una inflación del 3,4 % en octubre.</span><em class="cmp-o es">España: +5,3 % propuesto para 2027, es decir, 1.286 € brutos al mes en 14 pagas (Ministerio de Trabajo, proyecto publicado el 5 de noviembre).</em><small>Gobierno francés, conferencia social del 9 de noviembre de 2026</small></div><div class="fig fr"><strong>900 M€</strong><span>Coste para la Seguridad Social francesa del aplazamiento al 1 de abril de la rebaja de 3.700 M€ en las reducciones de cotizaciones patronales, votado por el Senado el 12 de noviembre. Esas reducciones cuestan unos 75.000 M€ al año.</span><em class="cmp-o es">España: no hay un dispositivo general comparable; cotizaciones patronales de en torno al 30,65 % del bruto en un contrato indefinido, sin contar accidentes de trabajo (tarifa 2026).</em><small>Senado francés, sesión del 12 de noviembre de 2026</small></div><div class="fig es"><strong>9.174</strong><span>Sociedades mercantiles creadas en España en septiembre de 2026, un 0,9 % menos en un año y primer descenso desde mayo, según el INE.</span><em class="cmp-o fr">Francia: en torno a 1,3 millones de creaciones de empresas en doce meses (Insee, publicado a principios de noviembre); el perímetro es distinto y la comparación es solo indicativa.</em><small>INE, 12 de noviembre de 2026</small></div><div class="fig es"><strong>182,2 M€</strong><span>Importe del real decreto-ley de medidas urgentes tras la dana Adam (episodio de lluvias extremas del 17 al 19 de octubre), con exenciones de tributos locales para los bienes siniestrados.</span><em class="cmp-o fr">Francia: sin dato comparable fiable esta semana. Como referencia, la dana de 2024 supone unos 4.800 M€ de siniestros estimados por el Consorcio de Compensación de Seguros (CCS), junio de 2026.</em><small>La Moncloa, Consejo de Ministros del 10 de noviembre de 2026</small></div><div class="fig es"><strong>2,57 %</strong><span>Índice IRAV de octubre de 2026, que limita la revisión anual de los alquileres de vivienda en España.</span><em class="cmp-o fr">Francia: +1,57 % en un año para el IRL (índice de referencia de alquileres, equivalente francés) del tercer trimestre de 2026 (Insee, 15 de octubre).</em><small>INE, 13 de noviembre de 2026</small></div>
+    </div>
+  </section>
+
+  
+  <section id="es-dossier" class="dossier">
+    <h2>El dossier: Salario mínimo: Francia subvenciona las cotizaciones, España deja la subida al empleador</h2>
+    <p class="intro">El Smic francés sube un 1,6 % el 1 de diciembre y el SMI español podría subir un 5,3 % en 2027. Detrás de esas dos cifras hay dos mecanismos: en Francia, el Estado absorbe una parte del coste laboral en la base de la escala, por unos 75.000 M€ al año; en España, la subida recae casi por completo sobre el empleador. Para un grupo que emplea a ambos lados de los Pirineos, el coste real en el nivel del mínimo se acerca más de lo que se cree.</p>
+    <div class="dfigs"><div><strong>75.000 M€</strong><span>Coste anual de las reducciones generales de cotizaciones patronales en Francia, según el ministro de Trabajo</span></div><div><strong>1,6 % / 5,3 %</strong><span>Subida del salario mínimo: Smic francés el 1 de diciembre de 2026, SMI español propuesto para 2027</span></div><div><strong>45,7 € / 27,4 €</strong><span>Coste horario de la mano de obra en el segundo trimestre de 2026, Francia y España (industria y servicios de mercado)</span></div><div><strong>1.217 €</strong><span>Sobrecoste anual para el empleador español de un trabajador con el SMI en 2027 si se aprueba la subida del 5,3 %</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. Dos subidas, dos calendarios</h3>
+        <p>El 9 de noviembre, tras la conferencia social celebrada en Matignon (sede del primer ministro francés), el ministro de Trabajo anunció una revalorización anticipada del Smic del 1,6 % el 1 de diciembre. El Smic neto pasará de 1.477,93 € a unos 1.502 € al mes, 23,65 € más. El anuncio sigue a las huelgas del 29 de septiembre y del 5 de noviembre, con una inflación que alcanzó el 3,4 % en octubre según el Insee, su nivel más alto desde enero de 2024. Los sindicatos reclamaban 100 € netos; la CGT (central sindical francesa) habla de «migajas».</p><p>En España, el Ministerio de Trabajo propone elevar el SMI a 1.286 € brutos al mes en 14 pagas, es decir, 18.004 € al año, frente a los 1.221 € actuales (+5,3 %). Los expertos consultados recomendaban un 4,9 % y los sindicatos CCOO y UGT pedían un 7 %. La CEOE y Cepyme rechazan una subida decidida a pocas semanas de las elecciones del 29 de noviembre. El proyecto está en consulta pública hasta el 16 de noviembre y podría pasar por el Consejo de Ministros el 17 o el 24, con efecto el 1 de enero. Desde 2018, cuando valía 735,90 €, el SMI habría subido en torno a un 75 %.</p>
+        
+<figure class="chart" aria-label="Salario mínimo bruto anual: Smic francés, SMI español 2026 y proyecto 2027">
+  
+  <div class="bar-row"><span class="lbl">Smic Francia (antes del 1 de diciembre)</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 21.876 €</span></div><div class="bar-row"><span class="lbl">SMI España 2026</span><span class="bar"><span class="fill w78 c-es"></span></span><span class="val">17.094 €</span></div><div class="bar-row"><span class="lbl">SMI España 2027 (proyecto)</span><span class="bar"><span class="fill w82 c-es"></span></span><span class="val">18.004 €</span></div>
+  <figcaption>Francia y España, 2026-2027, en euros brutos al año. Francia: Smic de referencia de 1.823,03 € brutos mensuales sobre doce meses, antes de la subida del 1 de diciembre (cálculo Rilamax); España: 14 pagas. Fuente: Cadrio, Ministerio de Trabajo español.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>2. El coste real para el empleador: el Estado francés absorbe parte de la factura</h3>
+        <p>En Francia, la RGDU (reducción general degresiva única, rebaja de las cotizaciones patronales sobre los salarios de hasta 3 Smic) sustituye desde enero de 2026 a la reducción Fillon. Cuesta a la Seguridad Social unos 75.000 M€ al año, según el ministro de Trabajo. En el nivel del Smic, la guía de Cadrio cifra la reducción en cerca de 726 € al mes para un salario bruto de 1.823 €, en torno al 40 % del bruto, y estima en 2.690 € el coste mensual del empleador sin ese dispositivo. El Smic de referencia empleado en el cálculo sigue congelado en 12,02 € por hora en 2026.</p><p>En España no ha aparecido en nuestras búsquedas ninguna reducción general de esa magnitud. Las cotizaciones patronales de un contrato indefinido rondan el 30,65 % del bruto en 2026: 23,60 % de contingencias comunes, 5,50 % de desempleo, 0,60 % de formación, 0,20 % del fondo de garantía salarial y 0,75 % del MEI (Mecanismo de Equidad Intergeneracional, que nutre el fondo de reserva de las pensiones). Para un trabajador con el SMI, el empleador paga unos 5.496 € de cotizaciones al año, 22.590 € de coste total. El MEI sube al 1,00 % en 2027, de los que un 0,83 % corresponde al empleador.</p><p>Puestos uno junto a otro, el coste anual del empleador de un trabajador al mínimo sale en torno a 23.600 € en Francia (2.690 € al mes menos 726 € de reducción, sobre doce meses) y a 22.600 € en España, una diferencia de un 4 % aproximadamente. Para el coste horario medio, la diferencia es del 67 %. Esta estimación de Rilamax exige prudencia: no incluye accidentes de trabajo, previsión ni disposiciones sectoriales.</p>
+        
+        
+        
+        <div class="debate"><h4>El debate</h4><p>Para los defensores de las reducciones, estas mantienen empleos poco cualificados que no resistirían un coste pleno; el ministro de Trabajo recuerda que el dispositivo abarata los salarios bajos, «porque está hecho para eso». Sus críticos ven en él una carga de 75.000 M€ al año y un freno a las subidas, porque cada euro adicional de salario reduce la rebaja. Por el lado español, los sindicatos consideran insuficiente el 5,3 % frente al 7 % que pedían, la CEOE critica el momento político, y el ministerio ha fijado una cifra cuatro décimas superior a la recomendación de sus expertos. Los datos de la semana no zanjan la cuestión del efecto sobre el empleo: ninguna de las dos posiciones queda demostrada por las cifras disponibles.</p></div>
+        
+      
+        
+        <h3>3. Lo que ya miden las cifras</h3>
+        <p>En el segundo trimestre de 2026, el coste horario medio de la mano de obra se sitúa en 45,7 € en Francia, 40,0 € en la zona del euro y 27,4 € en España, en industria y servicios de mercado, según las estimaciones de Rexecode (instituto francés de estudios económicos) a partir de Eurostat. En la industria manufacturera, la diferencia es de 48,1 € frente a 29,0 €. En el nivel del mínimo, los dos países están más cerca: en bruto anual, el Smic antes de su subida de diciembre equivale a unos 21.876 €, frente a 17.094 € del SMI, una diferencia del 28 %.</p><p>Los efectos sobre el empleo están por medir, y los datos de la semana no permiten aislar el de los mínimos. El paro es del 8,2 % en Francia y del 10,18 % en España, donde el empleo alcanzó sin embargo los 22,85 millones de personas en el tercer trimestre. La inflación de octubre complica la lectura: 3,4 % en Francia y 4,9 % en España. La subida del Smic (1,6 %) queda por debajo de la inflación francesa, mientras que la del SMI propuesta (5,3 %) supera en 0,4 puntos la inflación española.</p>
+        
+<figure class="chart" aria-label="Coste horario de la mano de obra en el segundo trimestre de 2026: Francia, zona del euro, España">
+  
+  <div class="bar-row"><span class="lbl">Francia</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">45,7 €</span></div><div class="bar-row"><span class="lbl">Zona del euro</span><span class="bar"><span class="fill w88 c-es"></span></span><span class="val">40,0 €</span></div><div class="bar-row"><span class="lbl">España</span><span class="bar"><span class="fill w60 c-es"></span></span><span class="val">27,4 €</span></div>
+  <figcaption>Industria y servicios de mercado, empresas de 10 o más asalariados, segundo trimestre de 2026, en euros por hora. Fuente: Rexecode, a partir de Eurostat.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. El contrapunto: un presupuesto en tensión, una consulta bajo presión</h3>
+        <p>Por el lado francés, la factura de las reducciones ha entrado en el debate presupuestario. El PLFSS (proyecto de ley de financiación de la Seguridad Social, que fija cada año los ingresos y los objetivos de gasto del sistema francés) para 2027 preveía recortar en 3.700 M€ esas reducciones al incluir en la base el ahorro salarial y otros complementos. El Senado aprobó el artículo el 12 de noviembre por 184 votos contra 16, con entrada en vigor aplazada al 1 de abril, lo que cuesta 900 M€ a razón de 300 M€ al mes. El Gobierno ha prometido una reflexión de fondo antes del 31 de marzo; el ministro describió el dispositivo como «una especie de trampa del Smic».</p><p>Por el lado español, el calendario depende de las urnas. El real decreto que fija el SMI debe pasar por el Consejo de Ministros antes del 29 de noviembre; en 2026 se publicó el 19 de febrero con efecto retroactivo al 1 de enero. Las cotizaciones siguen mecánicamente al salario: el sobrecoste anual de un trabajador con el SMI sería de unos 1.217 € para el empleador (910 € de salario y 307 € de cotizaciones), según la consultora Alvamar. Las bases mínimas de cotización, ligadas al SMI, pasarían a unos 1.500 € al mes.</p>
+        
+        
+        
+      
+        
+        <h3>5. Qué hay que mirar</h3>
+        <p>En Francia, el voto del Senado sobre el PLFSS está previsto el 18 de noviembre, el examen del presupuesto del Estado va del 20 de noviembre al 9 de diciembre, y la discusión de un mes abierta con la función pública desemboca en una cita el 11 de diciembre. En España, los Consejos de Ministros del 17 y del 24 de noviembre y las elecciones del 29 dirán si el SMI se fija antes de un eventual cambio de mayoría. Las tablas de cotización de 2027 aún no existen: solo el MEI está fijado por ley.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lectura Rilamax</h4><p>La diferencia de coste laboral entre Francia y España alcanza dos tercios de media, pero solo unos pocos puntos en el nivel del mínimo, según nuestras estimaciones. La razón está en los 75.000 M€ de reducciones que financia el presupuesto francés. Esa arquitectura es cara, y el Senado acaba de recordarlo al aplazar un ahorro de 900 M€; además, deja subsistir la trampa de los salarios bajos que la RGDU intenta atenuar. España ha tomado el camino contrario: sin subvención general, con un SMI que habría subido en torno a un 75 % desde 2018 y un coste que recae por entero en el empleador. En nuestra opinión, ninguna de las dos vías es neutra para quien invierte: la primera expone a un riesgo presupuestario, la segunda a un riesgo de calendario político. Una empresa española que implante o amplíe plantilla en Francia no debería extrapolar la diferencia media de 45,7 € frente a 27,4 € por hora: en los puestos cercanos al mínimo, la ventaja de coste se estrecha y depende de unas reducciones cuyo futuro no está fijado. Conviene valorar dos escenarios, con y sin reforma de esas reducciones, y revisar las cláusulas de indexación de los contratos de servicios (limpieza, seguridad, restauración colectiva) antes del 1 de enero. Sin una medición del efecto sobre el empleo, no sacamos conclusión sobre ese punto.</p></aside>
+    <div class="watch"><h4>Lo que vigilaremos</h4><p>Seguiremos el voto del Senado francés sobre el PLFSS el 18 de noviembre, la aprobación del SMI español en el Consejo de Ministros y la reflexión prometida sobre las reducciones de cotizaciones antes del 31 de marzo.</p></div>
+    <p class="src">Fuentes: <a href="https://www.economiematin.fr/conference-sociale-smic-primes-transports-pouvoir-achat-novembre-2026" target="_blank" rel="noopener">Économie Matin, conferencia social</a>, <a href="https://www.boursorama.com/actualite-economique/actualites/budget-le-senat-vote-le-report-en-avril-de-la-baisse-des-allegements-de-cotisations-patronales-renoncant-a-900-millions-d-euros-d-economies-5295076db96f61987d77dc52634dad25" target="_blank" rel="noopener">Boursorama, aplazamiento de las reducciones en el Senado</a>, <a href="https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/projet-de-loi-de-financement-de-la-securite-sociale-pour-2027.html" target="_blank" rel="noopener">Senado francés, PLFSS 2027</a>, <a href="https://www.infobae.com/espana/agencias/2026/11/05/el-gobierno-subira-el-smi-un-53-en-2027-y-la-ceoe-critica-que-lo-use-politicamente/" target="_blank" rel="noopener">Infobae / EFE, SMI 2027</a>, <a href="https://alvamarconsultores.com/salario-minimo-2027/" target="_blank" rel="noopener">Alvamar, SMI 2027 y coste del empleador</a>, <a href="https://www.rexecode.fr/competitivite-croissance/indicateurs-du-cout-de-l-heure-de-travail-en-europe/les-couts-de-la-main-d-aeuvre-dans-l-union-europeenne-au-2eme-trimestre-2026" target="_blank" rel="noopener">Rexecode, costes de la mano de obra T2 2026</a>, <a href="https://www.cadrio.fr/guides/rgdu-reduction-generale-degressive-unique" target="_blank" rel="noopener">Cadrio, guía de la RGDU</a>, <a href="https://www.sage.com/es-es/blog/las-cotizaciones-a-la-seguridad-social-conceptos-bases-y-porcentajes/" target="_blank" rel="noopener">Sage, cotizaciones a la Seguridad Social 2026</a>, <a href="https://www.eldiariodemadrid.es/articulo/economia/trabajo-propone-subir-smi/20261105111309146120.html" target="_blank" rel="noopener">El Diario de Madrid, propuesta de SMI</a></p>
+  </section>
+
+  <section id="es-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">Francia</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalidad</span>
+    <h3>Presupuestos 2027: en el Senado, la ventana de donaciones al 6 % podría prolongarse hasta finales de 2027</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El proyecto de ley de presupuestos (PLF, los presupuestos generales del Estado francés) para 2027 prevé en su artículo 4 una medida temporal: un tipo único del 6 % sobre las donaciones en dinero realizadas del 1 de enero al 30 de junio de 2027, con un límite de 100.000 €, reservado a donatarios menores de 50 años, y una donación familiar exenta elevada de 31.865 € a 50.000 €. Los diputados habían ampliado el dispositivo, pero la Asamblea Nacional rechazó todo el texto el 4 de noviembre. El Senado parte, por tanto, de la versión del Gobierno.</p></div>
+    <p class="sum">El 12 de noviembre, en la Comisión de Finanzas del Senado, la ponente general del presupuesto, Christine Lavarde, presentó tres enmiendas al artículo 4, según la prensa especializada: prorrogar las medidas hasta el 31 de diciembre de 2027, limitar la ventaja a 200.000 € por donatario y fijar en 80 años la edad máxima del donante para el tipo reducido. El impuesto del 2 % sobre las inversiones financieras de las holdings familiares, aprobado en comisión en la Asamblea, ya no figura en el texto. El examen en el pleno va del 20 de noviembre al 9 de diciembre. En España no hay dato comparable fiable esta semana: las donaciones tributan en el impuesto sobre sucesiones y donaciones, cuyas bonificaciones varían según la comunidad autónoma.</p>
+    <p class="src">Fuentes: <a href="https://www.toulouseimmo9.com/actualites/fiscalite-finance/don-familial-logement-neuf" target="_blank" rel="noopener">Toulouse Immo 9, enmiendas del 12 de noviembre</a>, <a href="https://www.france-epargne.fr/news/donations-a-6-le-rejet-du-budget-2027-ramene-la-fenetre-a-six-mois-devant-le-senat" target="_blank" rel="noopener">France Épargne, donaciones al 6 % ante el Senado</a>, <a href="https://www.cpim.fr/reforme-succession-2027-impact/" target="_blank" rel="noopener">CPIM, donaciones 2027</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Un contribuyente con familia o patrimonio en Francia que prepare una donación para 2027 debería razonar en dos escenarios: una ventana de seis meses con 100.000 €, o una de un año limitada a 200.000 €. Nada está votado, y la comisión mixta paritaria (reunión de diputados y senadores que busca un texto común) de diciembre puede cambiarlo todo. En una familia repartida entre Francia y España, conviene verificar la residencia fiscal de cada miembro.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Empresas e inversión</span>
+    <h3>Enagás compra el 18 % de Teréga a EDF por 311 M€ y sube al 49,5 %</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Teréga explota la red de transporte y almacenamiento de gas del suroeste de Francia, es decir, el 16 % de los gasoductos y el 27 % de la capacidad de almacenamiento del país, según la prensa económica española. En julio, Enagás compró el 31,5 % del capital al fondo soberano de Singapur GIC por 573 M€. Las dos compañías participan además, con el operador francés NaTran, en un proyecto de transporte de hidrógeno renovable entre la península ibérica y Europa.</p></div>
+    <p class="sum">El 13 de noviembre, Enagás comunicó a la CNMV un acuerdo con EDF Invest, filial de EDF (la eléctrica pública francesa), para adquirir un 18 % adicional de Teréga Holding por 311 M€. Su participación pasará del 31,5 % al 49,5 %, por delante del italiano Snam (40,5 %) y de Predica, filial de Crédit Agricole Assurances (10 %). El cierre está previsto antes de finales de 2026, sin cambio de control: la participación sigue consolidándose por puesta en equivalencia. La valoración implícita de Teréga resulta en unos 1.700 M€, frente a 1.800 M€ en julio, según Merca2. Como referencia en sentido inverso, la entrada del francés BPCE con el 7 % en Sabadell valía unos 1.200 M€ a precio de bolsa a principios de octubre.</p>
+    <p class="src">Fuentes: <a href="https://www.elespanol.com/invertia/empresas/energia/20261113/enagas-compra-edf-adicional-francesa-terega-millones-eleva-participacion/1003744456729_0.html" target="_blank" rel="noopener">El Español / Invertia</a>, <a href="https://www.eleconomista.es/energia/noticias/14027550/11/26/enagas-compra-a-edf-invest-su-participacion-en-terega-por-311-millones-y-se-consolida-como-primer-accionista.html" target="_blank" rel="noopener">elEconomista</a>, <a href="https://www.merca2.es/2026/11/13/enagas-compra-terega-311-millones-2504317/" target="_blank" rel="noopener">Merca2</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Un activo regulado francés atrae capital español sin cesión de control: el pacto de accionistas no cambia. Las infraestructuras energéticas se convierten en terreno de inversión en ambos sentidos entre los dos países. Quien compare participaciones minoritarias en Francia debería leer antes el pacto de accionistas, porque los derechos varían mucho de uno a otro.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Política y sociedad</span>
+    <h3>Función pública francesa: huelga el 17 de noviembre, un coste aún sin cifrar</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Tras las huelgas del 29 de septiembre y del 5 de noviembre, el Gobierno reunió a los interlocutores sociales en Matignon (sede del primer ministro) el 9 de noviembre. De ahí salieron un Smic revalorizado un 1,6 % el 1 de diciembre, hasta unos 1.502 € netos frente a los 1.478 € actuales, y un proyecto para elevar de 7.500 a 10.000 € el límite de exención de las horas extraordinarias, que aún debe votarse. Los sindicatos juzgaron el conjunto insuficiente.</p></div>
+    <p class="sum">El 13 de noviembre, el primer ministro recibió a los sindicatos de los 5,8 millones de empleados públicos, algo que no ocurría desde hacía 18 años según su entorno. Anunció 8 puntos de índice (la unidad con la que se calcula la retribución de los funcionarios) para los agentes peor pagados y un mes de discusiones sobre cinco asuntos, con cita el 11 de diciembre. Unos 660.000 agentes percibirían aún una indemnización diferencial; el Gobierno cifra en 2.400 M€ una subida del 1 % del punto de índice. La CFDT (central sindical francesa) se suma a la convocatoria de huelga del 17 de noviembre. No se ha publicado ningún cálculo del coste económico de la jornada. En España, la huelga general del 11 de noviembre tampoco tiene una cifra oficial.</p>
+    <p class="src">Fuentes: <a href="https://www.boursorama.com/actualite-economique/actualites/les-syndicats-de-fonctionnaires-sortent-remontes-de-matignon-la-cfdt-rejoint-l-appel-a-la-greve-le-17-novembre-853f97d58dc2f2af53ea8acee4d716e3" target="_blank" rel="noopener">Boursorama / AFP</a>, <a href="https://www.ouest-france.fr/economie/social/une-reunion-pour-rien-a-matignon-les-syndicats-de-la-fonction-publique-appellent-a-la-greve-mardi-17-novembre-ed8a8b5a-df83-11f1-b029-43a761592972" target="_blank" rel="noopener">Ouest-France</a>, <a href="https://www.economiematin.fr/conference-sociale-smic-primes-transports-pouvoir-achat-novembre-2026" target="_blank" rel="noopener">Économie Matin</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Una empresa española que sea proveedora de la Administración francesa debería revisar durante la semana del 17 de noviembre sus cláusulas de fuerza mayor y los plazos de entrega. En términos más generales, el empuje del Smic comprime las escalas salariales: un empleador cercano al Smic debería comprobar sus mínimos convencionales, porque el Gobierno dice tener listo un decreto para incitar a los sectores a subirlos.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Economía</span>
+    <h3>Paro al 8,2 % en el tercer trimestre, crecimiento de 2026 rebajado hacia el 0,3 %</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>La tasa de paro francesa subió del 7,4 % en otoño de 2024 al 8,3 % en el segundo trimestre de 2026, su nivel más alto desde 2020. La actividad es débil: el PIB retrocedió un 0,1 % en el tercer trimestre. Según el Insee, los beneficiarios del RSA (renta mínima francesa) y los jóvenes inscritos en France Travail (servicio público de empleo), desde la ley para el pleno empleo, explican algo menos de la mitad de la subida.</p></div>
+    <p class="sum">El Insee publicó el 10 de noviembre una tasa del 8,2 % en el tercer trimestre, 0,1 puntos menos que en el segundo pero 0,4 puntos más que un año antes, con 2,6 millones de parados, 47.000 menos. Entre los 15 y los 24 años, la tasa alcanza el 21 %. El instituto esperaba un 8,5 % en su nota de septiembre. El gobernador del Banco de Francia, Emmanuel Moulin, considera ahora más probable un crecimiento del 0,3 % en 2026 que el 0,4 % previsto, con un alza moderada del PIB en el cuarto trimestre. En España, la tasa es del 10,18 % en el tercer trimestre, pero el empleo marca un récord de 22,85 millones de personas.</p>
+    <p class="src">Fuentes: <a href="https://www.insee.fr/fr/statistiques/9118603" target="_blank" rel="noopener">Insee, Informations rapides n.º 270</a>, <a href="https://www.ici.fr/infos/economie-social/le-taux-de-chomage-reste-quasiment-stable-au-troisieme-trimestre-en-france-s-etablissant-a-8-2-4286262" target="_blank" rel="noopener">ICI / Maxppp</a>, <a href="https://www.daf-mag.fr/reglementation-1243/fiscalite-2115/croissance-en-2026-la-banque-de-france-table-sur-un-repli-a-03-28179" target="_blank" rel="noopener">Daf-Mag</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>En los dos países el paro ha subido recientemente (+0,4 puntos en un año en Francia, +0,31 puntos en el trimestre en España), y siguen separados por dos puntos. Un empleador que contrata a ambos lados de los Pirineos haría bien en seguir la tensión por oficio y no por media nacional.</p></aside>
+</article>
+  </section>
+
+  <section id="es-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">España</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalidad</span>
+    <h3>Dana Adam: exenciones de IBI e IAE y 182,2 M€ de medidas por real decreto-ley</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>La dana Adam, una depresión aislada en niveles altos que provoca lluvias extremas, golpeó a la Comunitat Valenciana y a otras provincias entre el 17 y el 19 de octubre. El CCS había registrado 6.528 solicitudes de indemnización a 22 de octubre, el 77 % en la provincia de Valencia. A modo de referencia, la dana de octubre de 2024 supone unos 4.800 M€ de siniestros, según la última estimación del CCS.</p></div>
+    <p class="sum">El Consejo de Ministros del 10 de noviembre aprobó el Real Decreto-ley 33/2026, publicado el 11 en el BOE: 182,2 M€ de medidas urgentes, de ellos 88,7 M€ para la agricultura. En el plano fiscal: exención del IBI de 2026 para los bienes dañados o cuyos ocupantes han sido realojados, reducción del IAE (impuesto local sobre actividades económicas) para las actividades afectadas, y reducciones del IRPF y del IVA simplificado para las explotaciones agrícolas. El Estado compensa a los ayuntamientos y las ayudas están exentas de impuestos. Quienes ya han pagado pueden solicitar la devolución. Francia: sin dato comparable fiable esta semana.</p>
+    <p class="src">Fuentes: <a href="https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261110-referencia-rueda-de-prensa-ministros.aspx" target="_blank" rel="noopener">La Moncloa, referencia del Consejo de Ministros</a>, <a href="https://theobjective.com/espana/politica/2026-11-10/gobierno-destinara-180-millones-dana-adam/" target="_blank" rel="noopener">The Objective</a>, <a href="https://www.eleconomista.es/banca-finanzas/noticias/14022782/10/26/el-consorcio-de-seguros-recibe-mas-de-6500-solitudes-de-indemnizacion-por-la-dana-adam.html" target="_blank" rel="noopener">elEconomista, CCS y dana Adam</a>, <a href="https://segurosnews.com/news/el-consorcio-aumenta-sus-indemnizaciones-por-la-dana-hasta-los-4-484-millones" target="_blank" rel="noopener">SegurosNews, coste de la dana de 2024</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Una empresa que tenga locales o explote un centro en la zona siniestrada debería comprobar si sus bienes entran en la exención del IBI y si el IAE se reduce para su actividad. Conviene conservar los justificantes de los daños, porque los impuestos ya pagados pueden dar lugar a devolución.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Inmobiliario</span>
+    <h3>Vivienda: decreto convalidado por un solo voto, IVA del 10 % en los alquileres turísticos</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El Gobierno aprobó el 29 de septiembre un decreto-ley de vivienda, rechazado por el Congreso el 2 de octubre por 178 votos contra 172. Lo volvió a aprobar el 6 de octubre con el número 29/2026, tras la disolución de las Cortes con vistas a las elecciones del 29 de noviembre. El texto debía, por tanto, ser convalidado por la Diputación Permanente, donde el equilibrio de fuerzas es distinto del que existe en el pleno del Congreso.</p></div>
+    <p class="sum">El 12 de noviembre, la Diputación Permanente convalidó el Real Decreto-ley 29/2026 por 35 votos contra 34. Según los asesores fiscales, aplica desde el 1 de diciembre un 10 % de IVA a los alquileres amueblados de 30 noches o menos, permite a los ayuntamientos de zonas tensionadas un recargo de IBI de hasta el 150 %, rebaja al 4 % el IVA de ciertas viviendas protegidas y prorroga dos años, con la renta sin cambios, los contratos de vivienda habitual que venzan hasta el 31 de diciembre de 2028. El segundo decreto, que instauraba una renovación automática de cinco años (siete si el arrendador es una sociedad), decayó tras el voto en contra del PNV. Referencia: el IRAV es del 2,57 % en octubre, frente al +1,57 % del IRL francés en el tercer trimestre.</p>
+    <p class="src">Fuentes: <a href="https://www.eldiariodemadrid.es/articulo/vivienda/congreso-decretos-vivienda-prorroga-alquileres-renovacion-automatica/20261112162933146758.html" target="_blank" rel="noopener">El Diario de Madrid</a>, <a href="https://www.alcalahoy.es/2026/11/12/la-diputacion-permanente-salva-el-decreto-de-vivienda-por-un-voto-y-tumba-la-prorroga-automatica-de-alquileres/" target="_blank" rel="noopener">Alcalá Hoy</a>, <a href="https://www.dig.es/iva-pisos-turisticos-ibi/" target="_blank" rel="noopener">DIG, IVA de los pisos turísticos</a>, <a href="https://www.democrata.es/economia/ipc-octubre-2026-inflacion-espana/" target="_blank" rel="noopener">Demócrata, IPC de octubre e IRAV</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>El IVA del 10 % modifica el cálculo de rentabilidad de un alquiler turístico en España: puede repercutirse al cliente, pero su efecto neto depende de la deducibilidad y del mercado local. El texto es frágil, porque la oposición indica que lo derogaría si gobierna. Un inversor debería, por tanto, valorar dos escenarios tras el 29 de noviembre.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Energía</span>
+    <h3>Industria electrointensiva: un real decreto refuerza el estatuto y las ayudas, hasta 76 M€ en 2027</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El Real Decreto 1106/2020 regula el estatuto de los consumidores electrointensivos, y el Real Decreto 309/2022 compensa los costes indirectos del carbono de los sectores expuestos a la competencia internacional. Desde marzo de 2026, el plan de respuesta a la crisis de Oriente Medio ha acumulado más de 12.000 M€ de coste presupuestario, con rebajas de impuestos sobre los carburantes y sobre la electricidad.</p></div>
+    <p class="sum">El Consejo de Ministros del 10 de noviembre aprobó un real decreto que modifica esos dos textos para simplificar los trámites, aumentar la eficacia de las ayudas existentes y reforzar la competitividad de la industria electrointensiva. El nuevo marco podría permitir una ayuda máxima de 76 M€ en 2027, según los créditos disponibles. Otra referencia: la rebaja del impuesto sobre los carburantes es de 13 céntimos por litro en noviembre y de 6 en diciembre. Los precios siguen altos: en octubre, el gasóleo subió un 36,2 % interanual en España (INE), frente al 46,7 % en Francia (Insee).</p>
+    <p class="src">Fuentes: <a href="https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261110-referencia-rueda-de-prensa-ministros.aspx?qfr=16" target="_blank" rel="noopener">La Moncloa, referencia del Consejo de Ministros del 10 de noviembre</a>, <a href="https://www.moncloa.com/2026/09/30/decreto-crisis-energetica-consejo-ministros-3440017/" target="_blank" rel="noopener">Moncloa.com, decreto sobre la crisis energética</a>, <a href="https://roams.es/actualidad/finanzas/inflacion-octubre-repite-4-9-septiembre-nivel-alto-febrero-2023/" target="_blank" rel="noopener">Roams, inflación de octubre</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Los 76 M€ son un máximo, supeditado a los créditos presupuestarios. Un industrial que compare producir en España o en Francia debería contrastar el coste neto de la electricidad, ayudas incluidas, y no solo el precio de mercado. Esta semana no hemos encontrado una cifra comparable en Francia.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Política y sociedad</span>
+    <h3>Huelga general del 11 de noviembre por la vivienda: seguimiento discutido, sin coste cifrado</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Los sindicatos convocaron el 11 de noviembre una huelga general por el derecho a la vivienda, la subida de los salarios y mejores condiciones de vida, a menos de tres semanas de las elecciones del 29 de noviembre. La vivienda es su expresión principal, pero las reivindicaciones van más allá del mercado inmobiliario.</p></div>
+    <p class="sum">Los sindicatos cifran el seguimiento entre el 41 % en Extremadura y el 84 % en Cataluña, con más del 60 % en comercio, hostelería y turismo; la patronal habla de fracaso y de un seguimiento históricamente bajo. El Sindicato de Inquilinas, organización de inquilinos, avanza cuatro millones de participantes. No se ha publicado ninguna cifra del coste económico de la jornada. Al día siguiente, la Diputación Permanente convalidaba por la mínima el decreto de vivienda. En Francia, la huelga del 5 de noviembre reunió a 575.000 manifestantes según Interior y 1,6 millones según la CGT, sin coste calculado; hay una nueva jornada prevista el 17 de noviembre.</p>
+    <p class="src">Fuentes: <a href="https://www.eldiario.es/economia/primera-huelga-general-vivienda-moviliza-millones-personas-eleva-tension-pp-vox_1_13656244.html" target="_blank" rel="noopener">elDiario.es</a>, <a href="https://arainfo.org/huelga-general-11n-millones-personas-estado-espanol-derecho-vivienda/" target="_blank" rel="noopener">ARAinfo</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Las cifras de participación divergen en un factor de dos o más según la fuente, y ninguna de las dos partes publica un coste. Una empresa que opere en España debería apoyarse, por tanto, en sus propios datos de absentismo y de entregas. La vivienda y los salarios seguirán en el centro de la campaña hasta el 29 de noviembre.</p></aside>
+</article>
+  </section>
+
+  <section id="es-agenda">
+    <h2>A vigilar en las próximas semanas</h2>
+    <ul class="agenda"><li><span class="when">16 al 24 de noviembre</span><span class="what">España: fin de la consulta pública sobre el SMI de 1.286 € (16) y Consejos de Ministros del 17 y del 24, fechas posibles de aprobación</span></li><li><span class="when">17 de noviembre</span><span class="what">Francia: jornada de huelga y movilización en el sector público y privado, con la CFDT</span></li><li><span class="when">18 de noviembre</span><span class="what">Francia: votación del Senado sobre el PLFSS 2027</span></li><li><span class="when">29 de noviembre</span><span class="what">España: elecciones generales</span></li><li><span class="when">1 de diciembre</span><span class="what">Francia: Smic revalorizado un 1,6 %; España: entrada en vigor prevista del IVA del 10 % en los alquileres turísticos</span></li></ul>
+  </section>
+
+  
+  <section id="es-glosario">
+    <h2>Las siglas de esta edición</h2>
+    <dl class="glossary"><div><dt>CCS</dt><dd>Consorcio de Compensación de Seguros: organismo público español que indemniza los daños de las catástrofes naturales cuando el seguro privado no los cubre.</dd></div><div><dt>CMP</dt><dd>Commission mixte paritaire (comisión mixta paritaria): reunión de diputados y senadores franceses que busca un texto común cuando la Asamblea Nacional y el Senado no coinciden sobre una ley.</dd></div><div><dt>IRAV</dt><dd>Índice de Referencia para la Actualización de Arrendamientos de Vivienda: índice español que limita la revisión anual de los alquileres de vivienda.</dd></div><div><dt>IRL</dt><dd>Indice de référence des loyers: índice francés publicado por el Insee (instituto nacional de estadística de Francia) que limita la subida anual de los alquileres de vivienda durante el contrato. Es el equivalente aproximado del IRAV español.</dd></div><div><dt>MEI</dt><dd>Mecanismo de Equidad Intergeneracional: cotización adicional española, repartida entre empleador y trabajador, que nutre el fondo de reserva de las pensiones. Sube al 1,00 % en 2027.</dd></div><div><dt>PLF</dt><dd>Projet de loi de finances: proyecto de ley de presupuestos del Estado francés, que el Parlamento debe examinar y votar cada año.</dd></div><div><dt>PLFSS</dt><dd>Projet de loi de financement de la Sécurité sociale: texto anual francés que fija los ingresos y los objetivos de gasto de la Seguridad Social, un sistema con presupuesto propio, separado del presupuesto del Estado.</dd></div><div><dt>RGDU</dt><dd>Réduction générale dégressive unique: rebaja francesa de las cotizaciones patronales sobre los salarios de hasta 3 Smic, en vigor desde enero de 2026 en lugar de la reducción Fillon. Su coste para la Seguridad Social ronda los 75.000 M€ al año.</dd></div><div><dt>SMI</dt><dd>Salario Mínimo Interprofesional: salario mínimo legal español, abonado en 14 pagas. Vale 1.221 € brutos al mes en 2026 y 1.286 € en el proyecto para 2027.</dd></div><div><dt>Smic</dt><dd>Salaire minimum interprofessionnel de croissance: salario mínimo legal francés, calculado por hora (12,02 € de referencia en 2026). Su valor neto mensual de 1.477,93 € pasará a unos 1.502 € el 1 de diciembre.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">Suscribirse en LinkedIn</a>
+  </section>
+
+  
+  <section id="es-archivo" class="archive">
+    <h2>Ediciones anteriores</h2>
+    <ul><li><a href="/ediciones/2026-11-07/">N° 6 — Regularización en España: medio millón de afiliados, un efecto macroeconómico limitado</a><span>2026-11-07</span></li><li><a href="/ediciones/2026-10-31/">N° 5 — Ganar unas elecciones no es una licencia de piloto</a><span>2026-10-31</span></li><li><a href="/ediciones/2026-10-24/">N° 4 — Disturbios e inundaciones: dos modelos para pagar un riesgo que se desboca</a><span>2026-10-24</span></li><li><a href="/ediciones/2026-10-17/">N° 3 — Inflación: España crece más deprisa que Francia, pero se encarece más deprisa</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Energía: lo que Francia saca de sus campos y España deja escapar</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Vivienda en España: un déficit de oferta que los decretos no abordaban y unas zonas tensionadas puestas a prueba por los datos</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>El Boletín Rilamax lo publica RILAMAX 2025 SL. Los resúmenes son de elaboración propia a partir de las fuentes citadas. Las lecturas Rilamax son análisis generales y no constituyen asesoramiento de inversión personalizado. Seguimiento y redacción asistidos por IA. Selección, verificación y análisis: Jean Marc Pavia.</p></footer>
+</div>
+
+
+<script>
+(function(){
+  var titles={fr:"Le Bulletin Rilamax \u2014 N\u00b0 7",es:"El Bolet\u00edn Rilamax \u2014 N.\u00ba 7"};
+  function setLang(l){
+    document.querySelectorAll('.edition').forEach(function(e){e.hidden=e.dataset.lang!==l});
+    document.querySelectorAll('.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});
+    document.documentElement.lang=l; document.title=titles[l];
+    try{localStorage.setItem('rilamax-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set);window.scrollTo(0,0)})});
+  var p=new URLSearchParams(location.search).get('lang'); var saved=null;
+  try{saved=localStorage.getItem('rilamax-lang')}catch(e){}
+  var l=(p==='es'||p==='fr')?p:saved; if(l==='es'||l==='fr') setLang(l);
+  // Detalle del gráfico de mix al pasar el ratón, tocar o enfocar un segmento
+  document.querySelectorAll('figure.mix').forEach(function(fig){
+    var info=fig.querySelector('.mix-info'); if(!info) return;
+    fig.querySelectorAll('.seg').forEach(function(sg){
+      function show(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});sg.classList.add('on');info.textContent=sg.getAttribute('data-tip');info.classList.add('act')}
+      sg.addEventListener('mouseenter',show);sg.addEventListener('focus',show);sg.addEventListener('click',show);
+    });
+    fig.addEventListener('mouseleave',function(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});info.textContent=info.getAttribute('data-default');info.classList.remove('act')});
+  });
+  // Animación de los gráficos al aparecer en pantalla
+  try{
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(!reduce&&'IntersectionObserver' in window){
+      var charts=document.querySelectorAll('figure.chart');
+      charts.forEach(function(c){c.classList.add('pre')});
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target)}})},{threshold:.35});
+      charts.forEach(function(c){io.observe(c)});
+    }
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
