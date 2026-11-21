@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Le Bulletin Rilamax — N° 8</title>
+<meta name="description" content="Transparence salariale : l&#39;Espagne décrète, la France attend le Sénat">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Le Bulletin Rilamax">
+<meta property="og:title" content="Le Bulletin Rilamax N° 8 · Transparence salariale : l&#39;Espagne décrète, la France attend le Sénat">
+<meta property="og:description" content="La directive européenne sur la transparence des rémunérations devait être transposée le 7 juin 2026. L&#39;Espagne l&#39;a fait par décret-loi le 17 novembre ; la France a déposé son projet de loi au Sénat en septembre, sans date d&#39;examen connue. Pour les entreprises qui emploient des deux côtés des Pyrénées, les calendriers divergent, et les seuils aussi.">
+<meta property="og:image" content="https://bulletin.rilamax.com/portada.png">
+<meta property="og:url" content="https://bulletin.rilamax.com/ediciones/2026-11-21/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --paper:#F5F7FA; --surface:#FFFFFF; --ink:#16233D; --muted:#5A6478; --rule:#D9DEE7;
+  --fr:#2F4FA8; --fr-soft:#E7ECF8; --es:#B5751A; --es-soft:#F8EEDD;
+  --note:#1F5C55; --note-soft:#E4F0EE;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+    --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+    --note:#7FCBC0; --note-soft:#173532;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+  --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+  --note:#7FCBC0; --note-soft:#173532;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.55}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--fr);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.25rem}
+.serif{font-family:"Literata",Georgia,serif}
+
+/* Masthead */
+.mast{padding:2.5rem 0 1.75rem}
+.bridge{display:flex;align-items:center;gap:.75rem;color:var(--muted);font-size:.9rem}
+.bridge .line{flex:1;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--fr) 0 50%,var(--es) 50% 100%)}
+h1{font-family:"Literata",Georgia,serif;font-weight:700;font-size:clamp(2.2rem,6vw,3.6rem);line-height:1.05;letter-spacing:-.02em;margin:1rem 0 .5rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;color:var(--muted);font-size:.95rem}
+
+/* Sommaire */
+.toc{position:sticky;top:0;z-index:5;background:var(--paper);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.toc ul{list-style:none;margin:0;padding:.6rem 0;display:flex;gap:1.25rem;overflow-x:auto;white-space:nowrap;font-size:.92rem}
+.toc a{text-decoration:none;color:var(--muted)}
+.toc a:hover{color:var(--ink)}
+
+section{padding:2.75rem 0;border-bottom:1px solid var(--rule)}
+h2{font-family:"Literata",Georgia,serif;font-size:1.75rem;line-height:1.2;margin:0 0 1.25rem}
+.lede{color:var(--muted);margin:-.75rem 0 1.5rem;max-width:62ch}
+
+/* Edito */
+.edito{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:780px){.edito{grid-template-columns:1.7fr 1fr}}
+.edito .body p{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;margin:0 0 1rem;max-width:62ch}
+.edito .sign{font-size:.92rem;color:var(--muted)}
+.keys{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:1.4rem 1.5rem;align-self:start}
+.keys h3{margin:0 0 .8rem;font-size:1rem}
+.keys ol{margin:0;padding-left:1.2rem}
+.keys li{margin:0 0 .6rem}
+
+/* Chiffres */
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.fig{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--c);border-radius:4px 4px 10px 10px;padding:1.1rem 1.25rem}
+.fig.fr{--c:var(--fr)} .fig.es{--c:var(--es)}
+.fig strong{display:block;font-family:"Literata",Georgia,serif;font-size:2.2rem;line-height:1.05;color:var(--c)}
+.fig span{display:block;margin-top:.5rem;font-size:.93rem}
+.fig small{display:block;margin-top:.4rem;color:var(--muted);font-size:.8rem}
+
+/* Dossier */
+.dossier .intro{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;max-width:66ch;margin:0 0 1.75rem}
+.cols{display:grid;grid-template-columns:1fr;gap:1rem;margin-bottom:1.5rem}
+@media(min-width:780px){.cols{grid-template-columns:repeat(3,1fr)}}
+.col{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1.2rem 1.3rem}
+.col h3{margin:0 0 .6rem;font-size:1.02rem}
+.col ul{margin:0;padding-left:1.1rem}
+.col li{margin:0 0 .55rem;font-size:.95rem}
+
+/* Items */
+.country-head{display:flex;align-items:center;gap:.75rem;margin:0 0 .5rem}
+.country-head .bar{width:28px;height:6px;border-radius:3px;background:var(--c)}
+.country-head.fr{--c:var(--fr)} .country-head.es{--c:var(--es)}
+.item{display:grid;grid-template-columns:1fr;gap:1rem 2.5rem;padding:1.75rem 0;border-top:1px solid var(--rule)}
+.item:first-of-type{border-top:0}
+@media(min-width:780px){.item{grid-template-columns:1.5fr 1fr}}
+.tag{display:inline-flex;align-items:center;gap:.5rem;font-size:.86rem;font-weight:600;padding:.2rem .65rem;border-radius:6px}
+.tag.fr{background:var(--fr-soft);color:var(--fr)}
+.tag.es{background:var(--es-soft);color:var(--es)}
+.item h3{font-family:"Literata",Georgia,serif;font-size:1.35rem;line-height:1.25;margin:.7rem 0 .55rem;max-width:32ch}
+.item .sum{margin:0 0 .8rem;max-width:62ch}
+.src{font-size:.86rem;color:var(--muted)}
+.src a{color:var(--muted);text-underline-offset:3px}
+.lecture{align-self:start;background:var(--note-soft);border-left:3px solid var(--note);border-radius:0 10px 10px 0;padding:1.1rem 1.25rem}
+.lecture h4{margin:0 0 .45rem;font-size:.93rem;font-weight:600;color:var(--note)}
+.lecture p{margin:0;font-family:"Literata",Georgia,serif;font-size:1rem;line-height:1.65}
+
+/* Agenda */
+.agenda{list-style:none;margin:0;padding:0;display:grid;gap:.75rem}
+.agenda li{display:grid;grid-template-columns:8.5rem 1fr;gap:1rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1rem 1.2rem}
+@media(max-width:560px){.agenda li{grid-template-columns:1fr;gap:.25rem}}
+.agenda .when{font-weight:600}
+.agenda .what{max-width:62ch}
+
+/* CTA + footer */
+.cta{display:grid;grid-template-columns:1fr;gap:1.25rem;align-items:center}
+@media(min-width:780px){.cta{grid-template-columns:1.6fr 1fr}}
+.cta p{font-family:"Literata",Georgia,serif;font-size:1.1rem;margin:0;max-width:56ch}
+.btn{display:inline-block;text-align:center;text-decoration:none;font-weight:600;background:var(--ink);color:var(--paper);padding:.85rem 1.3rem;border-radius:10px}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.86rem}
+footer p{max-width:72ch;margin:0 0 .6rem}
+
+
+.titlerow{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.langs{display:inline-flex;border:1px solid var(--rule);border-radius:999px;padding:3px;background:var(--surface);margin-bottom:.6rem}
+.langs button{font:inherit;font-size:.88rem;font-weight:600;border:0;background:transparent;color:var(--muted);padding:.35rem .85rem;border-radius:999px;cursor:pointer}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--fr);outline-offset:2px}
+.edition[hidden]{display:none}
+
+.dfigs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:12px;overflow:hidden;margin:0 0 2.25rem}
+.dfigs div{background:var(--surface);padding:1.1rem 1.25rem}
+.dfigs strong{display:block;font-family:"Literata",Georgia,serif;font-size:1.9rem;line-height:1.1;color:var(--es)}
+.dfigs span{display:block;margin-top:.35rem;font-size:.9rem;color:var(--muted)}
+.longform{max-width:none}
+.longform>h3,.longform>p,.longform>.debate{max-width:68ch}
+.longform>figure{max-width:860px}
+.longform h3{font-family:"Literata",Georgia,serif;font-size:1.3rem;line-height:1.3;margin:2.25rem 0 .75rem}
+.longform h3:first-child{margin-top:0}
+.longform p{font-family:"Literata",Georgia,serif;font-size:1.06rem;line-height:1.78;margin:0 0 1.1rem}
+.chart{margin:1.5rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.bar-row{display:grid;grid-template-columns:9.5rem 1fr 5.5rem;align-items:center;gap:.75rem;margin:.45rem 0;font-size:.92rem}
+.bar-row .bar{display:block;height:14px;border-radius:7px;background:#D9DEE7;background:var(--rule);overflow:hidden}
+.bar-row .fill{display:block;height:14px;width:0;border-radius:7px;background:#B5751A;background:var(--es)}
+.bar-row .fill.c-muted{background:#5A6478;background:var(--muted)}
+.bar-row .fill.c-fr{background:#2F4FA8;background:var(--fr)}
+.bar-row .val{font-weight:600;text-align:right}
+.chart figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted)}
+@media(max-width:560px){.bar-row{grid-template-columns:1fr auto}.bar-row .bar{grid-column:1/-1;order:3}}
+.debate{margin:1.5rem 0;padding:1rem 1.25rem;border:1px dashed var(--rule);border-radius:10px}
+.debate h4,.watch h4{margin:0 0 .4rem;font-size:.95rem}
+.debate p,.watch p{margin:0;font-size:.97rem;font-family:"Public Sans",system-ui,sans-serif;line-height:1.6}
+.dossier .lecture{margin-top:2rem;max-width:none}
+.dossier .lecture p{font-size:1.06rem}
+.watch{margin:1.25rem 0;padding:1rem 1.25rem;background:var(--es-soft);border-radius:10px}
+.dossier .src{margin-top:1rem;line-height:1.7}
+
+.archive ul{list-style:none;margin:0;padding:0;display:grid;gap:.5rem}
+.archive a{text-underline-offset:3px}
+.archive li span{color:var(--muted);font-size:.9rem;margin-left:.5rem}
+.bar-row .fill.w1{width:1%}.bar-row .fill.w2{width:2%}.bar-row .fill.w3{width:3%}.bar-row .fill.w4{width:4%}.bar-row .fill.w5{width:5%}.bar-row .fill.w6{width:6%}.bar-row .fill.w7{width:7%}.bar-row .fill.w8{width:8%}.bar-row .fill.w9{width:9%}.bar-row .fill.w10{width:10%}.bar-row .fill.w11{width:11%}.bar-row .fill.w12{width:12%}.bar-row .fill.w13{width:13%}.bar-row .fill.w14{width:14%}.bar-row .fill.w15{width:15%}.bar-row .fill.w16{width:16%}.bar-row .fill.w17{width:17%}.bar-row .fill.w18{width:18%}.bar-row .fill.w19{width:19%}.bar-row .fill.w20{width:20%}.bar-row .fill.w21{width:21%}.bar-row .fill.w22{width:22%}.bar-row .fill.w23{width:23%}.bar-row .fill.w24{width:24%}.bar-row .fill.w25{width:25%}.bar-row .fill.w26{width:26%}.bar-row .fill.w27{width:27%}.bar-row .fill.w28{width:28%}.bar-row .fill.w29{width:29%}.bar-row .fill.w30{width:30%}.bar-row .fill.w31{width:31%}.bar-row .fill.w32{width:32%}.bar-row .fill.w33{width:33%}.bar-row .fill.w34{width:34%}.bar-row .fill.w35{width:35%}.bar-row .fill.w36{width:36%}.bar-row .fill.w37{width:37%}.bar-row .fill.w38{width:38%}.bar-row .fill.w39{width:39%}.bar-row .fill.w40{width:40%}.bar-row .fill.w41{width:41%}.bar-row .fill.w42{width:42%}.bar-row .fill.w43{width:43%}.bar-row .fill.w44{width:44%}.bar-row .fill.w45{width:45%}.bar-row .fill.w46{width:46%}.bar-row .fill.w47{width:47%}.bar-row .fill.w48{width:48%}.bar-row .fill.w49{width:49%}.bar-row .fill.w50{width:50%}.bar-row .fill.w51{width:51%}.bar-row .fill.w52{width:52%}.bar-row .fill.w53{width:53%}.bar-row .fill.w54{width:54%}.bar-row .fill.w55{width:55%}.bar-row .fill.w56{width:56%}.bar-row .fill.w57{width:57%}.bar-row .fill.w58{width:58%}.bar-row .fill.w59{width:59%}.bar-row .fill.w60{width:60%}.bar-row .fill.w61{width:61%}.bar-row .fill.w62{width:62%}.bar-row .fill.w63{width:63%}.bar-row .fill.w64{width:64%}.bar-row .fill.w65{width:65%}.bar-row .fill.w66{width:66%}.bar-row .fill.w67{width:67%}.bar-row .fill.w68{width:68%}.bar-row .fill.w69{width:69%}.bar-row .fill.w70{width:70%}.bar-row .fill.w71{width:71%}.bar-row .fill.w72{width:72%}.bar-row .fill.w73{width:73%}.bar-row .fill.w74{width:74%}.bar-row .fill.w75{width:75%}.bar-row .fill.w76{width:76%}.bar-row .fill.w77{width:77%}.bar-row .fill.w78{width:78%}.bar-row .fill.w79{width:79%}.bar-row .fill.w80{width:80%}.bar-row .fill.w81{width:81%}.bar-row .fill.w82{width:82%}.bar-row .fill.w83{width:83%}.bar-row .fill.w84{width:84%}.bar-row .fill.w85{width:85%}.bar-row .fill.w86{width:86%}.bar-row .fill.w87{width:87%}.bar-row .fill.w88{width:88%}.bar-row .fill.w89{width:89%}.bar-row .fill.w90{width:90%}.bar-row .fill.w91{width:91%}.bar-row .fill.w92{width:92%}.bar-row .fill.w93{width:93%}.bar-row .fill.w94{width:94%}.bar-row .fill.w95{width:95%}.bar-row .fill.w96{width:96%}.bar-row .fill.w97{width:97%}.bar-row .fill.w98{width:98%}.bar-row .fill.w99{width:99%}.bar-row .fill.w100{width:100%}
+
+.glossary{margin:0;display:grid;grid-template-columns:1fr;gap:.6rem}
+@media(min-width:780px){.glossary{grid-template-columns:1fr 1fr}}
+.glossary div{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:.9rem 1.1rem}
+.glossary dt{font-weight:600;color:var(--fr);margin:0 0 .2rem}
+.glossary dd{margin:0;font-size:.95rem;line-height:1.55}
+
+.chart-t{margin:0 0 .7rem;font-weight:600;font-size:.95rem}
+.bar-row .fill{transition:width 1.1s cubic-bezier(.2,.7,.2,1)}
+.chart.pre .bar-row .fill,.chart.pre .seg{width:0 !important}
+.mix-row{display:grid;grid-template-columns:6.5rem 1fr;align-items:center;gap:.75rem;margin:.55rem 0;font-size:.92rem}
+.mix-bar{display:flex;height:30px;border-radius:7px;overflow:hidden;background:var(--rule)}
+.seg{display:flex;align-items:center;justify-content:center;height:100%;width:0;color:#fff;font-style:normal;font-size:.75rem;font-weight:600;position:relative;transition:width 1.2s cubic-bezier(.2,.7,.2,1);cursor:default;outline:none}
+.seg i{font-style:normal;white-space:nowrap;overflow:hidden}
+.seg:hover,.seg:focus{filter:brightness(1.12)}
+.mix-legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin-top:.75rem;font-size:.82rem;color:var(--muted)}
+.mix-legend b{display:inline-block;width:.8rem;height:.8rem;border-radius:3px;margin-right:.35rem;vertical-align:-1px}
+.k-nuclear{background:#6C4AB6}.k-fosil{background:#5A6478}.k-eolica{background:#2F8F83}.k-solar{background:#D9A21B}.k-hidro{background:#2F4FA8}.k-biomasa{background:#7A9A3A}.k-otros{background:#A3ADC0}
+.mix .chart.pre .seg{width:0}
+.seg[class*=" w"]{flex:none}
+.seg.w1{width:1%}.seg.w2{width:2%}.seg.w3{width:3%}.seg.w4{width:4%}.seg.w5{width:5%}.seg.w6{width:6%}.seg.w7{width:7%}.seg.w8{width:8%}.seg.w9{width:9%}.seg.w10{width:10%}.seg.w11{width:11%}.seg.w12{width:12%}.seg.w13{width:13%}.seg.w14{width:14%}.seg.w15{width:15%}.seg.w16{width:16%}.seg.w17{width:17%}.seg.w18{width:18%}.seg.w19{width:19%}.seg.w20{width:20%}.seg.w21{width:21%}.seg.w22{width:22%}.seg.w23{width:23%}.seg.w24{width:24%}.seg.w25{width:25%}.seg.w26{width:26%}.seg.w27{width:27%}.seg.w28{width:28%}.seg.w29{width:29%}.seg.w30{width:30%}.seg.w31{width:31%}.seg.w32{width:32%}.seg.w33{width:33%}.seg.w34{width:34%}.seg.w35{width:35%}.seg.w36{width:36%}.seg.w37{width:37%}.seg.w38{width:38%}.seg.w39{width:39%}.seg.w40{width:40%}.seg.w41{width:41%}.seg.w42{width:42%}.seg.w43{width:43%}.seg.w44{width:44%}.seg.w45{width:45%}.seg.w46{width:46%}.seg.w47{width:47%}.seg.w48{width:48%}.seg.w49{width:49%}.seg.w50{width:50%}.seg.w51{width:51%}.seg.w52{width:52%}.seg.w53{width:53%}.seg.w54{width:54%}.seg.w55{width:55%}.seg.w56{width:56%}.seg.w57{width:57%}.seg.w58{width:58%}.seg.w59{width:59%}.seg.w60{width:60%}.seg.w61{width:61%}.seg.w62{width:62%}.seg.w63{width:63%}.seg.w64{width:64%}.seg.w65{width:65%}.seg.w66{width:66%}.seg.w67{width:67%}.seg.w68{width:68%}.seg.w69{width:69%}.seg.w70{width:70%}.seg.w71{width:71%}.seg.w72{width:72%}.seg.w73{width:73%}.seg.w74{width:74%}.seg.w75{width:75%}.seg.w76{width:76%}.seg.w77{width:77%}.seg.w78{width:78%}.seg.w79{width:79%}.seg.w80{width:80%}.seg.w81{width:81%}.seg.w82{width:82%}.seg.w83{width:83%}.seg.w84{width:84%}.seg.w85{width:85%}.seg.w86{width:86%}.seg.w87{width:87%}.seg.w88{width:88%}.seg.w89{width:89%}.seg.w90{width:90%}.seg.w91{width:91%}.seg.w92{width:92%}.seg.w93{width:93%}.seg.w94{width:94%}.seg.w95{width:95%}.seg.w96{width:96%}.seg.w97{width:97%}.seg.w98{width:98%}.seg.w99{width:99%}.seg.w100{width:100%}
+
+.seg{cursor:pointer}
+.seg.on{filter:brightness(1.18);box-shadow:inset 0 0 0 2px rgba(255,255,255,.85)}
+.mix-info{margin:.7rem 0 0;padding:.5rem .75rem;border-radius:8px;background:var(--paper);font-size:.88rem;color:var(--muted);min-height:1.2em}
+.mix-info.act{color:var(--ink);font-weight:600;background:var(--fr-soft)}
+.cite{font-family:"Public Sans",system-ui,sans-serif;font-size:.78rem;color:var(--muted);white-space:normal}
+.cite a{color:var(--muted);text-underline-offset:2px}
+.illus{margin:1.6rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.illus figcaption,.cmp figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted);font-family:"Public Sans",system-ui,sans-serif}
+.cmp{margin:1.75rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;max-width:none}
+.cmp-wrap{overflow-x:auto}
+.cmp table{width:100%;border-collapse:collapse;font-size:.88rem;font-family:"Public Sans",system-ui,sans-serif;min-width:560px}
+.cmp th,.cmp td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.cmp thead th{font-weight:600;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.cmp thead th:nth-child(2){color:var(--fr)}.cmp thead th:nth-child(3){color:var(--es)}
+.cmp tbody th{font-weight:600}
+.cmp td{white-space:nowrap}
+.cmp td.src-cell{white-space:normal}
+.cmp td.src-cell .cite{font-size:.75rem}
+.longform .cmp,.longform .illus{max-width:none}
+
+.mix-info{font-family:"Public Sans",system-ui,sans-serif !important;font-size:.88rem !important;line-height:1.5 !important}
+.cmp td.src-cell{min-width:9rem}
+
+.lecture p+p{margin-top:.8rem}
+
+.ctx{margin:.2rem 0 .9rem;padding:.75rem 1rem;background:var(--paper);border:1px solid var(--rule);border-radius:8px;max-width:62ch}
+.ctx-l{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:.25rem}
+.ctx p{margin:0;font-size:.95rem;line-height:1.6}
+.fig .cmp-o{display:block;margin-top:.45rem;font-style:normal;font-size:.85rem;font-weight:600;padding-top:.4rem;border-top:1px dashed var(--rule)}
+.fig .cmp-o.fr{color:var(--fr)}.fig .cmp-o.es{color:var(--es)}
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="edition" data-lang="fr" lang="fr">
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>France</span><span class="line" aria-hidden="true"></span><span>Espagne</span></div>
+    <div class="titlerow">
+      <h1>Le Bulletin Rilamax</h1>
+      <div class="langs" role="group" aria-label="Langue"><button type="button" data-set="fr" aria-pressed="true">FR</button><button type="button" data-set="es" aria-pressed="false">ES</button></div>
+    </div>
+    <div class="meta"><span>N° 8 · Semaine 47</span><span>Du 16 au 21 novembre 2026</span><span>Lecture : 20 minutes</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sommaire">
+  <div class="wrap"><ul>
+    <li><a href="#fr-edito">L&#39;édito</a></li>
+    <li><a href="#fr-cifras">Les chiffres</a></li>
+    <li><a href="#fr-dossier">Le dossier</a></li>
+    <li><a href="#fr-fr">France</a></li>
+    <li><a href="#fr-es">Espagne</a></li>
+    <li><a href="#fr-agenda">À surveiller</a></li>
+    <li><a href="#fr-glosario">Lexique</a></li>
+    <li><a href="/archivo/?lang=fr">Toutes les éditions</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="fr-edito">
+    <h2>Une semaine où l&#39;Espagne décrète et la France attend</h2>
+    <div class="edito">
+      <div class="body">
+        <p>Entre la dissolution des Cortes (le Parlement espagnol), le 5 octobre, et les élections du 29 novembre, le gouvernement espagnol continue de légiférer par décret-loi, une norme ayant force de loi que le Congrès doit valider ensuite. Le Conseil des ministres du 17 novembre en a adopté trois. Le plus lourd pour les entreprises transpose la directive européenne sur la transparence salariale ; nous lui consacrons le dossier. Les deux autres fixent la hausse des rémunérations publiques de 2027 et neutralisent l&#39;impôt sur le revenu du salaire minimum.</p><p>En France, le budget 2027 cherche toujours sa majorité. L&#39;Assemblée a rejeté la partie recettes le 4 novembre. Le Sénat a écarté le 20 novembre, par 249 voix contre 19, une motion qui aurait interrompu l&#39;examen, et un vote solennel est annoncé pour le 9 décembre. Rien de ce que vote le Sénat n&#39;entre en vigueur avant l&#39;accord final entre les deux chambres. Les entreprises visées par les hausses de taxes, comme les concessionnaires d&#39;autoroutes, travaillent donc sur des hypothèses.</p><p>Deux coûts ont été chiffrés cette semaine. France Assureurs (la fédération des assureurs) estime à 207 M€ les dommages assurés des violences des 17 et 18 octobre, et un décret du 20 novembre ouvre aux petites entreprises une aide de 1 000 à 10 000 €. La grève du 17 novembre a mobilisé moins de 3 % des agents dans chacune des trois fonctions publiques. Le climat des affaires de l&#39;Insee (l&#39;institut national de la statistique) recule à 95, deux points sous octobre.</p><p>Nous retenons de ces textes une différence de méthode. Le décret-loi donne aux entreprises espagnoles une règle applicable tout de suite, au prix d&#39;une validation qui peut encore la révoquer dans les trente jours. La voie parlementaire française offre davantage de débat et moins de visibilité : l&#39;échéance européenne du 7 juin sur la transparence salariale est dépassée de plus de cinq mois. Un dirigeant qui emploie des deux côtés des Pyrénées doit tenir deux calendriers, ce que le dossier détaille.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Les trois points à retenir</h3>
+        <ol><li>L&#39;Espagne a transposé la transparence salariale par décret-loi, en vigueur depuis le 19 novembre, sous réserve de validation.</li><li>Le budget français 2027 reste en première lecture au Sénat, avec un vote solennel le 9 décembre.</li><li>Les violences du 17 octobre ont coûté 207 M€ aux assureurs, et une aide de 1 000 à 10 000 € est ouverte.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="fr-cifras">
+    <h2>Les chiffres de la semaine</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>207 M€</strong><span>Dommages assurés des violences urbaines des 17 et 18 octobre en France, pour 5 280 sinistres ; 198 M€ concernent des biens professionnels, selon France Assureurs.</span><em class="cmp-o es">Espagne : pas de dommages assurés comparables publiés ; la dana Adam (épisode de pluies extrêmes d&#39;octobre) a motivé 182,2 M€ de mesures publiques par décret-loi du 10 novembre, ce qui mesure des aides et non des dommages assurés.</em><small>France Assureurs</small></div><div class="fig fr"><strong>27 011</strong><span>Sociétés créées en France en octobre 2026, sur 113 082 créations au total (micro-entrepreneurs inclus) ; le total recule de 4,5 % sur un mois et progresse de 13,7 % sur un an.</span><em class="cmp-o es">Espagne : 9 174 sociétés mercantiles créées en septembre, -0,9 % sur un an (INE, institut national de la statistique espagnol) ; périmètre limité aux sociétés.</em><small>Insee</small></div><div class="fig fr"><strong>95</strong><span>Indicateur synthétique du climat des affaires en France en novembre, deux points sous octobre et cinq sous sa moyenne de longue période (100) ; l&#39;industrie, à 104, reste au-dessus.</span><em class="cmp-o es">Espagne : aucun indicateur comparable publié cette semaine dans nos sources.</em><small>Insee</small></div><div class="fig es"><strong>54 548</strong><span>Ventes de logements inscrites en Espagne en septembre 2026, soit 13,4 % de moins en un an, la plus forte baisse depuis mai 2024.</span><em class="cmp-o fr">France : 951 000 ventes de logements anciens sur douze mois à fin août, +3,6 % sur un an (Notaires de France, 22 octobre) ; période et périmètre différents.</em><small>INE</small></div><div class="fig es"><strong>1 200 M€</strong><span>Économie d&#39;impôt attendue en 2027 grâce à la déduction qui exonère le salaire minimum de l&#39;IRPF (impôt espagnol sur le revenu des personnes physiques), pour 2,7 millions de contribuables, selon le gouvernement.</span><em class="cmp-o fr">France : Smic +1,6 % au 1er décembre, annoncé le 9 novembre ; aucune mesure fiscale équivalente annoncée cette semaine dans nos sources.</em><small>La Moncloa (Conseil des ministres)</small></div><div class="fig es"><strong>4 965 M€</strong><span>Crédit extraordinaire ouvert par le décret-loi 37/2026 pour appliquer en 2027 une hausse des rémunérations publiques de 4,5 % au plus (Administration générale de l&#39;État).</span><em class="cmp-o fr">France : revalorisation des bas salaires de la fonction publique chiffrée à un peu plus de 1 Md€ pour 1,35 million d&#39;agents (ministre David Amiel, 15 novembre) ; point d&#39;indice toujours gelé selon les syndicats.</em><small>BOE</small></div>
+    </div>
+  </section>
+
+  
+  <section id="fr-dossier" class="dossier">
+    <h2>Le dossier : Transparence salariale : l&#39;Espagne décrète, la France attend le Sénat</h2>
+    <p class="intro">La directive européenne sur la transparence des rémunérations devait être transposée le 7 juin 2026. L&#39;Espagne l&#39;a fait par décret-loi le 17 novembre ; la France a déposé son projet de loi au Sénat en septembre, sans date d&#39;examen connue. Pour les entreprises qui emploient des deux côtés des Pyrénées, les calendriers divergent, et les seuils aussi.</p>
+    <div class="dfigs"><div><strong>11,8 %</strong><span>Écart horaire brut entre femmes et hommes en France en 2024 (Eurostat), contre 11,1 % dans l&#39;Union européenne.</span></div><div><strong>7,3 %</strong><span>Même mesure pour l&#39;Espagne en 2024 ; l&#39;Italie affiche 5,3 % et l&#39;Allemagne 15,6 %.</span></div><div><strong>7 500 €</strong><span>Plafond de l&#39;amende espagnole pour certaines omissions d&#39;information sur le contrat, contre 750 € auparavant.</span></div><div><strong>8 juin 2027</strong><span>Date limite du premier rapport sur l&#39;écart de rémunération pour les entreprises espagnoles d&#39;au moins 150 salariés.</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. Une échéance européenne, deux points de départ</h3>
+        <p>La directive (UE) 2023/970 du 10 mai 2023 oblige les employeurs à afficher une rémunération ou une fourchette avant l&#39;embauche, interdit de demander le salaire antérieur, ouvre aux salariés un droit d&#39;information sur les niveaux de paie par sexe et impose des déclarations d&#39;écarts selon la taille de l&#39;entreprise. Quand l&#39;écart inexpliqué dépasse 5 %, une évaluation conjointe devient obligatoire. Les États membres avaient jusqu&#39;au 7 juin 2026 pour l&#39;intégrer à leur droit.</p><p>Les deux pays ne partaient pas de zéro. L&#39;Espagne disposait d&#39;un décret de 2020 sur l&#39;égalité de rémunération, qui impose des plans d&#39;égalité aux entreprises d&#39;au moins 50 salariés ; la France a l&#39;Index égalité professionnelle, une note annuelle publiée par les entreprises à partir de 50 salariés. Ces outils mesurent des écarts moyens, alors que la directive demande de comparer des postes de valeur égale, ce qui oblige à classer les emplois.</p>
+        
+        
+        
+      
+        
+        <h3>2. L&#39;Espagne : un décret-loi en vigueur depuis le 19 novembre</h3>
+        <p>Le Real Decreto-ley 39/2026, adopté le 17 novembre et publié le 18 au BOE (Boletín Oficial del Estado, le Journal officiel espagnol), est entré en vigueur le lendemain, sans période d&#39;adaptation générale. Il impose d&#39;indiquer la rémunération initiale dans les offres d&#39;emploi, interdit de s&#39;enquérir du salaire antérieur, donne à chaque salarié le droit d&#39;obtenir par écrit, sous deux mois, des informations sur sa paie et sur les moyennes par sexe des postes comparables, et crée une commission de suivi de la transparence salariale.</p><p>Les sanctions montent d&#39;un cran : les manquements graves coûtent de 751 à 7 500 €, les très graves, dont les représailles contre un salarié qui réclame, de 7 501 à 225 018 €. Le délai de prescription d&#39;une action pour discrimination salariale passe à trois ans. Les entreprises d&#39;au moins 150 salariés doivent communiquer leur écart avant le 8 juin 2027. Comme tout décret-loi, le texte doit être validé sous trente jours ; les Cortes étant dissoutes, la Diputación Permanente tranchera.</p>
+        
+        
+        
+      
+        
+        <h3>3. La France : un projet de loi au Sénat, sans calendrier</h3>
+        <p>Le projet de loi n° 944 a été présenté en Conseil des ministres le 10 septembre et déposé au Sénat en procédure accélérée, trois mois après l&#39;échéance européenne. Selon les analyses du texte, il remplace l&#39;Index égalité par sept indicateurs d&#39;écarts à déclarer par les employeurs d&#39;au moins 50 salariés, avec un seuil de 5 % qui déclenche une justification. Les pénalités pourraient atteindre 1 % des rémunérations versées, 2 % en cas de récidive, ou 450 € par manquement individuel.</p><p>L&#39;examen en commission des affaires sociales du Sénat n&#39;avait pas de date au 3 novembre. Le ministre du Travail, Jean-Pierre Farandou, espérait un vote avant la fin 2026 et une entrée en vigueur au 1er janvier 2028, date non confirmée. Certains analystes jugent que l&#39;élection présidentielle de 2027 menace l&#39;adoption définitive avant la fin de la législature. En attendant, rien n&#39;est voté ni applicable : les employeurs français n&#39;ont aucune obligation nouvelle.</p>
+        
+<figure class="chart" aria-label="Seuil d&#39;effectifs pour la première déclaration d&#39;écarts, Espagne et France">
+  
+  <div class="bar-row"><span class="lbl">Espagne (décret-loi 39/2026)</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">150 salariés</span></div><div class="bar-row"><span class="lbl">France (projet n° 944)</span><span class="bar"><span class="fill w33 c-muted"></span></span><span class="val">50 salariés</span></div>
+  <figcaption>Texte espagnol en vigueur ; projet de loi français non voté, 2026. Sources : Kohen Avocats, Stéphane Larue.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. Ce que disent les écarts, et ce qu&#39;ils ne disent pas</h3>
+        <p>Selon Eurostat (l&#39;office statistique de l&#39;Union européenne), l&#39;écart horaire brut moyen entre femmes et hommes atteignait en 2024 11,1 % dans l&#39;Union, 11,8 % en France et 7,3 % en Espagne, contre 15,6 % en Allemagne. L&#39;Espagne affiche donc un écart inférieur de plus de quatre points à celui de la France. Cet indicateur compare des moyennes sans corriger la structure des emplois, alors que la directive vise l&#39;égalité à travail de valeur égale.</p><p>Les chiffres varient avec la méthode. CCOO (Comisiones Obreras, grand syndicat espagnol) calcule sur les gains annuels un écart de 20 % en 2024 et attribue 55 % de cet écart au temps de travail, là où Eurostat, sur le salaire horaire, retient 7,3 %. Côté préparation, l&#39;enquête Mercer de février 2026 plaçait la France à 36 %, l&#39;Espagne entre 55 % et 63 % selon les publications, et 9 % seulement des employeurs européens disposaient d&#39;une stratégie complète.</p>
+        
+<figure class="chart" aria-label="Écart horaire brut femmes-hommes en 2024 : Allemagne, France, Union européenne, Espagne">
+  
+  <div class="bar-row"><span class="lbl">Allemagne</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">15,6 %</span></div><div class="bar-row"><span class="lbl">France</span><span class="bar"><span class="fill w76 c-es"></span></span><span class="val">11,8 %</span></div><div class="bar-row"><span class="lbl">Union européenne</span><span class="bar"><span class="fill w71 c-es"></span></span><span class="val">11,1 %</span></div><div class="bar-row"><span class="lbl">Espagne</span><span class="bar"><span class="fill w47 c-es"></span></span><span class="val">7,3 %</span></div>
+  <figcaption>Écart non ajusté, 2024, en %. Source : Eurostat, d&#39;après Euronews (6 juillet 2026) et Newtral (16 juin 2026).</figcaption>
+</figure>
+
+        
+        
+        <div class="debate"><h4>Le débat</h4><p>Les partisans de la transparence font valoir qu&#39;elle donne aux salariés la preuve qui leur manque pour contester un écart, et que le seuil de 5 % force les employeurs à justifier leurs grilles. Les réserves portent sur le coût de conformité pour les entreprises de taille moyenne, sur l&#39;insécurité juridique d&#39;un texte pris par décret-loi avant sa validation, et sur la pertinence de l&#39;écart brut : selon CCOO, le temps de travail pèse lourd dans les chiffres espagnols. En France, FO Cadres relevait en 2025 que les partenaires sociaux freinaient la transposition. Les sources de la semaine ne présentent aucune évaluation d&#39;effet de ces règles sur les écarts.</p></div>
+        
+      
+        
+        <h3>5. Ce que les groupes franco-espagnols ont à surveiller</h3>
+        <p>La Diputación Permanente peut valider ou abroger le décret-loi dans les trente jours, soit d&#39;ici mi-décembre. Le seuil compte autant : 150 salariés pour la première déclaration espagnole, 50 dans le projet français. Un groupe de 80 salariés en France et 120 en Espagne serait déclarant d&#39;un côté des Pyrénées seulement.</p><p>Les offres d&#39;emploi espagnoles doivent déjà indiquer la rémunération initiale, ce qui touche les recrutements en cours. La classification des postes, indispensable dans les deux régimes, demande plusieurs mois de travail ; commencer par les filiales espagnoles donne un modèle réutilisable si le texte français est voté.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lecture Rilamax</h4><p>Nous voyons deux méthodes et aucun résultat mesuré. L&#39;Espagne agit vite, avec un texte applicable dès maintenant mais révocable ; la France prend son temps, au prix de mois d&#39;incertitude, pour un régime qui sera plus exigeant sur le papier : seuil de 50 salariés et pénalités indexées sur la masse salariale. L&#39;écart espagnol plus faible en 2024 (7,3 % contre 11,8 %) ne prouve pas l&#39;effet des règles, trop récentes pour cela. Une entreprise présente des deux côtés devrait traiter l&#39;Espagne comme le marché où l&#39;offre d&#39;emploi affiche déjà la rémunération initiale et où le salaire antérieur ne se demande plus, et préparer la même hiérarchisation des postes pour la France. Un dirigeant devrait aussi budgéter deux scénarios sur le texte espagnol, validé ou abrogé, et revoir ses clauses de confidentialité salariale avant que le projet français ne soit adopté.</p></aside>
+    <div class="watch"><h4>Ce que nous surveillerons</h4><p>La décision de la Diputación Permanente sur le décret-loi 39/2026, attendue d&#39;ici mi-décembre, et l&#39;inscription du projet de loi n° 944 à l&#39;ordre du jour de la commission des affaires sociales du Sénat.</p></div>
+    <p class="src">Sources : <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24121" target="_blank" rel="noopener">BOE – Real Decreto-ley 39/2026</a>, <a href="https://www.cuestioneslaborales.es/real-decreto-ley-39-2026-cambios-estatuto-infracciones/" target="_blank" rel="noopener">Cuestiones Laborales – RDL 39/2026 et sanctions</a>, <a href="https://capital.es/actualidad/el-gobierno-eleva-las-multas-por-omitir-datos-del-contrato-y-acaba-con-el-secreto-salarial/236014/" target="_blank" rel="noopener">Capital – amendes et fin du secret salarial</a>, <a href="https://kohenavocats.com/es/real-decreto-ley-39-2026-transparencia-salarial-que-pedir-empresa/" target="_blank" rel="noopener">Kohen Avocats – calendrier espagnol</a>, <a href="https://www.newtral.es/salario-decreto-ley-trabajo-consejo-ministros-gobierno-directivas-europeas/20261118/" target="_blank" rel="noopener">Newtral – décret-loi de Travail</a>, <a href="https://www.info.gouv.fr/actualite/transparence-des-salaires-regles-et-evolutions-prevues" target="_blank" rel="noopener">info.gouv.fr – transparence des salaires</a>, <a href="https://stephanelarue.com/transparence-salariale-salaire-affiche-des-l-offre-le-projet-de-loi-attend-au-senat/" target="_blank" rel="noopener">Stéphane Larue – projet de loi n° 944</a>, <a href="https://www.mozaik.co/transparence-salariale-cse/" target="_blank" rel="noopener">Mozaik – sanctions du projet français</a>, <a href="https://www.juritravail.com/Actualite/transparence-des-remunerations-7-points-pour-comprendre-les-nouvelles-exigences-europeennes/Id/376662" target="_blank" rel="noopener">Juritravail – calendrier français</a>, <a href="https://fr.euronews.com/2026/07/06/ecart-de-remuneration-et-de-pension-en-europe-pourquoi-les-inegalites-saggravent-a-la-retr" target="_blank" rel="noopener">Euronews – écarts Eurostat 2024</a>, <a href="https://www.newtral.es/brecha-salarial-espana-sanchez-factcheck/20260616/" target="_blank" rel="noopener">Newtral – Eurostat Espagne 7,3 %</a>, <a href="https://www.euronews.com/2026/03/03/pay-transparency-countdown-is-europe-ready-for-the-2026-equal-pay-test" target="_blank" rel="noopener">Euronews – enquête Mercer</a>, <a href="https://ravio.com/blog/everything-you-need-to-know-about-the-eu-pay-transparency-directive" target="_blank" rel="noopener">Ravio – suivi de la transposition</a></p>
+  </section>
+
+  <section id="fr-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">France</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalité</span>
+    <h3>Budget 2027 au Sénat : la taxe sur les autoroutes, dont Sanef, passe en séance</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le projet de loi de finances (PLF) pour 2027 a été rejeté par l&#39;Assemblée nationale le 4 novembre ; le Sénat travaille donc sur le texte initial du gouvernement. Son article 22 porte la taxe sur l&#39;exploitation des infrastructures de transport de longue distance (TEITLD), créée en 2024, de 4,6 % à 12,2 % au plus pour les exploitants les plus rentables, pour 800 M€ de recettes annuelles supplémentaires, au-delà d&#39;environ 600 M€ aujourd&#39;hui.</p></div>
+    <p class="sum">La commission des finances du Sénat a examiné la première partie le 12 novembre et voté sur les articles 3 et 49 le 18. Elle a corrigé un calcul qui aurait porté la taxe d&#39;Aéroports de Paris à 125 M€ au lieu des 40 M€ annoncés ; le reste de l&#39;effort, 760 M€, pèse sur les autoroutes. La séance publique s&#39;est ouverte le 20 novembre, le Sénat repoussant par 249 voix contre 19 une motion d&#39;arrêt. Le vote solennel est fixé au 9 décembre, avant une commission mixte paritaire mi-décembre. Sanef appartient au groupe espagnol Abertis : S&amp;P estimait en 2024 à 80-85 M€ la taxe due par Sanef et sa filiale SAPN. Espagne : aucune taxe sectorielle équivalente repérée dans nos sources.</p>
+    <p class="src">Sources : <a href="https://www.legifiscal.fr/actualites-fiscales/4735-plf-2027-principaux-articles-adoptes-commission-finances-senat.html" target="_blank" rel="noopener">Legifiscal – commission des finances du Sénat</a>, <a href="https://www.legifiscal.fr/actualites-fiscales/4681-plf-2027-taxe-autoroutes-aeroports-pourrait-presque-tripler-rentables.html" target="_blank" rel="noopener">Legifiscal – taxe autoroutes et aéroports</a>, <a href="https://www.politiquematin.fr/budget-2027-senat-rejette-question-prealable-249-voix-20-novembre" target="_blank" rel="noopener">Politique Matin – Sénat, 20 novembre</a>, <a href="https://www.shango.media/france-info-pourquoi-les-societes-dautoroutes-dont-le-gouvernement-veut-taxer-davantage-les-benefices-sont-elles-aussi-rentables-11952008" target="_blank" rel="noopener">Franceinfo (via Shango) – Sanef et Abertis</a>, <a href="https://spglobal.com/ratings/en/research/articles/240122-new-french-transport-infrastructure-tax-could-delay-operators-long-term-deleveraging-12968211" target="_blank" rel="noopener">S&amp;P Global Ratings</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Pour un groupe étranger propriétaire d&#39;une concession française, le taux peut presque tripler en un seul budget, avec une issue incertaine jusqu&#39;à la commission mixte. Les contrats de concession prévoient des clauses sur les nouvelles taxes, que les sociétés pourraient invoquer ; Bercy promet de son côté des péages inchangés. Un investisseur devrait valoriser deux scénarios, avec et sans compensation.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Politique et société</span>
+    <h3>Violences du 17 octobre : 207 M€ de dommages assurés et une aide de 1 000 à 10 000 € pour les petites entreprises</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Les manifestations contre la vie chère du 17 octobre ont été accompagnées de pillages et de dégradations dans des centres-villes. Le ministère de l&#39;Intérieur comptait 1 522 commerces touchés ce jour-là, CCI France 2 488, et une première estimation de l&#39;agence Morningstar DBRS avait avancé 1,2 Md€. Le gouvernement avait annoncé fin octobre une aide aux commerçants, dont le décret vient d&#39;être publié.</p></div>
+    <p class="sum">France Assureurs a publié le 19 novembre un premier bilan : 207 M€ de dommages assurés pour 5 280 sinistres, dont 198 M€ pour les biens professionnels. Les émeutes de 2005 avaient coûté 209 M€ en quatre semaines. Le décret du 19 novembre, publié le 20 au Journal officiel, ouvre une subvention de 1 000 à 10 000 € aux entreprises de moins de 50 salariés, dont le chiffre d&#39;affaires de référence est inférieur à 833 333 € et qui ont perdu au moins 25 % d&#39;activité ; la demande se fait sous six semaines. Espagne : la dana Adam a motivé 182,2 M€ de mesures publiques le 10 novembre ; ce montant mesure des aides, non des dommages assurés.</p>
+    <p class="src">Sources : <a href="https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/france-assureurs-estime-a-plus-de-200-millions-d-euros-le-cout-des-degats-engendres-par-les-violences-urbaines-et-les-pillages-des-17-et-18-octobre_8290007.html" target="_blank" rel="noopener">Franceinfo – bilan France Assureurs</a>, <a href="https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/le-gouvernement-precise-les-conditions-d-acces-aux-aides-pour-les-commercants-touches-par-les-evenements-du-17-octobre_8291621.html" target="_blank" rel="noopener">Franceinfo – conditions de l&#39;aide</a>, <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055111490" target="_blank" rel="noopener">Légifrance – décret n° 2026-1064</a>, <a href="https://entreprendre.service-public.gouv.fr/actualites/A19152" target="_blank" rel="noopener">Service-public.fr Entreprendre</a>, <a href="https://www.cnews.fr/france/2026-11-19/un-montant-particulierement-eleve-les-violences-du-17-octobre-auraient-coute-207" target="_blank" rel="noopener">CNews – comparaison avec 2005</a>, <a href="https://www.politiquematin.fr/greve-17-novembre-2026-bilan-fonction-publique" target="_blank" rel="noopener">Politique Matin – grève du 17 novembre</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Les dommages assurés ne comptent ni les pertes d&#39;exploitation non couvertes ni les ventes perdues, et l&#39;Insee place le commerce de détail à 90 en novembre. Une entreprise de centre-ville devrait vérifier ses garanties émeutes et pertes d&#39;exploitation avant le renouvellement de ses contrats. Un investisseur en commerce de proximité devrait intégrer ce risque dans ses scénarios.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Économie</span>
+    <h3>Climat des affaires : l&#39;Insee relève un recul à 95 en novembre, tous les secteurs en baisse</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>L&#39;indicateur synthétique du climat des affaires de l&#39;Insee agrège les opinions des chefs d&#39;entreprise dans l&#39;industrie, le bâtiment, les services et le commerce ; sa moyenne de longue période est fixée à 100. Il s&#39;établissait à 97 en octobre. Plus il s&#39;éloigne de 100 vers le bas, plus les dirigeants jugent leur activité passée et prévue moins favorable que la normale.</p></div>
+    <p class="sum">Publié le 20 novembre, l&#39;indicateur perd deux points, à 95, soit cinq sous sa moyenne. L&#39;industrie recule d&#39;un point, à 104, et le bâtiment aussi, à 94 ; les services perdent trois points, à 97 ; le commerce de gros tombe à 92 et le commerce de détail à 90 selon le tableau de bord de l&#39;Insee (89 hors automobile). Dans le détail, le solde sur la trésorerie chute à -26. La production des services marchands, publiée le même jour, rebondit de 0,6 % en septembre après -0,2 % en août. Espagne : aucun indicateur comparable publié cette semaine dans nos sources.</p>
+    <p class="src">Sources : <a href="https://www.insee.fr/fr/statistiques/9151162" target="_blank" rel="noopener">Insee – climat des affaires, novembre 2026</a>, <a href="https://www.insee.fr/fr/statistiques/2107840" target="_blank" rel="noopener">Insee – tableau de bord de la conjoncture</a>, <a href="https://www.economiematin.fr/insee-climat-affaires-novembre-2026-commerce-90-industrie-104" target="_blank" rel="noopener">Économie Matin – climat des affaires</a>, <a href="https://polesocietes.com/actualites/economie/climat-affaires-insee-novembre-2026-commerce-detail-90" target="_blank" rel="noopener">Pôle Sociétés – commerce de détail</a>, <a href="https://www.economiematin.fr/insee-production-services-septembre-2026-rebond-06-pour-cent" target="_blank" rel="noopener">Économie Matin – production des services</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Ces enquêtes mesurent un sentiment, non des commandes, et la collecte du commerce de détail a débuté dix jours après les violences du 17 octobre. Seule l&#39;industrie reste au-dessus de sa moyenne. Un dirigeant qui planifie ses investissements devrait croiser ces soldes d&#39;opinion avec ses propres carnets de commandes avant de réviser ses hypothèses 2027.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Entreprises et investissement</span>
+    <h3>Eramet : l&#39;État souscrit 322 M€ et devient premier actionnaire du groupe minier</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Eramet, groupe français de nickel, de manganèse et de lithium, avait annoncé en février 2026 une augmentation de capital pour redresser sa structure financière après une chute de ses résultats et une hausse de sa dette. Le 12 octobre, il a conclu un accord avec l&#39;Agence des participations de l&#39;État (APE, qui gère les participations publiques) et la famille Duval, actionnaire historique, pour que l&#39;État devienne premier actionnaire sans franchir 50 %.</p></div>
+    <p class="sum">L&#39;opération a été lancée le 13 novembre : environ 500 M€ avec droit préférentiel de souscription (DPS, droit d&#39;acheter des actions nouvelles en priorité), à raison de six actions nouvelles pour cinq anciennes, à 14,49 € l&#39;action. L&#39;APE s&#39;est engagée à souscrire 322 M€, soit 64 %, et passerait de 27,1 % à environ 47,4 % du capital. Un arrêté du 18 novembre, publié au Journal officiel du 19, autorise cette souscription, et un syndicat bancaire garantit le solde. La souscription court du 18 au 27 novembre, résultats le 2 décembre. Espagne : aucune recapitalisation publique comparable repérée cette semaine.</p>
+    <p class="src">Sources : <a href="https://www.globenewswire.com/news-release/2026/11/13/3402390/0/fr/eramet-lance-une-augmentation-de-capital-avec-maintien-du-droit-pr%c3%a9f%c3%a9rentiel-de-souscription-d-un-montant-d-environ-500-m-pour-renforcer-sa-structure-financi%c3%a8re.html" target="_blank" rel="noopener">Eramet (GlobeNewswire) – communiqué du 13 novembre</a>, <a href="https://refrance.fr/eramet-letat-sengage-pour-322-millions-deuros-sur-500-la-souscription-court-jusquau-27-novembre/" target="_blank" rel="noopener">Refrance – détail de l&#39;opération</a>, <a href="https://www.miningweekly.com/article/france-to-become-eramets-top-shareholder-via-miners-capital-hike-2026-10-13" target="_blank" rel="noopener">Mining Weekly (Reuters) – accord du 12 octobre</a>, <a href="https://www.legifrance.gouv.fr/jorf/jo/2026/11/19/0270" target="_blank" rel="noopener">Légifrance – JORF du 19 novembre 2026</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>L&#39;État justifie sa prise de participation par la sécurité d&#39;accès aux métaux critiques. Pour les petits porteurs, la dilution est mécanique : selon Eramet, un actionnaire à 1 % qui ne souscrit pas tombe à 0,45 %. Un investisseur minoritaire devrait comparer le coût de la souscription à celui de la dilution, et suivre la gouvernance, l&#39;État ne devant pas franchir 50 %.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">Espagne</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalité</span>
+    <h3>Le salaire minimum 2027 sort de l&#39;impôt sur le revenu par décret-loi</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le salaire minimum espagnol (SMI, salario mínimo interprofesional) est de 17 094 € par an en 2026. Ses bénéficiaires échappaient à l&#39;impôt sur le revenu (IRPF) grâce à une déduction pour revenus du travail de 590,89 €, mais subissaient une retenue mensuelle qu&#39;ils récupéraient ensuite dans leur déclaration. La hausse de 2027 imposait de relever cette déduction pour que l&#39;exonération subsiste.</p></div>
+    <p class="sum">Le Conseil des ministres du 17 novembre a fixé le SMI 2027 à 1 286 € par mois en 14 paiements, soit 18 004 € par an (+5,3 %). Le décret-loi 38/2026, publié au BOE le 18 novembre, porte la déduction à 1 033,58 € jusqu&#39;à 18 004 € de revenus, puis la réduit progressivement jusqu&#39;à zéro à 23 171,89 €. Dès le 1er janvier 2027, aucune retenue d&#39;IRPF ne sera prélevée sur le SMI. Le gouvernement chiffre le gain à 1 200 M€ pour 2,7 millions de contribuables. France : le Smic progresse de 1,6 % au 1er décembre (annonce du 9 novembre).</p>
+    <p class="src">Sources : <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24120" target="_blank" rel="noopener">BOE – Real Decreto-ley 38/2026</a>, <a href="https://www.lamoncloa.gob.es/consejodeministros/resumenes/paginas/2026/171126-rueda-prensa-consejo-ministros.aspx" target="_blank" rel="noopener">La Moncloa – Conseil des ministres du 17 novembre</a>, <a href="https://monfortybonell.com/salario-minimo-de-2027-y-rebaja-del-irpf-en-nomina-que-cambia-desde-enero/" target="_blank" rel="noopener">Monfort y Bonell – SMI 2027 et IRPF</a>, <a href="https://www.infobae.com/espana/2026/11/17/asi-queda-la-subida-del-salario-minimo-para-2027-a-quien-le-afecta-y-como-cambia-la-nomina-y-los-impuestos-a-pagar/" target="_blank" rel="noopener">Infobae – SMI 2027</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>La mesure allège l&#39;impôt du salarié, non le coût de l&#39;employeur, qui supporte la hausse brute de 5,3 %. Pour une filiale française en Espagne, la question utile porte sur les grilles voisines du minimum : entre 18 004 et 23 172 €, la déduction diminue de 20 centimes par euro de salaire supplémentaire. Il faut aussi suivre la validation du décret-loi par la Diputación Permanente.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Immobilier</span>
+    <h3>Immobilier espagnol : 54 548 ventes en septembre, la plus forte baisse depuis mai 2024</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Les prix espagnols montent vite : l&#39;INE mesure +12,2 % sur un an au deuxième trimestre 2026, et +12,9 % dans l&#39;ancien. Les volumes, eux, reculent : sept mois sur neuf sont en baisse depuis janvier. Les acheteurs étrangers avaient acquis 62 327 logements au premier semestre, 13 % de moins qu&#39;un an plus tôt selon le Conseil général du notariat.</p></div>
+    <p class="sum">Selon l&#39;INE, 54 548 logements ont été vendus en septembre, 13,4 % de moins qu&#39;un an plus tôt ; sur neuf mois, 512 748 ventes, soit -3,6 %. L&#39;ancien chute de 14 % (42 403 ventes), le neuf de 11,6 % (12 145). Aucune communauté autonome n&#39;enregistre de hausse : le Pays basque perd 23,1 %, les Baléares 22,4 % et Madrid 21,2 %. Les logements libres reculent de 12,8 %, les logements protégés de 21,6 %. France : 951 000 ventes de logements anciens sur douze mois à fin août (+3,6 %) et des prix en baisse de 0,8 % sur un an au deuxième trimestre (Notaires de France et Insee).</p>
+    <p class="src">Sources : <a href="https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924540-las-compraventas-de-viviendas-registran-en-septiembre-su-mayor-caida-en-dos-anos-y" target="_blank" rel="noopener">Idealista – compraventas de septiembre</a>, <a href="https://www.estrelladigital.es/economia/compraventa-viviendas-desploma-134-espana-septiembre/20261117144214453496.html" target="_blank" rel="noopener">Estrella Digital – INE, 17 novembre</a>, <a href="https://lepetitjournal.com/valence/logement/immobilier-espagne-chute-ventes-13-4-pourcent-valence-459111" target="_blank" rel="noopener">Le Petit Journal Valence</a>, <a href="https://www.mysweetimmo.com/2026/10/23/immobilier-les-prix-baissent-mais-la-reprise-sessouffle/" target="_blank" rel="noopener">MySweetImmo – Notaires de France</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>L&#39;Espagne combine des prix en hausse à deux chiffres et des volumes en recul, ce qui ressemble à un marché où l&#39;acheteur attend. La France montre l&#39;inverse : prix légèrement baissiers, volumes encore en hausse mais en ralentissement. Un acquéreur français en Espagne devrait valoriser deux scénarios, stabilisation des prix ou correction, avant de fixer sa décision de financement.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Entreprises et investissement</span>
+    <h3>BYD met l&#39;Espagne sur sa liste pour une deuxième usine européenne, face à la France</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le constructeur chinois BYD veut produire en Europe pour éviter les droits de douane imposés par l&#39;Union européenne en 2024 sur les voitures électriques fabriquées en Chine. Sa première usine européenne, à Szeged en Hongrie, doit démarrer fin 2026. L&#39;Espagne est le deuxième producteur automobile européen derrière l&#39;Allemagne, avec 1,77 million de voitures assemblées en 2025, devant la France.</p></div>
+    <p class="sum">Le 11 novembre, la vice-présidente de BYD, Stella Li, a déclaré à Europa Press que l&#39;Espagne figure parmi les pays présélectionnés pour la deuxième usine, sans date ni montant. En septembre, un conseiller du groupe avait cité l&#39;Espagne et la France ; BYD préfère reprendre un site existant, mais Stella Li reconnaît que les sites adaptés sont rares. Le groupe a vendu près de 40 000 voitures en Espagne cette année et pèse 2,7 % des immatriculations de l&#39;Union, du Royaume-Uni et de l&#39;AELE sur neuf mois (ACEA). À Saragosse, Stellantis produit depuis le 16 octobre le Leapmotor B10. France : candidate au même projet, derrière l&#39;Espagne en volume de production 2025.</p>
+    <p class="src">Sources : <a href="https://www.eleconomista.es/motor/noticias/14027074/11/26/byd-valora-espana-para-su-segunda-fabrica-de-vehiculos-en-europa-esta-entre-los-preseleccionados.html" target="_blank" rel="noopener">elEconomista (Europa Press) – BYD présélectionne l&#39;Espagne</a>, <a href="https://www.auto-infos.fr/article/byd-l-espagne-face-a-la-france-pour-accueillir-sa-deuxieme-usine-europeenne.294419" target="_blank" rel="noopener">Auto Infos – l&#39;Espagne face à la France</a>, <a href="https://www.ajupress.com/view/20261115214313773" target="_blank" rel="noopener">AJP – ACEA et immatriculations</a>, <a href="https://lessentieldeleco.fr/9270-stellantis-future-usine-europeenne-des-marques-chinoises/" target="_blank" rel="noopener">L&#39;Essentiel de l&#39;Éco – Stellantis à Saragosse</a>, <a href="https://www.autoactu.com/actualites/espagne-renault-annonce-600-millions-d-euros-d-investissement-d-ici-a-2030" target="_blank" rel="noopener">AFP via Autoactu – production espagnole 2025</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>La concurrence entre territoires se joue sur la disponibilité d&#39;un site, les aides publiques et le tissu de fournisseurs, pas sur une annonce. Aucune décision n&#39;est prise. Un équipementier français déjà présent en Espagne devrait valoriser deux scénarios, avec et sans usine BYD, avant d&#39;engager des capacités.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Politique et société</span>
+    <h3>Fonction publique espagnole : jusqu&#39;à 4,5 % de hausse en 2027, par décret-loi</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>L&#39;Espagne fonctionne avec des budgets prorogés et les Cortes sont dissoutes depuis le 5 octobre. Les hausses précédentes avaient été fixées par le décret-loi 14/2025 : 2,5 % en 2025, 1,5 % en 2026, plus 0,5 % si l&#39;inflation 2026 atteint 1,5 %. Sans loi de finances, il fallait un texte ayant force de loi pour appliquer la hausse de 2027 dès la paie de janvier.</p></div>
+    <p class="sum">Le décret-loi 37/2026, adopté le 17 novembre et publié au BOE le 18, autorise une hausse globale de 4,5 % au plus des rémunérations de tout le secteur public, État, communautés autonomes et collectivités locales, par rapport à celles en vigueur au 31 décembre 2026, avec effet au 1er janvier 2027. Un crédit extraordinaire de 4 965 M€ finance l&#39;application dans l&#39;Administration générale de l&#39;État. Le texte doit être validé sous trente jours par la Diputación Permanente. France : la grève du 17 novembre a réuni 2,79 % des agents de l&#39;État ; le gouvernement chiffre à un peu plus de 1 Md€ la revalorisation des bas salaires, le point d&#39;indice restant gelé.</p>
+    <p class="src">Sources : <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24119" target="_blank" rel="noopener">BOE – Real Decreto-ley 37/2026</a>, <a href="https://www.cuestioneslaborales.es/subida-salarial-sector-publico-2027-4-5-por-ciento/" target="_blank" rel="noopener">Cuestiones Laborales – subida del 4,5 %</a>, <a href="https://monfortybonell.com/retribuciones-del-sector-publico-en-2027-como-aplicar-la-subida-del-45/" target="_blank" rel="noopener">Monfort y Bonell – crédito de 4 965 M€</a>, <a href="https://www.lagazettedescommunes.com/club-rh/dialogue-social/mouvement-social-fonction-publique/greve-du-17-novembre-196-dagents-territoriaux-mobilises-a-la-mi-journee.GPTHM3FUHVFTLLOFD3ADBAFQQQ.html" target="_blank" rel="noopener">La Gazette des communes – grève du 17 novembre</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Le texte fixe un plafond, non une obligation : chaque administration applique avec son calendrier. Pour une entreprise dont les clients sont des administrations espagnoles, une hausse de cette ampleur pèse sur le coût des services facturés et sur les révisions de prix des contrats. L&#39;écart avec la France, où le point d&#39;indice reste gelé, est net.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-agenda">
+    <h2>À surveiller dans les prochaines semaines</h2>
+    <ul class="agenda"><li><span class="when">27 novembre 2026</span><span class="what">France : clôture de la période de souscription de l&#39;augmentation de capital d&#39;Eramet (résultats le 2 décembre)</span></li><li><span class="when">29 novembre 2026</span><span class="what">Espagne : élections générales</span></li><li><span class="when">1er décembre 2026</span><span class="what">France : hausse du Smic de 1,6 % ; Espagne : entrée en vigueur prévue de l&#39;IVA à 10 % sur les locations touristiques, si le décret-loi est convalidé</span></li><li><span class="when">9 décembre 2026</span><span class="what">France : vote solennel du Sénat sur le projet de loi de finances pour 2027</span></li><li><span class="when">Mi-décembre 2026</span><span class="what">Espagne : échéance de trente jours pour que la Diputación Permanente valide ou abroge les décrets-lois 37, 38 et 39/2026</span></li></ul>
+  </section>
+
+  
+  <section id="fr-glosario">
+    <h2>Les sigles de cette édition</h2>
+    <dl class="glossary"><div><dt>APE</dt><dd>Agence des participations de l&#39;État : organisme qui gère les participations de l&#39;État français dans des entreprises, ici Eramet.</dd></div><div><dt>Diputación Permanente</dt><dd>Commission du Congrès espagnol qui exerce les fonctions de l&#39;assemblée entre la dissolution et la formation des nouvelles Cortes, et qui doit valider ou abroger les décrets-lois.</dd></div><div><dt>DPS</dt><dd>Droit préférentiel de souscription : droit pour un actionnaire existant de souscrire en priorité aux actions nouvelles lors d&#39;une augmentation de capital.</dd></div><div><dt>Index égalité</dt><dd>Index de l&#39;égalité professionnelle : note annuelle sur 100 que les entreprises françaises de 50 salariés et plus publient sur les écarts de rémunération entre femmes et hommes.</dd></div><div><dt>IRPF</dt><dd>Impuesto sobre la Renta de las Personas Físicas : impôt espagnol sur le revenu des particuliers, équivalent de l&#39;impôt sur le revenu français.</dd></div><div><dt>PLF</dt><dd>Projet de loi de finances : texte annuel qui fixe les recettes et les dépenses de l&#39;État français, voté par l&#39;Assemblée nationale et le Sénat.</dd></div><div><dt>SMI</dt><dd>Salario mínimo interprofesional : salaire minimum légal espagnol, versé en 14 paiements par an, équivalent du Smic.</dd></div><div><dt>TEITLD</dt><dd>Taxe sur l&#39;exploitation des infrastructures de transport de longue distance : taxe française créée en 2024 qui frappe les concessionnaires d&#39;autoroutes et les grands aéroports les plus rentables.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>Le Bulletin Rilamax paraît chaque samedi : l&#39;essentiel de l&#39;économie, de la finance et de la politique entre la France et l&#39;Espagne, avec notre lecture.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">S&#39;abonner sur LinkedIn</a>
+  </section>
+
+  
+  <section id="fr-archivo" class="archive">
+    <h2>Éditions précédentes</h2>
+    <ul><li><a href="/ediciones/2026-11-14/">N° 7 — Salaire minimum : la France subventionne les cotisations, l&#39;Espagne laisse la hausse à l&#39;employeur</a><span>2026-11-14</span></li><li><a href="/ediciones/2026-11-07/">N° 6 — Régularisation en Espagne : un demi-million d&#39;affiliés, un effet macroéconomique limité</a><span>2026-11-07</span></li><li><a href="/ediciones/2026-10-31/">N° 5 — Gagner une élection n&#39;est pas un brevet de pilote</a><span>2026-10-31</span></li><li><a href="/ediciones/2026-10-24/">N° 4 — Émeutes et inondations : deux modèles pour payer le risque qui s&#39;emballe</a><span>2026-10-24</span></li><li><a href="/ediciones/2026-10-17/">N° 3 — Inflation : l&#39;Espagne croît plus vite que la France, mais renchérit plus vite</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Énergie : ce que la France tire de ses champs et que l&#39;Espagne laisse filer</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Logement en Espagne : un déficit d&#39;offre que les décrets ne traitaient pas, des zones tendues à l&#39;épreuve des chiffres</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>Le Bulletin Rilamax est publié par RILAMAX 2025 SL. Les résumés sont rédigés par nos soins à partir des sources citées. Les lectures Rilamax sont des analyses générales et ne constituent pas des conseils d&#39;investissement personnalisés. Veille et rédaction assistées par l&#39;IA. Sélection, vérification et analyse : Jean Marc Pavia.</p></footer>
+</div>
+
+
+<div class="edition" data-lang="es" lang="es" hidden>
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>Francia</span><span class="line" aria-hidden="true"></span><span>España</span></div>
+    <div class="titlerow">
+      <h1>El Boletín Rilamax</h1>
+      <div class="langs" role="group" aria-label="Idioma"><button type="button" data-set="fr" aria-pressed="false">FR</button><button type="button" data-set="es" aria-pressed="true">ES</button></div>
+    </div>
+    <div class="meta"><span>N.º 8 · Semana 47</span><span>Del 16 al 21 de noviembre de 2026</span><span>Lectura: 21 minutos</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sumario">
+  <div class="wrap"><ul>
+    <li><a href="#es-edito">El editorial</a></li>
+    <li><a href="#es-cifras">Las cifras</a></li>
+    <li><a href="#es-dossier">El dossier</a></li>
+    <li><a href="#es-fr">Francia</a></li>
+    <li><a href="#es-es">España</a></li>
+    <li><a href="#es-agenda">A vigilar</a></li>
+    <li><a href="#es-glosario">Glosario</a></li>
+    <li><a href="/archivo/?lang=es">Todas las ediciones</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="es-edito">
+    <h2>Una semana en que España decreta y Francia espera</h2>
+    <div class="edito">
+      <div class="body">
+        <p>Entre la disolución de las Cortes, el 5 de octubre, y las elecciones del 29 de noviembre, el Gobierno español sigue legislando por real decreto-ley, una norma con rango de ley que el Congreso debe convalidar después. El Consejo de Ministros del 17 de noviembre aprobó tres. El de más peso para las empresas transpone la directiva europea sobre transparencia salarial, y le dedicamos el dossier. Los otros dos fijan la subida de las retribuciones públicas de 2027 y neutralizan el IRPF sobre el salario mínimo.</p><p>En Francia, el presupuesto de 2027 sigue buscando mayoría. La Asamblea Nacional rechazó la parte de ingresos el 4 de noviembre. El Senado descartó el 20 de noviembre, por 249 votos contra 19, una moción que habría interrumpido el examen, y se anuncia una votación solemne para el 9 de diciembre. Nada de lo que vote el Senado entra en vigor antes del acuerdo final entre las dos cámaras. Las empresas afectadas por las subidas de tasas, como las concesionarias de autopistas, trabajan por tanto sobre hipótesis.</p><p>Esta semana se han cuantificado dos costes. France Assureurs (la federación francesa de aseguradoras) estima en 207 M€ los daños asegurados de los disturbios del 17 y 18 de octubre, y un decreto del 20 de noviembre abre a las pequeñas empresas una ayuda de 1.000 a 10.000 €. La huelga del 17 de noviembre movilizó a menos del 3 % de los agentes en cada una de las tres funciones públicas francesas (la del Estado, la territorial y la hospitalaria). El clima de negocios del Insee (el instituto nacional de estadística francés) retrocede a 95, dos puntos por debajo de octubre.</p><p>De estos textos retenemos una diferencia de método. El real decreto-ley da a las empresas españolas una regla aplicable de inmediato, al precio de una convalidación que aún puede revocarla en treinta días. La vía parlamentaria francesa ofrece más debate y menos visibilidad: el plazo europeo del 7 de junio sobre transparencia salarial lleva superado más de cinco meses. Un directivo con plantilla a ambos lados de los Pirineos tiene que llevar dos calendarios, algo que detalla el dossier.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Los tres puntos clave</h3>
+        <ol><li>España ha transpuesto la transparencia salarial por real decreto-ley, en vigor desde el 19 de noviembre y pendiente de convalidación.</li><li>El presupuesto francés de 2027, que propone subir la tasa sobre las autopistas (incluida Sanef, concesionaria francesa filial del grupo español Abertis), sigue en primera lectura en el Senado, con votación solemne el 9 de diciembre.</li><li>Los disturbios del 17 de octubre han costado 207 M€ a las aseguradoras francesas, y hay abierta una ayuda de 1.000 a 10.000 €.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="es-cifras">
+    <h2>Las cifras de la semana</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>207 M€</strong><span>Daños asegurados por los disturbios urbanos de los días 17 y 18 de octubre en Francia, en 5.280 siniestros; 198 M€ corresponden a bienes profesionales, según France Assureurs.</span><em class="cmp-o es">España: no hay daños asegurados comparables publicados; la dana Adam (episodio de lluvias extremas de octubre) motivó 182,2 M€ de medidas públicas por real decreto-ley el 10 de noviembre, cifra que mide ayudas y no daños asegurados.</em><small>France Assureurs</small></div><div class="fig fr"><strong>27.011</strong><span>Sociedades creadas en Francia en octubre de 2026, sobre 113.082 creaciones en total (incluidos los micro-entrepreneurs, autónomos en régimen simplificado); el total retrocede un 4,5 % en un mes y avanza un 13,7 % interanual.</span><em class="cmp-o es">España: 9.174 sociedades mercantiles creadas en septiembre, -0,9 % interanual (INE); el perímetro se limita a las sociedades.</em><small>Insee</small></div><div class="fig fr"><strong>95</strong><span>Indicador sintético del clima de negocios en Francia en noviembre, dos puntos por debajo de octubre y cinco por debajo de su media de largo plazo (100); la industria, con 104, se mantiene por encima.</span><em class="cmp-o es">España: ningún indicador comparable publicado esta semana en nuestras fuentes.</em><small>Insee</small></div><div class="fig es"><strong>54.548</strong><span>Compraventas de viviendas inscritas en España en septiembre de 2026, un 13,4 % menos que un año antes, la mayor caída desde mayo de 2024.</span><em class="cmp-o fr">Francia: 951.000 ventas de viviendas usadas en doce meses hasta finales de agosto, +3,6 % interanual (Notaires de France, el notariado francés, 22 de octubre); periodo y perímetro distintos.</em><small>INE</small></div><div class="fig es"><strong>1.200 M€</strong><span>Ahorro fiscal previsto en 2027 gracias a la reducción que exime del IRPF al salario mínimo, para 2,7 millones de contribuyentes, según el Gobierno.</span><em class="cmp-o fr">Francia: el Smic (salario mínimo legal francés) sube un 1,6 % el 1 de diciembre, anunciado el 9 de noviembre; ninguna medida fiscal equivalente anunciada esta semana en nuestras fuentes.</em><small>La Moncloa (Consejo de Ministros)</small></div><div class="fig es"><strong>4.965 M€</strong><span>Crédito extraordinario abierto por el real decreto-ley 37/2026 para aplicar en 2027 una subida de las retribuciones públicas de hasta el 4,5 % (Administración General del Estado).</span><em class="cmp-o fr">Francia: la revalorización de los salarios bajos de la función pública se cifra en algo más de 1.000 M€ para 1,35 millones de agentes (ministro David Amiel, 15 de noviembre); el punto de índice, la base de cálculo de los sueldos de los funcionarios, sigue congelado según los sindicatos.</em><small>BOE</small></div>
+    </div>
+  </section>
+
+  
+  <section id="es-dossier" class="dossier">
+    <h2>El dossier: Transparencia salarial: España decreta, Francia espera al Senado</h2>
+    <p class="intro">La directiva europea sobre transparencia retributiva debía transponerse el 7 de junio de 2026. España lo hizo por real decreto-ley el 17 de noviembre; Francia depositó su proyecto de ley en el Senado en septiembre, sin fecha de examen conocida. Para las empresas con plantilla en los dos países, los calendarios divergen, y los umbrales también.</p>
+    <div class="dfigs"><div><strong>11,8 %</strong><span>Brecha horaria bruta entre mujeres y hombres en Francia en 2024 (Eurostat), frente al 11,1 % en la Unión Europea.</span></div><div><strong>7,3 %</strong><span>La misma medida para España en 2024; Italia presenta un 5,3 % y Alemania un 15,6 %.</span></div><div><strong>7.500 €</strong><span>Techo de la multa española por ciertas omisiones de información sobre el contrato, frente a 750 € anteriormente.</span></div><div><strong>8 de junio de 2027</strong><span>Fecha límite del primer informe sobre la brecha retributiva para las empresas españolas de al menos 150 trabajadores.</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. Un plazo europeo, dos puntos de partida</h3>
+        <p>La directiva (UE) 2023/970 de 10 de mayo de 2023 obliga a los empleadores a indicar una remuneración o un rango antes de la contratación, prohíbe preguntar por el salario anterior, abre a los trabajadores un derecho de información sobre los niveles salariales por sexo e impone informes de brechas según el tamaño de la empresa. Cuando la brecha inexplicada supera el 5 %, pasa a ser obligatoria una evaluación conjunta. Los Estados miembros tenían hasta el 7 de junio de 2026 para incorporarla a su derecho.</p><p>Ninguno de los dos países partía de cero. España disponía de un real decreto de 2020 sobre igualdad retributiva, que impone planes de igualdad a las empresas de al menos 50 trabajadores. Francia tiene el Index égalité professionnelle (índice de igualdad profesional), una nota anual que publican las empresas desde 50 empleados. Estas herramientas miden brechas medias, mientras que la directiva pide comparar puestos de igual valor, lo que obliga a clasificar los empleos.</p>
+        
+        
+        
+      
+        
+        <h3>2. España: un real decreto-ley en vigor desde el 19 de noviembre</h3>
+        <p>El Real Decreto-ley 39/2026, aprobado el 17 de noviembre y publicado el 18 en el BOE, entró en vigor al día siguiente, sin periodo general de adaptación. Obliga a indicar la retribución inicial en las ofertas de empleo, prohíbe preguntar por el salario anterior, da a cada trabajador el derecho a obtener por escrito, en dos meses, información sobre su sueldo y sobre las medias por sexo de los puestos comparables, y crea una comisión de seguimiento de la transparencia salarial.</p><p>Las sanciones suben un escalón: las infracciones graves cuestan de 751 a 7.500 €, las muy graves, entre ellas las represalias contra un trabajador que reclama, de 7.501 a 225.018 €. El plazo de prescripción de una acción por discriminación salarial pasa a tres años. Las empresas de al menos 150 trabajadores deben comunicar su brecha antes del 8 de junio de 2027. Como todo real decreto-ley, el texto debe convalidarse en treinta días; con las Cortes disueltas, decidirá la Diputación Permanente.</p>
+        
+        
+        
+      
+        
+        <h3>3. Francia: un proyecto de ley en el Senado, sin calendario</h3>
+        <p>El proyecto de ley n.º 944 se presentó en el Consejo de Ministros el 10 de septiembre y se depositó en el Senado francés por procedimiento acelerado (una sola lectura por cámara antes de la comisión mixta paritaria), tres meses después del plazo europeo. Según los análisis del texto, sustituye el Index égalité por siete indicadores de brechas que deberán declarar los empleadores de al menos 50 trabajadores, con un umbral del 5 % que obliga a justificarse. Las sanciones podrían alcanzar el 1 % de las remuneraciones pagadas, el 2 % en caso de reincidencia, o 450 € por incumplimiento individual.</p><p>El examen en la comisión de asuntos sociales del Senado no tenía fecha a 3 de noviembre. El ministro de Trabajo, Jean-Pierre Farandou, esperaba una votación antes de fin de 2026 y una entrada en vigor el 1 de enero de 2028, fecha no confirmada. Algunos analistas estiman que las elecciones presidenciales de 2027 amenazan la aprobación definitiva antes del final de la legislatura. Mientras tanto, nada está votado ni es aplicable: los empleadores franceses no tienen ninguna obligación nueva.</p>
+        
+<figure class="chart" aria-label="Umbral de plantilla para el primer informe de brechas, España y Francia">
+  
+  <div class="bar-row"><span class="lbl">España (real decreto-ley 39/2026)</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">150 trabajadores</span></div><div class="bar-row"><span class="lbl">Francia (proyecto n.º 944)</span><span class="bar"><span class="fill w33 c-muted"></span></span><span class="val">50 trabajadores</span></div>
+  <figcaption>Texto español en vigor; proyecto de ley francés no votado, 2026. Fuentes: Kohen Avocats, Stéphane Larue.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>4. Lo que dicen las brechas y lo que no dicen</h3>
+        <p>Según Eurostat (la oficina estadística de la Unión Europea), la brecha horaria bruta media entre mujeres y hombres alcanzaba en 2024 el 11,1 % en la Unión, el 11,8 % en Francia y el 7,3 % en España, frente al 15,6 % en Alemania. España presenta, pues, una brecha más de cuatro puntos inferior a la francesa. Este indicador compara medias sin corregir la estructura del empleo, mientras que la directiva persigue la igualdad en trabajos de igual valor.</p><p>Las cifras varían con el método. CCOO calcula sobre las ganancias anuales una brecha del 20 % en 2024 y atribuye el 55 % de esa brecha al tiempo de trabajo, mientras que Eurostat, sobre el salario por hora, retiene el 7,3 %. En cuanto a la preparación, la encuesta de la consultora Mercer de febrero de 2026 situaba a Francia en el 36 %, a España entre el 55 % y el 63 % según las publicaciones, y solo el 9 % de los empleadores europeos disponía de una estrategia completa.</p>
+        
+<figure class="chart" aria-label="Brecha horaria bruta entre mujeres y hombres en 2024: Alemania, Francia, Unión Europea, España">
+  
+  <div class="bar-row"><span class="lbl">Alemania</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">15,6 %</span></div><div class="bar-row"><span class="lbl">Francia</span><span class="bar"><span class="fill w76 c-es"></span></span><span class="val">11,8 %</span></div><div class="bar-row"><span class="lbl">Unión Europea</span><span class="bar"><span class="fill w71 c-es"></span></span><span class="val">11,1 %</span></div><div class="bar-row"><span class="lbl">España</span><span class="bar"><span class="fill w47 c-es"></span></span><span class="val">7,3 %</span></div>
+  <figcaption>Brecha no ajustada, 2024, en %. Fuente: Eurostat, según Euronews (6 de julio de 2026) y Newtral (16 de junio de 2026).</figcaption>
+</figure>
+
+        
+        
+        <div class="debate"><h4>El debate</h4><p>Los partidarios de la transparencia sostienen que da a los trabajadores la prueba que les falta para impugnar una brecha, y que el umbral del 5 % obliga a los empleadores a justificar sus escalas. Las reservas se refieren al coste de cumplimiento para las empresas medianas, a la inseguridad jurídica de un texto aprobado por real decreto-ley antes de su convalidación, y a la pertinencia de la brecha bruta: según CCOO, el tiempo de trabajo pesa mucho en las cifras españolas. En Francia, FO Cadres (federación de cuadros del sindicato Force Ouvrière) señalaba en 2025 que los interlocutores sociales frenaban la transposición. Las fuentes de la semana no presentan ninguna evaluación del efecto de estas normas sobre las brechas.</p></div>
+        
+      
+        
+        <h3>5. Lo que deben vigilar los grupos con presencia en los dos países</h3>
+        <p>La Diputación Permanente puede convalidar o derogar el real decreto-ley en treinta días, es decir, antes de mediados de diciembre. El umbral pesa tanto como el plazo: 150 trabajadores para el primer informe español, 50 en el proyecto francés. Un grupo con 80 trabajadores en Francia y 120 en España sería declarante solo a un lado de los Pirineos.</p><p>Las ofertas de empleo españolas ya deben indicar la retribución inicial, lo que afecta a las contrataciones en curso. La clasificación de los puestos, indispensable en ambos regímenes, requiere varios meses de trabajo; empezar por las sociedades españolas del grupo da un modelo reutilizable si se aprueba el texto francés.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lectura Rilamax</h4><p>Vemos dos métodos y ningún resultado medido. España actúa deprisa, con un texto aplicable ya pero revocable; Francia se toma su tiempo, al precio de meses de incertidumbre, para un régimen que sobre el papel será más exigente: umbral de 50 trabajadores y sanciones indexadas a la masa salarial. La menor brecha española en 2024 (7,3 % frente a 11,8 %) no prueba el efecto de las normas, demasiado recientes para ello. Una empresa española con filiales en Francia no tiene hoy allí ninguna obligación nueva, pero el umbral de 50 podría alcanzar a filiales pequeñas que el umbral español de 150 deja fuera. Conviene aprovechar el trabajo ya exigido en España, con ofertas que indican la retribución inicial y sin preguntar por el salario anterior, para preparar la misma jerarquización de puestos en Francia. Y conviene presupuestar dos escenarios sobre el texto español, convalidado o derogado, y revisar las cláusulas de confidencialidad salarial antes de que se apruebe el proyecto francés.</p></aside>
+    <div class="watch"><h4>Lo que vigilaremos</h4><p>La decisión de la Diputación Permanente sobre el real decreto-ley 39/2026, prevista antes de mediados de diciembre, y la inclusión del proyecto de ley n.º 944 en el orden del día de la comisión de asuntos sociales del Senado francés.</p></div>
+    <p class="src">Fuentes: <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24121" target="_blank" rel="noopener">BOE – Real Decreto-ley 39/2026</a>, <a href="https://www.cuestioneslaborales.es/real-decreto-ley-39-2026-cambios-estatuto-infracciones/" target="_blank" rel="noopener">Cuestiones Laborales – RDL 39/2026 y sanciones</a>, <a href="https://capital.es/actualidad/el-gobierno-eleva-las-multas-por-omitir-datos-del-contrato-y-acaba-con-el-secreto-salarial/236014/" target="_blank" rel="noopener">Capital – multas y fin del secreto salarial</a>, <a href="https://kohenavocats.com/es/real-decreto-ley-39-2026-transparencia-salarial-que-pedir-empresa/" target="_blank" rel="noopener">Kohen Avocats – calendario español</a>, <a href="https://www.newtral.es/salario-decreto-ley-trabajo-consejo-ministros-gobierno-directivas-europeas/20261118/" target="_blank" rel="noopener">Newtral – real decreto-ley de Trabajo</a>, <a href="https://www.info.gouv.fr/actualite/transparence-des-salaires-regles-et-evolutions-prevues" target="_blank" rel="noopener">info.gouv.fr – transparencia salarial</a>, <a href="https://stephanelarue.com/transparence-salariale-salaire-affiche-des-l-offre-le-projet-de-loi-attend-au-senat/" target="_blank" rel="noopener">Stéphane Larue – proyecto de ley n.º 944</a>, <a href="https://www.mozaik.co/transparence-salariale-cse/" target="_blank" rel="noopener">Mozaik – sanciones del proyecto francés</a>, <a href="https://www.juritravail.com/Actualite/transparence-des-remunerations-7-points-pour-comprendre-les-nouvelles-exigences-europeennes/Id/376662" target="_blank" rel="noopener">Juritravail – calendario francés</a>, <a href="https://fr.euronews.com/2026/07/06/ecart-de-remuneration-et-de-pension-en-europe-pourquoi-les-inegalites-saggravent-a-la-retr" target="_blank" rel="noopener">Euronews – brechas Eurostat 2024</a>, <a href="https://www.newtral.es/brecha-salarial-espana-sanchez-factcheck/20260616/" target="_blank" rel="noopener">Newtral – Eurostat España 7,3 %</a>, <a href="https://www.euronews.com/2026/03/03/pay-transparency-countdown-is-europe-ready-for-the-2026-equal-pay-test" target="_blank" rel="noopener">Euronews – encuesta Mercer</a>, <a href="https://ravio.com/blog/everything-you-need-to-know-about-the-eu-pay-transparency-directive" target="_blank" rel="noopener">Ravio – seguimiento de la transposición</a></p>
+  </section>
+
+  <section id="es-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">Francia</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalidad</span>
+    <h3>Presupuestos franceses de 2027 en el Senado: la tasa sobre las autopistas, incluida Sanef, llega al pleno</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El proyecto de ley de presupuestos (PLF, projet de loi de finances) para 2027 fue rechazado por la Asamblea Nacional el 4 de noviembre; el Senado trabaja, por tanto, sobre el texto inicial del Gobierno. Su artículo 22 eleva la tasa sobre la explotación de infraestructuras de transporte de larga distancia (TEITLD), creada en 2024, del 4,6 % a un máximo del 12,2 % para los explotadores más rentables, con 800 M€ de recaudación anual adicional, por encima de los 600 M€ aproximados de hoy.</p></div>
+    <p class="sum">La comisión de finanzas del Senado examinó la primera parte el 12 de noviembre y votó los artículos 3 y 49 el 18. Corrigió un cálculo que habría llevado la tasa de Aéroports de Paris (gestor de los aeropuertos de la región parisina) a 125 M€ en lugar de los 40 M€ anunciados; el resto del esfuerzo, 760 M€, recae sobre las autopistas. El pleno se abrió el 20 de noviembre y el Senado rechazó por 249 votos contra 19 una moción para detener el examen. La votación solemne está fijada para el 9 de diciembre, antes de una comisión mixta paritaria (CMP, reunión de diputados y senadores para pactar un texto común) a mediados de diciembre. Sanef pertenece al grupo español Abertis: S&amp;P estimaba en 2024 en 80-85 M€ la tasa debida por Sanef y su filial SAPN. España: no hemos encontrado en nuestras fuentes ninguna tasa sectorial equivalente.</p>
+    <p class="src">Fuentes: <a href="https://www.legifiscal.fr/actualites-fiscales/4735-plf-2027-principaux-articles-adoptes-commission-finances-senat.html" target="_blank" rel="noopener">Legifiscal – comisión de finanzas del Senado</a>, <a href="https://www.legifiscal.fr/actualites-fiscales/4681-plf-2027-taxe-autoroutes-aeroports-pourrait-presque-tripler-rentables.html" target="_blank" rel="noopener">Legifiscal – tasa sobre autopistas y aeropuertos</a>, <a href="https://www.politiquematin.fr/budget-2027-senat-rejette-question-prealable-249-voix-20-novembre" target="_blank" rel="noopener">Politique Matin – Senado, 20 de noviembre</a>, <a href="https://www.shango.media/france-info-pourquoi-les-societes-dautoroutes-dont-le-gouvernement-veut-taxer-davantage-les-benefices-sont-elles-aussi-rentables-11952008" target="_blank" rel="noopener">Franceinfo (vía Shango) – Sanef y Abertis</a>, <a href="https://spglobal.com/ratings/en/research/articles/240122-new-french-transport-infrastructure-tax-could-delay-operators-long-term-deleveraging-12968211" target="_blank" rel="noopener">S&amp;P Global Ratings</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Para un grupo español dueño de una concesión francesa, como Abertis con Sanef, el tipo puede casi triplicarse en un solo presupuesto, con un desenlace incierto hasta la comisión mixta. Los contratos de concesión prevén cláusulas sobre nuevos impuestos que las sociedades podrían invocar; Bercy (el Ministerio de Economía y Finanzas francés) promete por su parte peajes sin cambios. Un inversor debería valorar dos escenarios, con y sin compensación.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Política y sociedad</span>
+    <h3>Disturbios del 17 de octubre: 207 M€ de daños asegurados y una ayuda de 1.000 a 10.000 € para las pequeñas empresas</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Las manifestaciones contra la carestía de la vida del 17 de octubre vinieron acompañadas de saqueos y destrozos en centros urbanos. El Ministerio del Interior contabilizaba 1.522 comercios afectados ese día, CCI France (la red de cámaras de comercio e industria) 2.488, y una primera estimación de la agencia Morningstar DBRS había apuntado 1.200 M€. El Gobierno había anunciado a finales de octubre una ayuda a los comerciantes, cuyo decreto acaba de publicarse.</p></div>
+    <p class="sum">France Assureurs publicó el 19 de noviembre un primer balance: 207 M€ de daños asegurados en 5.280 siniestros, de los que 198 M€ corresponden a bienes profesionales. Los disturbios de 2005 costaron 209 M€ en cuatro semanas. El decreto del 19 de noviembre, publicado el 20 en el Journal officiel (el boletín oficial francés), abre una subvención de 1.000 a 10.000 € para las empresas de menos de 50 empleados, con una facturación de referencia inferior a 833.333 € y una pérdida de actividad de al menos el 25 %; la solicitud se presenta en seis semanas. España: la dana Adam motivó 182,2 M€ de medidas públicas el 10 de noviembre; esa cifra mide ayudas y no daños asegurados.</p>
+    <p class="src">Fuentes: <a href="https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/france-assureurs-estime-a-plus-de-200-millions-d-euros-le-cout-des-degats-engendres-par-les-violences-urbaines-et-les-pillages-des-17-et-18-octobre_8290007.html" target="_blank" rel="noopener">Franceinfo – balance de France Assureurs</a>, <a href="https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/le-gouvernement-precise-les-conditions-d-acces-aux-aides-pour-les-commercants-touches-par-les-evenements-du-17-octobre_8291621.html" target="_blank" rel="noopener">Franceinfo – condiciones de la ayuda</a>, <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055111490" target="_blank" rel="noopener">Légifrance – decreto n.º 2026-1064</a>, <a href="https://entreprendre.service-public.gouv.fr/actualites/A19152" target="_blank" rel="noopener">Service-public.fr Entreprendre</a>, <a href="https://www.cnews.fr/france/2026-11-19/un-montant-particulierement-eleve-les-violences-du-17-octobre-auraient-coute-207" target="_blank" rel="noopener">CNews – comparación con 2005</a>, <a href="https://www.politiquematin.fr/greve-17-novembre-2026-bilan-fonction-publique" target="_blank" rel="noopener">Politique Matin – huelga del 17 de noviembre</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Los daños asegurados no incluyen las pérdidas de explotación no cubiertas ni las ventas perdidas, y el Insee sitúa el comercio minorista en 90 en noviembre. Una empresa con locales en centros urbanos franceses debería revisar sus garantías de disturbios y de pérdida de explotación antes de renovar los contratos. Un inversor en comercio de proximidad debería incorporar este riesgo a sus escenarios.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Economía</span>
+    <h3>Clima de negocios: el Insee lo rebaja a 95 en noviembre, con todos los sectores a la baja</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El indicador sintético del clima de negocios del Insee agrega las opiniones de los empresarios de la industria, la construcción, los servicios y el comercio; su media de largo plazo se fija en 100. En octubre estaba en 97. Cuanto más se aleja de 100 hacia abajo, más juzgan los directivos que su actividad pasada y prevista es menos favorable que la normal.</p></div>
+    <p class="sum">Publicado el 20 de noviembre, el indicador pierde dos puntos, hasta 95, cinco por debajo de su media. La industria retrocede un punto, hasta 104, y la construcción también, hasta 94; los servicios pierden tres puntos, hasta 97; el comercio al por mayor cae a 92 y el comercio minorista a 90 según el cuadro de mando del Insee (89 sin automoción). En el detalle, el saldo sobre tesorería se hunde hasta -26. La producción de servicios mercantiles, publicada el mismo día, repunta un 0,6 % en septiembre tras un -0,2 % en agosto. España: ningún indicador comparable publicado esta semana en nuestras fuentes.</p>
+    <p class="src">Fuentes: <a href="https://www.insee.fr/fr/statistiques/9151162" target="_blank" rel="noopener">Insee – clima de negocios, noviembre de 2026</a>, <a href="https://www.insee.fr/fr/statistiques/2107840" target="_blank" rel="noopener">Insee – cuadro de mando de la coyuntura</a>, <a href="https://www.economiematin.fr/insee-climat-affaires-novembre-2026-commerce-90-industrie-104" target="_blank" rel="noopener">Économie Matin – clima de negocios</a>, <a href="https://polesocietes.com/actualites/economie/climat-affaires-insee-novembre-2026-commerce-detail-90" target="_blank" rel="noopener">Pôle Sociétés – comercio minorista</a>, <a href="https://www.economiematin.fr/insee-production-services-septembre-2026-rebond-06-pour-cent" target="_blank" rel="noopener">Économie Matin – producción de servicios</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Estas encuestas miden un estado de ánimo y no recogen pedidos, y la recogida de datos del comercio minorista comenzó diez días después de los disturbios del 17 de octubre. Solo la industria se mantiene por encima de su media. Un directivo que planifique inversiones en Francia debería cruzar estos saldos de opinión con su propia cartera de pedidos antes de revisar sus hipótesis para 2027.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Empresas e inversión</span>
+    <h3>Eramet: el Estado suscribe 322 M€ y se convierte en primer accionista del grupo minero</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Eramet, grupo francés de níquel, manganeso y litio, había anunciado en febrero de 2026 una ampliación de capital para sanear su estructura financiera tras una caída de sus resultados y un aumento de su deuda. El 12 de octubre cerró un acuerdo con la Agence des participations de l&#39;État (APE, organismo que gestiona las participaciones del Estado francés en empresas) y con la familia Duval, accionista histórica, para que el Estado pase a ser primer accionista sin superar el 50 %.</p></div>
+    <p class="sum">La operación se lanzó el 13 de noviembre: unos 500 M€ con derecho de suscripción preferente (DPS, derecho a comprar con prioridad las acciones nuevas), a razón de seis acciones nuevas por cinco antiguas, a 14,49 € por acción. La APE se ha comprometido a suscribir 322 M€, el 64 %, y pasaría del 27,1 % a alrededor del 47,4 % del capital. Una orden ministerial (arrêté) del 18 de noviembre, publicada en el Journal officiel del 19, autoriza la suscripción, y un sindicato bancario garantiza el resto. La suscripción va del 18 al 27 de noviembre, con resultados el 2 de diciembre. España: no hemos encontrado esta semana ninguna recapitalización pública comparable.</p>
+    <p class="src">Fuentes: <a href="https://www.globenewswire.com/news-release/2026/11/13/3402390/0/fr/eramet-lance-une-augmentation-de-capital-avec-maintien-du-droit-pr%c3%a9f%c3%a9rentiel-de-souscription-d-un-montant-d-environ-500-m-pour-renforcer-sa-structure-financi%c3%a8re.html" target="_blank" rel="noopener">Eramet (GlobeNewswire) – comunicado del 13 de noviembre</a>, <a href="https://refrance.fr/eramet-letat-sengage-pour-322-millions-deuros-sur-500-la-souscription-court-jusquau-27-novembre/" target="_blank" rel="noopener">Refrance – detalle de la operación</a>, <a href="https://www.miningweekly.com/article/france-to-become-eramets-top-shareholder-via-miners-capital-hike-2026-10-13" target="_blank" rel="noopener">Mining Weekly (Reuters) – acuerdo del 12 de octubre</a>, <a href="https://www.legifrance.gouv.fr/jorf/jo/2026/11/19/0270" target="_blank" rel="noopener">Légifrance – JORF del 19 de noviembre de 2026</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>El Estado justifica su entrada por la seguridad de acceso a los metales críticos. Para los pequeños accionistas, la dilución es mecánica: según Eramet, un accionista con el 1 % que no suscriba queda en el 0,45 %. Un inversor minoritario debería comparar el coste de suscribir con el de la dilución y seguir la gobernanza, puesto que el Estado no debe superar el 50 %.</p></aside>
+</article>
+  </section>
+
+  <section id="es-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">España</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalidad</span>
+    <h3>El salario mínimo de 2027 queda fuera del IRPF por real decreto-ley</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El salario mínimo interprofesional (SMI) es de 17.094 € anuales en 2026. Sus perceptores quedaban exentos de IRPF gracias a una reducción por rendimientos del trabajo de 590,89 €, pero sufrían una retención mensual que luego recuperaban en la declaración. La subida de 2027 obligaba a elevar la reducción para que la exención se mantuviera.</p></div>
+    <p class="sum">El Consejo de Ministros del 17 de noviembre fijó el SMI de 2027 en 1.286 € al mes en 14 pagas, es decir, 18.004 € al año (+5,3 %). El real decreto-ley 38/2026, publicado en el BOE el 18 de noviembre, eleva la reducción a 1.033,58 € hasta 18.004 € de ingresos y la rebaja progresivamente hasta cero en 23.171,89 €. Desde el 1 de enero de 2027 no se practicará retención de IRPF sobre el SMI. El Gobierno cifra el ahorro en 1.200 M€ para 2,7 millones de contribuyentes. Francia: el Smic sube un 1,6 % el 1 de diciembre (anuncio del 9 de noviembre).</p>
+    <p class="src">Fuentes: <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24120" target="_blank" rel="noopener">BOE – Real Decreto-ley 38/2026</a>, <a href="https://www.lamoncloa.gob.es/consejodeministros/resumenes/paginas/2026/171126-rueda-prensa-consejo-ministros.aspx" target="_blank" rel="noopener">La Moncloa – Consejo de Ministros del 17 de noviembre</a>, <a href="https://monfortybonell.com/salario-minimo-de-2027-y-rebaja-del-irpf-en-nomina-que-cambia-desde-enero/" target="_blank" rel="noopener">Monfort y Bonell – SMI 2027 e IRPF</a>, <a href="https://www.infobae.com/espana/2026/11/17/asi-queda-la-subida-del-salario-minimo-para-2027-a-quien-le-afecta-y-como-cambia-la-nomina-y-los-impuestos-a-pagar/" target="_blank" rel="noopener">Infobae – SMI 2027</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>La medida alivia el impuesto del trabajador; el coste del empleador, que soporta la subida bruta del 5,3 %, no cambia. Para una empresa con plantilla en España, la cuestión útil afecta a las escalas próximas al mínimo: entre 18.004 y 23.172 €, la reducción disminuye 20 céntimos por cada euro adicional de salario. Conviene seguir también la convalidación del real decreto-ley por la Diputación Permanente.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Inmobiliario</span>
+    <h3>Vivienda en España: 54.548 compraventas en septiembre, la mayor caída desde mayo de 2024</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Los precios españoles suben deprisa: el INE mide un +12,2 % interanual en el segundo trimestre de 2026, y un +12,9 % en la vivienda usada. Los volúmenes, en cambio, retroceden: siete de los nueve meses transcurridos desde enero están a la baja. Los compradores extranjeros adquirieron 62.327 viviendas en el primer semestre, un 13 % menos que un año antes según el Consejo General del Notariado.</p></div>
+    <p class="sum">Según el INE, se vendieron 54.548 viviendas en septiembre, un 13,4 % menos que un año antes; en nueve meses, 512.748 ventas, un -3,6 %. La vivienda usada cae un 14 % (42.403 ventas) y la nueva un 11,6 % (12.145). Ninguna comunidad autónoma registra un aumento: el País Vasco pierde un 23,1 %, Baleares un 22,4 % y Madrid un 21,2 %. Las viviendas libres retroceden un 12,8 % y las protegidas un 21,6 %. Francia: 951.000 ventas de viviendas usadas en doce meses hasta finales de agosto (+3,6 %) y precios a la baja un 0,8 % interanual en el segundo trimestre (Notaires de France e Insee).</p>
+    <p class="src">Fuentes: <a href="https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924540-las-compraventas-de-viviendas-registran-en-septiembre-su-mayor-caida-en-dos-anos-y" target="_blank" rel="noopener">Idealista – compraventas de septiembre</a>, <a href="https://www.estrelladigital.es/economia/compraventa-viviendas-desploma-134-espana-septiembre/20261117144214453496.html" target="_blank" rel="noopener">Estrella Digital – INE, 17 de noviembre</a>, <a href="https://lepetitjournal.com/valence/logement/immobilier-espagne-chute-ventes-13-4-pourcent-valence-459111" target="_blank" rel="noopener">Le Petit Journal Valence</a>, <a href="https://www.mysweetimmo.com/2026/10/23/immobilier-les-prix-baissent-mais-la-reprise-sessouffle/" target="_blank" rel="noopener">MySweetImmo – Notaires de France</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>España combina precios con alzas de dos dígitos y volúmenes en retroceso, lo que se parece a un mercado en el que el comprador espera. Francia muestra lo contrario: precios ligeramente a la baja y volúmenes todavía al alza, aunque con desaceleración. Un inversor español que compare ambos mercados debería valorar dos escenarios, estabilización de precios o corrección, antes de fijar su decisión de financiación.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Empresas e inversión</span>
+    <h3>BYD incluye a España en su lista para una segunda fábrica europea, frente a Francia</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El fabricante chino BYD quiere producir en Europa para evitar los aranceles que la Unión Europea impuso en 2024 a los coches eléctricos fabricados en China. Su primera fábrica europea, en Szeged (Hungría), debe arrancar a finales de 2026. España es el segundo productor de automóviles de Europa tras Alemania, con 1,77 millones de coches ensamblados en 2025, por delante de Francia.</p></div>
+    <p class="sum">El 11 de noviembre, la vicepresidenta de BYD, Stella Li, declaró a Europa Press que España figura entre los países preseleccionados para la segunda fábrica, sin fecha ni importe. En septiembre, un asesor del grupo había citado a España y Francia; BYD prefiere reutilizar un emplazamiento existente, pero Stella Li reconoce que los adecuados escasean. El grupo ha vendido cerca de 40.000 coches en España este año y pesa un 2,7 % de las matriculaciones de la Unión, el Reino Unido y la AELC en nueve meses (ACEA, la asociación europea de fabricantes de automóviles). En Zaragoza, Stellantis produce desde el 16 de octubre el Leapmotor B10. Francia: candidata al mismo proyecto, por detrás de España en volumen de producción en 2025.</p>
+    <p class="src">Fuentes: <a href="https://www.eleconomista.es/motor/noticias/14027074/11/26/byd-valora-espana-para-su-segunda-fabrica-de-vehiculos-en-europa-esta-entre-los-preseleccionados.html" target="_blank" rel="noopener">elEconomista (Europa Press) – BYD preselecciona a España</a>, <a href="https://www.auto-infos.fr/article/byd-l-espagne-face-a-la-france-pour-accueillir-sa-deuxieme-usine-europeenne.294419" target="_blank" rel="noopener">Auto Infos – España frente a Francia</a>, <a href="https://www.ajupress.com/view/20261115214313773" target="_blank" rel="noopener">AJP – ACEA y matriculaciones</a>, <a href="https://lessentieldeleco.fr/9270-stellantis-future-usine-europeenne-des-marques-chinoises/" target="_blank" rel="noopener">L&#39;Essentiel de l&#39;Éco – Stellantis en Zaragoza</a>, <a href="https://www.autoactu.com/actualites/espagne-renault-annonce-600-millions-d-euros-d-investissement-d-ici-a-2030" target="_blank" rel="noopener">AFP vía Autoactu – producción española 2025</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>La competencia entre territorios se juega en la disponibilidad de un emplazamiento, las ayudas públicas y el tejido de proveedores, y un anuncio por sí solo no decide nada. No hay ninguna decisión tomada. Un proveedor de automoción con presencia a ambos lados de los Pirineos debería valorar dos escenarios, con y sin fábrica de BYD, antes de comprometer capacidad.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Política y sociedad</span>
+    <h3>Función pública: hasta un 4,5 % de subida en 2027, por real decreto-ley</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>España funciona con presupuestos prorrogados y las Cortes están disueltas desde el 5 de octubre. Las subidas anteriores se habían fijado por el real decreto-ley 14/2025: 2,5 % en 2025, 1,5 % en 2026, más un 0,5 % si la inflación de 2026 alcanza el 1,5 %. Sin ley de presupuestos, hacía falta un texto con fuerza de ley para aplicar la subida de 2027 desde la nómina de enero.</p></div>
+    <p class="sum">El real decreto-ley 37/2026, aprobado el 17 de noviembre y publicado en el BOE el 18, autoriza un incremento global de hasta el 4,5 % de las retribuciones de todo el sector público, es decir, Estado, comunidades autónomas y entidades locales, respecto a las vigentes el 31 de diciembre de 2026, con efectos desde el 1 de enero de 2027. Un crédito extraordinario de 4.965 M€ financia su aplicación en la Administración General del Estado. El texto debe convalidarse en treinta días por la Diputación Permanente. Francia: la huelga del 17 de noviembre reunió al 2,79 % de los agentes del Estado; el Gobierno cifra en algo más de 1.000 M€ la revalorización de los salarios bajos, y el punto de índice sigue congelado.</p>
+    <p class="src">Fuentes: <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24119" target="_blank" rel="noopener">BOE – Real Decreto-ley 37/2026</a>, <a href="https://www.cuestioneslaborales.es/subida-salarial-sector-publico-2027-4-5-por-ciento/" target="_blank" rel="noopener">Cuestiones Laborales – subida del 4,5 %</a>, <a href="https://monfortybonell.com/retribuciones-del-sector-publico-en-2027-como-aplicar-la-subida-del-45/" target="_blank" rel="noopener">Monfort y Bonell – crédito de 4.965 M€</a>, <a href="https://www.lagazettedescommunes.com/club-rh/dialogue-social/mouvement-social-fonction-publique/greve-du-17-novembre-196-dagents-territoriaux-mobilises-a-la-mi-journee.GPTHM3FUHVFTLLOFD3ADBAFQQQ.html" target="_blank" rel="noopener">La Gazette des communes – huelga del 17 de noviembre</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>El texto fija un techo y deja a cada administración aplicarlo con su propio calendario. Para una empresa cuyos clientes son administraciones españolas, una subida de esta magnitud pesa sobre el coste de los servicios facturados y sobre las revisiones de precios de los contratos. La diferencia con Francia, donde el punto de índice sigue congelado, es nítida.</p></aside>
+</article>
+  </section>
+
+  <section id="es-agenda">
+    <h2>A vigilar en las próximas semanas</h2>
+    <ul class="agenda"><li><span class="when">27 de noviembre de 2026</span><span class="what">Francia: cierre del periodo de suscripción de la ampliación de capital de Eramet (resultados el 2 de diciembre)</span></li><li><span class="when">29 de noviembre de 2026</span><span class="what">España: elecciones generales</span></li><li><span class="when">1 de diciembre de 2026</span><span class="what">Francia: subida del Smic del 1,6 %; España: entrada en vigor prevista del IVA del 10 % en los alquileres turísticos, si el real decreto-ley se convalida</span></li><li><span class="when">9 de diciembre de 2026</span><span class="what">Francia: votación solemne del Senado sobre el proyecto de ley de presupuestos para 2027</span></li><li><span class="when">Mediados de diciembre de 2026</span><span class="what">España: vence el plazo de treinta días para que la Diputación Permanente convalide o derogue los reales decretos-leyes 37, 38 y 39/2026</span></li></ul>
+  </section>
+
+  
+  <section id="es-glosario">
+    <h2>Las siglas de esta edición</h2>
+    <dl class="glossary"><div><dt>APE</dt><dd>Agence des participations de l&#39;État: organismo que gestiona las participaciones del Estado francés en empresas, aquí en Eramet.</dd></div><div><dt>CMP</dt><dd>Commission mixte paritaire: comisión formada por diputados y senadores franceses que busca un texto común cuando las dos cámaras no coinciden sobre un proyecto de ley.</dd></div><div><dt>Diputación Permanente</dt><dd>Comisión del Congreso de los Diputados que ejerce las funciones de la cámara entre la disolución y la constitución de las nuevas Cortes, y que debe convalidar o derogar los reales decretos-leyes.</dd></div><div><dt>DPS</dt><dd>Droit préférentiel de souscription (derecho de suscripción preferente): derecho de un accionista existente a suscribir con prioridad las acciones nuevas en una ampliación de capital.</dd></div><div><dt>Index égalité</dt><dd>Index de l&#39;égalité professionnelle: nota anual sobre 100 que publican las empresas francesas de 50 o más empleados sobre las brechas retributivas entre mujeres y hombres.</dd></div><div><dt>Insee</dt><dd>Institut national de la statistique et des études économiques: instituto nacional de estadística francés, equivalente al INE español.</dd></div><div><dt>PLF</dt><dd>Projet de loi de finances: texto anual que fija los ingresos y los gastos del Estado francés, votado por la Asamblea Nacional y el Senado; equivale a los Presupuestos Generales del Estado.</dd></div><div><dt>Smic</dt><dd>Salaire minimum interprofessionnel de croissance: salario mínimo legal francés, equivalente al SMI español.</dd></div><div><dt>TEITLD</dt><dd>Taxe sur l&#39;exploitation des infrastructures de transport de longue distance: tasa francesa creada en 2024 que grava a las concesionarias de autopistas y a los grandes aeropuertos más rentables.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">Suscribirse en LinkedIn</a>
+  </section>
+
+  
+  <section id="es-archivo" class="archive">
+    <h2>Ediciones anteriores</h2>
+    <ul><li><a href="/ediciones/2026-11-14/">N° 7 — Salario mínimo: Francia subvenciona las cotizaciones, España deja la subida al empleador</a><span>2026-11-14</span></li><li><a href="/ediciones/2026-11-07/">N° 6 — Regularización en España: medio millón de afiliados, un efecto macroeconómico limitado</a><span>2026-11-07</span></li><li><a href="/ediciones/2026-10-31/">N° 5 — Ganar unas elecciones no es una licencia de piloto</a><span>2026-10-31</span></li><li><a href="/ediciones/2026-10-24/">N° 4 — Disturbios e inundaciones: dos modelos para pagar un riesgo que se desboca</a><span>2026-10-24</span></li><li><a href="/ediciones/2026-10-17/">N° 3 — Inflación: España crece más deprisa que Francia, pero se encarece más deprisa</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Energía: lo que Francia saca de sus campos y España deja escapar</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Vivienda en España: un déficit de oferta que los decretos no abordaban y unas zonas tensionadas puestas a prueba por los datos</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>El Boletín Rilamax lo publica RILAMAX 2025 SL. Los resúmenes son de elaboración propia a partir de las fuentes citadas. Las lecturas Rilamax son análisis generales y no constituyen asesoramiento de inversión personalizado. Seguimiento y redacción asistidos por IA. Selección, verificación y análisis: Jean Marc Pavia.</p></footer>
+</div>
+
+
+<script>
+(function(){
+  var titles={fr:"Le Bulletin Rilamax \u2014 N\u00b0 8",es:"El Bolet\u00edn Rilamax \u2014 N.\u00ba 8"};
+  function setLang(l){
+    document.querySelectorAll('.edition').forEach(function(e){e.hidden=e.dataset.lang!==l});
+    document.querySelectorAll('.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});
+    document.documentElement.lang=l; document.title=titles[l];
+    try{localStorage.setItem('rilamax-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set);window.scrollTo(0,0)})});
+  var p=new URLSearchParams(location.search).get('lang'); var saved=null;
+  try{saved=localStorage.getItem('rilamax-lang')}catch(e){}
+  var l=(p==='es'||p==='fr')?p:saved; if(l==='es'||l==='fr') setLang(l);
+  // Detalle del gráfico de mix al pasar el ratón, tocar o enfocar un segmento
+  document.querySelectorAll('figure.mix').forEach(function(fig){
+    var info=fig.querySelector('.mix-info'); if(!info) return;
+    fig.querySelectorAll('.seg').forEach(function(sg){
+      function show(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});sg.classList.add('on');info.textContent=sg.getAttribute('data-tip');info.classList.add('act')}
+      sg.addEventListener('mouseenter',show);sg.addEventListener('focus',show);sg.addEventListener('click',show);
+    });
+    fig.addEventListener('mouseleave',function(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});info.textContent=info.getAttribute('data-default');info.classList.remove('act')});
+  });
+  // Animación de los gráficos al aparecer en pantalla
+  try{
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(!reduce&&'IntersectionObserver' in window){
+      var charts=document.querySelectorAll('figure.chart');
+      charts.forEach(function(c){c.classList.add('pre')});
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target)}})},{threshold:.35});
+      charts.forEach(function(c){io.observe(c)});
+    }
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
