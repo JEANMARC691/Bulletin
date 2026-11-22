@@ -54,5 +54,13 @@
     "ruta": "/ediciones/2026-11-14/",
     "titulo_fr": "Salaire minimum : la France subventionne les cotisations, l'Espagne laisse la hausse à l'employeur",
     "titulo_es": "Salario mínimo: Francia subvenciona las cotizaciones, España deja la subida al empleador"
+  },
+  {
+    "numero": 8,
+    "fecha": "2026-11-21",
+    "semana": 47,
+    "ruta": "/ediciones/2026-11-21/",
+    "titulo_fr": "Transparence salariale : l'Espagne décrète, la France attend le Sénat",
+    "titulo_es": "Transparencia salarial: España decreta, Francia espera al Senado"
   }
 ]

@@ -1,0 +1,1043 @@
+{
+  "meta": {
+    "numero": 8,
+    "fecha": "2026-11-21",
+    "semana": 47
+  },
+  "fr": {
+    "editorial": {
+      "titulo": "Une semaine où l'Espagne décrète et la France attend",
+      "parrafos": [
+        "Entre la dissolution des Cortes (le Parlement espagnol), le 5 octobre, et les élections du 29 novembre, le gouvernement espagnol continue de légiférer par décret-loi, une norme ayant force de loi que le Congrès doit valider ensuite. Le Conseil des ministres du 17 novembre en a adopté trois. Le plus lourd pour les entreprises transpose la directive européenne sur la transparence salariale ; nous lui consacrons le dossier. Les deux autres fixent la hausse des rémunérations publiques de 2027 et neutralisent l'impôt sur le revenu du salaire minimum.",
+        "En France, le budget 2027 cherche toujours sa majorité. L'Assemblée a rejeté la partie recettes le 4 novembre. Le Sénat a écarté le 20 novembre, par 249 voix contre 19, une motion qui aurait interrompu l'examen, et un vote solennel est annoncé pour le 9 décembre. Rien de ce que vote le Sénat n'entre en vigueur avant l'accord final entre les deux chambres. Les entreprises visées par les hausses de taxes, comme les concessionnaires d'autoroutes, travaillent donc sur des hypothèses.",
+        "Deux coûts ont été chiffrés cette semaine. France Assureurs (la fédération des assureurs) estime à 207 M€ les dommages assurés des violences des 17 et 18 octobre, et un décret du 20 novembre ouvre aux petites entreprises une aide de 1 000 à 10 000 €. La grève du 17 novembre a mobilisé moins de 3 % des agents dans chacune des trois fonctions publiques. Le climat des affaires de l'Insee (l'institut national de la statistique) recule à 95, deux points sous octobre.",
+        "Nous retenons de ces textes une différence de méthode. Le décret-loi donne aux entreprises espagnoles une règle applicable tout de suite, au prix d'une validation qui peut encore la révoquer dans les trente jours. La voie parlementaire française offre davantage de débat et moins de visibilité : l'échéance européenne du 7 juin sur la transparence salariale est dépassée de plus de cinq mois. Un dirigeant qui emploie des deux côtés des Pyrénées doit tenir deux calendriers, ce que le dossier détaille."
+      ],
+      "puntos_clave": [
+        "L'Espagne a transposé la transparence salariale par décret-loi, en vigueur depuis le 19 novembre, sous réserve de validation.",
+        "Le budget français 2027 reste en première lecture au Sénat, avec un vote solennel le 9 décembre.",
+        "Les violences du 17 octobre ont coûté 207 M€ aux assureurs, et une aide de 1 000 à 10 000 € est ouverte."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "207 M€",
+        "texto": "Dommages assurés des violences urbaines des 17 et 18 octobre en France, pour 5 280 sinistres ; 198 M€ concernent des biens professionnels, selon France Assureurs.",
+        "fuente": "France Assureurs",
+        "pais": "fr",
+        "comparacion": "Espagne : pas de dommages assurés comparables publiés ; la dana Adam (épisode de pluies extrêmes d'octobre) a motivé 182,2 M€ de mesures publiques par décret-loi du 10 novembre, ce qui mesure des aides et non des dommages assurés."
+      },
+      {
+        "valor": "27 011",
+        "texto": "Sociétés créées en France en octobre 2026, sur 113 082 créations au total (micro-entrepreneurs inclus) ; le total recule de 4,5 % sur un mois et progresse de 13,7 % sur un an.",
+        "fuente": "Insee",
+        "pais": "fr",
+        "comparacion": "Espagne : 9 174 sociétés mercantiles créées en septembre, -0,9 % sur un an (INE, institut national de la statistique espagnol) ; périmètre limité aux sociétés."
+      },
+      {
+        "valor": "95",
+        "texto": "Indicateur synthétique du climat des affaires en France en novembre, deux points sous octobre et cinq sous sa moyenne de longue période (100) ; l'industrie, à 104, reste au-dessus.",
+        "fuente": "Insee",
+        "pais": "fr",
+        "comparacion": "Espagne : aucun indicateur comparable publié cette semaine dans nos sources."
+      },
+      {
+        "valor": "54 548",
+        "texto": "Ventes de logements inscrites en Espagne en septembre 2026, soit 13,4 % de moins en un an, la plus forte baisse depuis mai 2024.",
+        "fuente": "INE",
+        "pais": "es",
+        "comparacion": "France : 951 000 ventes de logements anciens sur douze mois à fin août, +3,6 % sur un an (Notaires de France, 22 octobre) ; période et périmètre différents."
+      },
+      {
+        "valor": "1 200 M€",
+        "texto": "Économie d'impôt attendue en 2027 grâce à la déduction qui exonère le salaire minimum de l'IRPF (impôt espagnol sur le revenu des personnes physiques), pour 2,7 millions de contribuables, selon le gouvernement.",
+        "fuente": "La Moncloa (Conseil des ministres)",
+        "pais": "es",
+        "comparacion": "France : Smic +1,6 % au 1er décembre, annoncé le 9 novembre ; aucune mesure fiscale équivalente annoncée cette semaine dans nos sources."
+      },
+      {
+        "valor": "4 965 M€",
+        "texto": "Crédit extraordinaire ouvert par le décret-loi 37/2026 pour appliquer en 2027 une hausse des rémunérations publiques de 4,5 % au plus (Administration générale de l'État).",
+        "fuente": "BOE",
+        "pais": "es",
+        "comparacion": "France : revalorisation des bas salaires de la fonction publique chiffrée à un peu plus de 1 Md€ pour 1,35 million d'agents (ministre David Amiel, 15 novembre) ; point d'indice toujours gelé selon les syndicats."
+      }
+    ],
+    "dossier": {
+      "titulo": "Transparence salariale : l'Espagne décrète, la France attend le Sénat",
+      "intro": "La directive européenne sur la transparence des rémunérations devait être transposée le 7 juin 2026. L'Espagne l'a fait par décret-loi le 17 novembre ; la France a déposé son projet de loi au Sénat en septembre, sans date d'examen connue. Pour les entreprises qui emploient des deux côtés des Pyrénées, les calendriers divergent, et les seuils aussi.",
+      "cifras": [
+        {
+          "valor": "11,8 %",
+          "texto": "Écart horaire brut entre femmes et hommes en France en 2024 (Eurostat), contre 11,1 % dans l'Union européenne."
+        },
+        {
+          "valor": "7,3 %",
+          "texto": "Même mesure pour l'Espagne en 2024 ; l'Italie affiche 5,3 % et l'Allemagne 15,6 %."
+        },
+        {
+          "valor": "7 500 €",
+          "texto": "Plafond de l'amende espagnole pour certaines omissions d'information sur le contrat, contre 750 € auparavant."
+        },
+        {
+          "valor": "8 juin 2027",
+          "texto": "Date limite du premier rapport sur l'écart de rémunération pour les entreprises espagnoles d'au moins 150 salariés."
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. Une échéance européenne, deux points de départ",
+          "parrafos": [
+            "La directive (UE) 2023/970 du 10 mai 2023 oblige les employeurs à afficher une rémunération ou une fourchette avant l'embauche, interdit de demander le salaire antérieur, ouvre aux salariés un droit d'information sur les niveaux de paie par sexe et impose des déclarations d'écarts selon la taille de l'entreprise. Quand l'écart inexpliqué dépasse 5 %, une évaluation conjointe devient obligatoire. Les États membres avaient jusqu'au 7 juin 2026 pour l'intégrer à leur droit.",
+            "Les deux pays ne partaient pas de zéro. L'Espagne disposait d'un décret de 2020 sur l'égalité de rémunération, qui impose des plans d'égalité aux entreprises d'au moins 50 salariés ; la France a l'Index égalité professionnelle, une note annuelle publiée par les entreprises à partir de 50 salariés. Ces outils mesurent des écarts moyens, alors que la directive demande de comparer des postes de valeur égale, ce qui oblige à classer les emplois."
+          ]
+        },
+        {
+          "titulo": "2. L'Espagne : un décret-loi en vigueur depuis le 19 novembre",
+          "parrafos": [
+            "Le Real Decreto-ley 39/2026, adopté le 17 novembre et publié le 18 au BOE (Boletín Oficial del Estado, le Journal officiel espagnol), est entré en vigueur le lendemain, sans période d'adaptation générale. Il impose d'indiquer la rémunération initiale dans les offres d'emploi, interdit de s'enquérir du salaire antérieur, donne à chaque salarié le droit d'obtenir par écrit, sous deux mois, des informations sur sa paie et sur les moyennes par sexe des postes comparables, et crée une commission de suivi de la transparence salariale.",
+            "Les sanctions montent d'un cran : les manquements graves coûtent de 751 à 7 500 €, les très graves, dont les représailles contre un salarié qui réclame, de 7 501 à 225 018 €. Le délai de prescription d'une action pour discrimination salariale passe à trois ans. Les entreprises d'au moins 150 salariés doivent communiquer leur écart avant le 8 juin 2027. Comme tout décret-loi, le texte doit être validé sous trente jours ; les Cortes étant dissoutes, la Diputación Permanente tranchera."
+          ]
+        },
+        {
+          "titulo": "3. La France : un projet de loi au Sénat, sans calendrier",
+          "parrafos": [
+            "Le projet de loi n° 944 a été présenté en Conseil des ministres le 10 septembre et déposé au Sénat en procédure accélérée, trois mois après l'échéance européenne. Selon les analyses du texte, il remplace l'Index égalité par sept indicateurs d'écarts à déclarer par les employeurs d'au moins 50 salariés, avec un seuil de 5 % qui déclenche une justification. Les pénalités pourraient atteindre 1 % des rémunérations versées, 2 % en cas de récidive, ou 450 € par manquement individuel.",
+            "L'examen en commission des affaires sociales du Sénat n'avait pas de date au 3 novembre. Le ministre du Travail, Jean-Pierre Farandou, espérait un vote avant la fin 2026 et une entrée en vigueur au 1er janvier 2028, date non confirmée. Certains analystes jugent que l'élection présidentielle de 2027 menace l'adoption définitive avant la fin de la législature. En attendant, rien n'est voté ni applicable : les employeurs français n'ont aucune obligation nouvelle."
+          ]
+        },
+        {
+          "titulo": "4. Ce que disent les écarts, et ce qu'ils ne disent pas",
+          "parrafos": [
+            "Selon Eurostat (l'office statistique de l'Union européenne), l'écart horaire brut moyen entre femmes et hommes atteignait en 2024 11,1 % dans l'Union, 11,8 % en France et 7,3 % en Espagne, contre 15,6 % en Allemagne. L'Espagne affiche donc un écart inférieur de plus de quatre points à celui de la France. Cet indicateur compare des moyennes sans corriger la structure des emplois, alors que la directive vise l'égalité à travail de valeur égale.",
+            "Les chiffres varient avec la méthode. CCOO (Comisiones Obreras, grand syndicat espagnol) calcule sur les gains annuels un écart de 20 % en 2024 et attribue 55 % de cet écart au temps de travail, là où Eurostat, sur le salaire horaire, retient 7,3 %. Côté préparation, l'enquête Mercer de février 2026 plaçait la France à 36 %, l'Espagne entre 55 % et 63 % selon les publications, et 9 % seulement des employeurs européens disposaient d'une stratégie complète."
+          ]
+        },
+        {
+          "titulo": "5. Ce que les groupes franco-espagnols ont à surveiller",
+          "parrafos": [
+            "La Diputación Permanente peut valider ou abroger le décret-loi dans les trente jours, soit d'ici mi-décembre. Le seuil compte autant : 150 salariés pour la première déclaration espagnole, 50 dans le projet français. Un groupe de 80 salariés en France et 120 en Espagne serait déclarant d'un côté des Pyrénées seulement.",
+            "Les offres d'emploi espagnoles doivent déjà indiquer la rémunération initiale, ce qui touche les recrutements en cours. La classification des postes, indispensable dans les deux régimes, demande plusieurs mois de travail ; commencer par les filiales espagnoles donne un modèle réutilisable si le texte français est voté."
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "despues_de_seccion": 3,
+          "aria": "Seuil d'effectifs pour la première déclaration d'écarts, Espagne et France",
+          "pie": "Texte espagnol en vigueur ; projet de loi français non voté, 2026. Sources : Kohen Avocats, Stéphane Larue.",
+          "barras": [
+            {
+              "etiqueta": "Espagne (décret-loi 39/2026)",
+              "valor": 150,
+              "texto": "150 salariés",
+              "pct": 100
+            },
+            {
+              "etiqueta": "France (projet n° 944)",
+              "valor": 50,
+              "texto": "50 salariés",
+              "pct": 33
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 4,
+          "aria": "Écart horaire brut femmes-hommes en 2024 : Allemagne, France, Union européenne, Espagne",
+          "pie": "Écart non ajusté, 2024, en %. Source : Eurostat, d'après Euronews (6 juillet 2026) et Newtral (16 juin 2026).",
+          "barras": [
+            {
+              "etiqueta": "Allemagne",
+              "valor": 15.6,
+              "texto": "15,6 %",
+              "pct": 100
+            },
+            {
+              "etiqueta": "France",
+              "valor": 11.8,
+              "texto": "11,8 %",
+              "pct": 76
+            },
+            {
+              "etiqueta": "Union européenne",
+              "valor": 11.1,
+              "texto": "11,1 %",
+              "pct": 71
+            },
+            {
+              "etiqueta": "Espagne",
+              "valor": 7.3,
+              "texto": "7,3 %",
+              "pct": 47
+            }
+          ]
+        }
+      ],
+      "debate": {
+        "despues_de_seccion": 4,
+        "texto": "Les partisans de la transparence font valoir qu'elle donne aux salariés la preuve qui leur manque pour contester un écart, et que le seuil de 5 % force les employeurs à justifier leurs grilles. Les réserves portent sur le coût de conformité pour les entreprises de taille moyenne, sur l'insécurité juridique d'un texte pris par décret-loi avant sa validation, et sur la pertinence de l'écart brut : selon CCOO, le temps de travail pèse lourd dans les chiffres espagnols. En France, FO Cadres relevait en 2025 que les partenaires sociaux freinaient la transposition. Les sources de la semaine ne présentent aucune évaluation d'effet de ces règles sur les écarts."
+      },
+      "lectura": "Nous voyons deux méthodes et aucun résultat mesuré. L'Espagne agit vite, avec un texte applicable dès maintenant mais révocable ; la France prend son temps, au prix de mois d'incertitude, pour un régime qui sera plus exigeant sur le papier : seuil de 50 salariés et pénalités indexées sur la masse salariale. L'écart espagnol plus faible en 2024 (7,3 % contre 11,8 %) ne prouve pas l'effet des règles, trop récentes pour cela. Une entreprise présente des deux côtés devrait traiter l'Espagne comme le marché où l'offre d'emploi affiche déjà la rémunération initiale et où le salaire antérieur ne se demande plus, et préparer la même hiérarchisation des postes pour la France. Un dirigeant devrait aussi budgéter deux scénarios sur le texte espagnol, validé ou abrogé, et revoir ses clauses de confidentialité salariale avant que le projet français ne soit adopté.",
+      "vigilaremos": "La décision de la Diputación Permanente sur le décret-loi 39/2026, attendue d'ici mi-décembre, et l'inscription du projet de loi n° 944 à l'ordre du jour de la commission des affaires sociales du Sénat.",
+      "fuentes": [
+        {
+          "nombre": "BOE – Real Decreto-ley 39/2026",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24121"
+        },
+        {
+          "nombre": "Cuestiones Laborales – RDL 39/2026 et sanctions",
+          "url": "https://www.cuestioneslaborales.es/real-decreto-ley-39-2026-cambios-estatuto-infracciones/"
+        },
+        {
+          "nombre": "Capital – amendes et fin du secret salarial",
+          "url": "https://capital.es/actualidad/el-gobierno-eleva-las-multas-por-omitir-datos-del-contrato-y-acaba-con-el-secreto-salarial/236014/"
+        },
+        {
+          "nombre": "Kohen Avocats – calendrier espagnol",
+          "url": "https://kohenavocats.com/es/real-decreto-ley-39-2026-transparencia-salarial-que-pedir-empresa/"
+        },
+        {
+          "nombre": "Newtral – décret-loi de Travail",
+          "url": "https://www.newtral.es/salario-decreto-ley-trabajo-consejo-ministros-gobierno-directivas-europeas/20261118/"
+        },
+        {
+          "nombre": "info.gouv.fr – transparence des salaires",
+          "url": "https://www.info.gouv.fr/actualite/transparence-des-salaires-regles-et-evolutions-prevues"
+        },
+        {
+          "nombre": "Stéphane Larue – projet de loi n° 944",
+          "url": "https://stephanelarue.com/transparence-salariale-salaire-affiche-des-l-offre-le-projet-de-loi-attend-au-senat/"
+        },
+        {
+          "nombre": "Mozaik – sanctions du projet français",
+          "url": "https://www.mozaik.co/transparence-salariale-cse/"
+        },
+        {
+          "nombre": "Juritravail – calendrier français",
+          "url": "https://www.juritravail.com/Actualite/transparence-des-remunerations-7-points-pour-comprendre-les-nouvelles-exigences-europeennes/Id/376662"
+        },
+        {
+          "nombre": "Euronews – écarts Eurostat 2024",
+          "url": "https://fr.euronews.com/2026/07/06/ecart-de-remuneration-et-de-pension-en-europe-pourquoi-les-inegalites-saggravent-a-la-retr"
+        },
+        {
+          "nombre": "Newtral – Eurostat Espagne 7,3 %",
+          "url": "https://www.newtral.es/brecha-salarial-espana-sanchez-factcheck/20260616/"
+        },
+        {
+          "nombre": "Euronews – enquête Mercer",
+          "url": "https://www.euronews.com/2026/03/03/pay-transparency-countdown-is-europe-ready-for-the-2026-equal-pay-test"
+        },
+        {
+          "nombre": "Ravio – suivi de la transposition",
+          "url": "https://ravio.com/blog/everything-you-need-to-know-about-the-eu-pay-transparency-directive"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Fiscalité",
+        "titulo": "Budget 2027 au Sénat : la taxe sur les autoroutes, dont Sanef, passe en séance",
+        "contexto": "Le projet de loi de finances (PLF) pour 2027 a été rejeté par l'Assemblée nationale le 4 novembre ; le Sénat travaille donc sur le texte initial du gouvernement. Son article 22 porte la taxe sur l'exploitation des infrastructures de transport de longue distance (TEITLD), créée en 2024, de 4,6 % à 12,2 % au plus pour les exploitants les plus rentables, pour 800 M€ de recettes annuelles supplémentaires, au-delà d'environ 600 M€ aujourd'hui.",
+        "resumen": "La commission des finances du Sénat a examiné la première partie le 12 novembre et voté sur les articles 3 et 49 le 18. Elle a corrigé un calcul qui aurait porté la taxe d'Aéroports de Paris à 125 M€ au lieu des 40 M€ annoncés ; le reste de l'effort, 760 M€, pèse sur les autoroutes. La séance publique s'est ouverte le 20 novembre, le Sénat repoussant par 249 voix contre 19 une motion d'arrêt. Le vote solennel est fixé au 9 décembre, avant une commission mixte paritaire mi-décembre. Sanef appartient au groupe espagnol Abertis : S&P estimait en 2024 à 80-85 M€ la taxe due par Sanef et sa filiale SAPN. Espagne : aucune taxe sectorielle équivalente repérée dans nos sources.",
+        "lectura": "Pour un groupe étranger propriétaire d'une concession française, le taux peut presque tripler en un seul budget, avec une issue incertaine jusqu'à la commission mixte. Les contrats de concession prévoient des clauses sur les nouvelles taxes, que les sociétés pourraient invoquer ; Bercy promet de son côté des péages inchangés. Un investisseur devrait valoriser deux scénarios, avec et sans compensation.",
+        "fuentes": [
+          {
+            "nombre": "Legifiscal – commission des finances du Sénat",
+            "url": "https://www.legifiscal.fr/actualites-fiscales/4735-plf-2027-principaux-articles-adoptes-commission-finances-senat.html"
+          },
+          {
+            "nombre": "Legifiscal – taxe autoroutes et aéroports",
+            "url": "https://www.legifiscal.fr/actualites-fiscales/4681-plf-2027-taxe-autoroutes-aeroports-pourrait-presque-tripler-rentables.html"
+          },
+          {
+            "nombre": "Politique Matin – Sénat, 20 novembre",
+            "url": "https://www.politiquematin.fr/budget-2027-senat-rejette-question-prealable-249-voix-20-novembre"
+          },
+          {
+            "nombre": "Franceinfo (via Shango) – Sanef et Abertis",
+            "url": "https://www.shango.media/france-info-pourquoi-les-societes-dautoroutes-dont-le-gouvernement-veut-taxer-davantage-les-benefices-sont-elles-aussi-rentables-11952008"
+          },
+          {
+            "nombre": "S&P Global Ratings",
+            "url": "https://spglobal.com/ratings/en/research/articles/240122-new-french-transport-infrastructure-tax-could-delay-operators-long-term-deleveraging-12968211"
+          }
+        ]
+      },
+      {
+        "rubrica": "Politique et société",
+        "titulo": "Violences du 17 octobre : 207 M€ de dommages assurés et une aide de 1 000 à 10 000 € pour les petites entreprises",
+        "contexto": "Les manifestations contre la vie chère du 17 octobre ont été accompagnées de pillages et de dégradations dans des centres-villes. Le ministère de l'Intérieur comptait 1 522 commerces touchés ce jour-là, CCI France 2 488, et une première estimation de l'agence Morningstar DBRS avait avancé 1,2 Md€. Le gouvernement avait annoncé fin octobre une aide aux commerçants, dont le décret vient d'être publié.",
+        "resumen": "France Assureurs a publié le 19 novembre un premier bilan : 207 M€ de dommages assurés pour 5 280 sinistres, dont 198 M€ pour les biens professionnels. Les émeutes de 2005 avaient coûté 209 M€ en quatre semaines. Le décret du 19 novembre, publié le 20 au Journal officiel, ouvre une subvention de 1 000 à 10 000 € aux entreprises de moins de 50 salariés, dont le chiffre d'affaires de référence est inférieur à 833 333 € et qui ont perdu au moins 25 % d'activité ; la demande se fait sous six semaines. Espagne : la dana Adam a motivé 182,2 M€ de mesures publiques le 10 novembre ; ce montant mesure des aides, non des dommages assurés.",
+        "lectura": "Les dommages assurés ne comptent ni les pertes d'exploitation non couvertes ni les ventes perdues, et l'Insee place le commerce de détail à 90 en novembre. Une entreprise de centre-ville devrait vérifier ses garanties émeutes et pertes d'exploitation avant le renouvellement de ses contrats. Un investisseur en commerce de proximité devrait intégrer ce risque dans ses scénarios.",
+        "fuentes": [
+          {
+            "nombre": "Franceinfo – bilan France Assureurs",
+            "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/france-assureurs-estime-a-plus-de-200-millions-d-euros-le-cout-des-degats-engendres-par-les-violences-urbaines-et-les-pillages-des-17-et-18-octobre_8290007.html"
+          },
+          {
+            "nombre": "Franceinfo – conditions de l'aide",
+            "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/le-gouvernement-precise-les-conditions-d-acces-aux-aides-pour-les-commercants-touches-par-les-evenements-du-17-octobre_8291621.html"
+          },
+          {
+            "nombre": "Légifrance – décret n° 2026-1064",
+            "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055111490"
+          },
+          {
+            "nombre": "Service-public.fr Entreprendre",
+            "url": "https://entreprendre.service-public.gouv.fr/actualites/A19152"
+          },
+          {
+            "nombre": "CNews – comparaison avec 2005",
+            "url": "https://www.cnews.fr/france/2026-11-19/un-montant-particulierement-eleve-les-violences-du-17-octobre-auraient-coute-207"
+          },
+          {
+            "nombre": "Politique Matin – grève du 17 novembre",
+            "url": "https://www.politiquematin.fr/greve-17-novembre-2026-bilan-fonction-publique"
+          }
+        ]
+      },
+      {
+        "rubrica": "Économie",
+        "titulo": "Climat des affaires : l'Insee relève un recul à 95 en novembre, tous les secteurs en baisse",
+        "contexto": "L'indicateur synthétique du climat des affaires de l'Insee agrège les opinions des chefs d'entreprise dans l'industrie, le bâtiment, les services et le commerce ; sa moyenne de longue période est fixée à 100. Il s'établissait à 97 en octobre. Plus il s'éloigne de 100 vers le bas, plus les dirigeants jugent leur activité passée et prévue moins favorable que la normale.",
+        "resumen": "Publié le 20 novembre, l'indicateur perd deux points, à 95, soit cinq sous sa moyenne. L'industrie recule d'un point, à 104, et le bâtiment aussi, à 94 ; les services perdent trois points, à 97 ; le commerce de gros tombe à 92 et le commerce de détail à 90 selon le tableau de bord de l'Insee (89 hors automobile). Dans le détail, le solde sur la trésorerie chute à -26. La production des services marchands, publiée le même jour, rebondit de 0,6 % en septembre après -0,2 % en août. Espagne : aucun indicateur comparable publié cette semaine dans nos sources.",
+        "lectura": "Ces enquêtes mesurent un sentiment, non des commandes, et la collecte du commerce de détail a débuté dix jours après les violences du 17 octobre. Seule l'industrie reste au-dessus de sa moyenne. Un dirigeant qui planifie ses investissements devrait croiser ces soldes d'opinion avec ses propres carnets de commandes avant de réviser ses hypothèses 2027.",
+        "fuentes": [
+          {
+            "nombre": "Insee – climat des affaires, novembre 2026",
+            "url": "https://www.insee.fr/fr/statistiques/9151162"
+          },
+          {
+            "nombre": "Insee – tableau de bord de la conjoncture",
+            "url": "https://www.insee.fr/fr/statistiques/2107840"
+          },
+          {
+            "nombre": "Économie Matin – climat des affaires",
+            "url": "https://www.economiematin.fr/insee-climat-affaires-novembre-2026-commerce-90-industrie-104"
+          },
+          {
+            "nombre": "Pôle Sociétés – commerce de détail",
+            "url": "https://polesocietes.com/actualites/economie/climat-affaires-insee-novembre-2026-commerce-detail-90"
+          },
+          {
+            "nombre": "Économie Matin – production des services",
+            "url": "https://www.economiematin.fr/insee-production-services-septembre-2026-rebond-06-pour-cent"
+          }
+        ]
+      },
+      {
+        "rubrica": "Entreprises et investissement",
+        "titulo": "Eramet : l'État souscrit 322 M€ et devient premier actionnaire du groupe minier",
+        "contexto": "Eramet, groupe français de nickel, de manganèse et de lithium, avait annoncé en février 2026 une augmentation de capital pour redresser sa structure financière après une chute de ses résultats et une hausse de sa dette. Le 12 octobre, il a conclu un accord avec l'Agence des participations de l'État (APE, qui gère les participations publiques) et la famille Duval, actionnaire historique, pour que l'État devienne premier actionnaire sans franchir 50 %.",
+        "resumen": "L'opération a été lancée le 13 novembre : environ 500 M€ avec droit préférentiel de souscription (DPS, droit d'acheter des actions nouvelles en priorité), à raison de six actions nouvelles pour cinq anciennes, à 14,49 € l'action. L'APE s'est engagée à souscrire 322 M€, soit 64 %, et passerait de 27,1 % à environ 47,4 % du capital. Un arrêté du 18 novembre, publié au Journal officiel du 19, autorise cette souscription, et un syndicat bancaire garantit le solde. La souscription court du 18 au 27 novembre, résultats le 2 décembre. Espagne : aucune recapitalisation publique comparable repérée cette semaine.",
+        "lectura": "L'État justifie sa prise de participation par la sécurité d'accès aux métaux critiques. Pour les petits porteurs, la dilution est mécanique : selon Eramet, un actionnaire à 1 % qui ne souscrit pas tombe à 0,45 %. Un investisseur minoritaire devrait comparer le coût de la souscription à celui de la dilution, et suivre la gouvernance, l'État ne devant pas franchir 50 %.",
+        "fuentes": [
+          {
+            "nombre": "Eramet (GlobeNewswire) – communiqué du 13 novembre",
+            "url": "https://www.globenewswire.com/news-release/2026/11/13/3402390/0/fr/eramet-lance-une-augmentation-de-capital-avec-maintien-du-droit-pr%c3%a9f%c3%a9rentiel-de-souscription-d-un-montant-d-environ-500-m-pour-renforcer-sa-structure-financi%c3%a8re.html"
+          },
+          {
+            "nombre": "Refrance – détail de l'opération",
+            "url": "https://refrance.fr/eramet-letat-sengage-pour-322-millions-deuros-sur-500-la-souscription-court-jusquau-27-novembre/"
+          },
+          {
+            "nombre": "Mining Weekly (Reuters) – accord du 12 octobre",
+            "url": "https://www.miningweekly.com/article/france-to-become-eramets-top-shareholder-via-miners-capital-hike-2026-10-13"
+          },
+          {
+            "nombre": "Légifrance – JORF du 19 novembre 2026",
+            "url": "https://www.legifrance.gouv.fr/jorf/jo/2026/11/19/0270"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Fiscalité",
+        "titulo": "Le salaire minimum 2027 sort de l'impôt sur le revenu par décret-loi",
+        "contexto": "Le salaire minimum espagnol (SMI, salario mínimo interprofesional) est de 17 094 € par an en 2026. Ses bénéficiaires échappaient à l'impôt sur le revenu (IRPF) grâce à une déduction pour revenus du travail de 590,89 €, mais subissaient une retenue mensuelle qu'ils récupéraient ensuite dans leur déclaration. La hausse de 2027 imposait de relever cette déduction pour que l'exonération subsiste.",
+        "resumen": "Le Conseil des ministres du 17 novembre a fixé le SMI 2027 à 1 286 € par mois en 14 paiements, soit 18 004 € par an (+5,3 %). Le décret-loi 38/2026, publié au BOE le 18 novembre, porte la déduction à 1 033,58 € jusqu'à 18 004 € de revenus, puis la réduit progressivement jusqu'à zéro à 23 171,89 €. Dès le 1er janvier 2027, aucune retenue d'IRPF ne sera prélevée sur le SMI. Le gouvernement chiffre le gain à 1 200 M€ pour 2,7 millions de contribuables. France : le Smic progresse de 1,6 % au 1er décembre (annonce du 9 novembre).",
+        "lectura": "La mesure allège l'impôt du salarié, non le coût de l'employeur, qui supporte la hausse brute de 5,3 %. Pour une filiale française en Espagne, la question utile porte sur les grilles voisines du minimum : entre 18 004 et 23 172 €, la déduction diminue de 20 centimes par euro de salaire supplémentaire. Il faut aussi suivre la validation du décret-loi par la Diputación Permanente.",
+        "fuentes": [
+          {
+            "nombre": "BOE – Real Decreto-ley 38/2026",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24120"
+          },
+          {
+            "nombre": "La Moncloa – Conseil des ministres du 17 novembre",
+            "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/paginas/2026/171126-rueda-prensa-consejo-ministros.aspx"
+          },
+          {
+            "nombre": "Monfort y Bonell – SMI 2027 et IRPF",
+            "url": "https://monfortybonell.com/salario-minimo-de-2027-y-rebaja-del-irpf-en-nomina-que-cambia-desde-enero/"
+          },
+          {
+            "nombre": "Infobae – SMI 2027",
+            "url": "https://www.infobae.com/espana/2026/11/17/asi-queda-la-subida-del-salario-minimo-para-2027-a-quien-le-afecta-y-como-cambia-la-nomina-y-los-impuestos-a-pagar/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Immobilier",
+        "titulo": "Immobilier espagnol : 54 548 ventes en septembre, la plus forte baisse depuis mai 2024",
+        "contexto": "Les prix espagnols montent vite : l'INE mesure +12,2 % sur un an au deuxième trimestre 2026, et +12,9 % dans l'ancien. Les volumes, eux, reculent : sept mois sur neuf sont en baisse depuis janvier. Les acheteurs étrangers avaient acquis 62 327 logements au premier semestre, 13 % de moins qu'un an plus tôt selon le Conseil général du notariat.",
+        "resumen": "Selon l'INE, 54 548 logements ont été vendus en septembre, 13,4 % de moins qu'un an plus tôt ; sur neuf mois, 512 748 ventes, soit -3,6 %. L'ancien chute de 14 % (42 403 ventes), le neuf de 11,6 % (12 145). Aucune communauté autonome n'enregistre de hausse : le Pays basque perd 23,1 %, les Baléares 22,4 % et Madrid 21,2 %. Les logements libres reculent de 12,8 %, les logements protégés de 21,6 %. France : 951 000 ventes de logements anciens sur douze mois à fin août (+3,6 %) et des prix en baisse de 0,8 % sur un an au deuxième trimestre (Notaires de France et Insee).",
+        "lectura": "L'Espagne combine des prix en hausse à deux chiffres et des volumes en recul, ce qui ressemble à un marché où l'acheteur attend. La France montre l'inverse : prix légèrement baissiers, volumes encore en hausse mais en ralentissement. Un acquéreur français en Espagne devrait valoriser deux scénarios, stabilisation des prix ou correction, avant de fixer sa décision de financement.",
+        "fuentes": [
+          {
+            "nombre": "Idealista – compraventas de septiembre",
+            "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924540-las-compraventas-de-viviendas-registran-en-septiembre-su-mayor-caida-en-dos-anos-y"
+          },
+          {
+            "nombre": "Estrella Digital – INE, 17 novembre",
+            "url": "https://www.estrelladigital.es/economia/compraventa-viviendas-desploma-134-espana-septiembre/20261117144214453496.html"
+          },
+          {
+            "nombre": "Le Petit Journal Valence",
+            "url": "https://lepetitjournal.com/valence/logement/immobilier-espagne-chute-ventes-13-4-pourcent-valence-459111"
+          },
+          {
+            "nombre": "MySweetImmo – Notaires de France",
+            "url": "https://www.mysweetimmo.com/2026/10/23/immobilier-les-prix-baissent-mais-la-reprise-sessouffle/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Entreprises et investissement",
+        "titulo": "BYD met l'Espagne sur sa liste pour une deuxième usine européenne, face à la France",
+        "contexto": "Le constructeur chinois BYD veut produire en Europe pour éviter les droits de douane imposés par l'Union européenne en 2024 sur les voitures électriques fabriquées en Chine. Sa première usine européenne, à Szeged en Hongrie, doit démarrer fin 2026. L'Espagne est le deuxième producteur automobile européen derrière l'Allemagne, avec 1,77 million de voitures assemblées en 2025, devant la France.",
+        "resumen": "Le 11 novembre, la vice-présidente de BYD, Stella Li, a déclaré à Europa Press que l'Espagne figure parmi les pays présélectionnés pour la deuxième usine, sans date ni montant. En septembre, un conseiller du groupe avait cité l'Espagne et la France ; BYD préfère reprendre un site existant, mais Stella Li reconnaît que les sites adaptés sont rares. Le groupe a vendu près de 40 000 voitures en Espagne cette année et pèse 2,7 % des immatriculations de l'Union, du Royaume-Uni et de l'AELE sur neuf mois (ACEA). À Saragosse, Stellantis produit depuis le 16 octobre le Leapmotor B10. France : candidate au même projet, derrière l'Espagne en volume de production 2025.",
+        "lectura": "La concurrence entre territoires se joue sur la disponibilité d'un site, les aides publiques et le tissu de fournisseurs, pas sur une annonce. Aucune décision n'est prise. Un équipementier français déjà présent en Espagne devrait valoriser deux scénarios, avec et sans usine BYD, avant d'engager des capacités.",
+        "fuentes": [
+          {
+            "nombre": "elEconomista (Europa Press) – BYD présélectionne l'Espagne",
+            "url": "https://www.eleconomista.es/motor/noticias/14027074/11/26/byd-valora-espana-para-su-segunda-fabrica-de-vehiculos-en-europa-esta-entre-los-preseleccionados.html"
+          },
+          {
+            "nombre": "Auto Infos – l'Espagne face à la France",
+            "url": "https://www.auto-infos.fr/article/byd-l-espagne-face-a-la-france-pour-accueillir-sa-deuxieme-usine-europeenne.294419"
+          },
+          {
+            "nombre": "AJP – ACEA et immatriculations",
+            "url": "https://www.ajupress.com/view/20261115214313773"
+          },
+          {
+            "nombre": "L'Essentiel de l'Éco – Stellantis à Saragosse",
+            "url": "https://lessentieldeleco.fr/9270-stellantis-future-usine-europeenne-des-marques-chinoises/"
+          },
+          {
+            "nombre": "AFP via Autoactu – production espagnole 2025",
+            "url": "https://www.autoactu.com/actualites/espagne-renault-annonce-600-millions-d-euros-d-investissement-d-ici-a-2030"
+          }
+        ]
+      },
+      {
+        "rubrica": "Politique et société",
+        "titulo": "Fonction publique espagnole : jusqu'à 4,5 % de hausse en 2027, par décret-loi",
+        "contexto": "L'Espagne fonctionne avec des budgets prorogés et les Cortes sont dissoutes depuis le 5 octobre. Les hausses précédentes avaient été fixées par le décret-loi 14/2025 : 2,5 % en 2025, 1,5 % en 2026, plus 0,5 % si l'inflation 2026 atteint 1,5 %. Sans loi de finances, il fallait un texte ayant force de loi pour appliquer la hausse de 2027 dès la paie de janvier.",
+        "resumen": "Le décret-loi 37/2026, adopté le 17 novembre et publié au BOE le 18, autorise une hausse globale de 4,5 % au plus des rémunérations de tout le secteur public, État, communautés autonomes et collectivités locales, par rapport à celles en vigueur au 31 décembre 2026, avec effet au 1er janvier 2027. Un crédit extraordinaire de 4 965 M€ finance l'application dans l'Administration générale de l'État. Le texte doit être validé sous trente jours par la Diputación Permanente. France : la grève du 17 novembre a réuni 2,79 % des agents de l'État ; le gouvernement chiffre à un peu plus de 1 Md€ la revalorisation des bas salaires, le point d'indice restant gelé.",
+        "lectura": "Le texte fixe un plafond, non une obligation : chaque administration applique avec son calendrier. Pour une entreprise dont les clients sont des administrations espagnoles, une hausse de cette ampleur pèse sur le coût des services facturés et sur les révisions de prix des contrats. L'écart avec la France, où le point d'indice reste gelé, est net.",
+        "fuentes": [
+          {
+            "nombre": "BOE – Real Decreto-ley 37/2026",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24119"
+          },
+          {
+            "nombre": "Cuestiones Laborales – subida del 4,5 %",
+            "url": "https://www.cuestioneslaborales.es/subida-salarial-sector-publico-2027-4-5-por-ciento/"
+          },
+          {
+            "nombre": "Monfort y Bonell – crédito de 4 965 M€",
+            "url": "https://monfortybonell.com/retribuciones-del-sector-publico-en-2027-como-aplicar-la-subida-del-45/"
+          },
+          {
+            "nombre": "La Gazette des communes – grève du 17 novembre",
+            "url": "https://www.lagazettedescommunes.com/club-rh/dialogue-social/mouvement-social-fonction-publique/greve-du-17-novembre-196-dagents-territoriaux-mobilises-a-la-mi-journee.GPTHM3FUHVFTLLOFD3ADBAFQQQ.html"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "27 novembre 2026",
+        "que": "France : clôture de la période de souscription de l'augmentation de capital d'Eramet (résultats le 2 décembre)"
+      },
+      {
+        "cuando": "29 novembre 2026",
+        "que": "Espagne : élections générales"
+      },
+      {
+        "cuando": "1er décembre 2026",
+        "que": "France : hausse du Smic de 1,6 % ; Espagne : entrée en vigueur prévue de l'IVA à 10 % sur les locations touristiques, si le décret-loi est convalidé"
+      },
+      {
+        "cuando": "9 décembre 2026",
+        "que": "France : vote solennel du Sénat sur le projet de loi de finances pour 2027"
+      },
+      {
+        "cuando": "Mi-décembre 2026",
+        "que": "Espagne : échéance de trente jours pour que la Diputación Permanente valide ou abroge les décrets-lois 37, 38 et 39/2026"
+      }
+    ],
+    "glosario": [
+      {
+        "sigla": "APE",
+        "definicion": "Agence des participations de l'État : organisme qui gère les participations de l'État français dans des entreprises, ici Eramet."
+      },
+      {
+        "sigla": "Diputación Permanente",
+        "definicion": "Commission du Congrès espagnol qui exerce les fonctions de l'assemblée entre la dissolution et la formation des nouvelles Cortes, et qui doit valider ou abroger les décrets-lois."
+      },
+      {
+        "sigla": "DPS",
+        "definicion": "Droit préférentiel de souscription : droit pour un actionnaire existant de souscrire en priorité aux actions nouvelles lors d'une augmentation de capital."
+      },
+      {
+        "sigla": "Index égalité",
+        "definicion": "Index de l'égalité professionnelle : note annuelle sur 100 que les entreprises françaises de 50 salariés et plus publient sur les écarts de rémunération entre femmes et hommes."
+      },
+      {
+        "sigla": "IRPF",
+        "definicion": "Impuesto sobre la Renta de las Personas Físicas : impôt espagnol sur le revenu des particuliers, équivalent de l'impôt sur le revenu français."
+      },
+      {
+        "sigla": "PLF",
+        "definicion": "Projet de loi de finances : texte annuel qui fixe les recettes et les dépenses de l'État français, voté par l'Assemblée nationale et le Sénat."
+      },
+      {
+        "sigla": "SMI",
+        "definicion": "Salario mínimo interprofesional : salaire minimum légal espagnol, versé en 14 paiements par an, équivalent du Smic."
+      },
+      {
+        "sigla": "TEITLD",
+        "definicion": "Taxe sur l'exploitation des infrastructures de transport de longue distance : taxe française créée en 2024 qui frappe les concessionnaires d'autoroutes et les grands aéroports les plus rentables."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "Depuis le 19 novembre, un décret-loi oblige les employeurs espagnols à afficher la rémunération initiale dans leurs offres d'emploi ; en France, le texte équivalent attend toujours son examen au Sénat.\nLire l'édition complète, avec les graphiques et le dossier intégral : https://bulletin.rilamax.com\nÉditorial. Entre la dissolution des Cortes (le Parlement espagnol) et les élections du 29 novembre, Madrid légifère par décret-loi, une norme que le Congrès doit valider sous trente jours. Paris reste en première lecture sur le budget 2027, avec un vote solennel au Sénat le 9 décembre. Le coût des violences du 17 octobre est chiffré : 207 M€ de dommages assurés selon France Assureurs.\nÀ retenir. L'Espagne a transposé la transparence salariale, sous réserve de validation. Le budget français 2027 n'est pas voté. Une aide de 1 000 à 10 000 € est ouverte aux petites entreprises touchées par les violences.\nDossier. La directive européenne sur la transparence des rémunérations devait être transposée le 7 juin 2026. L'Espagne l'a fait le 17 novembre : rémunération affichée dans les offres, interdiction de demander le salaire antérieur, droit pour chaque salarié d'obtenir ses informations sous deux mois, amendes jusqu'à 225 018 € pour les manquements très graves, premier rapport d'écart avant le 8 juin 2027 pour les entreprises de 150 salariés et plus. La France a déposé son projet de loi au Sénat le 10 septembre ; il prévoit un seuil de 50 salariés, sept indicateurs et des pénalités pouvant atteindre 1 % de la masse salariale, mais sans date d'examen. L'écart horaire brut femmes-hommes était en 2024 de 7,3 % en Espagne et de 11,8 % en France selon Eurostat, sans que ces chiffres prouvent l'effet des règles. Notre lecture : deux méthodes, aucun résultat mesuré, et un groupe présent des deux côtés des Pyrénées qui doit préparer deux calendriers.\nLire l'édition complète, avec les graphiques et le dossier intégral : https://bulletin.rilamax.com\nVotre entreprise a-t-elle déjà classé ses postes pour répondre aux exigences de transparence salariale, en France comme en Espagne ?",
+      "post": "L'Espagne exige depuis le 19 novembre que les offres d'emploi affichent la rémunération initiale ; la France n'a toujours pas voté son texte.\nÉdition complète et dossier : https://bulletin.rilamax.com\nLe décret-loi espagnol fixe un seuil de 150 salariés pour le premier rapport d'écart, avant le 8 juin 2027, et des amendes jusqu'à 225 018 €. Le projet de loi français, déposé au Sénat le 10 septembre, retient un seuil de 50 salariés mais n'a pas de date d'examen. L'écart horaire brut femmes-hommes est de 7,3 % en Espagne et de 11,8 % en France (Eurostat, 2024), sans preuve à ce stade que les règles l'expliquent.\nVotre groupe est-il prêt à tenir deux calendriers de transparence salariale ?\n#TransparenceSalariale #Espagne #France"
+    },
+    "minutos": 20
+  },
+  "es": {
+    "editorial": {
+      "titulo": "Una semana en que España decreta y Francia espera",
+      "parrafos": [
+        "Entre la disolución de las Cortes, el 5 de octubre, y las elecciones del 29 de noviembre, el Gobierno español sigue legislando por real decreto-ley, una norma con rango de ley que el Congreso debe convalidar después. El Consejo de Ministros del 17 de noviembre aprobó tres. El de más peso para las empresas transpone la directiva europea sobre transparencia salarial, y le dedicamos el dossier. Los otros dos fijan la subida de las retribuciones públicas de 2027 y neutralizan el IRPF sobre el salario mínimo.",
+        "En Francia, el presupuesto de 2027 sigue buscando mayoría. La Asamblea Nacional rechazó la parte de ingresos el 4 de noviembre. El Senado descartó el 20 de noviembre, por 249 votos contra 19, una moción que habría interrumpido el examen, y se anuncia una votación solemne para el 9 de diciembre. Nada de lo que vote el Senado entra en vigor antes del acuerdo final entre las dos cámaras. Las empresas afectadas por las subidas de tasas, como las concesionarias de autopistas, trabajan por tanto sobre hipótesis.",
+        "Esta semana se han cuantificado dos costes. France Assureurs (la federación francesa de aseguradoras) estima en 207 M€ los daños asegurados de los disturbios del 17 y 18 de octubre, y un decreto del 20 de noviembre abre a las pequeñas empresas una ayuda de 1.000 a 10.000 €. La huelga del 17 de noviembre movilizó a menos del 3 % de los agentes en cada una de las tres funciones públicas francesas (la del Estado, la territorial y la hospitalaria). El clima de negocios del Insee (el instituto nacional de estadística francés) retrocede a 95, dos puntos por debajo de octubre.",
+        "De estos textos retenemos una diferencia de método. El real decreto-ley da a las empresas españolas una regla aplicable de inmediato, al precio de una convalidación que aún puede revocarla en treinta días. La vía parlamentaria francesa ofrece más debate y menos visibilidad: el plazo europeo del 7 de junio sobre transparencia salarial lleva superado más de cinco meses. Un directivo con plantilla a ambos lados de los Pirineos tiene que llevar dos calendarios, algo que detalla el dossier."
+      ],
+      "puntos_clave": [
+        "España ha transpuesto la transparencia salarial por real decreto-ley, en vigor desde el 19 de noviembre y pendiente de convalidación.",
+        "El presupuesto francés de 2027, que propone subir la tasa sobre las autopistas (incluida Sanef, concesionaria francesa filial del grupo español Abertis), sigue en primera lectura en el Senado, con votación solemne el 9 de diciembre.",
+        "Los disturbios del 17 de octubre han costado 207 M€ a las aseguradoras francesas, y hay abierta una ayuda de 1.000 a 10.000 €."
+      ]
+    },
+    "cifras": [
+      {
+        "valor": "207 M€",
+        "texto": "Daños asegurados por los disturbios urbanos de los días 17 y 18 de octubre en Francia, en 5.280 siniestros; 198 M€ corresponden a bienes profesionales, según France Assureurs.",
+        "fuente": "France Assureurs",
+        "pais": "fr",
+        "comparacion": "España: no hay daños asegurados comparables publicados; la dana Adam (episodio de lluvias extremas de octubre) motivó 182,2 M€ de medidas públicas por real decreto-ley el 10 de noviembre, cifra que mide ayudas y no daños asegurados."
+      },
+      {
+        "valor": "27.011",
+        "texto": "Sociedades creadas en Francia en octubre de 2026, sobre 113.082 creaciones en total (incluidos los micro-entrepreneurs, autónomos en régimen simplificado); el total retrocede un 4,5 % en un mes y avanza un 13,7 % interanual.",
+        "fuente": "Insee",
+        "pais": "fr",
+        "comparacion": "España: 9.174 sociedades mercantiles creadas en septiembre, -0,9 % interanual (INE); el perímetro se limita a las sociedades."
+      },
+      {
+        "valor": "95",
+        "texto": "Indicador sintético del clima de negocios en Francia en noviembre, dos puntos por debajo de octubre y cinco por debajo de su media de largo plazo (100); la industria, con 104, se mantiene por encima.",
+        "fuente": "Insee",
+        "pais": "fr",
+        "comparacion": "España: ningún indicador comparable publicado esta semana en nuestras fuentes."
+      },
+      {
+        "valor": "54.548",
+        "texto": "Compraventas de viviendas inscritas en España en septiembre de 2026, un 13,4 % menos que un año antes, la mayor caída desde mayo de 2024.",
+        "fuente": "INE",
+        "pais": "es",
+        "comparacion": "Francia: 951.000 ventas de viviendas usadas en doce meses hasta finales de agosto, +3,6 % interanual (Notaires de France, el notariado francés, 22 de octubre); periodo y perímetro distintos."
+      },
+      {
+        "valor": "1.200 M€",
+        "texto": "Ahorro fiscal previsto en 2027 gracias a la reducción que exime del IRPF al salario mínimo, para 2,7 millones de contribuyentes, según el Gobierno.",
+        "fuente": "La Moncloa (Consejo de Ministros)",
+        "pais": "es",
+        "comparacion": "Francia: el Smic (salario mínimo legal francés) sube un 1,6 % el 1 de diciembre, anunciado el 9 de noviembre; ninguna medida fiscal equivalente anunciada esta semana en nuestras fuentes."
+      },
+      {
+        "valor": "4.965 M€",
+        "texto": "Crédito extraordinario abierto por el real decreto-ley 37/2026 para aplicar en 2027 una subida de las retribuciones públicas de hasta el 4,5 % (Administración General del Estado).",
+        "fuente": "BOE",
+        "pais": "es",
+        "comparacion": "Francia: la revalorización de los salarios bajos de la función pública se cifra en algo más de 1.000 M€ para 1,35 millones de agentes (ministro David Amiel, 15 de noviembre); el punto de índice, la base de cálculo de los sueldos de los funcionarios, sigue congelado según los sindicatos."
+      }
+    ],
+    "dossier": {
+      "titulo": "Transparencia salarial: España decreta, Francia espera al Senado",
+      "intro": "La directiva europea sobre transparencia retributiva debía transponerse el 7 de junio de 2026. España lo hizo por real decreto-ley el 17 de noviembre; Francia depositó su proyecto de ley en el Senado en septiembre, sin fecha de examen conocida. Para las empresas con plantilla en los dos países, los calendarios divergen, y los umbrales también.",
+      "cifras": [
+        {
+          "valor": "11,8 %",
+          "texto": "Brecha horaria bruta entre mujeres y hombres en Francia en 2024 (Eurostat), frente al 11,1 % en la Unión Europea."
+        },
+        {
+          "valor": "7,3 %",
+          "texto": "La misma medida para España en 2024; Italia presenta un 5,3 % y Alemania un 15,6 %."
+        },
+        {
+          "valor": "7.500 €",
+          "texto": "Techo de la multa española por ciertas omisiones de información sobre el contrato, frente a 750 € anteriormente."
+        },
+        {
+          "valor": "8 de junio de 2027",
+          "texto": "Fecha límite del primer informe sobre la brecha retributiva para las empresas españolas de al menos 150 trabajadores."
+        }
+      ],
+      "secciones": [
+        {
+          "titulo": "1. Un plazo europeo, dos puntos de partida",
+          "parrafos": [
+            "La directiva (UE) 2023/970 de 10 de mayo de 2023 obliga a los empleadores a indicar una remuneración o un rango antes de la contratación, prohíbe preguntar por el salario anterior, abre a los trabajadores un derecho de información sobre los niveles salariales por sexo e impone informes de brechas según el tamaño de la empresa. Cuando la brecha inexplicada supera el 5 %, pasa a ser obligatoria una evaluación conjunta. Los Estados miembros tenían hasta el 7 de junio de 2026 para incorporarla a su derecho.",
+            "Ninguno de los dos países partía de cero. España disponía de un real decreto de 2020 sobre igualdad retributiva, que impone planes de igualdad a las empresas de al menos 50 trabajadores. Francia tiene el Index égalité professionnelle (índice de igualdad profesional), una nota anual que publican las empresas desde 50 empleados. Estas herramientas miden brechas medias, mientras que la directiva pide comparar puestos de igual valor, lo que obliga a clasificar los empleos."
+          ]
+        },
+        {
+          "titulo": "2. España: un real decreto-ley en vigor desde el 19 de noviembre",
+          "parrafos": [
+            "El Real Decreto-ley 39/2026, aprobado el 17 de noviembre y publicado el 18 en el BOE, entró en vigor al día siguiente, sin periodo general de adaptación. Obliga a indicar la retribución inicial en las ofertas de empleo, prohíbe preguntar por el salario anterior, da a cada trabajador el derecho a obtener por escrito, en dos meses, información sobre su sueldo y sobre las medias por sexo de los puestos comparables, y crea una comisión de seguimiento de la transparencia salarial.",
+            "Las sanciones suben un escalón: las infracciones graves cuestan de 751 a 7.500 €, las muy graves, entre ellas las represalias contra un trabajador que reclama, de 7.501 a 225.018 €. El plazo de prescripción de una acción por discriminación salarial pasa a tres años. Las empresas de al menos 150 trabajadores deben comunicar su brecha antes del 8 de junio de 2027. Como todo real decreto-ley, el texto debe convalidarse en treinta días; con las Cortes disueltas, decidirá la Diputación Permanente."
+          ]
+        },
+        {
+          "titulo": "3. Francia: un proyecto de ley en el Senado, sin calendario",
+          "parrafos": [
+            "El proyecto de ley n.º 944 se presentó en el Consejo de Ministros el 10 de septiembre y se depositó en el Senado francés por procedimiento acelerado (una sola lectura por cámara antes de la comisión mixta paritaria), tres meses después del plazo europeo. Según los análisis del texto, sustituye el Index égalité por siete indicadores de brechas que deberán declarar los empleadores de al menos 50 trabajadores, con un umbral del 5 % que obliga a justificarse. Las sanciones podrían alcanzar el 1 % de las remuneraciones pagadas, el 2 % en caso de reincidencia, o 450 € por incumplimiento individual.",
+            "El examen en la comisión de asuntos sociales del Senado no tenía fecha a 3 de noviembre. El ministro de Trabajo, Jean-Pierre Farandou, esperaba una votación antes de fin de 2026 y una entrada en vigor el 1 de enero de 2028, fecha no confirmada. Algunos analistas estiman que las elecciones presidenciales de 2027 amenazan la aprobación definitiva antes del final de la legislatura. Mientras tanto, nada está votado ni es aplicable: los empleadores franceses no tienen ninguna obligación nueva."
+          ]
+        },
+        {
+          "titulo": "4. Lo que dicen las brechas y lo que no dicen",
+          "parrafos": [
+            "Según Eurostat (la oficina estadística de la Unión Europea), la brecha horaria bruta media entre mujeres y hombres alcanzaba en 2024 el 11,1 % en la Unión, el 11,8 % en Francia y el 7,3 % en España, frente al 15,6 % en Alemania. España presenta, pues, una brecha más de cuatro puntos inferior a la francesa. Este indicador compara medias sin corregir la estructura del empleo, mientras que la directiva persigue la igualdad en trabajos de igual valor.",
+            "Las cifras varían con el método. CCOO calcula sobre las ganancias anuales una brecha del 20 % en 2024 y atribuye el 55 % de esa brecha al tiempo de trabajo, mientras que Eurostat, sobre el salario por hora, retiene el 7,3 %. En cuanto a la preparación, la encuesta de la consultora Mercer de febrero de 2026 situaba a Francia en el 36 %, a España entre el 55 % y el 63 % según las publicaciones, y solo el 9 % de los empleadores europeos disponía de una estrategia completa."
+          ]
+        },
+        {
+          "titulo": "5. Lo que deben vigilar los grupos con presencia en los dos países",
+          "parrafos": [
+            "La Diputación Permanente puede convalidar o derogar el real decreto-ley en treinta días, es decir, antes de mediados de diciembre. El umbral pesa tanto como el plazo: 150 trabajadores para el primer informe español, 50 en el proyecto francés. Un grupo con 80 trabajadores en Francia y 120 en España sería declarante solo a un lado de los Pirineos.",
+            "Las ofertas de empleo españolas ya deben indicar la retribución inicial, lo que afecta a las contrataciones en curso. La clasificación de los puestos, indispensable en ambos regímenes, requiere varios meses de trabajo; empezar por las sociedades españolas del grupo da un modelo reutilizable si se aprueba el texto francés."
+          ]
+        }
+      ],
+      "graficos": [
+        {
+          "despues_de_seccion": 3,
+          "aria": "Umbral de plantilla para el primer informe de brechas, España y Francia",
+          "pie": "Texto español en vigor; proyecto de ley francés no votado, 2026. Fuentes: Kohen Avocats, Stéphane Larue.",
+          "barras": [
+            {
+              "etiqueta": "España (real decreto-ley 39/2026)",
+              "valor": 150,
+              "texto": "150 trabajadores",
+              "pct": 100
+            },
+            {
+              "etiqueta": "Francia (proyecto n.º 944)",
+              "valor": 50,
+              "texto": "50 trabajadores",
+              "pct": 33
+            }
+          ]
+        },
+        {
+          "despues_de_seccion": 4,
+          "aria": "Brecha horaria bruta entre mujeres y hombres en 2024: Alemania, Francia, Unión Europea, España",
+          "pie": "Brecha no ajustada, 2024, en %. Fuente: Eurostat, según Euronews (6 de julio de 2026) y Newtral (16 de junio de 2026).",
+          "barras": [
+            {
+              "etiqueta": "Alemania",
+              "valor": 15.6,
+              "texto": "15,6 %",
+              "pct": 100
+            },
+            {
+              "etiqueta": "Francia",
+              "valor": 11.8,
+              "texto": "11,8 %",
+              "pct": 76
+            },
+            {
+              "etiqueta": "Unión Europea",
+              "valor": 11.1,
+              "texto": "11,1 %",
+              "pct": 71
+            },
+            {
+              "etiqueta": "España",
+              "valor": 7.3,
+              "texto": "7,3 %",
+              "pct": 47
+            }
+          ]
+        }
+      ],
+      "debate": {
+        "despues_de_seccion": 4,
+        "texto": "Los partidarios de la transparencia sostienen que da a los trabajadores la prueba que les falta para impugnar una brecha, y que el umbral del 5 % obliga a los empleadores a justificar sus escalas. Las reservas se refieren al coste de cumplimiento para las empresas medianas, a la inseguridad jurídica de un texto aprobado por real decreto-ley antes de su convalidación, y a la pertinencia de la brecha bruta: según CCOO, el tiempo de trabajo pesa mucho en las cifras españolas. En Francia, FO Cadres (federación de cuadros del sindicato Force Ouvrière) señalaba en 2025 que los interlocutores sociales frenaban la transposición. Las fuentes de la semana no presentan ninguna evaluación del efecto de estas normas sobre las brechas."
+      },
+      "lectura": "Vemos dos métodos y ningún resultado medido. España actúa deprisa, con un texto aplicable ya pero revocable; Francia se toma su tiempo, al precio de meses de incertidumbre, para un régimen que sobre el papel será más exigente: umbral de 50 trabajadores y sanciones indexadas a la masa salarial. La menor brecha española en 2024 (7,3 % frente a 11,8 %) no prueba el efecto de las normas, demasiado recientes para ello. Una empresa española con filiales en Francia no tiene hoy allí ninguna obligación nueva, pero el umbral de 50 podría alcanzar a filiales pequeñas que el umbral español de 150 deja fuera. Conviene aprovechar el trabajo ya exigido en España, con ofertas que indican la retribución inicial y sin preguntar por el salario anterior, para preparar la misma jerarquización de puestos en Francia. Y conviene presupuestar dos escenarios sobre el texto español, convalidado o derogado, y revisar las cláusulas de confidencialidad salarial antes de que se apruebe el proyecto francés.",
+      "vigilaremos": "La decisión de la Diputación Permanente sobre el real decreto-ley 39/2026, prevista antes de mediados de diciembre, y la inclusión del proyecto de ley n.º 944 en el orden del día de la comisión de asuntos sociales del Senado francés.",
+      "fuentes": [
+        {
+          "nombre": "BOE – Real Decreto-ley 39/2026",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24121"
+        },
+        {
+          "nombre": "Cuestiones Laborales – RDL 39/2026 y sanciones",
+          "url": "https://www.cuestioneslaborales.es/real-decreto-ley-39-2026-cambios-estatuto-infracciones/"
+        },
+        {
+          "nombre": "Capital – multas y fin del secreto salarial",
+          "url": "https://capital.es/actualidad/el-gobierno-eleva-las-multas-por-omitir-datos-del-contrato-y-acaba-con-el-secreto-salarial/236014/"
+        },
+        {
+          "nombre": "Kohen Avocats – calendario español",
+          "url": "https://kohenavocats.com/es/real-decreto-ley-39-2026-transparencia-salarial-que-pedir-empresa/"
+        },
+        {
+          "nombre": "Newtral – real decreto-ley de Trabajo",
+          "url": "https://www.newtral.es/salario-decreto-ley-trabajo-consejo-ministros-gobierno-directivas-europeas/20261118/"
+        },
+        {
+          "nombre": "info.gouv.fr – transparencia salarial",
+          "url": "https://www.info.gouv.fr/actualite/transparence-des-salaires-regles-et-evolutions-prevues"
+        },
+        {
+          "nombre": "Stéphane Larue – proyecto de ley n.º 944",
+          "url": "https://stephanelarue.com/transparence-salariale-salaire-affiche-des-l-offre-le-projet-de-loi-attend-au-senat/"
+        },
+        {
+          "nombre": "Mozaik – sanciones del proyecto francés",
+          "url": "https://www.mozaik.co/transparence-salariale-cse/"
+        },
+        {
+          "nombre": "Juritravail – calendario francés",
+          "url": "https://www.juritravail.com/Actualite/transparence-des-remunerations-7-points-pour-comprendre-les-nouvelles-exigences-europeennes/Id/376662"
+        },
+        {
+          "nombre": "Euronews – brechas Eurostat 2024",
+          "url": "https://fr.euronews.com/2026/07/06/ecart-de-remuneration-et-de-pension-en-europe-pourquoi-les-inegalites-saggravent-a-la-retr"
+        },
+        {
+          "nombre": "Newtral – Eurostat España 7,3 %",
+          "url": "https://www.newtral.es/brecha-salarial-espana-sanchez-factcheck/20260616/"
+        },
+        {
+          "nombre": "Euronews – encuesta Mercer",
+          "url": "https://www.euronews.com/2026/03/03/pay-transparency-countdown-is-europe-ready-for-the-2026-equal-pay-test"
+        },
+        {
+          "nombre": "Ravio – seguimiento de la transposición",
+          "url": "https://ravio.com/blog/everything-you-need-to-know-about-the-eu-pay-transparency-directive"
+        }
+      ]
+    },
+    "francia": [
+      {
+        "rubrica": "Fiscalidad",
+        "titulo": "Presupuestos franceses de 2027 en el Senado: la tasa sobre las autopistas, incluida Sanef, llega al pleno",
+        "contexto": "El proyecto de ley de presupuestos (PLF, projet de loi de finances) para 2027 fue rechazado por la Asamblea Nacional el 4 de noviembre; el Senado trabaja, por tanto, sobre el texto inicial del Gobierno. Su artículo 22 eleva la tasa sobre la explotación de infraestructuras de transporte de larga distancia (TEITLD), creada en 2024, del 4,6 % a un máximo del 12,2 % para los explotadores más rentables, con 800 M€ de recaudación anual adicional, por encima de los 600 M€ aproximados de hoy.",
+        "resumen": "La comisión de finanzas del Senado examinó la primera parte el 12 de noviembre y votó los artículos 3 y 49 el 18. Corrigió un cálculo que habría llevado la tasa de Aéroports de Paris (gestor de los aeropuertos de la región parisina) a 125 M€ en lugar de los 40 M€ anunciados; el resto del esfuerzo, 760 M€, recae sobre las autopistas. El pleno se abrió el 20 de noviembre y el Senado rechazó por 249 votos contra 19 una moción para detener el examen. La votación solemne está fijada para el 9 de diciembre, antes de una comisión mixta paritaria (CMP, reunión de diputados y senadores para pactar un texto común) a mediados de diciembre. Sanef pertenece al grupo español Abertis: S&P estimaba en 2024 en 80-85 M€ la tasa debida por Sanef y su filial SAPN. España: no hemos encontrado en nuestras fuentes ninguna tasa sectorial equivalente.",
+        "lectura": "Para un grupo español dueño de una concesión francesa, como Abertis con Sanef, el tipo puede casi triplicarse en un solo presupuesto, con un desenlace incierto hasta la comisión mixta. Los contratos de concesión prevén cláusulas sobre nuevos impuestos que las sociedades podrían invocar; Bercy (el Ministerio de Economía y Finanzas francés) promete por su parte peajes sin cambios. Un inversor debería valorar dos escenarios, con y sin compensación.",
+        "fuentes": [
+          {
+            "nombre": "Legifiscal – comisión de finanzas del Senado",
+            "url": "https://www.legifiscal.fr/actualites-fiscales/4735-plf-2027-principaux-articles-adoptes-commission-finances-senat.html"
+          },
+          {
+            "nombre": "Legifiscal – tasa sobre autopistas y aeropuertos",
+            "url": "https://www.legifiscal.fr/actualites-fiscales/4681-plf-2027-taxe-autoroutes-aeroports-pourrait-presque-tripler-rentables.html"
+          },
+          {
+            "nombre": "Politique Matin – Senado, 20 de noviembre",
+            "url": "https://www.politiquematin.fr/budget-2027-senat-rejette-question-prealable-249-voix-20-novembre"
+          },
+          {
+            "nombre": "Franceinfo (vía Shango) – Sanef y Abertis",
+            "url": "https://www.shango.media/france-info-pourquoi-les-societes-dautoroutes-dont-le-gouvernement-veut-taxer-davantage-les-benefices-sont-elles-aussi-rentables-11952008"
+          },
+          {
+            "nombre": "S&P Global Ratings",
+            "url": "https://spglobal.com/ratings/en/research/articles/240122-new-french-transport-infrastructure-tax-could-delay-operators-long-term-deleveraging-12968211"
+          }
+        ]
+      },
+      {
+        "rubrica": "Política y sociedad",
+        "titulo": "Disturbios del 17 de octubre: 207 M€ de daños asegurados y una ayuda de 1.000 a 10.000 € para las pequeñas empresas",
+        "contexto": "Las manifestaciones contra la carestía de la vida del 17 de octubre vinieron acompañadas de saqueos y destrozos en centros urbanos. El Ministerio del Interior contabilizaba 1.522 comercios afectados ese día, CCI France (la red de cámaras de comercio e industria) 2.488, y una primera estimación de la agencia Morningstar DBRS había apuntado 1.200 M€. El Gobierno había anunciado a finales de octubre una ayuda a los comerciantes, cuyo decreto acaba de publicarse.",
+        "resumen": "France Assureurs publicó el 19 de noviembre un primer balance: 207 M€ de daños asegurados en 5.280 siniestros, de los que 198 M€ corresponden a bienes profesionales. Los disturbios de 2005 costaron 209 M€ en cuatro semanas. El decreto del 19 de noviembre, publicado el 20 en el Journal officiel (el boletín oficial francés), abre una subvención de 1.000 a 10.000 € para las empresas de menos de 50 empleados, con una facturación de referencia inferior a 833.333 € y una pérdida de actividad de al menos el 25 %; la solicitud se presenta en seis semanas. España: la dana Adam motivó 182,2 M€ de medidas públicas el 10 de noviembre; esa cifra mide ayudas y no daños asegurados.",
+        "lectura": "Los daños asegurados no incluyen las pérdidas de explotación no cubiertas ni las ventas perdidas, y el Insee sitúa el comercio minorista en 90 en noviembre. Una empresa con locales en centros urbanos franceses debería revisar sus garantías de disturbios y de pérdida de explotación antes de renovar los contratos. Un inversor en comercio de proximidad debería incorporar este riesgo a sus escenarios.",
+        "fuentes": [
+          {
+            "nombre": "Franceinfo – balance de France Assureurs",
+            "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/france-assureurs-estime-a-plus-de-200-millions-d-euros-le-cout-des-degats-engendres-par-les-violences-urbaines-et-les-pillages-des-17-et-18-octobre_8290007.html"
+          },
+          {
+            "nombre": "Franceinfo – condiciones de la ayuda",
+            "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/le-gouvernement-precise-les-conditions-d-acces-aux-aides-pour-les-commercants-touches-par-les-evenements-du-17-octobre_8291621.html"
+          },
+          {
+            "nombre": "Légifrance – decreto n.º 2026-1064",
+            "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055111490"
+          },
+          {
+            "nombre": "Service-public.fr Entreprendre",
+            "url": "https://entreprendre.service-public.gouv.fr/actualites/A19152"
+          },
+          {
+            "nombre": "CNews – comparación con 2005",
+            "url": "https://www.cnews.fr/france/2026-11-19/un-montant-particulierement-eleve-les-violences-du-17-octobre-auraient-coute-207"
+          },
+          {
+            "nombre": "Politique Matin – huelga del 17 de noviembre",
+            "url": "https://www.politiquematin.fr/greve-17-novembre-2026-bilan-fonction-publique"
+          }
+        ]
+      },
+      {
+        "rubrica": "Economía",
+        "titulo": "Clima de negocios: el Insee lo rebaja a 95 en noviembre, con todos los sectores a la baja",
+        "contexto": "El indicador sintético del clima de negocios del Insee agrega las opiniones de los empresarios de la industria, la construcción, los servicios y el comercio; su media de largo plazo se fija en 100. En octubre estaba en 97. Cuanto más se aleja de 100 hacia abajo, más juzgan los directivos que su actividad pasada y prevista es menos favorable que la normal.",
+        "resumen": "Publicado el 20 de noviembre, el indicador pierde dos puntos, hasta 95, cinco por debajo de su media. La industria retrocede un punto, hasta 104, y la construcción también, hasta 94; los servicios pierden tres puntos, hasta 97; el comercio al por mayor cae a 92 y el comercio minorista a 90 según el cuadro de mando del Insee (89 sin automoción). En el detalle, el saldo sobre tesorería se hunde hasta -26. La producción de servicios mercantiles, publicada el mismo día, repunta un 0,6 % en septiembre tras un -0,2 % en agosto. España: ningún indicador comparable publicado esta semana en nuestras fuentes.",
+        "lectura": "Estas encuestas miden un estado de ánimo y no recogen pedidos, y la recogida de datos del comercio minorista comenzó diez días después de los disturbios del 17 de octubre. Solo la industria se mantiene por encima de su media. Un directivo que planifique inversiones en Francia debería cruzar estos saldos de opinión con su propia cartera de pedidos antes de revisar sus hipótesis para 2027.",
+        "fuentes": [
+          {
+            "nombre": "Insee – clima de negocios, noviembre de 2026",
+            "url": "https://www.insee.fr/fr/statistiques/9151162"
+          },
+          {
+            "nombre": "Insee – cuadro de mando de la coyuntura",
+            "url": "https://www.insee.fr/fr/statistiques/2107840"
+          },
+          {
+            "nombre": "Économie Matin – clima de negocios",
+            "url": "https://www.economiematin.fr/insee-climat-affaires-novembre-2026-commerce-90-industrie-104"
+          },
+          {
+            "nombre": "Pôle Sociétés – comercio minorista",
+            "url": "https://polesocietes.com/actualites/economie/climat-affaires-insee-novembre-2026-commerce-detail-90"
+          },
+          {
+            "nombre": "Économie Matin – producción de servicios",
+            "url": "https://www.economiematin.fr/insee-production-services-septembre-2026-rebond-06-pour-cent"
+          }
+        ]
+      },
+      {
+        "rubrica": "Empresas e inversión",
+        "titulo": "Eramet: el Estado suscribe 322 M€ y se convierte en primer accionista del grupo minero",
+        "contexto": "Eramet, grupo francés de níquel, manganeso y litio, había anunciado en febrero de 2026 una ampliación de capital para sanear su estructura financiera tras una caída de sus resultados y un aumento de su deuda. El 12 de octubre cerró un acuerdo con la Agence des participations de l'État (APE, organismo que gestiona las participaciones del Estado francés en empresas) y con la familia Duval, accionista histórica, para que el Estado pase a ser primer accionista sin superar el 50 %.",
+        "resumen": "La operación se lanzó el 13 de noviembre: unos 500 M€ con derecho de suscripción preferente (DPS, derecho a comprar con prioridad las acciones nuevas), a razón de seis acciones nuevas por cinco antiguas, a 14,49 € por acción. La APE se ha comprometido a suscribir 322 M€, el 64 %, y pasaría del 27,1 % a alrededor del 47,4 % del capital. Una orden ministerial (arrêté) del 18 de noviembre, publicada en el Journal officiel del 19, autoriza la suscripción, y un sindicato bancario garantiza el resto. La suscripción va del 18 al 27 de noviembre, con resultados el 2 de diciembre. España: no hemos encontrado esta semana ninguna recapitalización pública comparable.",
+        "lectura": "El Estado justifica su entrada por la seguridad de acceso a los metales críticos. Para los pequeños accionistas, la dilución es mecánica: según Eramet, un accionista con el 1 % que no suscriba queda en el 0,45 %. Un inversor minoritario debería comparar el coste de suscribir con el de la dilución y seguir la gobernanza, puesto que el Estado no debe superar el 50 %.",
+        "fuentes": [
+          {
+            "nombre": "Eramet (GlobeNewswire) – comunicado del 13 de noviembre",
+            "url": "https://www.globenewswire.com/news-release/2026/11/13/3402390/0/fr/eramet-lance-une-augmentation-de-capital-avec-maintien-du-droit-pr%c3%a9f%c3%a9rentiel-de-souscription-d-un-montant-d-environ-500-m-pour-renforcer-sa-structure-financi%c3%a8re.html"
+          },
+          {
+            "nombre": "Refrance – detalle de la operación",
+            "url": "https://refrance.fr/eramet-letat-sengage-pour-322-millions-deuros-sur-500-la-souscription-court-jusquau-27-novembre/"
+          },
+          {
+            "nombre": "Mining Weekly (Reuters) – acuerdo del 12 de octubre",
+            "url": "https://www.miningweekly.com/article/france-to-become-eramets-top-shareholder-via-miners-capital-hike-2026-10-13"
+          },
+          {
+            "nombre": "Légifrance – JORF del 19 de noviembre de 2026",
+            "url": "https://www.legifrance.gouv.fr/jorf/jo/2026/11/19/0270"
+          }
+        ]
+      }
+    ],
+    "espana": [
+      {
+        "rubrica": "Fiscalidad",
+        "titulo": "El salario mínimo de 2027 queda fuera del IRPF por real decreto-ley",
+        "contexto": "El salario mínimo interprofesional (SMI) es de 17.094 € anuales en 2026. Sus perceptores quedaban exentos de IRPF gracias a una reducción por rendimientos del trabajo de 590,89 €, pero sufrían una retención mensual que luego recuperaban en la declaración. La subida de 2027 obligaba a elevar la reducción para que la exención se mantuviera.",
+        "resumen": "El Consejo de Ministros del 17 de noviembre fijó el SMI de 2027 en 1.286 € al mes en 14 pagas, es decir, 18.004 € al año (+5,3 %). El real decreto-ley 38/2026, publicado en el BOE el 18 de noviembre, eleva la reducción a 1.033,58 € hasta 18.004 € de ingresos y la rebaja progresivamente hasta cero en 23.171,89 €. Desde el 1 de enero de 2027 no se practicará retención de IRPF sobre el SMI. El Gobierno cifra el ahorro en 1.200 M€ para 2,7 millones de contribuyentes. Francia: el Smic sube un 1,6 % el 1 de diciembre (anuncio del 9 de noviembre).",
+        "lectura": "La medida alivia el impuesto del trabajador; el coste del empleador, que soporta la subida bruta del 5,3 %, no cambia. Para una empresa con plantilla en España, la cuestión útil afecta a las escalas próximas al mínimo: entre 18.004 y 23.172 €, la reducción disminuye 20 céntimos por cada euro adicional de salario. Conviene seguir también la convalidación del real decreto-ley por la Diputación Permanente.",
+        "fuentes": [
+          {
+            "nombre": "BOE – Real Decreto-ley 38/2026",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24120"
+          },
+          {
+            "nombre": "La Moncloa – Consejo de Ministros del 17 de noviembre",
+            "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/paginas/2026/171126-rueda-prensa-consejo-ministros.aspx"
+          },
+          {
+            "nombre": "Monfort y Bonell – SMI 2027 e IRPF",
+            "url": "https://monfortybonell.com/salario-minimo-de-2027-y-rebaja-del-irpf-en-nomina-que-cambia-desde-enero/"
+          },
+          {
+            "nombre": "Infobae – SMI 2027",
+            "url": "https://www.infobae.com/espana/2026/11/17/asi-queda-la-subida-del-salario-minimo-para-2027-a-quien-le-afecta-y-como-cambia-la-nomina-y-los-impuestos-a-pagar/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Inmobiliario",
+        "titulo": "Vivienda en España: 54.548 compraventas en septiembre, la mayor caída desde mayo de 2024",
+        "contexto": "Los precios españoles suben deprisa: el INE mide un +12,2 % interanual en el segundo trimestre de 2026, y un +12,9 % en la vivienda usada. Los volúmenes, en cambio, retroceden: siete de los nueve meses transcurridos desde enero están a la baja. Los compradores extranjeros adquirieron 62.327 viviendas en el primer semestre, un 13 % menos que un año antes según el Consejo General del Notariado.",
+        "resumen": "Según el INE, se vendieron 54.548 viviendas en septiembre, un 13,4 % menos que un año antes; en nueve meses, 512.748 ventas, un -3,6 %. La vivienda usada cae un 14 % (42.403 ventas) y la nueva un 11,6 % (12.145). Ninguna comunidad autónoma registra un aumento: el País Vasco pierde un 23,1 %, Baleares un 22,4 % y Madrid un 21,2 %. Las viviendas libres retroceden un 12,8 % y las protegidas un 21,6 %. Francia: 951.000 ventas de viviendas usadas en doce meses hasta finales de agosto (+3,6 %) y precios a la baja un 0,8 % interanual en el segundo trimestre (Notaires de France e Insee).",
+        "lectura": "España combina precios con alzas de dos dígitos y volúmenes en retroceso, lo que se parece a un mercado en el que el comprador espera. Francia muestra lo contrario: precios ligeramente a la baja y volúmenes todavía al alza, aunque con desaceleración. Un inversor español que compare ambos mercados debería valorar dos escenarios, estabilización de precios o corrección, antes de fijar su decisión de financiación.",
+        "fuentes": [
+          {
+            "nombre": "Idealista – compraventas de septiembre",
+            "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924540-las-compraventas-de-viviendas-registran-en-septiembre-su-mayor-caida-en-dos-anos-y"
+          },
+          {
+            "nombre": "Estrella Digital – INE, 17 de noviembre",
+            "url": "https://www.estrelladigital.es/economia/compraventa-viviendas-desploma-134-espana-septiembre/20261117144214453496.html"
+          },
+          {
+            "nombre": "Le Petit Journal Valence",
+            "url": "https://lepetitjournal.com/valence/logement/immobilier-espagne-chute-ventes-13-4-pourcent-valence-459111"
+          },
+          {
+            "nombre": "MySweetImmo – Notaires de France",
+            "url": "https://www.mysweetimmo.com/2026/10/23/immobilier-les-prix-baissent-mais-la-reprise-sessouffle/"
+          }
+        ]
+      },
+      {
+        "rubrica": "Empresas e inversión",
+        "titulo": "BYD incluye a España en su lista para una segunda fábrica europea, frente a Francia",
+        "contexto": "El fabricante chino BYD quiere producir en Europa para evitar los aranceles que la Unión Europea impuso en 2024 a los coches eléctricos fabricados en China. Su primera fábrica europea, en Szeged (Hungría), debe arrancar a finales de 2026. España es el segundo productor de automóviles de Europa tras Alemania, con 1,77 millones de coches ensamblados en 2025, por delante de Francia.",
+        "resumen": "El 11 de noviembre, la vicepresidenta de BYD, Stella Li, declaró a Europa Press que España figura entre los países preseleccionados para la segunda fábrica, sin fecha ni importe. En septiembre, un asesor del grupo había citado a España y Francia; BYD prefiere reutilizar un emplazamiento existente, pero Stella Li reconoce que los adecuados escasean. El grupo ha vendido cerca de 40.000 coches en España este año y pesa un 2,7 % de las matriculaciones de la Unión, el Reino Unido y la AELC en nueve meses (ACEA, la asociación europea de fabricantes de automóviles). En Zaragoza, Stellantis produce desde el 16 de octubre el Leapmotor B10. Francia: candidata al mismo proyecto, por detrás de España en volumen de producción en 2025.",
+        "lectura": "La competencia entre territorios se juega en la disponibilidad de un emplazamiento, las ayudas públicas y el tejido de proveedores, y un anuncio por sí solo no decide nada. No hay ninguna decisión tomada. Un proveedor de automoción con presencia a ambos lados de los Pirineos debería valorar dos escenarios, con y sin fábrica de BYD, antes de comprometer capacidad.",
+        "fuentes": [
+          {
+            "nombre": "elEconomista (Europa Press) – BYD preselecciona a España",
+            "url": "https://www.eleconomista.es/motor/noticias/14027074/11/26/byd-valora-espana-para-su-segunda-fabrica-de-vehiculos-en-europa-esta-entre-los-preseleccionados.html"
+          },
+          {
+            "nombre": "Auto Infos – España frente a Francia",
+            "url": "https://www.auto-infos.fr/article/byd-l-espagne-face-a-la-france-pour-accueillir-sa-deuxieme-usine-europeenne.294419"
+          },
+          {
+            "nombre": "AJP – ACEA y matriculaciones",
+            "url": "https://www.ajupress.com/view/20261115214313773"
+          },
+          {
+            "nombre": "L'Essentiel de l'Éco – Stellantis en Zaragoza",
+            "url": "https://lessentieldeleco.fr/9270-stellantis-future-usine-europeenne-des-marques-chinoises/"
+          },
+          {
+            "nombre": "AFP vía Autoactu – producción española 2025",
+            "url": "https://www.autoactu.com/actualites/espagne-renault-annonce-600-millions-d-euros-d-investissement-d-ici-a-2030"
+          }
+        ]
+      },
+      {
+        "rubrica": "Política y sociedad",
+        "titulo": "Función pública: hasta un 4,5 % de subida en 2027, por real decreto-ley",
+        "contexto": "España funciona con presupuestos prorrogados y las Cortes están disueltas desde el 5 de octubre. Las subidas anteriores se habían fijado por el real decreto-ley 14/2025: 2,5 % en 2025, 1,5 % en 2026, más un 0,5 % si la inflación de 2026 alcanza el 1,5 %. Sin ley de presupuestos, hacía falta un texto con fuerza de ley para aplicar la subida de 2027 desde la nómina de enero.",
+        "resumen": "El real decreto-ley 37/2026, aprobado el 17 de noviembre y publicado en el BOE el 18, autoriza un incremento global de hasta el 4,5 % de las retribuciones de todo el sector público, es decir, Estado, comunidades autónomas y entidades locales, respecto a las vigentes el 31 de diciembre de 2026, con efectos desde el 1 de enero de 2027. Un crédito extraordinario de 4.965 M€ financia su aplicación en la Administración General del Estado. El texto debe convalidarse en treinta días por la Diputación Permanente. Francia: la huelga del 17 de noviembre reunió al 2,79 % de los agentes del Estado; el Gobierno cifra en algo más de 1.000 M€ la revalorización de los salarios bajos, y el punto de índice sigue congelado.",
+        "lectura": "El texto fija un techo y deja a cada administración aplicarlo con su propio calendario. Para una empresa cuyos clientes son administraciones españolas, una subida de esta magnitud pesa sobre el coste de los servicios facturados y sobre las revisiones de precios de los contratos. La diferencia con Francia, donde el punto de índice sigue congelado, es nítida.",
+        "fuentes": [
+          {
+            "nombre": "BOE – Real Decreto-ley 37/2026",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24119"
+          },
+          {
+            "nombre": "Cuestiones Laborales – subida del 4,5 %",
+            "url": "https://www.cuestioneslaborales.es/subida-salarial-sector-publico-2027-4-5-por-ciento/"
+          },
+          {
+            "nombre": "Monfort y Bonell – crédito de 4.965 M€",
+            "url": "https://monfortybonell.com/retribuciones-del-sector-publico-en-2027-como-aplicar-la-subida-del-45/"
+          },
+          {
+            "nombre": "La Gazette des communes – huelga del 17 de noviembre",
+            "url": "https://www.lagazettedescommunes.com/club-rh/dialogue-social/mouvement-social-fonction-publique/greve-du-17-novembre-196-dagents-territoriaux-mobilises-a-la-mi-journee.GPTHM3FUHVFTLLOFD3ADBAFQQQ.html"
+          }
+        ]
+      }
+    ],
+    "agenda": [
+      {
+        "cuando": "27 de noviembre de 2026",
+        "que": "Francia: cierre del periodo de suscripción de la ampliación de capital de Eramet (resultados el 2 de diciembre)"
+      },
+      {
+        "cuando": "29 de noviembre de 2026",
+        "que": "España: elecciones generales"
+      },
+      {
+        "cuando": "1 de diciembre de 2026",
+        "que": "Francia: subida del Smic del 1,6 %; España: entrada en vigor prevista del IVA del 10 % en los alquileres turísticos, si el real decreto-ley se convalida"
+      },
+      {
+        "cuando": "9 de diciembre de 2026",
+        "que": "Francia: votación solemne del Senado sobre el proyecto de ley de presupuestos para 2027"
+      },
+      {
+        "cuando": "Mediados de diciembre de 2026",
+        "que": "España: vence el plazo de treinta días para que la Diputación Permanente convalide o derogue los reales decretos-leyes 37, 38 y 39/2026"
+      }
+    ],
+    "glosario": [
+      {
+        "sigla": "APE",
+        "definicion": "Agence des participations de l'État: organismo que gestiona las participaciones del Estado francés en empresas, aquí en Eramet."
+      },
+      {
+        "sigla": "CMP",
+        "definicion": "Commission mixte paritaire: comisión formada por diputados y senadores franceses que busca un texto común cuando las dos cámaras no coinciden sobre un proyecto de ley."
+      },
+      {
+        "sigla": "Diputación Permanente",
+        "definicion": "Comisión del Congreso de los Diputados que ejerce las funciones de la cámara entre la disolución y la constitución de las nuevas Cortes, y que debe convalidar o derogar los reales decretos-leyes."
+      },
+      {
+        "sigla": "DPS",
+        "definicion": "Droit préférentiel de souscription (derecho de suscripción preferente): derecho de un accionista existente a suscribir con prioridad las acciones nuevas en una ampliación de capital."
+      },
+      {
+        "sigla": "Index égalité",
+        "definicion": "Index de l'égalité professionnelle: nota anual sobre 100 que publican las empresas francesas de 50 o más empleados sobre las brechas retributivas entre mujeres y hombres."
+      },
+      {
+        "sigla": "Insee",
+        "definicion": "Institut national de la statistique et des études économiques: instituto nacional de estadística francés, equivalente al INE español."
+      },
+      {
+        "sigla": "PLF",
+        "definicion": "Projet de loi de finances: texto anual que fija los ingresos y los gastos del Estado francés, votado por la Asamblea Nacional y el Senado; equivale a los Presupuestos Generales del Estado."
+      },
+      {
+        "sigla": "Smic",
+        "definicion": "Salaire minimum interprofessionnel de croissance: salario mínimo legal francés, equivalente al SMI español."
+      },
+      {
+        "sigla": "TEITLD",
+        "definicion": "Taxe sur l'exploitation des infrastructures de transport de longue distance: tasa francesa creada en 2024 que grava a las concesionarias de autopistas y a los grandes aeropuertos más rentables."
+      }
+    ],
+    "linkedin": {
+      "newsletter": "Desde el 19 de noviembre, un real decreto-ley obliga a los empleadores españoles a indicar la retribución inicial en sus ofertas de empleo; en Francia, el texto equivalente sigue esperando su examen en el Senado.\nLeer la edición completa, con los gráficos y el dossier íntegro: https://bulletin.rilamax.com\nEditorial. Entre la disolución de las Cortes y las elecciones del 29 de noviembre, el Gobierno legisla por real decreto-ley, una norma que el Congreso debe convalidar en treinta días. París sigue en primera lectura con el presupuesto de 2027, con una votación solemne en el Senado el 9 de diciembre; la tasa sobre las autopistas que propone subir afecta a Sanef, filial del grupo español Abertis. El coste de los disturbios del 17 de octubre ya está cuantificado: 207 M€ de daños asegurados según France Assureurs (la federación francesa de aseguradoras).\nLo que hay que retener. España ha transpuesto la transparencia salarial, pendiente de convalidación. El presupuesto francés de 2027 no está votado. Hay abierta una ayuda de 1.000 a 10.000 € para las pequeñas empresas afectadas por los disturbios.\nDossier. La directiva europea sobre transparencia retributiva debía transponerse el 7 de junio de 2026. España lo hizo el 17 de noviembre: retribución indicada en las ofertas, prohibición de preguntar por el salario anterior, derecho de cada trabajador a obtener su información en dos meses, multas de hasta 225.018 € por las infracciones muy graves y primer informe de brecha antes del 8 de junio de 2027 para las empresas de 150 trabajadores o más. Francia depositó su proyecto de ley en el Senado el 10 de septiembre; prevé un umbral de 50 trabajadores, siete indicadores y sanciones de hasta el 1 % de la masa salarial, pero sin fecha de examen. La brecha horaria bruta entre mujeres y hombres era en 2024 del 7,3 % en España y del 11,8 % en Francia según Eurostat, sin que estas cifras prueben el efecto de las normas. Nuestra lectura: dos métodos, ningún resultado medido, y una empresa española con filiales francesas que debe preparar la misma clasificación de puestos para dos calendarios.\nLeer la edición completa, con los gráficos y el dossier íntegro: https://bulletin.rilamax.com\n¿Ha clasificado ya su empresa los puestos de trabajo para responder a las exigencias de transparencia salarial, en España y en Francia?",
+      "post": "España exige desde el 19 de noviembre que las ofertas de empleo indiquen la retribución inicial; Francia sigue sin votar su texto.\nEdición completa y dossier: https://bulletin.rilamax.com\nEl real decreto-ley español fija un umbral de 150 trabajadores para el primer informe de brecha, antes del 8 de junio de 2027, y multas de hasta 225.018 €. El proyecto de ley francés, depositado en el Senado el 10 de septiembre, contempla un umbral de 50 trabajadores, pero no tiene fecha de examen. La brecha horaria bruta entre mujeres y hombres es del 7,3 % en España y del 11,8 % en Francia (Eurostat, 2024), sin pruebas por ahora de que las normas la expliquen.\n¿Está su empresa preparada para llevar dos calendarios de transparencia salarial?\n#TransparenciaSalarial #España #Francia"
+    },
+    "minutos": 21
+  }
+}
