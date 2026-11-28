@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Le Bulletin Rilamax — N° 9</title>
+<meta name="description" content="Des impôts d&#39;urgence qui durent : surtaxe française, taxe bancaire espagnole">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Le Bulletin Rilamax">
+<meta property="og:title" content="Le Bulletin Rilamax N° 9 · Des impôts d&#39;urgence qui durent : surtaxe française, taxe bancaire espagnole">
+<meta property="og:description" content="En deux jours, Paris et Madrid ont prolongé deux prélèvements nés comme des mesures d&#39;urgence : la surtaxe d&#39;impôt sur les sociétés des grands groupes français, qui entre dans sa troisième année, et la taxe espagnole sur la marge d&#39;intérêts des banques, qui passe à une quatrième. Ce dossier retrace leur origine, leur rendement et ce que leur durée change pour un investisseur.">
+<meta property="og:image" content="https://bulletin.rilamax.com/portada.png">
+<meta property="og:url" content="https://bulletin.rilamax.com/ediciones/2026-11-28/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --paper:#F5F7FA; --surface:#FFFFFF; --ink:#16233D; --muted:#5A6478; --rule:#D9DEE7;
+  --fr:#2F4FA8; --fr-soft:#E7ECF8; --es:#B5751A; --es-soft:#F8EEDD;
+  --note:#1F5C55; --note-soft:#E4F0EE;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+    --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+    --note:#7FCBC0; --note-soft:#173532;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#121A2B; --surface:#1A2438; --ink:#E8ECF3; --muted:#A3ADC0; --rule:#2E3A52;
+  --fr:#8FA8F0; --fr-soft:#22305A; --es:#E5AE5C; --es-soft:#3A2D18;
+  --note:#7FCBC0; --note-soft:#173532;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.55}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--fr);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.25rem}
+.serif{font-family:"Literata",Georgia,serif}
+
+/* Masthead */
+.mast{padding:2.5rem 0 1.75rem}
+.bridge{display:flex;align-items:center;gap:.75rem;color:var(--muted);font-size:.9rem}
+.bridge .line{flex:1;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--fr) 0 50%,var(--es) 50% 100%)}
+h1{font-family:"Literata",Georgia,serif;font-weight:700;font-size:clamp(2.2rem,6vw,3.6rem);line-height:1.05;letter-spacing:-.02em;margin:1rem 0 .5rem}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;color:var(--muted);font-size:.95rem}
+
+/* Sommaire */
+.toc{position:sticky;top:0;z-index:5;background:var(--paper);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.toc ul{list-style:none;margin:0;padding:.6rem 0;display:flex;gap:1.25rem;overflow-x:auto;white-space:nowrap;font-size:.92rem}
+.toc a{text-decoration:none;color:var(--muted)}
+.toc a:hover{color:var(--ink)}
+
+section{padding:2.75rem 0;border-bottom:1px solid var(--rule)}
+h2{font-family:"Literata",Georgia,serif;font-size:1.75rem;line-height:1.2;margin:0 0 1.25rem}
+.lede{color:var(--muted);margin:-.75rem 0 1.5rem;max-width:62ch}
+
+/* Edito */
+.edito{display:grid;grid-template-columns:1fr;gap:2rem}
+@media(min-width:780px){.edito{grid-template-columns:1.7fr 1fr}}
+.edito .body p{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;margin:0 0 1rem;max-width:62ch}
+.edito .sign{font-size:.92rem;color:var(--muted)}
+.keys{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:1.4rem 1.5rem;align-self:start}
+.keys h3{margin:0 0 .8rem;font-size:1rem}
+.keys ol{margin:0;padding-left:1.2rem}
+.keys li{margin:0 0 .6rem}
+
+/* Chiffres */
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.fig{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--c);border-radius:4px 4px 10px 10px;padding:1.1rem 1.25rem}
+.fig.fr{--c:var(--fr)} .fig.es{--c:var(--es)}
+.fig strong{display:block;font-family:"Literata",Georgia,serif;font-size:2.2rem;line-height:1.05;color:var(--c)}
+.fig span{display:block;margin-top:.5rem;font-size:.93rem}
+.fig small{display:block;margin-top:.4rem;color:var(--muted);font-size:.8rem}
+
+/* Dossier */
+.dossier .intro{font-family:"Literata",Georgia,serif;font-size:1.1rem;line-height:1.75;max-width:66ch;margin:0 0 1.75rem}
+.cols{display:grid;grid-template-columns:1fr;gap:1rem;margin-bottom:1.5rem}
+@media(min-width:780px){.cols{grid-template-columns:repeat(3,1fr)}}
+.col{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1.2rem 1.3rem}
+.col h3{margin:0 0 .6rem;font-size:1.02rem}
+.col ul{margin:0;padding-left:1.1rem}
+.col li{margin:0 0 .55rem;font-size:.95rem}
+
+/* Items */
+.country-head{display:flex;align-items:center;gap:.75rem;margin:0 0 .5rem}
+.country-head .bar{width:28px;height:6px;border-radius:3px;background:var(--c)}
+.country-head.fr{--c:var(--fr)} .country-head.es{--c:var(--es)}
+.item{display:grid;grid-template-columns:1fr;gap:1rem 2.5rem;padding:1.75rem 0;border-top:1px solid var(--rule)}
+.item:first-of-type{border-top:0}
+@media(min-width:780px){.item{grid-template-columns:1.5fr 1fr}}
+.tag{display:inline-flex;align-items:center;gap:.5rem;font-size:.86rem;font-weight:600;padding:.2rem .65rem;border-radius:6px}
+.tag.fr{background:var(--fr-soft);color:var(--fr)}
+.tag.es{background:var(--es-soft);color:var(--es)}
+.item h3{font-family:"Literata",Georgia,serif;font-size:1.35rem;line-height:1.25;margin:.7rem 0 .55rem;max-width:32ch}
+.item .sum{margin:0 0 .8rem;max-width:62ch}
+.src{font-size:.86rem;color:var(--muted)}
+.src a{color:var(--muted);text-underline-offset:3px}
+.lecture{align-self:start;background:var(--note-soft);border-left:3px solid var(--note);border-radius:0 10px 10px 0;padding:1.1rem 1.25rem}
+.lecture h4{margin:0 0 .45rem;font-size:.93rem;font-weight:600;color:var(--note)}
+.lecture p{margin:0;font-family:"Literata",Georgia,serif;font-size:1rem;line-height:1.65}
+
+/* Agenda */
+.agenda{list-style:none;margin:0;padding:0;display:grid;gap:.75rem}
+.agenda li{display:grid;grid-template-columns:8.5rem 1fr;gap:1rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:1rem 1.2rem}
+@media(max-width:560px){.agenda li{grid-template-columns:1fr;gap:.25rem}}
+.agenda .when{font-weight:600}
+.agenda .what{max-width:62ch}
+
+/* CTA + footer */
+.cta{display:grid;grid-template-columns:1fr;gap:1.25rem;align-items:center}
+@media(min-width:780px){.cta{grid-template-columns:1.6fr 1fr}}
+.cta p{font-family:"Literata",Georgia,serif;font-size:1.1rem;margin:0;max-width:56ch}
+.btn{display:inline-block;text-align:center;text-decoration:none;font-weight:600;background:var(--ink);color:var(--paper);padding:.85rem 1.3rem;border-radius:10px}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.86rem}
+footer p{max-width:72ch;margin:0 0 .6rem}
+
+
+.titlerow{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.langs{display:inline-flex;border:1px solid var(--rule);border-radius:999px;padding:3px;background:var(--surface);margin-bottom:.6rem}
+.langs button{font:inherit;font-size:.88rem;font-weight:600;border:0;background:transparent;color:var(--muted);padding:.35rem .85rem;border-radius:999px;cursor:pointer}
+.langs button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.langs button:focus-visible{outline:2px solid var(--fr);outline-offset:2px}
+.edition[hidden]{display:none}
+
+.dfigs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:12px;overflow:hidden;margin:0 0 2.25rem}
+.dfigs div{background:var(--surface);padding:1.1rem 1.25rem}
+.dfigs strong{display:block;font-family:"Literata",Georgia,serif;font-size:1.9rem;line-height:1.1;color:var(--es)}
+.dfigs span{display:block;margin-top:.35rem;font-size:.9rem;color:var(--muted)}
+.longform{max-width:none}
+.longform>h3,.longform>p,.longform>.debate{max-width:68ch}
+.longform>figure{max-width:860px}
+.longform h3{font-family:"Literata",Georgia,serif;font-size:1.3rem;line-height:1.3;margin:2.25rem 0 .75rem}
+.longform h3:first-child{margin-top:0}
+.longform p{font-family:"Literata",Georgia,serif;font-size:1.06rem;line-height:1.78;margin:0 0 1.1rem}
+.chart{margin:1.5rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.bar-row{display:grid;grid-template-columns:9.5rem 1fr 5.5rem;align-items:center;gap:.75rem;margin:.45rem 0;font-size:.92rem}
+.bar-row .bar{display:block;height:14px;border-radius:7px;background:#D9DEE7;background:var(--rule);overflow:hidden}
+.bar-row .fill{display:block;height:14px;width:0;border-radius:7px;background:#B5751A;background:var(--es)}
+.bar-row .fill.c-muted{background:#5A6478;background:var(--muted)}
+.bar-row .fill.c-fr{background:#2F4FA8;background:var(--fr)}
+.bar-row .val{font-weight:600;text-align:right}
+.chart figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted)}
+@media(max-width:560px){.bar-row{grid-template-columns:1fr auto}.bar-row .bar{grid-column:1/-1;order:3}}
+.debate{margin:1.5rem 0;padding:1rem 1.25rem;border:1px dashed var(--rule);border-radius:10px}
+.debate h4,.watch h4{margin:0 0 .4rem;font-size:.95rem}
+.debate p,.watch p{margin:0;font-size:.97rem;font-family:"Public Sans",system-ui,sans-serif;line-height:1.6}
+.dossier .lecture{margin-top:2rem;max-width:none}
+.dossier .lecture p{font-size:1.06rem}
+.watch{margin:1.25rem 0;padding:1rem 1.25rem;background:var(--es-soft);border-radius:10px}
+.dossier .src{margin-top:1rem;line-height:1.7}
+
+.archive ul{list-style:none;margin:0;padding:0;display:grid;gap:.5rem}
+.archive a{text-underline-offset:3px}
+.archive li span{color:var(--muted);font-size:.9rem;margin-left:.5rem}
+.bar-row .fill.w1{width:1%}.bar-row .fill.w2{width:2%}.bar-row .fill.w3{width:3%}.bar-row .fill.w4{width:4%}.bar-row .fill.w5{width:5%}.bar-row .fill.w6{width:6%}.bar-row .fill.w7{width:7%}.bar-row .fill.w8{width:8%}.bar-row .fill.w9{width:9%}.bar-row .fill.w10{width:10%}.bar-row .fill.w11{width:11%}.bar-row .fill.w12{width:12%}.bar-row .fill.w13{width:13%}.bar-row .fill.w14{width:14%}.bar-row .fill.w15{width:15%}.bar-row .fill.w16{width:16%}.bar-row .fill.w17{width:17%}.bar-row .fill.w18{width:18%}.bar-row .fill.w19{width:19%}.bar-row .fill.w20{width:20%}.bar-row .fill.w21{width:21%}.bar-row .fill.w22{width:22%}.bar-row .fill.w23{width:23%}.bar-row .fill.w24{width:24%}.bar-row .fill.w25{width:25%}.bar-row .fill.w26{width:26%}.bar-row .fill.w27{width:27%}.bar-row .fill.w28{width:28%}.bar-row .fill.w29{width:29%}.bar-row .fill.w30{width:30%}.bar-row .fill.w31{width:31%}.bar-row .fill.w32{width:32%}.bar-row .fill.w33{width:33%}.bar-row .fill.w34{width:34%}.bar-row .fill.w35{width:35%}.bar-row .fill.w36{width:36%}.bar-row .fill.w37{width:37%}.bar-row .fill.w38{width:38%}.bar-row .fill.w39{width:39%}.bar-row .fill.w40{width:40%}.bar-row .fill.w41{width:41%}.bar-row .fill.w42{width:42%}.bar-row .fill.w43{width:43%}.bar-row .fill.w44{width:44%}.bar-row .fill.w45{width:45%}.bar-row .fill.w46{width:46%}.bar-row .fill.w47{width:47%}.bar-row .fill.w48{width:48%}.bar-row .fill.w49{width:49%}.bar-row .fill.w50{width:50%}.bar-row .fill.w51{width:51%}.bar-row .fill.w52{width:52%}.bar-row .fill.w53{width:53%}.bar-row .fill.w54{width:54%}.bar-row .fill.w55{width:55%}.bar-row .fill.w56{width:56%}.bar-row .fill.w57{width:57%}.bar-row .fill.w58{width:58%}.bar-row .fill.w59{width:59%}.bar-row .fill.w60{width:60%}.bar-row .fill.w61{width:61%}.bar-row .fill.w62{width:62%}.bar-row .fill.w63{width:63%}.bar-row .fill.w64{width:64%}.bar-row .fill.w65{width:65%}.bar-row .fill.w66{width:66%}.bar-row .fill.w67{width:67%}.bar-row .fill.w68{width:68%}.bar-row .fill.w69{width:69%}.bar-row .fill.w70{width:70%}.bar-row .fill.w71{width:71%}.bar-row .fill.w72{width:72%}.bar-row .fill.w73{width:73%}.bar-row .fill.w74{width:74%}.bar-row .fill.w75{width:75%}.bar-row .fill.w76{width:76%}.bar-row .fill.w77{width:77%}.bar-row .fill.w78{width:78%}.bar-row .fill.w79{width:79%}.bar-row .fill.w80{width:80%}.bar-row .fill.w81{width:81%}.bar-row .fill.w82{width:82%}.bar-row .fill.w83{width:83%}.bar-row .fill.w84{width:84%}.bar-row .fill.w85{width:85%}.bar-row .fill.w86{width:86%}.bar-row .fill.w87{width:87%}.bar-row .fill.w88{width:88%}.bar-row .fill.w89{width:89%}.bar-row .fill.w90{width:90%}.bar-row .fill.w91{width:91%}.bar-row .fill.w92{width:92%}.bar-row .fill.w93{width:93%}.bar-row .fill.w94{width:94%}.bar-row .fill.w95{width:95%}.bar-row .fill.w96{width:96%}.bar-row .fill.w97{width:97%}.bar-row .fill.w98{width:98%}.bar-row .fill.w99{width:99%}.bar-row .fill.w100{width:100%}
+
+.glossary{margin:0;display:grid;grid-template-columns:1fr;gap:.6rem}
+@media(min-width:780px){.glossary{grid-template-columns:1fr 1fr}}
+.glossary div{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:.9rem 1.1rem}
+.glossary dt{font-weight:600;color:var(--fr);margin:0 0 .2rem}
+.glossary dd{margin:0;font-size:.95rem;line-height:1.55}
+
+.chart-t{margin:0 0 .7rem;font-weight:600;font-size:.95rem}
+.bar-row .fill{transition:width 1.1s cubic-bezier(.2,.7,.2,1)}
+.chart.pre .bar-row .fill,.chart.pre .seg{width:0 !important}
+.mix-row{display:grid;grid-template-columns:6.5rem 1fr;align-items:center;gap:.75rem;margin:.55rem 0;font-size:.92rem}
+.mix-bar{display:flex;height:30px;border-radius:7px;overflow:hidden;background:var(--rule)}
+.seg{display:flex;align-items:center;justify-content:center;height:100%;width:0;color:#fff;font-style:normal;font-size:.75rem;font-weight:600;position:relative;transition:width 1.2s cubic-bezier(.2,.7,.2,1);cursor:default;outline:none}
+.seg i{font-style:normal;white-space:nowrap;overflow:hidden}
+.seg:hover,.seg:focus{filter:brightness(1.12)}
+.mix-legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin-top:.75rem;font-size:.82rem;color:var(--muted)}
+.mix-legend b{display:inline-block;width:.8rem;height:.8rem;border-radius:3px;margin-right:.35rem;vertical-align:-1px}
+.k-nuclear{background:#6C4AB6}.k-fosil{background:#5A6478}.k-eolica{background:#2F8F83}.k-solar{background:#D9A21B}.k-hidro{background:#2F4FA8}.k-biomasa{background:#7A9A3A}.k-otros{background:#A3ADC0}
+.mix .chart.pre .seg{width:0}
+.seg[class*=" w"]{flex:none}
+.seg.w1{width:1%}.seg.w2{width:2%}.seg.w3{width:3%}.seg.w4{width:4%}.seg.w5{width:5%}.seg.w6{width:6%}.seg.w7{width:7%}.seg.w8{width:8%}.seg.w9{width:9%}.seg.w10{width:10%}.seg.w11{width:11%}.seg.w12{width:12%}.seg.w13{width:13%}.seg.w14{width:14%}.seg.w15{width:15%}.seg.w16{width:16%}.seg.w17{width:17%}.seg.w18{width:18%}.seg.w19{width:19%}.seg.w20{width:20%}.seg.w21{width:21%}.seg.w22{width:22%}.seg.w23{width:23%}.seg.w24{width:24%}.seg.w25{width:25%}.seg.w26{width:26%}.seg.w27{width:27%}.seg.w28{width:28%}.seg.w29{width:29%}.seg.w30{width:30%}.seg.w31{width:31%}.seg.w32{width:32%}.seg.w33{width:33%}.seg.w34{width:34%}.seg.w35{width:35%}.seg.w36{width:36%}.seg.w37{width:37%}.seg.w38{width:38%}.seg.w39{width:39%}.seg.w40{width:40%}.seg.w41{width:41%}.seg.w42{width:42%}.seg.w43{width:43%}.seg.w44{width:44%}.seg.w45{width:45%}.seg.w46{width:46%}.seg.w47{width:47%}.seg.w48{width:48%}.seg.w49{width:49%}.seg.w50{width:50%}.seg.w51{width:51%}.seg.w52{width:52%}.seg.w53{width:53%}.seg.w54{width:54%}.seg.w55{width:55%}.seg.w56{width:56%}.seg.w57{width:57%}.seg.w58{width:58%}.seg.w59{width:59%}.seg.w60{width:60%}.seg.w61{width:61%}.seg.w62{width:62%}.seg.w63{width:63%}.seg.w64{width:64%}.seg.w65{width:65%}.seg.w66{width:66%}.seg.w67{width:67%}.seg.w68{width:68%}.seg.w69{width:69%}.seg.w70{width:70%}.seg.w71{width:71%}.seg.w72{width:72%}.seg.w73{width:73%}.seg.w74{width:74%}.seg.w75{width:75%}.seg.w76{width:76%}.seg.w77{width:77%}.seg.w78{width:78%}.seg.w79{width:79%}.seg.w80{width:80%}.seg.w81{width:81%}.seg.w82{width:82%}.seg.w83{width:83%}.seg.w84{width:84%}.seg.w85{width:85%}.seg.w86{width:86%}.seg.w87{width:87%}.seg.w88{width:88%}.seg.w89{width:89%}.seg.w90{width:90%}.seg.w91{width:91%}.seg.w92{width:92%}.seg.w93{width:93%}.seg.w94{width:94%}.seg.w95{width:95%}.seg.w96{width:96%}.seg.w97{width:97%}.seg.w98{width:98%}.seg.w99{width:99%}.seg.w100{width:100%}
+
+.seg{cursor:pointer}
+.seg.on{filter:brightness(1.18);box-shadow:inset 0 0 0 2px rgba(255,255,255,.85)}
+.mix-info{margin:.7rem 0 0;padding:.5rem .75rem;border-radius:8px;background:var(--paper);font-size:.88rem;color:var(--muted);min-height:1.2em}
+.mix-info.act{color:var(--ink);font-weight:600;background:var(--fr-soft)}
+.cite{font-family:"Public Sans",system-ui,sans-serif;font-size:.78rem;color:var(--muted);white-space:normal}
+.cite a{color:var(--muted);text-underline-offset:2px}
+.illus{margin:1.6rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.illus figcaption,.cmp figcaption{margin-top:.6rem;font-size:.8rem;color:var(--muted);font-family:"Public Sans",system-ui,sans-serif}
+.cmp{margin:1.75rem 0;padding:1.1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:10px;max-width:none}
+.cmp-wrap{overflow-x:auto}
+.cmp table{width:100%;border-collapse:collapse;font-size:.88rem;font-family:"Public Sans",system-ui,sans-serif;min-width:560px}
+.cmp th,.cmp td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.cmp thead th{font-weight:600;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.cmp thead th:nth-child(2){color:var(--fr)}.cmp thead th:nth-child(3){color:var(--es)}
+.cmp tbody th{font-weight:600}
+.cmp td{white-space:nowrap}
+.cmp td.src-cell{white-space:normal}
+.cmp td.src-cell .cite{font-size:.75rem}
+.longform .cmp,.longform .illus{max-width:none}
+
+.mix-info{font-family:"Public Sans",system-ui,sans-serif !important;font-size:.88rem !important;line-height:1.5 !important}
+.cmp td.src-cell{min-width:9rem}
+
+.lecture p+p{margin-top:.8rem}
+
+.ctx{margin:.2rem 0 .9rem;padding:.75rem 1rem;background:var(--paper);border:1px solid var(--rule);border-radius:8px;max-width:62ch}
+.ctx-l{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:.25rem}
+.ctx p{margin:0;font-size:.95rem;line-height:1.6}
+.fig .cmp-o{display:block;margin-top:.45rem;font-style:normal;font-size:.85rem;font-weight:600;padding-top:.4rem;border-top:1px dashed var(--rule)}
+.fig .cmp-o.fr{color:var(--fr)}.fig .cmp-o.es{color:var(--es)}
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="edition" data-lang="fr" lang="fr">
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>France</span><span class="line" aria-hidden="true"></span><span>Espagne</span></div>
+    <div class="titlerow">
+      <h1>Le Bulletin Rilamax</h1>
+      <div class="langs" role="group" aria-label="Langue"><button type="button" data-set="fr" aria-pressed="true">FR</button><button type="button" data-set="es" aria-pressed="false">ES</button></div>
+    </div>
+    <div class="meta"><span>N° 9 · Semaine 48</span><span>Du 23 au 28 novembre 2026</span><span>Lecture : 19 minutes</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sommaire">
+  <div class="wrap"><ul>
+    <li><a href="#fr-edito">L&#39;édito</a></li>
+    <li><a href="#fr-cifras">Les chiffres</a></li>
+    <li><a href="#fr-dossier">Le dossier</a></li>
+    <li><a href="#fr-fr">France</a></li>
+    <li><a href="#fr-es">Espagne</a></li>
+    <li><a href="#fr-agenda">À surveiller</a></li>
+    <li><a href="#fr-glosario">Lexique</a></li>
+    <li><a href="/archivo/?lang=fr">Toutes les éditions</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="fr-edito">
+    <h2></h2>
+    <div class="edito">
+      <div class="body">
+        <p>Le Sénat français a reconduit mercredi 25 novembre, à main levée, la surtaxe d&#39;impôt sur les sociétés des grands groupes, pour une troisième année. La veille, le Conseil des ministres espagnol avait prolongé d&#39;un an la taxe sur la marge d&#39;intérêts des banques. Deux gouvernements, deux prélèvements présentés comme provisoires à l&#39;origine, et la même logique de recettes rapides.</p><p>Les montants sont du même ordre de grandeur. La surtaxe française devait rapporter environ 8 Md€ en 2025 et devrait en rapporter 5 en 2027. La taxe bancaire espagnole a encaissé 5,7 Md€ de 2023 à 2026 et doit ajouter 1,4 Md€ l&#39;an prochain. En novembre 2025, ce même Sénat avait pourtant voté la suppression de la surtaxe, au nom de la parole donnée.</p><p>Les situations économiques divergent. Le PIB français a reculé de 0,2 % au troisième trimestre, alors que le PIB espagnol progressait de 0,6 %, et l&#39;inflation atteint 4,1 % en Espagne contre 2,9 % en France. L&#39;outil fiscal reste pourtant le même. La méthode diffère : deux chambres à Paris, un décret-loi à Madrid pendant la dissolution des Cortes (le Parlement espagnol), à convalider en bloc avec d&#39;autres mesures.</p><p>Nous retenons un fait mesurable pour les directions financières : un prélèvement créé sans date de sortie devient une donnée de planification. Pour un groupe français présent en Espagne, ou l&#39;inverse, la discussion porte désormais sur le taux et la durée, plus sur l&#39;existence. Le scrutin espagnol de dimanche et le vote budgétaire français du 9 décembre apporteront les premières réponses.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Les trois points à retenir</h3>
+        <ol><li>La surtaxe française entre dans sa troisième année, la taxe bancaire espagnole dans sa quatrième.</li><li>Paris passe par la loi de finances, Madrid par un décret-loi à convalider avant le 23 décembre.</li><li>Le rendement français baisse de 7,1 à 5 Md€ en 2027, l&#39;espagnol ajoute 1,4 Md€.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="fr-cifras">
+    <h2>Les chiffres de la semaine</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>−0,2 %</strong><span>Variation du PIB français au troisième trimestre 2026 selon l&#39;Insee (institut national de la statistique), révisée à la baisse après une première estimation à −0,1 % ; le deuxième trimestre est stable.</span><em class="cmp-o es">Espagne : +0,6 % (3e trimestre, INE, avance du 30 octobre)</em><small>Insee, 27 novembre 2026</small></div><div class="fig fr"><strong>2,9 %</strong><span>Inflation française sur un an en novembre, estimation provisoire, contre 3,4 % en octobre et 3,2 % attendus par les économistes.</span><em class="cmp-o es">Espagne : 4,1 % (indicateur avancé de novembre, INE, institut national de statistique espagnol, 27 novembre)</em><small>Insee, 27 novembre 2026</small></div><div class="fig fr"><strong>31 166</strong><span>Logements autorisés à la construction en France en octobre, soit +0,7 % sur un mois ; sur douze mois, 373 979 autorisations, 9,7 % sous la moyenne des cinq années précédentes.</span><em class="cmp-o es">Espagne : 14 445 visas de direction de travaux de logements neufs en juillet, +3,3 % sur un an (ministère des Transports, publié en novembre) ; mois et concepts différents.</em><small>SDES (service statistique du ministère de la Transition écologique), 27 novembre 2026</small></div><div class="fig es"><strong>46 469</strong><span>Hypothèques sur logements inscrites en Espagne en septembre, +2,3 % sur un an et meilleur mois de septembre depuis 2010 ; taux moyen de 3,05 %.</span><em class="cmp-o fr">France : taux moyen de 3,49 % en octobre (Observatoire Crédit Logement/CSA, prêts garantis, hors assurance) ; périmètre différent.</em><small>INE, 25 novembre 2026</small></div><div class="fig es"><strong>2,50 %</strong><span>Ratio de créances douteuses des banques espagnoles en septembre, le plus bas depuis juillet 2008, pour 31 435 M€ de crédits douteux.</span><em class="cmp-o fr">Pas de donnée française comparable fiable publiée cette semaine.</em><small>Banco de España (banque centrale espagnole), 24 novembre 2026</small></div><div class="fig es"><strong>1 400 M€</strong><span>Recette attendue en 2027 de la prorogation de la taxe bancaire espagnole, après 5 723 M€ encaissés de 2023 à 2026 ; elle sera affectée au logement.</span><em class="cmp-o fr">France : surtaxe d&#39;IS sur les grands groupes, environ 5 Md€ attendus en 2027 (Sénat, 25 novembre)</em><small>Ministerio de Hacienda et La Moncloa, 24 novembre 2026</small></div>
+    </div>
+  </section>
+
+  
+  <section id="fr-dossier" class="dossier">
+    <h2>Le dossier : Des impôts d&#39;urgence qui durent : surtaxe française, taxe bancaire espagnole</h2>
+    <p class="intro">En deux jours, Paris et Madrid ont prolongé deux prélèvements nés comme des mesures d&#39;urgence : la surtaxe d&#39;impôt sur les sociétés des grands groupes français, qui entre dans sa troisième année, et la taxe espagnole sur la marge d&#39;intérêts des banques, qui passe à une quatrième. Ce dossier retrace leur origine, leur rendement et ce que leur durée change pour un investisseur.</p>
+    <div class="dfigs"><div><strong>5 Md€</strong><span>Rendement attendu de la surtaxe d&#39;IS française en 2027, contre 7,1 Md€ estimés pour 2026.</span></div><div><strong>5 723 M€</strong><span>Encaissés par la taxe bancaire espagnole de 2023 à 2026, avant les 1 400 M€ attendus de la prorogation.</span></div><div><strong>3 M€</strong><span>Seuil de patrimoine net au-delà duquel s&#39;applique l&#39;ITSGF espagnol, créé en 2022 pour deux ans.</span></div><div><strong>23 déc.</strong><span>Constitution des nouvelles Cortes ; la convalidation des décrets-lois est attendue avant cette date.</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. Deux impôts conçus comme provisoires</h3>
+        <p>La surtaxe française, officiellement contribution exceptionnelle sur les bénéfices des grandes entreprises, a été créée par le budget 2025, sous le gouvernement de Michel Barnier. Elle devait rapporter environ 8 Md€ la première année. En novembre 2025, le Sénat avait voté sa suppression pour 2026, en rappelant que le texte de 2025 la limitait à un seul exercice et que le gouvernement s&#39;y était engagé à plusieurs reprises. Elle a pourtant été reconduite, pour un rendement estimé à 7,1 Md€ en 2026. Elle ne concerne aujourd&#39;hui que les entreprises dont le chiffre d&#39;affaires atteint au moins 1,5 Md€.</p><p>Côté espagnol, la taxe sur la marge d&#39;intérêts et de commissions des banques est née de la loi 38/2022 comme prélèvement temporaire, à 4,8 % sur les établissements dépassant 800 M€ de revenus. La loi 7/2024 l&#39;a reformulée pour 2024 à 2026, avec un barème progressif (de 1 % à 7 %, selon la presse économique). L&#39;ITSGF, impôt temporaire de solidarité des grandes fortunes, créé la même année pour deux exercices, a suivi le même chemin : un décret-loi de décembre 2023 l&#39;a rendu indéfini, tant que la réforme du financement des régions n&#39;aboutit pas.</p>
+        
+        
+        
+      
+        
+        <h3>2. La réponse de la semaine : un vote à main levée, un décret-loi</h3>
+        <p>Le 25 novembre, le Sénat a adopté sans modification, à main levée, l&#39;article 15 du budget 2027, qui reconduit la surtaxe à un taux réduit : environ 5 Md€ attendus, contre 7,1 Md€ en 2026. Le ministre de l&#39;Économie, Roland Lescure, a rappelé que 99 % des entreprises françaises ne la paient pas. Le centriste Vincent Capo-Canellas a parlé d&#39;une contribution exceptionnelle devenue permanente. Une contribution distincte de 300 M€, plafonnée, vise le fret maritime, donc surtout CMA CGM. Le gouvernement veut ramener le déficit à 5 % du PIB en 2027.</p><p>À Madrid, le Conseil des ministres a approuvé le 24 novembre le décret-loi royal (RDL) 43/2026, publié le 25 au BOE (le journal officiel espagnol). Il prolonge la taxe bancaire pour 2027, avec 1,4 Md€ attendus et affectés au logement, après 5,7 Md€ encaissés de 2023 à 2026. Les Cortes étant dissoutes, la convalidation revient à la Diputación Permanente, commission de 69 membres qui siège entre deux législatures. Elle vote le texte en bloc, avec les mesures pour les indépendants. Les nouvelles Cortes se réunissent le 23 décembre.</p>
+        
+<figure class="chart" aria-label="Recettes attendues en 2027 des prélèvements exceptionnels reconduits, en millions d&#39;euros">
+  
+  <div class="bar-row"><span class="lbl">France : surtaxe IS</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 5 000 M€</span></div><div class="bar-row"><span class="lbl">Espagne : taxe bancaire</span><span class="bar"><span class="fill w28 c-es"></span></span><span class="val">≈ 1 400 M€</span></div><div class="bar-row"><span class="lbl">France : fret maritime</span><span class="bar"><span class="fill w6 c-es"></span></span><span class="val">≈ 300 M€ (plafond)</span></div>
+  <figcaption>France et Espagne, 2027, en millions d&#39;euros (prévisions). Source : Sénat via Public Sénat ; ministère espagnol de l&#39;Hacienda.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>3. Ce que les chiffres montrent, et ce qu&#39;ils laissent ouvert</h3>
+        <p>Le rendement français recule avec le taux : environ 8 Md€ prévus en 2025, 7,1 Md€ estimés en 2026, 5 Md€ attendus en 2027. Lors du débat de 2025, une sénatrice socialiste avait rappelé que le taux effectif des grandes entreprises tourne autour de 14 %, contre un taux théorique de 25 % que paient presque les PME. Cette semaine, le sénateur Emmanuel Capus a estimé que le taux légal d&#39;un grand groupe, surtaxe comprise, peut atteindre 36,1 %. Les deux chiffres mesurent des choses différentes : le taux effectivement payé d&#39;un côté, le taux légal maximal de l&#39;autre.</p><p>En Espagne, Hacienda souligne que la taxe n&#39;a pas empêché des bénéfices bancaires record ; les six grandes banques ont gagné 14,1 Md€ sur neuf mois, selon El Boletín. Les banques ont porté le dispositif devant l&#39;Audiencia Nacional, et des juristes consultés par El Economista contestent l&#39;urgence invoquée pour une prorogation par décret-loi. Côté français, CMA CGM avait annoncé en octobre qu&#39;elle réduirait son projet de flotte sous pavillon français, selon LCP.</p>
+        
+<figure class="chart" aria-label="Rendement de la surtaxe d&#39;impôt sur les sociétés des grandes entreprises françaises, en millions d&#39;euros">
+  
+  <div class="bar-row"><span class="lbl">2025 (prévu)</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 8 000 M€</span></div><div class="bar-row"><span class="lbl">2026 (estimé)</span><span class="bar"><span class="fill w89 c-es"></span></span><span class="val">≈ 7 100 M€</span></div><div class="bar-row"><span class="lbl">2027 (attendu)</span><span class="bar"><span class="fill w62 c-es"></span></span><span class="val">≈ 5 000 M€</span></div>
+  <figcaption>France, 2025-2027, en millions d&#39;euros (prévu, estimé, attendu). Source : Sénat (commission des finances) via Public Sénat et Echos Plus ; France 24 (AFP).</figcaption>
+</figure>
+
+        
+        
+        <div class="debate"><h4>Le débat</h4><p>Les défenseurs des deux prélèvements avancent que les finances publiques l&#39;exigent (déficit visé de 5 % du PIB en 2027 en France), que 99 % des entreprises françaises ne sont pas concernées, que les grands groupes paient un taux effectif inférieur à celui des PME, et que les banques espagnoles ont continué d&#39;afficher des profits record. Les critiques répondent que la parole donnée est rompue, qu&#39;un impôt exceptionnel reconduit devient permanent, que le cumul peut atteindre 36,1 % selon un sénateur, que la Banque centrale européenne a averti en 2022 que le coût d&#39;une taxe bancaire retombe sur les clients par un crédit plus restreint et une épargne moins rémunérée, et que le décret-loi espagnol soulève un doute constitutionnel. Aucune source de la semaine ne mesure l&#39;effet réel sur l&#39;investissement ou le crédit : les deux camps défendent des positions, pas des mesures.</p></div>
+        
+      
+        
+        <h3>4. Contrepoint : qui est taxé, et par quel texte</h3>
+        <p>Les deux pays n&#39;ont pas choisi la même cible. La France taxe les grands groupes mais s&#39;en tient, pour les patrimoines, à l&#39;IFI (impôt sur la fortune immobilière, qui a remplacé l&#39;ISF en 2018). Le Sénat a écarté dans la nuit du 23 au 24 novembre la taxe Zucman, impôt plancher de 2 % sur les patrimoines de plus de 100 M€, après un rejet à l&#39;Assemblée le 16 octobre par 70 voix contre 35. L&#39;Espagne taxe ses banques et, avec l&#39;ITSGF, la part du patrimoine net supérieure à 3 M€, à des taux de 1,7 % à 3,5 %.</p><p>Le Parti populaire (PP, droite) promet de supprimer la taxe bancaire, selon des sources citées par The Objective. Le PSOE (parti socialiste) a proposé le 23 novembre un impôt sur les fortunes de plus de 100 M€, qu&#39;il évalue à 2 Md€ par an, sans préciser le taux. La méthode diffère aussi : la loi de finances, débattue dans deux chambres, en France ; un décret-loi voté en bloc par une commission, en Espagne.</p>
+        
+        
+        
+      
+        
+        <h3>5. Ce qu&#39;il faut surveiller</h3>
+        <p>En France, le vote final sur le budget est attendu le 9 décembre. En Espagne, la Diputación Permanente doit se prononcer avant la constitution des nouvelles Cortes le 23 décembre ; un recours devant le Tribunal constitutionnel exigerait l&#39;initiative de partis, selon El Economista. Le résultat du scrutin du 29 novembre pèsera sur le sort de la taxe bancaire. Pour une direction financière, trois paramètres comptent : le taux, le seuil d&#39;assujettissement et la durée annoncée.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un impôt reconduit trois ou quatre fois cesse d&#39;être un aléa et devient un paramètre de planification. Les deux États ont des motifs budgétaires documentés, et nous ne contestons pas l&#39;urgence des comptes. Nous relevons en revanche le coût de la méthode : en France, l&#39;engagement de 2025 a été contredit en 2026 ; en Espagne, la prolongation passe par un décret-loi pendant la dissolution des Cortes, avec une validité encore incertaine. Un investisseur ou un directeur financier devrait valoriser deux scénarios pour 2027-2028 : maintien au taux actuel et disparition. Mieux vaut aussi revoir les hypothèses de coût du crédit et de dividendes des filiales bancaires ou financières en Espagne, et le taux d&#39;impôt normatif des groupes français de plus de 1,5 Md€ de chiffre d&#39;affaires. L&#39;absence de mesure de l&#39;effet sur l&#39;investissement invite à la prudence dans les deux sens.</p></aside>
+    <div class="watch"><h4>Ce que nous surveillerons</h4><p>Nous suivrons le vote final sur le budget français attendu le 9 décembre et la convalidation des décrets-lois espagnols avant la constitution des Cortes le 23 décembre, ainsi que le sort de la taxe bancaire après le scrutin du 29 novembre.</p></div>
+    <p class="src">Sources : <a href="https://www.publicsenat.fr/actualites/politique/budget-le-senat-reconduit-la-surtaxe-sur-les-grandes-entreprises-allegee-de-2-milliards-deuros" target="_blank" rel="noopener">Public Sénat : le Sénat reconduit la surtaxe sur les grandes entreprises</a>, <a href="https://echosplus.com/2026/11/26/budget-2027-le-senat-reconduit-la-surtaxe-sur-les-grandes-entreprises/" target="_blank" rel="noopener">Echos Plus : budget 2027, surtaxe reconduite</a>, <a href="https://www.senat.fr/salle-de-presse/communiques-de-presse/presse/29-11-2025/le-senat-supprime-la-surtaxe-dimpot-sur-les-societes-pour-lexercice-2026.html" target="_blank" rel="noopener">Sénat : communiqué du 29 novembre 2025</a>, <a href="https://www.publicsenat.fr/actualites/parlementaire/impot-sur-les-societes-le-senat-supprime-la-contribution-exceptionnelle-des-grandes-entreprises" target="_blank" rel="noopener">Public Sénat : surtaxe supprimée en 2025</a>, <a href="https://www.france24.com/fr/info-en-continu/20251129-budget-le-s%C3%A9nat-s-oppose-%C3%A0-la-surtaxe-sur-les-entreprises" target="_blank" rel="noopener">France 24 (AFP) : le Sénat s&#39;oppose à la surtaxe</a>, <a href="https://lcp.fr/actualites/budget-l-armateur-cma-cgm-vise-par-une-surtaxe-exceptionnelle-prevoit-de-reduire-ses" target="_blank" rel="noopener">LCP : CMA CGM et la surtaxe</a>, <a href="https://www.lamoncloa.gob.es/consejodeministros/resumenes/Paginas/2026/241126-rueda-prensa-ministros.aspx" target="_blank" rel="noopener">La Moncloa : Conseil des ministres du 24 novembre 2026</a>, <a href="https://www.hacienda.gob.es/es-es/prensa/noticias/paginas/2026/20261124-np-impuesto-banca.aspx" target="_blank" rel="noopener">Ministerio de Hacienda : prorogation de la taxe bancaire</a>, <a href="https://www.boe.es/boe/dias/2026/11/25/pdfs/BOE-A-2026-24701.pdf" target="_blank" rel="noopener">BOE : Real Decreto-ley 43/2026</a>, <a href="https://www.eleconomista.es/banca-finanzas/noticias/14030519/11/26/los-juristas-ven-margen-para-recurrir-la-prorroga-del-impuesto-a-la-banca-por-inconstitucionalidad.html" target="_blank" rel="noopener">El Economista : recours contre la prorogation</a>, <a href="https://www.hoyaragon.es/bolsillo/decretos-24-noviembre-votacion-despues-29n/20261125085826153769.html" target="_blank" rel="noopener">Hoy Aragón : la Diputación Permanente et les décrets</a>, <a href="https://theobjective.com/espana/politica/2026-10-21/pp-suprimira-impuesto-a-la-banca-paga-cliente/" target="_blank" rel="noopener">The Objective : le PP supprimerait la taxe bancaire</a>, <a href="https://guiafiscal.es/patrimonio/itsgf-grandes-fortunas/" target="_blank" rel="noopener">Guía Fiscal : ITSGF 2026</a>, <a href="https://www.elboletin.com/los-beneficios-de-la-gran-banca-espanola-baten-record-con-14-061-millones-de-euros-hasta-septiembre/" target="_blank" rel="noopener">El Boletín : bénéfices des grandes banques</a>, <a href="https://www.publicsenat.fr/actualites/economie/budget-2027-le-senat-ecarte-a-nouveau-la-taxe-zucman-et-le-retablissement-de-lisf" target="_blank" rel="noopener">Public Sénat : taxe Zucman et ISF écartés</a>, <a href="https://www.eldiariodemadrid.es/politica/sanchez-impuesto-fortunas-mas-100-millones-recaudacion-2000-millones/20261123104322147678.html" target="_blank" rel="noopener">El Diario de Madrid : proposition du PSOE sur les fortunes</a>, <a href="https://votreleader.com/2026/11/budget-2027-le-senat-prolonge-la-surtaxe-des-grands-groupes-ramenee-a-5-milliards/" target="_blank" rel="noopener">Votre Leader : surtaxe et taux de 36,1 %</a></p>
+  </section>
+
+  <section id="fr-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">France</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalité</span>
+    <h3>Taxe Zucman et ISF écartés une nouvelle fois au Sénat : l&#39;IFI reste seul en place</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>L&#39;ISF, impôt de solidarité sur la fortune, a été supprimé en 2018 et remplacé par l&#39;IFI, qui ne frappe que le patrimoine immobilier. La taxe Zucman, impôt plancher de 2 % sur les patrimoines nets supérieurs à 100 M€, a été adoptée par l&#39;Assemblée en février 2025, puis rejetée par le Sénat le 12 juin 2025. L&#39;Assemblée l&#39;a de nouveau écartée du budget 2027 le 16 octobre, par 70 voix contre 35.</p></div>
+    <p class="sum">Dans la nuit du 23 au 24 novembre, la majorité sénatoriale de droite et du centre a rejeté les amendements de la gauche instaurant la taxe Zucman, ainsi que ceux rétablissant un ISF modulé selon l&#39;impact climatique du patrimoine. Elle invoque le risque pour l&#39;attractivité et la création d&#39;entreprises. Le projet du gouvernement, déposé le 1er octobre, ne la contenait pas. En Espagne, l&#39;ITSGF s&#39;applique au-delà de 3 M€ de patrimoine net, à des taux de 1,7 % à 3,5 %, et le PSOE a proposé le 23 novembre un impôt sur les fortunes de plus de 100 M€, évalué à 2 Md€ par an, sans taux précisé.</p>
+    <p class="src">Sources : <a href="https://www.publicsenat.fr/actualites/economie/budget-2027-le-senat-ecarte-a-nouveau-la-taxe-zucman-et-le-retablissement-de-lisf" target="_blank" rel="noopener">Public Sénat</a>, <a href="https://nosparlementaires.fr/actualites/impot-plancher-2-ultrariches-taxe-zucman-parlement" target="_blank" rel="noopener">NosParlementaires</a>, <a href="https://guiafiscal.es/patrimonio/itsgf-grandes-fortunas/" target="_blank" rel="noopener">Guía Fiscal</a>, <a href="https://www.eldiariodemadrid.es/politica/sanchez-impuesto-fortunas-mas-100-millones-recaudacion-2000-millones/20261123104322147678.html" target="_blank" rel="noopener">El Diario de Madrid</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un résident fiscal français qui détient des immeubles en Espagne reste en principe redevable de l&#39;IFI, alors que l&#39;Espagne taxe déjà les patrimoines dès 3 M€. Un investisseur devrait valoriser deux scénarios : maintien du régime espagnol actuel, ou ajout d&#39;un seuil à 100 M€ après le scrutin de dimanche.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Économie</span>
+    <h3>PIB en recul de 0,2 % au troisième trimestre, inflation à 2,9 % en novembre</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Fin octobre, la première estimation donnait −0,1 % pour le troisième trimestre. Le gouvernement comptait sur une croissance annuelle de 0,5 % en 2026, hypothèse que la révision fragilise encore. L&#39;inflation s&#39;élevait à 3,4 % en octobre.</p></div>
+    <p class="sum">Le 27 novembre, l&#39;Insee a ramené la croissance du troisième trimestre à −0,2 %, après 0,0 % au deuxième. Le pouvoir d&#39;achat par unité de consommation rebondit de 0,2 % après −0,5 %, mais les heures travaillées continuent de baisser et le besoin de financement des administrations publiques augmente. L&#39;emploi salarié est stable sur le trimestre et recule de 0,3 % sur un an. Le même jour, l&#39;inflation de novembre ressort à 2,9 % en estimation provisoire, contre 3,2 % attendus. En Espagne, le PIB a progressé de 0,6 % au troisième trimestre (INE, 30 octobre) et l&#39;inflation avancée de novembre atteint 4,1 % (INE, 27 novembre).</p>
+    <p class="src">Sources : <a href="https://www.insee.fr/fr/statistiques/9165918" target="_blank" rel="noopener">Insee : PIB du troisième trimestre 2026</a>, <a href="https://www.insee.fr/fr/statistiques/9161375" target="_blank" rel="noopener">Insee : prix à la consommation, novembre 2026</a>, <a href="https://www.insee.fr/fr/statistiques/9164251" target="_blank" rel="noopener">Insee : emploi salarié</a>, <a href="https://www.france-epargne.fr/news/linflation-francaise-ralentit-bien-plus-que-prevu-en-novembre-freinee-par-lenergie" target="_blank" rel="noopener">France Épargne</a>, <a href="https://www.ine.es/dyngs/Prensa/adIPC1126.htm" target="_blank" rel="noopener">INE : indicateur avancé de l&#39;IPC, novembre 2026</a>, <a href="https://www.ine.es/dyngs/Prensa/avCNTR3T26.htm" target="_blank" rel="noopener">INE : PIB du troisième trimestre 2026</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>L&#39;écart de croissance atteint huit dixièmes de point sur le seul trimestre, et l&#39;inflation espagnole dépasse la française de plus d&#39;un point. Pour un groupe qui arbitre entre deux implantations, la demande espagnole soutient les volumes mais renchérit salaires et loyers indexés ; la France offre le tableau inverse. Mieux vaut revoir les clauses d&#39;indexation des contrats espagnols.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Politique et société</span>
+    <h3>Budget de la Sécurité sociale 2027 : la commission mixte échoue, retour à l&#39;Assemblée le 7 décembre</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Le PLFSS (projet de loi de financement de la Sécurité sociale) 2027 a été déposé le 1er octobre. Il vise un déficit de 12,7 Md€ en 2027, contre 21,8 Md€ attendus en 2026. Le Sénat l&#39;a adopté par 201 voix contre 124, après un rejet des textes financiers par les députés.</p></div>
+    <p class="sum">Le 26 novembre, la CMP (commission mixte paritaire, réunion de sept députés et sept sénateurs chargée de bâtir un texte commun) n&#39;a pas abouti. Selon le rapporteur Thibault Bazin, des convergences existaient sur une centaine d&#39;articles, mais une dizaine restaient incertains. Le texte repart en nouvelle lecture à l&#39;Assemblée, en commission à partir du 30 novembre, puis en séance le 7 décembre. Le Premier ministre Sébastien Lecornu a pris acte de l&#39;échec. En Espagne, aucun budget de l&#39;État nouveau n&#39;a été voté depuis fin 2023, selon un guide fiscal spécialisé, et le gouvernement légifère par décrets-lois pendant la dissolution des Cortes.</p>
+    <p class="src">Sources : <a href="https://www.publicsenat.fr/actualites/politique/budget-2027-de-la-securite-sociale-echec-de-la-tentative-de-compromis-entre-deputes-et-senateurs" target="_blank" rel="noopener">Public Sénat</a>, <a href="https://www.franceinfo.fr/economie/budget/budget-de-la-securite-sociale-les-deputes-et-senateurs-echouent-a-trouver-un-accord-le-texte-retourne-a-l-assemblee_8301108.html" target="_blank" rel="noopener">Franceinfo</a>, <a href="https://nosparlementaires.fr/actualites/plfss-2027-calendrier-examen-date-par-date" target="_blank" rel="noopener">NosParlementaires</a>, <a href="https://guiafiscal.es/patrimonio/itsgf-grandes-fortunas/" target="_blank" rel="noopener">Guía Fiscal</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Les deux pays entrent en 2027 avec un cadre fiscal et social encore ouvert. Une entreprise qui construit son budget 2027 des deux côtés des Pyrénées devrait prévoir deux calendriers : un texte final en décembre, ou une adoption plus tardive. Les coûts de cotisations patronales en France restent à confirmer.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Entreprises et investissement</span>
+    <h3>Puig rachète 75 % d&#39;Artessence, propriétaire de Parfums de Marly, pour 1,2 Md€</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Puig, groupe catalan de beauté et de parfumerie, avait présenté il y a un mois un plan stratégique fondé sur la croissance organique. Artessence, propriétaire de Parfums de Marly et d&#39;Initio Parfums Privés, appartient au fonds Advent International depuis 2023, qui explorait sa vente depuis fin 2025. Puig a concouru avec les fonds CVC et Cinven.</p></div>
+    <p class="sum">Le 27 novembre au soir, Puig a annoncé l&#39;achat de 75 % d&#39;Artessence pour environ 1,2 Md€ en numéraire, financé par de la dette et des fonds propres. L&#39;opération valorise 100 % du groupe à 1,9 Md$ de valeur d&#39;entreprise, soit environ 1,6 Md€ selon le communiqué relayé par El Economista, pour des ventes nettes attendues de 420 à 440 M$. Le fondateur Julien Sprecher conserve 25 % et Puig pourra monter à 100 % dans un délai maximal de quatre ans. Dans l&#39;autre sens, l&#39;Espagne s&#39;est maintenue au deuxième rang des destinations des SCPI (sociétés civiles de placement immobilier, fonds immobiliers français non cotés), avec 18,6 % des flux au premier trimestre.</p>
+    <p class="src">Sources : <a href="https://www.eleconomista.es/retail-consumo/noticias/14031969/11/26/puig-compra-el-75-de-parfums-de-marly-e-initio-por-1200-millones-de-euros.html" target="_blank" rel="noopener">El Economista</a>, <a href="https://cronicaglobal.elespanol.com/business/20261127/puig-compra-grupo-artessence-marly-initio-millones/1003742815874_0.html" target="_blank" rel="noopener">Crónica Global</a>, <a href="https://fashionunited.es/noticias/empresas/puig-compra-por-1-200-millones-de-euros-el-75-por-ciento-de-parfums-de-marly-e-initio/2026112851393" target="_blank" rel="noopener">FashionUnited</a>, <a href="https://www.modaes.com/empresas/puig-compra-el-75-de-marly-e-initio-por-1200-millones-de-euros" target="_blank" rel="noopener">Modaes</a>, <a href="https://placement.meilleurtaux.com/scpi/actualites/2026-juillet/scpi-2026-strategie-investissement-toujours-tournee-vers-international.html" target="_blank" rel="noopener">Meilleurtaux Placement</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Un fonds vendeur d&#39;une marque française de niche trouve ici un acheteur industriel de l&#39;Union européenne, à environ quatre fois et demie les ventes attendues (calcul Rilamax). L&#39;option à quatre ans pour atteindre 100 % mérite l&#39;attention des fondateurs qui envisagent une sortie en deux temps.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">Espagne</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalité</span>
+    <h3>Indépendants : TVA annuelle facultative sous 85 000 € et Verifactu repoussé à octobre 2028</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Verifactu est la règle espagnole qui impose des logiciels de facturation conformes à un cahier des charges de l&#39;administration fiscale ; son entrée en vigueur a déjà été reportée plusieurs fois. Les autónomos (travailleurs indépendants) déclarent aujourd&#39;hui la TVA chaque trimestre, et l&#39;IRPF est l&#39;impôt sur le revenu espagnol.</p></div>
+    <p class="sum">Le 24 novembre, le Conseil des ministres a approuvé par décret-loi (RDL 43/2026, publié au BOE le 25) un allègement d&#39;IRPF de 465 M€ pour 2,6 millions d&#39;indépendants. Dès 2027, ceux qui facturent au plus 85 000 € pourront opter pour une seule déclaration de TVA par an, avec trois acomptes en avril, juillet et octobre ; environ 1,1 million de personnes sont visées. Verifactu est reporté au 6 octobre 2028. L&#39;option est réservée aux personnes physiques : les sociétés (SL) en sont exclues. Le texte doit être convalidé par la Diputación Permanente (commission qui remplace le Congrès dissous), en bloc avec la prorogation de la taxe bancaire. Comparaison française : pas de donnée équivalente fiable cette semaine.</p>
+    <p class="src">Sources : <a href="https://www.afiris.es/novedades-autonomos-43-2026/" target="_blank" rel="noopener">Afiris : RDL 43/2026</a>, <a href="https://www.infobae.com/espana/2026/11/24/novedades-de-ultima-hora-para-los-autonomos-el-gobierno-aprueba-rebajar-el-irpf-y-suprimir-el-iva-trimestral/" target="_blank" rel="noopener">Infobae</a>, <a href="https://www.que.es/2026/11/26/medidas-fiscales-autonomos-iva-irpf/" target="_blank" rel="noopener">Que.es</a>, <a href="https://alvamarconsultores.com/real-decreto-ley-43-2026-autonomos/" target="_blank" rel="noopener">Alvamar Consultores</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Pour une PME française dotée d&#39;une filiale espagnole en SL, l&#39;option de TVA annuelle ne change rien. Le report de Verifactu laisse du temps pour adapter les logiciels, mais rien n&#39;est acquis tant que le décret-loi n&#39;est pas convalidé.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Réglementation</span>
+    <h3>Crédit à la consommation : plafond transitoire de 22 % de TAEG et limites aux micro-prêts</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>L&#39;Espagne n&#39;avait aucun plafond légal du coût du crédit à la consommation. Le délai de transposition de la directive européenne sur le sujet a expiré le 20 novembre 2025 : le texte arrive avec plus d&#39;un an de retard. Les micro-prêts en ligne affichaient des TAEG (taux annuel effectif global) de plusieurs milliers de pour cent.</p></div>
+    <p class="sum">Le décret-loi 44/2026, publié au BOE le 25 novembre, fixe un plafond général transitoire de 22 % de TAEG pour les nouveaux crédits à la consommation, jusqu&#39;au règlement définitif. Les cartes revolving déjà souscrites sont plafonnées à 22 % de taux nominal. Pour les crédits de haut coût : 6 % d&#39;intérêt mensuel maximum et 15 € de frais ; un micro-prêt de 300 € sur 30 jours passerait de 103 € à 33 €. Les limites s&#39;appliquent à partir du 25 février 2027. Des acteurs du secteur jugent qu&#39;un plafond unique menace le financement au point de vente. En France, l&#39;encadrement passe par le taux d&#39;usure (5,40 % pour les prêts immobiliers de 20 ans et plus au 20 novembre) ; nous n&#39;avons pas de donnée comparable fiable sur le crédit à la consommation.</p>
+    <p class="src">Sources : <a href="https://www.que.es/2026/11/24/topes-intereses-creditos-rapidos/" target="_blank" rel="noopener">Que.es</a>, <a href="https://www.financiar24.es/noticias/nueva-ley-de-credito-al-consumo/" target="_blank" rel="noopener">Financiar24</a>, <a href="https://www.elnacional.cat/oneconomia/es/economia/gobierno-limita-credito-consumo-revolving-interes-maximo-22-tae_1730555_102.html" target="_blank" rel="noopener">El Nacional</a>, <a href="https://roams.es/actualidad/finanzas/gobierno-tope-transitorio-22-tae-credito-consumo-limita-microcreditos/" target="_blank" rel="noopener">Roams</a>, <a href="https://www.maison-immobilier.fr/taux-pour-immobilier-duree-pret/" target="_blank" rel="noopener">La Maison de l&#39;Immobilier</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Les groupes français actifs dans le crédit à la consommation en Espagne, en direct ou par des partenariats de distribution, devraient mesurer l&#39;effet d&#39;un plafond unique sur leurs produits à marge élevée. Le texte reste à convalider, et le règlement à venir doit fixer des plafonds par type de crédit.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Politique et société</span>
+    <h3>Élections du 29 novembre : le scrutin fiscal se joue sur la taxe bancaire et les grandes fortunes</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Les Cortes sont dissoutes et les Espagnols votent dimanche. Les décrets-lois du dernier Conseil des ministres, le 24 novembre, doivent être convalidés par la Diputación Permanente, qui compte 69 membres : 34 du bloc qui a investi le gouvernement, 33 du PP et de Vox, et un représentant chacun pour Junts et le PNV.</p></div>
+    <p class="sum">Les sondages sont interdits de publication depuis le 24 novembre. Le baromètre 40dB du 9 novembre donnait le PP à 31,9 %, le PSOE à 29,9 % et Vox à 18 % ; la majorité absolue se situe à 176 sièges. Sur le terrain fiscal, le PP prévoit de supprimer la taxe bancaire, selon des sources citées par The Objective, et le PSOE propose depuis le 23 novembre un impôt sur les fortunes de plus de 100 M€. Les nouvelles Cortes se constituent le 23 décembre. Ostrum, filiale de Natixis, retient une croissance moyenne de 3,7 % de 2021 à 2025 et un déficit de 2,4 % en 2025. En France, l&#39;objectif de déficit est de 5 % du PIB en 2027 : années différentes, faute de donnée 2026 comparable.</p>
+    <p class="src">Sources : <a href="https://abceconomia.co/2026/11/13/elecciones-espana-campana-encuestas/" target="_blank" rel="noopener">ABC Economía</a>, <a href="https://www.democrata.es/elecciones-generales-espana/herramientas/encuestas" target="_blank" rel="noopener">Democrata : veda de encuestas</a>, <a href="https://www.hoyaragon.es/bolsillo/decretos-24-noviembre-votacion-despues-29n/20261125085826153769.html" target="_blank" rel="noopener">Hoy Aragón</a>, <a href="https://theobjective.com/espana/politica/2026-10-21/pp-suprimira-impuesto-a-la-banca-paga-cliente/" target="_blank" rel="noopener">The Objective</a>, <a href="https://rankiapro.com/es/insights/elecciones-generales-2026-encuestas-natixis/" target="_blank" rel="noopener">Rankia Pro : Ostrum (Natixis IM)</a>, <a href="https://www.ouest-france.fr/economie/budget-collectivites-etat/budget-2027-le-senat-approuve-leffort-de-5-milliards-demande-aux-grandes-entreprises-38950894-e91d-11f1-86c1-70195b4d2e52" target="_blank" rel="noopener">Ouest-France</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Quel que soit le résultat, la fiscalité de 2027 dépend de décisions ouvertes : convalidation des décrets avant le 23 décembre, maintien ou abrogation de la taxe bancaire, création éventuelle d&#39;un impôt à 100 M€. Ostrum juge que les fondamentaux macroéconomiques résistent au scrutin. Un investisseur devrait valoriser un scénario d&#39;alternance et un scénario de continuité, sans en préférer un.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Immobilier</span>
+    <h3>SCPI françaises : un hôtel de 7 M€ à Lloret de Mar, et l&#39;Espagne à 29 % d&#39;un portefeuille</h3>
+    <div class="ctx"><span class="ctx-l">Contexte</span><p>Les SCPI investissent surtout hors de France : 75 % de leurs acquisitions du premier trimestre 2026, sur 903 M€ au total. L&#39;Espagne se maintient au deuxième rang des destinations, avec 18,6 % des flux.</p></div>
+    <p class="sum">Le 23 novembre, idealista a révélé que Swiss Life a acheté pour le compte de la SCPI Mistral Sélection l&#39;hôtel Lloret Santa Rosa, à Lloret de Mar (Gérone), pour 7 M€. L&#39;Espagne pèse désormais 29 % du portefeuille de ce véhicule, autant que la France. En septembre, Atream Hôtels est entré sur le marché espagnol avec un quatre étoiles de 216 chambres, loué 15 ans à Pierre &amp; Vacances. Pour l&#39;investissement immobilier espagnol dans son ensemble, Savills a compté environ 6,1 Md€ au premier trimestre 2026, en hausse de 56 % sur un an ; nous n&#39;avons pas de chiffre français comparable dans nos sources.</p>
+    <p class="src">Sources : <a href="https://www.idealista.com/news/finanzas/inversion/2026/11/23/925423-las-socimis-francesas-ganan-terreno-en-espana-mistral-selection-compra-un-hotel-en" target="_blank" rel="noopener">idealista/news</a>, <a href="https://placement.meilleurtaux.com/scpi/actualites/2026-juillet/scpi-2026-strategie-investissement-toujours-tournee-vers-international.html" target="_blank" rel="noopener">Meilleurtaux Placement</a>, <a href="https://investirscpienligne.fr/les-actualites-scpi-de-la-semaine-25/" target="_blank" rel="noopener">Investir SCPI en ligne</a>, <a href="https://epargnoo.com/marketplace/scpi/espagne" target="_blank" rel="noopener">Epargnoo</a></p>
+  </div>
+  <aside class="lecture"><h4>Lecture Rilamax</h4><p>Les loyers d&#39;un immeuble espagnol sont d&#39;abord imposés en Espagne : pour une SCPI très exposée, environ 17 % de la distribution du deuxième trimestre 2026 correspondait déjà à de l&#39;impôt étranger. Un investisseur devrait comparer les rendements nets, et non bruts, entre actifs français et espagnols.</p></aside>
+</article>
+  </section>
+
+  <section id="fr-agenda">
+    <h2>À surveiller dans les prochaines semaines</h2>
+    <ul class="agenda"><li><span class="when">29 novembre 2026</span><span class="what">Espagne : élections générales</span></li><li><span class="when">7 décembre 2026</span><span class="what">France : nouvelle lecture du budget de la Sécurité sociale 2027 en séance à l&#39;Assemblée</span></li><li><span class="when">9 décembre 2026</span><span class="what">France : vote final attendu sur le budget 2027, selon le Journal du Net</span></li><li><span class="when">17 décembre 2026</span><span class="what">Zone euro : décision de politique monétaire de la BCE</span></li><li><span class="when">23 décembre 2026</span><span class="what">Espagne : constitution des nouvelles Cortes ; convalidation des décrets-lois 43 et 44/2026 attendue avant cette date selon la presse</span></li></ul>
+  </section>
+
+  
+  <section id="fr-glosario">
+    <h2>Les sigles de cette édition</h2>
+    <dl class="glossary"><div><dt>Autónomo</dt><dd>Travailleur indépendant espagnol. Il déclare la TVA chaque trimestre, sauf nouvelle option annuelle prévue à partir de 2027 sous 85 000 € de volume d&#39;opérations.</dd></div><div><dt>CMP</dt><dd>Commission mixte paritaire : sept députés et sept sénateurs chargés de proposer un texte commun. Son échec renvoie le projet en nouvelle lecture.</dd></div><div><dt>Diputación Permanente</dt><dd>Commission du Congrès espagnol qui exerce ses pouvoirs entre deux législatures. Elle convalide ou rejette en bloc les décrets-lois.</dd></div><div><dt>IFI</dt><dd>Impôt sur la fortune immobilière : il a remplacé l&#39;ISF en 2018 et ne taxe que le patrimoine immobilier net des contribuables français.</dd></div><div><dt>ITSGF</dt><dd>Impôt temporaire de solidarité des grandes fortunes espagnol : il taxe la part du patrimoine net supérieure à 3 M€, à des taux de 1,7 % à 3,5 %, et complète l&#39;impôt sur le patrimoine.</dd></div><div><dt>PLFSS</dt><dd>Projet de loi de financement de la Sécurité sociale : le texte annuel qui fixe les recettes, les dépenses et l&#39;objectif de déficit de la Sécurité sociale française.</dd></div><div><dt>RDL</dt><dd>Real decreto-ley, décret-loi espagnol adopté par le gouvernement en cas d&#39;urgence. Il entre en vigueur à sa publication et doit être convalidé dans les trente jours.</dd></div><div><dt>SCPI</dt><dd>Société civile de placement immobilier : fonds français non coté qui détient des immeubles et distribue les loyers aux porteurs de parts.</dd></div><div><dt>TAEG</dt><dd>Taux annuel effectif global : il mesure le coût total d&#39;un crédit, intérêts et frais compris. Le plafond espagnol de 22 % porte sur cette mesure.</dd></div><div><dt>Verifactu</dt><dd>Règle espagnole de facturation vérifiable : elle impose des logiciels de facturation conformes à un cahier des charges de l&#39;administration fiscale. Son entrée en vigueur est reportée à octobre 2028.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>Le Bulletin Rilamax paraît chaque samedi : l&#39;essentiel de l&#39;économie, de la finance et de la politique entre la France et l&#39;Espagne, avec notre lecture.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">S&#39;abonner sur LinkedIn</a>
+  </section>
+
+  
+  <section id="fr-archivo" class="archive">
+    <h2>Éditions précédentes</h2>
+    <ul><li><a href="/ediciones/2026-11-21/">N° 8 — Transparence salariale : l&#39;Espagne décrète, la France attend le Sénat</a><span>2026-11-21</span></li><li><a href="/ediciones/2026-11-14/">N° 7 — Salaire minimum : la France subventionne les cotisations, l&#39;Espagne laisse la hausse à l&#39;employeur</a><span>2026-11-14</span></li><li><a href="/ediciones/2026-11-07/">N° 6 — Régularisation en Espagne : un demi-million d&#39;affiliés, un effet macroéconomique limité</a><span>2026-11-07</span></li><li><a href="/ediciones/2026-10-31/">N° 5 — Gagner une élection n&#39;est pas un brevet de pilote</a><span>2026-10-31</span></li><li><a href="/ediciones/2026-10-24/">N° 4 — Émeutes et inondations : deux modèles pour payer le risque qui s&#39;emballe</a><span>2026-10-24</span></li><li><a href="/ediciones/2026-10-17/">N° 3 — Inflation : l&#39;Espagne croît plus vite que la France, mais renchérit plus vite</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Énergie : ce que la France tire de ses champs et que l&#39;Espagne laisse filer</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Logement en Espagne : un déficit d&#39;offre que les décrets ne traitaient pas, des zones tendues à l&#39;épreuve des chiffres</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>Le Bulletin Rilamax est publié par RILAMAX 2025 SL. Les résumés sont rédigés par nos soins à partir des sources citées. Les lectures Rilamax sont des analyses générales et ne constituent pas des conseils d&#39;investissement personnalisés. Veille et rédaction assistées par l&#39;IA. Sélection, vérification et analyse : Jean Marc Pavia.</p></footer>
+</div>
+
+
+<div class="edition" data-lang="es" lang="es" hidden>
+<header class="mast">
+  <div class="wrap">
+    <div class="bridge"><span>Francia</span><span class="line" aria-hidden="true"></span><span>España</span></div>
+    <div class="titlerow">
+      <h1>El Boletín Rilamax</h1>
+      <div class="langs" role="group" aria-label="Idioma"><button type="button" data-set="fr" aria-pressed="false">FR</button><button type="button" data-set="es" aria-pressed="true">ES</button></div>
+    </div>
+    <div class="meta"><span>N.º 9 · Semana 48</span><span>Del 23 al 28 de noviembre de 2026</span><span>Lectura: 20 minutos</span></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sumario">
+  <div class="wrap"><ul>
+    <li><a href="#es-edito">El editorial</a></li>
+    <li><a href="#es-cifras">Las cifras</a></li>
+    <li><a href="#es-dossier">El dossier</a></li>
+    <li><a href="#es-fr">Francia</a></li>
+    <li><a href="#es-es">España</a></li>
+    <li><a href="#es-agenda">A vigilar</a></li>
+    <li><a href="#es-glosario">Glosario</a></li>
+    <li><a href="/archivo/?lang=es">Todas las ediciones</a></li>
+  </ul></div>
+</nav>
+
+<main class="wrap">
+  <section id="es-edito">
+    <h2>Impuestos «temporales» que se quedan a ambos lados de los Pirineos</h2>
+    <div class="edito">
+      <div class="body">
+        <p>El Senado francés, la cámara alta del Parlamento, prorrogó el miércoles 25 de noviembre, a mano alzada, el recargo del impuesto sobre sociedades a los grandes grupos, por tercer año. La víspera, el Consejo de Ministros español había alargado un año el impuesto sobre el margen de intereses de los bancos. Dos Gobiernos, dos gravámenes presentados en origen como provisionales y la misma lógica de ingresos rápidos.</p><p>Los importes son del mismo orden. El recargo francés debía aportar unos 8.000 millones de euros en 2025 y aportará 5.000 en 2027. El impuesto bancario español ha recaudado 5.700 millones de 2023 a 2026 y sumará 1.400 millones el año próximo. En noviembre de 2025, ese mismo Senado había votado sin embargo suprimir el recargo, en nombre de la palabra dada.</p><p>Las situaciones económicas divergen. El PIB francés retrocedió un 0,2 % en el tercer trimestre, mientras el español avanzaba un 0,6 %, y la inflación alcanza el 4,1 % en España frente al 2,9 % en Francia. La herramienta fiscal es, pese a todo, la misma. Cambia el método: dos cámaras en París; en Madrid, un real decreto-ley con las Cortes disueltas, que la Diputación Permanente debe convalidar en bloque junto con otras medidas.</p><p>Retenemos un hecho medible para las direcciones financieras: un gravamen creado sin fecha de salida se convierte en un dato de planificación. Para un grupo español con negocio en Francia, o a la inversa, la discusión versa ya sobre el tipo y la duración, y menos sobre la existencia. Las elecciones españolas del domingo y la votación presupuestaria francesa del 9 de diciembre darán las primeras respuestas.</p>
+        <p class="sign">— Jean Marc, RILAMAX 2025</p>
+      </div>
+      <aside class="keys">
+        <h3>Los tres puntos clave</h3>
+        <ol><li>El recargo francés entra en su tercer año y el impuesto bancario español, en el cuarto.</li><li>París lo tramita en la ley de presupuestos; Madrid, por real decreto-ley que debe convalidarse antes del 23 de diciembre.</li><li>Una empresa francesa con más de 1.500 millones de facturación seguirá sujeta al recargo en 2027, aunque su rendimiento baja de 7.100 a 5.000 millones.</li></ol>
+      </aside>
+    </div>
+  </section>
+
+  <section id="es-cifras">
+    <h2>Las cifras de la semana</h2>
+    <div class="figs">
+      <div class="fig fr"><strong>−0,2 %</strong><span>Variación del PIB francés en el tercer trimestre de 2026 según el Insee (instituto nacional de estadística francés), revisada a la baja tras una primera estimación del −0,1 %; el segundo trimestre queda estable.</span><em class="cmp-o es">España: +0,6 % (3.er trimestre, INE, avance del 30 de octubre)</em><small>Insee, 27 de noviembre de 2026</small></div><div class="fig fr"><strong>2,9 %</strong><span>Inflación francesa interanual en noviembre, estimación provisional, frente al 3,4 % de octubre y al 3,2 % que esperaban los economistas.</span><em class="cmp-o es">España: 4,1 % (indicador adelantado de noviembre, INE, 27 de noviembre)</em><small>Insee, 27 de noviembre de 2026</small></div><div class="fig fr"><strong>31.166</strong><span>Viviendas autorizadas para construcción en Francia en octubre, un 0,7 % más en un mes; en doce meses, 373.979 autorizaciones, un 9,7 % por debajo de la media de los cinco años anteriores.</span><em class="cmp-o es">España: 14.445 visados de dirección de obra de viviendas nuevas en julio, +3,3 % interanual (Ministerio de Transportes, publicado en noviembre); meses y conceptos distintos.</em><small>SDES (servicio estadístico del Ministerio de Transición Ecológica francés), 27 de noviembre de 2026</small></div><div class="fig es"><strong>46.469</strong><span>Hipotecas sobre viviendas inscritas en España en septiembre, un 2,3 % más interanual y el mejor septiembre desde 2010; tipo medio del 3,05 %.</span><em class="cmp-o fr">Francia: tipo medio del 3,49 % en octubre (Observatoire Crédit Logement/CSA, préstamos garantizados, sin seguro); perímetro distinto.</em><small>INE, 25 de noviembre de 2026</small></div><div class="fig es"><strong>2,50 %</strong><span>Ratio de morosidad de los bancos españoles en septiembre, la más baja desde julio de 2008, con 31.435 M€ de créditos dudosos.</span><em class="cmp-o fr">Sin dato francés comparable fiable publicado esta semana.</em><small>Banco de España, 24 de noviembre de 2026</small></div><div class="fig es"><strong>1.400 M€</strong><span>Recaudación prevista en 2027 por la prórroga del impuesto a la banca, tras 5.723 M€ ingresados de 2023 a 2026; se destinará a vivienda.</span><em class="cmp-o fr">Francia: recargo del IS a los grandes grupos, unos 5.000 M€ previstos en 2027 (Senado, 25 de noviembre)</em><small>Ministerio de Hacienda y La Moncloa, 24 de noviembre de 2026</small></div>
+    </div>
+  </section>
+
+  
+  <section id="es-dossier" class="dossier">
+    <h2>El dossier: Impuestos de urgencia que duran: recargo francés, impuesto bancario español</h2>
+    <p class="intro">En dos días, París y Madrid han prorrogado dos gravámenes nacidos como medidas de urgencia: el recargo del impuesto sobre sociedades a los grandes grupos franceses, que entra en su tercer año, y el impuesto español sobre el margen de intereses de los bancos, que pasa a su cuarto. Este dossier repasa su origen, su rendimiento y lo que su duración cambia para un inversor.</p>
+    <div class="dfigs"><div><strong>5.000 M€</strong><span>Rendimiento previsto del recargo del IS francés en 2027, frente a 7.100 M€ estimados para 2026.</span></div><div><strong>5.723 M€</strong><span>Ingresados por el impuesto bancario español de 2023 a 2026, antes de los 1.400 M€ previstos de la prórroga.</span></div><div><strong>3 M€</strong><span>Umbral de patrimonio neto a partir del cual se aplica el ITSGF español, creado en 2022 por dos años.</span></div><div><strong>23 dic.</strong><span>Constitución de las nuevas Cortes; la convalidación de los reales decretos-leyes se espera antes de esa fecha.</span></div></div>
+    <div class="longform">
+      
+        
+        <h3>1. Dos impuestos concebidos como provisionales</h3>
+        <p>El recargo francés, oficialmente «contribución excepcional sobre los beneficios de las grandes empresas», nació con el presupuesto de 2025, bajo el Gobierno de Michel Barnier. Debía aportar unos 8.000 millones de euros el primer año. En noviembre de 2025, el Senado, cámara alta del Parlamento francés, votó suprimirlo para 2026, recordando que el texto de 2025 lo limitaba a un solo ejercicio y que el Gobierno se había comprometido a ello en varias ocasiones. Se prorrogó de todos modos, con un rendimiento estimado de 7.100 millones en 2026. Hoy solo afecta a las empresas con una facturación de al menos 1.500 millones de euros.</p><p>En España, el impuesto sobre el margen de intereses y comisiones de los bancos nació de la Ley 38/2022 como gravamen temporal, al 4,8 % sobre las entidades con más de 800 M€ de ingresos. La Ley 7/2024 lo reformuló para 2024 a 2026, con una escala progresiva (del 1 % al 7 %, según la prensa económica). El ITSGF, impuesto temporal de solidaridad de las grandes fortunas, creado ese mismo año para dos ejercicios, siguió el mismo camino: un real decreto-ley de diciembre de 2023 lo hizo indefinido mientras no se concluya la reforma de la financiación autonómica.</p>
+        
+        
+        
+      
+        
+        <h3>2. La respuesta de la semana: una votación a mano alzada, un real decreto-ley</h3>
+        <p>El 25 de noviembre, el Senado aprobó sin modificaciones, a mano alzada, el artículo 15 del presupuesto de 2027, que prorroga el recargo con un tipo reducido: unos 5.000 millones previstos, frente a 7.100 en 2026. El ministro de Economía, Roland Lescure, recordó que el 99 % de las empresas francesas no lo paga. El centrista Vincent Capo-Canellas habló de una contribución excepcional convertida en permanente. Una contribución distinta de 300 M€, con tope, apunta al transporte marítimo de mercancías, es decir, sobre todo a la naviera francesa CMA CGM. El Gobierno quiere reducir el déficit al 5 % del PIB en 2027.</p><p>En Madrid, el Consejo de Ministros aprobó el 24 de noviembre el Real Decreto-ley (RDL) 43/2026, publicado el 25 en el BOE. Prorroga el impuesto a la banca para 2027, con 1.400 millones previstos y destinados a vivienda, tras 5.700 millones ingresados de 2023 a 2026. Con las Cortes disueltas, la convalidación corresponde a la Diputación Permanente, comisión de 69 miembros que actúa entre legislaturas. Vota el texto en bloque, junto con las medidas para autónomos. Las nuevas Cortes se reúnen el 23 de diciembre.</p>
+        
+<figure class="chart" aria-label="Recaudación prevista en 2027 de los gravámenes excepcionales prorrogados, en millones de euros">
+  
+  <div class="bar-row"><span class="lbl">Francia: recargo IS</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 5.000 M€</span></div><div class="bar-row"><span class="lbl">España: impuesto a la banca</span><span class="bar"><span class="fill w28 c-es"></span></span><span class="val">≈ 1.400 M€</span></div><div class="bar-row"><span class="lbl">Francia: transporte marítimo</span><span class="bar"><span class="fill w6 c-es"></span></span><span class="val">≈ 300 M€ (tope)</span></div>
+  <figcaption>Francia y España, 2027, en millones de euros (previsiones). Fuente: Senado francés vía Public Sénat; Ministerio de Hacienda.</figcaption>
+</figure>
+
+        
+        
+      
+        
+        <h3>3. Lo que muestran las cifras y lo que dejan abierto</h3>
+        <p>El rendimiento francés baja con el tipo: unos 8.000 millones previstos en 2025, 7.100 estimados en 2026 y 5.000 esperados en 2027. En el debate de 2025, una senadora socialista recordó que el tipo efectivo de las grandes empresas ronda el 14 %, frente a un tipo teórico del 25 % que pagan casi por completo las pymes. Esta semana, el senador Emmanuel Capus estimó que el tipo legal de un gran grupo, recargo incluido, puede alcanzar el 36,1 %. Las dos cifras miden cosas distintas: el tipo efectivamente pagado y el tipo legal máximo.</p><p>En España, Hacienda subraya que el impuesto no ha impedido beneficios bancarios récord; los seis grandes bancos ganaron 14.100 millones de euros en nueve meses, según El Boletín. Los bancos han llevado el dispositivo ante la Audiencia Nacional, y juristas consultados por El Economista cuestionan la urgencia invocada para una prórroga por real decreto-ley. En Francia, CMA CGM anunció en octubre que reduciría su proyecto de flota con pabellón francés, según LCP (La Chaîne parlementaire, el canal de la Asamblea Nacional).</p>
+        
+<figure class="chart" aria-label="Rendimiento del recargo del impuesto sobre sociedades de las grandes empresas francesas, en millones de euros">
+  
+  <div class="bar-row"><span class="lbl">2025 (previsto)</span><span class="bar"><span class="fill w100 c-es"></span></span><span class="val">≈ 8.000 M€</span></div><div class="bar-row"><span class="lbl">2026 (estimado)</span><span class="bar"><span class="fill w89 c-es"></span></span><span class="val">≈ 7.100 M€</span></div><div class="bar-row"><span class="lbl">2027 (esperado)</span><span class="bar"><span class="fill w62 c-es"></span></span><span class="val">≈ 5.000 M€</span></div>
+  <figcaption>Francia, 2025-2027, en millones de euros (previsto, estimado, esperado). Fuente: Senado francés (comisión de finanzas) vía Public Sénat y Echos Plus; France 24 (AFP).</figcaption>
+</figure>
+
+        
+        
+        <div class="debate"><h4>El debate</h4><p>Los defensores de ambos gravámenes sostienen que las finanzas públicas lo exigen (déficit objetivo del 5 % del PIB en 2027 en Francia), que el 99 % de las empresas francesas no está afectado, que los grandes grupos pagan un tipo efectivo inferior al de las pymes y que los bancos españoles han seguido anunciando beneficios récord. Los críticos responden que se ha roto la palabra dada, que un impuesto excepcional prorrogado se vuelve permanente, que la acumulación puede alcanzar el 36,1 % según un senador, que el Banco Central Europeo advirtió en 2022 de que el coste de un impuesto bancario acaba recayendo en los clientes, con un crédito más restringido y un ahorro peor remunerado, y que el real decreto-ley español suscita dudas constitucionales. Ninguna fuente de la semana mide el efecto real sobre la inversión o el crédito: los dos bandos defienden posiciones que ninguna medición respalda.</p></div>
+        
+      
+        
+        <h3>4. Contrapunto: a quién se grava y con qué texto</h3>
+        <p>Los dos países no han elegido el mismo blanco. Francia grava a los grandes grupos pero, para los patrimonios, se limita al IFI (impuesto sobre la fortuna inmobiliaria, que sustituyó en 2018 al ISF, el impuesto sobre la fortuna). El Senado descartó en la noche del 23 al 24 de noviembre la tasa Zucman, un impuesto mínimo del 2 % sobre patrimonios de más de 100 M€, tras un rechazo en la Asamblea Nacional el 16 de octubre por 70 votos contra 35. España grava a su banca y, con el ITSGF, la parte del patrimonio neto superior a 3 M€, con tipos del 1,7 % al 3,5 %.</p><p>El Partido Popular (PP) promete suprimir el impuesto a la banca, según fuentes citadas por The Objective. El PSOE propuso el 23 de noviembre un impuesto sobre las fortunas de más de 100 M€, que evalúa en 2.000 millones al año, sin precisar el tipo. El método también difiere: en Francia, la ley de presupuestos, debatida en dos cámaras; en España, un real decreto-ley votado en bloque por una comisión.</p>
+        
+        
+        
+      
+        
+        <h3>5. Qué vigilar</h3>
+        <p>En Francia, la votación final del presupuesto se espera el 9 de diciembre. En España, la Diputación Permanente debe pronunciarse antes de la constitución de las nuevas Cortes, el 23 de diciembre; un recurso ante el Tribunal Constitucional exigiría la iniciativa de partidos, según El Economista. El resultado de las elecciones del 29 de noviembre pesará en la suerte del impuesto a la banca. Para una dirección financiera cuentan tres parámetros: el tipo, el umbral de sujeción y la duración anunciada.</p>
+        
+        
+        
+      
+    </div>
+    <aside class="lecture"><h4>Lectura Rilamax</h4><p>Un impuesto prorrogado tres o cuatro veces deja de ser un imprevisto y pasa a ser un parámetro de planificación. Los dos Estados tienen motivos presupuestarios documentados y no discutimos la urgencia de las cuentas. Constatamos, en cambio, el coste del método: en Francia, el compromiso de 2025 quedó contradicho en 2026; en España, la prórroga llega por real decreto-ley con las Cortes disueltas y con una validez todavía incierta. Una empresa o un inversor español con negocio en Francia debería valorar dos escenarios para 2027-2028, mantenimiento al tipo actual y desaparición del recargo, y revisar el tipo impositivo normativo de las entidades francesas por encima de 1.500 millones de facturación. Si el grupo tiene actividad bancaria o financiera en España, conviene revisar también las hipótesis de coste del crédito y de dividendos. Como ningún dato mide el efecto sobre la inversión, la prudencia vale en ambos sentidos.</p></aside>
+    <div class="watch"><h4>Lo que vigilaremos</h4><p>Seguiremos la votación final del presupuesto francés, prevista el 9 de diciembre, la convalidación de los reales decretos-leyes españoles antes de la constitución de las Cortes el 23 de diciembre y la suerte del impuesto a la banca tras las elecciones del 29 de noviembre.</p></div>
+    <p class="src">Fuentes: <a href="https://www.publicsenat.fr/actualites/politique/budget-le-senat-reconduit-la-surtaxe-sur-les-grandes-entreprises-allegee-de-2-milliards-deuros" target="_blank" rel="noopener">Public Sénat: el Senado prorroga el recargo a las grandes empresas</a>, <a href="https://echosplus.com/2026/11/26/budget-2027-le-senat-reconduit-la-surtaxe-sur-les-grandes-entreprises/" target="_blank" rel="noopener">Echos Plus: presupuesto 2027, recargo prorrogado</a>, <a href="https://www.senat.fr/salle-de-presse/communiques-de-presse/presse/29-11-2025/le-senat-supprime-la-surtaxe-dimpot-sur-les-societes-pour-lexercice-2026.html" target="_blank" rel="noopener">Senado francés: comunicado del 29 de noviembre de 2025</a>, <a href="https://www.publicsenat.fr/actualites/parlementaire/impot-sur-les-societes-le-senat-supprime-la-contribution-exceptionnelle-des-grandes-entreprises" target="_blank" rel="noopener">Public Sénat: recargo suprimido en 2025</a>, <a href="https://www.france24.com/fr/info-en-continu/20251129-budget-le-s%C3%A9nat-s-oppose-%C3%A0-la-surtaxe-sur-les-entreprises" target="_blank" rel="noopener">France 24 (AFP): el Senado se opone al recargo</a>, <a href="https://lcp.fr/actualites/budget-l-armateur-cma-cgm-vise-par-une-surtaxe-exceptionnelle-prevoit-de-reduire-ses" target="_blank" rel="noopener">LCP: CMA CGM y el recargo</a>, <a href="https://www.lamoncloa.gob.es/consejodeministros/resumenes/Paginas/2026/241126-rueda-prensa-ministros.aspx" target="_blank" rel="noopener">La Moncloa: Consejo de Ministros del 24 de noviembre de 2026</a>, <a href="https://www.hacienda.gob.es/es-es/prensa/noticias/paginas/2026/20261124-np-impuesto-banca.aspx" target="_blank" rel="noopener">Ministerio de Hacienda: prórroga del impuesto a la banca</a>, <a href="https://www.boe.es/boe/dias/2026/11/25/pdfs/BOE-A-2026-24701.pdf" target="_blank" rel="noopener">BOE: Real Decreto-ley 43/2026</a>, <a href="https://www.eleconomista.es/banca-finanzas/noticias/14030519/11/26/los-juristas-ven-margen-para-recurrir-la-prorroga-del-impuesto-a-la-banca-por-inconstitucionalidad.html" target="_blank" rel="noopener">El Economista: recursos contra la prórroga</a>, <a href="https://www.hoyaragon.es/bolsillo/decretos-24-noviembre-votacion-despues-29n/20261125085826153769.html" target="_blank" rel="noopener">Hoy Aragón: la Diputación Permanente y los decretos</a>, <a href="https://theobjective.com/espana/politica/2026-10-21/pp-suprimira-impuesto-a-la-banca-paga-cliente/" target="_blank" rel="noopener">The Objective: el PP suprimiría el impuesto a la banca</a>, <a href="https://guiafiscal.es/patrimonio/itsgf-grandes-fortunas/" target="_blank" rel="noopener">Guía Fiscal: ITSGF 2026</a>, <a href="https://www.elboletin.com/los-beneficios-de-la-gran-banca-espanola-baten-record-con-14-061-millones-de-euros-hasta-septiembre/" target="_blank" rel="noopener">El Boletín: beneficios de la gran banca</a>, <a href="https://www.publicsenat.fr/actualites/economie/budget-2027-le-senat-ecarte-a-nouveau-la-taxe-zucman-et-le-retablissement-de-lisf" target="_blank" rel="noopener">Public Sénat: tasa Zucman e ISF descartados</a>, <a href="https://www.eldiariodemadrid.es/politica/sanchez-impuesto-fortunas-mas-100-millones-recaudacion-2000-millones/20261123104322147678.html" target="_blank" rel="noopener">El Diario de Madrid: propuesta del PSOE sobre las grandes fortunas</a>, <a href="https://votreleader.com/2026/11/budget-2027-le-senat-prolonge-la-surtaxe-des-grands-groupes-ramenee-a-5-milliards/" target="_blank" rel="noopener">Votre Leader: recargo y tipo del 36,1 %</a></p>
+  </section>
+
+  <section id="es-fr">
+    <div class="country-head fr"><span class="bar"></span><h2 style="margin:0">Francia</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag fr">Fiscalidad</span>
+    <h3>Tasa Zucman e ISF descartados de nuevo en el Senado: el IFI queda como único impuesto en vigor</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El ISF, impuesto de solidaridad sobre la fortuna, se suprimió en 2018 y fue sustituido por el IFI, que solo grava el patrimonio inmobiliario. La tasa Zucman, impuesto mínimo del 2 % sobre patrimonios netos superiores a 100 M€, fue aprobada por la Asamblea Nacional en febrero de 2025 y rechazada por el Senado el 12 de junio de 2025. La Asamblea volvió a descartarla del presupuesto de 2027 el 16 de octubre, por 70 votos contra 35.</p></div>
+    <p class="sum">En la noche del 23 al 24 de noviembre, la mayoría senatorial de derecha y centro rechazó las enmiendas de la izquierda que instauraban la tasa Zucman, así como las que restablecían un ISF modulado según el impacto climático del patrimonio. Invoca el riesgo para la atractividad y la creación de empresas. El proyecto del Gobierno, presentado el 1 de octubre, no la contenía. En España, el ITSGF se aplica por encima de 3 M€ de patrimonio neto, con tipos del 1,7 % al 3,5 %, y el PSOE propuso el 23 de noviembre un impuesto sobre fortunas de más de 100 M€, evaluado en 2.000 millones de euros al año, sin tipo precisado.</p>
+    <p class="src">Fuentes: <a href="https://www.publicsenat.fr/actualites/economie/budget-2027-le-senat-ecarte-a-nouveau-la-taxe-zucman-et-le-retablissement-de-lisf" target="_blank" rel="noopener">Public Sénat</a>, <a href="https://nosparlementaires.fr/actualites/impot-plancher-2-ultrariches-taxe-zucman-parlement" target="_blank" rel="noopener">NosParlementaires</a>, <a href="https://guiafiscal.es/patrimonio/itsgf-grandes-fortunas/" target="_blank" rel="noopener">Guía Fiscal</a>, <a href="https://www.eldiariodemadrid.es/politica/sanchez-impuesto-fortunas-mas-100-millones-recaudacion-2000-millones/20261123104322147678.html" target="_blank" rel="noopener">El Diario de Madrid</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Francia mantiene el IFI como único gravamen patrimonial, mientras España ya grava patrimonios desde 3 M€ y debate un umbral de 100 M€. Un inversor español con inmuebles en Francia debería valorar dos escenarios: régimen español actual sin cambios, o con un umbral adicional tras las elecciones del domingo, y revisar cómo se combinan ambos impuestos.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Economía</span>
+    <h3>PIB en retroceso del 0,2 % en el tercer trimestre e inflación del 2,9 % en noviembre</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>A finales de octubre, la primera estimación daba −0,1 % para el tercer trimestre. El Gobierno contaba con un crecimiento anual del 0,5 % en 2026, hipótesis que la revisión debilita aún más. La inflación era del 3,4 % en octubre.</p></div>
+    <p class="sum">El 27 de noviembre, el Insee rebajó el crecimiento del tercer trimestre a −0,2 %, tras el 0,0 % del segundo. El poder adquisitivo por unidad de consumo rebota un 0,2 % después de −0,5 %, pero las horas trabajadas siguen bajando y la necesidad de financiación de las administraciones públicas aumenta. El empleo asalariado es estable en el trimestre y cae un 0,3 % interanual. Ese mismo día, la inflación de noviembre se sitúa en el 2,9 % en estimación provisional, frente al 3,2 % esperado. En España, el PIB creció un 0,6 % en el tercer trimestre (INE, 30 de octubre) y la inflación adelantada de noviembre es del 4,1 % (INE, 27 de noviembre).</p>
+    <p class="src">Fuentes: <a href="https://www.insee.fr/fr/statistiques/9165918" target="_blank" rel="noopener">Insee: PIB del tercer trimestre de 2026</a>, <a href="https://www.insee.fr/fr/statistiques/9161375" target="_blank" rel="noopener">Insee: precios de consumo, noviembre de 2026</a>, <a href="https://www.insee.fr/fr/statistiques/9164251" target="_blank" rel="noopener">Insee: empleo asalariado</a>, <a href="https://www.france-epargne.fr/news/linflation-francaise-ralentit-bien-plus-que-prevu-en-novembre-freinee-par-lenergie" target="_blank" rel="noopener">France Épargne</a>, <a href="https://www.ine.es/dyngs/Prensa/adIPC1126.htm" target="_blank" rel="noopener">INE: indicador adelantado del IPC, noviembre de 2026</a>, <a href="https://www.ine.es/dyngs/Prensa/avCNTR3T26.htm" target="_blank" rel="noopener">INE: PIB del tercer trimestre de 2026</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>La brecha de crecimiento alcanza ocho décimas en un solo trimestre, y la inflación española supera a la francesa en más de un punto. Para una empresa española que decide entre dos implantaciones, la demanda de España sostiene los volúmenes pero encarece salarios y alquileres indexados; Francia ofrece el cuadro inverso. Conviene revisar cómo se indexan contratos y salarios en cada lado.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Política y sociedad</span>
+    <h3>Presupuesto de la Seguridad Social 2027: fracasa la comisión mixta y el texto vuelve a la Asamblea el 7 de diciembre</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>El PLFSS (proyecto de ley de financiación de la Seguridad Social, el texto anual que fija ingresos, gastos y objetivo de déficit de la Seguridad Social francesa) de 2027 se presentó el 1 de octubre. Apunta a un déficit de 12.700 millones de euros en 2027, frente a 21.800 millones esperados en 2026. El Senado lo aprobó por 201 votos contra 124, tras el rechazo de los textos financieros por parte de los diputados.</p></div>
+    <p class="sum">El 26 de noviembre, la CMP (comisión mixta paritaria, formada por siete diputados y siete senadores y encargada de elaborar un texto común) no llegó a un acuerdo. Según el ponente Thibault Bazin, había convergencias en un centenar de artículos, pero una decena seguían inciertos. El texto vuelve a nueva lectura en la Asamblea Nacional, en comisión desde el 30 de noviembre y en pleno el 7 de diciembre. El primer ministro, Sébastien Lecornu, tomó nota del fracaso. En España no se ha aprobado ningún presupuesto del Estado nuevo desde finales de 2023, según una guía fiscal especializada, y el Gobierno legisla por reales decretos-leyes durante la disolución de las Cortes.</p>
+    <p class="src">Fuentes: <a href="https://www.publicsenat.fr/actualites/politique/budget-2027-de-la-securite-sociale-echec-de-la-tentative-de-compromis-entre-deputes-et-senateurs" target="_blank" rel="noopener">Public Sénat</a>, <a href="https://www.franceinfo.fr/economie/budget/budget-de-la-securite-sociale-les-deputes-et-senateurs-echouent-a-trouver-un-accord-le-texte-retourne-a-l-assemblee_8301108.html" target="_blank" rel="noopener">Franceinfo</a>, <a href="https://nosparlementaires.fr/actualites/plfss-2027-calendrier-examen-date-par-date" target="_blank" rel="noopener">NosParlementaires</a>, <a href="https://guiafiscal.es/patrimonio/itsgf-grandes-fortunas/" target="_blank" rel="noopener">Guía Fiscal</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Los dos países entran en 2027 con un marco fiscal y social todavía abierto. Una empresa española con actividad en Francia que prepare su presupuesto de 2027 debería prever dos calendarios: un texto final en diciembre o una aprobación más tardía. Los costes de cotizaciones patronales en Francia siguen pendientes de confirmar.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag fr">Empresas e inversión</span>
+    <h3>Puig compra el 75 % de Artessence, propietaria de Parfums de Marly, por 1.200 millones de euros</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Puig, grupo catalán de belleza y perfumería, presentó hace un mes un plan estratégico basado en el crecimiento orgánico. Artessence, propietaria de Parfums de Marly e Initio Parfums Privés, pertenece al fondo Advent International desde 2023, que exploraba su venta desde finales de 2025. Puig compitió con los fondos CVC y Cinven.</p></div>
+    <p class="sum">En la noche del 27 de noviembre, Puig anunció la compra del 75 % de Artessence por unos 1.200 millones de euros en efectivo, financiada con deuda y fondos propios. La operación valora el 100 % del grupo en 1.900 millones de dólares de valor de empresa, unos 1.600 millones de euros según el comunicado recogido por El Economista, para unas ventas netas previstas de 420 a 440 M$. El fundador, Julien Sprecher, conserva el 25 % y Puig podrá subir al 100 % en un plazo máximo de cuatro años. En sentido inverso, el capital francés sigue llegando a España: el país se mantuvo en segundo lugar entre los destinos de las SCPI (sociedades civiles de inversión inmobiliaria, fondos inmobiliarios franceses no cotizados), con el 18,6 % de los flujos en el primer trimestre.</p>
+    <p class="src">Fuentes: <a href="https://www.eleconomista.es/retail-consumo/noticias/14031969/11/26/puig-compra-el-75-de-parfums-de-marly-e-initio-por-1200-millones-de-euros.html" target="_blank" rel="noopener">El Economista</a>, <a href="https://cronicaglobal.elespanol.com/business/20261127/puig-compra-grupo-artessence-marly-initio-millones/1003742815874_0.html" target="_blank" rel="noopener">Crónica Global</a>, <a href="https://fashionunited.es/noticias/empresas/puig-compra-por-1-200-millones-de-euros-el-75-por-ciento-de-parfums-de-marly-e-initio/2026112851393" target="_blank" rel="noopener">FashionUnited</a>, <a href="https://www.modaes.com/empresas/puig-compra-el-75-de-marly-e-initio-por-1200-millones-de-euros" target="_blank" rel="noopener">Modaes</a>, <a href="https://placement.meilleurtaux.com/scpi/actualites/2026-juillet/scpi-2026-strategie-investissement-toujours-tournee-vers-international.html" target="_blank" rel="noopener">Meilleurtaux Placement</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Un fondo vendedor de una marca francesa de nicho encuentra aquí un comprador industrial español, a unas cuatro veces y media las ventas previstas (cálculo Rilamax). Para un grupo español que mire marcas francesas, la opción a cuatro años para llegar al 100 % ilustra una fórmula de entrada en dos tiempos que conviene tener presente.</p></aside>
+</article>
+  </section>
+
+  <section id="es-es">
+    <div class="country-head es"><span class="bar"></span><h2 style="margin:0">España</h2></div>
+    <article class="item">
+  <div>
+    <span class="tag es">Fiscalidad</span>
+    <h3>Autónomos: IVA anual opcional por debajo de 85.000 € y Verifactu aplazado a octubre de 2028</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Verifactu es la norma que obliga a usar programas de facturación que cumplan los requisitos técnicos de la administración tributaria; su entrada en vigor ya se ha aplazado varias veces. Hoy los autónomos presentan el IVA cada trimestre.</p></div>
+    <p class="sum">El 24 de noviembre, el Consejo de Ministros aprobó por real decreto-ley (RDL 43/2026, publicado en el BOE el 25) una rebaja del IRPF de 465 M€ para 2,6 millones de autónomos. Desde 2027, quienes facturen como máximo 85.000 € podrán optar por una única declaración de IVA al año, con tres pagos fraccionados en abril, julio y octubre; afecta a cerca de 1,1 millones de personas. Verifactu se aplaza al 6 de octubre de 2028. La opción está reservada a personas físicas: quedan excluidas las sociedades (SL). El texto debe ser convalidado por la Diputación Permanente (la comisión que sustituye al Congreso disuelto), en bloque con la prórroga del impuesto a la banca. Comparación con Francia: no hay dato equivalente fiable esta semana.</p>
+    <p class="src">Fuentes: <a href="https://www.afiris.es/novedades-autonomos-43-2026/" target="_blank" rel="noopener">Afiris: RDL 43/2026</a>, <a href="https://www.infobae.com/espana/2026/11/24/novedades-de-ultima-hora-para-los-autonomos-el-gobierno-aprueba-rebajar-el-irpf-y-suprimir-el-iva-trimestral/" target="_blank" rel="noopener">Infobae</a>, <a href="https://www.que.es/2026/11/26/medidas-fiscales-autonomos-iva-irpf/" target="_blank" rel="noopener">Que.es</a>, <a href="https://alvamarconsultores.com/real-decreto-ley-43-2026-autonomos/" target="_blank" rel="noopener">Alvamar Consultores</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Para una pyme española constituida como SL, la opción de IVA anual no cambia nada, porque está reservada a personas físicas. El aplazamiento de Verifactu da tiempo para adaptar los programas de facturación, pero nada es firme mientras el real decreto-ley no se convalide.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Regulación</span>
+    <h3>Crédito al consumo: tope transitorio del 22 % de TAE y límites a los microcréditos</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>España no tenía ningún límite legal al coste del crédito al consumo. El plazo de transposición de la directiva europea sobre la materia expiró el 20 de noviembre de 2025: el texto llega con más de un año de retraso. Los microcréditos en línea mostraban TAE (tasas anuales equivalentes) de varios miles por ciento.</p></div>
+    <p class="sum">El real decreto-ley 44/2026, publicado en el BOE el 25 de noviembre, fija un tope general transitorio del 22 % de TAE para los nuevos créditos al consumo, hasta el reglamento definitivo. Las tarjetas revolving ya contratadas quedan limitadas al 22 % de tipo nominal. Para los créditos de alto coste: máximo del 6 % de interés mensual y 15 € de comisiones; un microcrédito de 300 € a 30 días pasaría de 103 € a 33 €. Los límites se aplican desde el 25 de febrero de 2027. Actores del sector consideran que un tope único amenaza la financiación en el punto de venta. En Francia, el control pasa por el tipo de usura (el máximo legal que pueden cobrar las entidades: 5,40 % para préstamos inmobiliarios de 20 años o más al 20 de noviembre); no tenemos dato comparable fiable sobre crédito al consumo.</p>
+    <p class="src">Fuentes: <a href="https://www.que.es/2026/11/24/topes-intereses-creditos-rapidos/" target="_blank" rel="noopener">Que.es</a>, <a href="https://www.financiar24.es/noticias/nueva-ley-de-credito-al-consumo/" target="_blank" rel="noopener">Financiar24</a>, <a href="https://www.elnacional.cat/oneconomia/es/economia/gobierno-limita-credito-consumo-revolving-interes-maximo-22-tae_1730555_102.html" target="_blank" rel="noopener">El Nacional</a>, <a href="https://roams.es/actualidad/finanzas/gobierno-tope-transitorio-22-tae-credito-consumo-limita-microcreditos/" target="_blank" rel="noopener">Roams</a>, <a href="https://www.maison-immobilier.fr/taux-pour-immobilier-duree-pret/" target="_blank" rel="noopener">La Maison de l&#39;Immobilier</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Las entidades de crédito al consumo y los grupos con socios de distribución en España deberían medir el efecto de un tope único sobre sus productos de margen elevado. El texto está pendiente de convalidación y el reglamento posterior debe fijar topes por tipo de crédito.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Política y sociedad</span>
+    <h3>Elecciones del 29 de noviembre: el pulso fiscal se juega en el impuesto a la banca y las grandes fortunas</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Las Cortes están disueltas y los españoles votan el domingo. Los reales decretos-leyes del último Consejo de Ministros, el 24 de noviembre, deben ser convalidados por la Diputación Permanente, que tiene 69 miembros: 34 del bloque que invistió al Gobierno, 33 del PP y Vox, y uno cada uno de Junts y del PNV.</p></div>
+    <p class="sum">Las encuestas no se pueden publicar desde el 24 de noviembre. El barómetro 40dB del 9 de noviembre daba al PP el 31,9 %, al PSOE el 29,9 % y a Vox el 18 %; la mayoría absoluta está en 176 escaños. En el terreno fiscal, el PP prevé suprimir el impuesto a la banca, según fuentes citadas por The Objective, y el PSOE propone desde el 23 de noviembre un impuesto sobre las fortunas de más de 100 M€. Las nuevas Cortes se constituyen el 23 de diciembre. Ostrum, filial de Natixis (grupo bancario francés), retiene un crecimiento medio del 3,7 % de 2021 a 2025 y un déficit del 2,4 % en 2025. En Francia, el objetivo de déficit es del 5 % del PIB en 2027: años distintos, por falta de dato comparable de 2026.</p>
+    <p class="src">Fuentes: <a href="https://abceconomia.co/2026/11/13/elecciones-espana-campana-encuestas/" target="_blank" rel="noopener">ABC Economía</a>, <a href="https://www.democrata.es/elecciones-generales-espana/herramientas/encuestas" target="_blank" rel="noopener">Democrata: veda de encuestas</a>, <a href="https://www.hoyaragon.es/bolsillo/decretos-24-noviembre-votacion-despues-29n/20261125085826153769.html" target="_blank" rel="noopener">Hoy Aragón</a>, <a href="https://theobjective.com/espana/politica/2026-10-21/pp-suprimira-impuesto-a-la-banca-paga-cliente/" target="_blank" rel="noopener">The Objective</a>, <a href="https://rankiapro.com/es/insights/elecciones-generales-2026-encuestas-natixis/" target="_blank" rel="noopener">Rankia Pro: Ostrum (Natixis IM)</a>, <a href="https://www.ouest-france.fr/economie/budget-collectivites-etat/budget-2027-le-senat-approuve-leffort-de-5-milliards-demande-aux-grandes-entreprises-38950894-e91d-11f1-86c1-70195b4d2e52" target="_blank" rel="noopener">Ouest-France</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Sea cual sea el resultado, la fiscalidad de 2027 depende de decisiones abiertas: convalidación de los decretos antes del 23 de diciembre, mantenimiento o derogación del impuesto a la banca y posible creación de un impuesto a partir de 100 M€. Ostrum considera que los fundamentos macroeconómicos resisten a las elecciones. Un inversor debería valorar un escenario de alternancia y otro de continuidad, sin preferir ninguno.</p></aside>
+</article><article class="item">
+  <div>
+    <span class="tag es">Inmobiliario</span>
+    <h3>SCPI francesas: un hotel de 7 M€ en Lloret de Mar y España en el 29 % de una cartera</h3>
+    <div class="ctx"><span class="ctx-l">Contexto</span><p>Las SCPI invierten sobre todo fuera de Francia: el 75 % de sus adquisiciones del primer trimestre de 2026, sobre 903 M€ en total. España se mantiene en segundo lugar entre los destinos, con el 18,6 % de los flujos.</p></div>
+    <p class="sum">El 23 de noviembre, idealista reveló que Swiss Life compró, por cuenta de la SCPI Mistral Sélection, el hotel Lloret Santa Rosa, en Lloret de Mar (Girona), por 7 M€. España pesa ya el 29 % de la cartera de ese vehículo, igual que Francia. En septiembre, Atream Hôtels entró en el mercado español con un cuatro estrellas de 216 habitaciones, alquilado durante 15 años a Pierre &amp; Vacances. Para la inversión inmobiliaria española en su conjunto, Savills contabilizó unos 6.100 millones de euros en el primer trimestre de 2026, un 56 % más interanual; no tenemos cifra francesa comparable en nuestras fuentes.</p>
+    <p class="src">Fuentes: <a href="https://www.idealista.com/news/finanzas/inversion/2026/11/23/925423-las-socimis-francesas-ganan-terreno-en-espana-mistral-selection-compra-un-hotel-en" target="_blank" rel="noopener">idealista/news</a>, <a href="https://placement.meilleurtaux.com/scpi/actualites/2026-juillet/scpi-2026-strategie-investissement-toujours-tournee-vers-international.html" target="_blank" rel="noopener">Meilleurtaux Placement</a>, <a href="https://investirscpienligne.fr/les-actualites-scpi-de-la-semaine-25/" target="_blank" rel="noopener">Investir SCPI en ligne</a>, <a href="https://epargnoo.com/marketplace/scpi/espagne" target="_blank" rel="noopener">Epargnoo</a></p>
+  </div>
+  <aside class="lecture"><h4>Lectura Rilamax</h4><p>Los alquileres de un inmueble español tributan primero en España: para una SCPI muy expuesta, cerca del 17 % de la distribución del segundo trimestre de 2026 correspondía ya a impuestos pagados fuera de Francia. Un inversor español que estudie vehículos franceses de este tipo debería comparar rendimientos netos, y no brutos, entre activos de ambos países.</p></aside>
+</article>
+  </section>
+
+  <section id="es-agenda">
+    <h2>A vigilar en las próximas semanas</h2>
+    <ul class="agenda"><li><span class="when">29 de noviembre de 2026</span><span class="what">España: elecciones generales</span></li><li><span class="when">7 de diciembre de 2026</span><span class="what">Francia: nueva lectura del presupuesto de la Seguridad Social 2027 en pleno de la Asamblea Nacional</span></li><li><span class="when">9 de diciembre de 2026</span><span class="what">Francia: votación final prevista del presupuesto de 2027, según el Journal du Net</span></li><li><span class="when">17 de diciembre de 2026</span><span class="what">Zona euro: decisión de política monetaria del BCE</span></li><li><span class="when">23 de diciembre de 2026</span><span class="what">España: constitución de las nuevas Cortes; convalidación de los reales decretos-leyes 43 y 44/2026 prevista antes de esa fecha, según la prensa</span></li></ul>
+  </section>
+
+  
+  <section id="es-glosario">
+    <h2>Las siglas de esta edición</h2>
+    <dl class="glossary"><div><dt>CMP</dt><dd>Commission mixte paritaire (comisión mixta paritaria): siete diputados y siete senadores franceses encargados de proponer un texto común cuando la Asamblea Nacional y el Senado difieren. Si fracasa, el proyecto vuelve a nueva lectura.</dd></div><div><dt>Diputación Permanente</dt><dd>Comisión del Congreso que ejerce sus funciones entre legislaturas. Convalida o rechaza en bloque los reales decretos-leyes.</dd></div><div><dt>IFI</dt><dd>Impôt sur la fortune immobilière (impuesto sobre la fortuna inmobiliaria): sustituyó en 2018 al ISF francés y solo grava el patrimonio inmobiliario neto de los contribuyentes. A diferencia del impuesto español sobre el patrimonio, no alcanza al patrimonio financiero.</dd></div><div><dt>Insee</dt><dd>Institut national de la statistique et des études économiques: el instituto estadístico francés, equivalente al INE. Publica el PIB, la inflación y las cifras de empleo de Francia.</dd></div><div><dt>ITSGF</dt><dd>Impuesto Temporal de Solidaridad de las Grandes Fortunas: grava la parte del patrimonio neto superior a 3 M€ con tipos del 1,7 % al 3,5 %. Creado en 2022 como temporal, se hizo indefinido por un real decreto-ley de diciembre de 2023.</dd></div><div><dt>PLFSS</dt><dd>Projet de loi de financement de la Sécurité sociale (proyecto de ley de financiación de la Seguridad Social): el texto anual que fija ingresos, gastos y objetivo de déficit de la Seguridad Social francesa.</dd></div><div><dt>SCPI</dt><dd>Société civile de placement immobilier (sociedad civil de inversión inmobiliaria): fondo francés no cotizado que posee inmuebles y distribuye los alquileres a los partícipes. Cumple una función parecida a la de una SOCIMI española, aunque no cotiza en bolsa.</dd></div><div><dt>Tasa Zucman</dt><dd>Propuesta francesa de impuesto mínimo del 2 % sobre patrimonios netos superiores a 100 M€. La Asamblea Nacional la aprobó en febrero de 2025; el Senado la rechazó en junio de 2025 y de nuevo esta semana.</dd></div><div><dt>Verifactu</dt><dd>Norma española de facturación verificable: obliga a usar programas de facturación que cumplan los requisitos técnicos de la administración tributaria. Su entrada en vigor se aplaza a octubre de 2028.</dd></div></dl>
+  </section>
+  
+
+  <section class="cta">
+    <p>El Boletín Rilamax se publica cada sábado: lo esencial de la economía, las finanzas y la política entre Francia y España, con nuestra lectura.</p>
+    <a class="btn" href="https://www.linkedin.com/newsletters/7512089067354890240/" target="_blank" rel="noopener">Suscribirse en LinkedIn</a>
+  </section>
+
+  
+  <section id="es-archivo" class="archive">
+    <h2>Ediciones anteriores</h2>
+    <ul><li><a href="/ediciones/2026-11-21/">N° 8 — Transparencia salarial: España decreta, Francia espera al Senado</a><span>2026-11-21</span></li><li><a href="/ediciones/2026-11-14/">N° 7 — Salario mínimo: Francia subvenciona las cotizaciones, España deja la subida al empleador</a><span>2026-11-14</span></li><li><a href="/ediciones/2026-11-07/">N° 6 — Regularización en España: medio millón de afiliados, un efecto macroeconómico limitado</a><span>2026-11-07</span></li><li><a href="/ediciones/2026-10-31/">N° 5 — Ganar unas elecciones no es una licencia de piloto</a><span>2026-10-31</span></li><li><a href="/ediciones/2026-10-24/">N° 4 — Disturbios e inundaciones: dos modelos para pagar un riesgo que se desboca</a><span>2026-10-24</span></li><li><a href="/ediciones/2026-10-17/">N° 3 — Inflación: España crece más deprisa que Francia, pero se encarece más deprisa</a><span>2026-10-17</span></li><li><a href="/ediciones/2026-10-10/">N° 2 — Energía: lo que Francia saca de sus campos y España deja escapar</a><span>2026-10-10</span></li><li><a href="/ediciones/2026-10-03/">N° 1 — Vivienda en España: un déficit de oferta que los decretos no abordaban y unas zonas tensionadas puestas a prueba por los datos</a><span>2026-10-03</span></li></ul>
+  </section>
+  
+</main>
+
+<footer class="wrap"><p>El Boletín Rilamax lo publica RILAMAX 2025 SL. Los resúmenes son de elaboración propia a partir de las fuentes citadas. Las lecturas Rilamax son análisis generales y no constituyen asesoramiento de inversión personalizado. Seguimiento y redacción asistidos por IA. Selección, verificación y análisis: Jean Marc Pavia.</p></footer>
+</div>
+
+
+<script>
+(function(){
+  var titles={fr:"Le Bulletin Rilamax \u2014 N\u00b0 9",es:"El Bolet\u00edn Rilamax \u2014 N.\u00ba 9"};
+  function setLang(l){
+    document.querySelectorAll('.edition').forEach(function(e){e.hidden=e.dataset.lang!==l});
+    document.querySelectorAll('.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l?'true':'false')});
+    document.documentElement.lang=l; document.title=titles[l];
+    try{localStorage.setItem('rilamax-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set);window.scrollTo(0,0)})});
+  var p=new URLSearchParams(location.search).get('lang'); var saved=null;
+  try{saved=localStorage.getItem('rilamax-lang')}catch(e){}
+  var l=(p==='es'||p==='fr')?p:saved; if(l==='es'||l==='fr') setLang(l);
+  // Detalle del gráfico de mix al pasar el ratón, tocar o enfocar un segmento
+  document.querySelectorAll('figure.mix').forEach(function(fig){
+    var info=fig.querySelector('.mix-info'); if(!info) return;
+    fig.querySelectorAll('.seg').forEach(function(sg){
+      function show(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});sg.classList.add('on');info.textContent=sg.getAttribute('data-tip');info.classList.add('act')}
+      sg.addEventListener('mouseenter',show);sg.addEventListener('focus',show);sg.addEventListener('click',show);
+    });
+    fig.addEventListener('mouseleave',function(){fig.querySelectorAll('.seg').forEach(function(x){x.classList.remove('on')});info.textContent=info.getAttribute('data-default');info.classList.remove('act')});
+  });
+  // Animación de los gráficos al aparecer en pantalla
+  try{
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(!reduce&&'IntersectionObserver' in window){
+      var charts=document.querySelectorAll('figure.chart');
+      charts.forEach(function(c){c.classList.add('pre')});
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target)}})},{threshold:.35});
+      charts.forEach(function(c){io.observe(c)});
+    }
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
