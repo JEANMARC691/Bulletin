@@ -62,5 +62,13 @@
     "ruta": "/ediciones/2026-11-21/",
     "titulo_fr": "Transparence salariale : l'Espagne décrète, la France attend le Sénat",
     "titulo_es": "Transparencia salarial: España decreta, Francia espera al Senado"
+  },
+  {
+    "numero": 9,
+    "fecha": "2026-11-28",
+    "semana": 48,
+    "ruta": "/ediciones/2026-11-28/",
+    "titulo_fr": "Des impôts d'urgence qui durent : surtaxe française, taxe bancaire espagnole",
+    "titulo_es": "Impuestos de urgencia que duran: recargo francés, impuesto bancario español"
   }
 ]
